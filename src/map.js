@@ -88,39 +88,108 @@ const WorldMap = (() => {
    *
    * Each region's lat/lon in regions.js sits inside its zone and is used to
    * anchor the label and the guess-to-answer line. */
-  const ZONES = {
-    'north-pacific': [
-      -180, 40, -170, 50, -158, 57, -145, 59, -132, 57, -124, 48, -122, 40,
-      -130, 35, -145, 34, -160, 36, -172, 36,
-    ],
-    caribbean: [
-      -88, 21, -80, 23, -70, 22, -61, 18, -60, 11, -68, 9, -78, 9, -84, 11, -88, 16,
-    ],
-    amazon: [
-      -73, 2, -66, 4, -58, 4, -50, 1, -48, -3, -52, -8, -60, -12, -68, -12,
-      -74, -8, -76, -2,
-    ],
-    'north-atlantic': [
-      -45, 58, -35, 62, -22, 65, -10, 64, -2, 60, -5, 52, -15, 48, -28, 48, -40, 52,
-    ],
-    mediterranean: [
-      -5, 36, 3, 43, 12, 45, 19, 41, 26, 41, 34, 37, 36, 33, 30, 31, 20, 32,
-      10, 34, 2, 36,
-    ],
-    congo: [12, 2, 18, 4, 25, 4, 29, 1, 28, -6, 22, -9, 15, -7, 11, -4, 11, -1],
-    'rift-lakes': [29, 1, 33, 2, 36, -2, 37, -9, 35, -15, 31, -14, 29, -8, 28, -3],
-    'coral-triangle': [
-      116, 8, 125, 10, 133, 6, 137, 0, 134, -6, 126, -10, 118, -8, 114, -2, 115, 3,
-    ],
-    'northern-australia': [
-      113, -12, 122, -10, 132, -9, 142, -9, 152, -18, 154, -24, 145, -26,
-      135, -25, 125, -22, 114, -20,
-    ],
-    'southern-ocean': [
-      -180, -56, -120, -58, -60, -55, 0, -57, 60, -56, 120, -58, 180, -60,
-      180, -72, 120, -71, 60, -69, 0, -70, -60, -67, -120, -73, -180, -70,
-    ],
-  };
+  const GRID_STEP = 1; // degrees; small enough that the borders read as smooth
+
+  /** Lat/lon to a point on the unit sphere, so "nearest" is just a dot product. */
+  function toUnitVector(lon, lat) {
+    const p = (lat * Math.PI) / 180;
+    const l = (lon * Math.PI) / 180;
+    const c = Math.cos(p);
+    return [c * Math.cos(l), c * Math.sin(l), Math.sin(p)];
+  }
+
+  /** owners[row][col] — which region owns each cell of the grid. */
+  function computePartition() {
+    const cols = Math.round(360 / GRID_STEP);
+    const rows = Math.round(180 / GRID_STEP);
+    const centres = REGIONS.map((r) => ({ id: r.id, v: toUnitVector(r.lon, r.lat) }));
+    const owners = [];
+
+    for (let j = 0; j < rows; j++) {
+      const lat = 90 - (j + 0.5) * GRID_STEP;
+      const row = new Array(cols);
+      for (let i = 0; i < cols; i++) {
+        const lon = -180 + (i + 0.5) * GRID_STEP;
+        const [x, y, z] = toUnitVector(lon, lat);
+        let best = null;
+        let bestDot = -Infinity;
+        for (const c of centres) {
+          const dot = x * c.v[0] + y * c.v[1] + z * c.v[2];
+          if (dot > bestDot) {
+            bestDot = dot;
+            best = c.id;
+          }
+        }
+        row[i] = best;
+      }
+      owners.push(row);
+    }
+    return { owners, cols, rows };
+  }
+
+  const cellX = (i) => (i * GRID_STEP * W) / 360;
+  const cellY = (j) => (j * GRID_STEP * H) / 180;
+
+  /* One path per region. Cells are merged into horizontal runs first, so a
+   * section is a few dozen rectangles rather than thousands, and because the
+   * runs share exact edges they fill as one solid shape with no seams. */
+  function fillPaths({ owners, cols, rows }) {
+    const parts = new Map(REGIONS.map((r) => [r.id, []]));
+    for (let j = 0; j < rows; j++) {
+      let i = 0;
+      while (i < cols) {
+        const id = owners[j][i];
+        let k = i;
+        while (k + 1 < cols && owners[j][k + 1] === id) k += 1;
+        const x = cellX(i);
+        const y = cellY(j);
+        const w = cellX(k + 1) - x;
+        const h = cellY(j + 1) - y;
+        const run = parts.get(id);
+        if (run) {
+          run.push(`M${x.toFixed(2)} ${y.toFixed(2)}h${w.toFixed(2)}v${h.toFixed(2)}h${(-w).toFixed(2)}Z`);
+        }
+        i = k + 1;
+      }
+    }
+    return parts;
+  }
+
+  /* Only the edges where two different regions meet, merged into straight
+   * runs. Stroking the fills instead would outline every internal rectangle. */
+  function borderPath({ owners, cols, rows }) {
+    const d = [];
+
+    for (let i = 0; i + 1 < cols; i += 1) {
+      let j = 0;
+      while (j < rows) {
+        if (owners[j][i] === owners[j][i + 1]) {
+          j += 1;
+          continue;
+        }
+        let k = j;
+        while (k + 1 < rows && owners[k + 1][i] !== owners[k + 1][i + 1]) k += 1;
+        d.push(`M${cellX(i + 1).toFixed(2)} ${cellY(j).toFixed(2)}V${cellY(k + 1).toFixed(2)}`);
+        j = k + 1;
+      }
+    }
+
+    for (let j = 0; j + 1 < rows; j += 1) {
+      let i = 0;
+      while (i < cols) {
+        if (owners[j][i] === owners[j + 1][i]) {
+          i += 1;
+          continue;
+        }
+        let k = i;
+        while (k + 1 < cols && owners[j][k + 1] !== owners[j + 1][k + 1]) k += 1;
+        d.push(`M${cellX(i).toFixed(2)} ${cellY(j + 1).toFixed(2)}H${cellX(k + 1).toFixed(2)}`);
+        i = k + 1;
+      }
+    }
+
+    return d.join('');
+  }
 
   /* Where to put a zone's label when the region's own coordinate is a poor
    * anchor — too near the edge of the map, or close enough to a neighbour that
@@ -193,29 +262,39 @@ const WorldMap = (() => {
     for (const ring of LAND) land.append(el('path', { d: ringToPath(ring) }));
     svg.append(land);
 
+    const partition = computePartition();
+    const fills = fillPaths(partition);
+
     zoneGroup = el('g', { class: 'zones' });
     svg.append(zoneGroup);
+
+    // Borders sit above the fills so the seams between sections stay crisp.
+    svg.append(el('path', { class: 'zone-borders', d: borderPath(partition) }));
 
     overlayGroup = el('g', { class: 'overlay-layer' });
     svg.append(overlayGroup);
 
-    zones.clear();
-    for (const region of REGIONS) {
-      const ring = ZONES[region.id];
-      if (!ring) continue; // a region with no zone simply isn't on the map
+    // Labels last, so nothing paints over them.
+    const labelGroup = el('g', { class: 'zone-labels' });
+    svg.append(labelGroup);
 
-      const g = el('g', {
+    const clamp = (v, lo, hi) => Math.min(Math.max(v, lo), hi);
+    zones.clear();
+
+    for (const region of REGIONS) {
+      const d = (fills.get(region.id) || []).join('');
+      if (!d) continue; // a region that won no cells simply isn't on the map
+
+      const group = el('g', {
         class: 'zone',
         tabindex: '0',
         role: 'button',
         'aria-label': region.name,
       });
-      g.append(el('path', { class: 'zone-fill', d: ringToPath(ring) }));
+      group.append(el('path', { class: 'zone-fill', d }));
 
       const [labelLon, labelLat] = LABEL_AT[region.id] || [region.lon, region.lat];
       const at = project(labelLon, labelLat);
-      // Keep the text off the edges; a centred label near lon 180 overflows.
-      const clamp = (v, lo, hi) => Math.min(Math.max(v, lo), hi);
       const label = el('text', {
         class: 'zone-label',
         x: clamp(at.x, 80, W - 80).toFixed(1),
@@ -224,29 +303,35 @@ const WorldMap = (() => {
         'dominant-baseline': 'middle',
       });
       label.textContent = region.short || region.name;
-      g.append(label);
 
       const choose = (e) => {
         e.preventDefault();
         if (!locked) onPick(region.id);
       };
-      g.addEventListener('click', choose);
-      g.addEventListener('keydown', (e) => {
+      group.addEventListener('click', choose);
+      group.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') choose(e);
       });
 
-      zoneGroup.append(g);
-      zones.set(region.id, g);
+      zoneGroup.append(group);
+      labelGroup.append(label);
+      zones.set(region.id, { group, label });
     }
   }
 
+  /** The fill and its label live in different layers but share state classes. */
+  function mark(entry, className, on) {
+    entry.group.classList.toggle(className, on);
+    entry.label.classList.toggle(className, on);
+  }
+
   function setSelected(regionId) {
-    for (const [id, g] of zones) g.classList.toggle('is-selected', id === regionId);
+    for (const [id, entry] of zones) mark(entry, 'is-selected', id === regionId);
   }
 
   /** Highlight a zone from outside the map, e.g. hovering its chip. */
   function setHover(regionId) {
-    for (const [id, g] of zones) g.classList.toggle('is-hover', !locked && id === regionId);
+    for (const [id, entry] of zones) mark(entry, 'is-hover', !locked && id === regionId);
   }
 
   /** Show the answer: mark both pins and draw the link between them. */
@@ -254,12 +339,13 @@ const WorldMap = (() => {
     locked = true;
     overlayGroup.replaceChildren();
 
-    for (const [id, g] of zones) {
-      g.classList.remove('is-selected', 'is-hover');
-      g.classList.toggle('is-answer', id === answerId);
-      g.classList.toggle('is-guess', id === guessId && guessId !== answerId);
-      g.classList.toggle('is-dim', id !== answerId && id !== guessId);
-      g.setAttribute('tabindex', '-1');
+    for (const [id, entry] of zones) {
+      mark(entry, 'is-selected', false);
+      mark(entry, 'is-hover', false);
+      mark(entry, 'is-answer', id === answerId);
+      mark(entry, 'is-guess', id === guessId && guessId !== answerId);
+      mark(entry, 'is-dim', id !== answerId && id !== guessId);
+      entry.group.setAttribute('tabindex', '-1');
     }
 
     if (guessId !== answerId) {
@@ -279,9 +365,11 @@ const WorldMap = (() => {
   function unlock() {
     locked = false;
     overlayGroup.replaceChildren();
-    for (const g of zones.values()) {
-      g.classList.remove('is-answer', 'is-guess', 'is-dim', 'is-selected', 'is-hover');
-      g.setAttribute('tabindex', '0');
+    for (const entry of zones.values()) {
+      for (const c of ['is-answer', 'is-guess', 'is-dim', 'is-selected', 'is-hover']) {
+        mark(entry, c, false);
+      }
+      entry.group.setAttribute('tabindex', '0');
     }
   }
 

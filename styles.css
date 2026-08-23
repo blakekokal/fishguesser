@@ -244,12 +244,21 @@ body {
 
 .zone { cursor: pointer; outline: none; }
 
+/* No stroke: a section is many merged rectangles sharing exact edges, so any
+ * stroke would draw every internal seam. The .zone-borders layer supplies the
+ * outlines, and state is carried by fill alone. */
 .zone-fill {
-  fill: rgba(53, 200, 232, 0.16);
-  stroke: rgba(53, 200, 232, 0.6);
-  stroke-width: 1.8;
-  stroke-linejoin: round;
-  transition: fill 0.18s ease, stroke 0.18s ease;
+  fill: rgba(53, 200, 232, 0.13);
+  stroke: none;
+  transition: fill 0.18s ease;
+}
+
+.zone-borders {
+  fill: none;
+  stroke: rgba(130, 210, 238, 0.7);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  pointer-events: none;
 }
 
 .zone-label {
@@ -264,29 +273,24 @@ body {
   pointer-events: none;
 }
 
+.zone-label.is-dim { opacity: 0.22; }
+
 .zone:hover .zone-fill,
 .zone:focus-visible .zone-fill,
 .zone.is-hover .zone-fill {
-  fill: rgba(53, 200, 232, 0.26);
-  stroke: var(--accent);
+  fill: rgba(53, 200, 232, 0.30);
 }
 
 .zone.is-selected .zone-fill {
-  fill: rgba(53, 200, 232, 0.44);
-  stroke: var(--accent);
-  stroke-width: 2.5;
+  fill: rgba(53, 200, 232, 0.52);
 }
 
 .zone.is-answer .zone-fill {
-  fill: rgba(69, 214, 154, 0.46);
-  stroke: var(--good);
-  stroke-width: 2.5;
+  fill: rgba(69, 214, 154, 0.52);
 }
 
 .zone.is-guess .zone-fill {
-  fill: rgba(244, 116, 106, 0.42);
-  stroke: var(--bad);
-  stroke-width: 2.5;
+  fill: rgba(244, 116, 106, 0.50);
 }
 
 .zone.is-dim { opacity: 0.22; pointer-events: none; }
@@ -511,9 +515,9 @@ body {
   /* Ten labels will not fit legibly on a phone-width map, so the chip row
    * names the zones instead. The ones that carry the result still show. */
   .zone-label { display: none; }
-  .zone.is-selected .zone-label,
-  .zone.is-answer .zone-label,
-  .zone.is-guess .zone-label { display: block; font-size: 26px; }
+  .zone-label.is-selected,
+  .zone-label.is-answer,
+  .zone-label.is-guess { display: block; font-size: 26px; }
   .actionbar { flex-direction: column; align-items: stretch; }
   /* The 240px basis is a width when the bar is a row; in a column it would
    * become a 240px-tall gap. */
@@ -607,9 +611,9 @@ body {
 
   #map { height: 100%; width: 100%; }
   .zone-label { display: none; }
-  .zone.is-selected .zone-label,
-  .zone.is-answer .zone-label,
-  .zone.is-guess .zone-label { display: block; font-size: 24px; }
+  .zone-label.is-selected,
+  .zone-label.is-answer,
+  .zone-label.is-guess { display: block; font-size: 24px; }
 
   .region-chips {
     flex: none;

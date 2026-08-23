@@ -32,7 +32,7 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-Click a zone on the map (or a region chip below it), then **Lock in guess**.
+Click a section of the map (or a region chip below it), then **Lock in guess**.
 Hovering a chip highlights its zone. On phone-width screens the zone labels are
 hidden to keep the map readable, and the chips name the regions instead.
 `Enter` works as a shortcut for locking in and for advancing to the next fish.
@@ -50,6 +50,11 @@ guess 6,000 km off scores around 680, and one on the far side of the planet
 scores almost nothing. Distance is the great-circle distance between the
 centroids of the two regions.
 
+The map sections follow the same rule: every point on the map belongs to
+whichever region's centre is nearest, so a section is exactly "everywhere
+closer to this region than to any other". The ten sections tile the map
+completely — there is no unclaimed water.
+
 ## Project layout
 
 ```
@@ -59,7 +64,7 @@ src/version.js          version + build date shown in the header
 src/regions.js          the 10 regions + haversine distance
 src/fish.js             the 30 fish (name, photo, home region, fun fact)
 src/credits.js          generated photo attribution
-src/map.js              the world map: projection, coastlines, clickable zones
+src/map.js              the world map: projection, coastlines, section partition
 src/game.js             game loop, scoring, end screen
 assets/fish/            the photographs + credits.json
 tools/build_credits.py  regenerates src/credits.js and CREDITS.md
@@ -101,11 +106,11 @@ The data files are plain arrays, so extending the game is additive:
 3. Append the fish to `FISH` in `src/fish.js`, pointing `region` at a region id.
 
 To add a region, append it to `REGIONS` in `src/regions.js` with a
-representative `lat`/`lon`, then draw its clickable area in the `ZONES` table in
-`src/map.js` as a ring of `[lon, lat]` pairs. The coordinates in `regions.js`
-anchor the zone's label and drive the distance scoring; `LABEL_AT` in `map.js`
-can move a label that lands badly, and an optional `short` gives the map a
-shorter name than the chips use.
+representative `lat`/`lon` — that is all. The map sections are computed from
+those coordinates, so a new region carves its own section out of its
+neighbours automatically and the map stays fully covered. `LABEL_AT` in
+`map.js` can nudge a label that lands badly, and an optional `short` gives the
+map a shorter name than the chips use.
 
 When choosing a species, check that its natural range genuinely centres on one
 region — a fish found right across the Indo-Pacific makes for an unfair round.
