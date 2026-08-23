@@ -18,7 +18,7 @@
     round: $('roundValue'), score: $('scoreValue'), best: $('bestValue'),
     photo: $('fishPhoto'), credit: $('photoCredit'),
     name: $('fishName'), sci: $('fishSci'),
-    map: $('map'), chips: $('regionChips'),
+    map: $('map'),
     actionBar: $('actionBar'), hint: $('hint'), guessBtn: $('guessBtn'),
     hintBtn: $('hintBtn'), promptText: $('promptText'),
     result: $('result'), verdict: $('verdict'), points: $('points'),
@@ -32,7 +32,6 @@
     deck: [], index: 0, total: 0, selected: null, results: [],
     phase: 'guess', nameRevealed: false,
   };
-  const chips = new Map();
 
   const fmt = (n) => n.toLocaleString('en-US');
 
@@ -99,28 +98,9 @@
     return Math.round(MAX_POINTS * Math.exp(-distanceKm / DECAY_KM));
   }
 
-  function buildChips() {
-    ui.chips.replaceChildren();
-    chips.clear();
-    for (const region of REGIONS) {
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'chip';
-      btn.textContent = region.name;
-      btn.title = region.blurb;
-      btn.addEventListener('click', () => select(region.id));
-      // Points the chip at its zone, so the pairing is obvious before clicking.
-      btn.addEventListener('mouseenter', () => WorldMap.setHover(region.id));
-      btn.addEventListener('mouseleave', () => WorldMap.setHover(null));
-      ui.chips.append(btn);
-      chips.set(region.id, btn);
-    }
-  }
-
   function select(regionId) {
     if (state.phase !== 'guess') return;
     state.selected = regionId;
-    for (const [id, btn] of chips) btn.classList.toggle('is-selected', id === regionId);
     WorldMap.setSelected(regionId);
     ui.guessBtn.disabled = false;
     ui.hint.textContent = `${REGIONS_BY_ID[regionId].name} — ${REGIONS_BY_ID[regionId].blurb}`;
@@ -152,14 +132,10 @@
       ui.credit.hidden = true;
     }
 
-    for (const btn of chips.values()) {
-      btn.classList.remove('is-selected', 'is-answer', 'is-guess');
-      btn.disabled = false;
-    }
     WorldMap.unlock();
 
     ui.guessBtn.disabled = true;
-    ui.hint.textContent = 'Pick a region on the map, or from the list above.';
+    ui.hint.textContent = 'Pick a region on the map.';
     ui.actionBar.hidden = false;
     ui.result.hidden = true;
     document.body.classList.remove('is-result');
@@ -181,13 +157,6 @@
     state.results.push({ fish, guess, answer, correct, distance, points });
 
     WorldMap.reveal(guess.id, answer.id);
-    for (const [id, btn] of chips) {
-      btn.disabled = true;
-      btn.classList.remove('is-selected');
-      btn.classList.toggle('is-answer', id === answer.id);
-      btn.classList.toggle('is-guess', !correct && id === guess.id);
-    }
-
     ui.score.textContent = fmt(state.total);
     ui.result.className = 'result ' + (correct ? 'is-correct' : distance <= 3000 ? 'is-close' : 'is-off');
     ui.verdict.textContent = correct ? 'Correct' : distance <= 3000 ? 'Close' : 'Not quite';
@@ -200,7 +169,6 @@
 
     ui.actionBar.hidden = true;
     ui.result.hidden = false;
-    // Lets the landscape layout reclaim the chip row for the result panel.
     document.body.classList.add('is-result');
     ui.nextBtn.focus();
   }
@@ -296,7 +264,6 @@
 
   showVersion();
   WorldMap.build(ui.map, select);
-  buildChips();
   const best = readBest();
   ui.best.textContent = best ? fmt(best) : '—';
   startGame();

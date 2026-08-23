@@ -1,9 +1,10 @@
 /* Fishguesser — the world map.
  *
  * A stylised equirectangular map: land is drawn from coarse lat/lon outlines
- * (accurate enough to navigate by, deliberately not a survey chart) and each
- * region gets a clickable pin. Everything projects through `project()`, so the
- * pins and the coastlines always agree. */
+ * (accurate enough to navigate by, deliberately not a survey chart) and the
+ * whole map is divided into one labelled, clickable section per region.
+ * Everything projects through `project()`, so the sections, the labels and the
+ * coastlines always agree. */
 
 const WorldMap = (() => {
   const W = 1000;
@@ -81,13 +82,15 @@ const WorldMap = (() => {
      145, -67, 160, -70, 170, -72, 180, -78, 180, -90, -180, -90],
   ];
 
-  /* The clickable areas, as flat [lon, lat, ...] rings in the same projection
-   * as the coastlines. Each one traces roughly the water or basin its fish
-   * actually live in, so the shape itself is part of the answer. They are drawn
-   * translucent over the land so the coastline still reads underneath.
+  /* The map is partitioned into sections that tile it completely: every point
+   * belongs to whichever region's centre is nearest, measured as a real
+   * great-circle distance. That is the rule the scoring uses, so a section is
+   * exactly "everywhere closer to this region than to any other", and there is
+   * no unclaimed water. Sections are drawn translucent over the land so the
+   * coastline still reads underneath.
    *
-   * Each region's lat/lon in regions.js sits inside its zone and is used to
-   * anchor the label and the guess-to-answer line. */
+   * Each region's lat/lon in regions.js is by definition inside its own
+   * section, and anchors both the label and the guess-to-answer line. */
   const GRID_STEP = 1; // degrees; small enough that the borders read as smooth
 
   /** Lat/lon to a point on the unit sphere, so "nearest" is just a dot product. */
@@ -296,13 +299,18 @@ const WorldMap = (() => {
 
       const [labelLon, labelLat] = LABEL_AT[region.id] || [region.lon, region.lat];
       const at = project(labelLon, labelLat);
+      const ax = clamp(at.x, 80, W - 80).toFixed(1);
+      const ay = clamp(at.y, 14, H - 14).toFixed(1);
       const label = el('text', {
         class: 'zone-label',
-        x: clamp(at.x, 80, W - 80).toFixed(1),
-        y: clamp(at.y, 14, H - 14).toFixed(1),
+        x: ax,
+        y: ay,
         'text-anchor': 'middle',
         'dominant-baseline': 'middle',
       });
+      // Remembered so a re-layout starts from the anchor, not the last nudge.
+      label.dataset.x = ax;
+      label.dataset.y = ay;
       label.textContent = region.short || region.name;
 
       const choose = (e) => {
@@ -318,6 +326,85 @@ const WorldMap = (() => {
       labelGroup.append(label);
       zones.set(region.id, { group, label });
     }
+
+    layoutLabels();
+    window.addEventListener('resize', scheduleLabelLayout);
+  }
+
+  let labelTimer = null;
+  function scheduleLabelLayout() {
+    window.clearTimeout(labelTimer);
+    labelTimer = window.setTimeout(layoutLabels, 120);
+  }
+
+  /* A label starts at its region's own coordinate, which can leave it hanging
+   * off the edge of the map or sitting on a neighbour once the font scales up
+   * on a small map. Measure what actually got laid out, pull each label back
+   * inside, then push overlapping pairs apart vertically. The font size comes
+   * from CSS, so this has to run after layout and again whenever the map is
+   * resized. */
+  function layoutLabels() {
+    const labels = [...zones.values()].map((z) => z.label);
+    if (!labels.length) return;
+
+    const PAD = 3;
+    const at = (label, axis) => Number(label.getAttribute(axis));
+    const nudge = (label, dx, dy) => {
+      label.setAttribute('x', (at(label, 'x') + dx).toFixed(1));
+      label.setAttribute('y', (at(label, 'y') + dy).toFixed(1));
+    };
+
+    let boxes;
+    try {
+      // Back to the anchor first, so resizing does not accumulate offsets.
+      for (const label of labels) {
+        label.setAttribute('x', label.dataset.x);
+        label.setAttribute('y', label.dataset.y);
+      }
+      boxes = labels.map((l) => l.getBBox());
+    } catch {
+      return; // not rendered yet (display:none, detached) — nothing to measure
+    }
+
+    const clampInside = (i) => {
+      const b = boxes[i];
+      let dx = 0;
+      let dy = 0;
+      if (b.x < PAD) dx = PAD - b.x;
+      else if (b.x + b.width > W - PAD) dx = W - PAD - (b.x + b.width);
+      if (b.y < PAD) dy = PAD - b.y;
+      else if (b.y + b.height > H - PAD) dy = H - PAD - (b.y + b.height);
+      if (dx || dy) {
+        nudge(labels[i], dx, dy);
+        boxes[i] = labels[i].getBBox();
+      }
+    };
+
+    labels.forEach((_, i) => clampInside(i));
+
+    for (let pass = 0; pass < 5; pass += 1) {
+      let moved = false;
+      for (let i = 0; i < labels.length; i += 1) {
+        for (let j = i + 1; j < labels.length; j += 1) {
+          const a = boxes[i];
+          const b = boxes[j];
+          const overlapX = Math.min(a.x + a.width, b.x + b.width) - Math.max(a.x, b.x);
+          const overlapY = Math.min(a.y + a.height, b.y + b.height) - Math.max(a.y, b.y);
+          if (overlapX <= 0 || overlapY <= 0) continue;
+
+          const shift = overlapY / 2 + 1;
+          const upper = a.y <= b.y ? i : j;
+          const lower = upper === i ? j : i;
+          nudge(labels[upper], 0, -shift);
+          nudge(labels[lower], 0, shift);
+          boxes[i] = labels[i].getBBox();
+          boxes[j] = labels[j].getBBox();
+          moved = true;
+        }
+      }
+      if (!moved) break;
+      labels.forEach((_, i) => clampInside(i));
+    }
   }
 
   /** The fill and its label live in different layers but share state classes. */
@@ -330,7 +417,7 @@ const WorldMap = (() => {
     for (const [id, entry] of zones) mark(entry, 'is-selected', id === regionId);
   }
 
-  /** Highlight a zone from outside the map, e.g. hovering its chip. */
+  /** Highlight a zone from outside the map. */
   function setHover(regionId) {
     for (const [id, entry] of zones) mark(entry, 'is-hover', !locked && id === regionId);
   }

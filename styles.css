@@ -303,56 +303,6 @@ body {
   opacity: 0.9;
 }
 
-/* ---------- region chips ---------- */
-
-.region-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
-  padding: 14px 16px;
-  border-bottom: 1px solid var(--line);
-}
-
-.chip {
-  padding: 6px 12px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--panel-2);
-  color: var(--ink-dim);
-  font: inherit;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-}
-
-.chip:hover:not(:disabled) { border-color: var(--accent-deep); color: var(--ink); }
-
-.chip.is-selected {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #04202c;
-  font-weight: 700;
-}
-
-.chip.is-answer {
-  background: var(--good);
-  border-color: var(--good);
-  color: #04231a;
-  font-weight: 700;
-  opacity: 1;
-}
-
-.chip.is-guess {
-  background: var(--bad);
-  border-color: var(--bad);
-  color: #2b0b08;
-  font-weight: 700;
-  opacity: 1;
-}
-
-.chip:disabled { cursor: default; opacity: 0.45; }
-
 /* ---------- action bar + result ---------- */
 
 .actionbar {
@@ -512,12 +462,10 @@ body {
   .version-date { display: none; }
   .stat { min-width: 60px; padding: 5px 10px; }
   .stat-value { font-size: 15px; }
-  /* Ten labels will not fit legibly on a phone-width map, so the chip row
-   * names the zones instead. The ones that carry the result still show. */
-  .zone-label { display: none; }
-  .zone-label.is-selected,
-  .zone-label.is-answer,
-  .zone-label.is-guess { display: block; font-size: 26px; }
+  /* The map is the only way to pick, so every label stays on; the smaller the
+   * map is drawn, the larger the label has to be in viewBox units to keep its
+   * rendered size readable. */
+  .zone-label { font-size: 30px; stroke-width: 6; }
   .actionbar { flex-direction: column; align-items: stretch; }
   /* The 240px basis is a width when the bar is a row; in a column it would
    * become a 240px-tall gap. */
@@ -596,7 +544,7 @@ body {
 
   .btn-ghost { padding: 5px 10px; font-size: 11px; }
 
-  /* Right: the map absorbs the slack, so the chips and controls always fit.
+  /* Right: the map absorbs the slack, so the controls always fit.
    * The min-height stops the result panel from squeezing the map down to a
    * sliver — reading guess against answer is the whole point of that screen. */
   .map-wrap {
@@ -605,25 +553,9 @@ body {
     display: flex;
   }
 
-  /* On a short screen the result panel needs the chip row's space. The map
-   * still shows which pin was right and which was picked. */
-  body.is-result .region-chips { display: none; }
-
   #map { height: 100%; width: 100%; }
-  .zone-label { display: none; }
-  .zone-label.is-selected,
-  .zone-label.is-answer,
-  .zone-label.is-guess { display: block; font-size: 24px; }
+  .zone-label { font-size: 24px; stroke-width: 5; }
 
-  .region-chips {
-    flex: none;
-    gap: 4px;
-    padding: 7px 8px;
-    max-height: 33%;
-    overflow-y: auto;
-  }
-
-  .chip { padding: 3px 8px; font-size: 11px; }
 
   .actionbar {
     flex: none;

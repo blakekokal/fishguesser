@@ -32,9 +32,10 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-Click a section of the map (or a region chip below it), then **Lock in guess**.
-Hovering a chip highlights its zone. On phone-width screens the zone labels are
-hidden to keep the map readable, and the chips name the regions instead.
+Click a labelled section of the map, then **Lock in guess**. Every section is
+named on the map itself, so there is no separate list to cross-reference.
+Sections are keyboard reachable too: `Tab` moves between them and `Enter`
+picks one.
 `Enter` works as a shortcut for locking in and for advancing to the next fish.
 Your best score is remembered in `localStorage`.
 
