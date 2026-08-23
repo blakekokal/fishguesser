@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fishguesser</title>
+<meta name="description" content="A GeoGuessr-style game: see a fish, guess where in the world it lives.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#127907;</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">🐟</span>
+    <span class="brand-name">Fishguesser</span>
+  </div>
+  <div class="stats">
+    <div class="stat"><span class="stat-label">Round</span><span class="stat-value" id="roundValue">1 / 5</span></div>
+    <div class="stat"><span class="stat-label">Score</span><span class="stat-value" id="scoreValue">0</span></div>
+    <div class="stat stat-best"><span class="stat-label">Best</span><span class="stat-value" id="bestValue">—</span></div>
+  </div>
+</header>
+
+<main class="layout">
+
+  <section class="panel fish-panel">
+    <div class="photo-frame">
+      <img id="fishPhoto" class="photo" alt="" src="">
+      <figcaption class="photo-credit" id="photoCredit"></figcaption>
+    </div>
+    <div class="fish-id">
+      <h1 class="fish-name" id="fishName">—</h1>
+      <p class="fish-sci" id="fishSci">—</p>
+    </div>
+    <p class="prompt-line">Where in the world does it live?</p>
+  </section>
+
+  <section class="panel map-panel">
+    <div class="map-wrap">
+      <svg id="map" viewBox="0 0 1000 500" role="application"
+           aria-label="World map. Choose the region this fish comes from."></svg>
+    </div>
+
+    <div class="region-chips" id="regionChips" role="group" aria-label="Regions"></div>
+
+    <div class="actionbar" id="actionBar">
+      <p class="hint" id="hint">Pick a region on the map, or from the list above.</p>
+      <button class="btn btn-primary" id="guessBtn" disabled>Lock in guess</button>
+    </div>
+
+    <div class="result" id="result" hidden>
+      <div class="result-head">
+        <span class="verdict" id="verdict"></span>
+        <span class="points" id="points"></span>
+      </div>
+      <p class="result-line" id="resultLine"></p>
+      <p class="result-fact" id="resultFact"></p>
+      <button class="btn btn-primary" id="nextBtn">Next fish</button>
+    </div>
+  </section>
+
+</main>
+
+<div class="overlay" id="overlay" hidden>
+  <div class="endcard">
+    <h2 class="end-title">Final score</h2>
+    <p class="end-score"><span id="finalScore">0</span><span class="end-max" id="finalMax">/ 25,000</span></p>
+    <p class="end-blurb" id="endBlurb"></p>
+    <ol class="breakdown" id="breakdown"></ol>
+    <button class="btn btn-primary btn-wide" id="playAgainBtn">Play again</button>
+  </div>
+</div>
+
+<footer class="footer">
+  <span>Photos from Wikimedia Commons under CC / public-domain licences — see
+  <a href="CREDITS.md">CREDITS.md</a>.</span>
+</footer>
+
+<script src="src/regions.js"></script>
+<script src="src/fish.js"></script>
+<script src="src/credits.js"></script>
+<script src="src/map.js"></script>
+<script src="src/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+{
+  "sockeye-salmon": {
+    "file": "assets/fish/sockeye-salmon.jpg",
+    "commons_title": "File:Oncorhynchus nerka 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg",
+    "author": "David Menke",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "queen-angelfish": {
+    "file": "assets/fish/queen-angelfish.jpg",
+    "commons_title": "File:Holacanthus ciliaris 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Holacanthus_ciliaris_2.jpg",
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "red-bellied-piranha": {
+    "file": "assets/fish/red-bellied-piranha.jpg",
+    "commons_title": "File:Pygocentrus nattereri - Karlsruhe Zoo 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "atlantic-cod": {
+    "file": "assets/fish/atlantic-cod.jpg",
+    "commons_title": "File:Atlantic Cod, Atlantischer Kabeljau (Gadus morhua).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Atlantic_Cod,_Atlantischer_Kabeljau_(Gadus_morhua).jpg",
+    "author": "Wilhelm Thomas Fiege",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "gilt-head-bream": {
+    "file": "assets/fish/gilt-head-bream.jpg",
+    "commons_title": "File:Brest - Océanopolis - 2015 - 051.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Brest_-_Oc%C3%A9anopolis_-_2015_-_051.jpg",
+    "author": "Thesupermat",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "goliath-tigerfish": {
+    "file": "assets/fish/goliath-tigerfish.jpg",
+    "commons_title": "File:Hydrocynus goliath.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hydrocynus_goliath.jpg",
+    "author": "Sablegsd",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "electric-yellow-cichlid": {
+    "file": "assets/fish/electric-yellow-cichlid.jpg",
+    "commons_title": "File:Labidochromis caeruleus (male).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Labidochromis_caeruleus_(male).jpg",
+    "author": "Jmatz at English Wikipedia\n\n(Original text: Julian Matz (talk))",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "mandarinfish": {
+    "file": "assets/fish/mandarinfish.jpg",
+    "commons_title": "File:Synchiropus splendidus 2 Luc Viatour.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Synchiropus_splendidus_2_Luc_Viatour.jpg",
+    "author": "Luc Viatour",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "barramundi": {
+    "file": "assets/fish/barramundi.jpg",
+    "commons_title": "File:Lates calcarifer, 2014-09-19a.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lates_calcarifer,_2014-09-19a.jpg",
+    "author": "Mitch Ames",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "antarctic-toothfish": {
+    "file": "assets/fish/antarctic-toothfish.jpg",
+    "commons_title": "File:Dissostichus mawsoni NOAA Fish8711.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni_NOAA_Fish8711.jpg",
+    "author": "Valerie Loeb",
+    "license": "Public domain",
+    "license_url": ""
+  }
+}
