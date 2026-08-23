@@ -158,6 +158,11 @@ body {
   letter-spacing: -0.02em;
 }
 
+.fish-name.is-masked {
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
 .fish-sci {
   margin: 2px 0 0;
   font-style: italic;
@@ -166,12 +171,29 @@ body {
 }
 
 .prompt-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
   margin: 12px 20px 20px;
   padding-top: 14px;
   border-top: 1px solid var(--line);
   color: var(--ink-dim);
   font-size: 14px;
 }
+
+.btn-ghost {
+  flex: none;
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel-2);
+  color: var(--ink-dim);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.btn-ghost:hover { border-color: var(--accent-deep); color: var(--ink); }
 
 /* ---------- map ---------- */
 
@@ -467,6 +489,136 @@ body {
    * become a 240px-tall gap. */
   .hint { flex: 0 1 auto; }
   .actionbar .btn { width: 100%; }
+}
+
+/* ---------- phone in landscape: fit on one screen, no scrolling ----------
+ *
+ * Keyed off a short viewport as well as the orientation so it catches phones
+ * held sideways without also catching laptops, which are landscape but tall.
+ * Every panel becomes a flex column with `min-height: 0` so the photo and the
+ * map absorb the leftover height instead of overflowing the screen. */
+
+@media (orientation: landscape) and (max-height: 560px) {
+  html, body { height: 100%; }
+
+  body {
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topbar {
+    position: static;
+    flex: none;
+    padding: 5px 10px;
+    gap: 8px;
+  }
+
+  .brand-mark { font-size: 17px; }
+  .brand-name { font-size: 14px; }
+  .stats { gap: 6px; }
+  .stat { min-width: 0; padding: 2px 8px; }
+  .stat-label { font-size: 8px; }
+  .stat-value { font-size: 12px; }
+
+  .layout {
+    flex: 1;
+    min-height: 0;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    gap: 8px;
+    padding: 8px;
+    align-items: stretch;
+  }
+
+  .panel {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  /* Left: photo takes whatever the caption and name leave behind. */
+  .photo-frame {
+    flex: 1;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+
+  .fish-id { flex: none; padding: 7px 12px 0; }
+  .fish-name { font-size: 18px; }
+  .fish-sci { font-size: 11px; }
+  .photo-credit { font-size: 9px; bottom: 4px; right: 4px; }
+
+  .prompt-line {
+    flex: none;
+    margin: 6px 12px 8px;
+    padding-top: 7px;
+    font-size: 11px;
+    gap: 8px;
+  }
+
+  .btn-ghost { padding: 5px 10px; font-size: 11px; }
+
+  /* Right: the map absorbs the slack, so the chips and controls always fit.
+   * The min-height stops the result panel from squeezing the map down to a
+   * sliver — reading guess against answer is the whole point of that screen. */
+  .map-wrap {
+    flex: 1;
+    min-height: 145px;
+    display: flex;
+  }
+
+  /* On a short screen the result panel needs the chip row's space. The map
+   * still shows which pin was right and which was picked. */
+  body.is-result .region-chips { display: none; }
+
+  #map { height: 100%; width: 100%; }
+  .pin-label { font-size: 17px; }
+
+  .region-chips {
+    flex: none;
+    gap: 4px;
+    padding: 7px 8px;
+    max-height: 33%;
+    overflow-y: auto;
+  }
+
+  .chip { padding: 3px 8px; font-size: 11px; }
+
+  .actionbar {
+    flex: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px 8px;
+    gap: 8px;
+  }
+
+  .hint { flex: 1 1 auto; font-size: 11px; }
+  .actionbar .btn { width: auto; padding: 7px 14px; font-size: 13px; }
+
+  .result {
+    flex: none;
+    max-height: 52%;
+    overflow-y: auto;
+    padding: 8px 10px;
+    border-top-width: 2px;
+  }
+
+  .verdict, .points { font-size: 14px; }
+  .result-line { font-size: 12px; }
+  .result-fact { font-size: 11px; padding: 7px 9px; margin-top: 6px; }
+  .result .btn { margin-top: 8px; padding: 7px 14px; font-size: 13px; }
+
+  .footer { display: none; }
+
+  .endcard { padding: 14px 18px; max-height: 92dvh; }
+  .end-score { font-size: 28px; }
+  .end-max { font-size: 13px; }
+  .end-blurb { margin-bottom: 8px; font-size: 12px; }
+  .breakdown-row { padding: 5px 0; font-size: 12px; }
+  .breakdown-where { font-size: 10.5px; }
+  .btn-wide { margin-top: 10px; padding: 9px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

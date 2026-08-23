@@ -20,13 +20,17 @@
     name: $('fishName'), sci: $('fishSci'),
     map: $('map'), chips: $('regionChips'),
     actionBar: $('actionBar'), hint: $('hint'), guessBtn: $('guessBtn'),
+    hintBtn: $('hintBtn'), promptText: $('promptText'),
     result: $('result'), verdict: $('verdict'), points: $('points'),
     resultLine: $('resultLine'), resultFact: $('resultFact'), nextBtn: $('nextBtn'),
     overlay: $('overlay'), finalScore: $('finalScore'), finalMax: $('finalMax'),
     endBlurb: $('endBlurb'), breakdown: $('breakdown'), playAgain: $('playAgainBtn'),
   };
 
-  const state = { deck: [], index: 0, total: 0, selected: null, results: [], phase: 'guess' };
+  const state = {
+    deck: [], index: 0, total: 0, selected: null, results: [],
+    phase: 'guess', nameRevealed: false,
+  };
   const chips = new Map();
 
   const fmt = (n) => n.toLocaleString('en-US');
@@ -56,6 +60,32 @@
     } catch {
       /* nothing to do; the score just won't persist */
     }
+  }
+
+  const blank = (word) => '•'.repeat(word.length);
+
+  /* Hide the front of the name, not the back. The geographic giveaway is almost
+   * always the leading word — "Atlantic", "Congo", "Australian" — so masking
+   * the front is what actually makes the round a guess, while the final word
+   * ("… Cod", "… Tetra") still says what kind of fish you are looking at.
+   * Whole words are masked so the result never reads like "•••••• •rouper"; a
+   * single-word name falls back to hiding its first half. */
+  function maskName(name) {
+    const words = name.split(' ');
+    if (words.length === 1) {
+      const cut = Math.ceil(name.length / 2);
+      return blank(name.slice(0, cut)) + name.slice(cut);
+    }
+    return words.map((w, i) => (i < words.length - 1 ? blank(w) : w)).join(' ');
+  }
+
+  function revealName() {
+    const fish = state.deck[state.index];
+    if (!fish) return;
+    state.nameRevealed = true;
+    ui.name.textContent = fish.name;
+    ui.name.classList.remove('is-masked');
+    ui.hintBtn.hidden = true;
   }
 
   function scoreFor(distanceKm) {
@@ -98,8 +128,12 @@
     ui.photo.classList.remove('is-ready');
     ui.photo.alt = `Photograph of a ${fish.name}`;
     ui.photo.src = fish.image;
-    ui.name.textContent = fish.name;
+    ui.name.textContent = maskName(fish.name);
+    ui.name.classList.add('is-masked');
     ui.sci.textContent = fish.sciName;
+    state.nameRevealed = false;
+    ui.hintBtn.hidden = false;
+    ui.promptText.textContent = 'Where in the world does it live?';
 
     const credit = typeof PHOTO_CREDITS !== 'undefined' ? PHOTO_CREDITS[fish.id] : null;
     if (credit) {
@@ -119,11 +153,13 @@
     ui.hint.textContent = 'Pick a region on the map, or from the list above.';
     ui.actionBar.hidden = false;
     ui.result.hidden = true;
+    document.body.classList.remove('is-result');
   }
 
   function submitGuess() {
     if (state.phase !== 'guess' || !state.selected) return;
     state.phase = 'result';
+    revealName(); // the round is over, so the answer is no longer a hint
 
     const fish = state.deck[state.index];
     const guess = REGIONS_BY_ID[state.selected];
@@ -155,6 +191,8 @@
 
     ui.actionBar.hidden = true;
     ui.result.hidden = false;
+    // Lets the landscape layout reclaim the chip row for the result panel.
+    document.body.classList.add('is-result');
     ui.nextBtn.focus();
   }
 
@@ -218,6 +256,7 @@
   }
 
   ui.photo.addEventListener('load', () => ui.photo.classList.add('is-ready'));
+  ui.hintBtn.addEventListener('click', revealName);
   ui.guessBtn.addEventListener('click', submitGuess);
   ui.nextBtn.addEventListener('click', nextRound);
   ui.playAgain.addEventListener('click', startGame);

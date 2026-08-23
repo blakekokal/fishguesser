@@ -9,6 +9,13 @@ name; you decide which of ten regions of the world it comes from.
 - **5 rounds per game**, drawn at random from the species list
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
+- **The name starts half hidden** — everything but the last word is blanked out,
+  so "Antarctic Toothfish" reads "••••••••• Toothfish" until you tap
+  **Reveal name**. Hiding the front is deliberate: the giveaway is nearly always
+  the leading word. Using the hint costs nothing, and the full name appears
+  automatically once you have guessed
+- **Fits a phone in landscape** without scrolling, as well as portrait and
+  desktop
 
 No build step, no dependencies, no network calls. Everything — photos included —
 is committed to the repository.
