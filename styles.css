@@ -242,57 +242,54 @@ body {
   stroke-linejoin: round;
 }
 
-.pin { cursor: pointer; outline: none; }
+.zone { cursor: pointer; outline: none; }
 
-.pin-halo {
-  fill: rgba(53, 200, 232, 0.14);
-  opacity: 0;
-  transition: opacity 0.18s ease;
+.zone-fill {
+  fill: rgba(53, 200, 232, 0.16);
+  stroke: rgba(53, 200, 232, 0.6);
+  stroke-width: 1.8;
+  stroke-linejoin: round;
+  transition: fill 0.18s ease, stroke 0.18s ease;
 }
 
-.pin-dot {
-  fill: #0a2136;
-  stroke: var(--accent);
-  stroke-width: 3;
-  transition: fill 0.18s ease, stroke 0.18s ease, r 0.18s ease;
-}
-
-.pin-label {
+.zone-label {
   fill: var(--ink);
   font-family: inherit;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   paint-order: stroke;
-  stroke: rgba(3, 14, 25, 0.9);
-  stroke-width: 4;
+  stroke: rgba(3, 14, 25, 0.88);
+  stroke-width: 3.5;
   stroke-linejoin: round;
-  opacity: 0;
   pointer-events: none;
-  transition: opacity 0.18s ease;
 }
 
-.pin:hover .pin-halo,
-.pin:focus-visible .pin-halo,
-.pin.is-selected .pin-halo { opacity: 1; }
+.zone:hover .zone-fill,
+.zone:focus-visible .zone-fill,
+.zone.is-hover .zone-fill {
+  fill: rgba(53, 200, 232, 0.26);
+  stroke: var(--accent);
+}
 
-.pin:hover .pin-label,
-.pin:focus-visible .pin-label,
-.pin.is-selected .pin-label,
-.pin.is-answer .pin-label,
-.pin.is-guess .pin-label { opacity: 1; }
+.zone.is-selected .zone-fill {
+  fill: rgba(53, 200, 232, 0.44);
+  stroke: var(--accent);
+  stroke-width: 2.5;
+}
 
-.pin:hover .pin-dot,
-.pin:focus-visible .pin-dot { fill: var(--accent-deep); }
+.zone.is-answer .zone-fill {
+  fill: rgba(69, 214, 154, 0.46);
+  stroke: var(--good);
+  stroke-width: 2.5;
+}
 
-.pin.is-selected .pin-dot { fill: var(--accent); r: 8.5; }
+.zone.is-guess .zone-fill {
+  fill: rgba(244, 116, 106, 0.42);
+  stroke: var(--bad);
+  stroke-width: 2.5;
+}
 
-.pin.is-answer .pin-dot { fill: var(--good); stroke: #eafff5; r: 9; }
-.pin.is-answer .pin-halo { fill: rgba(69, 214, 154, 0.2); opacity: 1; }
-
-.pin.is-guess .pin-dot { fill: var(--bad); stroke: #ffeceb; r: 8; }
-.pin.is-guess .pin-halo { fill: rgba(244, 116, 106, 0.18); opacity: 1; }
-
-.pin.is-dim { opacity: 0.28; pointer-events: none; }
+.zone.is-dim { opacity: 0.22; pointer-events: none; }
 
 .link {
   stroke: #f4d06a;
@@ -511,7 +508,12 @@ body {
   .version-date { display: none; }
   .stat { min-width: 60px; padding: 5px 10px; }
   .stat-value { font-size: 15px; }
-  .pin-label { font-size: 19px; }
+  /* Ten labels will not fit legibly on a phone-width map, so the chip row
+   * names the zones instead. The ones that carry the result still show. */
+  .zone-label { display: none; }
+  .zone.is-selected .zone-label,
+  .zone.is-answer .zone-label,
+  .zone.is-guess .zone-label { display: block; font-size: 26px; }
   .actionbar { flex-direction: column; align-items: stretch; }
   /* The 240px basis is a width when the bar is a row; in a column it would
    * become a 240px-tall gap. */
@@ -604,7 +606,10 @@ body {
   body.is-result .region-chips { display: none; }
 
   #map { height: 100%; width: 100%; }
-  .pin-label { font-size: 17px; }
+  .zone-label { display: none; }
+  .zone.is-selected .zone-label,
+  .zone.is-answer .zone-label,
+  .zone.is-guess .zone-label { display: block; font-size: 24px; }
 
   .region-chips {
     flex: none;

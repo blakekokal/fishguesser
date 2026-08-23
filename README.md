@@ -32,7 +32,9 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-Click a pin on the map (or a region chip below it), then **Lock in guess**.
+Click a zone on the map (or a region chip below it), then **Lock in guess**.
+Hovering a chip highlights its zone. On phone-width screens the zone labels are
+hidden to keep the map readable, and the chips name the regions instead.
 `Enter` works as a shortcut for locking in and for advancing to the next fish.
 Your best score is remembered in `localStorage`.
 
@@ -57,7 +59,7 @@ src/version.js          version + build date shown in the header
 src/regions.js          the 10 regions + haversine distance
 src/fish.js             the 30 fish (name, photo, home region, fun fact)
 src/credits.js          generated photo attribution
-src/map.js              the world map: projection, coastlines, pins
+src/map.js              the world map: projection, coastlines, clickable zones
 src/game.js             game loop, scoring, end screen
 assets/fish/            the photographs + credits.json
 tools/build_credits.py  regenerates src/credits.js and CREDITS.md
@@ -84,7 +86,7 @@ python3 tools/bump_version.py 2.1.3    # or set it explicitly
 ## Building a single-file version
 
 `python3 tools/build_standalone.py` inlines the stylesheet, the scripts and all
-ten photographs into `dist/fishguesser.html` — one file that runs with no
+thirty photographs into `dist/fishguesser.html` — one file that runs with no
 server, no sibling assets and no network access at all. Useful for sharing, or
 for hosts with a strict content-security policy.
 
@@ -99,8 +101,11 @@ The data files are plain arrays, so extending the game is additive:
 3. Append the fish to `FISH` in `src/fish.js`, pointing `region` at a region id.
 
 To add a region, append it to `REGIONS` in `src/regions.js` with a
-representative `lat`/`lon` — the map pin and the distance scoring both derive
-from those coordinates, so nothing else needs to change.
+representative `lat`/`lon`, then draw its clickable area in the `ZONES` table in
+`src/map.js` as a ring of `[lon, lat]` pairs. The coordinates in `regions.js`
+anchor the zone's label and drive the distance scoring; `LABEL_AT` in `map.js`
+can move a label that lands badly, and an optional `short` gives the map a
+shorter name than the chips use.
 
 When choosing a species, check that its natural range genuinely centres on one
 region — a fish found right across the Indo-Pacific makes for an unfair round.

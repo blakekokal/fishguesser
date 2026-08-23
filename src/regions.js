@@ -1,13 +1,18 @@
 /* Fishguesser — the ten guessable regions.
  *
- * Each region has a representative centroid (lat/lon) used both for placing its
- * pin on the world map and for distance-based partial credit when you guess
- * wrong. Adding an 11th region is just a matter of appending to this array. */
+ * Each region has a representative centroid (lat/lon) used both for anchoring
+ * its label on the world map and for distance-based partial credit when you
+ * guess wrong. `short` is an optional map-only label for names too long to sit
+ * on the map comfortably; everything else shows the full `name`.
+ *
+ * Adding an 11th region means appending here and drawing its clickable area in
+ * the ZONES table in map.js. */
 
 const REGIONS = [
   {
     id: 'north-pacific',
     name: 'North Pacific',
+    short: 'N. Pacific',
     blurb: 'Cold, plankton-rich coasts from Kamchatka to British Columbia.',
     lat: 54,
     lon: -152,
@@ -15,6 +20,7 @@ const REGIONS = [
   {
     id: 'caribbean',
     name: 'Caribbean Sea',
+    short: 'Caribbean',
     blurb: 'Warm, clear reef water around the Antilles and the Gulf.',
     lat: 16,
     lon: -76,
@@ -29,6 +35,7 @@ const REGIONS = [
   {
     id: 'north-atlantic',
     name: 'North Atlantic',
+    short: 'N. Atlantic',
     blurb: 'Cold shelf seas off Iceland, Norway and the Grand Banks.',
     lat: 62,
     lon: -20,
@@ -36,6 +43,7 @@ const REGIONS = [
   {
     id: 'mediterranean',
     name: 'Mediterranean Sea',
+    short: 'Mediterranean',
     blurb: 'Warm, salty and almost tideless, ringed by three continents.',
     lat: 36,
     lon: 16,
@@ -50,6 +58,7 @@ const REGIONS = [
   {
     id: 'rift-lakes',
     name: 'East African Rift Lakes',
+    short: 'Rift Lakes',
     blurb: 'Malawi, Tanganyika and Victoria — deep lakes bursting with cichlids.',
     lat: -12,
     lon: 34,
@@ -64,6 +73,8 @@ const REGIONS = [
   {
     id: 'northern-australia',
     name: 'Northern Australia',
+    // A proper place name, so it reads "from Northern Australia", not "the".
+    article: false,
     blurb: 'Mangrove estuaries and the Coral Sea along the tropical north.',
     lat: -14,
     lon: 133,

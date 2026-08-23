@@ -81,6 +81,59 @@ const WorldMap = (() => {
      145, -67, 160, -70, 170, -72, 180, -78, 180, -90, -180, -90],
   ];
 
+  /* The clickable areas, as flat [lon, lat, ...] rings in the same projection
+   * as the coastlines. Each one traces roughly the water or basin its fish
+   * actually live in, so the shape itself is part of the answer. They are drawn
+   * translucent over the land so the coastline still reads underneath.
+   *
+   * Each region's lat/lon in regions.js sits inside its zone and is used to
+   * anchor the label and the guess-to-answer line. */
+  const ZONES = {
+    'north-pacific': [
+      -180, 40, -170, 50, -158, 57, -145, 59, -132, 57, -124, 48, -122, 40,
+      -130, 35, -145, 34, -160, 36, -172, 36,
+    ],
+    caribbean: [
+      -88, 21, -80, 23, -70, 22, -61, 18, -60, 11, -68, 9, -78, 9, -84, 11, -88, 16,
+    ],
+    amazon: [
+      -73, 2, -66, 4, -58, 4, -50, 1, -48, -3, -52, -8, -60, -12, -68, -12,
+      -74, -8, -76, -2,
+    ],
+    'north-atlantic': [
+      -45, 58, -35, 62, -22, 65, -10, 64, -2, 60, -5, 52, -15, 48, -28, 48, -40, 52,
+    ],
+    mediterranean: [
+      -5, 36, 3, 43, 12, 45, 19, 41, 26, 41, 34, 37, 36, 33, 30, 31, 20, 32,
+      10, 34, 2, 36,
+    ],
+    congo: [12, 2, 18, 4, 25, 4, 29, 1, 28, -6, 22, -9, 15, -7, 11, -4, 11, -1],
+    'rift-lakes': [29, 1, 33, 2, 36, -2, 37, -9, 35, -15, 31, -14, 29, -8, 28, -3],
+    'coral-triangle': [
+      116, 8, 125, 10, 133, 6, 137, 0, 134, -6, 126, -10, 118, -8, 114, -2, 115, 3,
+    ],
+    'northern-australia': [
+      113, -12, 122, -10, 132, -9, 142, -9, 152, -18, 154, -24, 145, -26,
+      135, -25, 125, -22, 114, -20,
+    ],
+    'southern-ocean': [
+      -180, -56, -120, -58, -60, -55, 0, -57, 60, -56, 120, -58, 180, -60,
+      180, -72, 120, -71, 60, -69, 0, -70, -60, -67, -120, -73, -180, -70,
+    ],
+  };
+
+  /* Where to put a zone's label when the region's own coordinate is a poor
+   * anchor — too near the edge of the map, or close enough to a neighbour that
+   * the two labels collide. Scoring still uses the coordinates in regions.js;
+   * these only move the text. */
+  const LABEL_AT = {
+    'southern-ocean': [-25, -63],
+    congo: [17, 1],
+    'rift-lakes': [36, -13],
+    'coral-triangle': [124, 5],
+    'northern-australia': [134, -17],
+  };
+
   /** Equirectangular projection into the 1000x500 viewBox. */
   function project(lon, lat) {
     return { x: ((lon + 180) / 360) * W, y: ((90 - lat) / 180) * H };
@@ -102,9 +155,9 @@ const WorldMap = (() => {
   }
 
   let svg = null;
-  let pinGroup = null;
+  let zoneGroup = null;
   let overlayGroup = null;
-  const pins = new Map();
+  const zones = new Map();
   let onPick = () => {};
   let locked = false;
 
@@ -140,27 +193,37 @@ const WorldMap = (() => {
     for (const ring of LAND) land.append(el('path', { d: ringToPath(ring) }));
     svg.append(land);
 
+    zoneGroup = el('g', { class: 'zones' });
+    svg.append(zoneGroup);
+
     overlayGroup = el('g', { class: 'overlay-layer' });
     svg.append(overlayGroup);
 
-    pinGroup = el('g', { class: 'pins' });
-    svg.append(pinGroup);
-
-    pins.clear();
+    zones.clear();
     for (const region of REGIONS) {
-      const { x, y } = project(region.lon, region.lat);
+      const ring = ZONES[region.id];
+      if (!ring) continue; // a region with no zone simply isn't on the map
+
       const g = el('g', {
-        class: 'pin',
-        transform: `translate(${x.toFixed(1)} ${y.toFixed(1)})`,
+        class: 'zone',
         tabindex: '0',
         role: 'button',
         'aria-label': region.name,
       });
-      g.append(el('circle', { class: 'pin-halo', r: 15 }));
-      g.append(el('circle', { class: 'pin-dot', r: 7 }));
+      g.append(el('path', { class: 'zone-fill', d: ringToPath(ring) }));
 
-      const label = el('text', { class: 'pin-label', x: 0, y: -22, 'text-anchor': 'middle' });
-      label.textContent = region.name;
+      const [labelLon, labelLat] = LABEL_AT[region.id] || [region.lon, region.lat];
+      const at = project(labelLon, labelLat);
+      // Keep the text off the edges; a centred label near lon 180 overflows.
+      const clamp = (v, lo, hi) => Math.min(Math.max(v, lo), hi);
+      const label = el('text', {
+        class: 'zone-label',
+        x: clamp(at.x, 80, W - 80).toFixed(1),
+        y: clamp(at.y, 14, H - 14).toFixed(1),
+        'text-anchor': 'middle',
+        'dominant-baseline': 'middle',
+      });
+      label.textContent = region.short || region.name;
       g.append(label);
 
       const choose = (e) => {
@@ -172,13 +235,18 @@ const WorldMap = (() => {
         if (e.key === 'Enter' || e.key === ' ') choose(e);
       });
 
-      pinGroup.append(g);
-      pins.set(region.id, g);
+      zoneGroup.append(g);
+      zones.set(region.id, g);
     }
   }
 
   function setSelected(regionId) {
-    for (const [id, g] of pins) g.classList.toggle('is-selected', id === regionId);
+    for (const [id, g] of zones) g.classList.toggle('is-selected', id === regionId);
+  }
+
+  /** Highlight a zone from outside the map, e.g. hovering its chip. */
+  function setHover(regionId) {
+    for (const [id, g] of zones) g.classList.toggle('is-hover', !locked && id === regionId);
   }
 
   /** Show the answer: mark both pins and draw the link between them. */
@@ -186,8 +254,8 @@ const WorldMap = (() => {
     locked = true;
     overlayGroup.replaceChildren();
 
-    for (const [id, g] of pins) {
-      g.classList.remove('is-selected');
+    for (const [id, g] of zones) {
+      g.classList.remove('is-selected', 'is-hover');
       g.classList.toggle('is-answer', id === answerId);
       g.classList.toggle('is-guess', id === guessId && guessId !== answerId);
       g.classList.toggle('is-dim', id !== answerId && id !== guessId);
@@ -211,11 +279,11 @@ const WorldMap = (() => {
   function unlock() {
     locked = false;
     overlayGroup.replaceChildren();
-    for (const g of pins.values()) {
-      g.classList.remove('is-answer', 'is-guess', 'is-dim', 'is-selected');
+    for (const g of zones.values()) {
+      g.classList.remove('is-answer', 'is-guess', 'is-dim', 'is-selected', 'is-hover');
       g.setAttribute('tabindex', '0');
     }
   }
 
-  return { build, setSelected, reveal, unlock, project };
+  return { build, setSelected, setHover, reveal, unlock, project };
 })();

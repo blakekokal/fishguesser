@@ -63,6 +63,11 @@
     }
   }
 
+  /* Most regions read as "the Congo Basin"; a few are proper place names that
+   * do not take an article, and say so with `article: false`. */
+  const withArticle = (region) =>
+    (region.article === false ? '' : 'the ') + region.name;
+
   const blank = (word) => '•'.repeat(word.length);
 
   /* Hide the front of the name, not the back. The geographic giveaway is almost
@@ -104,6 +109,9 @@
       btn.textContent = region.name;
       btn.title = region.blurb;
       btn.addEventListener('click', () => select(region.id));
+      // Points the chip at its zone, so the pairing is obvious before clicking.
+      btn.addEventListener('mouseenter', () => WorldMap.setHover(region.id));
+      btn.addEventListener('mouseleave', () => WorldMap.setHover(null));
       ui.chips.append(btn);
       chips.set(region.id, btn);
     }
@@ -185,8 +193,8 @@
     ui.verdict.textContent = correct ? 'Correct' : distance <= 3000 ? 'Close' : 'Not quite';
     ui.points.textContent = `+${fmt(points)}`;
     ui.resultLine.textContent = correct
-      ? `The ${fish.name} is from the ${answer.name}.`
-      : `You said ${guess.name}. It's from the ${answer.name} — ${fmt(distance)} km away.`;
+      ? `The ${fish.name} is from ${withArticle(answer)}.`
+      : `You said ${withArticle(guess)}. It's from ${withArticle(answer)} — ${fmt(distance)} km away.`;
     ui.resultFact.textContent = fish.fact;
     ui.nextBtn.textContent = state.index + 1 >= ROUNDS ? 'See final score' : 'Next fish';
 
