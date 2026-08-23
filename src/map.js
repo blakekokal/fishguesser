@@ -141,14 +141,15 @@ const WorldMap = (() => {
         const id = owners[j][i];
         let k = i;
         while (k + 1 < cols && owners[j][k + 1] === id) k += 1;
-        const x = cellX(i);
-        const y = cellY(j);
-        const w = cellX(k + 1) - x;
-        const h = cellY(j + 1) - y;
+        /* Absolute edges, not relative widths: two runs that meet then round
+         * to the identical coordinate and tile exactly. Relative h/v rounds
+         * the width separately and can leave a sub-pixel seam between them. */
+        const x0 = cellX(i).toFixed(2);
+        const x1 = cellX(k + 1).toFixed(2);
+        const y0 = cellY(j).toFixed(2);
+        const y1 = cellY(j + 1).toFixed(2);
         const run = parts.get(id);
-        if (run) {
-          run.push(`M${x.toFixed(2)} ${y.toFixed(2)}h${w.toFixed(2)}v${h.toFixed(2)}h${(-w).toFixed(2)}Z`);
-        }
+        if (run) run.push(`M${x0} ${y0}H${x1}V${y1}H${x0}Z`);
         i = k + 1;
       }
     }
