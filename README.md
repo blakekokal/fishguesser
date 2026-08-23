@@ -10,10 +10,12 @@ name; you decide which of ten regions of the world it comes from.
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
 - **The name starts half hidden** — everything but the last word is blanked out,
-  so "Antarctic Toothfish" reads "••••••••• Toothfish" until you tap
-  **Reveal name**. Hiding the front is deliberate: the giveaway is nearly always
-  the leading word. Using the hint costs nothing, and the full name appears
-  automatically once you have guessed
+  so "Antarctic Toothfish" reads "••••••••• Toothfish". Hiding the front is
+  deliberate: the giveaway is nearly always the leading word
+- **Three hints per game** — **Reveal name** un-masks the current fish and
+  spends one of three, shared across all five rounds, so a hint used early is
+  one you cannot use later. The full name always appears free once you have
+  guessed, since by then it is not a hint
 - **Fits a phone in landscape** without scrolling, as well as portrait and
   desktop
 

@@ -8,6 +8,9 @@
 (() => {
   const ROUNDS = 5;
   const MAX_POINTS = 5000;
+  // Hints are a budget for the whole game, not per fish, so revealing a name
+  // costs you the chance to reveal a later one.
+  const HINTS_PER_GAME = 3;
   // Larger = more forgiving of near misses. The regions are far apart, so a
   // tight decay would round almost every wrong answer down to zero.
   const DECAY_KM = 3000;
@@ -16,6 +19,7 @@
   const $ = (id) => document.getElementById(id);
   const ui = {
     round: $('roundValue'), score: $('scoreValue'), best: $('bestValue'),
+    hints: $('hintsValue'),
     photo: $('fishPhoto'), credit: $('photoCredit'),
     name: $('fishName'), sci: $('fishSci'),
     map: $('map'),
@@ -30,7 +34,7 @@
 
   const state = {
     deck: [], index: 0, total: 0, selected: null, results: [],
-    phase: 'guess', nameRevealed: false,
+    phase: 'guess', nameRevealed: false, hintsLeft: HINTS_PER_GAME,
   };
 
   const fmt = (n) => n.toLocaleString('en-US');
@@ -84,13 +88,45 @@
     return words.map((w, i) => (i < words.length - 1 ? blank(w) : w)).join(' ');
   }
 
-  function revealName() {
+  function renderHints() {
+    ui.hints.replaceChildren();
+    for (let i = 0; i < HINTS_PER_GAME; i += 1) {
+      const dot = document.createElement('span');
+      dot.className = 'hint-dot' + (i < state.hintsLeft ? '' : ' is-spent');
+      dot.textContent = '\u25cf';
+      ui.hints.append(dot);
+    }
+    ui.hints.setAttribute('aria-label',
+      `${state.hintsLeft} of ${HINTS_PER_GAME} hints left`);
+  }
+
+  function updateHintButton() {
+    if (state.nameRevealed) {
+      ui.hintBtn.hidden = true;
+      return;
+    }
+    ui.hintBtn.hidden = false;
+    ui.hintBtn.disabled = state.hintsLeft === 0;
+    ui.hintBtn.textContent = state.hintsLeft === 0
+      ? 'No hints left'
+      : `Reveal name · ${state.hintsLeft} left`;
+  }
+
+  /* `spend` separates the two ways a name gets shown: asking for it costs one
+   * of the three hints, whereas the automatic reveal once a round is over is
+   * free — by then the name is no longer a hint. */
+  function revealName({ spend = false } = {}) {
     const fish = state.deck[state.index];
-    if (!fish) return;
+    if (!fish || state.nameRevealed) return;
+    if (spend) {
+      if (state.hintsLeft <= 0) return;
+      state.hintsLeft -= 1;
+      renderHints();
+    }
     state.nameRevealed = true;
     ui.name.textContent = fish.name;
     ui.name.classList.remove('is-masked');
-    ui.hintBtn.hidden = true;
+    updateHintButton();
   }
 
   function scoreFor(distanceKm) {
@@ -121,7 +157,7 @@
     ui.name.classList.add('is-masked');
     ui.sci.textContent = fish.sciName;
     state.nameRevealed = false;
-    ui.hintBtn.hidden = false;
+    updateHintButton();
     ui.promptText.textContent = 'Where in the world does it live?';
 
     const credit = typeof PHOTO_CREDITS !== 'undefined' ? PHOTO_CREDITS[fish.id] : null;
@@ -196,7 +232,11 @@
       pct >= 0.7 ? 'Strong instincts for fish.' :
       pct >= 0.45 ? 'Not bad — the oceans are big.' :
       'Plenty of sea left to learn.';
-    ui.endBlurb.textContent = `${hits} of ${ROUNDS} exactly right. ${grade}`;
+    const used = HINTS_PER_GAME - state.hintsLeft;
+    const hintNote = used
+      ? ` ${used} of ${HINTS_PER_GAME} hint${used === 1 ? '' : 's'} used.`
+      : ' No hints used.';
+    ui.endBlurb.textContent = `${hits} of ${ROUNDS} exactly right.${hintNote} ${grade}`;
 
     ui.breakdown.replaceChildren();
     for (const r of state.results) {
@@ -228,12 +268,14 @@
     state.index = 0;
     state.total = 0;
     state.results = [];
+    state.hintsLeft = HINTS_PER_GAME;
+    renderHints();
     ui.overlay.hidden = true;
     renderRound();
   }
 
   ui.photo.addEventListener('load', () => ui.photo.classList.add('is-ready'));
-  ui.hintBtn.addEventListener('click', revealName);
+  ui.hintBtn.addEventListener('click', () => revealName({ spend: true }));
   ui.guessBtn.addEventListener('click', submitGuess);
   ui.nextBtn.addEventListener('click', nextRound);
   ui.playAgain.addEventListener('click', startGame);

@@ -118,6 +118,18 @@ body {
 
 .stat-best .stat-value { color: var(--accent); }
 
+.hint-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  line-height: 1;
+  /* Matches the height of the numeric tiles so the row stays even. */
+  min-height: 25px;
+}
+
+.hint-dot { font-size: 12px; color: var(--accent); }
+.hint-dot.is-spent { color: var(--ink-faint); opacity: 0.4; }
+
 /* ---------- layout ---------- */
 
 .layout {
@@ -219,7 +231,15 @@ body {
   font-weight: 600;
 }
 
-.btn-ghost:hover { border-color: var(--accent-deep); color: var(--ink); }
+.btn-ghost:hover:not(:disabled) { border-color: var(--accent-deep); color: var(--ink); }
+
+/* Kept visible rather than hidden once the budget is gone, so the rule is
+ * legible instead of the control just vanishing. */
+.btn-ghost:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  color: var(--ink-faint);
+}
 
 /* ---------- map ---------- */
 
@@ -501,6 +521,8 @@ body {
   .brand-name { font-size: 14px; }
   .version { padding: 1px 7px; font-size: 9.5px; }
   .version-date { display: none; }
+  .hint-dots { min-height: 0; gap: 3px; }
+  .hint-dot { font-size: 9px; }
   .stats { gap: 6px; }
   .stat { min-width: 0; padding: 2px 8px; }
   .stat-label { font-size: 8px; }
