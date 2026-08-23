@@ -52,7 +52,15 @@ src/map.js              the world map: projection, coastlines, pins
 src/game.js             game loop, scoring, end screen
 assets/fish/            the photographs + credits.json
 tools/build_credits.py  regenerates src/credits.js and CREDITS.md
+tools/build_standalone.py  bundles everything into one shareable HTML file
 ```
+
+## Building a single-file version
+
+`python3 tools/build_standalone.py` inlines the stylesheet, the scripts and all
+ten photographs into `dist/fishguesser.html` — one file that runs with no
+server, no sibling assets and no network access at all. Useful for sharing, or
+for hosts with a strict content-security policy.
 
 ## Adding more fish or regions
 
