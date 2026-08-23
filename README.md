@@ -3,8 +3,9 @@
 A GeoGuessr-style guessing game for fish. You get a photograph of a fish and its
 name; you decide which of ten regions of the world it comes from.
 
-- **10 species**, each photographed in the wild or in an aquarium
-- **10 regions**, from the North Pacific to the Southern Ocean
+- **30 species**, each photographed in the wild or in an aquarium
+- **10 regions**, from the North Pacific to the Southern Ocean — three fish live
+  in each, so the map has to be read rather than memorised
 - **5 rounds per game**, drawn at random from the species list
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
@@ -46,7 +47,7 @@ centroids of the two regions.
 index.html              markup and script order
 styles.css              deep-water theme
 src/regions.js          the 10 regions + haversine distance
-src/fish.js             the 10 fish (name, photo, home region, fun fact)
+src/fish.js             the 30 fish (name, photo, home region, fun fact)
 src/credits.js          generated photo attribution
 src/map.js              the world map: projection, coastlines, pins
 src/game.js             game loop, scoring, end screen
@@ -76,8 +77,12 @@ To add a region, append it to `REGIONS` in `src/regions.js` with a
 representative `lat`/`lon` — the map pin and the distance scoring both derive
 from those coordinates, so nothing else needs to change.
 
-Rounds per game are set by `ROUNDS` at the top of `src/game.js`. With more than
-ten fish in the list you may want to raise it.
+When choosing a species, check that its natural range genuinely centres on one
+region — a fish found right across the Indo-Pacific makes for an unfair round.
+
+Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
+game samples 5 of the 30 fish; raise it for a longer game that shows more of the
+collection.
 
 ## Photo credits
 

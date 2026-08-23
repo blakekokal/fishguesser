@@ -78,5 +78,165 @@
     "author": "Valerie Loeb",
     "license": "Public domain",
     "license_url": ""
+  },
+  "yelloweye-rockfish": {
+    "file": "assets/fish/yelloweye-rockfish.jpg",
+    "commons_title": "File:Sebastes ruberrimus 143567641.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sebastes_ruberrimus_143567641.jpg",
+    "author": "Jason Grant",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "lingcod": {
+    "file": "assets/fish/lingcod.jpg",
+    "commons_title": "File:Ophiodon elongatus 458366655.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ophiodon_elongatus_458366655.jpg",
+    "author": "Chris Spain",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "nassau-grouper": {
+    "file": "assets/fish/nassau-grouper.jpg",
+    "commons_title": "File:Epinephelus striatus 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
+    "author": "OAR/National Undersea Research Program",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "stoplight-parrotfish": {
+    "file": "assets/fish/stoplight-parrotfish.jpg",
+    "commons_title": "File:Stoplight-parrotfish.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stoplight-parrotfish.jpg",
+    "author": "Adona9 at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "arapaima": {
+    "file": "assets/fish/arapaima.jpg",
+    "commons_title": "File:Arapaima gigas 5147.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arapaima_gigas_5147.jpg",
+    "author": "T.Voekler",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "discus": {
+    "file": "assets/fish/discus.jpg",
+    "commons_title": "File:Symphysodon aequifasciatus - Karlsruhe Zoo 04.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Symphysodon_aequifasciatus_-_Karlsruhe_Zoo_04.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "atlantic-wolffish": {
+    "file": "assets/fish/atlantic-wolffish.jpg",
+    "commons_title": "File:Anarhichas-lupus-Atlanterhavsparken.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anarhichas-lupus-Atlanterhavsparken.jpg",
+    "author": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "atlantic-mackerel": {
+    "file": "assets/fish/atlantic-mackerel.jpg",
+    "commons_title": "File:Atlantic mackerel (Scomber scombrus).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Atlantic_mackerel_(Scomber_scombrus).jpg",
+    "author": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "dusky-grouper": {
+    "file": "assets/fish/dusky-grouper.jpg",
+    "commons_title": "File:Mero (Epinephelus marginatus), Cabo de Palos, España, 2022-07-15, DD 34.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mero_(Epinephelus_marginatus),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-15,_DD_34.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "european-seabass": {
+    "file": "assets/fish/european-seabass.jpg",
+    "commons_title": "File:Dicentrarchus labrax LoroParqueTenerife seabass IMG 4959.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG",
+    "author": "Bjoertvedt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "elephantnose-fish": {
+    "file": "assets/fish/elephantnose-fish.jpg",
+    "commons_title": "File:Mormyridae Gnathonemus petersii 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mormyridae_Gnathonemus_petersii_2.jpg",
+    "author": "NasserHalaweh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "congo-tetra": {
+    "file": "assets/fish/congo-tetra.jpg",
+    "commons_title": "File:Phenacogrammus interruptus 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Phenacogrammus_interruptus_1.jpg",
+    "author": "7TP (Krzysztof Bartosik)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "frontosa": {
+    "file": "assets/fish/frontosa.jpg",
+    "commons_title": "File:Cyphotilapia frontosa - Karlsruhe Zoo 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "zebra-mbuna": {
+    "file": "assets/fish/zebra-mbuna.jpg",
+    "commons_title": "File:Maylandia zebra B.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Maylandia_zebra_B.jpg",
+    "author": "Klaus Rudloff",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "clown-anemonefish": {
+    "file": "assets/fish/clown-anemonefish.jpg",
+    "commons_title": "File:Amphiprion ocellaris (Clown anemonefish) by Nick Hobgood.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Amphiprion_ocellaris_(Clown_anemonefish)_by_Nick_Hobgood.jpg",
+    "author": "Nick Hobgood",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "banggai-cardinalfish": {
+    "file": "assets/fish/banggai-cardinalfish.jpg",
+    "commons_title": "File:Banggai-Kardinalbarsch Pterapogon kauderni.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Banggai-Kardinalbarsch_Pterapogon_kauderni.jpg",
+    "author": "Holger Krisp",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "australian-lungfish": {
+    "file": "assets/fish/australian-lungfish.jpg",
+    "commons_title": "File:Neoceratodus forsteri Nagoya1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Neoceratodus_forsteri_Nagoya1.jpg",
+    "author": "タウナギ",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "potato-cod": {
+    "file": "assets/fish/potato-cod.jpg",
+    "commons_title": "File:Serranidae Epinephelus tukula 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Serranidae_Epinephelus_tukula_1.jpg",
+    "author": "NasserHalaweh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "blackfin-icefish": {
+    "file": "assets/fish/blackfin-icefish.jpg",
+    "commons_title": "File:C. aceratus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:C._aceratus.jpg",
+    "author": "Ambiederman",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "emerald-rockcod": {
+    "file": "assets/fish/emerald-rockcod.jpg",
+    "commons_title": "File:Emerald rockcod, Trematomus bernacchii.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Emerald_rockcod,_Trematomus_bernacchii.jpg",
+    "author": "Zureks",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }
