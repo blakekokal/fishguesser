@@ -23,6 +23,7 @@
     hintBtn: $('hintBtn'), promptText: $('promptText'),
     result: $('result'), verdict: $('verdict'), points: $('points'),
     resultLine: $('resultLine'), resultFact: $('resultFact'), nextBtn: $('nextBtn'),
+    version: $('version'),
     overlay: $('overlay'), finalScore: $('finalScore'), finalMax: $('finalMax'),
     endBlurb: $('endBlurb'), breakdown: $('breakdown'), playAgain: $('playAgainBtn'),
   };
@@ -266,6 +267,26 @@
     else if (state.phase === 'result') nextRound();
   });
 
+  /* Shows which build you are looking at, so a stale cached page is obvious.
+   * The date is spelled out rather than rendered from a Date object: the stamp
+   * is a plain string, and parsing it would shift it across time zones. */
+  function showVersion() {
+    if (typeof APP_VERSION === 'undefined') return;
+    const [y, m, d] = (APP_VERSION.date || '').split('-');
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const pretty = y && m && d ? `${Number(d)} ${months[Number(m) - 1]} ${y}` : '';
+    ui.version.textContent = `v${APP_VERSION.version}`;
+    ui.version.title = pretty ? `Version ${APP_VERSION.version}, built ${pretty}` : '';
+    if (pretty) {
+      const stamp = document.createElement('span');
+      stamp.className = 'version-date';
+      stamp.textContent = pretty;
+      ui.version.append(stamp);
+    }
+  }
+
+  showVersion();
   WorldMap.build(ui.map, select);
   buildChips();
   const best = readBest();

@@ -63,6 +63,32 @@ body {
   letter-spacing: -0.01em;
 }
 
+.version {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 2px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--ink-faint);
+  font-size: 11px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.version-date {
+  color: var(--ink-faint);
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.version-date::before {
+  content: '·';
+  margin-right: 6px;
+}
+
 .stats { display: flex; gap: 10px; }
 
 .stat {
@@ -481,6 +507,8 @@ body {
 }
 
 @media (max-width: 560px) {
+  /* Keep the version, drop the date — the brand row is tight here. */
+  .version-date { display: none; }
   .stat { min-width: 60px; padding: 5px 10px; }
   .stat-value { font-size: 15px; }
   .pin-label { font-size: 19px; }
@@ -517,6 +545,8 @@ body {
 
   .brand-mark { font-size: 17px; }
   .brand-name { font-size: 14px; }
+  .version { padding: 1px 7px; font-size: 9.5px; }
+  .version-date { display: none; }
   .stats { gap: 6px; }
   .stat { min-width: 0; padding: 2px 8px; }
   .stat-label { font-size: 8px; }

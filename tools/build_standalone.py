@@ -14,7 +14,8 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SCRIPTS = ["src/regions.js", "src/fish.js", "src/credits.js", "src/map.js", "src/game.js"]
+SCRIPTS = ["src/version.js", "src/regions.js", "src/fish.js", "src/credits.js",
+           "src/map.js", "src/game.js"]
 DEFAULT_OUT = os.path.join(ROOT, "dist", "fishguesser.html")
 
 

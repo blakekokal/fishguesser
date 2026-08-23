@@ -53,6 +53,7 @@ centroids of the two regions.
 ```
 index.html              markup and script order
 styles.css              deep-water theme
+src/version.js          version + build date shown in the header
 src/regions.js          the 10 regions + haversine distance
 src/fish.js             the 30 fish (name, photo, home region, fun fact)
 src/credits.js          generated photo attribution
@@ -61,6 +62,23 @@ src/game.js             game loop, scoring, end screen
 assets/fish/            the photographs + credits.json
 tools/build_credits.py  regenerates src/credits.js and CREDITS.md
 tools/build_standalone.py  bundles everything into one shareable HTML file
+tools/bump_version.py   bumps the version and stamps today's date
+```
+
+## Versioning
+
+The header shows the running version and build date (`v1.4.0 · 23 Aug 2026`),
+so a stale cached page is easy to spot. The date is dropped on narrow screens
+and the full stamp stays available as the badge's tooltip.
+
+`src/version.js` is the only place the version lives. Bump it before committing
+a change you want to be visible:
+
+```sh
+python3 tools/bump_version.py          # patch: 1.4.0 -> 1.4.1
+python3 tools/bump_version.py minor    # 1.4.1 -> 1.5.0
+python3 tools/bump_version.py major    # 1.5.0 -> 2.0.0
+python3 tools/bump_version.py 2.1.3    # or set it explicitly
 ```
 
 ## Building a single-file version
