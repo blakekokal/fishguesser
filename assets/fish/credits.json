@@ -1091,5 +1091,40 @@
     "author": "H. Zell",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "wolf-eel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250584063/large.jpg",
+    "source": "https://www.inaturalist.org/observations/145836028",
+    "author": "Julien Lepage",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "longhorn-cowfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181074129/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/107637161",
+    "author": "劉哲瑋",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "japanese-pineconefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613333857/large.jpg",
+    "source": "https://www.inaturalist.org/observations/337396330",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "american-paddlefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458720587/large.jpg",
+    "source": "https://www.inaturalist.org/observations/255918853",
+    "author": "Jon Mortin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "electric-catfish": {
+    "commons_title": "File:Malapterurus electricus 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Malapterurus_electricus_1.jpg",
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

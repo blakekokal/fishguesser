@@ -104,6 +104,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'California made it the state marine fish and then made it illegal to take one, so the brightest orange thing on the reef is also among the best protected.',
   },
+  {
+    id: 'wolf-eel',
+    name: 'Wolf-eel',
+    sciName: 'Anarrhichthys ocellatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/250584063/large.jpg',
+    region: 'north-pacific',
+    fact: 'Pairs move into a den and stay together for decades, and the jaws that let them crush whole sea urchins give an old male the face of a scowling boxer.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -578,6 +586,14 @@ const FISH = [
     region: 'congo',
     fact: 'Swims on its back to graze the undersides of leaves and logs, with its counter-shading reversed to match: dark belly, pale back.',
   },
+  {
+    id: 'electric-catfish',
+    name: 'Electric Catfish',
+    sciName: 'Malapterurus electricus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Malapterurus_electricus_1.jpg/1280px-Malapterurus_electricus_1.jpg',
+    region: 'congo',
+    fact: 'Muscle wrapped around almost its entire body fires a shock of some 350 volts — Egyptian tomb carvers were recording the fish more than four thousand years ago.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -749,6 +765,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Barcelona-L%27Aquarium-Tibur%C3%B3n_de_puntas_blancas_%28Triaenodon_obesus%29.jpg/1280px-Barcelona-L%27Aquarium-Tibur%C3%B3n_de_puntas_blancas_%28Triaenodon_obesus%29.jpg',
     region: 'coral-triangle',
     fact: 'Unusually for a shark it can lie still on the bottom and pump water over its gills, so it spends the day piled in caves and hunts by night.',
+  },
+  {
+    id: 'longhorn-cowfish',
+    name: 'Longhorn Cowfish',
+    sciName: 'Lactoria cornuta',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/181074129/large.jpeg',
+    region: 'coral-triangle',
+    fact: 'Its body is a rigid box of fused bony plates, so only the fins move; cornered, it leaks a poison that can kill everything in the water around it, itself included.',
   },
   // ---- Northern Australia ----
   {
@@ -998,6 +1022,14 @@ const FISH = [
     region: 'great-lakes',
     fact: 'Waits motionless in the weed and strikes in a fraction of a second, taking prey up to half its own length — other pike included.',
   },
+  {
+    id: 'american-paddlefish',
+    name: 'American Paddlefish',
+    sciName: 'Polyodon spathula',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/458720587/large.jpg',
+    region: 'great-lakes',
+    fact: 'The long paddle is an antenna, not a shovel: it is covered in receptors that read the faint electrical fields of the plankton the fish filters out of open water.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'sakhalin-taimen',
@@ -1071,6 +1103,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/454966244/large.jpeg',
     region: 'sea-of-japan',
     fact: 'Its teeth fuse into a solid parrot-like beak that crunches barnacles and sea urchins straight off the rock.',
+  },
+  {
+    id: 'japanese-pineconefish',
+    name: 'Japanese Pineconefish',
+    sciName: 'Monocentris japonica',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/613333857/large.jpg',
+    region: 'sea-of-japan',
+    fact: 'Armoured head to tail in plates like a walking pine cone, and it hunts by the light of two organs on its lower jaw, lit by bacteria it farms.',
   },
   // ---- Mekong Basin ----
   {

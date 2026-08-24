@@ -12,6 +12,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg",
   },
+  "american-paddlefish": {
+    author: "Jon Mortin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/255918853",
+  },
   "angelshark": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
@@ -282,6 +288,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Melanotaenia_splendida_splendida_188164829.jpg",
   },
+  "electric-catfish": {
+    author: "Stan Shebs",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Malapterurus_electricus_1.jpg",
+  },
   "electric-eel": {
     author: "FakirNL",
     license: "CC BY-SA 4.0",
@@ -426,6 +438,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Japanese_bullhead_shark_Suma_Aqualife_Park.jpg",
   },
+  "japanese-pineconefish": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/337396330",
+  },
   "kahawai": {
     author: "Peter Crowcroft",
     license: "CC BY 4.0",
@@ -467,6 +485,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_01.jpg",
+  },
+  "longhorn-cowfish": {
+    author: "劉哲瑋",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://www.inaturalist.org/observations/107637161",
   },
   "longnose-gar": {
     author: "USFWS Mountain Prairie",
@@ -887,6 +911,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Barcelona-L'Aquarium-Tiburón_de_puntas_blancas_(Triaenodon_obesus).jpg",
+  },
+  "wolf-eel": {
+    author: "Julien Lepage",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/145836028",
   },
   "yellow-perch": {
     author: "USFWS Mountain Prairie",
