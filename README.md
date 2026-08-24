@@ -3,8 +3,8 @@
 A GeoGuessr-style guessing game for fish. You get a photograph of a fish and its
 name; you decide which of fifteen regions of the world it comes from.
 
-- **70 species**, each photographed alive in the wild or in an aquarium
-- **15 regions**, from the Arctic Ocean to New Zealand — four or five fish live
+- **90 species**, each photographed alive in the wild or in an aquarium
+- **15 regions**, from the Arctic Ocean to New Zealand — four to seven fish live
   in each, so the map has to be read rather than memorised
 - **5 rounds per game**, drawn at random from the species list
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
@@ -21,6 +21,9 @@ name; you decide which of fifteen regions of the world it comes from.
   of peek gives up that round's +500; only a full reveal costs you a reveal
 - **Fits a phone on one screen** in both portrait and landscape, without
   scrolling — the photo takes whatever height is left rather than setting it
+- **The whole fish, always** — photos come in every proportion, so the frame
+  letterboxes rather than crops, and fills the gap with a blurred wash of the
+  same photo. Nothing loses its head or tail to the frame
 
 No build step and no dependencies. Photos are linked from Wikimedia Commons
 rather than committed, so the game needs a network connection to show them.
@@ -72,7 +75,7 @@ index.html              markup and script order
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions + haversine distance
-src/fish.js             the 70 fish (name, photo URL, home region, fun fact)
+src/fish.js             the 90 fish (name, photo URL, home region, fun fact)
 src/credits.js          generated photo attribution
 src/coastlines.js       generated Natural Earth land outlines
 src/map.js              the world map: projection, coastlines, section partition
@@ -118,11 +121,21 @@ neighbours automatically and the map stays fully covered. `LABEL_AT` in
 `map.js` can nudge a label that lands badly, and an optional `short` gives the
 map a shorter name than the full one.
 
-When choosing a species, check that its natural range genuinely centres on one
-region — a fish found right across the Indo-Pacific makes for an unfair round.
+When choosing a species, check two things. Its natural range has to centre
+genuinely on one region — a fish found right across the Indo-Pacific makes for
+an unfair round. And the photograph has to *show the fish*: Commons is full of
+correctly named, correctly licensed pictures that are useless as a clue —
+specimens in jars, taxidermy mounts, fish on a plate, scientific illustrations,
+shoals too distant to read. `--check` confirms a URL resolves, not that the
+picture is any good, so look at it.
+
+Regions are not evenly stocked, and that is deliberate. The Southern Ocean has
+four fish and the Arctic five, because almost nothing else that lives there has
+a usable photograph on Commons; the Caribbean, the Amazon and the Great Lakes
+carry seven each instead.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 70 fish; raise it for a longer game that shows more of the
+game samples 5 of the 90 fish; raise it for a longer game that shows more of the
 collection.
 
 ## Map data

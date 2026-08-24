@@ -56,12 +56,20 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Not a shark but a chimaera, from a branch that split off before sharks were sharks: it grinds shellfish with permanent tooth plates, and the spine in front of its dorsal fin is venomous.',
   },
+  {
+    id: 'kelp-greenling',
+    name: 'Kelp Greenling',
+    sciName: 'Hexagrammos decagrammus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Hexagrammos_decagrammus_hembra.jpg/1280px-Hexagrammos_decagrammus_hembra.jpg',
+    region: 'north-pacific',
+    fact: 'Males and females look like separate species — he is grey-blue under electric blue spots, she is brown under golden-orange ones — and both carry five lateral lines down each flank where most fish have one.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
     name: 'Queen Angelfish',
     sciName: 'Holacanthus ciliaris',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holacanthus_ciliaris_2.jpg/1280px-Holacanthus_ciliaris_2.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Pez_%C3%A1ngel_reina_%28Holacanthus_ciliaris%29%2C_Cozumel%2C_M%C3%A9xico%2C_2025-12-20%2C_DD_134.jpg/1280px-Pez_%C3%A1ngel_reina_%28Holacanthus_ciliaris%29%2C_Cozumel%2C_M%C3%A9xico%2C_2025-12-20%2C_DD_134.jpg',
     region: 'caribbean',
     fact: 'Named for the ringed blue "crown" on its forehead. It grazes mostly on sponges around Caribbean and Floridian reefs.',
   },
@@ -97,6 +105,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pez_cirujano_azul_%28Acanthurus_coeruleus%29%2C_Cozumel%2C_M%C3%A9xico%2C_2025-12-20%2C_DD_75.jpg/1280px-Pez_cirujano_azul_%28Acanthurus_coeruleus%29%2C_Cozumel%2C_M%C3%A9xico%2C_2025-12-20%2C_DD_75.jpg',
     region: 'caribbean',
     fact: 'Hatches bright yellow and darkens to deep blue as it matures, keeping a scalpel-sharp hinged spine at the base of the tail that it swings sideways like a switchblade.',
+  },
+  {
+    id: 'foureye-butterflyfish',
+    name: 'Foureye Butterflyfish',
+    sciName: 'Chaetodon capistratus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Chaetodon_capistratus_394406658.jpg/1280px-Chaetodon_capistratus_394406658.jpg',
+    region: 'caribbean',
+    fact: 'The big ringed spot near the tail is a decoy eye, and the real one is hidden in a dark band — a predator aims for the wrong end and the fish escapes forwards.',
+  },
+  {
+    id: 'queen-triggerfish',
+    name: 'Queen Triggerfish',
+    sciName: 'Balistes vetula',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Queen_Triggerfish_Balistes_vetula.jpg/1280px-Queen_Triggerfish_Balistes_vetula.jpg',
+    region: 'caribbean',
+    fact: 'Wedges itself into a crevice by locking a stout dorsal spine upright; a smaller spine behind it works the catch, and until that is released the fish cannot be pulled out.',
   },
   // ---- Amazon Basin ----
   {
@@ -140,6 +164,22 @@ const FISH = [
     region: 'amazon',
     fact: 'The false eyespot on its tail is thought to send a striking predator to the wrong end, and it will lie motionless on its side playing dead until something curious swims close enough to eat.',
   },
+  {
+    id: 'cardinal-tetra',
+    name: 'Cardinal Tetra',
+    sciName: 'Paracheirodon axelrodi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Cardinal_Paracheirodon_axelrodi_%283%29.jpg/1280px-Cardinal_Paracheirodon_axelrodi_%283%29.jpg',
+    region: 'amazon',
+    fact: 'The blue stripe is not pigment but stacked crystal plates bending light, and the fish can tilt them — the colour drains away to near black while it sleeps.',
+  },
+  {
+    id: 'redtail-catfish',
+    name: 'Redtail Catfish',
+    sciName: 'Phractocephalus hemioliopterus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Hal_-_Phractocephalus_hemioliopterus_-_1.jpg/1280px-Hal_-_Phractocephalus_hemioliopterus_-_1.jpg',
+    region: 'amazon',
+    fact: 'Swallows whole anything that fits and passes a metre in length, which is why a palm-sized one sold for a home aquarium rarely stays in it.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -181,6 +221,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Laks_i_laksetrappa.JPG/1280px-Laks_i_laksetrappa.JPG',
     region: 'north-atlantic',
     fact: 'Unlike its Pacific cousins it does not always die after spawning — a few survive the run, slip back down to the sea and return to breed a second or third time.',
+  },
+  {
+    id: 'cuckoo-wrasse',
+    name: 'Cuckoo Wrasse',
+    sciName: 'Labrus mixtus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Labrus_mixtus_23_BG.jpg/1280px-Labrus_mixtus_23_BG.jpg',
+    region: 'north-atlantic',
+    fact: 'Every one hatches female and dull orange. The largest of a group then turns male and repaints itself in electric blue and yellow.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -224,6 +272,14 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Sits motionless under a fringe of skin tassels until prey drifts within reach, then swallows it in a gulp measured in milliseconds; the spines along its back are venomous.',
   },
+  {
+    id: 'striped-red-mullet',
+    name: 'Striped Red Mullet',
+    sciName: 'Mullus surmuletus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mullus_surmuletus_Cala_Gracio.jpg/1280px-Mullus_surmuletus_Cala_Gracio.jpg',
+    region: 'mediterranean',
+    fact: 'Rakes buried prey out of the sand with a pair of long chin barbels it tastes with. Roman diners paid absurd sums for a large one and kept it alive at the table to watch its colours change.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -266,6 +322,14 @@ const FISH = [
     region: 'congo',
     fact: 'The bold black bars that make young fish so striking fade as it grows, until a metre-long adult looks like an entirely different species.',
   },
+  {
+    id: 'ornate-bichir',
+    name: 'Ornate Bichir',
+    sciName: 'Polypterus ornatipinnis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Polypterus_ornatipinnis_VA_01.jpg/1280px-Polypterus_ornatipinnis_VA_01.jpg',
+    region: 'congo',
+    fact: 'Breathes air through a pair of true lungs and will drown if it cannot reach the surface — a body plan little changed since before the dinosaurs.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -300,6 +364,22 @@ const FISH = [
     fact: 'Hunts hanging head-down among reed stems, its blade-thin body almost invisible end-on until it strikes.',
   },
 
+  {
+    id: 'white-spotted-cichlid',
+    name: 'White-spotted Cichlid',
+    sciName: 'Tropheus duboisi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/%E7%8F%8D%E7%8F%A0%E8%9D%B4%E8%9D%B6_Tropheus_duboisi_%28Marlier%2C_1959%29_-_panoramio.jpg/1280px-%E7%8F%8D%E7%8F%A0%E8%9D%B4%E8%9D%B6_Tropheus_duboisi_%28Marlier%2C_1959%29_-_panoramio.jpg',
+    region: 'rift-lakes',
+    fact: 'Juveniles are jet black under a scatter of brilliant white spots. The spots fade as the fish matures until nothing is left but a dark body crossed by one broad pale band.',
+  },
+  {
+    id: 'cuckoo-catfish',
+    name: 'Cuckoo Catfish',
+    sciName: 'Synodontis multipunctatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Synodontis-multipunctatus.jpg/1280px-Synodontis-multipunctatus.jpg',
+    region: 'rift-lakes',
+    fact: 'Slips its own eggs into a mouthbrooding cichlid\'s clutch as she gathers them up. The catfish hatch first and eat her young from inside her mouth.',
+  },
   // ---- Coral Triangle ----
   {
     id: 'mandarinfish',
@@ -342,6 +422,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Under two centimetres long and so exactly matched to the gorgonian coral it grips that science only noticed it in 1969, when a collected sea fan reached the laboratory with seahorses still aboard.',
   },
+  {
+    id: 'harlequin-sweetlips',
+    name: 'Harlequin Sweetlips',
+    sciName: 'Plectorhinchus chaetodonoides',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Harlequin_sweetlips_%28Plectorhinchus_chaetodonoides%29_%2840815006613%29.jpg/1280px-Harlequin_sweetlips_%28Plectorhinchus_chaetodonoides%29_%2840815006613%29.jpg',
+    region: 'coral-triangle',
+    fact: 'The juvenile is blotched brown and white and swims in a lurching, tumbling motion that mimics a toxic flatworm. The adult drops the act and turns pale under dark spots.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -376,6 +464,22 @@ const FISH = [
     fact: 'A mouthbrooder that carries its young for weeks, and an ancient "bonytongue" — its lineage was swimming before Australia broke from Gondwana.',
   },
 
+  {
+    id: 'nurseryfish',
+    name: 'Nurseryfish',
+    sciName: 'Kurtus gulliveri',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Kurtus_gulliveri.jpg/1280px-Kurtus_gulliveri.jpg',
+    region: 'northern-australia',
+    fact: 'The male grows a bony hook on his forehead and carries the whole egg cluster hanging from it until the young hatch.',
+  },
+  {
+    id: 'eastern-rainbowfish',
+    name: 'Eastern Rainbowfish',
+    sciName: 'Melanotaenia splendida',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Melanotaenia_splendida_splendida_188164829.jpg/1280px-Melanotaenia_splendida_splendida_188164829.jpg',
+    region: 'northern-australia',
+    fact: 'Colour is a morning affair — males flush red and gold at first light to display, then fade back as the day goes on.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -402,12 +506,12 @@ const FISH = [
     fact: 'Rests on the seabed under the sea ice at about −1.9 °C, kept liquid by antifreeze proteins that bind to ice crystals before they can spread.',
   },
   {
-    id: 'mackerel-icefish',
-    name: 'Mackerel Icefish',
-    sciName: 'Champsocephalus gunnari',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mackerel_Icefish_%28Champsocephalus_gunnari%29.jpg/1280px-Mackerel_Icefish_%28Champsocephalus_gunnari%29.jpg',
+    id: 'ocellated-icefish',
+    name: 'Ocellated Icefish',
+    sciName: 'Chionodraco rastrospinosus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Chionodraco_rastrospinosus.jpg/1280px-Chionodraco_rastrospinosus.jpg',
     region: 'southern-ocean',
-    fact: 'Another white-blooded icefish. With no haemoglobin it compensates with an oversized heart and unusually large volumes of blood.',
+    fact: 'White-blooded like its relatives, and named for the dark ringed spot on the first dorsal fin. It hangs almost motionless in the water to spend as little oxygen as it can.',
   },
 
   // ---- Arctic Ocean ----
@@ -444,6 +548,14 @@ const FISH = [
     fact: 'The northernmost freshwater fish on Earth, living in lakes that stay frozen most of the year.',
   },
 
+  {
+    id: 'arctic-grayling',
+    name: 'Arctic Grayling',
+    sciName: 'Thymallus arcticus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Underwater_Arctic_Grayling.jpg/1280px-Underwater_Arctic_Grayling.jpg',
+    region: 'arctic',
+    fact: 'The oversized dorsal fin folds flat while swimming and opens like a spotted, purple-edged sail when the fish displays or holds its place in the current.',
+  },
   // ---- Great Lakes ----
   {
     id: 'lake-sturgeon',
@@ -486,14 +598,30 @@ const FISH = [
     region: 'great-lakes',
     fact: 'A mirror-like layer behind the retina gathers what little light is left at dusk, so it hunts in the gloom that leaves its prey effectively blind.',
   },
+  {
+    id: 'yellow-perch',
+    name: 'Yellow Perch',
+    sciName: 'Perca flavescens',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Yellow_Perch_%28Perca_flavescens%29.jpg/1280px-Yellow_Perch_%28Perca_flavescens%29.jpg',
+    region: 'great-lakes',
+    fact: 'Hunts in packs that herd smaller fish against the shallows, and the dark bars down its sides break its outline up against weed.',
+  },
+  {
+    id: 'longnose-gar',
+    name: 'Longnose Gar',
+    sciName: 'Lepisosteus osseus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Longnose_Gar_%28Lepisosteus_osseus%29.jpg/1280px-Longnose_Gar_%28Lepisosteus_osseus%29.jpg',
+    region: 'great-lakes',
+    fact: 'Armoured in interlocking enamel-hard scales and able to gulp air at the surface, it survives water that suffocates other fish. Its eggs are poisonous to whatever eats them.',
+  },
   // ---- Sea of Japan ----
   {
-    id: 'japanese-amberjack',
-    name: 'Japanese Amberjack',
-    sciName: 'Seriola quinqueradiata',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Seriola_quinqueradiata.jpg/1280px-Seriola_quinqueradiata.jpg',
+    id: 'sakhalin-taimen',
+    name: 'Sakhalin Taimen',
+    sciName: 'Parahucho perryi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hucho_perryi_Yamano1.jpg/1280px-Hucho_perryi_Yamano1.jpg',
     region: 'sea-of-japan',
-    fact: 'Known as buri, and renamed at each stage of its life as it grows — a fish whose name tells you how big it is.',
+    fact: 'Passes a metre in length, lives thirty years and turns deep red to spawn. So few rivers still hold it that anglers call it the phantom fish.',
   },
   {
     id: 'red-seabream',
@@ -527,6 +655,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Plecoglossus_altivelis_Totto.jpg/1280px-Plecoglossus_altivelis_Totto.jpg',
     region: 'sea-of-japan',
     fact: 'Scrapes algae off river stones and leaves oval grazing marks behind; its flesh smells of melon, and almost every fish lives just one year.',
+  },
+  {
+    id: 'sailfin-sandfish',
+    name: 'Sailfin Sandfish',
+    sciName: 'Arctoscopus japonicus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Arctoscopus_japonicus_Umigatari.png/1280px-Arctoscopus_japonicus_Umigatari.png.jpg',
+    region: 'sea-of-japan',
+    fact: 'Has no scales at all. It spawns during the winter storms, crowding into the shallows in numbers that leave the surf thick with eggs.',
   },
   // ---- Mekong Basin ----
   {
@@ -562,6 +698,22 @@ const FISH = [
     fact: 'Breathes air and can cross damp ground between pools. Both parents guard the shoal of red fry and will drive off anything that comes near.',
   },
 
+  {
+    id: 'giant-barb',
+    name: 'Giant Barb',
+    sciName: 'Catlocarpio siamensis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Siamese_giant_carp_%28Catlocarpio_siamensis%29_2.jpg/1280px-Siamese_giant_carp_%28Catlocarpio_siamensis%29_2.jpg',
+    region: 'mekong',
+    fact: 'The largest carp in the world at up to three metres, and it lives on algae, plankton and fruit dropped from flooded riverbanks.',
+  },
+  {
+    id: 'clown-featherback',
+    name: 'Clown Featherback',
+    sciName: 'Chitala ornata',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Adult_Clown_featherback_in_aquarium.jpg/1280px-Adult_Clown_featherback_in_aquarium.jpg',
+    region: 'mekong',
+    fact: 'Holds its body rigid and swims by rippling one long unbroken fin along its underside, forwards or backwards with equal ease.',
+  },
   // ---- New Zealand ----
   {
     id: 'australasian-snapper',
@@ -602,5 +754,13 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Red_Moki_%28Cheilodactylus_spectabilis%29.jpg/1280px-Red_Moki_%28Cheilodactylus_spectabilis%29.jpg',
     region: 'new-zealand',
     fact: 'Sifts invertebrates out of mouthfuls of sand with thick fleshy lips, and holds the same patch of reef for decades — some are over sixty years old.',
+  },
+  {
+    id: 'red-gurnard',
+    name: 'Red Gurnard',
+    sciName: 'Chelidonichthys kumu',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chelidonichthys_kumu.jpg/1280px-Chelidonichthys_kumu.jpg',
+    region: 'new-zealand',
+    fact: 'Walks the seabed on three stiff finger-like rays split off from each pectoral fin, feeling for buried prey, and grunts audibly by drumming its swim bladder.',
   },
 ];

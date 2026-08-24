@@ -8,12 +8,11 @@
     "license_url": ""
   },
   "queen-angelfish": {
-    "file": "assets/fish/queen-angelfish.jpg",
-    "commons_title": "File:Holacanthus ciliaris 2.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Holacanthus_ciliaris_2.jpg",
-    "author": "Stan Shebs",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    "commons_title": "File:Pez ángel reina (Holacanthus ciliaris), Cozumel, México, 2025-12-20, DD 134.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pez_ángel_reina_(Holacanthus_ciliaris),_Cozumel,_México,_2025-12-20,_DD_134.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "red-bellied-piranha": {
     "file": "assets/fish/red-bellied-piranha.jpg",
@@ -311,14 +310,6 @@
     "license": "CC BY-SA 3.0",
     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
-  "mackerel-icefish": {
-    "file": "assets/fish/mackerel-icefish.jpg",
-    "commons_title": "File:Mackerel Icefish (Champsocephalus gunnari).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Mackerel_Icefish_(Champsocephalus_gunnari).jpg",
-    "author": "Ryan Somma",
-    "license": "CC BY-SA 2.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
-  },
   "greenland-shark": {
     "file": "assets/fish/greenland-shark.jpg",
     "commons_title": "File:Greenland shark profile.jpg",
@@ -381,14 +372,6 @@
     "author": "USFWS Mountain Prairie",
     "license": "Public domain",
     "license_url": ""
-  },
-  "japanese-amberjack": {
-    "file": "assets/fish/japanese-amberjack.jpg",
-    "commons_title": "File:Seriola quinqueradiata.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata.jpg",
-    "author": "re_nebel",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "red-seabream": {
     "file": "assets/fish/red-seabream.jpg",
@@ -539,5 +522,159 @@
     "author": "Avenue",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "ocellated-icefish": {
+    "commons_title": "File:Chionodraco rastrospinosus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chionodraco_rastrospinosus.jpg",
+    "author": "Valerie Loeb",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "sakhalin-taimen": {
+    "commons_title": "File:Hucho perryi Yamano1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hucho_perryi_Yamano1.jpg",
+    "author": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "kelp-greenling": {
+    "commons_title": "File:Hexagrammos decagrammus hembra.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hexagrammos_decagrammus_hembra.jpg",
+    "author": "Steve Lonhart / NOAA MBNMS",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "queen-triggerfish": {
+    "commons_title": "File:Queen Triggerfish Balistes vetula.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Triggerfish_Balistes_vetula.jpg",
+    "author": "Greg Grimes",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "foureye-butterflyfish": {
+    "commons_title": "File:Chaetodon capistratus 394406658.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chaetodon_capistratus_394406658.jpg",
+    "author": "Fish and Dive",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "redtail-catfish": {
+    "commons_title": "File:Hal - Phractocephalus hemioliopterus - 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hal_-_Phractocephalus_hemioliopterus_-_1.jpg",
+    "author": "Emőke Dénes",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cardinal-tetra": {
+    "commons_title": "File:Cardinal Paracheirodon axelrodi (3).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cardinal_Paracheirodon_axelrodi_(3).jpg",
+    "author": "CHUCAO",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "cuckoo-wrasse": {
+    "commons_title": "File:Labrus mixtus 23 BG.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Labrus_mixtus_23_BG.jpg",
+    "author": "Bingar1234",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "striped-red-mullet": {
+    "commons_title": "File:Mullus surmuletus Cala Gracio.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus_Cala_Gracio.jpg",
+    "author": "Tigerente",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "ornate-bichir": {
+    "commons_title": "File:Polypterus ornatipinnis VA 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis_VA_01.jpg",
+    "author": "Bloopityboop",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cuckoo-catfish": {
+    "commons_title": "File:Synodontis-multipunctatus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Synodontis-multipunctatus.jpg",
+    "author": "Mario Rubio García",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "white-spotted-cichlid": {
+    "commons_title": "File:珍珠蝴蝶 Tropheus duboisi (Marlier, 1959) - panoramio.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:珍珠蝴蝶_Tropheus_duboisi_(Marlier,_1959)_-_panoramio.jpg",
+    "author": "lienyuan lee",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "harlequin-sweetlips": {
+    "commons_title": "File:Harlequin sweetlips (Plectorhinchus chaetodonoides) (40815006613).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
+    "author": "Rickard Zerpe",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "eastern-rainbowfish": {
+    "commons_title": "File:Melanotaenia splendida splendida 188164829.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Melanotaenia_splendida_splendida_188164829.jpg",
+    "author": "Jesse de Vries",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "nurseryfish": {
+    "commons_title": "File:Kurtus gulliveri.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kurtus_gulliveri.jpg",
+    "author": "Geekgecko",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "arctic-grayling": {
+    "commons_title": "File:Underwater Arctic Grayling.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Underwater_Arctic_Grayling.jpg",
+    "author": "AKSMITH",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "longnose-gar": {
+    "commons_title": "File:Longnose Gar (Lepisosteus osseus).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Longnose_Gar_(Lepisosteus_osseus).jpg",
+    "author": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "yellow-perch": {
+    "commons_title": "File:Yellow Perch (Perca flavescens).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Yellow_Perch_(Perca_flavescens).jpg",
+    "author": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "sailfin-sandfish": {
+    "commons_title": "File:Arctoscopus japonicus Umigatari.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Arctoscopus_japonicus_Umigatari.png",
+    "author": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "clown-featherback": {
+    "commons_title": "File:Adult Clown featherback in aquarium.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Adult_Clown_featherback_in_aquarium.jpg",
+    "author": "Jesaya Li",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "giant-barb": {
+    "commons_title": "File:Siamese giant carp (Catlocarpio siamensis) 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Siamese_giant_carp_(Catlocarpio_siamensis)_2.jpg",
+    "author": "Mhlayson",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "red-gurnard": {
+    "commons_title": "File:Chelidonichthys kumu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chelidonichthys_kumu.jpg",
+    "author": "Brian Gratwicke",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
   }
 }

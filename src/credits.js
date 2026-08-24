@@ -30,6 +30,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_Kaiyukan.jpg",
   },
+  "arctic-grayling": {
+    author: "AKSMITH",
+    license: "CC BY-SA 2.5",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.5",
+    source: "https://commons.wikimedia.org/wiki/File:Underwater_Arctic_Grayling.jpg",
+  },
   "atlantic-blue-tang": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -114,17 +120,41 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mallotus_villosus.jpg",
   },
+  "cardinal-tetra": {
+    author: "CHUCAO",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cardinal_Paracheirodon_axelrodi_(3).jpg",
+  },
   "clown-anemonefish": {
     author: "Nick Hobgood",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Amphiprion_ocellaris_(Clown_anemonefish)_by_Nick_Hobgood.jpg",
   },
+  "clown-featherback": {
+    author: "Jesaya Li",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Adult_Clown_featherback_in_aquarium.jpg",
+  },
   "congo-tetra": {
     author: "7TP (Krzysztof Bartosik)",
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Phenacogrammus_interruptus_1.jpg",
+  },
+  "cuckoo-catfish": {
+    author: "Mario Rubio García",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Synodontis-multipunctatus.jpg",
+  },
+  "cuckoo-wrasse": {
+    author: "Bingar1234",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Labrus_mixtus_23_BG.jpg",
   },
   "discus": {
     author: "H. Zell",
@@ -137,6 +167,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mero_(Epinephelus_marginatus),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-15,_DD_34.jpg",
+  },
+  "eastern-rainbowfish": {
+    author: "Jesse de Vries",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Melanotaenia_splendida_splendida_188164829.jpg",
   },
   "electric-eel": {
     author: "FakirNL",
@@ -168,11 +204,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG",
   },
+  "foureye-butterflyfish": {
+    author: "Fish and Dive",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Chaetodon_capistratus_394406658.jpg",
+  },
   "frontosa": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
+  },
+  "giant-barb": {
+    author: "Mhlayson",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Siamese_giant_carp_(Catlocarpio_siamensis)_2.jpg",
   },
   "giant-freshwater-stingray": {
     author: "Gant223",
@@ -210,17 +258,23 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG",
   },
-  "japanese-amberjack": {
-    author: "re_nebel",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata.jpg",
+  "harlequin-sweetlips": {
+    author: "Rickard Zerpe",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
   },
   "kahawai": {
     author: "zoology",
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Arripis_trutta_NZ.jpg",
+  },
+  "kelp-greenling": {
+    author: "Steve Lonhart / NOAA MBNMS",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Hexagrammos_decagrammus_hembra.jpg",
   },
   "lake-sturgeon": {
     author: "USFWS Mountain Prairie",
@@ -246,17 +300,17 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_62220829.jpg",
   },
+  "longnose-gar": {
+    author: "USFWS Mountain Prairie",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Longnose_Gar_(Lepisosteus_osseus).jpg",
+  },
   "lumpfish": {
     author: "Tiit Hunt",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Merivarblane.jpg",
-  },
-  "mackerel-icefish": {
-    author: "Ryan Somma",
-    license: "CC BY-SA 2.0",
-    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
-    source: "https://commons.wikimedia.org/wiki/File:Mackerel_Icefish_(Champsocephalus_gunnari).jpg",
   },
   "malawi-eyebiter": {
     author: "Hectonichus",
@@ -293,6 +347,24 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
+  },
+  "nurseryfish": {
+    author: "Geekgecko",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Kurtus_gulliveri.jpg",
+  },
+  "ocellated-icefish": {
+    author: "Valerie Loeb",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Chionodraco_rastrospinosus.jpg",
+  },
+  "ornate-bichir": {
+    author: "Bloopityboop",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis_VA_01.jpg",
   },
   "oscar": {
     author: "André Karwath aka Aka",
@@ -331,16 +403,28 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Pygmy_seahorse_(Hippocampus_bargibanti)_(16245385685).jpg",
   },
   "queen-angelfish": {
-    author: "Stan Shebs",
-    license: "CC BY-SA 3.0",
-    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
-    source: "https://commons.wikimedia.org/wiki/File:Holacanthus_ciliaris_2.jpg",
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pez_ángel_reina_(Holacanthus_ciliaris),_Cozumel,_México,_2025-12-20,_DD_134.jpg",
+  },
+  "queen-triggerfish": {
+    author: "Greg Grimes",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Queen_Triggerfish_Balistes_vetula.jpg",
   },
   "red-bellied-piranha": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+  },
+  "red-gurnard": {
+    author: "Brian Gratwicke",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Chelidonichthys_kumu.jpg",
   },
   "red-moki": {
     author: "Avenue",
@@ -360,11 +444,29 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pagrus_major_ioworld.jpg",
   },
+  "redtail-catfish": {
+    author: "Emőke Dénes",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Hal_-_Phractocephalus_hemioliopterus_-_1.jpg",
+  },
   "ribbon-eel": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Anguila_list%C3%B3n_azul_(Rhinomuraena_quaesita),_Anilao,_Filipinas,_2023-08-23,_DD_60.jpg",
+  },
+  "sailfin-sandfish": {
+    author: "Totti",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Arctoscopus_japonicus_Umigatari.png",
+  },
+  "sakhalin-taimen": {
+    author: "Totti",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Hucho_perryi_Yamano1.jpg",
   },
   "siamese-fighting-fish": {
     author: "Henryk Niestrój",
@@ -396,6 +498,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Stoplight-parrotfish.jpg",
   },
+  "striped-red-mullet": {
+    author: "Tigerente",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus_Cala_Gracio.jpg",
+  },
   "tarpon": {
     author: "Daiju Azuma",
     license: "CC BY-SA 4.0",
@@ -413,6 +521,18 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
+  },
+  "white-spotted-cichlid": {
+    author: "lienyuan lee",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:珍珠蝴蝶_Tropheus_duboisi_(Marlier,_1959)_-_panoramio.jpg",
+  },
+  "yellow-perch": {
+    author: "USFWS Mountain Prairie",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Yellow_Perch_(Perca_flavescens).jpg",
   },
   "yelloweye-rockfish": {
     author: "Jason Grant",

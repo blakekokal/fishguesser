@@ -28,6 +28,9 @@
 
   <section class="panel fish-panel">
     <div class="photo-frame">
+      <!-- A blurred, cropped copy of the same photo fills whatever the fish
+           does not, so the fish itself is never cut off by the frame. -->
+      <img id="fishPhotoBg" class="photo-bg" alt="" src="" aria-hidden="true">
       <img id="fishPhoto" class="photo" alt="" src="">
       <figcaption class="photo-credit" id="photoCredit"></figcaption>
     </div>

@@ -25,7 +25,7 @@
   const ui = {
     round: $('roundValue'), score: $('scoreValue'), best: $('bestValue'),
     hints: $('hintsValue'),
-    photo: $('fishPhoto'), credit: $('photoCredit'),
+    photo: $('fishPhoto'), photoBg: $('fishPhotoBg'), credit: $('photoCredit'),
     name: $('fishName'), sci: $('fishSci'),
     map: $('map'),
     actionBar: $('actionBar'), hint: $('hint'), guessBtn: $('guessBtn'),
@@ -179,6 +179,8 @@
      * text on screen, which would hand over the answer. */
     ui.photo.alt = 'Photograph of the fish to identify';
     ui.photo.src = fish.image;
+    ui.photoBg.classList.remove('is-ready');
+    ui.photoBg.src = fish.image;
     ui.name.textContent = maskName(fish.name);
     ui.name.classList.add('is-masked');
     // Shown even while the common name is censored — it is the taxonomy, not
@@ -350,6 +352,7 @@
   }
 
   ui.photo.addEventListener('load', () => ui.photo.classList.add('is-ready'));
+  ui.photoBg.addEventListener('load', () => ui.photoBg.classList.add('is-ready'));
   /* Photos are fetched from Wikimedia at play time, so a slow or blocked
    * network is a real possibility. Say so rather than leaving an empty frame —
    * the round is still playable, since the name and the map carry the puzzle. */
