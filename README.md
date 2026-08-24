@@ -5,7 +5,8 @@ name; you decide which of fifteen regions of the world it comes from.
 
 - **90 species**, each photographed alive in the wild or in an aquarium
 - **15 regions**, from the Arctic Ocean to New Zealand — four to seven fish live
-  in each, so the map has to be read rather than memorised
+  in each, so the map has to be read rather than memorised. The header counts
+  the collection straight from the data, so it never goes stale
 - **5 rounds per game**, drawn at random from the species list
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
@@ -129,10 +130,12 @@ specimens in jars, taxidermy mounts, fish on a plate, scientific illustrations,
 shoals too distant to read. `--check` confirms a URL resolves, not that the
 picture is any good, so look at it.
 
-Regions are not evenly stocked, and that is deliberate. The Southern Ocean has
-four fish and the Arctic five, because almost nothing else that lives there has
-a usable photograph on Commons; the Caribbean, the Amazon and the Great Lakes
-carry seven each instead.
+Regions do not need equal numbers of fish, and they do not have them. Pick the
+best species and the best photograph for each region and let the counts fall
+where they fall: the Southern Ocean has four, the Arctic five, the Caribbean,
+Amazon and Great Lakes seven. Scoring is by distance and the map sections are
+computed from region centres, so nothing in the game depends on the counts
+matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
 game samples 5 of the 90 fish; raise it for a longer game that shows more of the

@@ -33,7 +33,7 @@
     result: $('result'), verdict: $('verdict'), points: $('points'),
     resultBonus: $('resultBonus'),
     resultLine: $('resultLine'), resultFact: $('resultFact'), nextBtn: $('nextBtn'),
-    version: $('version'),
+    version: $('version'), speciesCount: $('speciesCount'),
     overlay: $('overlay'), finalScore: $('finalScore'), finalMax: $('finalMax'),
     endBlurb: $('endBlurb'), breakdown: $('breakdown'), playAgain: $('playAgainBtn'),
   };
@@ -387,7 +387,20 @@
     }
   }
 
+  /* Counted, never hard-coded: adding a fish to FISH updates the header. */
+  function showSpeciesCount() {
+    const n = FISH.length;
+    ui.speciesCount.textContent = fmt(n);
+    const label = document.createElement('span');
+    label.className = 'species-count-label';
+    label.textContent = 'fish';
+    ui.speciesCount.append(label);
+    ui.speciesCount.title =
+      `${fmt(n)} species across ${REGIONS.length} regions`;
+  }
+
   showVersion();
+  showSpeciesCount();
   WorldMap.build(ui.map, select);
   const best = readBest();
   ui.best.textContent = best ? fmt(best) : '—';

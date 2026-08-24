@@ -78,6 +78,30 @@ body {
   white-space: nowrap;
 }
 
+/* How big the collection is, counted from FISH rather than written down, so it
+ * cannot drift out of date when species are added. */
+.species-count {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  padding: 2px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.species-count-label {
+  color: var(--ink-faint);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .version-date {
   color: var(--ink-faint);
   font-weight: 500;
