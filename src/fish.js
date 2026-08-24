@@ -316,6 +316,14 @@ const FISH = [
     region: 'amazon',
     fact: 'That flattened disc of a body slips edge-on between flooded roots and stems, where a normally built fish would jam.',
   },
+  {
+    id: 'trahira',
+    name: 'Trahira',
+    sciName: 'Hoplias malabaricus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/368268376/large.jpeg',
+    region: 'amazon',
+    fact: 'Hangs motionless in shallow weed behind a set of conical teeth too big to shut away, and gulps air to sit out a drought as its pool shrinks around it.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -660,6 +668,14 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'Every stretch of rocky shore in Lake Tanganyika has its own colour form, and a few kilometres of open sand is enough to keep them apart.',
   },
+  {
+    id: 'golden-mbuna',
+    name: 'Golden Mbuna',
+    sciName: 'Melanochromis auratus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/237366321/large.jpeg',
+    region: 'rift-lakes',
+    fact: 'Females and young are gold with black stripes; a male turns the pattern inside out as he matures, ending up near-black with gold lines.',
+  },
   // ---- Coral Triangle ----
   {
     id: 'mandarinfish',
@@ -856,6 +872,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Shoots a jet of water from its mouth to knock insects off overhanging leaves, correcting as it aims for the way light bends at the surface.',
   },
+  {
+    id: 'largetooth-sawfish',
+    name: 'Largetooth Sawfish',
+    sciName: 'Pristis pristis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/337739791/large.jpeg',
+    region: 'northern-australia',
+    fact: 'The saw is a sensing blade as much as a weapon: it is studded with receptors that pick up hidden fish, and then it is swung sideways through the shoal.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -931,6 +955,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Underwater_Arctic_Grayling.jpg/1280px-Underwater_Arctic_Grayling.jpg',
     region: 'arctic',
     fact: 'The oversized dorsal fin folds flat while swimming and opens like a spotted, purple-edged sail when the fish displays or holds its place in the current.',
+  },
+  {
+    id: 'shorthorn-sculpin',
+    name: 'Shorthorn Sculpin',
+    sciName: 'Myoxocephalus scorpius',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/698530829/large.jpg',
+    region: 'arctic',
+    fact: 'Antifreeze proteins in its blood let it sit out water below freezing, and a cornered one flares its gill covers into a spiked mask half again the size of its head.',
   },
   // ---- Great Lakes ----
   {
@@ -1185,6 +1217,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Datnioides_pulcher_by_OpenCage.jpg/1280px-Datnioides_pulcher_by_OpenCage.jpg',
     region: 'mekong',
     fact: 'Hangs almost motionless among flooded branches, its broad black bars breaking up its outline, then swings its whole body to inhale a passing fish.',
+  },
+  {
+    id: 'climbing-perch',
+    name: 'Climbing Perch',
+    sciName: 'Anabas testudineus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/52464343/large.jpg',
+    region: 'mekong',
+    fact: 'Breathes air through an organ above its gills and hauls itself overland on its gill covers and fins, crossing dry ground between pools and lasting days out of water.',
   },
   // ---- New Zealand ----
   {

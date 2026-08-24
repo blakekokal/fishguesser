@@ -216,6 +216,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Japan_fish,_Sakuradai_(Sacura_margaritacea)_(15770306721).jpg",
   },
+  "climbing-perch": {
+    author: "Abu Hamas",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/33406064",
+  },
   "clown-anemonefish": {
     author: "Nick Hobgood",
     license: "CC BY-SA 3.0",
@@ -408,6 +414,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Kryptopterus_vitreolus_(Cologne_Zoo).jpg",
   },
+  "golden-mbuna": {
+    author: "Roland Godon",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/138845070",
+  },
   "goliath-tigerfish": {
     author: "Sablegsd",
     license: "CC BY-SA 3.0",
@@ -467,6 +479,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Iron_River_NFH_lake_trout_6_March_2024.png",
+  },
+  "largetooth-sawfish": {
+    author: "Matthew Inabinett",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/192398992",
   },
   "leopard-shark": {
     author: "Brian Gratwicke",
@@ -774,6 +792,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg",
   },
+  "shorthorn-sculpin": {
+    author: "Rebekah Bajkó",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/381745131",
+  },
   "siamese-fighting-fish": {
     author: "Henryk Niestrój",
     license: "CC BY 4.0",
@@ -881,6 +905,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Takifugu_rubripes_AQUAS.jpg",
+  },
+  "trahira": {
+    author: "R Vasconcellos",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/208159476",
   },
   "upside-down-catfish": {
     author: "Igor Balashov",
