@@ -91,10 +91,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Bluegill_(Lepomis_macrochirus)_black_background.jpg",
   },
   "capelin": {
-    author: "Ryan Hodnett",
-    license: "CC BY-SA 4.0",
-    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Capelin_(Mallotus_villosus)_-_Sandy_Cove,_Newfoundland_2019-08-14_(01).jpg",
+    author: "michaelbakkerpaiva",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Mallotus_villosus.jpg",
   },
   "clown-anemonefish": {
     author: "Nick Hobgood",

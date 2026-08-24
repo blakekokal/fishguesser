@@ -336,12 +336,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "capelin": {
-    "file": "assets/fish/capelin.jpg",
-    "commons_title": "File:Capelin (Mallotus villosus) - Sandy Cove, Newfoundland 2019-08-14 (01).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Capelin_(Mallotus_villosus)_-_Sandy_Cove,_Newfoundland_2019-08-14_(01).jpg",
-    "author": "Ryan Hodnett",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "commons_title": "File:Mallotus villosus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mallotus_villosus.jpg",
+    "author": "michaelbakkerpaiva",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "arctic-char": {
     "file": "assets/fish/arctic-char.jpg",

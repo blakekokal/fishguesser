@@ -375,7 +375,7 @@ const FISH = [
     id: 'capelin',
     name: 'Capelin',
     sciName: 'Mallotus villosus',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Capelin_%28Mallotus_villosus%29_-_Sandy_Cove%2C_Newfoundland_2019-08-14_%2801%29.jpg/1280px-Capelin_%28Mallotus_villosus%29_-_Sandy_Cove%2C_Newfoundland_2019-08-14_%2801%29.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mallotus_villosus.jpg/1280px-Mallotus_villosus.jpg',
     region: 'arctic',
     fact: 'Spawns by hurling itself onto gravel beaches in such numbers that the shoreline turns silver, then mostly dies where it lands.',
   },
