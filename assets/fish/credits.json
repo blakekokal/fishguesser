@@ -238,5 +238,181 @@
     "author": "Zureks",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "pacific-halibut": {
+    "file": "assets/fish/pacific-halibut.jpg",
+    "commons_title": "File:Hippoglossus stenolepis 1.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Hippoglossus_stenolepis_1.JPG",
+    "author": "Баранчук-Червонный Лев",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "tarpon": {
+    "file": "assets/fish/tarpon.jpg",
+    "commons_title": "File:Megalops atlanticus by DaijuAzuma.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Megalops_atlanticus_by_DaijuAzuma.jpg",
+    "author": "Daiju Azuma",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "electric-eel": {
+    "file": "assets/fish/electric-eel.jpg",
+    "commons_title": "File:Electrophorus electricus in Ouwehands Dierenpark 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Electrophorus_electricus_in_Ouwehands_Dierenpark_01.jpg",
+    "author": "FakirNL",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "lumpfish": {
+    "file": "assets/fish/lumpfish.jpg",
+    "commons_title": "File:Merivarblane.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Merivarblane.jpg",
+    "author": "Tiit Hunt",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "mediterranean-moray": {
+    "file": "assets/fish/mediterranean-moray.jpg",
+    "commons_title": "File:Morena del Mediterráneo (Muraena helena), Catania, Sicilia, Italia, 2025-04-05, DD 35.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Morena_del_Mediterr%C3%A1neo_(Muraena_helena),_Catania,_Sicilia,_Italia,_2025-04-05,_DD_35.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "african-butterflyfish": {
+    "file": "assets/fish/african-butterflyfish.jpg",
+    "commons_title": "File:Pantodon buchholzi Köln Zoo 31122014 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg",
+    "author": "Vassil",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "malawi-eyebiter": {
+    "file": "assets/fish/malawi-eyebiter.jpg",
+    "commons_title": "File:Cichlidae - Dimidiochromis compressiceps.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Cichlidae_-_Dimidiochromis_compressiceps.JPG",
+    "author": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "ribbon-eel": {
+    "file": "assets/fish/ribbon-eel.jpg",
+    "commons_title": "File:Anguila listón azul (Rhinomuraena quaesita), Anilao, Filipinas, 2023-08-23, DD 60.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anguila_list%C3%B3n_azul_(Rhinomuraena_quaesita),_Anilao,_Filipinas,_2023-08-23,_DD_60.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "gulf-saratoga": {
+    "file": "assets/fish/gulf-saratoga.jpg",
+    "commons_title": "File:Scleropages jardinii 043.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG",
+    "author": "Ginkgo100",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "mackerel-icefish": {
+    "file": "assets/fish/mackerel-icefish.jpg",
+    "commons_title": "File:Mackerel Icefish (Champsocephalus gunnari).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mackerel_Icefish_(Champsocephalus_gunnari).jpg",
+    "author": "Ryan Somma",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "greenland-shark": {
+    "file": "assets/fish/greenland-shark.jpg",
+    "commons_title": "File:Greenland shark profile.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Greenland_shark_profile.jpg",
+    "author": "Hemming1952",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "polar-cod": {
+    "file": "assets/fish/polar-cod.jpg",
+    "commons_title": "File:Boreogadus saida Kaiyukan.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Boreogadus_saida_Kaiyukan.jpg",
+    "author": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "capelin": {
+    "file": "assets/fish/capelin.jpg",
+    "commons_title": "File:Capelin (Mallotus villosus) - Sandy Cove, Newfoundland 2019-08-14 (01).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Capelin_(Mallotus_villosus)_-_Sandy_Cove,_Newfoundland_2019-08-14_(01).jpg",
+    "author": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "arctic-char": {
+    "file": "assets/fish/arctic-char.jpg",
+    "commons_title": "File:Salvelinus alpinus Kaiyukan.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_Kaiyukan.jpg",
+    "author": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "lake-sturgeon": {
+    "file": "assets/fish/lake-sturgeon.jpg",
+    "commons_title": "File:Juvenile Acipenser fulvescens black background.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Juvenile_Acipenser_fulvescens_black_background.jpg",
+    "author": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "muskellunge": {
+    "file": "assets/fish/muskellunge.jpg",
+    "commons_title": "File:Esox masquinongy (muskellunge) 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Esox_masquinongy_(muskellunge)_1.jpg",
+    "author": "James St. John",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "lake-trout": {
+    "file": "assets/fish/lake-trout.jpg",
+    "commons_title": "File:Lake trout fishes salvelinus namaycush.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_trout_fishes_salvelinus_namaycush.jpg",
+    "author": "Knepp Timothy, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "bluegill": {
+    "file": "assets/fish/bluegill.jpg",
+    "commons_title": "File:Bluegill (Lepomis macrochirus) black background.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bluegill_(Lepomis_macrochirus)_black_background.jpg",
+    "author": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "japanese-amberjack": {
+    "file": "assets/fish/japanese-amberjack.jpg",
+    "commons_title": "File:Seriola quinqueradiata.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata.jpg",
+    "author": "re_nebel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-seabream": {
+    "file": "assets/fish/red-seabream.jpg",
+    "commons_title": "File:Pagrus major ioworld.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pagrus_major_ioworld.jpg",
+    "author": "タウナギ",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "torafugu": {
+    "file": "assets/fish/torafugu.jpg",
+    "commons_title": "File:Takifugu rubripes AQUAS.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Takifugu_rubripes_AQUAS.jpg",
+    "author": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "pacific-saury": {
+    "file": "assets/fish/pacific-saury.jpg",
+    "commons_title": "File:Cololabis saira in a tank.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cololabis_saira_in_a_tank.jpg",
+    "author": "出羽雀台",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

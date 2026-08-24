@@ -6,6 +6,12 @@
  * runtime) so the game still works when opened straight from disk. */
 
 const PHOTO_CREDITS = {
+  "african-butterflyfish": {
+    author: "Vassil",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg",
+  },
   "antarctic-toothfish": {
     author: "Valerie Loeb",
     license: "Public domain",
@@ -17,6 +23,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Arapaima_gigas_5147.jpg",
+  },
+  "arctic-char": {
+    author: "Totti",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_Kaiyukan.jpg",
   },
   "atlantic-cod": {
     author: "Wilhelm Thomas Fiege",
@@ -60,6 +72,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:C._aceratus.jpg",
   },
+  "bluegill": {
+    author: "USFWS Mountain Prairie",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Bluegill_(Lepomis_macrochirus)_black_background.jpg",
+  },
+  "capelin": {
+    author: "Ryan Hodnett",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Capelin_(Mallotus_villosus)_-_Sandy_Cove,_Newfoundland_2019-08-14_(01).jpg",
+  },
   "clown-anemonefish": {
     author: "Nick Hobgood",
     license: "CC BY-SA 3.0",
@@ -83,6 +107,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mero_(Epinephelus_marginatus),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-15,_DD_34.jpg",
+  },
+  "electric-eel": {
+    author: "FakirNL",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Electrophorus_electricus_in_Ouwehands_Dierenpark_01.jpg",
   },
   "electric-yellow-cichlid": {
     author: "Jmatz at English Wikipedia\n\n(Original text: Julian Matz (talk))",
@@ -126,11 +156,59 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Hydrocynus_goliath.jpg",
   },
+  "greenland-shark": {
+    author: "Hemming1952",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Greenland_shark_profile.jpg",
+  },
+  "gulf-saratoga": {
+    author: "Ginkgo100",
+    license: "CC BY-SA 3.0",
+    license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
+    source: "https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG",
+  },
+  "japanese-amberjack": {
+    author: "re_nebel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata.jpg",
+  },
+  "lake-sturgeon": {
+    author: "USFWS Mountain Prairie",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Juvenile_Acipenser_fulvescens_black_background.jpg",
+  },
+  "lake-trout": {
+    author: "Knepp Timothy, U.S. Fish and Wildlife Service",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Lake_trout_fishes_salvelinus_namaycush.jpg",
+  },
   "lingcod": {
     author: "Chris Spain",
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Ophiodon_elongatus_458366655.jpg",
+  },
+  "lumpfish": {
+    author: "Tiit Hunt",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Merivarblane.jpg",
+  },
+  "mackerel-icefish": {
+    author: "Ryan Somma",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Mackerel_Icefish_(Champsocephalus_gunnari).jpg",
+  },
+  "malawi-eyebiter": {
+    author: "Hectonichus",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cichlidae_-_Dimidiochromis_compressiceps.JPG",
   },
   "mandarinfish": {
     author: "Luc Viatour",
@@ -138,11 +216,41 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Synchiropus_splendidus_2_Luc_Viatour.jpg",
   },
+  "mediterranean-moray": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Morena_del_Mediterr%C3%A1neo_(Muraena_helena),_Catania,_Sicilia,_Italia,_2025-04-05,_DD_35.jpg",
+  },
+  "muskellunge": {
+    author: "James St. John",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Esox_masquinongy_(muskellunge)_1.jpg",
+  },
   "nassau-grouper": {
     author: "OAR/National Undersea Research Program",
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
+  },
+  "pacific-halibut": {
+    author: "Баранчук-Червонный Лев",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Hippoglossus_stenolepis_1.JPG",
+  },
+  "pacific-saury": {
+    author: "出羽雀台",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cololabis_saira_in_a_tank.jpg",
+  },
+  "polar-cod": {
+    author: "Totti",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Boreogadus_saida_Kaiyukan.jpg",
   },
   "potato-cod": {
     author: "NasserHalaweh",
@@ -162,6 +270,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
   },
+  "red-seabream": {
+    author: "タウナギ",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Pagrus_major_ioworld.jpg",
+  },
+  "ribbon-eel": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Anguila_list%C3%B3n_azul_(Rhinomuraena_quaesita),_Anilao,_Filipinas,_2023-08-23,_DD_60.jpg",
+  },
   "sockeye-salmon": {
     author: "David Menke",
     license: "Public domain",
@@ -173,6 +293,18 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Stoplight-parrotfish.jpg",
+  },
+  "tarpon": {
+    author: "Daiju Azuma",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Megalops_atlanticus_by_DaijuAzuma.jpg",
+  },
+  "torafugu": {
+    author: "Totti",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Takifugu_rubripes_AQUAS.jpg",
   },
   "yelloweye-rockfish": {
     author: "Jason Grant",
