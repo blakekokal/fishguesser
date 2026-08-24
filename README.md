@@ -65,9 +65,10 @@ starts fresh each time.
 `photos.html` steps through all 120 photographs one at a time, in the same
 letterboxed frame the game uses, so a picture can be judged as a player would
 meet it: is that a whole fish, is it alive, is it recognisable? The name,
-species, region and credit show underneath, since the page is mostly used to
-spot a bad photo and say which one it is. `R` hides them to look at a picture
-cold. It is linked from the footer of the game.
+species and credit show underneath, since the page is mostly used to spot a bad
+photo and say which one it is. `R` hides them to look at a picture cold. The
+region is never shown, deliberately — that is the game's answer, and reviewing
+the photographs should not spend it. It is linked from the footer of the game.
 
 `←` / `→` (or the buttons) step, `Home` and `End` jump to the ends, the number
 box goes straight to one, and `R` toggles the details. The order follows `FISH`,

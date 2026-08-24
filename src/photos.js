@@ -2,8 +2,9 @@
  *
  * A reviewing tool, not part of the game: it steps through every fish one at a
  * time in the same letterboxed frame the game uses, so a picture can be judged
- * as a player would meet it. The name and region are shown by default so a bad
- * photo can be named; `R` hides them to look at a picture cold.
+ * as a player would meet it. The name is shown by default so a bad photo can be
+ * named; `R` hides it to look at a picture cold. The region is never shown —
+ * that is the answer, and reviewing photos must not spend it.
  *
  * Order follows FISH, so the number under the photo is a stable way to point at
  * one ("number 37 is bad") without the details being on screen. */
@@ -40,18 +41,14 @@
     if (!revealed) return;
 
     const fish = FISH[index];
-    const region = REGIONS_BY_ID[fish.region];
     const credit = (typeof PHOTO_CREDITS !== 'undefined' && PHOTO_CREDITS[fish.id]) || null;
 
     ui.name.textContent = fish.name;
     ui.sci.textContent = fish.sciName;
     ui.meta.replaceChildren();
 
-    const where = document.createElement('span');
-    where.className = 'review-region';
-    where.textContent = region ? region.name : fish.region;
-    ui.meta.append(where);
-
+    /* No region, ever. Knowing where each fish lives is the whole game, and
+     * reviewing the photos should not spend the answers. */
     const id = document.createElement('code');
     id.className = 'review-id';
     id.textContent = fish.id;
