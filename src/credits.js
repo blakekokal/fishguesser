@@ -19,10 +19,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Squatina_squatina_eingegraben_bearbeitet.JPG",
   },
   "antarctic-toothfish": {
-    author: "Valerie Loeb",
-    license: "Public domain",
-    license_url: "",
-    source: "https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni_NOAA_Fish8711.jpg",
+    author: "Citron",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni.jpg",
   },
   "arapaima": {
     author: "T.Voekler",

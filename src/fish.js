@@ -677,7 +677,7 @@ const FISH = [
     id: 'antarctic-toothfish',
     name: 'Antarctic Toothfish',
     sciName: 'Dissostichus mawsoni',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Dissostichus_mawsoni_NOAA_Fish8711.jpg/1280px-Dissostichus_mawsoni_NOAA_Fish8711.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Dissostichus_mawsoni.jpg/1280px-Dissostichus_mawsoni.jpg',
     region: 'southern-ocean',
     fact: 'Its blood carries antifreeze glycoproteins that stop ice crystals growing, letting it live in water below the normal freezing point.',
   },

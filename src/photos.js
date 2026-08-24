@@ -1,9 +1,9 @@
 /* Fishguesser — photo check.
  *
  * A reviewing tool, not part of the game: it steps through every fish one at a
- * time showing nothing but the photograph, in the same letterboxed frame the
- * game uses, so a picture can be judged the way a player meets it. The name,
- * the region and the credit stay hidden until asked for.
+ * time in the same letterboxed frame the game uses, so a picture can be judged
+ * as a player would meet it. The name and region are shown by default so a bad
+ * photo can be named; `R` hides them to look at a picture cold.
  *
  * Order follows FISH, so the number under the photo is a stable way to point at
  * one ("number 37 is bad") without the details being on screen. */
@@ -21,7 +21,9 @@
   const fmt = (n) => n.toLocaleString('en-US');
   const total = FISH.length;
   let index = 0;
-  let revealed = false;
+  /* On by default: the page is mostly used to spot a bad photo and say which
+   * one it is, and that needs the name. `R` hides it to judge a picture cold. */
+  let revealed = true;
 
   /* The next photo is fetched while this one is being looked at, so stepping
    * forward does not wait on the network every time. */

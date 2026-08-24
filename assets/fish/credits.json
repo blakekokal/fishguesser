@@ -71,12 +71,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "antarctic-toothfish": {
-    "file": "assets/fish/antarctic-toothfish.jpg",
-    "commons_title": "File:Dissostichus mawsoni NOAA Fish8711.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni_NOAA_Fish8711.jpg",
-    "author": "Valerie Loeb",
-    "license": "Public domain",
-    "license_url": ""
+    "commons_title": "File:Dissostichus mawsoni.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni.jpg",
+    "author": "Citron",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "yelloweye-rockfish": {
     "file": "assets/fish/yelloweye-rockfish.jpg",

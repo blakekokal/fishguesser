@@ -11,7 +11,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | --- | --- | --- | --- |
 | `african-butterflyfish` | Vassil | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg) |
 | `angelshark` | Nightflyer | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Squatina_squatina_eingegraben_bearbeitet.JPG) |
-| `antarctic-toothfish` | Valerie Loeb | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni_NOAA_Fish8711.jpg) |
+| `antarctic-toothfish` | Citron | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni.jpg) |
 | `arapaima` | T.Voekler | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Arapaima_gigas_5147.jpg) |
 | `arctic-char` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_Kaiyukan.jpg) |
 | `arctic-grayling` | AKSMITH | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | [Commons](https://commons.wikimedia.org/wiki/File:Underwater_Arctic_Grayling.jpg) |

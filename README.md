@@ -63,16 +63,16 @@ starts fresh each time.
 ## Photo check
 
 `photos.html` steps through all 120 photographs one at a time, in the same
-letterboxed frame the game uses, with the name, the scientific name, the region
-and the credit all held back — so a picture can be judged the way a player
-meets it: is that a whole fish, is it alive, is it recognisable? It is linked
-from the footer of the game.
+letterboxed frame the game uses, so a picture can be judged as a player would
+meet it: is that a whole fish, is it alive, is it recognisable? The name,
+species, region and credit show underneath, since the page is mostly used to
+spot a bad photo and say which one it is. `R` hides them to look at a picture
+cold. It is linked from the footer of the game.
 
 `←` / `→` (or the buttons) step, `Home` and `End` jump to the ends, the number
 box goes straight to one, and `R` toggles the details. The order follows `FISH`,
-so the number under a photo is a stable way to point at one without the answer
-being on screen. A photo that fails to load says so in the frame, which makes a
-dead link easy to spot.
+so the number under a photo is a stable way to point at one. A photo that fails
+to load says so in the frame, which makes a dead link easy to spot.
 
 ## How scoring works
 
