@@ -8,9 +8,10 @@
 (() => {
   const ROUNDS = 5;
   const MAX_POINTS = 5000;
-  // Hints are a budget for the whole game, not per fish, so revealing a name
-  // costs you the chance to reveal a later one.
-  const HINTS_PER_GAME = 3;
+  // Full reveals are a budget for the whole game, not per fish, so using one
+  // costs you the chance to use it later. Showing half a name is free of that
+  // budget, but like a full reveal it gives up the round's no-peek bonus.
+  const HINTS_PER_GAME = 2;
   // Guessing a fish while its name is still censored is worth this much on top
   // of the round score, and every hint left unspent pays out again at the end.
   const NO_PEEK_BONUS = 500;
@@ -28,7 +29,7 @@
     name: $('fishName'), sci: $('fishSci'),
     map: $('map'),
     actionBar: $('actionBar'), hint: $('hint'), guessBtn: $('guessBtn'),
-    hintBtn: $('hintBtn'), promptText: $('promptText'),
+    hintBtn: $('hintBtn'), halfBtn: $('halfBtn'), promptText: $('promptText'),
     result: $('result'), verdict: $('verdict'), points: $('points'),
     resultBonus: $('resultBonus'),
     resultLine: $('resultLine'), resultFact: $('resultFact'), nextBtn: $('nextBtn'),
@@ -39,7 +40,8 @@
 
   const state = {
     deck: [], index: 0, total: 0, selected: null, results: [],
-    phase: 'guess', nameRevealed: false, hintsLeft: HINTS_PER_GAME,
+    phase: 'guess', nameRevealed: false, halfShown: false,
+    hintsLeft: HINTS_PER_GAME,
   };
 
   const fmt = (n) => n.toLocaleString('en-US');
@@ -81,6 +83,20 @@
    * but nothing about the words themselves shows. */
   const maskName = (name) => name.replace(/\S/g, '•');
 
+  const blank = (word) => '•'.repeat(word.length);
+
+  /* The free step: give back the last word, which says what kind of fish it is
+   * ("… Cod", "… Tetra") while the leading word — nearly always the geographic
+   * giveaway — stays hidden. A one-word name gives back its second half. */
+  function halfMaskName(name) {
+    const words = name.split(' ');
+    if (words.length === 1) {
+      const cut = Math.ceil(name.length / 2);
+      return blank(name.slice(0, cut)) + name.slice(cut);
+    }
+    return words.map((w, i) => (i < words.length - 1 ? blank(w) : w)).join(' ');
+  }
+
   function renderHints() {
     ui.hints.replaceChildren();
     for (let i = 0; i < HINTS_PER_GAME; i += 1) {
@@ -96,18 +112,29 @@
   function updateHintButton() {
     if (state.nameRevealed) {
       ui.hintBtn.hidden = true;
+      ui.halfBtn.hidden = true;
       return;
     }
+    ui.halfBtn.hidden = state.halfShown;
     ui.hintBtn.hidden = false;
     ui.hintBtn.disabled = state.hintsLeft === 0;
     ui.hintBtn.textContent = state.hintsLeft === 0
-      ? 'No hints left'
+      ? 'No reveals left'
       : `Reveal name · ${state.hintsLeft} left`;
   }
 
-  /* `spend` separates the two ways a name gets shown: asking for it costs one
-   * of the three hints, whereas the automatic reveal once a round is over is
-   * free — by then the name is no longer a hint. */
+  /** Free: costs no reveal, but gives up this round's no-peek bonus. */
+  function showHalfName() {
+    const fish = state.deck[state.index];
+    if (!fish || state.nameRevealed || state.halfShown) return;
+    state.halfShown = true;
+    ui.name.textContent = halfMaskName(fish.name);
+    updateHintButton();
+  }
+
+  /* `spend` separates the two ways the full name gets shown: asking for it
+   * costs one of the reveals, whereas the automatic reveal once a round is over
+   * is free — by then the name is no longer a hint. */
   function revealName({ spend = false } = {}) {
     const fish = state.deck[state.index];
     if (!fish || state.nameRevealed) return;
@@ -120,8 +147,8 @@
     ui.name.textContent = fish.name;
     ui.name.classList.remove('is-masked');
     ui.photo.alt = `Photograph of a ${fish.name}`;
-    // The credit can name a place or an institution, so it waits for the answer.
-    ui.credit.hidden = !ui.credit.textContent;
+    /* The credit deliberately stays hidden here: it can name a place or an
+     * institution, so it waits for the guess rather than the name. */
     updateHintButton();
   }
 
@@ -158,6 +185,7 @@
     // the answer, and it gives the round something to hold on to.
     ui.sci.textContent = fish.sciName;
     state.nameRevealed = false;
+    state.halfShown = false;
     updateHintButton();
     ui.promptText.textContent = 'Where in the world does it live?';
 
@@ -183,8 +211,9 @@
 
     /* Read this before the free end-of-round reveal below, otherwise every
      * round would look as though the name had been peeked at. */
-    const peeked = state.nameRevealed;
+    const peeked = state.nameRevealed || state.halfShown;
     revealName(); // the round is over, so the answer is no longer a hint
+    ui.credit.hidden = !ui.credit.textContent;
 
     const fish = state.deck[state.index];
     const guess = REGIONS_BY_ID[state.selected];
@@ -207,7 +236,7 @@
       : `You said ${withArticle(guess)}. It's from ${withArticle(answer)} — ${fmt(distance)} km away.`;
     if (bonus) {
       ui.resultBonus.textContent =
-        `Includes +${fmt(bonus)} for guessing with the name still censored.`;
+        `Includes +${fmt(bonus)} for guessing with the name fully censored.`;
       ui.resultBonus.hidden = false;
     } else {
       ui.resultBonus.hidden = true;
@@ -251,10 +280,12 @@
       pct >= 0.7 ? 'Strong instincts for fish.' :
       pct >= 0.45 ? 'Not bad — the oceans are big.' :
       'Plenty of sea left to learn.';
+    /* "Blind" covers both peeks: a free half counts as a peek just as a full
+     * reveal does, so this cannot claim a name was revealed when it was not. */
     const clean = state.results.filter((r) => r.bonus).length;
     const cleanNote = clean
-      ? ` ${clean} guessed without the name.`
-      : ' Every name revealed.';
+      ? ` ${clean} guessed blind.`
+      : ' None guessed blind.';
     ui.endBlurb.textContent = `${hits} of ${ROUNDS} exactly right.${cleanNote} ${grade}`;
 
     ui.breakdown.replaceChildren();
@@ -323,6 +354,7 @@
    * network is a real possibility. Say so rather than leaving an empty frame —
    * the round is still playable, since the name and the map carry the puzzle. */
   ui.photo.addEventListener('error', () => ui.photo.classList.add('is-broken'));
+  ui.halfBtn.addEventListener('click', showHalfName);
   ui.hintBtn.addEventListener('click', () => revealName({ spend: true }));
   ui.guessBtn.addEventListener('click', submitGuess);
   ui.nextBtn.addEventListener('click', nextRound);

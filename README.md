@@ -12,12 +12,13 @@ name; you decide which of fifteen regions of the world it comes from.
 - **The name is fully censored** — it reads as dots until you reveal it, so the
   photograph is the clue. The scientific name stays visible; the photo credit is
   held back until you answer, since a photographer or museum can name the place
-- **Three hints per game** — **Reveal name** un-masks the current fish and
-  spends one of three, shared across all five rounds. The full name always
-  appears free once you have guessed, since by then it is not a hint
-- **Bonuses for not peeking** — +500 for each fish you guess while its name is
-  still censored, and another +500 for every hint you finish with. Saving all
-  three is worth 1,500 on its own
+- **Two ways to peek** — **Show half** gives back the last word of the name and
+  costs no reveal, while **Reveal name** un-masks the whole thing and spends one
+  of two reveals shared across the game. The full name always appears free once
+  you have guessed, since by then it is not a hint
+- **Bonuses for not peeking** — +500 for each fish you guess with its name still
+  fully censored, and another +500 for every reveal you finish with. Either kind
+  of peek gives up that round's +500; only a full reveal costs you a reveal
 - **Fits a phone on one screen** in both portrait and landscape, without
   scrolling — the photo takes whatever height is left rather than setting it
 
@@ -48,11 +49,11 @@ Your best score is remembered in `localStorage`.
 | --- | --- |
 | Correct region | 5,000 |
 | Wrong region | `5000 × e^(−distance_km / 3000)` |
-| Guessed with the name still censored | +500 per round |
-| Each hint left unspent at the end | +500 |
+| Guessed with the name fully censored | +500 per round |
+| Each reveal left unspent at the end | +500 |
 
-A perfect game is 29,000: five rounds at 5,000, five no-peek bonuses, and 1,500
-for finishing with all three hints.
+A perfect game is 28,500: five rounds at 5,000, five no-peek bonuses, and 1,000
+for finishing with both reveals.
 
 So picking a neighbouring region ~1,500 km away still scores about 3,000, a
 guess 6,000 km off scores around 680, and one on the far side of the planet

@@ -250,6 +250,14 @@ body {
   font-size: 14px;
 }
 
+.prompt-actions {
+  display: flex;
+  flex: none;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
 .btn-ghost {
   flex: none;
   padding: 7px 14px;
@@ -612,7 +620,8 @@ body {
     gap: 8px;
   }
 
-  .btn-ghost { padding: 5px 10px; font-size: 11px; }
+  .btn-ghost { padding: 5px 9px; font-size: 10.5px; }
+  .prompt-actions { gap: 5px; }
 
   /* Right: the map absorbs the slack, so the controls always fit.
    * The min-height stops the result panel from squeezing the map down to a
@@ -725,7 +734,8 @@ body {
     gap: 8px;
   }
 
-  .btn-ghost { padding: 5px 10px; font-size: 11px; }
+  .btn-ghost { padding: 5px 9px; font-size: 11px; }
+  .prompt-actions { gap: 5px; }
 
   .map-panel { flex: none; }
   .actionbar { padding: 9px 10px; gap: 8px; }
