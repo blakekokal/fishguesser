@@ -119,8 +119,6 @@
     state.nameRevealed = true;
     ui.name.textContent = fish.name;
     ui.name.classList.remove('is-masked');
-    ui.sci.textContent = fish.sciName;
-    ui.sci.classList.remove('is-masked');
     ui.photo.alt = `Photograph of a ${fish.name}`;
     // The credit can name a place or an institution, so it waits for the answer.
     ui.credit.hidden = !ui.credit.textContent;
@@ -156,8 +154,9 @@
     ui.photo.src = fish.image;
     ui.name.textContent = maskName(fish.name);
     ui.name.classList.add('is-masked');
-    ui.sci.textContent = maskName(fish.sciName);
-    ui.sci.classList.add('is-masked');
+    // Shown even while the common name is censored — it is the taxonomy, not
+    // the answer, and it gives the round something to hold on to.
+    ui.sci.textContent = fish.sciName;
     state.nameRevealed = false;
     updateHintButton();
     ui.promptText.textContent = 'Where in the world does it live?';

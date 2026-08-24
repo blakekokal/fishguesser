@@ -9,9 +9,9 @@ name; you decide which of fifteen regions of the world it comes from.
 - **5 rounds per game**, drawn at random from the species list
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
-- **The name is fully censored** — both the common and the scientific name read
-  as dots until you reveal them, so the photograph is the only clue. The photo
-  credit is held back too, since a photographer or museum can name the place
+- **The name is fully censored** — it reads as dots until you reveal it, so the
+  photograph is the clue. The scientific name stays visible; the photo credit is
+  held back until you answer, since a photographer or museum can name the place
 - **Three hints per game** — **Reveal name** un-masks the current fish and
   spends one of three, shared across all five rounds. The full name always
   appears free once you have guessed, since by then it is not a hint
@@ -73,12 +73,14 @@ src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions + haversine distance
 src/fish.js             the 60 fish (name, photo URL, home region, fun fact)
 src/credits.js          generated photo attribution
+src/coastlines.js       generated Natural Earth land outlines
 src/map.js              the world map: projection, coastlines, section partition
 src/game.js             game loop, scoring, end screen
 assets/fish/credits.json  which Commons file each fish uses, and its credit
 tools/build_credits.py  regenerates src/credits.js and CREDITS.md
 tools/bump_version.py   bumps the version and stamps today's date
 tools/build_photo_urls.py  regenerates the photo URLs (--check verifies them)
+tools/build_coastlines.py  regenerates src/coastlines.js from Natural Earth
 ```
 
 ## Versioning
@@ -121,6 +123,14 @@ region — a fish found right across the Indo-Pacific makes for an unfair round.
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
 game samples 5 of the 60 fish; raise it for a longer game that shows more of the
 collection.
+
+## Map data
+
+The coastlines are Natural Earth 110m land polygons, which are public domain.
+`src/coastlines.js` is generated — rebuild it with
+`python3 tools/build_coastlines.py`. Coordinates are stored as lat/lon and
+projected at runtime, so the coastlines, the region sections and the labels all
+go through one projection and cannot drift apart.
 
 ## Photo credits
 
