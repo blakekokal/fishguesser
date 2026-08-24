@@ -21,7 +21,7 @@ const WorldMap = (() => {
    *
    * Each region's lat/lon in regions.js is by definition inside its own
    * section, and anchors both the label and the guess-to-answer line. */
-  const GRID_STEP = 1; // degrees; small enough that the borders read as smooth
+  const GRID_STEP = 0.25; // degrees; a step is sub-pixel, so edges read as smooth
 
   /** Lat/lon to a point on the unit sphere, so "nearest" is just a dot product. */
   function toUnitVector(lon, lat) {
@@ -168,17 +168,6 @@ const WorldMap = (() => {
     svg = target;
     onPick = pickHandler;
     svg.replaceChildren();
-
-    const defs = el('defs');
-    const sea = el('linearGradient', { id: 'sea', x1: '0', y1: '0', x2: '0', y2: '1' });
-    sea.append(
-      el('stop', { offset: '0', 'stop-color': '#0d2b45' }),
-      el('stop', { offset: '1', 'stop-color': '#071a2c' })
-    );
-    defs.append(sea);
-    svg.append(defs);
-
-    svg.append(el('rect', { x: 0, y: 0, width: W, height: H, fill: 'url(#sea)' }));
 
     // Graticule every 30 degrees, for a bit of chart texture.
     const grid = el('g', { class: 'graticule' });
