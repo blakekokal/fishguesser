@@ -36,8 +36,12 @@ def photo_url(commons_title, width):
     name = commons_title.replace("File:", "").replace(" ", "_")
     digest = hashlib.md5(name.encode("utf-8")).hexdigest()
     quoted = urllib.parse.quote(name)
+    # A PNG original is thumbnailed as PNG unless .jpg is appended, and a
+    # photograph stored as PNG is several times heavier that way — 1.6 MB
+    # against 250 KB for the same picture as JPEG.
+    suffix = ".jpg" if name.lower().endswith((".png", ".tif", ".tiff")) else ""
     return (f"https://upload.wikimedia.org/wikipedia/commons/thumb/"
-            f"{digest[0]}/{digest[:2]}/{quoted}/{width}px-{quoted}")
+            f"{digest[0]}/{digest[:2]}/{quoted}/{width}px-{quoted}{suffix}")
 
 
 def rewrite(width):

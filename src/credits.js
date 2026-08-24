@@ -157,10 +157,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
   },
   "giant-freshwater-stingray": {
-    author: "Amelia Guo",
-    license: "CC BY 3.0",
-    license_url: "https://creativecommons.org/licenses/by/3.0",
-    source: "https://commons.wikimedia.org/wiki/File:Giant_freshwater_stingray.JPG",
+    author: "Gant223",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Urogymnus_polylepis_at_Itabashi_Botanical_Garden.png",
   },
   "giant-snakehead": {
     author: "Cedricguppy - Loury Cédric",

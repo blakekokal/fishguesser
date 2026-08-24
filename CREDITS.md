@@ -34,7 +34,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `emerald-rockcod` | Zureks | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Emerald_rockcod,_Trematomus_bernacchii.jpg) |
 | `european-seabass` | Bjoertvedt | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG) |
 | `frontosa` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg) |
-| `giant-freshwater-stingray` | Amelia Guo | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Giant_freshwater_stingray.JPG) |
+| `giant-freshwater-stingray` | Gant223 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Urogymnus_polylepis_at_Itabashi_Botanical_Garden.png) |
 | `giant-snakehead` | Cedricguppy - Loury Cédric | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Channa_micropeltes_-_T%C3%AAte_de_serpent_-_Aqua_Porte_Dor%C3%A9e_01.JPG) |
 | `gilt-head-bream` | Thesupermat | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Brest_-_Oc%C3%A9anopolis_-_2015_-_051.jpg) |
 | `goliath-tigerfish` | Sablegsd | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hydrocynus_goliath.jpg) |

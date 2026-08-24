@@ -477,7 +477,7 @@ const FISH = [
     id: 'giant-freshwater-stingray',
     name: 'Giant Freshwater Stingray',
     sciName: 'Urogymnus polylepis',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Giant_freshwater_stingray.JPG/1280px-Giant_freshwater_stingray.JPG',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Urogymnus_polylepis_at_Itabashi_Botanical_Garden.png/1280px-Urogymnus_polylepis_at_Itabashi_Botanical_Garden.png.jpg',
     region: 'mekong',
     fact: 'Can span two metres across and carries a serrated spine longer than a hand, used only in defence against river-bottom predators.',
   },
