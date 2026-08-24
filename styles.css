@@ -663,6 +663,97 @@ body {
   .btn-wide { margin-top: 10px; padding: 9px; }
 }
 
+/* ---------- phone in portrait: fit on one screen, no scrolling ----------
+ *
+ * Same idea as the landscape block: the page becomes a flex column and the
+ * photo absorbs whatever height is left once the map and controls have taken
+ * theirs, instead of the photo's aspect ratio dictating the page height. */
+
+@media (orientation: portrait) and (max-width: 560px) {
+  html, body { height: 100%; }
+
+  body {
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topbar {
+    position: static;
+    flex: none;
+    padding: 6px 12px;
+    gap: 8px;
+  }
+
+  .brand-mark { font-size: 18px; }
+  .brand-name { font-size: 15px; }
+  .version { padding: 1px 7px; font-size: 9.5px; }
+  .version-date { display: none; }
+  .stats { gap: 6px; }
+  .stat { min-width: 0; padding: 2px 8px; }
+  .stat-label { font-size: 8px; }
+  .stat-value { font-size: 13px; }
+  .hint-dots { min-height: 0; gap: 3px; }
+  .hint-dot { font-size: 10px; }
+
+  .layout {
+    flex: 1;
+    min-height: 0;
+    gap: 8px;
+    padding: 8px;
+    /* The fish row flexes, the map row is exactly as tall as the map needs. */
+    grid-template-rows: minmax(0, 1fr) auto;
+  }
+
+  .panel { min-height: 0; }
+
+  .photo-frame {
+    flex: 1;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+
+  .fish-id { padding: 9px 14px 0; }
+  .fish-name { font-size: 20px; }
+  .fish-sci { font-size: 12px; }
+
+  .prompt-line {
+    margin: 7px 14px 11px;
+    padding-top: 9px;
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .btn-ghost { padding: 5px 10px; font-size: 11px; }
+
+  .map-panel { flex: none; }
+  .actionbar { padding: 9px 10px; gap: 8px; }
+  .hint { font-size: 12px; }
+  .actionbar .btn { padding: 9px 14px; font-size: 13px; }
+
+  .result {
+    max-height: 46vh;
+    overflow-y: auto;
+    padding: 10px 12px;
+  }
+
+  .verdict, .points { font-size: 15px; }
+  .result-line { font-size: 12.5px; }
+  .result-bonus { font-size: 11px; }
+  .result-fact { font-size: 11.5px; padding: 8px 10px; }
+  .result .btn { margin-top: 9px; padding: 8px 14px; font-size: 13px; }
+
+  .footer { display: none; }
+
+  .zone-label { font-size: 26px; }
+
+  .endcard { padding: 16px 18px; max-height: 92dvh; }
+  .end-score { font-size: 32px; }
+  .end-blurb { font-size: 12px; margin-bottom: 10px; }
+  .breakdown-row { padding: 6px 0; font-size: 12.5px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
   .photo { opacity: 1; transform: none; }

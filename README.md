@@ -18,8 +18,8 @@ name; you decide which of fifteen regions of the world it comes from.
 - **Bonuses for not peeking** — +500 for each fish you guess while its name is
   still censored, and another +500 for every hint you finish with. Saving all
   three is worth 1,500 on its own
-- **Fits a phone in landscape** without scrolling, as well as portrait and
-  desktop
+- **Fits a phone on one screen** in both portrait and landscape, without
+  scrolling — the photo takes whatever height is left rather than setting it
 
 No build step and no dependencies. Photos are linked from Wikimedia Commons
 rather than committed, so the game needs a network connection to show them.
