@@ -355,10 +355,9 @@
     "license_url": "https://creativecommons.org/licenses/by/2.0"
   },
   "lake-trout": {
-    "file": "assets/fish/lake-trout.jpg",
-    "commons_title": "File:Lake trout fishes salvelinus namaycush.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake_trout_fishes_salvelinus_namaycush.jpg",
-    "author": "Knepp Timothy, U.S. Fish and Wildlife Service",
+    "commons_title": "File:Iron River NFH lake trout 6 March 2024.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Iron_River_NFH_lake_trout_6_March_2024.png",
+    "author": "USFWS",
     "license": "Public domain",
     "license_url": ""
   },
@@ -430,11 +429,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "longfin-eel": {
-    "commons_title": "File:Anguilla dieffenbachii 62220829.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_62220829.jpg",
-    "author": "nick_goldwater",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
+    "commons_title": "File:Anguilla dieffenbachii 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_01.jpg",
+    "author": "Nil NZ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "blue-cod": {
     "commons_title": "File:Blue Cod in Milford Sound.jpg",
@@ -689,11 +688,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "nurse-shark": {
-    "commons_title": "File:Nurse shark turning.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Nurse_shark_turning.jpg",
-    "author": "Stevelaycock21",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "commons_title": "File:Ginglymostoma cirratum utila.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ginglymostoma_cirratum_utila.jpg",
+    "author": "Ross Garner",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
   },
   "bonnethead": {
     "commons_title": "File:Bonnethead shark Aquarium of the Pacific.jpg",
@@ -759,11 +758,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "sarcastic-fringehead": {
-    "commons_title": "File:Sarcastic Fringehead (Neoclinus blanchardi) at the Monterey Bay Aquarium.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Sarcastic_Fringehead_(Neoclinus_blanchardi)_at_the_Monterey_Bay_Aquarium.jpg",
-    "author": "Evan Baldonado",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
+    "commons_title": "File:Sarcastic fringehead in plastic tube.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead_in_plastic_tube.JPG",
+    "author": "DrKjaergaard",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
   },
   "sea-lamprey": {
     "commons_title": "File:Petromyzon marinus 282284066 (cropped).jpg",

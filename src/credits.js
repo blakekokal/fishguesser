@@ -373,10 +373,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Juvenile_Acipenser_fulvescens_black_background.jpg",
   },
   "lake-trout": {
-    author: "Knepp Timothy, U.S. Fish and Wildlife Service",
+    author: "USFWS",
     license: "Public domain",
     license_url: "",
-    source: "https://commons.wikimedia.org/wiki/File:Lake_trout_fishes_salvelinus_namaycush.jpg",
+    source: "https://commons.wikimedia.org/wiki/File:Iron_River_NFH_lake_trout_6_March_2024.png",
   },
   "leopard-shark": {
     author: "Brian Gratwicke",
@@ -391,10 +391,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Ophiodon_elongatus_458366655.jpg",
   },
   "longfin-eel": {
-    author: "nick_goldwater",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_62220829.jpg",
+    author: "Nil NZ",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_01.jpg",
   },
   "longnose-gar": {
     author: "USFWS Mountain Prairie",
@@ -445,10 +445,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
   },
   "nurse-shark": {
-    author: "Stevelaycock21",
-    license: "CC BY-SA 4.0",
-    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Nurse_shark_turning.jpg",
+    author: "Ross Garner",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Ginglymostoma_cirratum_utila.jpg",
   },
   "nurseryfish": {
     author: "Geekgecko",
@@ -613,10 +613,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Hucho_perryi_Yamano1.jpg",
   },
   "sarcastic-fringehead": {
-    author: "Evan Baldonado",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Sarcastic_Fringehead_(Neoclinus_blanchardi)_at_the_Monterey_Bay_Aquarium.jpg",
+    author: "DrKjaergaard",
+    license: "CC BY-SA 2.5",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.5",
+    source: "https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead_in_plastic_tube.JPG",
   },
   "sea-lamprey": {
     author: "Stephanie Tran",

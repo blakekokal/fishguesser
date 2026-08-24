@@ -70,10 +70,10 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `kahawai` | zoology | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Arripis_trutta_NZ.jpg) |
 | `kelp-greenling` | Steve Lonhart / NOAA MBNMS | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Hexagrammos_decagrammus_hembra.jpg) |
 | `lake-sturgeon` | USFWS Mountain Prairie | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Juvenile_Acipenser_fulvescens_black_background.jpg) |
-| `lake-trout` | Knepp Timothy, U.S. Fish and Wildlife Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Lake_trout_fishes_salvelinus_namaycush.jpg) |
+| `lake-trout` | USFWS | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Iron_River_NFH_lake_trout_6_March_2024.png) |
 | `leopard-shark` | Brian Gratwicke | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Triakis_semifasciata_Gratwicke.jpg) |
 | `lingcod` | Chris Spain | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Ophiodon_elongatus_458366655.jpg) |
-| `longfin-eel` | nick_goldwater | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_62220829.jpg) |
+| `longfin-eel` | Nil NZ | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_01.jpg) |
 | `longnose-gar` | USFWS Mountain Prairie | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Longnose_Gar_(Lepisosteus_osseus).jpg) |
 | `lumpfish` | Deadlymeap | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Lumpfish-Cyclopterus_lumpus.jpg) |
 | `malawi-eyebiter` | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cichlidae_-_Dimidiochromis_compressiceps.JPG) |
@@ -82,7 +82,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `mekong-giant-catfish` | Cool critter channel | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg) |
 | `muskellunge` | James St. John | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Esox_masquinongy_(muskellunge)_1.jpg) |
 | `nassau-grouper` | OAR/National Undersea Research Program | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg) |
-| `nurse-shark` | Stevelaycock21 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Nurse_shark_turning.jpg) |
+| `nurse-shark` | Ross Garner | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Ginglymostoma_cirratum_utila.jpg) |
 | `nurseryfish` | Geekgecko | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Kurtus_gulliveri.jpg) |
 | `ocellated-icefish` | Valerie Loeb | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Chionodraco_rastrospinosus.jpg) |
 | `ornate-bichir` | Bloopityboop | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis_VA_01.jpg) |
@@ -110,7 +110,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `royal-gramma` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Gramma_loreto_01.jpg) |
 | `sailfin-sandfish` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Arctoscopus_japonicus_Umigatari.png) |
 | `sakhalin-taimen` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hucho_perryi_Yamano1.jpg) |
-| `sarcastic-fringehead` | Evan Baldonado | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Sarcastic_Fringehead_(Neoclinus_blanchardi)_at_the_Monterey_Bay_Aquarium.jpg) |
+| `sarcastic-fringehead` | DrKjaergaard | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | [Commons](https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead_in_plastic_tube.JPG) |
 | `sea-lamprey` | Stephanie Tran | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg) |
 | `siamese-fighting-fish` | Henryk Niestrój | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg) |
 | `six-barred-distichodus` | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG) |
