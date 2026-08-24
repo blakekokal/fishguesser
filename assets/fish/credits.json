@@ -237,12 +237,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "pacific-halibut": {
-    "file": "assets/fish/pacific-halibut.jpg",
-    "commons_title": "File:Hippoglossus stenolepis 1.JPG",
-    "source": "https://commons.wikimedia.org/wiki/File:Hippoglossus_stenolepis_1.JPG",
-    "author": "Баранчук-Червонный Лев",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501607604/large.jpg",
+    "source": "https://www.inaturalist.org/observations/279339592",
+    "author": "Steph Brulot-Sawchyn",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
   },
   "tarpon": {
     "file": "assets/fish/tarpon.jpg",
@@ -443,11 +442,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "kahawai": {
-    "commons_title": "File:Arripis trutta NZ.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Arripis_trutta_NZ.jpg",
-    "author": "zoology",
-    "license": "CC0",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103084334/large.jpg",
+    "source": "https://www.inaturalist.org/observations/64148300",
+    "author": "Peter Crowcroft",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "spotted-ratfish": {
     "commons_title": "File:Hydrolagus colliei 8049778.jpg",

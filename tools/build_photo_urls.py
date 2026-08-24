@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 """Rewrite the `image:` URL of every fish in src/fish.js from credits.json.
 
-Photos are linked from Wikimedia Commons rather than committed, so the only
-thing stored per fish is which Commons file it uses. This derives the CDN
-thumbnail URL from that filename.
+Photos are linked rather than committed, so the only thing stored per fish is
+where its picture lives. Most entries name a Wikimedia Commons file and the CDN
+thumbnail URL is derived from that filename.
+
+An entry may instead carry an explicit `image_url`, which is used verbatim.
+That is for species Commons cannot show properly — a few are photographed
+alive only on iNaturalist, whose open-licensed photos are served from a stable
+S3 bucket and already sized. Such an entry needs `author`, `license`,
+`license_url` and `source` like any other; there is simply no filename to
+hash.
 
 The path is `.../thumb/<h0>/<h0h1>/<Name>/<width>px-<Name>`, where the hash is
 the MD5 of the underscored filename — of the *name*, not the file contents, so
@@ -60,7 +67,10 @@ def rewrite(width):
         if line.startswith("    image: "):
             if current not in credits:
                 raise SystemExit(f"no credits entry for {current}")
-            url = photo_url(credits[current]["commons_title"], width)
+            entry = credits[current]
+            # An explicit URL wins: it is already a finished link, and there is
+            # no Commons filename to derive one from.
+            url = entry.get("image_url") or photo_url(entry["commons_title"], width)
             urls[current] = url
             line = f"    image: '{url}',"
         out.append(line)

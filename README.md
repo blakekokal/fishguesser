@@ -182,6 +182,14 @@ go through one projection and cannot drift apart.
 
 ## Photo credits
 
-All photographs come from Wikimedia Commons under Creative Commons or
-public-domain licences, and are linked from Commons rather than copied here.
-Per-photo attribution is in [CREDITS.md](CREDITS.md).
+Photographs come from Wikimedia Commons under Creative Commons or
+public-domain licences, and are linked rather than copied here. Two come from
+iNaturalist instead: Pacific halibut and kahawai are commercial and sport fish
+that Commons only holds as landed catch, and iNaturalist's research-grade
+records — where the species has been confirmed by other people — turned up a
+live kahawai. Per-photo attribution is in [CREDITS.md](CREDITS.md).
+
+To use an iNaturalist photo, give the entry in `credits.json` an `image_url`
+instead of a `commons_title`; `build_photo_urls.py` then uses that URL as-is.
+Take only `cc0`, `cc-by` or `cc-by-sa` photos from `quality_grade=research`
+observations, and credit the observer.

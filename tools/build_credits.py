@@ -46,10 +46,11 @@ def write_md(data):
     lines = [
         "# Photo credits",
         "",
-        "Every fish photograph in `assets/fish/` comes from",
-        "[Wikimedia Commons](https://commons.wikimedia.org) under a free licence. Each",
-        "entry links to the source file page, which carries the full licence text and",
-        "author details.",
+        "Every fish photograph comes from [Wikimedia",
+        "Commons](https://commons.wikimedia.org) under a free licence, except for a",
+        "few taken from [iNaturalist](https://www.inaturalist.org) — species Commons",
+        "has no living photograph of. Each entry links to its source page, which",
+        "carries the full licence text and author details.",
         "",
         "This file is generated — run `python3 tools/build_credits.py` to rebuild it.",
         "",
@@ -61,7 +62,10 @@ def write_md(data):
         lic = c.get("license") or "—"
         lic_url = c.get("license_url")
         lic_cell = f"[{lic}]({lic_url})" if lic_url else lic
-        lines.append(f"| `{fid}` | {author} | {lic_cell} | [Commons]({c.get('source', '')}) |")
+        source = c.get("source", "")
+        # Name the host the link actually goes to; most are Commons, a few iNat.
+        host = "iNaturalist" if "inaturalist.org" in source else "Commons"
+        lines.append(f"| `{fid}` | {author} | {lic_cell} | [{host}]({source}) |")
     lines.append("")
     path = os.path.join(ROOT, "CREDITS.md")
     with open(path, "w", encoding="utf-8") as f:

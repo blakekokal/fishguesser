@@ -373,10 +373,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Japanese_bullhead_shark_Suma_Aqualife_Park.jpg",
   },
   "kahawai": {
-    author: "zoology",
-    license: "CC0",
-    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    source: "https://commons.wikimedia.org/wiki/File:Arripis_trutta_NZ.jpg",
+    author: "Peter Crowcroft",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/64148300",
   },
   "kelp-greenling": {
     author: "Steve Lonhart / NOAA MBNMS",
@@ -505,10 +505,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Astronotus_ocellatus_-_side_(aka).jpg",
   },
   "pacific-halibut": {
-    author: "Баранчук-Червонный Лев",
-    license: "CC BY-SA 3.0",
-    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
-    source: "https://commons.wikimedia.org/wiki/File:Hippoglossus_stenolepis_1.JPG",
+    author: "Steph Brulot-Sawchyn",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/279339592",
   },
   "pacific-saury": {
     author: "出羽雀台",

@@ -1,9 +1,10 @@
 # Photo credits
 
-Every fish photograph in `assets/fish/` comes from
-[Wikimedia Commons](https://commons.wikimedia.org) under a free licence. Each
-entry links to the source file page, which carries the full licence text and
-author details.
+Every fish photograph comes from [Wikimedia
+Commons](https://commons.wikimedia.org) under a free licence, except for a
+few taken from [iNaturalist](https://www.inaturalist.org) — species Commons
+has no living photograph of. Each entry links to its source page, which
+carries the full licence text and author details.
 
 This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 
@@ -70,7 +71,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `gulf-saratoga` | Ginkgo100 | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG) |
 | `harlequin-sweetlips` | Rickard Zerpe | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg) |
 | `japanese-bullhead-shark` | Jin Kemoole | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Japanese_bullhead_shark_Suma_Aqualife_Park.jpg) |
-| `kahawai` | zoology | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Arripis_trutta_NZ.jpg) |
+| `kahawai` | Peter Crowcroft | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/64148300) |
 | `kelp-greenling` | Steve Lonhart / NOAA MBNMS | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Hexagrammos_decagrammus_hembra.jpg) |
 | `lake-sturgeon` | USFWS Mountain Prairie | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Juvenile_Acipenser_fulvescens_black_background.jpg) |
 | `lake-trout` | USFWS | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Iron_River_NFH_lake_trout_6_March_2024.png) |
@@ -92,7 +93,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `ornate-bichir` | Bloopityboop | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis_VA_01.jpg) |
 | `ornate-wrasse` | Cisamarc | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Thalassoma_pavo_male.jpg) |
 | `oscar` | André Karwath aka Aka | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | [Commons](https://commons.wikimedia.org/wiki/File:Astronotus_ocellatus_-_side_(aka).jpg) |
-| `pacific-halibut` | Баранчук-Червонный Лев | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hippoglossus_stenolepis_1.JPG) |
+| `pacific-halibut` | Steph Brulot-Sawchyn | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/279339592) |
 | `pacific-saury` | 出羽雀台 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cololabis_saira_in_a_tank.jpg) |
 | `pacific-spiny-dogfish` | 出羽雀台 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Squalus_suckleyi_in_an_aquarium.jpg) |
 | `peacock-bass` | Petruss | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cichla_ocellaris.jpg) |
