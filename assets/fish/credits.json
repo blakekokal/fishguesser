@@ -236,13 +236,6 @@
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   },
-  "pacific-halibut": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501607604/large.jpg",
-    "source": "https://www.inaturalist.org/observations/279339592",
-    "author": "Steph Brulot-Sawchyn",
-    "license": "CC0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
-  },
   "tarpon": {
     "file": "assets/fish/tarpon.jpg",
     "commons_title": "File:Megalops atlanticus by DaijuAzuma.jpg",
@@ -925,11 +918,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "whitetip-reef-shark": {
-    "commons_title": "File:Barcelona-L'Aquarium-Tiburón de puntas blancas (Triaenodon obesus).jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Barcelona-L'Aquarium-Tiburón_de_puntas_blancas_(Triaenodon_obesus).jpg",
-    "author": "Javi Guerra Hernando",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14416499/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/10386392",
+    "author": "Peter Nathaniel Boyer",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "peacock-bass": {
     "commons_title": "File:Cichla ocellaris.jpg",
@@ -981,16 +974,16 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "luderick": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669894697/large.jpg",
-    "source": "https://www.inaturalist.org/observations/366855811",
-    "author": "themaskedlapwing",
-    "license": "CC0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245831432/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/143350190",
+    "author": "Tim",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "ballan-wrasse": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231750633/large.jpg",
-    "source": "https://www.inaturalist.org/observations/135841745",
-    "author": "Donald Davesne",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54816226/large.jpg",
+    "source": "https://www.inaturalist.org/observations/34802668",
+    "author": "Julien Renoult",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -1100,11 +1093,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "longhorn-cowfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181074129/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/107637161",
-    "author": "劉哲瑋",
-    "license": "CC0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/427404909/large.jpg",
+    "source": "https://www.inaturalist.org/observations/239936453",
+    "author": "Julien Lepage",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "japanese-pineconefish": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613333857/large.jpg",
@@ -1142,11 +1135,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "largetooth-sawfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337739791/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/192398992",
-    "author": "Matthew Inabinett",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
+    "commons_title": "File:Pristis pristis - Daly River.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Pristis_pristis_-_Daly_River.JPG",
+    "author": "Peter Kyne, Charles Darwin University",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   },
   "trahira": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368268376/large.jpeg",
@@ -1159,6 +1152,13 @@
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237366321/large.jpeg",
     "source": "https://www.inaturalist.org/observations/138845070",
     "author": "Roland Godon",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "california-halibut": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106810626/large.jpg",
+    "source": "https://www.inaturalist.org/observations/66279407",
+    "author": "Mike Carr",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   }

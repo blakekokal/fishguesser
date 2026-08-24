@@ -103,10 +103,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Plecoglossus_altivelis_Totto.jpg",
   },
   "ballan-wrasse": {
-    author: "Donald Davesne",
+    author: "Julien Renoult",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/135841745",
+    source: "https://www.inaturalist.org/observations/34802668",
   },
   "banded-wrasse": {
     author: "Luca Davenport-Thomas",
@@ -191,6 +191,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg",
+  },
+  "california-halibut": {
+    author: "Mike Carr",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/66279407",
   },
   "california-sheephead": {
     author: "Ed Bierman from CA, usa",
@@ -481,10 +487,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Iron_River_NFH_lake_trout_6_March_2024.png",
   },
   "largetooth-sawfish": {
-    author: "Matthew Inabinett",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/192398992",
+    author: "Peter Kyne, Charles Darwin University",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pristis_pristis_-_Daly_River.JPG",
   },
   "leopard-shark": {
     author: "Brian Gratwicke",
@@ -505,10 +511,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_01.jpg",
   },
   "longhorn-cowfish": {
-    author: "劉哲瑋",
-    license: "CC0",
-    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
-    source: "https://www.inaturalist.org/observations/107637161",
+    author: "Julien Lepage",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/239936453",
   },
   "longnose-gar": {
     author: "USFWS Mountain Prairie",
@@ -517,10 +523,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Longnose_Gar_(Lepisosteus_osseus).jpg",
   },
   "luderick": {
-    author: "themaskedlapwing",
-    license: "CC0",
-    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
-    source: "https://www.inaturalist.org/observations/366855811",
+    author: "Tim",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/143350190",
   },
   "lumpfish": {
     author: "Deadlymeap",
@@ -617,12 +623,6 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.5",
     license_url: "https://creativecommons.org/licenses/by-sa/2.5",
     source: "https://commons.wikimedia.org/wiki/File:Astronotus_ocellatus_-_side_(aka).jpg",
-  },
-  "pacific-halibut": {
-    author: "Steph Brulot-Sawchyn",
-    license: "CC0",
-    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
-    source: "https://www.inaturalist.org/observations/279339592",
   },
   "pacific-saury": {
     author: "出羽雀台",
@@ -937,10 +937,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:珍珠蝴蝶_Tropheus_duboisi_(Marlier,_1959)_-_panoramio.jpg",
   },
   "whitetip-reef-shark": {
-    author: "Javi Guerra Hernando",
-    license: "CC BY-SA 4.0",
-    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Barcelona-L'Aquarium-Tiburón_de_puntas_blancas_(Triaenodon_obesus).jpg",
+    author: "Peter Nathaniel Boyer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/10386392",
   },
   "wolf-eel": {
     author: "Julien Lepage",
