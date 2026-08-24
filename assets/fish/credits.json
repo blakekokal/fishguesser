@@ -816,5 +816,75 @@
     "author": "Vicmicallef",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "bluegirdled-angelfish": {
+    "commons_title": "File:Bluegirdled angelfish (Pomacanthus navarchus) (46982094954).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bluegirdled_angelfish_(Pomacanthus_navarchus)_(46982094954).jpg",
+    "author": "Rickard Zerpe",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "pyjama-cardinalfish": {
+    "commons_title": "File:Pajama cardinalfish (Sphaeramia nematoptera) (44065265714).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pajama_cardinalfish_(Sphaeramia_nematoptera)_(44065265714).jpg",
+    "author": "Rickard Zerpe",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "clown-triggerfish": {
+    "commons_title": "File:Balistoides conspicillum 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Balistoides_conspicillum_01.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "coral-trout": {
+    "commons_title": "File:Plectropomus leopardus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Plectropomus_leopardus.jpg",
+    "author": "Leonard Low from Australia",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "barrier-reef-anemonefish": {
+    "commons_title": "File:Amphiprion akindynos.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Amphiprion_akindynos.jpg",
+    "author": "Leonard Low from Australia",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "royal-gramma": {
+    "commons_title": "File:Gramma loreto 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gramma_loreto_01.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "rock-beauty": {
+    "commons_title": "File:Chabelita tricolor (Holacanthus tricolor), Cozumel, México, 2025-12-20, DD 104.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chabelita_tricolor_(Holacanthus_tricolor),_Cozumel,_México,_2025-12-20,_DD_104.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "spanish-hogfish": {
+    "commons_title": "File:Bodianus rufus (46598633625).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bodianus_rufus_(46598633625).jpg",
+    "author": "LASZLO ILYES from Cleveland, Ohio, USA",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "ornate-wrasse": {
+    "commons_title": "File:Thalassoma pavo male.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Thalassoma_pavo_male.jpg",
+    "author": "Cisamarc",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "cherry-anthias": {
+    "commons_title": "File:Japan fish, Sakuradai (Sacura margaritacea) (15770306721).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Japan_fish,_Sakuradai_(Sacura_margaritacea)_(15770306721).jpg",
+    "author": "harum.koh from Kobe city, Japan",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
   }
 }

@@ -102,6 +102,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lates_calcarifer,_2014-09-19a.jpg",
   },
+  "barrier-reef-anemonefish": {
+    author: "Leonard Low from Australia",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Amphiprion_akindynos.jpg",
+  },
   "basking-shark": {
     author: "Green Fire Productions",
     license: "CC BY 2.0",
@@ -125,6 +131,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Bluegill_(Lepomis_macrochirus)_black_background.jpg",
+  },
+  "bluegirdled-angelfish": {
+    author: "Rickard Zerpe",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Bluegirdled_angelfish_(Pomacanthus_navarchus)_(46982094954).jpg",
   },
   "bonnethead": {
     author: "Eric Kilby from Somerville, MA, USA",
@@ -150,6 +162,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cardinal_Paracheirodon_axelrodi_(3).jpg",
   },
+  "cherry-anthias": {
+    author: "harum.koh from Kobe city, Japan",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Japan_fish,_Sakuradai_(Sacura_margaritacea)_(15770306721).jpg",
+  },
   "clown-anemonefish": {
     author: "Nick Hobgood",
     license: "CC BY-SA 3.0",
@@ -162,11 +180,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Adult_Clown_featherback_in_aquarium.jpg",
   },
+  "clown-triggerfish": {
+    author: "H. Zell",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Balistoides_conspicillum_01.jpg",
+  },
   "congo-tetra": {
     author: "7TP (Krzysztof Bartosik)",
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Phenacogrammus_interruptus_1.jpg",
+  },
+  "coral-trout": {
+    author: "Leonard Low from Australia",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Plectropomus_leopardus.jpg",
   },
   "cuckoo-catfish": {
     author: "Mario Rubio García",
@@ -438,6 +468,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis_VA_01.jpg",
   },
+  "ornate-wrasse": {
+    author: "Cisamarc",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Thalassoma_pavo_male.jpg",
+  },
   "oscar": {
     author: "André Karwath aka Aka",
     license: "CC BY-SA 2.5",
@@ -485,6 +521,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.0",
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Pygmy_seahorse_(Hippocampus_bargibanti)_(16245385685).jpg",
+  },
+  "pyjama-cardinalfish": {
+    author: "Rickard Zerpe",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pajama_cardinalfish_(Sphaeramia_nematoptera)_(44065265714).jpg",
   },
   "queen-angelfish": {
     author: "Diego Delso",
@@ -546,6 +588,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Anguila_list%C3%B3n_azul_(Rhinomuraena_quaesita),_Anilao,_Filipinas,_2023-08-23,_DD_60.jpg",
   },
+  "rock-beauty": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Chabelita_tricolor_(Holacanthus_tricolor),_Cozumel,_México,_2025-12-20,_DD_104.jpg",
+  },
+  "royal-gramma": {
+    author: "H. Zell",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Gramma_loreto_01.jpg",
+  },
   "sailfin-sandfish": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -587,6 +641,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg",
+  },
+  "spanish-hogfish": {
+    author: "LASZLO ILYES from Cleveland, Ohio, USA",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Bodianus_rufus_(46598633625).jpg",
   },
   "spotted-ratfish": {
     author: "Stosh Morency",

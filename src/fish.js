@@ -162,6 +162,30 @@ const FISH = [
     region: 'caribbean',
     fact: 'Sucks prey out of rock crevices hard enough that divers can hear the slurp, and spends the day piled up motionless with dozens of others.',
   },
+  {
+    id: 'spanish-hogfish',
+    name: 'Spanish Hogfish',
+    sciName: 'Bodianus rufus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bodianus_rufus_%2846598633625%29.jpg/1280px-Bodianus_rufus_%2846598633625%29.jpg',
+    region: 'caribbean',
+    fact: 'Young ones set up as cleaners, picking parasites off fish easily big enough to eat them, and give up the trade once they are grown.',
+  },
+  {
+    id: 'rock-beauty',
+    name: 'Rock Beauty',
+    sciName: 'Holacanthus tricolor',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Chabelita_tricolor_%28Holacanthus_tricolor%29%2C_Cozumel%2C_M%C3%A9xico%2C_2025-12-20%2C_DD_104.jpg/1280px-Chabelita_tricolor_%28Holacanthus_tricolor%29%2C_Cozumel%2C_M%C3%A9xico%2C_2025-12-20%2C_DD_104.jpg',
+    region: 'caribbean',
+    fact: 'Juveniles are entirely yellow but for one blue-ringed spot, and the black spreads outward from that spot as the fish grows until it covers most of the body.',
+  },
+  {
+    id: 'royal-gramma',
+    name: 'Royal Gramma',
+    sciName: 'Gramma loreto',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Gramma_loreto_01.jpg/1280px-Gramma_loreto_01.jpg',
+    region: 'caribbean',
+    fact: 'Holds itself square to whatever surface it is nearest, so a fish tucked under an overhang hangs there calmly upside down.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -360,6 +384,14 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Cannot fly at all: the enormous blue-spangled fans are opened on the sea floor to startle whatever is chasing it, and it walks on the front rays of its pelvic fins.',
   },
+  {
+    id: 'ornate-wrasse',
+    name: 'Ornate Wrasse',
+    sciName: 'Thalassoma pavo',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Thalassoma_pavo_male.jpg/1280px-Thalassoma_pavo_male.jpg',
+    region: 'mediterranean',
+    fact: 'Born female and barred in orange; the largest of a group then turns male and repaints itself in green and blue.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -542,6 +574,30 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Does not swim so much as walk, on pectoral fins jointed like elbows, and swallows prey in about six milliseconds — one of the fastest strikes measured in any vertebrate.',
   },
+  {
+    id: 'clown-triggerfish',
+    name: 'Clown Triggerfish',
+    sciName: 'Balistoides conspicillum',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Balistoides_conspicillum_01.jpg/1280px-Balistoides_conspicillum_01.jpg',
+    region: 'coral-triangle',
+    fact: 'The white blotches sit only on its underside and the yellow saddle only on its back, so from below and from above it reads as two different fish.',
+  },
+  {
+    id: 'pyjama-cardinalfish',
+    name: 'Pyjama Cardinalfish',
+    sciName: 'Sphaeramia nematoptera',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Pajama_cardinalfish_%28Sphaeramia_nematoptera%29_%2844065265714%29.jpg/1280px-Pajama_cardinalfish_%28Sphaeramia_nematoptera%29_%2844065265714%29.jpg',
+    region: 'coral-triangle',
+    fact: 'The male takes the whole clutch into his mouth and holds it there until the eggs hatch, going without food for the week or so it takes.',
+  },
+  {
+    id: 'bluegirdled-angelfish',
+    name: 'Blue-girdled Angelfish',
+    sciName: 'Pomacanthus navarchus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bluegirdled_angelfish_%28Pomacanthus_navarchus%29_%2846982094954%29.jpg/1280px-Bluegirdled_angelfish_%28Pomacanthus_navarchus%29_%2846982094954%29.jpg',
+    region: 'coral-triangle',
+    fact: 'Starts life black with concentric blue rings and looks like an entirely different species until the orange saddle grows in.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -599,6 +655,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Epaulette_shark_camden2.jpg/1280px-Epaulette_shark_camden2.jpg',
     region: 'northern-australia',
     fact: 'Walks on its fins from one tide pool to the next across dry reef, and survives hours of almost no oxygen by shutting down parts of its own brain.',
+  },
+  {
+    id: 'barrier-reef-anemonefish',
+    name: 'Barrier Reef Anemonefish',
+    sciName: 'Amphiprion akindynos',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Amphiprion_akindynos.jpg/1280px-Amphiprion_akindynos.jpg',
+    region: 'northern-australia',
+    fact: 'Every one of them is born male; when the resident female dies the dominant male becomes her, and the next fish in the queue moves up.',
+  },
+  {
+    id: 'coral-trout',
+    name: 'Coral Trout',
+    sciName: 'Plectropomus leopardus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Plectropomus_leopardus.jpg/1280px-Plectropomus_leopardus.jpg',
+    region: 'northern-australia',
+    fact: 'Hunts in partnership with moray eels and octopuses, recruiting one with a headstand and a shimmy to flush prey out of holes it cannot reach itself.',
   },
   // ---- Southern Ocean ----
   {
@@ -799,6 +871,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Japanese_bullhead_shark_Suma_Aqualife_Park.jpg/1280px-Japanese_bullhead_shark_Suma_Aqualife_Park.jpg',
     region: 'sea-of-japan',
     fact: 'Grinds shellfish with flat crushing back teeth, and lays spiral egg cases that it screws into rock crevices like a corkscrew.',
+  },
+  {
+    id: 'cherry-anthias',
+    name: 'Cherry Anthias',
+    sciName: 'Sacura margaritacea',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Japan_fish%2C_Sakuradai_%28Sacura_margaritacea%29_%2815770306721%29.jpg/1280px-Japan_fish%2C_Sakuradai_%28Sacura_margaritacea%29_%2815770306721%29.jpg',
+    region: 'sea-of-japan',
+    fact: 'Named for the cherry blossom: males are crimson flecked with white, while the females they grew out of stay a plain orange.',
   },
   // ---- Mekong Basin ----
   {
