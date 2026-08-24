@@ -13,9 +13,11 @@ name; you decide which of fifteen regions of the world it comes from.
   so "Antarctic Toothfish" reads "••••••••• Toothfish". Hiding the front is
   deliberate: the giveaway is nearly always the leading word
 - **Three hints per game** — **Reveal name** un-masks the current fish and
-  spends one of three, shared across all five rounds, so a hint used early is
-  one you cannot use later. The full name always appears free once you have
-  guessed, since by then it is not a hint
+  spends one of three, shared across all five rounds. The full name always
+  appears free once you have guessed, since by then it is not a hint
+- **Bonuses for not peeking** — +500 for each fish you guess while its name is
+  still censored, and another +500 for every hint you finish with. Saving all
+  three is worth 1,500 on its own
 - **Fits a phone in landscape** without scrolling, as well as portrait and
   desktop
 
@@ -42,10 +44,15 @@ Your best score is remembered in `localStorage`.
 
 ## How scoring works
 
-| Result | Points |
+| | Points |
 | --- | --- |
 | Correct region | 5,000 |
 | Wrong region | `5000 × e^(−distance_km / 3000)` |
+| Guessed with the name still censored | +500 per round |
+| Each hint left unspent at the end | +500 |
+
+A perfect game is 29,000: five rounds at 5,000, five no-peek bonuses, and 1,500
+for finishing with all three hints.
 
 So picking a neighbouring region ~1,500 km away still scores about 3,000, a
 guess 6,000 km off scores around 680, and one on the far side of the planet

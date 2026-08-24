@@ -11,6 +11,10 @@
   // Hints are a budget for the whole game, not per fish, so revealing a name
   // costs you the chance to reveal a later one.
   const HINTS_PER_GAME = 3;
+  // Guessing a fish while its name is still censored is worth this much on top
+  // of the round score, and every hint left unspent pays out again at the end.
+  const NO_PEEK_BONUS = 500;
+  const SAVED_HINT_BONUS = 500;
   // Larger = more forgiving of near misses. The regions are far apart, so a
   // tight decay would round almost every wrong answer down to zero.
   const DECAY_KM = 3000;
@@ -26,6 +30,7 @@
     actionBar: $('actionBar'), hint: $('hint'), guessBtn: $('guessBtn'),
     hintBtn: $('hintBtn'), promptText: $('promptText'),
     result: $('result'), verdict: $('verdict'), points: $('points'),
+    resultBonus: $('resultBonus'),
     resultLine: $('resultLine'), resultFact: $('resultFact'), nextBtn: $('nextBtn'),
     version: $('version'),
     overlay: $('overlay'), finalScore: $('finalScore'), finalMax: $('finalMax'),
@@ -181,6 +186,10 @@
   function submitGuess() {
     if (state.phase !== 'guess' || !state.selected) return;
     state.phase = 'result';
+
+    /* Read this before the free end-of-round reveal below, otherwise every
+     * round would look as though the name had been peeked at. */
+    const peeked = state.nameRevealed;
     revealName(); // the round is over, so the answer is no longer a hint
 
     const fish = state.deck[state.index];
@@ -188,10 +197,11 @@
     const answer = REGIONS_BY_ID[fish.region];
     const correct = guess.id === answer.id;
     const distance = correct ? 0 : Math.round(haversineKm(guess, answer));
-    const points = scoreFor(distance);
+    const bonus = peeked ? 0 : NO_PEEK_BONUS;
+    const points = scoreFor(distance) + bonus;
 
     state.total += points;
-    state.results.push({ fish, guess, answer, correct, distance, points });
+    state.results.push({ fish, guess, answer, correct, distance, points, bonus });
 
     WorldMap.reveal(guess.id, answer.id);
     ui.score.textContent = fmt(state.total);
@@ -201,6 +211,13 @@
     ui.resultLine.textContent = correct
       ? `The ${fish.name} is from ${withArticle(answer)}.`
       : `You said ${withArticle(guess)}. It's from ${withArticle(answer)} — ${fmt(distance)} km away.`;
+    if (bonus) {
+      ui.resultBonus.textContent =
+        `Includes +${fmt(bonus)} for guessing with the name still censored.`;
+      ui.resultBonus.hidden = false;
+    } else {
+      ui.resultBonus.hidden = true;
+    }
     ui.resultFact.textContent = fish.fact;
     ui.nextBtn.textContent = state.index + 1 >= ROUNDS ? 'See final score' : 'Next fish';
 
@@ -218,7 +235,14 @@
 
   function endGame() {
     state.phase = 'over';
-    const max = ROUNDS * MAX_POINTS;
+
+    // Unspent hints cash out here, so saving all three is worth 1,500.
+    const savedBonus = state.hintsLeft * SAVED_HINT_BONUS;
+    state.total += savedBonus;
+    ui.score.textContent = fmt(state.total);
+
+    const max = ROUNDS * (MAX_POINTS + NO_PEEK_BONUS)
+      + HINTS_PER_GAME * SAVED_HINT_BONUS;
     const best = Math.max(readBest(), state.total);
     writeBest(best);
 
@@ -233,11 +257,11 @@
       pct >= 0.7 ? 'Strong instincts for fish.' :
       pct >= 0.45 ? 'Not bad — the oceans are big.' :
       'Plenty of sea left to learn.';
-    const used = HINTS_PER_GAME - state.hintsLeft;
-    const hintNote = used
-      ? ` ${used} of ${HINTS_PER_GAME} hint${used === 1 ? '' : 's'} used.`
-      : ' No hints used.';
-    ui.endBlurb.textContent = `${hits} of ${ROUNDS} exactly right.${hintNote} ${grade}`;
+    const clean = state.results.filter((r) => r.bonus).length;
+    const cleanNote = clean
+      ? ` ${clean} guessed without the name.`
+      : ' Every name revealed.';
+    ui.endBlurb.textContent = `${hits} of ${ROUNDS} exactly right.${cleanNote} ${grade}`;
 
     ui.breakdown.replaceChildren();
     for (const r of state.results) {
@@ -255,6 +279,31 @@
       const pts = document.createElement('span');
       pts.className = 'breakdown-points';
       pts.textContent = fmt(r.points);
+
+      if (r.bonus) {
+        where.textContent += `  ·  +${fmt(r.bonus)} unrevealed`;
+      }
+      li.append(name, where, pts);
+      ui.breakdown.append(li);
+    }
+
+    // The unspent-hint payout is its own line rather than being folded into a
+    // round, since it is earned across the whole game.
+    if (savedBonus) {
+      const li = document.createElement('li');
+      li.className = 'breakdown-row is-bonus';
+
+      const name = document.createElement('span');
+      name.className = 'breakdown-fish';
+      name.textContent = 'Hints saved';
+
+      const where = document.createElement('span');
+      where.className = 'breakdown-where';
+      where.textContent = `${state.hintsLeft} × ${fmt(SAVED_HINT_BONUS)}`;
+
+      const pts = document.createElement('span');
+      pts.className = 'breakdown-points';
+      pts.textContent = `+${fmt(savedBonus)}`;
 
       li.append(name, where, pts);
       ui.breakdown.append(li);

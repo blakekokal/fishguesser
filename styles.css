@@ -393,6 +393,13 @@ body {
 
 .result-line { margin: 6px 0 0; font-size: 15px; }
 
+.result-bonus {
+  margin: 5px 0 0;
+  color: var(--good);
+  font-size: 13px;
+  font-weight: 600;
+}
+
 .result-fact {
   margin: 10px 0 0;
   padding: 11px 13px;
@@ -473,6 +480,11 @@ body {
 }
 
 .breakdown-row.is-correct .breakdown-points { color: var(--good); }
+
+/* The saved-hint payout is a game-wide line, not a round. */
+.breakdown-row.is-bonus { border-top-style: dashed; }
+.breakdown-row.is-bonus .breakdown-fish,
+.breakdown-row.is-bonus .breakdown-points { color: var(--accent); }
 
 .breakdown-where { grid-column: 1; font-size: 12.5px; color: var(--ink-faint); }
 
@@ -618,6 +630,7 @@ body {
 
   .verdict, .points { font-size: 14px; }
   .result-line { font-size: 12px; }
+  .result-bonus { font-size: 11px; margin-top: 3px; }
   .result-fact { font-size: 11px; padding: 7px 9px; margin-top: 6px; }
   .result .btn { margin-top: 8px; padding: 7px 14px; font-size: 13px; }
 
