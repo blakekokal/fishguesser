@@ -494,6 +494,127 @@ body {
   backdrop-filter: blur(6px);
 }
 
+/* The front page: the rules, read once before the first round. Left-aligned
+ * rather than centred like the end card, because it is prose to be read. */
+.startcard {
+  width: min(560px, 100%);
+  max-height: min(90vh, 90dvh);
+  overflow-y: auto;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  text-align: left;
+  /* No bottom padding: the pinned Start band supplies it, and a gap here would
+   * be a strip of card the text could show through below the button. */
+  padding-bottom: 0;
+}
+
+.start-eyebrow {
+  margin: 0;
+  color: var(--ink-faint);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.start-title {
+  margin: 6px 0 10px;
+  font-size: clamp(28px, 6vw, 36px);
+  line-height: 1.1;
+}
+
+.start-lede {
+  margin: 0 0 18px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.start-h {
+  margin: 20px 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-faint);
+}
+
+.start-steps {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.start-rules {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Point values and cost labels, so the numbers can be picked out at a glance. */
+.pts,
+.tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.tag {
+  font-weight: 600;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+}
+
+.tag-free { color: var(--ink); }
+
+/* Pinned to the bottom of the card so Start stays reachable on a short screen
+ * where the rules have to be scrolled. The band is opaque, with a short fade
+ * above it, so text scrolling underneath does not show through. */
+.start-actions {
+  position: sticky;
+  bottom: 0;
+  margin-top: 4px;
+  padding-bottom: 24px;
+  background: var(--panel);
+}
+
+.start-actions::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: 20px;
+  background: linear-gradient(to top, var(--panel), transparent);
+  pointer-events: none;
+}
+
+.start-foot {
+  margin: 20px 0 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-faint);
+}
+
 .endcard {
   width: min(520px, 100%);
   max-height: 90vh;

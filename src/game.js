@@ -34,6 +34,8 @@
     resultBonus: $('resultBonus'),
     resultLine: $('resultLine'), resultFact: $('resultFact'), nextBtn: $('nextBtn'),
     version: $('version'), speciesCount: $('speciesCount'),
+    startOverlay: $('startOverlay'), startBtn: $('startBtn'),
+    startFishCount: $('startFishCount'),
     overlay: $('overlay'), finalScore: $('finalScore'), finalMax: $('finalMax'),
     endBlurb: $('endBlurb'), breakdown: $('breakdown'), playAgain: $('playAgainBtn'),
   };
@@ -340,6 +342,14 @@
     ui.playAgain.focus();
   }
 
+  /* The front page holds the first round until the rules have been read. The
+   * round behind it is already dealt, so this only lifts the curtain — dealing
+   * again here would throw away the photo that has been loading meanwhile.
+   * Play again skips the rules: by then the player knows how it works. */
+  function beginPlay() {
+    ui.startOverlay.hidden = true;
+  }
+
   function startGame() {
     state.deck = shuffle(FISH).slice(0, ROUNDS);
     state.index = 0;
@@ -362,8 +372,12 @@
   ui.guessBtn.addEventListener('click', submitGuess);
   ui.nextBtn.addEventListener('click', nextRound);
   ui.playAgain.addEventListener('click', startGame);
+  ui.startBtn.addEventListener('click', beginPlay);
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Enter') return;
+    // Enter starts the game while the rules are up; the round behind them is
+    // already dealt, so it must not also lock in a guess on the same press.
+    if (!ui.startOverlay.hidden) { beginPlay(); return; }
     if (state.phase === 'guess' && state.selected) submitGuess();
     else if (state.phase === 'result') nextRound();
   });
@@ -401,8 +415,14 @@
 
   showVersion();
   showSpeciesCount();
+  ui.startFishCount.textContent = `all ${fmt(FISH.length)} fish`;
   WorldMap.build(ui.map, select);
   const best = readBest();
   ui.best.textContent = best ? fmt(best) : '—';
+  /* Deal the first round behind the rules so its photo is fetched while they
+   * are being read, then hand focus to Start. */
   startGame();
+  // preventScroll: focusing the button would otherwise scroll the rules card
+  // down to it, landing the player halfway through the text.
+  ui.startBtn.focus({ preventScroll: true });
 })();

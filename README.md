@@ -13,6 +13,8 @@ name; you decide which of fifteen regions of the world it comes from.
 - **The name is fully censored** — it reads as dots until you reveal it, so the
   photograph is the clue. The scientific name stays visible; the photo credit is
   held back until you answer, since a photographer or museum can name the place
+- **A front page with the rules**, so the two kinds of peek and what they cost
+  are clear before the first fish rather than discovered by losing points
 - **Two ways to peek** — **Show half** gives back the last word of the name and
   costs no reveal, while **Reveal name** un-masks the whole thing and spends one
   of two reveals shared across the game. The full name always appears free once
@@ -31,7 +33,10 @@ rather than committed, so the game needs a network connection to show them.
 
 ## Playing
 
-Open `index.html` in a browser.
+Open `index.html` in a browser. A front page lays out the rules and the scoring
+before the first round; **Start** (or `Enter`) begins. The first fish is dealt
+behind it so its photo is already loading while the rules are being read, and
+**Play again** at the end skips straight back into a game.
 
 Some browsers restrict pages loaded over `file://`, so if anything looks off,
 serve the folder over HTTP instead:

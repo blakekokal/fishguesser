@@ -73,6 +73,52 @@
 
 </main>
 
+<div class="overlay" id="startOverlay">
+  <div class="startcard">
+    <p class="start-eyebrow">A guessing game for fish</p>
+    <h2 class="start-title"><span aria-hidden="true">🐟</span> Fishguesser</h2>
+    <p class="start-lede">You get a photograph and a scientific name. Work out
+      where in the world the fish lives, and click that part of the map.</p>
+
+    <ol class="start-steps">
+      <li><strong>Look at the fish.</strong> Its common name starts blanked
+        out — the photo is the clue.</li>
+      <li><strong>Pick a region</strong> on the map, then
+        <strong>Lock in guess</strong>.</li>
+      <li><strong>Five rounds</strong>, drawn at random from
+        <span id="startFishCount">the collection</span>.</li>
+    </ol>
+
+    <h3 class="start-h">Scoring</h3>
+    <ul class="start-rules">
+      <li><span class="pts">5,000</span> for the right region. Get it wrong and
+        you still score, but it falls away the further off you were — a
+        neighbouring region is worth about 3,000, the far side of the planet
+        almost nothing.</li>
+    </ul>
+
+    <h3 class="start-h">Peeking at the name</h3>
+    <ul class="start-rules">
+      <li><span class="tag tag-free">Free</span> <strong>Show half</strong>
+        hands back part of the name. Costs you nothing, any time you like.</li>
+      <li><span class="tag">2 per game</span> <strong>Reveal name</strong>
+        un-blanks the whole thing. You only get two for the whole game.</li>
+      <li><span class="pts">+500</span> every round you guess with the name
+        still fully blanked — and half counts as peeking, so the free option
+        does cost you this.</li>
+      <li><span class="pts">+500</span> for each reveal you never spend.
+        Finish with both and that is <strong>1,000</strong> banked.</li>
+    </ul>
+
+    <p class="start-foot">A perfect game is <strong>28,500</strong>: five
+      regions dead right, five clean guesses, both reveals unused.</p>
+
+    <div class="start-actions">
+      <button class="btn btn-primary btn-wide" id="startBtn" type="button">Start</button>
+    </div>
+  </div>
+</div>
+
 <div class="overlay" id="overlay" hidden>
   <div class="endcard">
     <h2 class="end-title">Final score</h2>
