@@ -78,12 +78,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "yelloweye-rockfish": {
-    "file": "assets/fish/yelloweye-rockfish.jpg",
-    "commons_title": "File:Sebastes ruberrimus 143567641.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Sebastes_ruberrimus_143567641.jpg",
-    "author": "Jason Grant",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
+    "commons_title": "File:25 yeye2 frierson odfw (8253212034).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:25_yeye2_frierson_odfw_(8253212034).jpg",
+    "author": "Oregon Department of Fish & Wildlife",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
   },
   "lingcod": {
     "file": "assets/fish/lingcod.jpg",
@@ -262,12 +261,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "lumpfish": {
-    "file": "assets/fish/lumpfish.jpg",
-    "commons_title": "File:Merivarblane.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Merivarblane.jpg",
-    "author": "Tiit Hunt",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    "commons_title": "File:Lumpfish-Cyclopterus lumpus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lumpfish-Cyclopterus_lumpus.jpg",
+    "author": "Deadlymeap",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "mediterranean-moray": {
     "file": "assets/fish/mediterranean-moray.jpg",
@@ -712,9 +710,9 @@
     "license_url": "https://creativecommons.org/licenses/by/2.0"
   },
   "angelshark": {
-    "commons_title": "File:Squatina squatina eingegraben bearbeitet.JPG",
-    "source": "https://commons.wikimedia.org/wiki/File:Squatina_squatina_eingegraben_bearbeitet.JPG",
-    "author": "Nightflyer",
+    "commons_title": "File:Squatina squatina 120867948.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Squatina_squatina_120867948.jpg",
+    "author": "Julien Renoult",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -761,11 +759,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "sarcastic-fringehead": {
-    "commons_title": "File:Sarcastic fringehead.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead.jpg",
-    "author": "Guilhem Vellut from Tokyo, Japan",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0"
+    "commons_title": "File:Sarcastic Fringehead (Neoclinus blanchardi) at the Monterey Bay Aquarium.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sarcastic_Fringehead_(Neoclinus_blanchardi)_at_the_Monterey_Bay_Aquarium.jpg",
+    "author": "Evan Baldonado",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "sea-lamprey": {
     "commons_title": "File:Petromyzon marinus 282284066 (cropped).jpg",

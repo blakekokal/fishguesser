@@ -10,7 +10,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | Fish | Author | Licence | Source |
 | --- | --- | --- | --- |
 | `african-butterflyfish` | Vassil | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg) |
-| `angelshark` | Nightflyer | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Squatina_squatina_eingegraben_bearbeitet.JPG) |
+| `angelshark` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Squatina_squatina_120867948.jpg) |
 | `antarctic-toothfish` | Citron | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni.jpg) |
 | `arapaima` | T.Voekler | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Arapaima_gigas_5147.jpg) |
 | `arctic-char` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_Kaiyukan.jpg) |
@@ -75,7 +75,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `lingcod` | Chris Spain | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Ophiodon_elongatus_458366655.jpg) |
 | `longfin-eel` | nick_goldwater | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_62220829.jpg) |
 | `longnose-gar` | USFWS Mountain Prairie | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Longnose_Gar_(Lepisosteus_osseus).jpg) |
-| `lumpfish` | Tiit Hunt | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Merivarblane.jpg) |
+| `lumpfish` | Deadlymeap | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Lumpfish-Cyclopterus_lumpus.jpg) |
 | `malawi-eyebiter` | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cichlidae_-_Dimidiochromis_compressiceps.JPG) |
 | `mandarinfish` | Luc Viatour | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Synchiropus_splendidus_2_Luc_Viatour.jpg) |
 | `mediterranean-moray` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Morena_del_Mediterr%C3%A1neo_(Muraena_helena),_Catania,_Sicilia,_Italia,_2025-04-05,_DD_35.jpg) |
@@ -110,7 +110,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `royal-gramma` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Gramma_loreto_01.jpg) |
 | `sailfin-sandfish` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Arctoscopus_japonicus_Umigatari.png) |
 | `sakhalin-taimen` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hucho_perryi_Yamano1.jpg) |
-| `sarcastic-fringehead` | Guilhem Vellut from Tokyo, Japan | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead.jpg) |
+| `sarcastic-fringehead` | Evan Baldonado | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Sarcastic_Fringehead_(Neoclinus_blanchardi)_at_the_Monterey_Bay_Aquarium.jpg) |
 | `sea-lamprey` | Stephanie Tran | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg) |
 | `siamese-fighting-fish` | Henryk Niestrój | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg) |
 | `six-barred-distichodus` | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG) |
@@ -127,5 +127,5 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `warty-frogfish` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pez_sapo_payaso_(Antennarius_maculatus),_Anilao,_Filipinas,_2023-08-24,_DD_39.jpg) |
 | `white-spotted-cichlid` | lienyuan lee | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:珍珠蝴蝶_Tropheus_duboisi_(Marlier,_1959)_-_panoramio.jpg) |
 | `yellow-perch` | USFWS Mountain Prairie | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Yellow_Perch_(Perca_flavescens).jpg) |
-| `yelloweye-rockfish` | Jason Grant | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Sebastes_ruberrimus_143567641.jpg) |
+| `yelloweye-rockfish` | Oregon Department of Fish & Wildlife | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:25_yeye2_frierson_odfw_(8253212034).jpg) |
 | `zebra-mbuna` | Klaus Rudloff | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Maylandia_zebra_B.jpg) |

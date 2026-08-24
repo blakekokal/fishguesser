@@ -13,10 +13,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg",
   },
   "angelshark": {
-    author: "Nightflyer",
+    author: "Julien Renoult",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Squatina_squatina_eingegraben_bearbeitet.JPG",
+    source: "https://commons.wikimedia.org/wiki/File:Squatina_squatina_120867948.jpg",
   },
   "antarctic-toothfish": {
     author: "Citron",
@@ -403,10 +403,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Longnose_Gar_(Lepisosteus_osseus).jpg",
   },
   "lumpfish": {
-    author: "Tiit Hunt",
-    license: "CC BY-SA 3.0",
-    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
-    source: "https://commons.wikimedia.org/wiki/File:Merivarblane.jpg",
+    author: "Deadlymeap",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Lumpfish-Cyclopterus_lumpus.jpg",
   },
   "malawi-eyebiter": {
     author: "Hectonichus",
@@ -613,10 +613,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Hucho_perryi_Yamano1.jpg",
   },
   "sarcastic-fringehead": {
-    author: "Guilhem Vellut from Tokyo, Japan",
-    license: "CC BY 2.0",
-    license_url: "https://creativecommons.org/licenses/by/2.0",
-    source: "https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead.jpg",
+    author: "Evan Baldonado",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Sarcastic_Fringehead_(Neoclinus_blanchardi)_at_the_Monterey_Bay_Aquarium.jpg",
   },
   "sea-lamprey": {
     author: "Stephanie Tran",
@@ -715,10 +715,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Yellow_Perch_(Perca_flavescens).jpg",
   },
   "yelloweye-rockfish": {
-    author: "Jason Grant",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Sebastes_ruberrimus_143567641.jpg",
+    author: "Oregon Department of Fish & Wildlife",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:25_yeye2_frierson_odfw_(8253212034).jpg",
   },
   "zebra-mbuna": {
     author: "Klaus Rudloff",
