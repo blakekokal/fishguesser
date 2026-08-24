@@ -933,3 +933,147 @@ body {
   * { transition: none !important; }
   .photo { opacity: 1; transform: none; }
 }
+
+/* ---------- photo check (photos.html) ---------- */
+
+/* A reviewing tool rather than part of the game: one photo at a time, in the
+ * same frame the game uses, with everything identifying it held back. */
+
+.review-tools { display: flex; align-items: center; gap: 8px; }
+
+/* One screen, never scrolling: the controls have to stay reachable, and
+ * whatever is left over goes to the photo rather than to a fixed ratio. */
+.review-body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.review {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  /* Wider than the game's panel: the whole point here is to look at the
+   * picture, so give it the room. */
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: 20px clamp(16px, 4vw, 40px) 18px;
+}
+
+.review-frame {
+  flex: 1;
+  min-height: 0;
+  /* Overrides the game's 5:3; here the height is whatever is spare. */
+  aspect-ratio: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Taken out of the flow like the blurred backdrop already is. Left in it, the
+ * photo's intrinsic height became the frame's minimum and propped the page
+ * open past the viewport, pushing Prev/Next off the bottom. */
+.review-frame .photo {
+  position: absolute;
+  inset: 0;
+}
+
+.review-details {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.review-name {
+  margin: 0;
+  font-size: clamp(20px, 3vw, 26px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.review-sci {
+  margin: 2px 0 0;
+  font-style: italic;
+  color: var(--ink-dim);
+  font-size: 15px;
+}
+
+.review-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+.review-region { color: var(--accent); font-weight: 600; }
+
+.review-id {
+  padding: 1px 7px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg-deep);
+  font-size: 12px;
+}
+
+.review-meta a { color: var(--ink-dim); }
+
+.review-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.review-jump {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+.review-jump-label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.review-jump-input {
+  width: 5.5ch;
+  padding: 5px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg-deep);
+  color: var(--ink);
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.review-count { font-variant-numeric: tabular-nums; }
+
+.review-hint { margin: 0; font-size: 12px; color: var(--ink-faint); text-align: center; }
+
+.review-hint kbd {
+  padding: 1px 6px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--panel-2);
+  font: inherit;
+  font-size: 11px;
+}
+
+/* On a phone the keyboard hint is not much use and the details are the first
+ * thing worth the space. */
+@media (orientation: portrait) and (max-width: 560px) {
+  .review { gap: 10px; padding-bottom: 12px; }
+  .review-hint { display: none; }
+}

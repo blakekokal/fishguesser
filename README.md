@@ -60,6 +60,20 @@ you to another device, and clearing site data resets both. Blocked storage
 (private windows, say) is caught and ignored: the game still plays, it just
 starts fresh each time.
 
+## Photo check
+
+`photos.html` steps through all 120 photographs one at a time, in the same
+letterboxed frame the game uses, with the name, the scientific name, the region
+and the credit all held back — so a picture can be judged the way a player
+meets it: is that a whole fish, is it alive, is it recognisable? It is linked
+from the footer of the game.
+
+`←` / `→` (or the buttons) step, `Home` and `End` jump to the ends, the number
+box goes straight to one, and `R` toggles the details. The order follows `FISH`,
+so the number under a photo is a stable way to point at one without the answer
+being on screen. A photo that fails to load says so in the frame, which makes a
+dead link easy to spot.
+
 ## How scoring works
 
 | | Points |
@@ -86,6 +100,7 @@ completely — there is no unclaimed water.
 
 ```
 index.html              markup and script order
+photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions + haversine distance
@@ -94,6 +109,7 @@ src/credits.js          generated photo attribution
 src/coastlines.js       generated Natural Earth land outlines
 src/map.js              the world map: projection, coastlines, section partition
 src/game.js             game loop, scoring, end screen
+src/photos.js           the photo check page
 assets/fish/credits.json  which Commons file each fish uses, and its credit
 tools/build_credits.py  regenerates src/credits.js and CREDITS.md
 tools/bump_version.py   bumps the version and stamps today's date
