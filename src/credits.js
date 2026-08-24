@@ -30,6 +30,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_Kaiyukan.jpg",
   },
+  "atlantic-blue-tang": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pez_cirujano_azul_(Acanthurus_coeruleus),_Cozumel,_México,_2025-12-20,_DD_75.jpg",
+  },
   "atlantic-cod": {
     author: "Wilhelm Thomas Fiege",
     license: "CC BY-SA 4.0",
@@ -41,6 +47,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Atlantic_mackerel_(Scomber_scombrus).jpg",
+  },
+  "atlantic-salmon": {
+    author: "Jarvin - Jarle Vines",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Laks_i_laksetrappa.JPG",
   },
   "atlantic-wolffish": {
     author: "Bjørn Christian Tørrissen",
@@ -59,6 +71,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Neoceratodus_forsteri_Nagoya1.jpg",
+  },
+  "ayu": {
+    author: "タウナギ",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Plecoglossus_altivelis_Totto.jpg",
   },
   "banggai-cardinalfish": {
     author: "Holger Krisp",
@@ -276,6 +294,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
   },
+  "oscar": {
+    author: "André Karwath aka Aka",
+    license: "CC BY-SA 2.5",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.5",
+    source: "https://commons.wikimedia.org/wiki/File:Astronotus_ocellatus_-_side_(aka).jpg",
+  },
   "pacific-halibut": {
     author: "Баранчук-Червонный Лев",
     license: "CC BY-SA 3.0",
@@ -300,6 +324,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Serranidae_Epinephelus_tukula_1.jpg",
   },
+  "pygmy-seahorse": {
+    author: "Rickard Zerpe",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pygmy_seahorse_(Hippocampus_bargibanti)_(16245385685).jpg",
+  },
   "queen-angelfish": {
     author: "Stan Shebs",
     license: "CC BY-SA 3.0",
@@ -311,6 +341,18 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+  },
+  "red-moki": {
+    author: "Avenue",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Red_Moki_(Cheilodactylus_spectabilis).jpg",
+  },
+  "red-scorpionfish": {
+    author: "Vicmicallef",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Red_Scorpionfish_(cropped).jpg",
   },
   "red-seabream": {
     author: "タウナギ",
@@ -330,11 +372,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg",
   },
+  "six-barred-distichodus": {
+    author: "Hectonichus",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG",
+  },
   "sockeye-salmon": {
     author: "David Menke",
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg",
+  },
+  "spotted-ratfish": {
+    author: "Stosh Morency",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Hydrolagus_colliei_8049778.jpg",
   },
   "stoplight-parrotfish": {
     author: "Adona9 at English Wikipedia",
@@ -353,6 +407,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Takifugu_rubripes_AQUAS.jpg",
+  },
+  "walleye": {
+    author: "Engbretson, Eric / U.S. Fish and Wildlife Service",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
   },
   "yelloweye-rockfish": {
     author: "Jason Grant",

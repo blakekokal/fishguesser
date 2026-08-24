@@ -469,5 +469,75 @@
     "author": "zoology",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "spotted-ratfish": {
+    "commons_title": "File:Hydrolagus colliei 8049778.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hydrolagus_colliei_8049778.jpg",
+    "author": "Stosh Morency",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "atlantic-blue-tang": {
+    "commons_title": "File:Pez cirujano azul (Acanthurus coeruleus), Cozumel, México, 2025-12-20, DD 75.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pez_cirujano_azul_(Acanthurus_coeruleus),_Cozumel,_México,_2025-12-20,_DD_75.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "oscar": {
+    "commons_title": "File:Astronotus ocellatus - side (aka).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Astronotus_ocellatus_-_side_(aka).jpg",
+    "author": "André Karwath aka Aka",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "atlantic-salmon": {
+    "commons_title": "File:Laks i laksetrappa.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Laks_i_laksetrappa.JPG",
+    "author": "Jarvin - Jarle Vines",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "red-scorpionfish": {
+    "commons_title": "File:Red Scorpionfish (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Scorpionfish_(cropped).jpg",
+    "author": "Vicmicallef",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "six-barred-distichodus": {
+    "commons_title": "File:Distichodontidae - Distichodus sexfasciatus.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG",
+    "author": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "pygmy-seahorse": {
+    "commons_title": "File:Pygmy seahorse (Hippocampus bargibanti) (16245385685).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pygmy_seahorse_(Hippocampus_bargibanti)_(16245385685).jpg",
+    "author": "Rickard Zerpe",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "walleye": {
+    "commons_title": "File:Sander vitreus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
+    "author": "Engbretson, Eric / U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "ayu": {
+    "commons_title": "File:Plecoglossus altivelis Totto.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Plecoglossus_altivelis_Totto.jpg",
+    "author": "タウナギ",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "red-moki": {
+    "commons_title": "File:Red Moki (Cheilodactylus spectabilis).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Moki_(Cheilodactylus_spectabilis).jpg",
+    "author": "Avenue",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

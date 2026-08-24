@@ -48,6 +48,14 @@ const FISH = [
     fact: 'Hatches upright with an eye on each side, then one eye migrates across its skull as it tips over to live flat on the seabed.',
   },
 
+  {
+    id: 'spotted-ratfish',
+    name: 'Spotted Ratfish',
+    sciName: 'Hydrolagus colliei',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Hydrolagus_colliei_8049778.jpg/1280px-Hydrolagus_colliei_8049778.jpg',
+    region: 'north-pacific',
+    fact: 'Not a shark but a chimaera, from a branch that split off before sharks were sharks: it grinds shellfish with permanent tooth plates, and the spine in front of its dorsal fin is venomous.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -82,6 +90,14 @@ const FISH = [
     fact: 'Gulps air at the surface through a lung-like swim bladder, which lets it survive in stagnant backwaters that would suffocate its predators.',
   },
 
+  {
+    id: 'atlantic-blue-tang',
+    name: 'Atlantic Blue Tang',
+    sciName: 'Acanthurus coeruleus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pez_cirujano_azul_%28Acanthurus_coeruleus%29%2C_Cozumel%2C_M%C3%A9xico%2C_2025-12-20%2C_DD_75.jpg/1280px-Pez_cirujano_azul_%28Acanthurus_coeruleus%29%2C_Cozumel%2C_M%C3%A9xico%2C_2025-12-20%2C_DD_75.jpg',
+    region: 'caribbean',
+    fact: 'Hatches bright yellow and darkens to deep blue as it matures, keeping a scalpel-sharp hinged spine at the base of the tail that it swings sideways like a switchblade.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -116,6 +132,14 @@ const FISH = [
     fact: 'Not an eel but a knifefish. It can discharge around 600 volts, and has been seen leaping to press the shock directly into a large animal.',
   },
 
+  {
+    id: 'oscar',
+    name: 'Oscar',
+    sciName: 'Astronotus ocellatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Astronotus_ocellatus_-_side_%28aka%29.jpg/1280px-Astronotus_ocellatus_-_side_%28aka%29.jpg',
+    region: 'amazon',
+    fact: 'The false eyespot on its tail is thought to send a striking predator to the wrong end, and it will lie motionless on its side playing dead until something curious swims close enough to eat.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -150,6 +174,14 @@ const FISH = [
     fact: 'Its pelvic fins are fused into a suction disc that clamps it to rock against the swell. The male guards the eggs alone, fanning them for weeks.',
   },
 
+  {
+    id: 'atlantic-salmon',
+    name: 'Atlantic Salmon',
+    sciName: 'Salmo salar',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Laks_i_laksetrappa.JPG/1280px-Laks_i_laksetrappa.JPG',
+    region: 'north-atlantic',
+    fact: 'Unlike its Pacific cousins it does not always die after spawning — a few survive the run, slip back down to the sea and return to breed a second or third time.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -184,6 +216,14 @@ const FISH = [
     fact: 'Has a second set of jaws in its throat that lunge forward to drag prey down, since it cannot suck food in the way most fish do.',
   },
 
+  {
+    id: 'red-scorpionfish',
+    name: 'Red Scorpionfish',
+    sciName: 'Scorpaena scrofa',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Red_Scorpionfish_%28cropped%29.jpg/1280px-Red_Scorpionfish_%28cropped%29.jpg',
+    region: 'mediterranean',
+    fact: 'Sits motionless under a fringe of skin tassels until prey drifts within reach, then swallows it in a gulp measured in milliseconds; the spines along its back are venomous.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -218,6 +258,14 @@ const FISH = [
     fact: 'Hangs motionless at the surface watching upward for insects, and can burst clear of the water on its huge wing-like pectoral fins.',
   },
 
+  {
+    id: 'six-barred-distichodus',
+    name: 'Six-barred Distichodus',
+    sciName: 'Distichodus sexfasciatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Distichodontidae_-_Distichodus_sexfasciatus.JPG/1280px-Distichodontidae_-_Distichodus_sexfasciatus.JPG',
+    region: 'congo',
+    fact: 'The bold black bars that make young fish so striking fade as it grows, until a metre-long adult looks like an entirely different species.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -286,6 +334,14 @@ const FISH = [
     fact: 'Every one starts black as a juvenile, turns blue and yellow as a male, then yellow as a female — the same fish in three different liveries.',
   },
 
+  {
+    id: 'pygmy-seahorse',
+    name: 'Pygmy Seahorse',
+    sciName: 'Hippocampus bargibanti',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pygmy_seahorse_%28Hippocampus_bargibanti%29_%2816245385685%29.jpg/1280px-Pygmy_seahorse_%28Hippocampus_bargibanti%29_%2816245385685%29.jpg',
+    region: 'coral-triangle',
+    fact: 'Under two centimetres long and so exactly matched to the gorgonian coral it grips that science only noticed it in 1969, when a collected sea fan reached the laboratory with seahorses still aboard.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -422,6 +478,14 @@ const FISH = [
     fact: 'Males scrape shallow nests in colonies and fan them constantly; smaller males mimic females to sneak into a guarded nest and spawn.',
   },
 
+  {
+    id: 'walleye',
+    name: 'Walleye',
+    sciName: 'Sander vitreus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sander_vitreus.jpg/1280px-Sander_vitreus.jpg',
+    region: 'great-lakes',
+    fact: 'A mirror-like layer behind the retina gathers what little light is left at dusk, so it hunts in the gloom that leaves its prey effectively blind.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'japanese-amberjack',
@@ -456,6 +520,14 @@ const FISH = [
     fact: 'A slender surface fish with no true stomach, so it digests continuously — and an autumn staple grilled whole as sanma.',
   },
 
+  {
+    id: 'ayu',
+    name: 'Ayu',
+    sciName: 'Plecoglossus altivelis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Plecoglossus_altivelis_Totto.jpg/1280px-Plecoglossus_altivelis_Totto.jpg',
+    region: 'sea-of-japan',
+    fact: 'Scrapes algae off river stones and leaves oval grazing marks behind; its flesh smells of melon, and almost every fish lives just one year.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -522,5 +594,13 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Arripis_trutta_NZ.jpg/1280px-Arripis_trutta_NZ.jpg',
     region: 'new-zealand',
     fact: 'Hunts in fast surface shoals that drive baitfish into a boil, with seabirds working the same school from above.',
+  },
+  {
+    id: 'red-moki',
+    name: 'Red Moki',
+    sciName: 'Cheilodactylus spectabilis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Red_Moki_%28Cheilodactylus_spectabilis%29.jpg/1280px-Red_Moki_%28Cheilodactylus_spectabilis%29.jpg',
+    region: 'new-zealand',
+    fact: 'Sifts invertebrates out of mouthfuls of sand with thick fleshy lips, and holds the same patch of reef for decades — some are over sixty years old.',
   },
 ];
