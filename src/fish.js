@@ -64,6 +64,22 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Males and females look like separate species — he is grey-blue under electric blue spots, she is brown under golden-orange ones — and both carry five lateral lines down each flank where most fish have one.',
   },
+  {
+    id: 'pacific-spiny-dogfish',
+    name: 'Pacific Spiny Dogfish',
+    sciName: 'Squalus suckleyi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Squalus_suckleyi_in_an_aquarium.jpg/1280px-Squalus_suckleyi_in_an_aquarium.jpg',
+    region: 'north-pacific',
+    fact: 'Carries a mildly venomous spine in front of each dorsal fin, lives past eighty, and is pregnant for about two years — the longest gestation of any shark.',
+  },
+  {
+    id: 'leopard-shark',
+    name: 'Leopard Shark',
+    sciName: 'Triakis semifasciata',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Triakis_semifasciata_Gratwicke.jpg/1280px-Triakis_semifasciata_Gratwicke.jpg',
+    region: 'north-pacific',
+    fact: 'Rides the flooding tide up onto mudflats to hunt in water barely deep enough to cover it, then slips back out with the ebb.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -121,6 +137,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Queen_Triggerfish_Balistes_vetula.jpg/1280px-Queen_Triggerfish_Balistes_vetula.jpg',
     region: 'caribbean',
     fact: 'Wedges itself into a crevice by locking a stout dorsal spine upright; a smaller spine behind it works the catch, and until that is released the fish cannot be pulled out.',
+  },
+  {
+    id: 'bonnethead',
+    name: 'Bonnethead',
+    sciName: 'Sphyrna tiburo',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bonnethead_shark_Aquarium_of_the_Pacific.jpg/1280px-Bonnethead_shark_Aquarium_of_the_Pacific.jpg',
+    region: 'caribbean',
+    fact: 'The only shark known to properly digest plants: seagrass makes up more than half of what it eats, and it grows on the stuff.',
+  },
+  {
+    id: 'nurse-shark',
+    name: 'Nurse Shark',
+    sciName: 'Ginglymostoma cirratum',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Nurse_shark_turning.jpg/1280px-Nurse_shark_turning.jpg',
+    region: 'caribbean',
+    fact: 'Sucks prey out of rock crevices hard enough that divers can hear the slurp, and spends the day piled up motionless with dozens of others.',
   },
   // ---- Amazon Basin ----
   {
@@ -230,6 +262,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Every one hatches female and dull orange. The largest of a group then turns male and repaints itself in electric blue and yellow.',
   },
+  {
+    id: 'basking-shark',
+    name: 'Basking Shark',
+    sciName: 'Cetorhinus maximus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cetorhinus_maximus_atlantic.jpg/1280px-Cetorhinus_maximus_atlantic.jpg',
+    region: 'north-atlantic',
+    fact: 'The second-largest fish alive strains plankton by cruising with its mouth held wide open, filtering something like two thousand tonnes of water an hour.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -279,6 +319,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mullus_surmuletus_Cala_Gracio.jpg/1280px-Mullus_surmuletus_Cala_Gracio.jpg',
     region: 'mediterranean',
     fact: 'Rakes buried prey out of the sand with a pair of long chin barbels it tastes with. Roman diners paid absurd sums for a large one and kept it alive at the table to watch its colours change.',
+  },
+  {
+    id: 'angelshark',
+    name: 'Angelshark',
+    sciName: 'Squatina squatina',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Squatina_squatina_eingegraben_bearbeitet.JPG/1280px-Squatina_squatina_eingegraben_bearbeitet.JPG',
+    region: 'mediterranean',
+    fact: 'Lies buried with only its eyes above the sand and strikes upward in about a tenth of a second; once so common it was a market staple, now critically endangered.',
   },
   // ---- Congo Basin ----
   {
@@ -430,6 +478,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'The juvenile is blotched brown and white and swims in a lurching, tumbling motion that mimics a toxic flatworm. The adult drops the act and turns pale under dark spots.',
   },
+  {
+    id: 'tasselled-wobbegong',
+    name: 'Tasselled Wobbegong',
+    sciName: 'Eucrossorhinus dasypogon',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tasselled_wobbegong_%28Eucrossorhinus_dasypogon%29.jpg/1280px-Tasselled_wobbegong_%28Eucrossorhinus_dasypogon%29.jpg',
+    region: 'coral-triangle',
+    fact: 'The fringe of branched skin flaps around its head breaks up its outline so completely that fish will swim to within a mouth-length of it.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -479,6 +535,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Melanotaenia_splendida_splendida_188164829.jpg/1280px-Melanotaenia_splendida_splendida_188164829.jpg',
     region: 'northern-australia',
     fact: 'Colour is a morning affair — males flush red and gold at first light to display, then fade back as the day goes on.',
+  },
+  {
+    id: 'epaulette-shark',
+    name: 'Epaulette Shark',
+    sciName: 'Hemiscyllium ocellatum',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Epaulette_shark_camden2.jpg/1280px-Epaulette_shark_camden2.jpg',
+    region: 'northern-australia',
+    fact: 'Walks on its fins from one tide pool to the next across dry reef, and survives hours of almost no oxygen by shutting down parts of its own brain.',
   },
   // ---- Southern Ocean ----
   {
@@ -664,6 +728,14 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'Has no scales at all. It spawns during the winter storms, crowding into the shallows in numbers that leave the surf thick with eggs.',
   },
+  {
+    id: 'japanese-bullhead-shark',
+    name: 'Japanese Bullhead Shark',
+    sciName: 'Heterodontus japonicus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Japanese_bullhead_shark_Suma_Aqualife_Park.jpg/1280px-Japanese_bullhead_shark_Suma_Aqualife_Park.jpg',
+    region: 'sea-of-japan',
+    fact: 'Grinds shellfish with flat crushing back teeth, and lays spiral egg cases that it screws into rock crevices like a corkscrew.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -762,5 +834,13 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chelidonichthys_kumu.jpg/1280px-Chelidonichthys_kumu.jpg',
     region: 'new-zealand',
     fact: 'Walks the seabed on three stiff finger-like rays split off from each pectoral fin, feeling for buried prey, and grunts audibly by drumming its swim bladder.',
+  },
+  {
+    id: 'draughtsboard-shark',
+    name: 'Draughtsboard Shark',
+    sciName: 'Cephaloscyllium isabellum',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Carpetshark.jpg/1280px-Carpetshark.jpg',
+    region: 'new-zealand',
+    fact: 'Swallows water until it swells to twice its size and wedges itself immovably into a crevice — and if it is lifted out, it gulps air and barks.',
   },
 ];

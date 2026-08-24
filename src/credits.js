@@ -12,6 +12,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg",
   },
+  "angelshark": {
+    author: "Nightflyer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Squatina_squatina_eingegraben_bearbeitet.JPG",
+  },
   "antarctic-toothfish": {
     author: "Valerie Loeb",
     license: "Public domain",
@@ -96,6 +102,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lates_calcarifer,_2014-09-19a.jpg",
   },
+  "basking-shark": {
+    author: "Green Fire Productions",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cetorhinus_maximus_atlantic.jpg",
+  },
   "blackfin-icefish": {
     author: "Ambiederman",
     license: "CC BY-SA 4.0",
@@ -113,6 +125,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Bluegill_(Lepomis_macrochirus)_black_background.jpg",
+  },
+  "bonnethead": {
+    author: "Eric Kilby from Somerville, MA, USA",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Bonnethead_shark_Aquarium_of_the_Pacific.jpg",
   },
   "capelin": {
     author: "michaelbakkerpaiva",
@@ -162,6 +180,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Symphysodon_aequifasciatus_-_Karlsruhe_Zoo_04.jpg",
   },
+  "draughtsboard-shark": {
+    author: "Py1jtp",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Carpetshark.jpg",
+  },
   "dusky-grouper": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -197,6 +221,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Emerald_rockcod,_Trematomus_bernacchii.jpg",
+  },
+  "epaulette-shark": {
+    author: "bbcjk.king",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Epaulette_shark_camden2.jpg",
   },
   "european-seabass": {
     author: "Bjoertvedt",
@@ -264,6 +294,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
   },
+  "japanese-bullhead-shark": {
+    author: "Jin Kemoole",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Japanese_bullhead_shark_Suma_Aqualife_Park.jpg",
+  },
   "kahawai": {
     author: "zoology",
     license: "CC0",
@@ -287,6 +323,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Lake_trout_fishes_salvelinus_namaycush.jpg",
+  },
+  "leopard-shark": {
+    author: "Brian Gratwicke",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Triakis_semifasciata_Gratwicke.jpg",
   },
   "lingcod": {
     author: "Chris Spain",
@@ -348,6 +390,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
   },
+  "nurse-shark": {
+    author: "Stevelaycock21",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Nurse_shark_turning.jpg",
+  },
   "nurseryfish": {
     author: "Geekgecko",
     license: "CC BY 4.0",
@@ -383,6 +431,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Cololabis_saira_in_a_tank.jpg",
+  },
+  "pacific-spiny-dogfish": {
+    author: "出羽雀台",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Squalus_suckleyi_in_an_aquarium.jpg",
   },
   "polar-cod": {
     author: "Totti",
@@ -509,6 +563,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Megalops_atlanticus_by_DaijuAzuma.jpg",
+  },
+  "tasselled-wobbegong": {
+    author: "Rickard Zerpe",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Tasselled_wobbegong_(Eucrossorhinus_dasypogon).jpg",
   },
   "torafugu": {
     author: "Totti",
