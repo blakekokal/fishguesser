@@ -226,6 +226,9 @@ body {
   font-size: 15px;
 }
 
+/* Masked text is dots, so the italic slant just makes them wobble. */
+.fish-sci.is-masked { font-style: normal; letter-spacing: 0.04em; }
+
 .prompt-line {
   display: flex;
   align-items: center;

@@ -76,22 +76,10 @@
   const withArticle = (region) =>
     (region.article === false ? '' : 'the ') + region.name;
 
-  const blank = (word) => '•'.repeat(word.length);
-
-  /* Hide the front of the name, not the back. The geographic giveaway is almost
-   * always the leading word — "Atlantic", "Congo", "Australian" — so masking
-   * the front is what actually makes the round a guess, while the final word
-   * ("… Cod", "… Tetra") still says what kind of fish you are looking at.
-   * Whole words are masked so the result never reads like "•••••• •rouper"; a
-   * single-word name falls back to hiding its first half. */
-  function maskName(name) {
-    const words = name.split(' ');
-    if (words.length === 1) {
-      const cut = Math.ceil(name.length / 2);
-      return blank(name.slice(0, cut)) + name.slice(cut);
-    }
-    return words.map((w, i) => (i < words.length - 1 ? blank(w) : w)).join(' ');
-  }
+  /* Blank the name completely — the photo is meant to be the only clue. Spaces
+   * survive so the shape of the name still reads as a name rather than a blob,
+   * but nothing about the words themselves shows. */
+  const maskName = (name) => name.replace(/\S/g, '•');
 
   function renderHints() {
     ui.hints.replaceChildren();
@@ -131,6 +119,11 @@
     state.nameRevealed = true;
     ui.name.textContent = fish.name;
     ui.name.classList.remove('is-masked');
+    ui.sci.textContent = fish.sciName;
+    ui.sci.classList.remove('is-masked');
+    ui.photo.alt = `Photograph of a ${fish.name}`;
+    // The credit can name a place or an institution, so it waits for the answer.
+    ui.credit.hidden = !ui.credit.textContent;
     updateHintButton();
   }
 
@@ -157,22 +150,24 @@
 
     ui.photo.classList.remove('is-ready');
     ui.photo.classList.remove('is-broken');
-    ui.photo.alt = `Photograph of a ${fish.name}`;
+    /* Not the species name: a linked photo that fails to load renders its alt
+     * text on screen, which would hand over the answer. */
+    ui.photo.alt = 'Photograph of the fish to identify';
     ui.photo.src = fish.image;
     ui.name.textContent = maskName(fish.name);
     ui.name.classList.add('is-masked');
-    ui.sci.textContent = fish.sciName;
+    ui.sci.textContent = maskName(fish.sciName);
+    ui.sci.classList.add('is-masked');
     state.nameRevealed = false;
     updateHintButton();
     ui.promptText.textContent = 'Where in the world does it live?';
 
+    /* Loaded now but kept hidden until the guess is in: photographer names and
+     * institutions ("Auckland War Memorial Museum") can give the region away.
+     * Full attribution also lives in CREDITS.md, linked in the footer. */
     const credit = typeof PHOTO_CREDITS !== 'undefined' ? PHOTO_CREDITS[fish.id] : null;
-    if (credit) {
-      ui.credit.textContent = `${credit.author} · ${credit.license}`;
-      ui.credit.hidden = false;
-    } else {
-      ui.credit.hidden = true;
-    }
+    ui.credit.textContent = credit ? `${credit.author} · ${credit.license}` : '';
+    ui.credit.hidden = true;
 
     WorldMap.unlock();
 

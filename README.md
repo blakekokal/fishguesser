@@ -9,9 +9,9 @@ name; you decide which of fifteen regions of the world it comes from.
 - **5 rounds per game**, drawn at random from the species list
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
-- **The name starts half hidden** — everything but the last word is blanked out,
-  so "Antarctic Toothfish" reads "••••••••• Toothfish". Hiding the front is
-  deliberate: the giveaway is nearly always the leading word
+- **The name is fully censored** — both the common and the scientific name read
+  as dots until you reveal them, so the photograph is the only clue. The photo
+  credit is held back too, since a photographer or museum can name the place
 - **Three hints per game** — **Reveal name** un-masks the current fish and
   spends one of three, shared across all five rounds. The full name always
   appears free once you have guessed, since by then it is not a hint
