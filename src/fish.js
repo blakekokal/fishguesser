@@ -88,6 +88,22 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Lives in a bottle or an empty shell and defends it by unfolding its whole head into a gaping frill, then wrestling rivals mouth to mouth.',
   },
+  {
+    id: 'california-sheephead',
+    name: 'California Sheephead',
+    sciName: 'Semicossyphus pulcher',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CA_Sheephead%2C_CINMS.jpg/1280px-CA_Sheephead%2C_CINMS.jpg',
+    region: 'north-pacific',
+    fact: 'Every one starts as a drab female; the largest then turns male, grows a bulbous forehead and a white chin, and looks like a different animal altogether.',
+  },
+  {
+    id: 'garibaldi',
+    name: 'Garibaldi',
+    sciName: 'Hypsypops rubicundus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Garibaldi_%28Fish%29.jpg/1280px-Garibaldi_%28Fish%29.jpg',
+    region: 'north-pacific',
+    fact: 'California made it the state marine fish and then made it illegal to take one, so the brightest orange thing on the reef is also among the best protected.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -186,6 +202,22 @@ const FISH = [
     region: 'caribbean',
     fact: 'Holds itself square to whatever surface it is nearest, so a fish tucked under an overhang hangs there calmly upside down.',
   },
+  {
+    id: 'french-angelfish',
+    name: 'French Angelfish',
+    sciName: 'Pomacanthus paru',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/French_Angelfish_in_Profile_%2847447869022%29.jpg/1280px-French_Angelfish_in_Profile_%2847447869022%29.jpg',
+    region: 'caribbean',
+    fact: 'Pairs stay together for years and patrol a shared territory, and juveniles run cleaning stations that even predators queue up at rather than eat.',
+  },
+  {
+    id: 'southern-stingray',
+    name: 'Southern Stingray',
+    sciName: 'Hypanus americanus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Dasyatis_americana_%282008%29.jpg/1280px-Dasyatis_americana_%282008%29.jpg',
+    region: 'caribbean',
+    fact: 'Flaps its wings to blow a pit in the sand, drops in and vanishes but for two eyes, then pumps water through the holes behind them rather than through a buried mouth.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -252,6 +284,14 @@ const FISH = [
     region: 'amazon',
     fact: 'A relative of the piranha that gave up meat for fruit, waiting under flooded forest trees to crack fallen seeds with molars unnervingly like human teeth.',
   },
+  {
+    id: 'peacock-bass',
+    name: 'Peacock Bass',
+    sciName: 'Cichla ocellaris',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cichla_ocellaris.jpg/1280px-Cichla_ocellaris.jpg',
+    region: 'amazon',
+    fact: 'Not a bass at all but a giant cichlid, and both parents guard the fry in a shoal so tight it moves like one animal.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -317,6 +357,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Petromyzon_marinus_282284066_%28cropped%29.jpg/1280px-Petromyzon_marinus_282284066_%28cropped%29.jpg',
     region: 'north-atlantic',
     fact: 'Older than jaws themselves: it has no hinged mouth, only a rasping funnel of teeth it fastens to a larger fish to drink from.',
+  },
+  {
+    id: 'smallspotted-catshark',
+    name: 'Small-spotted Catshark',
+    sciName: 'Scyliorhinus canicula',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ecomare_-_hondshaai_%28hondshaai-zeeaquarium-1108-sd%29.jpg/1280px-Ecomare_-_hondshaai_%28hondshaai-zeeaquarium-1108-sd%29.jpg',
+    region: 'north-atlantic',
+    fact: 'Lays its eggs in tough horny purses with tendrils at each corner that wind around seaweed like a vine, which is why beachcombers find empty ones by the hundred.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -391,6 +439,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Thalassoma_pavo_male.jpg/1280px-Thalassoma_pavo_male.jpg',
     region: 'mediterranean',
     fact: 'Born female and barred in orange; the largest of a group then turns male and repaints itself in green and blue.',
+  },
+  {
+    id: 'marbled-electric-ray',
+    name: 'Marbled Electric Ray',
+    sciName: 'Torpedo marmorata',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Torpedo_marmorata_%2820150825%29_01.jpg/1280px-Torpedo_marmorata_%2820150825%29_01.jpg',
+    region: 'mediterranean',
+    fact: 'Two blocks of muscle behind the eyes are wired into batteries that deliver about 200 volts, enough to stun a fish outright and to make a careless hand let go.',
   },
   // ---- Congo Basin ----
   {
@@ -597,6 +653,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bluegirdled_angelfish_%28Pomacanthus_navarchus%29_%2846982094954%29.jpg/1280px-Bluegirdled_angelfish_%28Pomacanthus_navarchus%29_%2846982094954%29.jpg',
     region: 'coral-triangle',
     fact: 'Starts life black with concentric blue rings and looks like an entirely different species until the orange saddle grows in.',
+  },
+  {
+    id: 'whitetip-reef-shark',
+    name: 'Whitetip Reef Shark',
+    sciName: 'Triaenodon obesus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Barcelona-L%27Aquarium-Tibur%C3%B3n_de_puntas_blancas_%28Triaenodon_obesus%29.jpg/1280px-Barcelona-L%27Aquarium-Tibur%C3%B3n_de_puntas_blancas_%28Triaenodon_obesus%29.jpg',
+    region: 'coral-triangle',
+    fact: 'Unusually for a shark it can lie still on the bottom and pump water over its gills, so it spends the day piled in caves and hunts by night.',
   },
   // ---- Northern Australia ----
   {
@@ -814,6 +878,14 @@ const FISH = [
     region: 'great-lakes',
     fact: 'The last survivor of a family that has been around for 150 million years; it gulps air from a swim bladder plumbed like a lung and can outlast a pond going stagnant.',
   },
+  {
+    id: 'smallmouth-bass',
+    name: 'Smallmouth Bass',
+    sciName: 'Micropterus dolomieu',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Detailed_underwater_photo_of_smallmouth_bass_fish_micropterus_dolomieu.jpg/1280px-Detailed_underwater_photo_of_smallmouth_bass_fish_micropterus_dolomieu.jpg',
+    region: 'great-lakes',
+    fact: 'The male fans out a gravel nest and then guards it for weeks, driving off anything that comes near long after the eggs have hatched.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'sakhalin-taimen',
@@ -945,6 +1017,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kryptopterus_vitreolus_%28Cologne_Zoo%29.jpg/1280px-Kryptopterus_vitreolus_%28Cologne_Zoo%29.jpg',
     region: 'mekong',
     fact: 'So transparent that its spine and the silvery sac around its organs are the only parts you can see; the rest of the fish is a suggestion.',
+  },
+  {
+    id: 'siamese-tigerfish',
+    name: 'Siamese Tigerfish',
+    sciName: 'Datnioides pulcher',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Datnioides_pulcher_by_OpenCage.jpg/1280px-Datnioides_pulcher_by_OpenCage.jpg',
+    region: 'mekong',
+    fact: 'Hangs almost motionless among flooded branches, its broad black bars breaking up its outline, then swings its whole body to inhale a passing fish.',
   },
   // ---- New Zealand ----
   {

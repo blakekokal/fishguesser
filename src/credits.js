@@ -150,6 +150,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg",
   },
+  "california-sheephead": {
+    author: "Ed Bierman from CA, usa",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:CA_Sheephead,_CINMS.jpg",
+  },
   "capelin": {
     author: "michaelbakkerpaiva",
     license: "CC BY 4.0",
@@ -282,11 +288,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Chaetodon_capistratus_394406658.jpg",
   },
+  "french-angelfish": {
+    author: "LASZLO ILYES from Cleveland, Ohio, USA",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:French_Angelfish_in_Profile_(47447869022).jpg",
+  },
   "frontosa": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
+  },
+  "garibaldi": {
+    author: "Dwij Joshipura",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Garibaldi_(Fish).jpg",
   },
   "giant-barb": {
     author: "Mhlayson",
@@ -420,6 +438,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Synchiropus_splendidus_2_Luc_Viatour.jpg",
   },
+  "marbled-electric-ray": {
+    author: "Ericsfr",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Torpedo_marmorata_(20150825)_01.jpg",
+  },
   "mediterranean-moray": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -497,6 +521,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Squalus_suckleyi_in_an_aquarium.jpg",
+  },
+  "peacock-bass": {
+    author: "Petruss",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cichla_ocellaris.jpg",
   },
   "polar-cod": {
     author: "Totti",
@@ -630,17 +660,41 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg",
   },
+  "siamese-tigerfish": {
+    author: "Daiju Azuma",
+    license: "CC BY-SA 2.5",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.5",
+    source: "https://commons.wikimedia.org/wiki/File:Datnioides_pulcher_by_OpenCage.jpg",
+  },
   "six-barred-distichodus": {
     author: "Hectonichus",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG",
   },
+  "smallmouth-bass": {
+    author: "Engbretson Eric, U.S. Fish and Wildlife Service",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Detailed_underwater_photo_of_smallmouth_bass_fish_micropterus_dolomieu.jpg",
+  },
+  "smallspotted-catshark": {
+    author: "Ecomare/Sytske Dijksen",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg",
+  },
   "sockeye-salmon": {
     author: "David Menke",
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg",
+  },
+  "southern-stingray": {
+    author: "Albert kok",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Dasyatis_americana_(2008).jpg",
   },
   "spanish-hogfish": {
     author: "LASZLO ILYES from Cleveland, Ohio, USA",
@@ -707,6 +761,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 3.0",
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:珍珠蝴蝶_Tropheus_duboisi_(Marlier,_1959)_-_panoramio.jpg",
+  },
+  "whitetip-reef-shark": {
+    author: "Javi Guerra Hernando",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Barcelona-L'Aquarium-Tiburón_de_puntas_blancas_(Triaenodon_obesus).jpg",
   },
   "yellow-perch": {
     author: "USFWS Mountain Prairie",

@@ -882,5 +882,75 @@
     "author": "harum.koh from Kobe city, Japan",
     "license": "CC BY-SA 2.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "garibaldi": {
+    "commons_title": "File:Garibaldi (Fish).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Garibaldi_(Fish).jpg",
+    "author": "Dwij Joshipura",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "california-sheephead": {
+    "commons_title": "File:CA Sheephead, CINMS.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:CA_Sheephead,_CINMS.jpg",
+    "author": "Ed Bierman from CA, usa",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "southern-stingray": {
+    "commons_title": "File:Dasyatis americana (2008).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dasyatis_americana_(2008).jpg",
+    "author": "Albert kok",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "french-angelfish": {
+    "commons_title": "File:French Angelfish in Profile (47447869022).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:French_Angelfish_in_Profile_(47447869022).jpg",
+    "author": "LASZLO ILYES from Cleveland, Ohio, USA",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "marbled-electric-ray": {
+    "commons_title": "File:Torpedo marmorata (20150825) 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Torpedo_marmorata_(20150825)_01.jpg",
+    "author": "Ericsfr",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "smallspotted-catshark": {
+    "commons_title": "File:Ecomare - hondshaai (hondshaai-zeeaquarium-1108-sd).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg",
+    "author": "Ecomare/Sytske Dijksen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "whitetip-reef-shark": {
+    "commons_title": "File:Barcelona-L'Aquarium-Tiburón de puntas blancas (Triaenodon obesus).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Barcelona-L'Aquarium-Tiburón_de_puntas_blancas_(Triaenodon_obesus).jpg",
+    "author": "Javi Guerra Hernando",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "peacock-bass": {
+    "commons_title": "File:Cichla ocellaris.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cichla_ocellaris.jpg",
+    "author": "Petruss",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "siamese-tigerfish": {
+    "commons_title": "File:Datnioides pulcher by OpenCage.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Datnioides_pulcher_by_OpenCage.jpg",
+    "author": "Daiju Azuma",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "smallmouth-bass": {
+    "commons_title": "File:Detailed underwater photo of smallmouth bass fish micropterus dolomieu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Detailed_underwater_photo_of_smallmouth_bass_fish_micropterus_dolomieu.jpg",
+    "author": "Engbretson Eric, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "license_url": ""
   }
 }

@@ -33,6 +33,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `bluegirdled-angelfish` | Rickard Zerpe | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Bluegirdled_angelfish_(Pomacanthus_navarchus)_(46982094954).jpg) |
 | `bonnethead` | Eric Kilby from Somerville, MA, USA | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Bonnethead_shark_Aquarium_of_the_Pacific.jpg) |
 | `bowfin` | United States Fish and Wildlife Services | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg) |
+| `california-sheephead` | Ed Bierman from CA, usa | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:CA_Sheephead,_CINMS.jpg) |
 | `capelin` | michaelbakkerpaiva | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Mallotus_villosus.jpg) |
 | `cardinal-tetra` | CHUCAO | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cardinal_Paracheirodon_axelrodi_(3).jpg) |
 | `cherry-anthias` | harum.koh from Kobe city, Japan | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Japan_fish,_Sakuradai_(Sacura_margaritacea)_(15770306721).jpg) |
@@ -55,7 +56,9 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `european-seabass` | Bjoertvedt | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG) |
 | `flying-gurnard` | Vicmicallef | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:FlyingGurnard.jpg) |
 | `foureye-butterflyfish` | Fish and Dive | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Chaetodon_capistratus_394406658.jpg) |
+| `french-angelfish` | LASZLO ILYES from Cleveland, Ohio, USA | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:French_Angelfish_in_Profile_(47447869022).jpg) |
 | `frontosa` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg) |
+| `garibaldi` | Dwij Joshipura | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Garibaldi_(Fish).jpg) |
 | `giant-barb` | Mhlayson | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Siamese_giant_carp_(Catlocarpio_siamensis)_2.jpg) |
 | `giant-freshwater-stingray` | Gant223 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Urogymnus_polylepis_at_Itabashi_Botanical_Garden.png) |
 | `giant-mudskipper` | Mhlayson | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Giant_Mudskipper_(Periophthalmodon_schlosseri).jpg) |
@@ -78,6 +81,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `lumpfish` | Deadlymeap | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Lumpfish-Cyclopterus_lumpus.jpg) |
 | `malawi-eyebiter` | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cichlidae_-_Dimidiochromis_compressiceps.JPG) |
 | `mandarinfish` | Luc Viatour | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Synchiropus_splendidus_2_Luc_Viatour.jpg) |
+| `marbled-electric-ray` | Ericsfr | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Torpedo_marmorata_(20150825)_01.jpg) |
 | `mediterranean-moray` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Morena_del_Mediterr%C3%A1neo_(Muraena_helena),_Catania,_Sicilia,_Italia,_2025-04-05,_DD_35.jpg) |
 | `mekong-giant-catfish` | Cool critter channel | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg) |
 | `muskellunge` | James St. John | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Esox_masquinongy_(muskellunge)_1.jpg) |
@@ -91,6 +95,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `pacific-halibut` | Баранчук-Червонный Лев | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hippoglossus_stenolepis_1.JPG) |
 | `pacific-saury` | 出羽雀台 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cololabis_saira_in_a_tank.jpg) |
 | `pacific-spiny-dogfish` | 出羽雀台 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Squalus_suckleyi_in_an_aquarium.jpg) |
+| `peacock-bass` | Petruss | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cichla_ocellaris.jpg) |
 | `polar-cod` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Boreogadus_saida_Kaiyukan.jpg) |
 | `potato-cod` | NasserHalaweh | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Serranidae_Epinephelus_tukula_1.jpg) |
 | `psychedelic-frogfish` | Truite agile | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Psychedelic_frogfish_juvenile.jpg) |
@@ -113,8 +118,12 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `sarcastic-fringehead` | DrKjaergaard | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | [Commons](https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead_in_plastic_tube.JPG) |
 | `sea-lamprey` | Stephanie Tran | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg) |
 | `siamese-fighting-fish` | Henryk Niestrój | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg) |
+| `siamese-tigerfish` | Daiju Azuma | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | [Commons](https://commons.wikimedia.org/wiki/File:Datnioides_pulcher_by_OpenCage.jpg) |
 | `six-barred-distichodus` | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG) |
+| `smallmouth-bass` | Engbretson Eric, U.S. Fish and Wildlife Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Detailed_underwater_photo_of_smallmouth_bass_fish_micropterus_dolomieu.jpg) |
+| `smallspotted-catshark` | Ecomare/Sytske Dijksen | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg) |
 | `sockeye-salmon` | David Menke | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg) |
+| `southern-stingray` | Albert kok | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Dasyatis_americana_(2008).jpg) |
 | `spanish-hogfish` | LASZLO ILYES from Cleveland, Ohio, USA | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Bodianus_rufus_(46598633625).jpg) |
 | `spotted-ratfish` | Stosh Morency | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hydrolagus_colliei_8049778.jpg) |
 | `stoplight-parrotfish` | Adona9 at English Wikipedia | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Stoplight-parrotfish.jpg) |
@@ -126,6 +135,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `walleye` | Engbretson, Eric / U.S. Fish and Wildlife Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg) |
 | `warty-frogfish` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pez_sapo_payaso_(Antennarius_maculatus),_Anilao,_Filipinas,_2023-08-24,_DD_39.jpg) |
 | `white-spotted-cichlid` | lienyuan lee | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:珍珠蝴蝶_Tropheus_duboisi_(Marlier,_1959)_-_panoramio.jpg) |
+| `whitetip-reef-shark` | Javi Guerra Hernando | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Barcelona-L'Aquarium-Tiburón_de_puntas_blancas_(Triaenodon_obesus).jpg) |
 | `yellow-perch` | USFWS Mountain Prairie | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Yellow_Perch_(Perca_flavescens).jpg) |
 | `yelloweye-rockfish` | Oregon Department of Fish & Wildlife | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:25_yeye2_frierson_odfw_(8253212034).jpg) |
 | `zebra-mbuna` | Klaus Rudloff | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Maylandia_zebra_B.jpg) |
