@@ -746,5 +746,75 @@
     "author": "Py1jtp",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "warty-frogfish": {
+    "commons_title": "File:Pez sapo payaso (Antennarius maculatus), Anilao, Filipinas, 2023-08-24, DD 39.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pez_sapo_payaso_(Antennarius_maculatus),_Anilao,_Filipinas,_2023-08-24,_DD_39.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "psychedelic-frogfish": {
+    "commons_title": "File:Psychedelic frogfish juvenile.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Psychedelic_frogfish_juvenile.jpg",
+    "author": "Truite agile",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sarcastic-fringehead": {
+    "commons_title": "File:Sarcastic fringehead.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead.jpg",
+    "author": "Guilhem Vellut from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "sea-lamprey": {
+    "commons_title": "File:Petromyzon marinus 282284066 (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg",
+    "author": "Stephanie Tran",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "tambaqui": {
+    "commons_title": "File:Black pacu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_pacu.jpg",
+    "author": "Brian Gratwicke",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "reedfish": {
+    "commons_title": "File:Erpetoichthys calabaricus 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Erpetoichthys_calabaricus_01.jpg",
+    "author": "Tylwyth Eldar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "glass-catfish": {
+    "commons_title": "File:Kryptopterus vitreolus (Cologne Zoo).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kryptopterus_vitreolus_(Cologne_Zoo).jpg",
+    "author": "TomCatX",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "giant-mudskipper": {
+    "commons_title": "File:Giant Mudskipper (Periophthalmodon schlosseri).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Giant_Mudskipper_(Periophthalmodon_schlosseri).jpg",
+    "author": "Mhlayson",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "bowfin": {
+    "commons_title": "File:Bowfin 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg",
+    "author": "United States Fish and Wildlife Services",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "flying-gurnard": {
+    "commons_title": "File:FlyingGurnard.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:FlyingGurnard.jpg",
+    "author": "Vicmicallef",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

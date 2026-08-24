@@ -80,6 +80,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Rides the flooding tide up onto mudflats to hunt in water barely deep enough to cover it, then slips back out with the ebb.',
   },
+  {
+    id: 'sarcastic-fringehead',
+    name: 'Sarcastic Fringehead',
+    sciName: 'Neoclinus blanchardi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sarcastic_fringehead.jpg/1280px-Sarcastic_fringehead.jpg',
+    region: 'north-pacific',
+    fact: 'Lives in a bottle or an empty shell and defends it by unfolding its whole head into a gaping frill, then wrestling rivals mouth to mouth.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -212,6 +220,14 @@ const FISH = [
     region: 'amazon',
     fact: 'Swallows whole anything that fits and passes a metre in length, which is why a palm-sized one sold for a home aquarium rarely stays in it.',
   },
+  {
+    id: 'tambaqui',
+    name: 'Tambaqui',
+    sciName: 'Colossoma macropomum',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_pacu.jpg/1280px-Black_pacu.jpg',
+    region: 'amazon',
+    fact: 'A relative of the piranha that gave up meat for fruit, waiting under flooded forest trees to crack fallen seeds with molars unnervingly like human teeth.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -269,6 +285,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cetorhinus_maximus_atlantic.jpg/1280px-Cetorhinus_maximus_atlantic.jpg',
     region: 'north-atlantic',
     fact: 'The second-largest fish alive strains plankton by cruising with its mouth held wide open, filtering something like two thousand tonnes of water an hour.',
+  },
+  {
+    id: 'sea-lamprey',
+    name: 'Sea Lamprey',
+    sciName: 'Petromyzon marinus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Petromyzon_marinus_282284066_%28cropped%29.jpg/1280px-Petromyzon_marinus_282284066_%28cropped%29.jpg',
+    region: 'north-atlantic',
+    fact: 'Older than jaws themselves: it has no hinged mouth, only a rasping funnel of teeth it fastens to a larger fish to drink from.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -328,6 +352,14 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Lies buried with only its eyes above the sand and strikes upward in about a tenth of a second; once so common it was a market staple, now critically endangered.',
   },
+  {
+    id: 'flying-gurnard',
+    name: 'Flying Gurnard',
+    sciName: 'Dactylopterus volitans',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/FlyingGurnard.jpg/1280px-FlyingGurnard.jpg',
+    region: 'mediterranean',
+    fact: 'Cannot fly at all: the enormous blue-spangled fans are opened on the sea floor to startle whatever is chasing it, and it walks on the front rays of its pelvic fins.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -377,6 +409,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Polypterus_ornatipinnis_VA_01.jpg/1280px-Polypterus_ornatipinnis_VA_01.jpg',
     region: 'congo',
     fact: 'Breathes air through a pair of true lungs and will drown if it cannot reach the surface — a body plan little changed since before the dinosaurs.',
+  },
+  {
+    id: 'reedfish',
+    name: 'Reedfish',
+    sciName: 'Erpetoichthys calabaricus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Erpetoichthys_calabaricus_01.jpg/1280px-Erpetoichthys_calabaricus_01.jpg',
+    region: 'congo',
+    fact: 'A snake-shaped survivor from before the dinosaurs, with a pair of working lungs; it drowns if it cannot reach the surface, and will crawl overland between pools.',
   },
   // ---- East African Rift Lakes ----
   {
@@ -485,6 +525,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tasselled_wobbegong_%28Eucrossorhinus_dasypogon%29.jpg/1280px-Tasselled_wobbegong_%28Eucrossorhinus_dasypogon%29.jpg',
     region: 'coral-triangle',
     fact: 'The fringe of branched skin flaps around its head breaks up its outline so completely that fish will swim to within a mouth-length of it.',
+  },
+  {
+    id: 'psychedelic-frogfish',
+    name: 'Psychedelic Frogfish',
+    sciName: 'Histiophryne psychedelica',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Psychedelic_frogfish_juvenile.jpg/1280px-Psychedelic_frogfish_juvenile.jpg',
+    region: 'coral-triangle',
+    fact: 'Every fish wears a different maze of white stripes, and it gets about by bouncing off the bottom, jetting water from its gills to shove itself along.',
+  },
+  {
+    id: 'warty-frogfish',
+    name: 'Warty Frogfish',
+    sciName: 'Antennarius maculatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pez_sapo_payaso_%28Antennarius_maculatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_39.jpg/1280px-Pez_sapo_payaso_%28Antennarius_maculatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_39.jpg',
+    region: 'coral-triangle',
+    fact: 'Does not swim so much as walk, on pectoral fins jointed like elbows, and swallows prey in about six milliseconds — one of the fastest strikes measured in any vertebrate.',
   },
   // ---- Northern Australia ----
   {
@@ -678,6 +734,14 @@ const FISH = [
     region: 'great-lakes',
     fact: 'Armoured in interlocking enamel-hard scales and able to gulp air at the surface, it survives water that suffocates other fish. Its eggs are poisonous to whatever eats them.',
   },
+  {
+    id: 'bowfin',
+    name: 'Bowfin',
+    sciName: 'Amia calva',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Bowfin_01.jpg/1280px-Bowfin_01.jpg',
+    region: 'great-lakes',
+    fact: 'The last survivor of a family that has been around for 150 million years; it gulps air from a swim bladder plumbed like a lung and can outlast a pond going stagnant.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'sakhalin-taimen',
@@ -785,6 +849,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Adult_Clown_featherback_in_aquarium.jpg/1280px-Adult_Clown_featherback_in_aquarium.jpg',
     region: 'mekong',
     fact: 'Holds its body rigid and swims by rippling one long unbroken fin along its underside, forwards or backwards with equal ease.',
+  },
+  {
+    id: 'giant-mudskipper',
+    name: 'Giant Mudskipper',
+    sciName: 'Periophthalmodon schlosseri',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Giant_Mudskipper_%28Periophthalmodon_schlosseri%29.jpg/1280px-Giant_Mudskipper_%28Periophthalmodon_schlosseri%29.jpg',
+    region: 'mekong',
+    fact: 'Spends most of the tide out of the water, breathing through its skin and a mouthful of held water, and digs burrows it gulps air down into for its eggs.',
+  },
+  {
+    id: 'glass-catfish',
+    name: 'Glass Catfish',
+    sciName: 'Kryptopterus vitreolus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kryptopterus_vitreolus_%28Cologne_Zoo%29.jpg/1280px-Kryptopterus_vitreolus_%28Cologne_Zoo%29.jpg',
+    region: 'mekong',
+    fact: 'So transparent that its spine and the silvery sac around its organs are the only parts you can see; the rest of the fish is a suggestion.',
   },
   // ---- New Zealand ----
   {

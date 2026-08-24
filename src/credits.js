@@ -132,6 +132,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Bonnethead_shark_Aquarium_of_the_Pacific.jpg",
   },
+  "bowfin": {
+    author: "United States Fish and Wildlife Services",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg",
+  },
   "capelin": {
     author: "michaelbakkerpaiva",
     license: "CC BY 4.0",
@@ -234,6 +240,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG",
   },
+  "flying-gurnard": {
+    author: "Vicmicallef",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:FlyingGurnard.jpg",
+  },
   "foureye-butterflyfish": {
     author: "Fish and Dive",
     license: "CC BY 4.0",
@@ -258,6 +270,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Urogymnus_polylepis_at_Itabashi_Botanical_Garden.png",
   },
+  "giant-mudskipper": {
+    author: "Mhlayson",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Giant_Mudskipper_(Periophthalmodon_schlosseri).jpg",
+  },
   "giant-snakehead": {
     author: "Cedricguppy - Loury Cédric",
     license: "CC BY-SA 4.0",
@@ -269,6 +287,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Brest_-_Oc%C3%A9anopolis_-_2015_-_051.jpg",
+  },
+  "glass-catfish": {
+    author: "TomCatX",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Kryptopterus_vitreolus_(Cologne_Zoo).jpg",
   },
   "goliath-tigerfish": {
     author: "Sablegsd",
@@ -450,6 +474,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Serranidae_Epinephelus_tukula_1.jpg",
   },
+  "psychedelic-frogfish": {
+    author: "Truite agile",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Psychedelic_frogfish_juvenile.jpg",
+  },
   "pygmy-seahorse": {
     author: "Rickard Zerpe",
     license: "CC BY-SA 2.0",
@@ -504,6 +534,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Hal_-_Phractocephalus_hemioliopterus_-_1.jpg",
   },
+  "reedfish": {
+    author: "Tylwyth Eldar",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Erpetoichthys_calabaricus_01.jpg",
+  },
   "ribbon-eel": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -521,6 +557,18 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Hucho_perryi_Yamano1.jpg",
+  },
+  "sarcastic-fringehead": {
+    author: "Guilhem Vellut from Tokyo, Japan",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead.jpg",
+  },
+  "sea-lamprey": {
+    author: "Stephanie Tran",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg",
   },
   "siamese-fighting-fish": {
     author: "Henryk Niestrój",
@@ -558,6 +606,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus_Cala_Gracio.jpg",
   },
+  "tambaqui": {
+    author: "Brian Gratwicke",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Black_pacu.jpg",
+  },
   "tarpon": {
     author: "Daiju Azuma",
     license: "CC BY-SA 4.0",
@@ -581,6 +635,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
+  },
+  "warty-frogfish": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pez_sapo_payaso_(Antennarius_maculatus),_Anilao,_Filipinas,_2023-08-24,_DD_39.jpg",
   },
   "white-spotted-cichlid": {
     author: "lienyuan lee",
