@@ -1,12 +1,14 @@
-/* Fishguesser — the ten guessable regions.
+/* Fishguesser — the guessable regions.
  *
  * Each region has a representative centroid (lat/lon) used both for anchoring
  * its label on the world map and for distance-based partial credit when you
  * guess wrong. `short` is an optional map-only label for names too long to sit
- * on the map comfortably; everything else shows the full `name`.
+ * on the map comfortably; everything else shows the full `name`. `article:
+ * false` marks a proper place name that reads "from Northern Australia" rather
+ * than "from the ...".
  *
- * Adding an 11th region means appending here and drawing its clickable area in
- * the ZONES table in map.js. */
+ * Adding a region means appending here and nothing else: the map divides
+ * itself into one section per region from these coordinates. */
 
 const REGIONS = [
   {
@@ -85,6 +87,44 @@ const REGIONS = [
     blurb: 'Near-freezing water circling Antarctica, full of antifreeze-blooded fish.',
     lat: -70,
     lon: 170,
+  },
+  {
+    id: 'arctic',
+    name: 'Arctic Ocean',
+    short: 'Arctic',
+    blurb: 'Ice-covered water at the top of the world, dark for months at a time.',
+    lat: 80,
+    lon: 0,
+  },
+  {
+    id: 'great-lakes',
+    name: 'Great Lakes',
+    article: false,
+    blurb: 'Freshwater inland seas of North America, carved out by the ice sheets.',
+    lat: 45,
+    lon: -85,
+  },
+  {
+    id: 'sea-of-japan',
+    name: 'Sea of Japan',
+    blurb: 'Cool, deep water between Japan and the Asian mainland.',
+    lat: 38,
+    lon: 135,
+  },
+  {
+    id: 'mekong',
+    name: 'Mekong Basin',
+    blurb: "Southeast Asia's great muddy river, from Tibet to the Vietnamese delta.",
+    lat: 15,
+    lon: 105,
+  },
+  {
+    id: 'new-zealand',
+    name: 'New Zealand',
+    article: false,
+    blurb: 'Isolated temperate islands in the South Pacific, far from anywhere.',
+    lat: -42,
+    lon: 174,
   },
 ];
 

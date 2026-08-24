@@ -414,5 +414,61 @@
     "author": "出羽雀台",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "mekong-giant-catfish": {
+    "commons_title": "File:Mekong giant catfish.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg",
+    "author": "Cool critter channel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "siamese-fighting-fish": {
+    "commons_title": "File:Bojownik syjamski.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg",
+    "author": "Henryk Niestrój",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "giant-freshwater-stingray": {
+    "commons_title": "File:Giant freshwater stingray.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Giant_freshwater_stingray.JPG",
+    "author": "Amelia Guo",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "giant-snakehead": {
+    "commons_title": "File:Channa micropeltes - Tête de serpent - Aqua Porte Dorée 01.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Channa_micropeltes_-_T%C3%AAte_de_serpent_-_Aqua_Porte_Dor%C3%A9e_01.JPG",
+    "author": "Cedricguppy - Loury Cédric",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "australasian-snapper": {
+    "commons_title": "File:Pagrus auratus (Forster, 1801) (AM MA36682-1).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pagrus_auratus_(Forster,_1801)_(AM_MA36682-1).jpg",
+    "author": "Auckland War Memorial Museum",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "longfin-eel": {
+    "commons_title": "File:Anguilla dieffenbachii 62220829.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_62220829.jpg",
+    "author": "nick_goldwater",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blue-cod": {
+    "commons_title": "File:Blue Cod in Milford Sound.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Cod_in_Milford_Sound.jpg",
+    "author": "André Richard Chalmers",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "kahawai": {
+    "commons_title": "File:Arripis trutta NZ.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Arripis_trutta_NZ.jpg",
+    "author": "zoology",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

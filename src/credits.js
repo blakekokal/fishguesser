@@ -48,6 +48,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Anarhichas-lupus-Atlanterhavsparken.jpg",
   },
+  "australasian-snapper": {
+    author: "Auckland War Memorial Museum",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pagrus_auratus_(Forster,_1801)_(AM_MA36682-1).jpg",
+  },
   "australian-lungfish": {
     author: "タウナギ",
     license: "CC0",
@@ -71,6 +77,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:C._aceratus.jpg",
+  },
+  "blue-cod": {
+    author: "André Richard Chalmers",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Blue_Cod_in_Milford_Sound.jpg",
   },
   "bluegill": {
     author: "USFWS Mountain Prairie",
@@ -144,6 +156,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
   },
+  "giant-freshwater-stingray": {
+    author: "Amelia Guo",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Giant_freshwater_stingray.JPG",
+  },
+  "giant-snakehead": {
+    author: "Cedricguppy - Loury Cédric",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Channa_micropeltes_-_T%C3%AAte_de_serpent_-_Aqua_Porte_Dor%C3%A9e_01.JPG",
+  },
   "gilt-head-bream": {
     author: "Thesupermat",
     license: "CC BY-SA 4.0",
@@ -174,6 +198,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata.jpg",
   },
+  "kahawai": {
+    author: "zoology",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Arripis_trutta_NZ.jpg",
+  },
   "lake-sturgeon": {
     author: "USFWS Mountain Prairie",
     license: "Public domain",
@@ -191,6 +221,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Ophiodon_elongatus_458366655.jpg",
+  },
+  "longfin-eel": {
+    author: "nick_goldwater",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Anguilla_dieffenbachii_62220829.jpg",
   },
   "lumpfish": {
     author: "Tiit Hunt",
@@ -221,6 +257,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Morena_del_Mediterr%C3%A1neo_(Muraena_helena),_Catania,_Sicilia,_Italia,_2025-04-05,_DD_35.jpg",
+  },
+  "mekong-giant-catfish": {
+    author: "Cool critter channel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg",
   },
   "muskellunge": {
     author: "James St. John",
@@ -281,6 +323,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Anguila_list%C3%B3n_azul_(Rhinomuraena_quaesita),_Anilao,_Filipinas,_2023-08-23,_DD_60.jpg",
+  },
+  "siamese-fighting-fish": {
+    author: "Henryk Niestrój",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg",
   },
   "sockeye-salmon": {
     author: "David Menke",

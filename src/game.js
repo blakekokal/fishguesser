@@ -151,6 +151,7 @@
     ui.score.textContent = fmt(state.total);
 
     ui.photo.classList.remove('is-ready');
+    ui.photo.classList.remove('is-broken');
     ui.photo.alt = `Photograph of a ${fish.name}`;
     ui.photo.src = fish.image;
     ui.name.textContent = maskName(fish.name);
@@ -275,6 +276,10 @@
   }
 
   ui.photo.addEventListener('load', () => ui.photo.classList.add('is-ready'));
+  /* Photos are fetched from Wikimedia at play time, so a slow or blocked
+   * network is a real possibility. Say so rather than leaving an empty frame —
+   * the round is still playable, since the name and the map carry the puzzle. */
+  ui.photo.addEventListener('error', () => ui.photo.classList.add('is-broken'));
   ui.hintBtn.addEventListener('click', () => revealName({ spend: true }));
   ui.guessBtn.addEventListener('click', submitGuess);
   ui.nextBtn.addEventListener('click', nextRound);
