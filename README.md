@@ -8,7 +8,9 @@ name; you decide which of fifteen regions of the world it comes from.
 - **15 regions**, from the Arctic Ocean to New Zealand — between four and twelve
   fish live in each, so the map has to be read rather than memorised. The header counts
   the collection straight from the data, so it never goes stale
-- **5 rounds per game**, drawn at random from the species list
+- **5 rounds per game**, dealt so that every species comes up once before any
+  of them comes up twice — a full pass takes 24 games, and it survives a
+  refresh
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
 - **The name is fully censored** — it reads as dots until you reveal it, so the
@@ -51,7 +53,12 @@ Click a labelled section of the map, then **Lock in guess**. Every section is
 named on the map itself, so there is no separate list to cross-reference.
 Sections are keyboard reachable too: `Tab` moves between them and `Enter`
 picks one. `Enter` also locks in a guess and advances to the next fish.
-Your best score is remembered in `localStorage`.
+Your best score and your place in the fish cycle are both kept in
+`localStorage`, under `fishguesser.best` and `fishguesser.seen`. That is this
+browser only — there is no account and no server, so the score does not follow
+you to another device, and clearing site data resets both. Blocked storage
+(private windows, say) is caught and ignored: the game still plays, it just
+starts fresh each time.
 
 ## How scoring works
 

@@ -20,6 +20,9 @@
   // tight decay would round almost every wrong answer down to zero.
   const DECAY_KM = 3000;
   const BEST_KEY = 'fishguesser.best';
+  // Which fish have already come up in the current pass through the list.
+  // Kept next to the best score so a refresh does not restart the cycle.
+  const SEEN_KEY = 'fishguesser.seen';
 
   const $ = (id) => document.getElementById(id);
   const ui = {
@@ -73,6 +76,50 @@
     } catch {
       /* nothing to do; the score just won't persist */
     }
+  }
+
+  /* Ids only, and filtered against the current FISH list on the way in: adding
+   * or removing species must not strand the cycle on names that no longer
+   * exist, and a newly added fish should simply count as not yet seen. */
+  function readSeen() {
+    try {
+      const raw = JSON.parse(window.localStorage.getItem(SEEN_KEY));
+      if (!Array.isArray(raw)) return [];
+      const known = new Set(FISH.map((f) => f.id));
+      return raw.filter((id) => known.has(id));
+    } catch {
+      return [];
+    }
+  }
+
+  function writeSeen(ids) {
+    try {
+      window.localStorage.setItem(SEEN_KEY, JSON.stringify(ids));
+    } catch {
+      /* the cycle just won't survive a refresh */
+    }
+  }
+
+  /* Deals a round's worth of fish without repeating any until every species has
+   * been shown. The unseen pool is what is left of this pass; when it runs
+   * short the last of it is dealt and a fresh pass starts, with the fish just
+   * dealt held back so the changeover cannot repeat one inside a single game. */
+  function dealFish(count) {
+    const seen = readSeen();
+    const seenSet = new Set(seen);
+    const unseen = FISH.filter((f) => !seenSet.has(f.id));
+
+    if (unseen.length >= count) {
+      const deck = shuffle(unseen).slice(0, count);
+      writeSeen(seen.concat(deck.map((f) => f.id)));
+      return deck;
+    }
+
+    const tail = shuffle(unseen);
+    const dealt = new Set(tail.map((f) => f.id));
+    const head = shuffle(FISH.filter((f) => !dealt.has(f.id))).slice(0, count - tail.length);
+    writeSeen(head.map((f) => f.id));
+    return shuffle(tail.concat(head));
   }
 
   /* Most regions read as "the Congo Basin"; a few are proper place names that
@@ -351,7 +398,7 @@
   }
 
   function startGame() {
-    state.deck = shuffle(FISH).slice(0, ROUNDS);
+    state.deck = dealFish(ROUNDS);
     state.index = 0;
     state.total = 0;
     state.results = [];
