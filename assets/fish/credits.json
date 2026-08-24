@@ -951,5 +951,145 @@
     "author": "Engbretson Eric, U.S. Fish and Wildlife Service",
     "license": "Public domain",
     "license_url": ""
+  },
+  "spotty": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571299606/large.jpg",
+    "source": "https://www.inaturalist.org/observations/316212027",
+    "author": "Thomas Linley",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "banded-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178195908/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/106113650",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blue-maomao": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472573320/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/263095867",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "tarakihi": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501281187/large.jpg",
+    "source": "https://www.inaturalist.org/observations/279166843",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "luderick": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669894697/large.jpg",
+    "source": "https://www.inaturalist.org/observations/366855811",
+    "author": "themaskedlapwing",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "ballan-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231750633/large.jpg",
+    "source": "https://www.inaturalist.org/observations/135841745",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "corkwing-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262631727/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/152157136",
+    "author": "Micha Baum",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "european-conger": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562789043/large.jpg",
+    "source": "https://www.inaturalist.org/observations/311749158",
+    "author": "Oscar Hopgood",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "painted-comber": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267427430/large.jpg",
+    "source": "https://www.inaturalist.org/observations/154755047",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "mediterranean-damselfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340635744/large.jpg",
+    "source": "https://www.inaturalist.org/observations/193870677",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "salema": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267908104/large.jpg",
+    "source": "https://www.inaturalist.org/observations/155020772",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pumpkinseed": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19503061/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/13315289",
+    "author": "Henggang Cui",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "northern-pike": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142449749/large.jpg",
+    "source": "https://www.inaturalist.org/observations/86468799",
+    "author": "Klaus Kevin Kristensen",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "archerfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/561355621/large.jpg",
+    "source": "https://www.inaturalist.org/observations/310996412",
+    "author": "Andrew Parker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "barred-knifejaw": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454966244/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/254047520",
+    "author": "Nicola Crockford",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "peacock-cichlid": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327643275/large.jpg",
+    "source": "https://www.inaturalist.org/observations/187368348",
+    "author": "Igor Balashov",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "upside-down-catfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423397251/large.jpg",
+    "source": "https://www.inaturalist.org/observations/237908815",
+    "author": "Igor Balashov",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "silver-arowana": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359882847/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/203671686",
+    "author": "Matthew Inabinett",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "freshwater-angelfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/487620135/large.jpg",
+    "source": "https://www.inaturalist.org/observations/271102605",
+    "author": "Nick T.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "blunthead-cichlid": {
+    "commons_title": "File:Tropheus moorii 'Moliro' - Karlsruhe Zoo 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tropheus_moorii_'Moliro'_-_Karlsruhe_Zoo_01.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

@@ -3,14 +3,14 @@
 A GeoGuessr-style guessing game for fish. You get a photograph of a fish and its
 name; you decide which of fifteen regions of the world it comes from.
 
-- **130 species** — mostly bony fish, plus thirteen sharks, three rays, a
+- **150 species** — mostly bony fish, plus thirteen sharks, three rays, a
   lamprey and a chimaera — each photographed alive in the wild or in an
   aquarium
 - **15 regions**, from the Arctic Ocean to New Zealand — between four and
   fourteen fish live in each, so the map has to be read rather than memorised. The header counts
   the collection straight from the data, so it never goes stale
 - **5 rounds per game**, dealt so that every species comes up once before any
-  of them comes up twice — a full pass takes 26 games, and it survives a
+  of them comes up twice — a full pass takes 30 games, and it survives a
   refresh
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
@@ -33,7 +33,8 @@ name; you decide which of fifteen regions of the world it comes from.
   same photo. Nothing loses its head or tail to the frame
 
 No build step and no dependencies. Photos are linked from Wikimedia Commons
-rather than committed, so the game needs a network connection to show them.
+and iNaturalist rather than committed, so the game needs a network connection
+to show them.
 
 ## Playing
 
@@ -106,7 +107,7 @@ photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions + haversine distance
-src/fish.js             the 130 fish (name, photo URL, home region, fun fact)
+src/fish.js             the 150 fish (name, photo URL, home region, fun fact)
 src/credits.js          generated photo attribution
 src/coastlines.js       generated Natural Earth land outlines
 src/map.js              the world map: projection, coastlines, section partition
@@ -169,7 +170,7 @@ computed from region centres, so nothing in the game depends on the counts
 matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 130 fish; raise it for a longer game that shows more of the
+game samples 5 of the 150 fish; raise it for a longer game that shows more of the
 collection.
 
 ## Map data
@@ -182,12 +183,18 @@ go through one projection and cannot drift apart.
 
 ## Photo credits
 
-Photographs come from Wikimedia Commons under Creative Commons or
-public-domain licences, and are linked rather than copied here. Two come from
-iNaturalist instead: Pacific halibut and kahawai are commercial and sport fish
-that Commons only holds as landed catch, and iNaturalist's research-grade
-records — where the species has been confirmed by other people — turned up a
-live kahawai. Per-photo attribution is in [CREDITS.md](CREDITS.md).
+Photographs come from Wikimedia Commons and iNaturalist under Creative Commons
+or public-domain licences, and are linked rather than copied here.
+
+Commons is the first stop, but it runs thin on fish that are common as catch
+and rare as photographs: for a lot of species it holds only a landed fish on a
+deck, a museum specimen, or a nineteenth-century plate. iNaturalist fills those
+gaps, because its records are photographs of animals people met alive. Its
+research-grade filter — where other people have confirmed the identification —
+keeps the species honest, and the licence filter keeps only CC0, CC BY and
+CC BY-SA photos. Every candidate is still looked at before it goes in: no dead
+fish, no specimens, no illustrations, and nothing where the fish cannot be made
+out. Per-photo attribution is in [CREDITS.md](CREDITS.md).
 
 To use an iNaturalist photo, give the entry in `credits.json` an `image_url`
 instead of a `commons_title`; `build_photo_urls.py` then uses that URL as-is.

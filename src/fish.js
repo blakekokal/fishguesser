@@ -2,8 +2,8 @@
  *
  * `region` must match an id in REGIONS (see regions.js); several fish share a
  * region, which is what makes the map worth reading rather than memorising.
- * Photos are linked straight from Wikimedia Commons rather than stored here, so
- * the game needs a network connection to show them. The URLs point at the CDN
+ * Photos are linked straight from Wikimedia Commons or iNaturalist rather than
+ * stored here, so the game needs a network connection to show them. The URLs point at the CDN
  * thumbnail directly — the path hash is derived from the filename, not the
  * contents, so it stays valid if the file is re-uploaded. Which Commons file
  * each fish uses, and who to credit, is recorded in assets/fish/credits.json;
@@ -292,6 +292,22 @@ const FISH = [
     region: 'amazon',
     fact: 'Not a bass at all but a giant cichlid, and both parents guard the fry in a shoal so tight it moves like one animal.',
   },
+  {
+    id: 'silver-arowana',
+    name: 'Silver Arowana',
+    sciName: 'Osteoglossum bicirrhosum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/359882847/large.jpeg',
+    region: 'amazon',
+    fact: 'Launches clear of the water to snatch insects, spiders and even small birds off branches a metre above the surface.',
+  },
+  {
+    id: 'freshwater-angelfish',
+    name: 'Freshwater Angelfish',
+    sciName: 'Pterophyllum scalare',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/487620135/large.jpg',
+    region: 'amazon',
+    fact: 'That flattened disc of a body slips edge-on between flooded roots and stems, where a normally built fish would jam.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -365,6 +381,30 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ecomare_-_hondshaai_%28hondshaai-zeeaquarium-1108-sd%29.jpg/1280px-Ecomare_-_hondshaai_%28hondshaai-zeeaquarium-1108-sd%29.jpg',
     region: 'north-atlantic',
     fact: 'Lays its eggs in tough horny purses with tendrils at each corner that wind around seaweed like a vine, which is why beachcombers find empty ones by the hundred.',
+  },
+  {
+    id: 'ballan-wrasse',
+    name: 'Ballan Wrasse',
+    sciName: 'Labrus bergylta',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/231750633/large.jpg',
+    region: 'north-atlantic',
+    fact: 'Salmon farms keep them on the payroll as live-in cleaners, picking sea lice off the stock.',
+  },
+  {
+    id: 'corkwing-wrasse',
+    name: 'Corkwing Wrasse',
+    sciName: 'Symphodus melops',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/262631727/large.jpeg',
+    region: 'north-atlantic',
+    fact: 'Males weave a nest out of seaweed; smaller males take on female colouring to slip inside and fertilise the eggs.',
+  },
+  {
+    id: 'european-conger',
+    name: 'European Conger',
+    sciName: 'Conger conger',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/562789043/large.jpg',
+    region: 'north-atlantic',
+    fact: 'The largest eel in the sea, past three metres in wrecks and rock holes — and it dies after one spawning run to deep water.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -448,6 +488,30 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Two blocks of muscle behind the eyes are wired into batteries that deliver about 200 volts, enough to stun a fish outright and to make a careless hand let go.',
   },
+  {
+    id: 'painted-comber',
+    name: 'Painted Comber',
+    sciName: 'Serranus scriba',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/267427430/large.jpg',
+    region: 'mediterranean',
+    fact: 'Carries working ovaries and testes at once, and the blue scribble across its cheek is different on every fish.',
+  },
+  {
+    id: 'mediterranean-damselfish',
+    name: 'Mediterranean Damselfish',
+    sciName: 'Chromis chromis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/340635744/large.jpg',
+    region: 'mediterranean',
+    fact: 'The adults are a plain sooty brown, but the juveniles are an electric neon blue that fades as they grow.',
+  },
+  {
+    id: 'salema',
+    name: 'Salema',
+    sciName: 'Sarpa salpa',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/267908104/large.jpg',
+    region: 'mediterranean',
+    fact: 'Eating one can bring on hallucinations that last for days — the fish was reportedly taken recreationally in Roman times.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -506,6 +570,14 @@ const FISH = [
     region: 'congo',
     fact: 'A snake-shaped survivor from before the dinosaurs, with a pair of working lungs; it drowns if it cannot reach the surface, and will crawl overland between pools.',
   },
+  {
+    id: 'upside-down-catfish',
+    name: 'Upside-down Catfish',
+    sciName: 'Synodontis nigriventris',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/423397251/large.jpg',
+    region: 'congo',
+    fact: 'Swims on its back to graze the undersides of leaves and logs, with its counter-shading reversed to match: dark belly, pale back.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -555,6 +627,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Synodontis-multipunctatus.jpg/1280px-Synodontis-multipunctatus.jpg',
     region: 'rift-lakes',
     fact: 'Slips its own eggs into a mouthbrooding cichlid\'s clutch as she gathers them up. The catfish hatch first and eat her young from inside her mouth.',
+  },
+  {
+    id: 'peacock-cichlid',
+    name: 'Peacock Cichlid',
+    sciName: 'Aulonocara stuartgranti',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/327643275/large.jpg',
+    region: 'rift-lakes',
+    fact: 'Hovers with its face pressed to the sand, listening through pits along its jaw for invertebrates moving underneath.',
+  },
+  {
+    id: 'blunthead-cichlid',
+    name: 'Blunthead Cichlid',
+    sciName: 'Tropheus moorii',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Tropheus_moorii_%27Moliro%27_-_Karlsruhe_Zoo_01.jpg/1280px-Tropheus_moorii_%27Moliro%27_-_Karlsruhe_Zoo_01.jpg',
+    region: 'rift-lakes',
+    fact: 'Every stretch of rocky shore in Lake Tanganyika has its own colour form, and a few kilometres of open sand is enough to keep them apart.',
   },
   // ---- Coral Triangle ----
   {
@@ -736,6 +824,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Hunts in partnership with moray eels and octopuses, recruiting one with a headstand and a shimmy to flush prey out of holes it cannot reach itself.',
   },
+  {
+    id: 'archerfish',
+    name: 'Banded Archerfish',
+    sciName: 'Toxotes jaculatrix',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/561355621/large.jpg',
+    region: 'northern-australia',
+    fact: 'Shoots a jet of water from its mouth to knock insects off overhanging leaves, correcting as it aims for the way light bends at the surface.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -886,6 +982,22 @@ const FISH = [
     region: 'great-lakes',
     fact: 'The male fans out a gravel nest and then guards it for weeks, driving off anything that comes near long after the eggs have hatched.',
   },
+  {
+    id: 'pumpkinseed',
+    name: 'Pumpkinseed',
+    sciName: 'Lepomis gibbosus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/19503061/large.jpeg',
+    region: 'great-lakes',
+    fact: 'Males sweep a saucer-shaped nest into the shallows and guard it, fanning the eggs and driving off anything that comes near.',
+  },
+  {
+    id: 'northern-pike',
+    name: 'Northern Pike',
+    sciName: 'Esox lucius',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/142449749/large.jpg',
+    region: 'great-lakes',
+    fact: 'Waits motionless in the weed and strikes in a fraction of a second, taking prey up to half its own length — other pike included.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'sakhalin-taimen',
@@ -951,6 +1063,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Japan_fish%2C_Sakuradai_%28Sacura_margaritacea%29_%2815770306721%29.jpg/1280px-Japan_fish%2C_Sakuradai_%28Sacura_margaritacea%29_%2815770306721%29.jpg',
     region: 'sea-of-japan',
     fact: 'Named for the cherry blossom: males are crimson flecked with white, while the females they grew out of stay a plain orange.',
+  },
+  {
+    id: 'barred-knifejaw',
+    name: 'Barred Knifejaw',
+    sciName: 'Oplegnathus fasciatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/454966244/large.jpeg',
+    region: 'sea-of-japan',
+    fact: 'Its teeth fuse into a solid parrot-like beak that crunches barnacles and sea urchins straight off the rock.',
   },
   // ---- Mekong Basin ----
   {
@@ -1082,5 +1202,45 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Carpetshark.jpg/1280px-Carpetshark.jpg',
     region: 'new-zealand',
     fact: 'Swallows water until it swells to twice its size and wedges itself immovably into a crevice — and if it is lifted out, it gulps air and barks.',
+  },
+  {
+    id: 'spotty',
+    name: 'Spotty',
+    sciName: 'Notolabrus celidotus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/571299606/large.jpg',
+    region: 'new-zealand',
+    fact: 'Juveniles work as cleaners, and larger fish queue up and hold still while their parasites are picked off.',
+  },
+  {
+    id: 'banded-wrasse',
+    name: 'Banded Wrasse',
+    sciName: 'Notolabrus fucicola',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/178195908/large.jpeg',
+    region: 'new-zealand',
+    fact: 'A second set of jaws back in the throat crushes whole crabs and sea urchins, shell and spines together.',
+  },
+  {
+    id: 'blue-maomao',
+    name: 'Blue Maomao',
+    sciName: 'Scorpis violacea',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/472573320/large.jpeg',
+    region: 'new-zealand',
+    fact: 'Hangs in huge blue clouds inside sea caves and arches by day, drifting out at dusk to pick plankton from the current.',
+  },
+  {
+    id: 'tarakihi',
+    name: 'Tarakihi',
+    sciName: 'Nemadactylus macropterus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/501281187/large.jpg',
+    region: 'new-zealand',
+    fact: 'Its young spend close to a year adrift in the open ocean as flat silver sheets before ever settling on the seabed.',
+  },
+  {
+    id: 'luderick',
+    name: 'Luderick',
+    sciName: 'Girella tricuspidata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/669894697/large.jpg',
+    region: 'new-zealand',
+    fact: 'One of the very few sea fish that lives on seaweed, and anglers bait their hooks with green weed to catch it.',
   },
 ];
