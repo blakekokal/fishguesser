@@ -105,23 +105,32 @@
   /* Deals a round's worth of fish without repeating any until every species has
    * been shown. The unseen pool is what is left of this pass; when it runs
    * short the last of it is dealt and a fresh pass starts, with the fish just
-   * dealt held back so the changeover cannot repeat one inside a single game. */
+   * dealt held back so the changeover cannot repeat one inside a single game.
+   *
+   * Dealing marks nothing. A hand is five fish drawn at once but met one at a
+   * time, and a game can be abandoned or reloaded away halfway through, so the
+   * pass advances on `markSeen` as each fish actually reaches the screen. */
   function dealFish(count) {
-    const seen = readSeen();
-    const seenSet = new Set(seen);
+    const seenSet = new Set(readSeen());
     const unseen = FISH.filter((f) => !seenSet.has(f.id));
 
-    if (unseen.length >= count) {
-      const deck = shuffle(unseen).slice(0, count);
-      writeSeen(seen.concat(deck.map((f) => f.id)));
-      return deck;
-    }
+    if (unseen.length >= count) return shuffle(unseen).slice(0, count);
 
     const tail = shuffle(unseen);
     const dealt = new Set(tail.map((f) => f.id));
     const head = shuffle(FISH.filter((f) => !dealt.has(f.id))).slice(0, count - tail.length);
-    writeSeen(head.map((f) => f.id));
+    writeSeen([]); // the pass is spent; the rest of this hand opens the next one
     return shuffle(tail.concat(head));
+  }
+
+  /* One fish has reached the player, so the pass moves on by one. Called when a
+   * fish becomes visible rather than when it is dealt, which is what keeps a
+   * reload — or a game walked away from — from spending fish nobody saw. */
+  function markSeen(fish) {
+    if (!fish) return;
+    const seen = readSeen();
+    if (!seen.includes(fish.id)) writeSeen(seen.concat(fish.id));
+    renderSeen();
   }
 
   /* Most regions read as "the Congo Basin"; a few are proper place names that
@@ -256,6 +265,9 @@
     ui.actionBar.hidden = false;
     ui.result.hidden = true;
     document.body.classList.remove('is-result');
+
+    // Round one is dealt behind the rules; beginPlay marks it once they lift.
+    if (ui.startOverlay.hidden) markSeen(fish);
   }
 
   function submitGuess() {
@@ -411,11 +423,12 @@
     ui.resetBest.disabled = true;
   }
 
-  /* Restarts the pass without touching the game on screen: the fish currently
-   * dealt stay marked, so a round in progress cannot come round again a few
-   * games later. That is why the count lands on one round's worth, not zero. */
+  /* Empties the pass without disturbing the game on screen. The fish being
+   * looked at right now is marked straight back, so the count reads 1 mid-round
+   * and 0 from the rules screen, where nothing has been shown yet. */
   function resetSeen() {
-    writeSeen(state.deck.map((f) => f.id));
+    writeSeen([]);
+    if (ui.startOverlay.hidden) markSeen(state.deck[state.index]);
     renderSeen();
   }
 
@@ -425,6 +438,7 @@
    * Play again skips the rules: by then the player knows how it works. */
   function beginPlay() {
     ui.startOverlay.hidden = true;
+    markSeen(state.deck[state.index]); // now it is actually being looked at
   }
 
   function startGame() {
@@ -435,7 +449,6 @@
     state.hintsLeft = HINTS_PER_GAME;
     renderHints();
     ui.overlay.hidden = true;
-    renderSeen();
     renderRound();
   }
 
@@ -509,6 +522,7 @@
   /* Deal the first round behind the rules so its photo is fetched while they
    * are being read, then hand focus to Start. */
   startGame();
+  renderSeen();
   // preventScroll: focusing the button would otherwise scroll the rules card
   // down to it, landing the player halfway through the text.
   ui.startBtn.focus({ preventScroll: true });

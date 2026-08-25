@@ -56,9 +56,13 @@ named on the map itself, so there is no separate list to cross-reference.
 Sections are keyboard reachable too: `Tab` moves between them and `Enter`
 picks one. `Enter` also locks in a guess and advances to the next fish.
 Your best score and your place in the fish cycle are both kept in
-`localStorage`, under `fishguesser.best` and `fishguesser.seen`. That is this
-browser only — there is no account and no server, so the score does not follow
-you to another device, and clearing site data resets both. Blocked storage
+`localStorage`, under `fishguesser.best` and `fishguesser.seen`. The top bar
+shows each of them with a small `↺` beside it that clears that one on its
+own. The cycle counts a fish when it reaches the screen rather than when the
+hand is dealt, so reloading the page, or walking away mid-game, does not spend
+fish you never saw. That is this browser only — there is no account and no
+server, so the score does not follow you to another device, and clearing site
+data resets both. Blocked storage
 (private windows, say) is caught and ignored: the game still plays, it just
 starts fresh each time.
 
