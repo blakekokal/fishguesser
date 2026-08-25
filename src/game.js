@@ -39,7 +39,7 @@
     version: $('version'), speciesCount: $('speciesCount'),
     startOverlay: $('startOverlay'), startBtn: $('startBtn'),
     startFishCount: $('startFishCount'),
-    savedBest: $('savedBest'), savedSeen: $('savedSeen'),
+    seen: $('seenValue'),
     resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
     overlay: $('overlay'), finalScore: $('finalScore'), finalMax: $('finalMax'),
     endBlurb: $('endBlurb'), breakdown: $('breakdown'), playAgain: $('playAgainBtn'),
@@ -323,6 +323,7 @@
     writeBest(best);
 
     ui.best.textContent = fmt(best);
+    ui.resetBest.disabled = false;
     ui.finalScore.textContent = fmt(state.total);
     ui.finalMax.textContent = `/ ${fmt(max)}`;
 
@@ -391,15 +392,12 @@
     ui.playAgain.focus();
   }
 
-  /* Both saved values, shown next to the buttons that clear them, so it is
-   * plain what is about to be thrown away. Runs again after either reset. */
-  function renderSaved() {
-    const best = readBest();
-    ui.savedBest.textContent = best ? fmt(best) : 'none yet';
-    ui.resetBest.disabled = !best;
-
+  /* How far the current pass through the fish has got, next to the button that
+   * restarts it. Runs after every deal and after either reset. */
+  function renderSeen() {
     const seen = readSeen().length;
-    ui.savedSeen.textContent = `${fmt(seen)} of ${fmt(FISH.length)}`;
+    ui.seen.textContent = `${fmt(seen)}/${fmt(FISH.length)}`;
+    ui.seen.title = `${fmt(seen)} of ${fmt(FISH.length)} fish have come up this pass`;
     ui.resetSeen.disabled = seen === 0;
   }
 
@@ -410,21 +408,15 @@
       /* nothing stored to begin with */
     }
     ui.best.textContent = '—';
-    renderSaved();
+    ui.resetBest.disabled = true;
   }
 
-  /* Clearing the list alone would un-mark the round already dealt behind the
-   * rules, letting those five come round again inside the same pass. Dealing a
-   * fresh round instead starts the new pass cleanly — which is why the count
-   * lands on one round's worth rather than zero. */
+  /* Restarts the pass without touching the game on screen: the fish currently
+   * dealt stay marked, so a round in progress cannot come round again a few
+   * games later. That is why the count lands on one round's worth, not zero. */
   function resetSeen() {
-    try {
-      window.localStorage.removeItem(SEEN_KEY);
-    } catch {
-      /* nothing stored to begin with */
-    }
-    startGame();
-    renderSaved();
+    writeSeen(state.deck.map((f) => f.id));
+    renderSeen();
   }
 
   /* The front page holds the first round until the rules have been read. The
@@ -443,6 +435,7 @@
     state.hintsLeft = HINTS_PER_GAME;
     renderHints();
     ui.overlay.hidden = true;
+    renderSeen();
     renderRound();
   }
 
@@ -512,10 +505,10 @@
   WorldMap.build(ui.map, select);
   const best = readBest();
   ui.best.textContent = best ? fmt(best) : '—';
+  ui.resetBest.disabled = !best;
   /* Deal the first round behind the rules so its photo is fetched while they
    * are being read, then hand focus to Start. */
   startGame();
-  renderSaved(); // after the deal, so the seen count includes the round waiting
   // preventScroll: focusing the button would otherwise scroll the rules card
   // down to it, landing the player halfway through the text.
   ui.startBtn.focus({ preventScroll: true });

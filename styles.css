@@ -113,7 +113,9 @@ body {
   margin-right: 6px;
 }
 
-.stats { display: flex; gap: 10px; }
+/* Wraps rather than pushing the row wide: five tiles no longer fit on a narrow
+ * phone, and the page must never scroll sideways. */
+.stats { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
 
 .stat {
   display: flex;
@@ -141,6 +143,57 @@ body {
 }
 
 .stat-best .stat-value { color: var(--accent); }
+
+/* Value and its reset share a line so the button reads as belonging to that
+ * tile rather than floating in the bar. */
+.stat-line {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Deliberately quiet: a control that undoes something should not compete with
+ * the numbers it sits beside. It comes forward on hover and on focus. */
+.stat-reset {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--ink-faint);
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 120ms ease, color 120ms ease, background-color 120ms ease;
+}
+
+.stat-reset:hover:not(:disabled) {
+  opacity: 1;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.stat-reset:focus-visible {
+  opacity: 1;
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* Nothing stored yet, so there is nothing to undo. Kept in place rather than
+ * hidden, so the tile does not change width the moment a score is set. */
+.stat-reset:disabled {
+  opacity: 0.18;
+  cursor: default;
+}
+
+.stat-seen .stat-value {
+  font-size: 14px;
+  color: var(--ink-faint);
+}
 
 .hint-dots {
   display: inline-flex;
@@ -606,42 +659,6 @@ body {
   pointer-events: none;
 }
 
-/* The two things the game remembers between visits, each with the button that
- * clears it. Laid out as label-left / button-right so the two rows line up. */
-.start-saved {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  gap: 8px;
-}
-
-.start-saved li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  font-size: 14px;
-}
-
-.saved-what {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  min-width: 0;
-  color: var(--ink-faint);
-}
-
-/* The value itself, so the number reads as the thing being cleared. */
-.saved-what b {
-  color: var(--ink);
-  font-variant-numeric: tabular-nums;
-}
-
-/* Says the row is already empty without moving anything: a disabled button
- * keeps its width, so the rows stay aligned as values come and go. */
-.start-saved .btn:disabled { opacity: 0.4; }
-
 .start-foot {
   margin: 20px 0 18px;
   padding-top: 14px;
@@ -780,10 +797,13 @@ body {
   .version-date { display: none; }
   .hint-dots { min-height: 0; gap: 3px; }
   .hint-dot { font-size: 9px; }
-  .stats { gap: 6px; }
-  .stat { min-width: 0; padding: 2px 8px; }
+  .stats { gap: 4px; }
+  .stat { min-width: 0; padding: 2px 6px; }
   .stat-label { font-size: 8px; }
   .stat-value { font-size: 12px; }
+  .stat-line { gap: 3px; }
+  .stat-reset { width: 14px; height: 14px; font-size: 11px; }
+  .stat-seen .stat-value { font-size: 11px; }
 
   .layout {
     flex: 1;
@@ -900,10 +920,13 @@ body {
   .brand-name { font-size: 15px; }
   .version { padding: 1px 7px; font-size: 9.5px; }
   .version-date { display: none; }
-  .stats { gap: 6px; }
-  .stat { min-width: 0; padding: 2px 8px; }
+  .stats { gap: 4px; }
+  .stat { min-width: 0; padding: 2px 6px; }
   .stat-label { font-size: 8px; }
   .stat-value { font-size: 13px; }
+  .stat-line { gap: 3px; }
+  .stat-reset { width: 14px; height: 14px; font-size: 11px; }
+  .stat-seen .stat-value { font-size: 11px; }
   .hint-dots { min-height: 0; gap: 3px; }
   .hint-dot { font-size: 10px; }
 

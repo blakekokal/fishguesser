@@ -21,7 +21,25 @@
     <div class="stat"><span class="stat-label">Round</span><span class="stat-value" id="roundValue">1 / 5</span></div>
     <div class="stat"><span class="stat-label">Score</span><span class="stat-value" id="scoreValue">0</span></div>
     <div class="stat"><span class="stat-label">Hints</span><span class="stat-value hint-dots" id="hintsValue"></span></div>
-    <div class="stat stat-best"><span class="stat-label">Best</span><span class="stat-value" id="bestValue">—</span></div>
+    <!-- The two things kept in this browser between visits, each sitting next
+         to the button that clears it, so no reset is ambiguous. -->
+    <div class="stat stat-best">
+      <span class="stat-label">Best</span>
+      <span class="stat-line">
+        <span class="stat-value" id="bestValue">—</span>
+        <button class="stat-reset" id="resetBestBtn" type="button"
+                title="Clear the best score" aria-label="Clear the best score">↺</button>
+      </span>
+    </div>
+    <div class="stat stat-seen">
+      <span class="stat-label">Seen</span>
+      <span class="stat-line">
+        <span class="stat-value" id="seenValue">—</span>
+        <button class="stat-reset" id="resetSeenBtn" type="button"
+                title="Start a fresh pass through the fish"
+                aria-label="Start a fresh pass through the fish">↺</button>
+      </span>
+    </div>
   </div>
 </header>
 
@@ -112,21 +130,6 @@
 
     <p class="start-foot">A perfect game is <strong>28,500</strong>: five
       regions dead right, five clean guesses, both reveals unused.</p>
-
-    <!-- Both of these live in the browser, not on a server, so this is the
-         only place they can be cleared from. Each says what it is holding
-         before you throw it away. -->
-    <h3 class="start-h">Saved on this device</h3>
-    <ul class="start-saved">
-      <li>
-        <span class="saved-what">Best score<b id="savedBest">—</b></span>
-        <button class="btn btn-ghost" id="resetBestBtn" type="button">Reset</button>
-      </li>
-      <li>
-        <span class="saved-what">Fish seen this pass<b id="savedSeen">—</b></span>
-        <button class="btn btn-ghost" id="resetSeenBtn" type="button">Reset</button>
-      </li>
-    </ul>
 
     <div class="start-actions">
       <button class="btn btn-primary btn-wide" id="startBtn" type="button">Start</button>
