@@ -113,6 +113,21 @@
     <p class="start-foot">A perfect game is <strong>28,500</strong>: five
       regions dead right, five clean guesses, both reveals unused.</p>
 
+    <!-- Both of these live in the browser, not on a server, so this is the
+         only place they can be cleared from. Each says what it is holding
+         before you throw it away. -->
+    <h3 class="start-h">Saved on this device</h3>
+    <ul class="start-saved">
+      <li>
+        <span class="saved-what">Best score<b id="savedBest">—</b></span>
+        <button class="btn btn-ghost" id="resetBestBtn" type="button">Reset</button>
+      </li>
+      <li>
+        <span class="saved-what">Fish seen this pass<b id="savedSeen">—</b></span>
+        <button class="btn btn-ghost" id="resetSeenBtn" type="button">Reset</button>
+      </li>
+    </ul>
+
     <div class="start-actions">
       <button class="btn btn-primary btn-wide" id="startBtn" type="button">Start</button>
     </div>

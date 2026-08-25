@@ -39,6 +39,8 @@
     version: $('version'), speciesCount: $('speciesCount'),
     startOverlay: $('startOverlay'), startBtn: $('startBtn'),
     startFishCount: $('startFishCount'),
+    savedBest: $('savedBest'), savedSeen: $('savedSeen'),
+    resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
     overlay: $('overlay'), finalScore: $('finalScore'), finalMax: $('finalMax'),
     endBlurb: $('endBlurb'), breakdown: $('breakdown'), playAgain: $('playAgainBtn'),
   };
@@ -389,6 +391,42 @@
     ui.playAgain.focus();
   }
 
+  /* Both saved values, shown next to the buttons that clear them, so it is
+   * plain what is about to be thrown away. Runs again after either reset. */
+  function renderSaved() {
+    const best = readBest();
+    ui.savedBest.textContent = best ? fmt(best) : 'none yet';
+    ui.resetBest.disabled = !best;
+
+    const seen = readSeen().length;
+    ui.savedSeen.textContent = `${fmt(seen)} of ${fmt(FISH.length)}`;
+    ui.resetSeen.disabled = seen === 0;
+  }
+
+  function resetBest() {
+    try {
+      window.localStorage.removeItem(BEST_KEY);
+    } catch {
+      /* nothing stored to begin with */
+    }
+    ui.best.textContent = '—';
+    renderSaved();
+  }
+
+  /* Clearing the list alone would un-mark the round already dealt behind the
+   * rules, letting those five come round again inside the same pass. Dealing a
+   * fresh round instead starts the new pass cleanly — which is why the count
+   * lands on one round's worth rather than zero. */
+  function resetSeen() {
+    try {
+      window.localStorage.removeItem(SEEN_KEY);
+    } catch {
+      /* nothing stored to begin with */
+    }
+    startGame();
+    renderSaved();
+  }
+
   /* The front page holds the first round until the rules have been read. The
    * round behind it is already dealt, so this only lifts the curtain — dealing
    * again here would throw away the photo that has been loading meanwhile.
@@ -420,11 +458,19 @@
   ui.nextBtn.addEventListener('click', nextRound);
   ui.playAgain.addEventListener('click', startGame);
   ui.startBtn.addEventListener('click', beginPlay);
+  ui.resetBest.addEventListener('click', resetBest);
+  ui.resetSeen.addEventListener('click', resetSeen);
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Enter') return;
     // Enter starts the game while the rules are up; the round behind them is
     // already dealt, so it must not also lock in a guess on the same press.
-    if (!ui.startOverlay.hidden) { beginPlay(); return; }
+    if (!ui.startOverlay.hidden) {
+      // Enter on a focused reset button already presses it; starting the game
+      // off the same keystroke would carry the player straight out of the rules.
+      if (e.target === ui.resetBest || e.target === ui.resetSeen) return;
+      beginPlay();
+      return;
+    }
     if (state.phase === 'guess' && state.selected) submitGuess();
     else if (state.phase === 'result') nextRound();
   });
@@ -469,6 +515,7 @@
   /* Deal the first round behind the rules so its photo is fetched while they
    * are being read, then hand focus to Start. */
   startGame();
+  renderSaved(); // after the deal, so the seen count includes the round waiting
   // preventScroll: focusing the button would otherwise scroll the rules card
   // down to it, landing the player halfway through the text.
   ui.startBtn.focus({ preventScroll: true });

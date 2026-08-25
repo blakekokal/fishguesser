@@ -606,6 +606,42 @@ body {
   pointer-events: none;
 }
 
+/* The two things the game remembers between visits, each with the button that
+ * clears it. Laid out as label-left / button-right so the two rows line up. */
+.start-saved {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.start-saved li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.saved-what {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+  color: var(--ink-faint);
+}
+
+/* The value itself, so the number reads as the thing being cleared. */
+.saved-what b {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Says the row is already empty without moving anything: a disabled button
+ * keeps its width, so the rows stay aligned as values come and go. */
+.start-saved .btn:disabled { opacity: 0.4; }
+
 .start-foot {
   margin: 20px 0 18px;
   padding-top: 14px;
