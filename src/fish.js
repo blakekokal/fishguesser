@@ -356,6 +356,14 @@ const FISH = [
     region: 'amazon',
     fact: 'Hangs motionless in shallow weed behind a set of conical teeth too big to shut away, and gulps air to sit out a drought as its pool shrinks around it.',
   },
+  {
+    id: 'severum',
+    name: 'Severum',
+    sciName: 'Heros efasciatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/642205172/large.jpg',
+    region: 'amazon',
+    fact: 'Both parents dig a pit for the fry, fan the eggs in shifts and spend days steering the strays back into the huddle.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -461,6 +469,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/91158104/large.jpeg',
     region: 'north-atlantic',
     fact: 'Props itself upright on its pectoral fins in a rock hole under a pair of branched tentacles, and the same fish will hold the same hole for years.',
+  },
+  {
+    id: 'common-dragonet',
+    name: 'Common Dragonet',
+    sciName: 'Callionymus lyra',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/609018028/large.jpg',
+    region: 'north-atlantic',
+    fact: 'The male\'s front dorsal fin unfolds into a sail taller than he is, put up only to court a female or to face down a rival.',
+  },
+  {
+    id: 'sea-scorpion',
+    name: 'Long-spined Sea Scorpion',
+    sciName: 'Taurulus bubalis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/443945449/large.jpeg',
+    region: 'north-atlantic',
+    fact: 'Shifts colour over days to settle into whatever weed it is living in, so the same species turns up red, green or brown depending where it landed.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -944,6 +968,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'The saw is a sensing blade as much as a weapon: it is studded with receptors that pick up hidden fish, and then it is swung sideways through the shoal.',
   },
+  {
+    id: 'mangrove-jack',
+    name: 'Mangrove Jack',
+    sciName: 'Lutjanus argentimaculatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/321542891/large.jpg',
+    region: 'northern-australia',
+    fact: 'Spends its first years far up tidal creeks among mangrove roots, then leaves for offshore reefs to breed and never comes back.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -1126,6 +1158,22 @@ const FISH = [
     region: 'great-lakes',
     fact: 'The long paddle is an antenna, not a shovel: it is covered in receptors that read the faint electrical fields of the plankton the fish filters out of open water.',
   },
+  {
+    id: 'rainbow-darter',
+    name: 'Rainbow Darter',
+    sciName: 'Etheostoma caeruleum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/15385004/large.jpg',
+    region: 'great-lakes',
+    fact: 'Carries no swim bladder, so hovering is beyond it: it hops along the stream bed in short bursts and settles back onto its fins between them.',
+  },
+  {
+    id: 'northern-hogsucker',
+    name: 'Northern Hogsucker',
+    sciName: 'Hypentelium nigricans',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/400558298/large.jpg',
+    region: 'great-lakes',
+    fact: 'Shoves stones aside with a fleshy, down-turned mouth to get at what is sheltering under them, and other fish tail it to snap up whatever gets stirred loose.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'sakhalin-taimen',
@@ -1207,6 +1255,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/613333857/large.jpg',
     region: 'sea-of-japan',
     fact: 'Armoured head to tail in plates like a walking pine cone, and it hunts by the light of two organs on its lower jaw, lit by bacteria it farms.',
+  },
+  {
+    id: 'threadsail-filefish',
+    name: 'Threadsail Filefish',
+    sciName: 'Stephanolepis cirrhifer',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/551333795/large.jpg',
+    region: 'sea-of-japan',
+    fact: 'Skin like sandpaper, and a dorsal spine that locks upright: wedged into a crevice with the spine up, it cannot be pulled out.',
   },
   // ---- Mekong Basin ----
   {
@@ -1297,6 +1353,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/433963804/large.jpg',
     region: 'mekong',
     fact: 'Breathes air through a folded organ above its gills, so it lives on in water gone too stale for anything else, and the male weaves a nest out of plant fibre.',
+  },
+  {
+    id: 'kissing-gourami',
+    name: 'Kissing Gourami',
+    sciName: 'Helostoma temminckii',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/319810426/large.jpg',
+    region: 'mekong',
+    fact: 'The kiss is a fight. Two fish lock lips and shove, each testing how hard the other can push, sometimes for minutes at a stretch.',
   },
   // ---- New Zealand ----
   {
@@ -1402,5 +1466,21 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/191237471/large.jpg',
     region: 'new-zealand',
     fact: 'Eats nothing but seaweed, and every one starts life female — the largest turn male, trading brown juvenile mottling for a deep blue-green.',
+  },
+  {
+    id: 'yellowtail-kingfish',
+    name: 'Yellowtail Kingfish',
+    sciName: 'Seriola lalandi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/469265745/large.jpg',
+    region: 'new-zealand',
+    fact: 'Runs prey down in the open in short violent bursts, and the same fish will come back to one particular reef or pinnacle year after year.',
+  },
+  {
+    id: 'sevengill-shark',
+    name: 'Broadnose Sevengill Shark',
+    sciName: 'Notorynchus cepedianus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/599687346/large.jpg',
+    region: 'new-zealand',
+    fact: 'Keeps seven gill slits where nearly every other shark makes do with five, an arrangement its line has held for over a hundred million years. Hunts in groups large enough to take seals.',
   },
 ];

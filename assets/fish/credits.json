@@ -1231,5 +1231,75 @@
     "author": "Shaun Lee",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rainbow-darter": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15385004/large.jpg",
+    "source": "https://www.inaturalist.org/observations/10943406",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "common-dragonet": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609018028/large.jpg",
+    "source": "https://www.inaturalist.org/observations/335263442",
+    "author": "Klaus Kevin Kristensen",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sea-scorpion": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443945449/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/248457271",
+    "author": "Libby Keatley",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "yellowtail-kingfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469265745/large.jpg",
+    "source": "https://www.inaturalist.org/observations/261228182",
+    "author": "Debra Baker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sevengill-shark": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599687346/large.jpg",
+    "source": "https://www.inaturalist.org/observations/330674724",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "mangrove-jack": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321542891/large.jpg",
+    "source": "https://www.inaturalist.org/observations/184223339",
+    "author": "portioid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "threadsail-filefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/551333795/large.jpg",
+    "source": "https://www.inaturalist.org/observations/305762931",
+    "author": "呂一起(Lyu yi-chi)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "kissing-gourami": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319810426/large.jpg",
+    "source": "https://www.inaturalist.org/observations/183323839",
+    "author": "Igor Balashov",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "severum": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642205172/large.jpg",
+    "source": "https://www.inaturalist.org/observations/351898598",
+    "author": "Matthew Inabinett",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "northern-hogsucker": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/400558298/large.jpg",
+    "source": "https://www.inaturalist.org/observations/225896518",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

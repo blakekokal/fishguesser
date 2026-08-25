@@ -258,6 +258,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Balistoides_conspicillum_01.jpg",
   },
+  "common-dragonet": {
+    author: "Klaus Kevin Kristensen",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/335263442",
+  },
   "congo-tetra": {
     author: "7TP (Krzysztof Bartosik)",
     license: "CC BY-SA 4.0",
@@ -504,6 +510,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Hexagrammos_decagrammus_hembra.jpg",
   },
+  "kissing-gourami": {
+    author: "Igor Balashov",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/183323839",
+  },
   "lake-sturgeon": {
     author: "USFWS Mountain Prairie",
     license: "Public domain",
@@ -576,6 +588,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Synchiropus_splendidus_2_Luc_Viatour.jpg",
   },
+  "mangrove-jack": {
+    author: "portioid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/184223339",
+  },
   "marbled-electric-ray": {
     author: "Ericsfr",
     license: "CC BY-SA 4.0",
@@ -623,6 +641,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
+  },
+  "northern-hogsucker": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/225896518",
   },
   "northern-pike": {
     author: "Klaus Kevin Kristensen",
@@ -750,6 +774,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Queen_Triggerfish_Balistes_vetula.jpg",
   },
+  "rainbow-darter": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/10943406",
+  },
   "red-bellied-piranha": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -839,6 +869,24 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg",
+  },
+  "sea-scorpion": {
+    author: "Libby Keatley",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/248457271",
+  },
+  "sevengill-shark": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/330674724",
+  },
+  "severum": {
+    author: "Matthew Inabinett",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/351898598",
   },
   "shorthorn-sculpin": {
     author: "Rebekah Bajkó",
@@ -948,6 +996,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Tasselled_wobbegong_(Eucrossorhinus_dasypogon).jpg",
   },
+  "threadsail-filefish": {
+    author: "呂一起(Lyu yi-chi)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/305762931",
+  },
   "tompot-blenny": {
     author: "Katerina Kalogerini",
     license: "CC BY 4.0",
@@ -1019,6 +1073,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/103705249",
+  },
+  "yellowtail-kingfish": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/261228182",
   },
   "zebra-mbuna": {
     author: "Klaus Rudloff",
