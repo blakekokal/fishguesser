@@ -192,6 +192,18 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg",
   },
+  "bumphead-parrotfish": {
+    author: "R Vasconcellos",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/259177333",
+  },
+  "butterfish": {
+    author: "Shaun Lee",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/113183821",
+  },
   "california-halibut": {
     author: "Mike Carr",
     license: "CC BY 4.0",
@@ -396,11 +408,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Urogymnus_polylepis_at_Itabashi_Botanical_Garden.png",
   },
+  "giant-gourami": {
+    author: "Jarro Nevsbaru",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/243375053",
+  },
   "giant-mudskipper": {
     author: "Mhlayson",
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Giant_Mudskipper_(Periophthalmodon_schlosseri).jpg",
+  },
+  "giant-sea-bass": {
+    author: "tunicatedreamz",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/388891522",
   },
   "giant-snakehead": {
     author: "Cedricguppy - Loury Cédric",
@@ -437,6 +461,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Greenland_shark_profile.jpg",
+  },
+  "grunt-sculpin": {
+    author: "Alicia Christman",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/231605752",
   },
   "gulf-saratoga": {
     author: "Ginkgo100",
@@ -552,6 +582,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Torpedo_marmorata_(20150825)_01.jpg",
   },
+  "mediterranean-cardinalfish": {
+    author: "Ben Costamagna",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/229580364",
+  },
   "mediterranean-damselfish": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -569,6 +605,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg",
+  },
+  "moorish-idol": {
+    author: "Rusty",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/188577",
   },
   "muskellunge": {
     author: "James St. John",
@@ -653,6 +695,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/187368348",
+  },
+  "peacock-flounder": {
+    author: "Eamon Corbett",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/37806678",
   },
   "polar-cod": {
     author: "Totti",
@@ -900,6 +948,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Tasselled_wobbegong_(Eucrossorhinus_dasypogon).jpg",
   },
+  "tompot-blenny": {
+    author: "Katerina Kalogerini",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/57164613",
+  },
   "torafugu": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -959,6 +1013,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.0",
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:25_yeye2_frierson_odfw_(8253212034).jpg",
+  },
+  "yellowhead-jawfish": {
+    author: "Pauline Walsh Jacobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/103705249",
   },
   "zebra-mbuna": {
     author: "Klaus Rudloff",

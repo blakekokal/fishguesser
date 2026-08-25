@@ -1161,5 +1161,75 @@
     "author": "Mike Carr",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "grunt-sculpin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411378230/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/231605752",
+    "author": "Alicia Christman",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "giant-sea-bass": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712302269/large.jpg",
+    "source": "https://www.inaturalist.org/observations/388891522",
+    "author": "tunicatedreamz",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "mediterranean-cardinalfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407529574/large.jpg",
+    "source": "https://www.inaturalist.org/observations/229580364",
+    "author": "Ben Costamagna",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "tompot-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91158104/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/57164613",
+    "author": "Katerina Kalogerini",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "yellowhead-jawfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173629583/large.jpg",
+    "source": "https://www.inaturalist.org/observations/103705249",
+    "author": "Pauline Walsh Jacobson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "peacock-flounder": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60009071/large.jpg",
+    "source": "https://www.inaturalist.org/observations/37806678",
+    "author": "Eamon Corbett",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "moorish-idol": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242697/large.JPG",
+    "source": "https://www.inaturalist.org/observations/188577",
+    "author": "Rusty",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bumphead-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465188715/large.jpg",
+    "source": "https://www.inaturalist.org/observations/259177333",
+    "author": "R Vasconcellos",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "giant-gourami": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433963804/large.jpg",
+    "source": "https://www.inaturalist.org/observations/243375053",
+    "author": "Jarro Nevsbaru",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "butterfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191237471/large.jpg",
+    "source": "https://www.inaturalist.org/observations/113183821",
+    "author": "Shaun Lee",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

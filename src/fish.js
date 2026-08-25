@@ -112,6 +112,22 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Pairs move into a den and stay together for decades, and the jaws that let them crush whole sea urchins give an old male the face of a scowling boxer.',
   },
+  {
+    id: 'grunt-sculpin',
+    name: 'Grunt Sculpin',
+    sciName: 'Rhamphocottus richardsonii',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/411378230/large.jpeg',
+    region: 'north-pacific',
+    fact: 'Barely swims at all: it hops and walks the bottom on finger-like fin rays, and reverses into an empty giant barnacle shell until only its face shows.',
+  },
+  {
+    id: 'giant-sea-bass',
+    name: 'Giant Sea Bass',
+    sciName: 'Stereolepis gigas',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/712302269/large.jpg',
+    region: 'north-pacific',
+    fact: 'Passes two metres and 250 kilos in the kelp and booms audibly at anything that crowds it. The young look nothing like it — bright orange with black spots.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -225,6 +241,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Dasyatis_americana_%282008%29.jpg/1280px-Dasyatis_americana_%282008%29.jpg',
     region: 'caribbean',
     fact: 'Flaps its wings to blow a pit in the sand, drops in and vanishes but for two eyes, then pumps water through the holes behind them rather than through a buried mouth.',
+  },
+  {
+    id: 'yellowhead-jawfish',
+    name: 'Yellowhead Jawfish',
+    sciName: 'Opistognathus aurifrons',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/173629583/large.jpg',
+    region: 'caribbean',
+    fact: 'Builds a vertical shaft in the seabed and shores the walls up with stones carried one at a time in its mouth, then hovers above the door ready to drop in tail-first.',
+  },
+  {
+    id: 'peacock-flounder',
+    name: 'Peacock Flounder',
+    sciName: 'Bothus lunatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/60009071/large.jpg',
+    region: 'caribbean',
+    fact: 'Redraws the pigment in its skin to match whatever it lands on — gravel, sand, even a chequerboard — in a few seconds, working from what its eyes report.',
   },
   // ---- Amazon Basin ----
   {
@@ -422,6 +454,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'The largest eel in the sea, past three metres in wrecks and rock holes — and it dies after one spawning run to deep water.',
   },
+  {
+    id: 'tompot-blenny',
+    name: 'Tompot Blenny',
+    sciName: 'Parablennius gattorugine',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/91158104/large.jpeg',
+    region: 'north-atlantic',
+    fact: 'Props itself upright on its pectoral fins in a rock hole under a pair of branched tentacles, and the same fish will hold the same hole for years.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -527,6 +567,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/267908104/large.jpg',
     region: 'mediterranean',
     fact: 'Eating one can bring on hallucinations that last for days — the fish was reportedly taken recreationally in Roman times.',
+  },
+  {
+    id: 'mediterranean-cardinalfish',
+    name: 'Mediterranean Cardinalfish',
+    sciName: 'Apogon imberbis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/407529574/large.jpg',
+    region: 'mediterranean',
+    fact: 'Spends the day hanging under cave roofs and ledges, often upside down, on an eye built for picking prey out of near-darkness.',
   },
   // ---- Congo Basin ----
   {
@@ -789,6 +837,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/427404909/large.jpg',
     region: 'coral-triangle',
     fact: 'Its body is a rigid box of fused bony plates, so only the fins move; cornered, it leaks a poison that can kill everything in the water around it, itself included.',
+  },
+  {
+    id: 'moorish-idol',
+    name: 'Moorish Idol',
+    sciName: 'Zanclus cornutus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/242697/large.JPG',
+    region: 'coral-triangle',
+    fact: 'The white streamer trailing off its back can be longer than the rest of the fish, and pairs frequently stay together for life.',
+  },
+  {
+    id: 'bumphead-parrotfish',
+    name: 'Bumphead Parrotfish',
+    sciName: 'Bolbometopon muricatum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/465188715/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Rams living coral head-first to break mouthfuls loose, and one adult grinds several tonnes of reef a year into white sand.',
   },
   // ---- Northern Australia ----
   {
@@ -1226,6 +1290,14 @@ const FISH = [
     region: 'mekong',
     fact: 'Breathes air through an organ above its gills and hauls itself overland on its gill covers and fins, crossing dry ground between pools and lasting days out of water.',
   },
+  {
+    id: 'giant-gourami',
+    name: 'Giant Gourami',
+    sciName: 'Osphronemus goramy',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/433963804/large.jpg',
+    region: 'mekong',
+    fact: 'Breathes air through a folded organ above its gills, so it lives on in water gone too stale for anything else, and the male weaves a nest out of plant fibre.',
+  },
   // ---- New Zealand ----
   {
     id: 'australasian-snapper',
@@ -1322,5 +1394,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/245831432/large.jpeg',
     region: 'new-zealand',
     fact: 'One of the very few sea fish that lives on seaweed, and anglers bait their hooks with green weed to catch it.',
+  },
+  {
+    id: 'butterfish',
+    name: 'Butterfish',
+    sciName: 'Odax pullus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/191237471/large.jpg',
+    region: 'new-zealand',
+    fact: 'Eats nothing but seaweed, and every one starts life female — the largest turn male, trading brown juvenile mottling for a deep blue-green.',
   },
 ];
