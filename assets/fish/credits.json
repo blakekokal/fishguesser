@@ -1301,5 +1301,75 @@
     "author": "Donald Davesne",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "cabezon": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/716927153/large.jpg",
+    "source": "https://www.inaturalist.org/observations/391272116",
+    "author": "Chris Spain",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "china-rockfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340744477/large.jpg",
+    "source": "https://www.inaturalist.org/observations/193925914",
+    "author": "dpcmiller",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "two-banded-seabream": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136804197/large.jpg",
+    "source": "https://www.inaturalist.org/observations/83306261",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "yellowmouth-barracuda": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458133929/large.jpg",
+    "source": "https://www.inaturalist.org/observations/255624935",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "garfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222165464/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/130620757",
+    "author": "Sarah Faulwetter",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "jungle-perch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88959003/large.jpg",
+    "source": "https://www.inaturalist.org/observations/55850718",
+    "author": "dhfischer",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spangled-perch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700729274/large.jpg",
+    "source": "https://www.inaturalist.org/observations/382883636",
+    "author": "Tom Ferguson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "banded-leporinus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187562683/large.jpg",
+    "source": "https://www.inaturalist.org/observations/111130147",
+    "author": "Andrew J. Crawford",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "bala-shark": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315322142/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/180968053",
+    "author": "Martyn Drabik-Hamshare",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "striped-catfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358821280/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/203116244",
+    "author": "Gannu03",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

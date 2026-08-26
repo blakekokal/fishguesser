@@ -102,11 +102,23 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Plecoglossus_altivelis_Totto.jpg",
   },
+  "bala-shark": {
+    author: "Martyn Drabik-Hamshare",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://www.inaturalist.org/observations/180968053",
+  },
   "ballan-wrasse": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/34802668",
+  },
+  "banded-leporinus": {
+    author: "Andrew J. Crawford",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://www.inaturalist.org/observations/111130147",
   },
   "banded-wrasse": {
     author: "Luca Davenport-Thomas",
@@ -204,6 +216,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/113183821",
   },
+  "cabezon": {
+    author: "Chris Spain",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://www.inaturalist.org/observations/391272116",
+  },
   "california-halibut": {
     author: "Mike Carr",
     license: "CC BY 4.0",
@@ -233,6 +251,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.0",
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Japan_fish,_Sakuradai_(Sacura_margaritacea)_(15770306721).jpg",
+  },
+  "china-rockfish": {
+    author: "dpcmiller",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/193925914",
   },
   "climbing-perch": {
     author: "Abu Hamas",
@@ -396,6 +420,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
   },
+  "garfish": {
+    author: "Sarah Faulwetter",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/130620757",
+  },
   "garibaldi": {
     author: "Dwij Joshipura",
     license: "CC BY-SA 4.0",
@@ -497,6 +527,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/337396330",
+  },
+  "jungle-perch": {
+    author: "dhfischer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/55850718",
   },
   "kahawai": {
     author: "Peter Crowcroft",
@@ -942,6 +978,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Dasyatis_americana_(2008).jpg",
   },
+  "spangled-perch": {
+    author: "Tom Ferguson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/382883636",
+  },
   "spanish-hogfish": {
     author: "LASZLO ILYES from Cleveland, Ohio, USA",
     license: "CC BY 2.0",
@@ -965,6 +1007,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Stoplight-parrotfish.jpg",
+  },
+  "striped-catfish": {
+    author: "Gannu03",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/203116244",
   },
   "striped-red-mullet": {
     author: "Tigerente",
@@ -1020,6 +1068,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/208159476",
   },
+  "two-banded-seabream": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/83306261",
+  },
   "upside-down-catfish": {
     author: "Igor Balashov",
     license: "CC BY 4.0",
@@ -1073,6 +1127,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/103705249",
+  },
+  "yellowmouth-barracuda": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/255624935",
   },
   "yellowtail-kingfish": {
     author: "Debra Baker",

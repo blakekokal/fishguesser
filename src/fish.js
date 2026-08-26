@@ -128,6 +128,22 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Passes two metres and 250 kilos in the kelp and booms audibly at anything that crowds it. The young look nothing like it — bright orange with black spots.',
   },
+  {
+    id: 'cabezon',
+    name: 'Cabezon',
+    sciName: 'Scorpaenichthys marmoratus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/716927153/large.jpg',
+    region: 'north-pacific',
+    fact: 'Turns up red, green or brown depending on where it settled, and a male guarding eggs will sit on them and refuse to be moved. Its roe is poisonous to people.',
+  },
+  {
+    id: 'china-rockfish',
+    name: 'China Rockfish',
+    sciName: 'Sebastes nebulosus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/340744477/large.jpg',
+    region: 'north-pacific',
+    fact: 'Barely travels once it has a home: one crevice can hold the same fish for decades, and they live well past eighty.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -364,6 +380,14 @@ const FISH = [
     region: 'amazon',
     fact: 'Both parents dig a pit for the fry, fan the eggs in shifts and spend days steering the strays back into the huddle.',
   },
+  {
+    id: 'banded-leporinus',
+    name: 'Banded Leporinus',
+    sciName: 'Leporinus fasciatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/187562683/large.jpg',
+    region: 'amazon',
+    fact: 'Feeds nose-down at a steep angle, nipping algae and fallen fruit, and the heavy black bars break its outline against flooded branches.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -486,6 +510,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Shifts colour over days to settle into whatever weed it is living in, so the same species turns up red, green or brown depending where it landed.',
   },
+  {
+    id: 'garfish',
+    name: 'Garfish',
+    sciName: 'Belone belone',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/222165464/large.jpeg',
+    region: 'north-atlantic',
+    fact: 'Its bones are a vivid green — a harmless pigment called biliverdin — which has never done the fish any favours on the slab.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -599,6 +631,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/407529574/large.jpg',
     region: 'mediterranean',
     fact: 'Spends the day hanging under cave roofs and ledges, often upside down, on an eye built for picking prey out of near-darkness.',
+  },
+  {
+    id: 'two-banded-seabream',
+    name: 'Two-banded Seabream',
+    sciName: 'Diplodus vulgaris',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/136804197/large.jpg',
+    region: 'mediterranean',
+    fact: 'Every one begins life male and a share of them turn female with age, while the two black bars — one at the neck, one at the tail — stay put throughout.',
+  },
+  {
+    id: 'yellowmouth-barracuda',
+    name: 'Yellowmouth Barracuda',
+    sciName: 'Sphyraena viridensis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/458133929/large.jpg',
+    region: 'mediterranean',
+    fact: 'Hangs almost still in mid-water in a loose pack, then closes the last few metres onto a fish faster than the eye follows.',
   },
   // ---- Congo Basin ----
   {
@@ -975,6 +1023,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/321542891/large.jpg',
     region: 'northern-australia',
     fact: 'Spends its first years far up tidal creeks among mangrove roots, then leaves for offshore reefs to breed and never comes back.',
+  },
+  {
+    id: 'jungle-perch',
+    name: 'Jungle Perch',
+    sciName: 'Kuhlia rupestris',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/88959003/large.jpg',
+    region: 'northern-australia',
+    fact: 'Works its way up rapids and waterfalls to reach headwater pools, but its young are washed the whole way out to sea and have to climb back.',
+  },
+  {
+    id: 'spangled-perch',
+    name: 'Spangled Perch',
+    sciName: 'Leiopotherapon unicolor',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/700729274/large.jpg',
+    region: 'northern-australia',
+    fact: 'The most widely spread freshwater fish in Australia: it holds on in bore drains and warm puddles, and crosses flooded ground overland to reach new water.',
   },
   // ---- Southern Ocean ----
   {
@@ -1361,6 +1425,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/319810426/large.jpg',
     region: 'mekong',
     fact: 'The kiss is a fight. Two fish lock lips and shove, each testing how hard the other can push, sometimes for minutes at a stretch.',
+  },
+  {
+    id: 'bala-shark',
+    name: 'Bala Shark',
+    sciName: 'Balantiocheilos melanopterus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/315322142/large.jpeg',
+    region: 'mekong',
+    fact: 'The name is borrowed. It is a minnow, and the black-edged fins and pointed snout are the whole of what it has in common with a shark.',
+  },
+  {
+    id: 'striped-catfish',
+    name: 'Striped Catfish',
+    sciName: 'Pangasianodon hypophthalmus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/358821280/large.jpeg',
+    region: 'mekong',
+    fact: 'Farmed by the million and sold worldwide as basa or swai, while the wild fish still runs hundreds of kilometres up the river to spawn.',
   },
   // ---- New Zealand ----
   {
