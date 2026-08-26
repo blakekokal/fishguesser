@@ -156,6 +156,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Cetorhinus_maximus_atlantic.jpg",
   },
+  "beluga-whale": {
+    author: "Henrik Kibak",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/134657544",
+  },
   "blackfin-icefish": {
     author: "Ambiederman",
     license: "CC BY-SA 4.0",
@@ -173,6 +179,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/263095867",
+  },
+  "blue-ringed-octopus": {
+    author: "Gregor Bailar",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/393772050",
   },
   "bluegill": {
     author: "USFWS Mountain Prairie",
@@ -246,6 +258,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cardinal_Paracheirodon_axelrodi_(3).jpg",
   },
+  "caribbean-reef-octopus": {
+    author: "Roger Rittmaster",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/151780613",
+  },
   "cherry-anthias": {
     author: "harum.koh from Kobe city, Japan",
     license: "CC BY-SA 2.0",
@@ -281,6 +299,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Balistoides_conspicillum_01.jpg",
+  },
+  "common-cuttlefish": {
+    author: "Michael Bommerer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/247648491",
   },
   "common-dragonet": {
     author: "Klaus Kevin Kristensen",
@@ -569,6 +593,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 3.0",
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pristis_pristis_-_Daly_River.JPG",
+  },
+  "leopard-seal": {
+    author: "Lucy Keith-Diagne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/66545672",
   },
   "leopard-shark": {
     author: "Brian Gratwicke",

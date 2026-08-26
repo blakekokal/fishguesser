@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fishguesser</title>
-<meta name="description" content="A GeoGuessr-style game: see a fish, guess where in the world it lives.">
+<meta name="description" content="A GeoGuessr-style game: see a sea creature, guess where in the world it lives.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#127907;</text></svg>">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -36,8 +36,8 @@
       <span class="stat-line">
         <span class="stat-value" id="seenValue">—</span>
         <button class="stat-reset" id="resetSeenBtn" type="button"
-                title="Start a fresh pass through the fish"
-                aria-label="Start a fresh pass through the fish">↺</button>
+                title="Start a fresh pass through the collection"
+                aria-label="Start a fresh pass through the collection">↺</button>
       </span>
     </div>
   </div>
@@ -69,7 +69,7 @@
   <section class="panel map-panel">
     <div class="map-wrap">
       <svg id="map" viewBox="0 0 1000 500" role="application"
-           aria-label="World map. Choose the region this fish comes from."></svg>
+           aria-label="World map. Choose the region this animal comes from."></svg>
     </div>
 
     <div class="actionbar" id="actionBar">
@@ -85,7 +85,7 @@
       <p class="result-line" id="resultLine"></p>
       <p class="result-bonus" id="resultBonus" hidden></p>
       <p class="result-fact" id="resultFact"></p>
-      <button class="btn btn-primary" id="nextBtn">Next fish</button>
+      <button class="btn btn-primary" id="nextBtn">Next one</button>
     </div>
   </section>
 
@@ -93,13 +93,13 @@
 
 <div class="overlay" id="startOverlay">
   <div class="startcard">
-    <p class="start-eyebrow">A guessing game for fish</p>
+    <p class="start-eyebrow">A guessing game for sea life</p>
     <h2 class="start-title"><span aria-hidden="true">🐟</span> Fishguesser</h2>
     <p class="start-lede">You get a photograph and a scientific name. Work out
-      where in the world the fish lives, and click that part of the map.</p>
+      where in the world it lives, and click that part of the map.</p>
 
     <ol class="start-steps">
-      <li><strong>Look at the fish.</strong> Its common name starts blanked
+      <li><strong>Look at the animal.</strong> Its common name starts blanked
         out — the photo is the clue.</li>
       <li><strong>Pick a region</strong> on the map, then
         <strong>Lock in guess</strong>.</li>

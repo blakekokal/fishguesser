@@ -237,7 +237,7 @@
     ui.photo.classList.remove('is-broken');
     /* Not the species name: a linked photo that fails to load renders its alt
      * text on screen, which would hand over the answer. */
-    ui.photo.alt = 'Photograph of the fish to identify';
+    ui.photo.alt = 'Photograph of the animal to identify';
     ui.photo.src = fish.image;
     ui.photoBg.classList.remove('is-ready');
     ui.photoBg.src = fish.image;
@@ -307,7 +307,7 @@
       ui.resultBonus.hidden = true;
     }
     ui.resultFact.textContent = fish.fact;
-    ui.nextBtn.textContent = state.index + 1 >= ROUNDS ? 'See final score' : 'Next fish';
+    ui.nextBtn.textContent = state.index + 1 >= ROUNDS ? 'See final score' : 'Next one';
 
     ui.actionBar.hidden = true;
     ui.result.hidden = false;
@@ -500,13 +500,15 @@
     }
   }
 
-  /* Counted, never hard-coded: adding a fish to FISH updates the header. */
+  /* Counted, never hard-coded: adding an entry to FISH updates the header.
+   * "species" rather than "fish" because the collection is no longer only
+   * fish — there are cephalopods and marine mammals in it now. */
   function showSpeciesCount() {
     const n = FISH.length;
     ui.speciesCount.textContent = fmt(n);
     const label = document.createElement('span');
     label.className = 'species-count-label';
-    label.textContent = 'fish';
+    label.textContent = 'species';
     ui.speciesCount.append(label);
     ui.speciesCount.title =
       `${fmt(n)} species across ${REGIONS.length} regions`;
@@ -514,7 +516,7 @@
 
   showVersion();
   showSpeciesCount();
-  ui.startFishCount.textContent = `all ${fmt(FISH.length)} fish`;
+  ui.startFishCount.textContent = `all ${fmt(FISH.length)} species`;
   WorldMap.build(ui.map, select);
   const best = readBest();
   ui.best.textContent = best ? fmt(best) : '—';

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fishguesser — photo check</title>
-<meta name="description" content="Step through every fish photo one at a time to check the pictures.">
+<meta name="description" content="Step through every photo one at a time to check the pictures.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#128247;</text></svg>">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -25,7 +25,7 @@
 <main class="review">
   <div class="photo-frame review-frame">
     <img id="fishPhotoBg" class="photo-bg" alt="" src="" aria-hidden="true">
-    <img id="fishPhoto" class="photo" alt="Fish photograph under review" src="">
+    <img id="fishPhoto" class="photo" alt="Photograph under review" src="">
   </div>
 
   <!-- Name and credit only, never the region: that is the game's answer. Shown
@@ -41,9 +41,9 @@
     <button class="btn btn-ghost" id="prevBtn" type="button" aria-label="Previous photo">‹ Prev</button>
 
     <label class="review-jump">
-      <span class="review-jump-label">Fish</span>
+      <span class="review-jump-label">No.</span>
       <input class="review-jump-input" id="jump" type="number" min="1" step="1"
-             inputmode="numeric" aria-label="Jump to fish number">
+             inputmode="numeric" aria-label="Jump to number">
       <span class="review-count" id="count">of —</span>
     </label>
 

@@ -117,7 +117,7 @@
   ui.speciesCount.textContent = fmt(total);
   const label = document.createElement('span');
   label.className = 'species-count-label';
-  label.textContent = 'fish';
+  label.textContent = 'species';
   ui.speciesCount.append(label);
 
   show(0);

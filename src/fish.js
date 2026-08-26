@@ -274,6 +274,14 @@ const FISH = [
     region: 'caribbean',
     fact: 'Redraws the pigment in its skin to match whatever it lands on — gravel, sand, even a chequerboard — in a few seconds, working from what its eyes report.',
   },
+  {
+    id: 'caribbean-reef-octopus',
+    name: 'Caribbean Reef Octopus',
+    sciName: 'Octopus briareus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/261936025/large.jpeg',
+    region: 'caribbean',
+    fact: 'Hunts by parachuting its webbed arms over a whole coral head at once, then feeling underneath for whatever is sheltering in it.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -648,6 +656,14 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Hangs almost still in mid-water in a loose pack, then closes the last few metres onto a fish faster than the eye follows.',
   },
+  {
+    id: 'common-cuttlefish',
+    name: 'Common Cuttlefish',
+    sciName: 'Sepia officinalis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/442345541/large.jpeg',
+    region: 'mediterranean',
+    fact: 'Colour-blind, yet it matches any background it settles on — and it rolls waves of colour down its skin to stupefy a crab while it closes the distance.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -926,6 +942,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Rams living coral head-first to break mouthfuls loose, and one adult grinds several tonnes of reef a year into white sand.',
   },
+  {
+    id: 'blue-ringed-octopus',
+    name: 'Blue-ringed Octopus',
+    sciName: 'Hapalochlaena lunulata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/721801465/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Holds enough tetrodotoxin to kill a roomful of people and there is no antivenom. The rings only light up that blue once it has decided to warn you.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1074,6 +1098,14 @@ const FISH = [
     fact: 'White-blooded like its relatives, and named for the dark ringed spot on the first dorsal fin. It hangs almost motionless in the water to spend as little oxygen as it can.',
   },
 
+  {
+    id: 'leopard-seal',
+    name: 'Leopard Seal',
+    sciName: 'Hydrurga leptonyx',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/107295684/large.jpg',
+    region: 'southern-ocean',
+    fact: 'Takes penguins and other seals with the front of its jaw, then strains krill through the interlocking back teeth of the same mouth.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -1123,6 +1155,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/698530829/large.jpg',
     region: 'arctic',
     fact: 'Antifreeze proteins in its blood let it sit out water below freezing, and a cornered one flares its gill covers into a spiked mask half again the size of its head.',
+  },
+  {
+    id: 'beluga-whale',
+    name: 'Beluga Whale',
+    sciName: 'Delphinapterus leucas',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/229562407/large.jpeg',
+    region: 'arctic',
+    fact: 'The one whale that can turn its head — its neck vertebrae never fuse, so it looks over its shoulder. Sailors called it the sea canary for the racket it makes.',
   },
   // ---- Great Lakes ----
   {
