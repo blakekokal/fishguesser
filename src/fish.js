@@ -144,6 +144,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Barely travels once it has a home: one crevice can hold the same fish for decades, and they live well past eighty.',
   },
+  {
+    id: 'swell-shark',
+    name: 'Swell Shark',
+    sciName: 'Cephaloscyllium ventriosum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/583464564/large.jpg',
+    region: 'north-pacific',
+    fact: 'Gulps seawater until it has doubled in girth, then wedges itself into a crevice nothing can drag it out of. Its skin glows green under blue light.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -525,6 +533,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/222165464/large.jpeg',
     region: 'north-atlantic',
     fact: 'Its bones are a vivid green — a harmless pigment called biliverdin — which has never done the fish any favours on the slab.',
+  },
+  {
+    id: 'sand-tiger-shark',
+    name: 'Sand Tiger Shark',
+    sciName: 'Carcharias taurus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/528604108/large.jpg',
+    region: 'north-atlantic',
+    fact: 'Looks murderous — the teeth show even with the mouth shut — and is famously placid. It gulps air at the surface and holds it in its stomach to hang motionless in midwater.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -950,6 +966,22 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Holds enough tetrodotoxin to kill a roomful of people and there is no antivenom. The rings only light up that blue once it has decided to warn you.',
   },
+  {
+    id: 'blacktip-reef-shark',
+    name: 'Blacktip Reef Shark',
+    sciName: 'Carcharhinus melanopterus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/466660591/large.jpeg',
+    region: 'coral-triangle',
+    fact: 'Works water shallow enough that its dorsal fin cuts the surface, and keeps to a home range of a few square kilometres for years on end.',
+  },
+  {
+    id: 'grey-reef-shark',
+    name: 'Grey Reef Shark',
+    sciName: 'Carcharhinus amblyrhynchos',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/229383492/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Gives warning before it bites: back arched, pectoral fins dropped, swimming in a stiff exaggerated roll. Divers are taught to read that and leave.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1064,6 +1096,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'The most widely spread freshwater fish in Australia: it holds on in bore drains and warm puddles, and crosses flooded ground overland to reach new water.',
   },
+  {
+    id: 'zebra-shark',
+    name: 'Zebra Shark',
+    sciName: 'Stegostoma tigrinum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/31228966/large.jpeg',
+    region: 'northern-australia',
+    fact: 'Hatches striped black and white, then breaks up into leopard spots as it grows — which is why half the world calls it the leopard shark instead.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -1096,15 +1136,6 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Chionodraco_rastrospinosus.jpg/1280px-Chionodraco_rastrospinosus.jpg',
     region: 'southern-ocean',
     fact: 'White-blooded like its relatives, and named for the dark ringed spot on the first dorsal fin. It hangs almost motionless in the water to spend as little oxygen as it can.',
-  },
-
-  {
-    id: 'leopard-seal',
-    name: 'Leopard Seal',
-    sciName: 'Hydrurga leptonyx',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/107295684/large.jpg',
-    region: 'southern-ocean',
-    fact: 'Takes penguins and other seals with the front of its jaw, then strains krill through the interlocking back teeth of the same mouth.',
   },
   // ---- Arctic Ocean ----
   {
@@ -1367,6 +1398,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/551333795/large.jpg',
     region: 'sea-of-japan',
     fact: 'Skin like sandpaper, and a dorsal spine that locks upright: wedged into a crevice with the spine up, it cannot be pulled out.',
+  },
+  {
+    id: 'zebra-bullhead-shark',
+    name: 'Zebra Bullhead Shark',
+    sciName: 'Heterodontus zebra',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/181071087/large.jpeg',
+    region: 'sea-of-japan',
+    fact: 'Lays an egg case shaped like a screw thread and works it into a crack in the rock, where the spiral jams tight against the surge.',
   },
   // ---- Mekong Basin ----
   {

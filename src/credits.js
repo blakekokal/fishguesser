@@ -168,6 +168,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:C._aceratus.jpg",
   },
+  "blacktip-reef-shark": {
+    author: "陳德範（Chen, De-Fan）",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/259913283",
+  },
   "blue-cod": {
     author: "André Richard Chalmers",
     license: "CC BY-SA 4.0",
@@ -522,6 +528,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Greenland_shark_profile.jpg",
   },
+  "grey-reef-shark": {
+    author: "Daniel Benák",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/134590155",
+  },
   "grunt-sculpin": {
     author: "Alicia Christman",
     license: "CC BY 4.0",
@@ -593,12 +605,6 @@ const PHOTO_CREDITS = {
     license: "CC BY 3.0",
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pristis_pristis_-_Daly_River.JPG",
-  },
-  "leopard-seal": {
-    author: "Lucy Keith-Diagne",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/66545672",
   },
   "leopard-shark": {
     author: "Brian Gratwicke",
@@ -924,6 +930,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/155020772",
   },
+  "sand-tiger-shark": {
+    author: "The Vertebrate Pokédex",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://www.inaturalist.org/observations/293707953",
+  },
   "sarcastic-fringehead": {
     author: "DrKjaergaard",
     license: "CC BY-SA 2.5",
@@ -1050,6 +1062,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus_Cala_Gracio.jpg",
   },
+  "swell-shark": {
+    author: "Matthew Inabinett",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/322520636",
+  },
   "tambaqui": {
     author: "Brian Gratwicke",
     license: "CC BY 2.0",
@@ -1170,10 +1188,22 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/261228182",
   },
+  "zebra-bullhead-shark": {
+    author: "劉哲瑋",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://www.inaturalist.org/observations/107635630",
+  },
   "zebra-mbuna": {
     author: "Klaus Rudloff",
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Maylandia_zebra_B.jpg",
+  },
+  "zebra-shark": {
+    author: "Dennis White",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://www.inaturalist.org/observations/20234790",
   },
 };
