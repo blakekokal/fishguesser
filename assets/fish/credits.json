@@ -1441,5 +1441,40 @@
     "author": "劉哲瑋",
     "license": "CC0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "leopard-bushfish": {
+    "commons_title": "File:Ctenopoma acutirostre 1.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Ctenopoma_acutirostre_1.JPG",
+    "author": "Karelj",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "fairy-cichlid": {
+    "commons_title": "File:Neolamprologus brichardi LoroParqueTenerife princess of burundi IMG 5384.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG",
+    "author": "Bjoertvedt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "black-rockcod": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72700520/large.jpg",
+    "source": "https://www.inaturalist.org/observations/45839264",
+    "author": "Sarka Masova",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spiny-lumpsucker": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384399023/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/217304938",
+    "author": "Sue Carnahan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "japanese-seabass": {
+    "commons_title": "File:Lateolabrax japonicus Iwaki.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lateolabrax_japonicus_Iwaki.jpg",
+    "author": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

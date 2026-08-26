@@ -754,6 +754,14 @@ const FISH = [
     region: 'congo',
     fact: 'Muscle wrapped around almost its entire body fires a shock of some 350 volts — Egyptian tomb carvers were recording the fish more than four thousand years ago.',
   },
+  {
+    id: 'leopard-bushfish',
+    name: 'Leopard Bushfish',
+    sciName: 'Ctenopoma acutirostre',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ctenopoma_acutirostre_1.JPG/1280px-Ctenopoma_acutirostre_1.JPG',
+    region: 'congo',
+    fact: 'Hangs head-down among drowned branches looking like a rotting leaf until something small swims within reach, and gulps air at the surface through a labyrinth organ when the water runs short of oxygen.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -827,6 +835,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/237366321/large.jpeg',
     region: 'rift-lakes',
     fact: 'Females and young are gold with black stripes; a male turns the pattern inside out as he matures, ending up near-black with gold lines.',
+  },
+  {
+    id: 'fairy-cichlid',
+    name: 'Fairy Cichlid',
+    sciName: 'Neolamprologus brichardi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG/1280px-Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG',
+    region: 'rift-lakes',
+    fact: 'Grown offspring stay home instead of leaving, guarding and fanning their parents\' next brood, so a single rock face in Lake Tanganyika can hold a colony hundreds strong across several generations.',
   },
   // ---- Coral Triangle ----
   {
@@ -1137,6 +1153,14 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'White-blooded like its relatives, and named for the dark ringed spot on the first dorsal fin. It hangs almost motionless in the water to spend as little oxygen as it can.',
   },
+  {
+    id: 'black-rockcod',
+    name: 'Black Rockcod',
+    sciName: 'Notothenia coriiceps',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/72700520/large.jpg',
+    region: 'southern-ocean',
+    fact: 'Keeps red blood where its icefish neighbours gave theirs up, and has no swim bladder at all, so it props itself on the bottom on splayed fins and idles through the polar winter barely growing.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -1194,6 +1218,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/229562407/large.jpeg',
     region: 'arctic',
     fact: 'The one whale that can turn its head — its neck vertebrae never fuse, so it looks over its shoulder. Sailors called it the sea canary for the racket it makes.',
+  },
+  {
+    id: 'spiny-lumpsucker',
+    name: 'Atlantic Spiny Lumpsucker',
+    sciName: 'Eumicrotremus spinosus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/384399023/large.jpeg',
+    region: 'arctic',
+    fact: 'A knobbly ball the size of a plum and a hopeless swimmer, it rides out the current clamped to a stone by a suction disc made from its own fused pelvic fins.',
   },
   // ---- Great Lakes ----
   {
@@ -1406,6 +1438,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/181071087/large.jpeg',
     region: 'sea-of-japan',
     fact: 'Lays an egg case shaped like a screw thread and works it into a crack in the rock, where the spiral jams tight against the surge.',
+  },
+  {
+    id: 'japanese-seabass',
+    name: 'Japanese Sea Bass',
+    sciName: 'Lateolabrax japonicus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Lateolabrax_japonicus_Iwaki.jpg/1280px-Lateolabrax_japonicus_Iwaki.jpg',
+    region: 'sea-of-japan',
+    fact: 'Japanese gives it a new name at each size it reaches — seigo, then fukko, then suzuki — one of a handful of fish said to be promoted as they grow.',
   },
   // ---- Mekong Basin ----
   {

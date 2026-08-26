@@ -3,15 +3,15 @@
 A GeoGuessr-style guessing game for sea life. You get a photograph of an animal
 and its name; you decide which of fifteen regions of the world it comes from.
 
-- **200 species** — mostly bony fish, plus twenty sharks, three rays, a
+- **205 species** — mostly bony fish, plus twenty sharks, three rays, a
   lamprey and a chimaera, and four that are not fish at all: two octopuses, a
   cuttlefish and a whale — each photographed alive in the wild or in an
   aquarium
-- **15 regions**, from the Arctic Ocean to New Zealand — between four and
+- **15 regions**, from the Arctic Ocean to New Zealand — between five and
   nineteen species live in each, so the map has to be read rather than memorised. The header counts
   the collection straight from the data, so it never goes stale
 - **5 rounds per game**, dealt so that every species comes up once before any
-  of them comes up twice — a full pass takes 40 games, and it survives a
+  of them comes up twice — a full pass takes 41 games, and it survives a
   refresh
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
@@ -112,7 +112,7 @@ photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions + haversine distance
-src/fish.js             the 200 species (name, photo URL, home region, fact)
+src/fish.js             the 205 species (name, photo URL, home region, fact)
 src/credits.js          generated photo attribution
 src/coastlines.js       generated Natural Earth land outlines
 src/map.js              the world map: projection, coastlines, section partition
@@ -169,13 +169,13 @@ picture is any good, so look at it.
 
 Regions do not need equal numbers of fish, and they do not have them. Pick the
 best species and the best photograph for each region and let the counts fall
-where they fall: the Southern Ocean has four, the Arctic five, the Caribbean,
-Amazon and Great Lakes seven. Scoring is by distance and the map sections are
+where they fall: the Southern Ocean has five and the Arctic eight, where the
+Coral Triangle has nineteen. Scoring is by distance and the map sections are
 computed from region centres, so nothing in the game depends on the counts
 matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 200 species; raise it for a longer game that shows more of the
+game samples 5 of the 205 species; raise it for a longer game that shows more of the
 collection.
 
 ## Map data

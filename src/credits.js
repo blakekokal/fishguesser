@@ -162,6 +162,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/134657544",
   },
+  "black-rockcod": {
+    author: "Sarka Masova",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/45839264",
+  },
   "blackfin-icefish": {
     author: "Ambiederman",
     license: "CC BY-SA 4.0",
@@ -420,6 +426,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG",
   },
+  "fairy-cichlid": {
+    author: "Bjoertvedt",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG",
+  },
   "flying-gurnard": {
     author: "Vicmicallef",
     license: "CC BY-SA 4.0",
@@ -564,6 +576,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/337396330",
   },
+  "japanese-seabass": {
+    author: "Totti",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Lateolabrax_japonicus_Iwaki.jpg",
+  },
   "jungle-perch": {
     author: "dhfischer",
     license: "CC BY 4.0",
@@ -605,6 +623,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 3.0",
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pristis_pristis_-_Daly_River.JPG",
+  },
+  "leopard-bushfish": {
+    author: "Karelj",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Ctenopoma_acutirostre_1.JPG",
   },
   "leopard-shark": {
     author: "Brian Gratwicke",
@@ -1031,6 +1055,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Bodianus_rufus_(46598633625).jpg",
+  },
+  "spiny-lumpsucker": {
+    author: "Sue Carnahan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/217304938",
   },
   "spotted-ratfish": {
     author: "Stosh Morency",
