@@ -404,6 +404,14 @@ const FISH = [
     region: 'amazon',
     fact: 'Feeds nose-down at a steep angle, nipping algae and fallen fruit, and the heavy black bars break its outline against flooded branches.',
   },
+  {
+    id: 'zebra-pleco',
+    name: 'Zebra Pleco',
+    sciName: 'Hypancistrus zebra',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hypancistrus_zebra4305.jpg/1280px-Hypancistrus_zebra4305.jpg',
+    region: 'amazon',
+    fact: 'Known from one stretch of the Rio Xingu and nowhere else, where aquarium collectors bid it up until Brazil banned the export outright. It rasps no wood like other plecos, picking small animals off the rock instead.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -762,6 +770,14 @@ const FISH = [
     region: 'congo',
     fact: 'Hangs head-down among drowned branches looking like a rotting leaf until something small swims within reach, and gulps air at the surface through a labyrinth organ when the water runs short of oxygen.',
   },
+  {
+    id: 'buffalohead-cichlid',
+    name: 'Buffalohead Cichlid',
+    sciName: 'Steatocranus casuarius',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Steatocranus_casuarius%2C_male.jpg/1280px-Steatocranus_casuarius%2C_male.jpg',
+    region: 'congo',
+    fact: 'Its swim bladder is far too small to float it, which is the point: in the Congo rapids it hops along the bottom from stone to stone rather than be swept downstream.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -843,6 +859,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG/1280px-Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG',
     region: 'rift-lakes',
     fact: 'Grown offspring stay home instead of leaving, guarding and fanning their parents\' next brood, so a single rock face in Lake Tanganyika can hold a colony hundreds strong across several generations.',
+  },
+  {
+    id: 'sardine-cichlid',
+    name: 'Sardine Cichlid',
+    sciName: 'Cyprichromis leptosoma',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg/1280px-Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg',
+    region: 'rift-lakes',
+    fact: 'A cichlid that left the rocks for open water, hanging over the drop-offs of Lake Tanganyika in shoals thousands strong and picking plankton out of the blue.',
   },
   // ---- Coral Triangle ----
   {
@@ -1341,6 +1365,14 @@ const FISH = [
     region: 'great-lakes',
     fact: 'Shoves stones aside with a fleshy, down-turned mouth to get at what is sheltering under them, and other fish tail it to snap up whatever gets stirred loose.',
   },
+  {
+    id: 'brook-trout',
+    name: 'Brook Trout',
+    sciName: 'Salvelinus fontinalis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Salvelinus_fontinalis_%28coaster_brook_trout%29_2.jpg/1280px-Salvelinus_fontinalis_%28coaster_brook_trout%29_2.jpg',
+    region: 'great-lakes',
+    fact: 'Not a trout but a char, and so tied to cold clean water that biologists read a stream\'s health from whether it is still there. The Lake Superior form, the coaster, runs the open shoreline instead of staying in creeks.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'sakhalin-taimen',
@@ -1446,6 +1478,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Lateolabrax_japonicus_Iwaki.jpg/1280px-Lateolabrax_japonicus_Iwaki.jpg',
     region: 'sea-of-japan',
     fact: 'Japanese gives it a new name at each size it reaches — seigo, then fukko, then suzuki — one of a handful of fish said to be promoted as they grow.',
+  },
+  {
+    id: 'japanese-surfperch',
+    name: 'Japanese Surfperch',
+    sciName: 'Ditrema temminckii',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ditrema_temmincki_temmincki_Oarai.jpg/1280px-Ditrema_temmincki_temmincki_Oarai.jpg',
+    region: 'sea-of-japan',
+    fact: 'Scatters no eggs at all: the young grow inside the mother for months, fed by her, and swim off as miniature adults the moment they are born.',
   },
   // ---- Mekong Basin ----
   {

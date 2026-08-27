@@ -228,6 +228,18 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg",
   },
+  "brook-trout": {
+    author: "James St. John",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Salvelinus_fontinalis_(coaster_brook_trout)_2.jpg",
+  },
+  "buffalohead-cichlid": {
+    author: "5snake5",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://commons.wikimedia.org/wiki/File:Steatocranus_casuarius,_male.jpg",
+  },
   "bumphead-parrotfish": {
     author: "R Vasconcellos",
     license: "CC BY 4.0",
@@ -581,6 +593,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lateolabrax_japonicus_Iwaki.jpg",
+  },
+  "japanese-surfperch": {
+    author: "タウナギ",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://commons.wikimedia.org/wiki/File:Ditrema_temmincki_temmincki_Oarai.jpg",
   },
   "jungle-perch": {
     author: "dhfischer",
@@ -966,6 +984,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.5",
     source: "https://commons.wikimedia.org/wiki/File:Sarcastic_fringehead_in_plastic_tube.JPG",
   },
+  "sardine-cichlid": {
+    author: "H. Zell",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg",
+  },
   "sea-lamprey": {
     author: "Stephanie Tran",
     license: "CC BY 4.0",
@@ -1229,6 +1253,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Maylandia_zebra_B.jpg",
+  },
+  "zebra-pleco": {
+    author: "Birger A",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Hypancistrus_zebra4305.jpg",
   },
   "zebra-shark": {
     author: "Dennis White",

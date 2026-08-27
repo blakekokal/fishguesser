@@ -1476,5 +1476,40 @@
     "author": "Totti",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "zebra-pleco": {
+    "commons_title": "File:Hypancistrus zebra4305.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hypancistrus_zebra4305.jpg",
+    "author": "Birger A",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "buffalohead-cichlid": {
+    "commons_title": "File:Steatocranus casuarius, male.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Steatocranus_casuarius,_male.jpg",
+    "author": "5snake5",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "sardine-cichlid": {
+    "commons_title": "File:Cyprichromis leptosoma 'Kitumba' - Karlsruhe Zoo 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "brook-trout": {
+    "commons_title": "File:Salvelinus fontinalis (coaster brook trout) 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Salvelinus_fontinalis_(coaster_brook_trout)_2.jpg",
+    "author": "James St. John",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "japanese-surfperch": {
+    "commons_title": "File:Ditrema temmincki temmincki Oarai.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ditrema_temmincki_temmincki_Oarai.jpg",
+    "author": "タウナギ",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   }
 }
