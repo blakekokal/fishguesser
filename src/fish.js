@@ -152,6 +152,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Gulps seawater until it has doubled in girth, then wedges itself into a crevice nothing can drag it out of. Its skin glows green under blue light.',
   },
+  {
+    id: 'bat-ray',
+    name: 'Bat Ray',
+    sciName: 'Myliobatis californica',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Myliobatis_californica_channel_islands.jpg/1280px-Myliobatis_californica_channel_islands.jpg',
+    region: 'north-pacific',
+    fact: 'Digs its dinner out by flapping: a few beats of the wings blow a crater in the sand, and the clams underneath go into plates of fused teeth strong enough to crack them.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -305,6 +313,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Lemon_shark2.jpg/1280px-Lemon_shark2.jpg',
     region: 'caribbean',
     fact: 'Pups spend their first years in the same patch of mangrove they were born in, and tagging shows the females come back to that exact nursery to give birth.',
+  },
+  {
+    id: 'cownose-ray',
+    name: 'Cownose Ray',
+    sciName: 'Rhinoptera bonasus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rhinoptera_bonasus_Brest.jpg/1280px-Rhinoptera_bonasus_Brest.jpg',
+    region: 'caribbean',
+    fact: 'The cleft snout works as a shovel, fanning silt off buried shellfish. They travel in schools thousands strong, and from the air a passing shoal reads as a dark stain moving up the coast.',
   },
   // ---- Amazon Basin ----
   {
@@ -711,6 +727,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/442345541/large.jpeg',
     region: 'mediterranean',
     fact: 'Colour-blind, yet it matches any background it settles on — and it rolls waves of colour down its skin to stupefy a crab while it closes the distance.',
+  },
+  {
+    id: 'common-stingray',
+    name: 'Common Stingray',
+    sciName: 'Dasyatis pastinaca',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Dasyatis_pastinaca_24933880.jpg/1280px-Dasyatis_pastinaca_24933880.jpg',
+    region: 'mediterranean',
+    fact: 'The classical stingray: it lies buried with only its eyes showing, and its serrated spine armed the spear that Greek legend has killing Odysseus.',
   },
   // ---- Congo Basin ----
   {
@@ -1527,6 +1551,14 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'Sweeps its toothed snout through the sand and finds buried prey by touch, using the pair of feelers slung halfway along the saw. It is a shark, not a sawfish: the gills are on its sides.',
   },
+  {
+    id: 'japanese-angelshark',
+    name: 'Japanese Angelshark',
+    sciName: 'Squatina japonica',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Squatina_japonica3.jpg/1280px-Squatina_japonica3.jpg',
+    region: 'sea-of-japan',
+    fact: 'Flat as a ray and buried to the eyes, but a shark all the same — its gill slits are on the sides, not underneath — and it takes fish by snapping upward out of the sand.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -1761,5 +1793,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/599687346/large.jpg',
     region: 'new-zealand',
     fact: 'Keeps seven gill slits where nearly every other shark makes do with five, an arrangement its line has held for over a hundred million years. Hunts in groups large enough to take seals.',
+  },
+  {
+    id: 'new-zealand-eagle-ray',
+    name: 'New Zealand Eagle Ray',
+    sciName: 'Myliobatis tenuicaudatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Myliobatis_tenuicaudatus_186845675.jpg/1280px-Myliobatis_tenuicaudatus_186845675.jpg',
+    region: 'new-zealand',
+    fact: 'Works the harbour flats at high tide, leaving the sand pitted with the craters it digs for shellfish; the pits stay visible when the water goes out.',
   },
 ];

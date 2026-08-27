@@ -1546,5 +1546,40 @@
     "author": "タウナギ",
     "license": "CC0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "bat-ray": {
+    "commons_title": "File:Myliobatis californica channel islands.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Myliobatis_californica_channel_islands.jpg",
+    "author": "Claire Fackler, CINMS, NOAA",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "cownose-ray": {
+    "commons_title": "File:Rhinoptera bonasus Brest.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhinoptera_bonasus_Brest.jpg",
+    "author": "Citron",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "common-stingray": {
+    "commons_title": "File:Dasyatis pastinaca 24933880.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dasyatis_pastinaca_24933880.jpg",
+    "author": "Chris Taklis",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "japanese-angelshark": {
+    "commons_title": "File:Squatina japonica3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Squatina_japonica3.jpg",
+    "author": "RYO SATO",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "new-zealand-eagle-ray": {
+    "commons_title": "File:Myliobatis tenuicaudatus 186845675.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Myliobatis_tenuicaudatus_186845675.jpg",
+    "author": "Oscar Dove",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

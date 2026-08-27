@@ -156,6 +156,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Cetorhinus_maximus_atlantic.jpg",
   },
+  "bat-ray": {
+    author: "Claire Fackler, CINMS, NOAA",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Myliobatis_californica_channel_islands.jpg",
+  },
   "beluga-whale": {
     author: "Henrik Kibak",
     license: "CC BY 4.0",
@@ -342,6 +348,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/335263442",
   },
+  "common-stingray": {
+    author: "Chris Taklis",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Dasyatis_pastinaca_24933880.jpg",
+  },
   "congo-tetra": {
     author: "7TP (Krzysztof Bartosik)",
     license: "CC BY-SA 4.0",
@@ -359,6 +371,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/152157136",
+  },
+  "cownose-ray": {
+    author: "Citron",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Rhinoptera_bonasus_Brest.jpg",
   },
   "cuckoo-catfish": {
     author: "Mario Rubio García",
@@ -582,6 +600,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
   },
+  "japanese-angelshark": {
+    author: "RYO SATO",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Squatina_japonica3.jpg",
+  },
   "japanese-bullhead-shark": {
     author: "Jin Kemoole",
     license: "CC BY 2.0",
@@ -773,6 +797,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
+  },
+  "new-zealand-eagle-ray": {
+    author: "Oscar Dove",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Myliobatis_tenuicaudatus_186845675.jpg",
   },
   "northern-hogsucker": {
     author: "Donald Davesne",
