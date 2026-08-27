@@ -316,43 +316,10 @@ const WorldMap = (() => {
       placeLabel(label, (at(label, 'x') + dx).toFixed(1), (at(label, 'y') + dy).toFixed(1));
     };
 
-    /* Every corner of the box, with a little air around it, has to land on
-     * the section the label names — otherwise the text reads as belonging to
-     * the neighbour it spills into. */
-    const insideOwnZone = (label, fill) => {
-      const b = label.getBBox();
-      const point = svg.createSVGPoint();
-      return [
-        [b.x - PAD, b.y - PAD],
-        [b.x + b.width + PAD, b.y - PAD],
-        [b.x - PAD, b.y + b.height + PAD],
-        [b.x + b.width + PAD, b.y + b.height + PAD],
-      ].every(([x, y]) => {
-        point.x = x;
-        point.y = y;
-        return fill.isPointInFill(point);
-      });
-    };
-
-    /* Some sections are simply narrower than their name — the Coral Triangle
-     * is a ribbon of islands — so step the type down until the name fits
-     * rather than let it cross the seam. */
-    const fitToZone = (entry) => {
-      const fill = entry.group.querySelector('.zone-fill');
-      if (!fill) return;
-      entry.label.style.fontSize = '';
-      const base = Number.parseFloat(window.getComputedStyle(entry.label).fontSize);
-      for (const scale of [1, 0.86, 0.74, 0.64, 0.55, 0.47]) {
-        entry.label.style.fontSize = scale === 1 ? '' : `${(base * scale).toFixed(1)}px`;
-        if (insideOwnZone(entry.label, fill)) return;
-      }
-    };
-
     let boxes;
     try {
       // Back to the anchor first, so resizing does not accumulate offsets.
       for (const label of labels) placeLabel(label, label.dataset.x, label.dataset.y);
-      for (const entry of zones.values()) fitToZone(entry);
       boxes = labels.map((l) => l.getBBox());
     } catch {
       return; // not rendered yet (display:none, detached) — nothing to measure
