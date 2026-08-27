@@ -156,8 +156,11 @@ To add a region, append it to `REGIONS` in `src/regions.js` with a
 representative `lat`/`lon` — that is all. The map sections are computed from
 those coordinates, so a new region carves its own section out of its
 neighbours automatically and the map stays fully covered. `LABEL_AT` in
-`map.js` can nudge a label that lands badly, and an optional `short` gives the
-map a shorter name than the full one.
+`map.js` can nudge a label that lands badly, `STACKED` there breaks a long name
+onto two lines, and an optional `short` gives the map a shorter name than the
+full one. A label that still will not fit inside its own section — the Coral
+Triangle is a ribbon of islands — is stepped down in size at layout time until
+it does, so no name is left straddling a seam.
 
 When choosing a species, check two things. Its natural range has to centre
 genuinely on one region — a fish found right across the Indo-Pacific makes for
