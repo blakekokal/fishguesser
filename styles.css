@@ -936,13 +936,21 @@ body {
   .brand-name { font-size: 15px; }
   .version { padding: 1px 7px; font-size: 9.5px; }
   .version-date { display: none; }
-  .stats { gap: 4px; }
-  .stat { min-width: 0; padding: 2px 6px; }
+  /* Six tiles across one row rather than a flex wrap, which left a gap on
+     the left and stranded the last tile on a line of its own. */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 4px;
+    width: 100%;
+  }
+  .stat { min-width: 0; padding: 2px 4px; }
   .stat-label { font-size: 8px; }
   .stat-value { font-size: 13px; }
   .stat-line { gap: 3px; }
   .stat-reset { width: 14px; height: 14px; font-size: 11px; }
   .stat-seen .stat-value { font-size: 11px; }
+  .stat-link .stat-value { font-size: 10px; white-space: nowrap; }
   .hint-dots { min-height: 0; gap: 3px; }
   .hint-dot { font-size: 10px; }
 
