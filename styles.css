@@ -128,6 +128,22 @@ body {
   background: var(--panel);
 }
 
+/* The photo check as a tile: a link, but it should read as one of the stats. */
+.stat-link {
+  justify-content: center;
+  gap: 2px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.stat-link:hover,
+.stat-link:focus-visible {
+  border-color: var(--accent-deep);
+  background: var(--panel-2);
+}
+
+.stat-link .stat-value { font-size: 14px; color: var(--accent); }
+
 .stat-label {
   font-size: 10px;
   font-weight: 600;

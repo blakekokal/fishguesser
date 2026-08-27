@@ -75,7 +75,7 @@ meet it: is that a whole fish, is it alive, is it recognisable? The name,
 species and credit show underneath, since the page is mostly used to spot a bad
 photo and say which one it is. `R` hides them to look at a picture cold. The
 region is never shown, deliberately — that is the game's answer, and reviewing
-the photographs should not spend it. It is linked from the footer of the game.
+the photographs should not spend it. It is reached from the Photos tile in the top bar.
 
 `←` / `→` (or the buttons) step, `Home` and `End` jump to the ends, the number
 box goes straight to one, and `R` toggles the details. The order follows `FISH`,
