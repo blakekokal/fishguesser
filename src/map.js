@@ -131,9 +131,11 @@ const WorldMap = (() => {
    * these only move the text. */
   const LABEL_AT = {
     'southern-ocean': [-25, -63],
+    amazon: [-62, -10],
     congo: [17, 1],
-    'rift-lakes': [36, -13],
+    'rift-lakes': [41, -18],
     'coral-triangle': [124, 5],
+    mekong: [98, 15],
     'northern-australia': [134, -17],
   };
 
