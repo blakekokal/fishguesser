@@ -288,6 +288,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/151780613",
   },
+  "caribbean-reef-shark": {
+    author: "Dennis Hipp (Zepto)",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://commons.wikimedia.org/wiki/File:Full_Shot_of_a_Caribbean_Reef_Shark_at_Tiger_Beach_Bahamas.jpg",
+  },
   "cherry-anthias": {
     author: "harum.koh from Kobe city, Japan",
     license: "CC BY-SA 2.0",
@@ -588,6 +594,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/337396330",
   },
+  "japanese-sawshark": {
+    author: "タウナギ",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://commons.wikimedia.org/wiki/File:Pristiophorus_japonicus_ioworld.jpg",
+  },
   "japanese-seabass": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -641,6 +653,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 3.0",
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pristis_pristis_-_Daly_River.JPG",
+  },
+  "lemon-shark": {
+    author: "Albert kok",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Lemon_shark2.jpg",
   },
   "leopard-bushfish": {
     author: "Karelj",
@@ -779,6 +797,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Kurtus_gulliveri.jpg",
+  },
+  "ocellate-river-stingray": {
+    author: "Steven G. Johnson",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Ocellate_river_stingray,_Boston_Aquarium.jpg",
   },
   "ocellated-icefish": {
     author: "Valerie Loeb",
@@ -1013,6 +1037,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/351898598",
+  },
+  "shell-dweller-cichlid": {
+    author: "Richard A. Ingebrigtsen",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Neolamprologus_multifasciatus_male.JPG",
   },
   "shorthorn-sculpin": {
     author: "Rebekah Bajkó",

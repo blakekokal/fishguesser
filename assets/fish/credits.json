@@ -1511,5 +1511,40 @@
     "author": "タウナギ",
     "license": "CC0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "caribbean-reef-shark": {
+    "commons_title": "File:Full Shot of a Caribbean Reef Shark at Tiger Beach Bahamas.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Full_Shot_of_a_Caribbean_Reef_Shark_at_Tiger_Beach_Bahamas.jpg",
+    "author": "Dennis Hipp (Zepto)",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "lemon-shark": {
+    "commons_title": "File:Lemon shark2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lemon_shark2.jpg",
+    "author": "Albert kok",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "ocellate-river-stingray": {
+    "commons_title": "File:Ocellate river stingray, Boston Aquarium.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ocellate_river_stingray,_Boston_Aquarium.jpg",
+    "author": "Steven G. Johnson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "shell-dweller-cichlid": {
+    "commons_title": "File:Neolamprologus multifasciatus male.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Neolamprologus_multifasciatus_male.JPG",
+    "author": "Richard A. Ingebrigtsen",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "japanese-sawshark": {
+    "commons_title": "File:Pristiophorus japonicus ioworld.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pristiophorus_japonicus_ioworld.jpg",
+    "author": "タウナギ",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   }
 }

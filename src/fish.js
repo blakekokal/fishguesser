@@ -290,6 +290,22 @@ const FISH = [
     region: 'caribbean',
     fact: 'Hunts by parachuting its webbed arms over a whole coral head at once, then feeling underneath for whatever is sheltering in it.',
   },
+  {
+    id: 'caribbean-reef-shark',
+    name: 'Caribbean Reef Shark',
+    sciName: 'Carcharhinus perezi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Full_Shot_of_a_Caribbean_Reef_Shark_at_Tiger_Beach_Bahamas.jpg/1280px-Full_Shot_of_a_Caribbean_Reef_Shark_at_Tiger_Beach_Bahamas.jpg',
+    region: 'caribbean',
+    fact: 'The commonest big shark on Antillean reefs, and the one divers find lying still on the sand in caves — unusual in a shark that has to keep water moving over its gills.',
+  },
+  {
+    id: 'lemon-shark',
+    name: 'Lemon Shark',
+    sciName: 'Negaprion brevirostris',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Lemon_shark2.jpg/1280px-Lemon_shark2.jpg',
+    region: 'caribbean',
+    fact: 'Pups spend their first years in the same patch of mangrove they were born in, and tagging shows the females come back to that exact nursery to give birth.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -411,6 +427,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hypancistrus_zebra4305.jpg/1280px-Hypancistrus_zebra4305.jpg',
     region: 'amazon',
     fact: 'Known from one stretch of the Rio Xingu and nowhere else, where aquarium collectors bid it up until Brazil banned the export outright. It rasps no wood like other plecos, picking small animals off the rock instead.',
+  },
+  {
+    id: 'ocellate-river-stingray',
+    name: 'Ocellate River Stingray',
+    sciName: 'Potamotrygon motoro',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Ocellate_river_stingray%2C_Boston_Aquarium.jpg/1280px-Ocellate_river_stingray%2C_Boston_Aquarium.jpg',
+    region: 'amazon',
+    fact: 'A ray that never goes near the sea: its family stayed behind when the Amazon stopped draining to the Pacific, and it now stings more people a year than the piranhas bite.',
   },
   // ---- North Atlantic ----
   {
@@ -867,6 +891,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg/1280px-Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg',
     region: 'rift-lakes',
     fact: 'A cichlid that left the rocks for open water, hanging over the drop-offs of Lake Tanganyika in shoals thousands strong and picking plankton out of the blue.',
+  },
+  {
+    id: 'shell-dweller-cichlid',
+    name: 'Shell-dwelling Cichlid',
+    sciName: 'Neolamprologus multifasciatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Neolamprologus_multifasciatus_male.JPG/1280px-Neolamprologus_multifasciatus_male.JPG',
+    region: 'rift-lakes',
+    fact: 'The smallest cichlid in the world, at about four centimetres, and it lives inside an empty snail shell in Lake Tanganyika, digging out the sand around it to keep the doorway clear.',
   },
   // ---- Coral Triangle ----
   {
@@ -1486,6 +1518,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ditrema_temmincki_temmincki_Oarai.jpg/1280px-Ditrema_temmincki_temmincki_Oarai.jpg',
     region: 'sea-of-japan',
     fact: 'Scatters no eggs at all: the young grow inside the mother for months, fed by her, and swim off as miniature adults the moment they are born.',
+  },
+  {
+    id: 'japanese-sawshark',
+    name: 'Japanese Sawshark',
+    sciName: 'Pristiophorus japonicus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pristiophorus_japonicus_ioworld.jpg/1280px-Pristiophorus_japonicus_ioworld.jpg',
+    region: 'sea-of-japan',
+    fact: 'Sweeps its toothed snout through the sand and finds buried prey by touch, using the pair of feelers slung halfway along the saw. It is a shark, not a sawfish: the gills are on its sides.',
   },
   // ---- Mekong Basin ----
   {
