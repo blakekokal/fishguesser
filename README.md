@@ -67,6 +67,29 @@ data resets both. Blocked storage
 (private windows, say) is caught and ignored: the game still plays, it just
 starts fresh each time.
 
+
+## Saves
+
+There is no server behind the game, so the rules card's **Your save** block
+offers the two things a static page honestly can:
+
+- **A name**, which labels a save slot in this browser (`fishguesser.best:<name>`
+  and `fishguesser.seen:<name>`) so two people can share a browser without
+  spending each other's pass. Naming a save for the first time carries the
+  progress already there with it; a second name starts empty. No password —
+  the name is a label, not an account.
+- **A backup code**, which is the save written out as one line of text
+  (`FG1.` + base64). Keep it anywhere. **Restore** merges it back: seen fish
+  are unioned and the best score is the higher of the two, so pasting an old
+  code can never cost you progress, and a code carrying a name gives an unnamed
+  browser that name back. Ids travel as five-character hashes, which keeps a
+  full 220-fish save near 2 KB and lets a restore match whatever species the
+  game holds now — anything it no longer knows is dropped and counted in the
+  message.
+
+A code is a plain backup, not a login: anyone holding it can load that progress,
+and it only carries the two numbers above.
+
 ## Photo check
 
 `photos.html` steps through all 220 photographs one at a time, in the same

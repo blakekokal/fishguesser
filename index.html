@@ -138,6 +138,27 @@
     <p class="start-foot">A perfect game is <strong>28,500</strong>: five
       regions dead right, five clean guesses, both reveals unused.</p>
 
+    <!-- No server sits behind this game, so a name is a label on a save in
+         this browser, not an account. The backup code is the part that leaves
+         the browser: keep it somewhere and a cleared cache costs nothing. -->
+    <h3 class="start-h">Your save</h3>
+    <div class="profile">
+      <div class="profile-row">
+        <input class="profile-input" id="profileName" type="text" maxlength="24"
+               autocomplete="off" spellcheck="false"
+               placeholder="Add a name (optional)" aria-label="Name for this save">
+        <button class="btn btn-ghost" id="profileSaveBtn" type="button">Use name</button>
+      </div>
+      <p class="profile-note" id="profileNote">Progress is kept in this browser.</p>
+      <div class="profile-row">
+        <button class="btn btn-ghost" id="backupBtn" type="button">Back up</button>
+        <button class="btn btn-ghost" id="restoreBtn" type="button">Restore</button>
+      </div>
+      <textarea class="profile-code" id="backupCode" rows="3" spellcheck="false"
+                placeholder="Paste a backup code here, then press Restore"
+                aria-label="Backup code" hidden></textarea>
+    </div>
+
     <div class="start-actions">
       <button class="btn btn-primary btn-wide" id="startBtn" type="button">Start</button>
     </div>
@@ -164,6 +185,7 @@
 <script src="src/version.js"></script>
 <script src="src/regions.js"></script>
 <script src="src/fish.js"></script>
+<script src="src/profile.js"></script>
 <script src="src/credits.js"></script>
 <script src="src/coastlines.js"></script>
 <script src="src/map.js"></script>

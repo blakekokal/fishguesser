@@ -19,10 +19,12 @@
   // Larger = more forgiving of near misses. The regions are far apart, so a
   // tight decay would round almost every wrong answer down to zero.
   const DECAY_KM = 3000;
-  const BEST_KEY = 'fishguesser.best';
+  // Both live in localStorage, under keys that depend on which save is
+  // active — see profile.js, which owns the naming and the backup codes.
+  const BEST_KEY = () => PROFILE.bestKey();
   // Which fish have already come up in the current pass through the list.
   // Kept next to the best score so a refresh does not restart the cycle.
-  const SEEN_KEY = 'fishguesser.seen';
+  const SEEN_KEY = () => PROFILE.seenKey();
 
   const $ = (id) => document.getElementById(id);
   const ui = {
@@ -41,6 +43,9 @@
     startFishCount: $('startFishCount'),
     seen: $('seenValue'),
     resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
+    profileName: $('profileName'), profileSave: $('profileSaveBtn'),
+    profileNote: $('profileNote'), backup: $('backupBtn'),
+    restore: $('restoreBtn'), backupCode: $('backupCode'),
     overlay: $('overlay'), finalScore: $('finalScore'), finalMax: $('finalMax'),
     endBlurb: $('endBlurb'), breakdown: $('breakdown'), playAgain: $('playAgainBtn'),
   };
@@ -64,7 +69,7 @@
 
   function readBest() {
     try {
-      const raw = window.localStorage.getItem(BEST_KEY);
+      const raw = window.localStorage.getItem(BEST_KEY());
       const n = raw === null ? 0 : Number(raw);
       return Number.isFinite(n) && n > 0 ? n : 0;
     } catch {
@@ -74,7 +79,7 @@
 
   function writeBest(value) {
     try {
-      window.localStorage.setItem(BEST_KEY, String(value));
+      window.localStorage.setItem(BEST_KEY(), String(value));
     } catch {
       /* nothing to do; the score just won't persist */
     }
@@ -85,7 +90,7 @@
    * exist, and a newly added fish should simply count as not yet seen. */
   function readSeen() {
     try {
-      const raw = JSON.parse(window.localStorage.getItem(SEEN_KEY));
+      const raw = JSON.parse(window.localStorage.getItem(SEEN_KEY()));
       if (!Array.isArray(raw)) return [];
       const known = new Set(FISH.map((f) => f.id));
       return raw.filter((id) => known.has(id));
@@ -96,7 +101,7 @@
 
   function writeSeen(ids) {
     try {
-      window.localStorage.setItem(SEEN_KEY, JSON.stringify(ids));
+      window.localStorage.setItem(SEEN_KEY(), JSON.stringify(ids));
     } catch {
       /* the cycle just won't survive a refresh */
     }
@@ -413,9 +418,77 @@
     ui.resetSeen.disabled = seen === 0;
   }
 
+  /* The two stored numbers, redrawn from whichever save is active: switching
+   * name or pasting a code changes both without touching the game on screen. */
+  function renderStored() {
+    const best = readBest();
+    ui.best.textContent = best ? fmt(best) : '—';
+    ui.resetBest.disabled = !best;
+    renderSeen();
+  }
+
+  const note = (text, warn = false) => {
+    ui.profileNote.textContent = text;
+    ui.profileNote.classList.toggle('is-warn', warn);
+  };
+
+  /* Says whose save is on and how far it has got, which is the only feedback
+   * naming a save gives — the counters themselves live in the top bar. */
+  function renderProfile() {
+    const seen = readSeen().length;
+    note(PROFILE.name
+      ? `Playing as ${PROFILE.name} — ${fmt(seen)} of ${fmt(FISH.length)} seen, in this browser.`
+      : `Progress is kept in this browser. ${fmt(seen)} of ${fmt(FISH.length)} seen.`);
+  }
+
+  function useName() {
+    PROFILE.setName(ui.profileName.value);
+    ui.profileName.value = PROFILE.name;
+    renderStored();
+    renderProfile();
+  }
+
+  function showBackup() {
+    const code = PROFILE.backupCode();
+    ui.backupCode.hidden = false;
+    ui.backupCode.value = code;
+    ui.backupCode.select();
+    // Clipboard access can be refused (an insecure origin, a permission), and
+    // the code is selected either way, so a copy is never the only route.
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(code).then(
+        () => note('Code copied. Keep it anywhere — paste it back to restore.'),
+        () => note('Code ready — copy it from the box and keep it somewhere.'),
+      );
+    } else {
+      note('Code ready — copy it from the box and keep it somewhere.');
+    }
+  }
+
+  function restoreBackup() {
+    if (ui.backupCode.hidden || !ui.backupCode.value.trim()) {
+      ui.backupCode.hidden = false;
+      ui.backupCode.value = '';
+      ui.backupCode.focus();
+      note('Paste a backup code into the box, then press Restore.');
+      return;
+    }
+    const result = PROFILE.restore(ui.backupCode.value);
+    if (!result) {
+      note('That does not look like a backup code.', true);
+      return;
+    }
+    ui.profileName.value = PROFILE.name;
+    renderStored();
+    const missing = result.unknown
+      ? ` ${fmt(result.unknown)} from the code are no longer in the game.`
+      : '';
+    note(`Restored: ${fmt(result.added)} added, ${fmt(result.seen)} of ${fmt(FISH.length)} seen.${missing}`);
+  }
+
   function resetBest() {
     try {
-      window.localStorage.removeItem(BEST_KEY);
+      window.localStorage.removeItem(BEST_KEY());
     } catch {
       /* nothing stored to begin with */
     }
@@ -464,6 +537,12 @@
   ui.nextBtn.addEventListener('click', nextRound);
   ui.playAgain.addEventListener('click', startGame);
   ui.startBtn.addEventListener('click', beginPlay);
+  ui.profileSave.addEventListener('click', useName);
+  ui.profileName.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { e.preventDefault(); useName(); }
+  });
+  ui.backup.addEventListener('click', showBackup);
+  ui.restore.addEventListener('click', restoreBackup);
   ui.resetBest.addEventListener('click', resetBest);
   ui.resetSeen.addEventListener('click', resetSeen);
   document.addEventListener('keydown', (e) => {
@@ -474,6 +553,10 @@
       // Enter on a focused reset button already presses it; starting the game
       // off the same keystroke would carry the player straight out of the rules.
       if (e.target === ui.resetBest || e.target === ui.resetSeen) return;
+      // Same for the save block: naming a save or pasting a code is not a
+      // request to start playing.
+      if (e.target === ui.profileName || e.target === ui.backupCode) return;
+      if (e.target === ui.profileSave || e.target === ui.backup || e.target === ui.restore) return;
       beginPlay();
       return;
     }
@@ -518,6 +601,7 @@
   showSpeciesCount();
   ui.startFishCount.textContent = `all ${fmt(FISH.length)} species`;
   WorldMap.build(ui.map, select);
+  ui.profileName.value = PROFILE.name;
   const best = readBest();
   ui.best.textContent = best ? fmt(best) : '—';
   ui.resetBest.disabled = !best;
@@ -525,6 +609,7 @@
    * are being read, then hand focus to Start. */
   startGame();
   renderSeen();
+  renderProfile();
   // preventScroll: focusing the button would otherwise scroll the rules card
   // down to it, landing the player halfway through the text.
   ui.startBtn.focus({ preventScroll: true });
