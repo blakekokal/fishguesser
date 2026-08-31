@@ -6,8 +6,9 @@
  * named; `R` hides it to look at a picture cold. The region is never shown —
  * that is the answer, and reviewing photos must not spend it.
  *
- * Order follows FISH, so the number under the photo is a stable way to point at
- * one ("number 37 is bad") without the details being on screen. */
+ * Two orders: newest photo first, which is what a review after adding some
+ * fish wants, and the collection's own order, where a number is a stable way
+ * to point at one ("number 37 is bad") without the details on screen. */
 
 (() => {
   const $ = (id) => document.getElementById(id);
@@ -16,11 +17,26 @@
     details: $('details'), name: $('fishName'), sci: $('fishSci'),
     meta: $('fishMeta'), count: $('count'), jump: $('jump'),
     prev: $('prevBtn'), next: $('nextBtn'), reveal: $('revealBtn'),
-    speciesCount: $('speciesCount'),
+    speciesCount: $('speciesCount'), order: $('orderBtn'),
   };
 
   const fmt = (n) => n.toLocaleString('en-US');
   const total = FISH.length;
+
+  /* PHOTO_CREDITS is keyed alphabetically, but PHOTO_ORDER keeps the order
+   * photos were actually added — a swapped photo moves to the end there too,
+   * so "newest" means newest picture, not newest species. Anything missing
+   * from it (a fish added without touching credits.json) counts as oldest. */
+  const byId = new Map(FISH.map((f) => [f.id, f]));
+  const added = (typeof PHOTO_ORDER === 'undefined' ? [] : PHOTO_ORDER)
+    .filter((id) => byId.has(id));
+  const newest = [
+    ...[...added].reverse().map((id) => byId.get(id)),
+    ...FISH.filter((f) => !added.includes(f.id)),
+  ];
+
+  let newestFirst = true;
+  let list = newest;
   let index = 0;
   /* On by default: the page is mostly used to spot a bad photo and say which
    * one it is, and that needs the name. `R` hides it to judge a picture cold. */
@@ -31,7 +47,7 @@
   function preload(i) {
     if (i < 0 || i >= total) return;
     const img = new Image();
-    img.src = FISH[i].image;
+    img.src = list[i].image;
   }
 
   function renderDetails() {
@@ -40,7 +56,7 @@
     ui.reveal.textContent = revealed ? 'Hide details' : 'Show details';
     if (!revealed) return;
 
-    const fish = FISH[index];
+    const fish = list[index];
     const credit = (typeof PHOTO_CREDITS !== 'undefined' && PHOTO_CREDITS[fish.id]) || null;
 
     ui.name.textContent = fish.name;
@@ -66,7 +82,7 @@
 
   function show(i) {
     index = Math.min(Math.max(i, 0), total - 1);
-    const fish = FISH[index];
+    const fish = list[index];
 
     ui.photo.classList.remove('is-ready', 'is-broken');
     ui.photoBg.classList.remove('is-ready');
@@ -94,6 +110,24 @@
   ui.next.addEventListener('click', () => step(1));
   ui.reveal.addEventListener('click', () => { revealed = !revealed; renderDetails(); });
 
+  /* Swapping order keeps the photo on screen rather than the position, so the
+   * picture being looked at does not change under the toggle. */
+  ui.order.addEventListener('click', () => {
+    const current = list[index];
+    newestFirst = !newestFirst;
+    list = newestFirst ? newest : FISH;
+    renderOrder();
+    show(list.indexOf(current));
+  });
+
+  function renderOrder() {
+    ui.order.textContent = newestFirst ? 'Newest first' : 'Collection order';
+    ui.order.setAttribute('aria-pressed', String(newestFirst));
+    ui.order.title = newestFirst
+      ? 'Newest photo first — click for the collection\'s own order'
+      : "The collection's own order — click for newest photo first";
+  }
+
   ui.jump.addEventListener('change', () => {
     const n = Number(ui.jump.value);
     if (Number.isFinite(n)) show(Math.round(n) - 1);
@@ -113,6 +147,7 @@
     else if (e.key === 'r' || e.key === 'R') { revealed = !revealed; renderDetails(); }
   });
 
+  renderOrder();
   ui.jump.max = String(total);
   ui.speciesCount.textContent = fmt(total);
   const label = document.createElement('span');

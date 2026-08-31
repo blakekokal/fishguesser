@@ -69,7 +69,7 @@ starts fresh each time.
 
 ## Photo check
 
-`photos.html` steps through all 120 photographs one at a time, in the same
+`photos.html` steps through all 220 photographs one at a time, in the same
 letterboxed frame the game uses, so a picture can be judged as a player would
 meet it: is that a whole fish, is it alive, is it recognisable? The name,
 species and credit show underneath, since the page is mostly used to spot a bad
@@ -78,8 +78,12 @@ region is never shown, deliberately — that is the game's answer, and reviewing
 the photographs should not spend it. It is reached from the Photos tile in the top bar.
 
 `←` / `→` (or the buttons) step, `Home` and `End` jump to the ends, the number
-box goes straight to one, and `R` toggles the details. The order follows `FISH`,
-so the number under a photo is a stable way to point at one. A photo that fails
+box goes straight to one, and `R` toggles the details. It opens newest photo
+first — the order photos were added, from `PHOTO_ORDER` in the generated
+credits, where a swapped photo counts as new — so a batch just added is the
+first thing on screen. **Collection order** switches to the order in `FISH`,
+where the number under a photo is a stable way to point at one; either way the
+toggle keeps the picture you are looking at. A photo that fails
 to load says so in the frame, which makes a dead link easy to spot.
 
 ## How scoring works

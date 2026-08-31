@@ -36,6 +36,15 @@ def write_js(data):
         lines.append("  },")
     lines.append("};")
     lines.append("")
+    # credits.json is written in the order photos were added, so its key order
+    # is the collection's history. Kept alongside the credits so the photo
+    # check can show the newest pictures first without a date on every entry.
+    lines.append("/* Fish ids in the order their photo was added, oldest first. */")
+    lines.append("const PHOTO_ORDER = [")
+    for fid in data:
+        lines.append(f"  {json.dumps(fid)},")
+    lines.append("];")
+    lines.append("")
     path = os.path.join(ROOT, "src", "credits.js")
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))

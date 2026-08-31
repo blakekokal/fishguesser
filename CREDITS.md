@@ -37,7 +37,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `barrier-reef-anemonefish` | Leonard Low from Australia | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Amphiprion_akindynos.jpg) |
 | `basking-shark` | Green Fire Productions | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cetorhinus_maximus_atlantic.jpg) |
 | `bat-ray` | Claire Fackler, CINMS, NOAA | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Myliobatis_californica_channel_islands.jpg) |
-| `beluga-whale` | Henrik Kibak | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/134657544) |
+| `beluga-whale` | Antony Stanley | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Beluga_Whale_(Underwater),_Vancouver_Aquarium_(319841848).jpg) |
 | `black-rockcod` | Sarka Masova | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/45839264) |
 | `blackfin-icefish` | Ambiederman | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:C._aceratus.jpg) |
 | `blacktip-reef-shark` | 陳德範（Chen, De-Fan） | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/259913283) |
@@ -230,4 +230,4 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `zebra-bullhead-shark` | 劉哲瑋 | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | [iNaturalist](https://www.inaturalist.org/observations/107635630) |
 | `zebra-mbuna` | Klaus Rudloff | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Maylandia_zebra_B.jpg) |
 | `zebra-pleco` | Birger A | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hypancistrus_zebra4305.jpg) |
-| `zebra-shark` | Dennis White | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | [iNaturalist](https://www.inaturalist.org/observations/20234790) |
+| `zebra-shark` | Theo Kruse / Burgers' Zoo | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Zebra_shark_(Stegostoma_fasciatum).jpg) |

@@ -1372,13 +1372,6 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
-  "beluga-whale": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229562407/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/134657544",
-    "author": "Henrik Kibak",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
-  },
   "blue-ringed-octopus": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721801465/large.jpg",
     "source": "https://www.inaturalist.org/observations/393772050",
@@ -1427,13 +1420,6 @@
     "author": "Daniel Benák",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
-  },
-  "zebra-shark": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31228966/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/20234790",
-    "author": "Dennis White",
-    "license": "CC0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "zebra-bullhead-shark": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181071087/large.jpeg",
@@ -1581,5 +1567,19 @@
     "author": "Oscar Dove",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "zebra-shark": {
+    "commons_title": "File:Zebra shark (Stegostoma fasciatum).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Zebra_shark_(Stegostoma_fasciatum).jpg",
+    "author": "Theo Kruse / Burgers' Zoo",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "beluga-whale": {
+    "commons_title": "File:Beluga Whale (Underwater), Vancouver Aquarium (319841848).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Beluga_Whale_(Underwater),_Vancouver_Aquarium_(319841848).jpg",
+    "author": "Antony Stanley",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
   }
 }
