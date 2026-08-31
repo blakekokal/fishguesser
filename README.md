@@ -73,7 +73,8 @@ starts fresh each time.
 There is no server behind the game, so the rules card's **Your save** block
 offers the two things a static page honestly can:
 
-- **A name**, which labels a save slot in this browser (`fishguesser.best:<name>`
+- **A name**, typed either in the top bar (where it stays visible mid-game) or
+  here, which labels a save slot in this browser (`fishguesser.best:<name>`
   and `fishguesser.seen:<name>`) so two people can share a browser without
   spending each other's pass. Naming a save for the first time carries the
   progress already there with it; a second name starts empty. No password —

@@ -43,6 +43,7 @@
     startFishCount: $('startFishCount'),
     seen: $('seenValue'),
     resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
+    topName: $('topName'),
     profileName: $('profileName'), profileSave: $('profileSaveBtn'),
     profileNote: $('profileNote'), backup: $('backupBtn'),
     restore: $('restoreBtn'), backupCode: $('backupCode'),
@@ -441,9 +442,13 @@
       : `Progress is kept in this browser. ${fmt(seen)} of ${fmt(FISH.length)} seen.`);
   }
 
-  function useName() {
-    PROFILE.setName(ui.profileName.value);
+  /* Both name boxes — the tile in the top bar and the one on the rules card —
+   * edit the same save, so whichever was typed into wins and the other follows.
+   * Switching name repoints storage, so the counters are redrawn with it. */
+  function useName(source) {
+    PROFILE.setName(source.value);
     ui.profileName.value = PROFILE.name;
+    ui.topName.value = PROFILE.name;
     renderStored();
     renderProfile();
   }
@@ -537,9 +542,16 @@
   ui.nextBtn.addEventListener('click', nextRound);
   ui.playAgain.addEventListener('click', startGame);
   ui.startBtn.addEventListener('click', beginPlay);
-  ui.profileSave.addEventListener('click', useName);
+  ui.profileSave.addEventListener('click', () => useName(ui.profileName));
   ui.profileName.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') { e.preventDefault(); useName(); }
+    if (e.key === 'Enter') { e.preventDefault(); useName(ui.profileName); }
+  });
+  /* The tile has no button beside it, so it commits on the two things that
+   * mean "done": leaving the field, and pressing Enter. */
+  ui.topName.addEventListener('change', () => useName(ui.topName));
+  ui.topName.addEventListener('blur', () => useName(ui.topName));
+  ui.topName.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { e.preventDefault(); ui.topName.blur(); }
   });
   ui.backup.addEventListener('click', showBackup);
   ui.restore.addEventListener('click', restoreBackup);
@@ -556,6 +568,7 @@
       // Same for the save block: naming a save or pasting a code is not a
       // request to start playing.
       if (e.target === ui.profileName || e.target === ui.backupCode) return;
+      if (e.target === ui.topName) return;
       if (e.target === ui.profileSave || e.target === ui.backup || e.target === ui.restore) return;
       beginPlay();
       return;
@@ -602,6 +615,7 @@
   ui.startFishCount.textContent = `all ${fmt(FISH.length)} species`;
   WorldMap.build(ui.map, select);
   ui.profileName.value = PROFILE.name;
+  ui.topName.value = PROFILE.name;
   const best = readBest();
   ui.best.textContent = best ? fmt(best) : '—';
   ui.resetBest.disabled = !best;

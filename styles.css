@@ -129,6 +129,25 @@ body {
 }
 
 /* The photo check as a tile: a link, but it should read as one of the stats. */
+/* The save's name, editable in place: it reads as a stat value until it is
+   typed into, so the tile does not shout for attention it does not need. */
+.stat-input {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.stat-input::placeholder { color: var(--ink-faint); font-weight: 600; }
+.stat-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
 .stat-link {
   justify-content: center;
   gap: 2px;
@@ -973,21 +992,25 @@ body {
   .brand-name { font-size: 15px; }
   .version { padding: 1px 7px; font-size: 9.5px; }
   .version-date { display: none; }
-  /* Six tiles across one row rather than a flex wrap, which left a gap on
-     the left and stranded the last tile on a line of its own. */
+  /* An even grid rather than a flex wrap, which left a gap on the left and
+     stranded the last tile on a line of its own. Seven tiles will not fit
+     across a phone legibly, so they take two full rows of four. */
   .stats {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 4px;
     width: 100%;
   }
-  .stat { min-width: 0; padding: 2px 4px; }
+  .stat { min-width: 0; padding: 2px 6px; overflow: hidden; }
+  /* Last of seven, so it takes the spare cell and the row stays flush. */
+  .stat-link { grid-column: span 2; }
   .stat-label { font-size: 8px; }
   .stat-value { font-size: 13px; }
   .stat-line { gap: 3px; }
   .stat-reset { width: 14px; height: 14px; font-size: 11px; }
   .stat-seen .stat-value { font-size: 11px; }
-  .stat-link .stat-value { font-size: 10px; white-space: nowrap; }
+  .stat-link .stat-value { font-size: 11px; white-space: nowrap; }
+  .stat-input { font-size: 12px; }
   .hint-dots { min-height: 0; gap: 3px; }
   .hint-dot { font-size: 10px; }
 

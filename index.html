@@ -40,6 +40,14 @@
                 aria-label="Start a fresh pass through the collection">↺</button>
       </span>
     </div>
+    <!-- Which save is being played, always on screen: the rules card is only
+         seen between games, and the name decides where progress is written. -->
+    <div class="stat stat-name">
+      <span class="stat-label">Name</span>
+      <input class="stat-input" id="topName" type="text" maxlength="24"
+             autocomplete="off" spellcheck="false" placeholder="add"
+             aria-label="Name for this save">
+    </div>
     <!-- The photo check is easy to miss in the footer on a phone, so it sits
          here as a tile of its own, next to the pass counter it belongs with. -->
     <a class="stat stat-link" href="photos.html" target="_blank" rel="noopener"
