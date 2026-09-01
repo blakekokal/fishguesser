@@ -192,6 +192,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Blue_Cod_in_Milford_Sound.jpg",
   },
+  "blue-land-crab": {
+    author: "Krzysztof Ziarnek, Kenraiz",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cardisoma_guanhumi_kz01.jpg",
+  },
   "blue-maomao": {
     author: "Luca Davenport-Thomas",
     license: "CC BY 4.0",
@@ -402,6 +408,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Carpetshark.jpg",
   },
+  "dungeness-crab": {
+    author: "Bildflut",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
+    source: "https://commons.wikimedia.org/wiki/File:Dungeness_crab_(Metacarcinus_magister)_2.jpg",
+  },
   "dusky-grouper": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -413,6 +425,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Melanotaenia_splendida_splendida_188164829.jpg",
+  },
+  "edible-crab": {
+    author: "Olivier Dugornay (Ifremer)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Tourteau_(Cancer_pagurus)_(Ifremer_00378-48930_-_1097).jpg",
   },
   "electric-catfish": {
     author: "Stan Shebs",
@@ -600,6 +618,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
   },
+  "horsehair-crab": {
+    author: "Totti",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Erimacrus_isenbeckii_Sunpiazza1.jpg",
+  },
   "japanese-angelshark": {
     author: "RYO SATO",
     license: "CC BY-SA 2.0",
@@ -629,6 +653,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lateolabrax_japonicus_Iwaki.jpg",
+  },
+  "japanese-spider-crab": {
+    author: "Dallas Krentzel",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Giant_Japanese_spider_crab_(Macrocheira_kaempferi)_at_the_Shedd_Aquarium,_Chicago,_IL_(6802024350).jpg",
   },
   "japanese-surfperch": {
     author: "タウナギ",
@@ -756,6 +786,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Torpedo_marmorata_(20150825)_01.jpg",
   },
+  "marbled-rock-crab": {
+    author: "Charles J. Sharp",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Marbled_crab_(Pachygrapsus_marmoratus)_Butrint.jpg",
+  },
   "mediterranean-cardinalfish": {
     author: "Ben Costamagna",
     license: "CC BY 4.0",
@@ -785,6 +821,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/188577",
+  },
+  "mud-crab": {
+    author: "coenobita",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/117701367",
   },
   "muskellunge": {
     author: "James St. John",
@@ -918,6 +960,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/13315289",
   },
+  "purple-rock-crab": {
+    author: "Shaun Lee",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/283809460",
+  },
   "pygmy-seahorse": {
     author: "Rickard Zerpe",
     license: "CC BY-SA 2.0",
@@ -959,6 +1007,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Chelidonichthys_kumu.jpg",
+  },
+  "red-king-crab": {
+    author: "Sasha Isachenko",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Paralithodes_camtschaticus,_1.jpg",
   },
   "red-moki": {
     author: "Avenue",
@@ -1241,6 +1295,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/237908815",
+  },
+  "vampire-crab": {
+    author: "CEphoto, Uwe Aranas",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg",
   },
   "walleye": {
     author: "Engbretson, Eric / U.S. Fish and Wildlife Service",
@@ -1550,4 +1610,14 @@ const PHOTO_ORDER = [
   "new-zealand-eagle-ray",
   "zebra-shark",
   "beluga-whale",
+  "dungeness-crab",
+  "red-king-crab",
+  "edible-crab",
+  "marbled-rock-crab",
+  "blue-land-crab",
+  "japanese-spider-crab",
+  "horsehair-crab",
+  "vampire-crab",
+  "mud-crab",
+  "purple-rock-crab",
 ];

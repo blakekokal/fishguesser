@@ -5,6 +5,6 @@
  * stamps today's date, rather than editing the numbers by hand. */
 
 const APP_VERSION = {
-  version: '2.32.1',
-  date: '2026-08-31',
+  version: '2.33.0',
+  date: '2026-09-01',
 };

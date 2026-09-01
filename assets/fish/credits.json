@@ -1581,5 +1581,75 @@
     "author": "Antony Stanley",
     "license": "CC BY-SA 2.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "dungeness-crab": {
+    "commons_title": "File:Dungeness crab (Metacarcinus magister) 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dungeness_crab_(Metacarcinus_magister)_2.jpg",
+    "author": "Bildflut",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "red-king-crab": {
+    "commons_title": "File:Paralithodes camtschaticus, 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paralithodes_camtschaticus,_1.jpg",
+    "author": "Sasha Isachenko",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "edible-crab": {
+    "commons_title": "File:Tourteau (Cancer pagurus) (Ifremer 00378-48930 - 1097).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tourteau_(Cancer_pagurus)_(Ifremer_00378-48930_-_1097).jpg",
+    "author": "Olivier Dugornay (Ifremer)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "marbled-rock-crab": {
+    "commons_title": "File:Marbled crab (Pachygrapsus marmoratus) Butrint.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Marbled_crab_(Pachygrapsus_marmoratus)_Butrint.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "blue-land-crab": {
+    "commons_title": "File:Cardisoma guanhumi kz01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cardisoma_guanhumi_kz01.jpg",
+    "author": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "japanese-spider-crab": {
+    "commons_title": "File:Giant Japanese spider crab (Macrocheira kaempferi) at the Shedd Aquarium, Chicago, IL (6802024350).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Giant_Japanese_spider_crab_(Macrocheira_kaempferi)_at_the_Shedd_Aquarium,_Chicago,_IL_(6802024350).jpg",
+    "author": "Dallas Krentzel",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "horsehair-crab": {
+    "commons_title": "File:Erimacrus isenbeckii Sunpiazza1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Erimacrus_isenbeckii_Sunpiazza1.jpg",
+    "author": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "vampire-crab": {
+    "commons_title": "File:Lahad-Datu Sabah Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "mud-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198806689/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/117701367",
+    "author": "coenobita",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "purple-rock-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509987268/large.jpg",
+    "source": "https://www.inaturalist.org/observations/283809460",
+    "author": "Shaun Lee",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

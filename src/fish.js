@@ -160,6 +160,22 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Digs its dinner out by flapping: a few beats of the wings blow a crater in the sand, and the clams underneath go into plates of fused teeth strong enough to crack them.',
   },
+  {
+    id: 'dungeness-crab',
+    name: 'Dungeness Crab',
+    sciName: 'Metacarcinus magister',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Dungeness_crab_%28Metacarcinus_magister%29_2.jpg/1280px-Dungeness_crab_%28Metacarcinus_magister%29_2.jpg',
+    region: 'north-pacific',
+    fact: 'A male carries a female around for days waiting for her to moult, because the only hour she can be mated is the one where her new shell is still soft.',
+  },
+  {
+    id: 'red-king-crab',
+    name: 'Red King Crab',
+    sciName: 'Paralithodes camtschaticus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Paralithodes_camtschaticus%2C_1.jpg/1280px-Paralithodes_camtschaticus%2C_1.jpg',
+    region: 'north-pacific',
+    fact: 'Not a true crab but a hermit crab that gave up the shell, which is why its tail is still folded crookedly to one side. Soviet scientists moved it to the Barents Sea in the 1960s and it has been marching along the Norwegian coast ever since.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -321,6 +337,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rhinoptera_bonasus_Brest.jpg/1280px-Rhinoptera_bonasus_Brest.jpg',
     region: 'caribbean',
     fact: 'The cleft snout works as a shovel, fanning silt off buried shellfish. They travel in schools thousands strong, and from the air a passing shoal reads as a dark stain moving up the coast.',
+  },
+  {
+    id: 'blue-land-crab',
+    name: 'Blue Land Crab',
+    sciName: 'Cardisoma guanhumi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cardisoma_guanhumi_kz01.jpg/1280px-Cardisoma_guanhumi_kz01.jpg',
+    region: 'caribbean',
+    fact: 'Spends its life in a burrow inland, sometimes miles from the shore, but the eggs only hatch in salt water — so once a year the females walk back down to the sea to shake their larvae into the surf.',
   },
   // ---- Amazon Basin ----
   {
@@ -590,6 +614,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Looks murderous — the teeth show even with the mouth shut — and is famously placid. It gulps air at the surface and holds it in its stomach to hang motionless in midwater.',
   },
+  {
+    id: 'edible-crab',
+    name: 'Edible Crab',
+    sciName: 'Cancer pagurus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Tourteau_%28Cancer_pagurus%29_%28Ifremer_00378-48930_-_1097%29.jpg/1280px-Tourteau_%28Cancer_pagurus%29_%28Ifremer_00378-48930_-_1097%29.jpg',
+    region: 'north-atlantic',
+    fact: 'The rim of the shell is crimped like the edge of a pie, which is what fishermen name it for, and the black-tipped claws can break open a whelk.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -735,6 +767,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Dasyatis_pastinaca_24933880.jpg/1280px-Dasyatis_pastinaca_24933880.jpg',
     region: 'mediterranean',
     fact: 'The classical stingray: it lies buried with only its eyes showing, and its serrated spine armed the spear that Greek legend has killing Odysseus.',
+  },
+  {
+    id: 'marbled-rock-crab',
+    name: 'Marbled Rock Crab',
+    sciName: 'Pachygrapsus marmoratus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Marbled_crab_%28Pachygrapsus_marmoratus%29_Butrint.jpg/1280px-Marbled_crab_%28Pachygrapsus_marmoratus%29_Butrint.jpg',
+    region: 'mediterranean',
+    fact: 'Lives above the waterline on splash-zone rock, breathing air through damp gills, and bolts sideways into a crack the moment a shadow falls on it.',
   },
   // ---- Congo Basin ----
   {
@@ -1078,6 +1118,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Gives warning before it bites: back arched, pectoral fins dropped, swimming in a stiff exaggerated roll. Divers are taught to read that and leave.',
   },
+  {
+    id: 'vampire-crab',
+    name: 'Orange Vampire Crab',
+    sciName: 'Geosesarma aurantium',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg/1280px-Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg',
+    region: 'coral-triangle',
+    fact: 'A thumbnail-sized land crab from one hill in Borneo, orange with glowing yellow eyes. It skips the sea entirely: the eggs hatch straight into tiny crabs rather than drifting larvae.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1199,6 +1247,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Zebra_shark_%28Stegostoma_fasciatum%29.jpg/1280px-Zebra_shark_%28Stegostoma_fasciatum%29.jpg',
     region: 'northern-australia',
     fact: 'Hatches striped black and white, then breaks up into leopard spots as it grows — which is why half the world calls it the leopard shark instead.',
+  },
+  {
+    id: 'mud-crab',
+    name: 'Mud Crab',
+    sciName: 'Scylla serrata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/198806689/large.jpeg',
+    region: 'northern-australia',
+    fact: 'Digs into a mangrove bank at low tide and comes out with the flood. One claw crushes and the other cuts, and a big male can break a shell most fish cannot.',
   },
   // ---- Southern Ocean ----
   {
@@ -1559,6 +1615,22 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'Flat as a ray and buried to the eyes, but a shark all the same — its gill slits are on the sides, not underneath — and it takes fish by snapping upward out of the sand.',
   },
+  {
+    id: 'japanese-spider-crab',
+    name: 'Japanese Spider Crab',
+    sciName: 'Macrocheira kaempferi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Giant_Japanese_spider_crab_%28Macrocheira_kaempferi%29_at_the_Shedd_Aquarium%2C_Chicago%2C_IL_%286802024350%29.jpg/1280px-Giant_Japanese_spider_crab_%28Macrocheira_kaempferi%29_at_the_Shedd_Aquarium%2C_Chicago%2C_IL_%286802024350%29.jpg',
+    region: 'sea-of-japan',
+    fact: 'The greatest leg span of any animal with a shell: nearly four metres claw to claw, on a body no bigger than a dinner plate.',
+  },
+  {
+    id: 'horsehair-crab',
+    name: 'Horsehair Crab',
+    sciName: 'Erimacrus isenbeckii',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Erimacrus_isenbeckii_Sunpiazza1.jpg/1280px-Erimacrus_isenbeckii_Sunpiazza1.jpg',
+    region: 'sea-of-japan',
+    fact: 'Every inch of it is furred with short stiff bristles, which is where the name comes from — kegani, the hairy crab, and the most prized crab on a northern Japanese table.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -1801,5 +1873,13 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Myliobatis_tenuicaudatus_186845675.jpg/1280px-Myliobatis_tenuicaudatus_186845675.jpg',
     region: 'new-zealand',
     fact: 'Works the harbour flats at high tide, leaving the sand pitted with the craters it digs for shellfish; the pits stay visible when the water goes out.',
+  },
+  {
+    id: 'purple-rock-crab',
+    name: 'Purple Rock Crab',
+    sciName: 'Leptograpsus variegatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/509987268/large.jpg',
+    region: 'new-zealand',
+    fact: 'Works the splash zone where the swell breaks, holding on through the wave and grazing the rock the moment it drains — and the young are mottled grey, turning purple only as they grow.',
   },
 ];
