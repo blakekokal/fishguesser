@@ -1878,7 +1878,7 @@ const FISH = [
     id: 'purple-rock-crab',
     name: 'Purple Rock Crab',
     sciName: 'Leptograpsus variegatus',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/509987268/large.jpg',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/83862679/large.jpeg',
     region: 'new-zealand',
     fact: 'Works the splash zone where the swell breaks, holding on through the wave and grazing the rock the moment it drains — and the young are mottled grey, turning purple only as they grow.',
   },
