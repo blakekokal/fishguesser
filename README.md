@@ -18,6 +18,10 @@ and its name; you decide which of fifteen regions of the world it comes from.
 - **The name is fully censored** — it reads as dots until you reveal it, so the
   photograph is the clue. The scientific name stays visible; the photo credit is
   held back until you answer, since a photographer or museum can name the place
+- **The fact is a free hint** — what the animal does is on screen before you
+  guess, since behaviour is a fair clue to where something lives. Any place it
+  names is dotted out while it is a hint (`src/spoilers.js`) and comes back with
+  the result, so a hint can never simply hand over the answer
 - **A front page with the rules**, so the two kinds of peek and what they cost
   are clear before the first fish rather than discovered by losing points
 - **Two ways to peek** — **Show half** gives back the last word of the name and
@@ -141,6 +145,7 @@ styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions + haversine distance
 src/fish.js             the 230 species (name, photo URL, home region, fact)
+src/spoilers.js         place names, dotted out while a fact is a hint
 src/credits.js          generated photo attribution
 src/coastlines.js       generated Natural Earth land outlines
 src/map.js              the world map: projection, coastlines, section partition
@@ -151,6 +156,7 @@ tools/build_credits.py  regenerates src/credits.js and CREDITS.md
 tools/bump_version.py   bumps the version and stamps today's date
 tools/build_photo_urls.py  regenerates the photo URLs (--check verifies them)
 tools/build_coastlines.py  regenerates src/coastlines.js from Natural Earth
+tools/check_hints.py    checks no fact names its region while it is a hint
 ```
 
 ## Versioning
@@ -179,6 +185,13 @@ The data files are plain arrays, so extending the game is additive:
 3. Run `python3 tools/build_photo_urls.py --check` to fill in the photo URL and
    confirm it resolves, then `python3 tools/build_credits.py` to regenerate
    `src/credits.js` and `CREDITS.md`.
+4. Run `python3 tools/check_hints.py`. The fact is shown before the guess, so
+   any place it names has to be in `PLACE_TERMS` in `src/spoilers.js` to be
+   dotted out; the check reads the list and reports what is left standing.
+
+A fact can give the region away without naming it — a word quoted in the local
+language, a fishery, a myth everyone can place. No list catches those, so write
+the fact asking whether it would still be a puzzle with the place names gone.
 
 To add a region, append it to `REGIONS` in `src/regions.js` with a
 representative `lat`/`lon` — that is all. The map sections are computed from
