@@ -1581,5 +1581,40 @@
     "author": "Antony Stanley",
     "license": "CC BY-SA 2.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "dungeness-crab": {
+    "commons_title": "File:Dungeness crab (Metacarcinus magister) 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dungeness_crab_(Metacarcinus_magister)_2.jpg",
+    "author": "Bildflut",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "edible-crab": {
+    "commons_title": "File:Tourteau (Cancer pagurus) (Ifremer 00618-73045).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tourteau_(Cancer_pagurus)_(Ifremer_00618-73045).jpg",
+    "author": "Matthias Huber",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "warty-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176129671/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/105030846",
+    "author": "Evgenij Samarin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blue-swimmer-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480383216/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/267319789",
+    "author": "Debra Baker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "japanese-spider-crab": {
+    "commons_title": "File:Japanese Spider Crab Monterey Bay Aquarium.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_Spider_Crab_Monterey_Bay_Aquarium.jpg",
+    "author": "Macrophyseter",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

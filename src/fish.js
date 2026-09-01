@@ -160,6 +160,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Digs its dinner out by flapping: a few beats of the wings blow a crater in the sand, and the clams underneath go into plates of fused teeth strong enough to crack them.',
   },
+  {
+    id: 'dungeness-crab',
+    name: 'Dungeness Crab',
+    sciName: 'Metacarcinus magister',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Dungeness_crab_%28Metacarcinus_magister%29_2.jpg/1280px-Dungeness_crab_%28Metacarcinus_magister%29_2.jpg',
+    region: 'north-pacific',
+    fact: 'Grows by walking out of its own shell, leaving a complete copy of itself behind down to the coverings of its eyestalks, then hiding until the new one hardens. The empty copies wash up on Pacific beaches and are taken for dead crabs.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -590,6 +598,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Looks murderous — the teeth show even with the mouth shut — and is famously placid. It gulps air at the surface and holds it in its stomach to hang motionless in midwater.',
   },
+  {
+    id: 'edible-crab',
+    name: 'Edible Crab',
+    sciName: 'Cancer pagurus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tourteau_%28Cancer_pagurus%29_%28Ifremer_00618-73045%29.jpg/1280px-Tourteau_%28Cancer_pagurus%29_%28Ifremer_00618-73045%29.jpg',
+    region: 'north-atlantic',
+    fact: 'Its shell is crimped all the way round like the edge of a pie. A female carrying eggs digs herself into the seabed and sits there most of a year without feeding until they hatch.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -735,6 +751,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Dasyatis_pastinaca_24933880.jpg/1280px-Dasyatis_pastinaca_24933880.jpg',
     region: 'mediterranean',
     fact: 'The classical stingray: it lies buried with only its eyes showing, and its serrated spine armed the spear that Greek legend has killing Odysseus.',
+  },
+  {
+    id: 'warty-crab',
+    name: 'Warty Crab',
+    sciName: 'Eriphia verrucosa',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/176129671/large.jpeg',
+    region: 'mediterranean',
+    fact: 'Works the rocky shallows after dark with two claws that do different jobs — one heavy enough to break a snail open, the other fine enough to pick the meat out of it.',
   },
   // ---- Congo Basin ----
   {
@@ -1200,6 +1224,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Hatches striped black and white, then breaks up into leopard spots as it grows — which is why half the world calls it the leopard shark instead.',
   },
+  {
+    id: 'blue-swimmer-crab',
+    name: 'Blue Swimmer Crab',
+    sciName: 'Portunus armatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/480383216/large.jpeg',
+    region: 'northern-australia',
+    fact: 'Its back legs are flattened into paddles, so it swims rather than scuttles, and it settles by burying itself with only eyes and antennae showing. Males are electric blue; females stay a mottled green-brown.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -1558,6 +1590,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Squatina_japonica3.jpg/1280px-Squatina_japonica3.jpg',
     region: 'sea-of-japan',
     fact: 'Flat as a ray and buried to the eyes, but a shark all the same — its gill slits are on the sides, not underneath — and it takes fish by snapping upward out of the sand.',
+  },
+  {
+    id: 'japanese-spider-crab',
+    name: 'Japanese Spider Crab',
+    sciName: 'Macrocheira kaempferi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Japanese_Spider_Crab_Monterey_Bay_Aquarium.jpg/1280px-Japanese_Spider_Crab_Monterey_Bay_Aquarium.jpg',
+    region: 'sea-of-japan',
+    fact: 'The greatest reach of any arthropod alive: close to four metres from claw tip to claw tip, on a body no bigger than a dinner plate. It plants sponges on that body to disappear into the sea floor.',
   },
   // ---- Mekong Basin ----
   {

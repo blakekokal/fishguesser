@@ -204,6 +204,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/393772050",
   },
+  "blue-swimmer-crab": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/267319789",
+  },
   "bluegill": {
     author: "USFWS Mountain Prairie",
     license: "Public domain",
@@ -402,6 +408,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Carpetshark.jpg",
   },
+  "dungeness-crab": {
+    author: "Bildflut",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Dungeness_crab_(Metacarcinus_magister)_2.jpg",
+  },
   "dusky-grouper": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -413,6 +425,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Melanotaenia_splendida_splendida_188164829.jpg",
+  },
+  "edible-crab": {
+    author: "Matthias Huber",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Tourteau_(Cancer_pagurus)_(Ifremer_00618-73045).jpg",
   },
   "electric-catfish": {
     author: "Stan Shebs",
@@ -629,6 +647,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lateolabrax_japonicus_Iwaki.jpg",
+  },
+  "japanese-spider-crab": {
+    author: "Macrophyseter",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Japanese_Spider_Crab_Monterey_Bay_Aquarium.jpg",
   },
   "japanese-surfperch": {
     author: "タウナギ",
@@ -1248,6 +1272,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
   },
+  "warty-crab": {
+    author: "Evgenij Samarin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/105030846",
+  },
   "warty-frogfish": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -1550,4 +1580,9 @@ const PHOTO_ORDER = [
   "new-zealand-eagle-ray",
   "zebra-shark",
   "beluga-whale",
+  "dungeness-crab",
+  "edible-crab",
+  "warty-crab",
+  "blue-swimmer-crab",
+  "japanese-spider-crab",
 ];
