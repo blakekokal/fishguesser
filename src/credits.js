@@ -961,10 +961,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/13315289",
   },
   "purple-rock-crab": {
-    author: "Shaun Lee",
+    author: "Geoff Shuetrim",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/283809460",
+    source: "https://www.inaturalist.org/observations/52443782",
   },
   "pygmy-seahorse": {
     author: "Rickard Zerpe",

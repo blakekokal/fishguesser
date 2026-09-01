@@ -170,7 +170,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `potato-cod` | NasserHalaweh | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Serranidae_Epinephelus_tukula_1.jpg) |
 | `psychedelic-frogfish` | Truite agile | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Psychedelic_frogfish_juvenile.jpg) |
 | `pumpkinseed` | Henggang Cui | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/13315289) |
-| `purple-rock-crab` | Shaun Lee | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/283809460) |
+| `purple-rock-crab` | Geoff Shuetrim | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/52443782) |
 | `pygmy-seahorse` | Rickard Zerpe | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pygmy_seahorse_(Hippocampus_bargibanti)_(16245385685).jpg) |
 | `pyjama-cardinalfish` | Rickard Zerpe | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pajama_cardinalfish_(Sphaeramia_nematoptera)_(44065265714).jpg) |
 | `queen-angelfish` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pez_ángel_reina_(Holacanthus_ciliaris),_Cozumel,_México,_2025-12-20,_DD_134.jpg) |
