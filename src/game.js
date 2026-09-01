@@ -31,7 +31,7 @@
     round: $('roundValue'), score: $('scoreValue'), best: $('bestValue'),
     hints: $('hintsValue'),
     photo: $('fishPhoto'), photoBg: $('fishPhotoBg'), credit: $('photoCredit'),
-    name: $('fishName'), sci: $('fishSci'),
+    name: $('fishName'), sci: $('fishSci'), fact: $('fishFact'),
     map: $('map'),
     actionBar: $('actionBar'), hint: $('hint'), guessBtn: $('guessBtn'),
     hintBtn: $('hintBtn'), halfBtn: $('halfBtn'), promptText: $('promptText'),
@@ -252,6 +252,11 @@
     // Shown even while the common name is censored — it is the taxonomy, not
     // the answer, and it gives the round something to hold on to.
     ui.sci.textContent = fish.sciName;
+    /* The fact, free and up front: what the animal does is a fair clue to where
+     * it lives. Any place it names is dotted out (see spoilers.js) until the
+     * guess is in, at which point the result card prints the fact whole. */
+    ui.fact.textContent = maskPlaces(fish.fact);
+    ui.fact.hidden = false;
     state.nameRevealed = false;
     state.halfShown = false;
     updateHintButton();
@@ -285,6 +290,9 @@
     const peeked = state.nameRevealed || state.halfShown;
     revealName(); // the round is over, so the answer is no longer a hint
     ui.credit.hidden = !ui.credit.textContent;
+    // The result card carries the fact from here, blanks filled in, so the
+    // hint copy steps aside rather than sitting on screen twice.
+    ui.fact.hidden = true;
 
     const fish = state.deck[state.index];
     const guess = REGIONS_BY_ID[state.selected];
