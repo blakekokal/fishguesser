@@ -25,6 +25,17 @@
   // Which fish have already come up in the current pass through the list.
   // Kept next to the best score so a refresh does not restart the cycle.
   const SEEN_KEY = () => PROFILE.seenKey();
+  /* The filter is a view setting, not progress: it is not part of a save, does
+   * not travel in a backup code, and so is stored once for the browser. */
+  const FILTER_KEY = 'fishguesser.filter';
+
+  /* Which part of the pass a game is dealt from. `unseen` is how the game has
+   * always dealt — the rest of this pass first — and stays the default. */
+  const POOL_FILTERS = [
+    { id: 'unseen', label: 'Unseen first', short: 'Unseen' },
+    { id: 'seen', label: 'Seen only', short: 'Seen' },
+    { id: 'any', label: 'Any', short: 'Any' },
+  ];
 
   const $ = (id) => document.getElementById(id);
   const ui = {
@@ -44,6 +55,9 @@
     seen: $('seenValue'),
     resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
     topName: $('topName'),
+    filterBtn: $('filterBtn'), filterValue: $('filterValue'),
+    filterPanel: $('filterPanel'), filterPoolRow: $('filterPoolRow'),
+    filterKindRow: $('filterKindRow'),
     profileName: $('profileName'), profileSave: $('profileSaveBtn'),
     profileNote: $('profileNote'), backup: $('backupBtn'),
     restore: $('restoreBtn'), backupCode: $('backupCode'),
@@ -55,6 +69,8 @@
     deck: [], index: 0, total: 0, selected: null, results: [],
     phase: 'guess', nameRevealed: false, halfShown: false,
     hintsLeft: HINTS_PER_GAME,
+    // Overwritten from storage before the first deal; these are the defaults.
+    filter: { kind: 'all', pool: 'unseen' },
   };
 
   const fmt = (n) => n.toLocaleString('en-US');
@@ -108,25 +124,81 @@
     }
   }
 
+  /* The filter, read back defensively: it is a stored string that a later
+   * version may no longer know, and an unknown mode must not empty the game. */
+  function readFilter() {
+    try {
+      const raw = JSON.parse(window.localStorage.getItem(FILTER_KEY));
+      const kind = KIND_BY_ID[raw && raw.kind] ? raw.kind : 'all';
+      const pool = POOL_FILTERS.some((p) => p.id === (raw && raw.pool))
+        ? raw.pool : 'unseen';
+      return { kind, pool };
+    } catch {
+      return { kind: 'all', pool: 'unseen' };
+    }
+  }
+
+  function writeFilter() {
+    try {
+      window.localStorage.setItem(FILTER_KEY, JSON.stringify(state.filter));
+    } catch {
+      /* the filter just won't survive a refresh */
+    }
+  }
+
+  /** Every species the current mode plays with, before the pass is considered. */
+  function kindPool() {
+    return FISH.filter(KIND_BY_ID[state.filter.kind].test);
+  }
+
+  /* Five rounds is what the scoring is built on, so a pool smaller than a game
+   * repeats rather than dealing a short one. Only "Seen only" can get there —
+   * the narrowest mode is ten crabs — and it reshuffles between helpings so a
+   * repeat is not the very next round. */
+  function take(list, count) {
+    if (!list.length) return [];
+    const out = shuffle(list).slice(0, count);
+    while (out.length < count) out.push(...shuffle(list).slice(0, count - out.length));
+    return out;
+  }
+
   /* Deals a round's worth of fish without repeating any until every species has
    * been shown. The unseen pool is what is left of this pass; when it runs
    * short the last of it is dealt and a fresh pass starts, with the fish just
    * dealt held back so the changeover cannot repeat one inside a single game.
    *
+   * The filter narrows what is drawn from, not what the pass means: `seen` is
+   * still every species this browser has been shown, so playing crab mode does
+   * not tell the game you have seen the other 220.
+   *
    * Dealing marks nothing. A hand is five fish drawn at once but met one at a
    * time, and a game can be abandoned or reloaded away halfway through, so the
    * pass advances on `markSeen` as each fish actually reaches the screen. */
   function dealFish(count) {
+    const pool = kindPool();
     const seenSet = new Set(readSeen());
-    const unseen = FISH.filter((f) => !seenSet.has(f.id));
+    const unseen = pool.filter((f) => !seenSet.has(f.id));
+
+    // Nothing seen yet is the ordinary state of "Seen only" on a fresh browser;
+    // the option is disabled there, and this keeps a stale setting playable.
+    if (state.filter.pool === 'seen') {
+      const seen = pool.filter((f) => seenSet.has(f.id));
+      return take(seen.length ? seen : pool, count);
+    }
+    if (state.filter.pool === 'any') return take(pool, count);
 
     if (unseen.length >= count) return shuffle(unseen).slice(0, count);
 
     const tail = shuffle(unseen);
     const dealt = new Set(tail.map((f) => f.id));
-    const head = shuffle(FISH.filter((f) => !dealt.has(f.id))).slice(0, count - tail.length);
-    writeSeen([]); // the pass is spent; the rest of this hand opens the next one
-    return shuffle(tail.concat(head));
+    const head = shuffle(pool.filter((f) => !dealt.has(f.id))).slice(0, count - tail.length);
+    /* Only a pass through the whole collection can end: running out of unseen
+     * crabs is not a full pass, and wiping the cycle there would throw away
+     * progress on the 220 species crab mode never deals. */
+    if (state.filter.kind === 'all') {
+      writeSeen([]); // the pass is spent; the rest of this hand opens the next one
+    }
+    return take(tail.concat(head), count);
   }
 
   /* One fish has reached the player, so the pass moves on by one. Called when a
@@ -418,14 +490,106 @@
     ui.playAgain.focus();
   }
 
-  /* How far the current pass through the fish has got, next to the button that
-   * restarts it. Runs after every deal and after either reset. */
+  /* How far the current pass has got through whatever is being played, next to
+   * the button that restarts it. In a narrowed mode it counts that mode — "3/10"
+   * in crab mode — since that is the pool the rounds are actually coming from.
+   * Runs after every deal, after either reset, and when the filter changes. */
   function renderSeen() {
-    const seen = readSeen().length;
-    ui.seen.textContent = `${fmt(seen)}/${fmt(FISH.length)}`;
-    ui.seen.title = `${fmt(seen)} of ${fmt(FISH.length)} fish have come up this pass`;
-    ui.resetSeen.disabled = seen === 0;
+    const pool = kindPool();
+    const seenSet = new Set(readSeen());
+    const seen = pool.filter((f) => seenSet.has(f.id)).length;
+    const kind = KIND_BY_ID[state.filter.kind];
+    ui.seen.textContent = `${fmt(seen)}/${fmt(pool.length)}`;
+    ui.seen.title = state.filter.kind === 'all'
+      ? `${fmt(seen)} of ${fmt(pool.length)} species have come up this pass`
+      : `${fmt(seen)} of ${fmt(pool.length)} in ${kind.label} have come up this pass`;
+    // The reset clears the whole pass, so it follows the whole pass, not the mode.
+    ui.resetSeen.disabled = seenSet.size === 0;
   }
+
+  /* The filter's two rows, built from the lists that define them so a mode is
+   * added in one place. A count rides on each option: it says what a game would
+   * be dealt from, which is the only number that answers "why so few?". */
+  function buildFilter() {
+    const add = (row, id, group, label) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'filter-opt';
+      btn.dataset.group = group;
+      btn.dataset.id = id;
+      const text = document.createElement('span');
+      text.textContent = label;
+      const count = document.createElement('span');
+      count.className = 'filter-n';
+      btn.append(text, count);
+      btn.addEventListener('click', () => setFilter(group, id));
+      row.append(btn);
+    };
+    POOL_FILTERS.forEach((p) => add(ui.filterPoolRow, p.id, 'pool', p.label));
+    KIND_FILTERS.forEach((k) => add(ui.filterKindRow, k.id, 'kind', k.label));
+  }
+
+  /* Counts every option against the *other* row's current choice, so the panel
+   * always says what picking it would deal from right now. An option with
+   * nothing behind it is disabled rather than hidden. */
+  function renderFilter() {
+    const pool = kindPool();
+    const seenSet = new Set(readSeen());
+    const inPass = (list, mode) => {
+      if (mode === 'any') return list.length;
+      const seen = list.filter((f) => seenSet.has(f.id)).length;
+      return mode === 'seen' ? seen : list.length - seen;
+    };
+
+    for (const btn of ui.filterPanel.querySelectorAll('.filter-opt')) {
+      const { group, id } = btn.dataset;
+      const on = state.filter[group] === id;
+      const list = group === 'kind' ? FISH.filter(KIND_BY_ID[id].test) : pool;
+      const mode = group === 'kind' ? state.filter.pool : id;
+      const n = inPass(list, mode);
+      btn.classList.toggle('is-on', on);
+      btn.setAttribute('aria-pressed', String(on));
+      /* Only "Seen only" can leave nothing to deal. "Unseen first" reads zero
+       * at the end of a pass and still plays — that is the point of it, the
+       * pass turns over and the collection comes round again. */
+      btn.disabled = n === 0 && !on && mode === 'seen';
+      btn.querySelector('.filter-n').textContent = fmt(n);
+    }
+
+    const kind = KIND_BY_ID[state.filter.kind];
+    const poolFilter = POOL_FILTERS.find((p) => p.id === state.filter.pool);
+    ui.filterValue.textContent = `${kind.short} · ${poolFilter.short}`;
+    ui.filterBtn.title =
+      `Dealing from ${kind.label.toLowerCase()}, ${poolFilter.label.toLowerCase()}`;
+    ui.startFishCount.textContent = state.filter.kind === 'all'
+      ? `all ${fmt(pool.length)} species`
+      : `the ${fmt(pool.length)} in ${kind.label.toLowerCase()}`;
+  }
+
+  /* A game is five fish dealt at once, so a new pool means a new game rather
+   * than a hand half from each. The panel says so before it is touched. */
+  function setFilter(group, id) {
+    if (state.filter[group] === id) return closeFilter();
+    state.filter[group] = id;
+    writeFilter();
+    closeFilter();
+    renderFilter();
+    startGame();
+    renderSeen();
+  }
+
+  function openFilter() {
+    renderFilter(); // counts move as the pass does, so they are read on opening
+    ui.filterPanel.hidden = false;
+    ui.filterBtn.setAttribute('aria-expanded', 'true');
+  }
+
+  function closeFilter() {
+    ui.filterPanel.hidden = true;
+    ui.filterBtn.setAttribute('aria-expanded', 'false');
+  }
+
+  const filterOpen = () => !ui.filterPanel.hidden;
 
   /* The two stored numbers, redrawn from whichever save is active: switching
    * name or pasting a code changes both without touching the game on screen. */
@@ -561,12 +725,28 @@
   ui.topName.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') { e.preventDefault(); ui.topName.blur(); }
   });
+  ui.filterBtn.addEventListener('click', () => (filterOpen() ? closeFilter() : openFilter()));
+  /* A click anywhere else puts the panel away, which is what a popover is
+   * expected to do; the button's own click is left to the toggle above. */
+  document.addEventListener('click', (e) => {
+    if (!filterOpen()) return;
+    if (e.target.closest('.stat-filter')) return;
+    closeFilter();
+  });
   ui.backup.addEventListener('click', showBackup);
   ui.restore.addEventListener('click', restoreBackup);
   ui.resetBest.addEventListener('click', resetBest);
   ui.resetSeen.addEventListener('click', resetSeen);
   document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && filterOpen()) {
+      closeFilter();
+      ui.filterBtn.focus();
+      return;
+    }
     if (e.key !== 'Enter') return;
+    // The filter is open: Enter belongs to whatever is focused inside it, not
+    // to the game behind it.
+    if (filterOpen()) return;
     // Enter starts the game while the rules are up; the round behind them is
     // already dealt, so it must not also lock in a guess on the same press.
     if (!ui.startOverlay.hidden) {
@@ -577,6 +757,7 @@
       // request to start playing.
       if (e.target === ui.profileName || e.target === ui.backupCode) return;
       if (e.target === ui.topName) return;
+      if (e.target === ui.filterBtn) return;
       if (e.target === ui.profileSave || e.target === ui.backup || e.target === ui.restore) return;
       beginPlay();
       return;
@@ -618,9 +799,24 @@
       `${fmt(n)} species across ${REGIONS.length} regions`;
   }
 
+  /* The overlays sit below the top bar rather than under it, and the bar's
+   * height changes with the screen — one row of tiles on a desktop, two on a
+   * phone — so it is measured rather than guessed. */
+  function measureTopbar() {
+    const bar = document.querySelector('.topbar');
+    if (!bar) return;
+    document.documentElement.style.setProperty('--topbar-h', `${bar.offsetHeight}px`);
+  }
+
   showVersion();
   showSpeciesCount();
-  ui.startFishCount.textContent = `all ${fmt(FISH.length)} species`;
+  /* Read and drawn before the first deal: the stored filter decides what that
+   * deal comes from, and the rules card behind it names the pool. */
+  state.filter = readFilter();
+  buildFilter();
+  renderFilter();
+  measureTopbar();
+  window.addEventListener('resize', measureTopbar);
   WorldMap.build(ui.map, select);
   ui.profileName.value = PROFILE.name;
   ui.topName.value = PROFILE.name;
