@@ -24,9 +24,17 @@
  * attribute's UA rule and leave hidden elements on screen. */
 [hidden] { display: none !important; }
 
+/* The page is one screen everywhere, not just on a phone: the photograph is
+   the round, so it takes whatever height the panels leave rather than sitting
+   in a fixed box with the window's spare height wasted below it. */
+html, body { height: 100%; }
+
 body {
   margin: 0;
-  min-height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   background:
     radial-gradient(1100px 620px at 12% -8%, rgba(28, 92, 130, 0.32) 0%, transparent 60%),
     radial-gradient(900px 500px at 88% 0%, rgba(23, 147, 179, 0.18) 0%, transparent 62%),
@@ -350,11 +358,18 @@ body {
 
 .layout {
   display: grid;
-  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  flex: 1;
+  min-height: 0;
+  /* Closer to even than it was: the photo panel is the half worth looking at,
+     and the map stays legible well below half the width. */
+  grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
   gap: 20px;
   /* Stretch so the two panels finish level; each one absorbs the slack. */
   align-items: stretch;
   padding: 20px clamp(16px, 4vw, 40px) 12px;
+  /* The auto margins centre it, and on a flex-column body they also stop it
+     stretching — so the width has to be asked for explicitly. */
+  width: 100%;
   max-width: 1500px;
   margin: 0 auto;
 }
@@ -362,6 +377,11 @@ body {
 .panel {
   display: flex;
   flex-direction: column;
+  /* Both zeroes matter: without them a panel is as wide and as tall as its
+     content, and the grid track cannot shrink it — a long button label ends up
+     pushing the whole layout off the side of a phone. */
+  min-height: 0;
+  min-width: 0;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -373,10 +393,11 @@ body {
 
 .photo-frame {
   position: relative;
-  /* Chosen so the fish panel ends up close to the height of the map panel,
-   * which is fixed at 2:1 by the projection — the stretch then only has a few
-   * pixels of slack to absorb instead of a visible band. */
-  aspect-ratio: 5 / 3;
+  /* Takes the height the panel has left over rather than setting one: the name,
+     the prompt and — if it is asked for — the hint are what they need, and the
+     photograph gets the rest. */
+  flex: 1;
+  min-height: 180px;
   background: var(--bg-deep);
   overflow: hidden;
 }
@@ -546,6 +567,13 @@ body {
   /* The sea is painted here rather than inside the SVG. */
   background: linear-gradient(180deg, #0d2b45 0%, #071a2c 100%);
   border-bottom: 1px solid var(--line);
+  /* The map keeps its 2:1, so a tall panel leaves slack above and below it.
+     The sea takes that slack and the map sits in the middle of it, rather than
+     the map clinging to the top with a void underneath. */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-height: 0;
 }
 
 #map { display: block; width: 100%; height: auto; }
@@ -941,7 +969,9 @@ body {
 /* ---------- footer ---------- */
 
 .footer {
-  padding: 8px clamp(16px, 4vw, 40px) 28px;
+  flex: none;
+  padding: 8px clamp(16px, 4vw, 40px) 14px;
+  width: 100%;
   max-width: 1500px;
   margin: 0 auto;
   color: var(--ink-faint);
@@ -953,8 +983,13 @@ body {
 /* ---------- responsive ---------- */
 
 @media (max-width: 1000px) {
+  /* Stacked, so the page is taller than the window again. It scrolls here
+     rather than fitting one screen, and the photo takes a shape of its own
+     instead of the height a fitted panel would have left it. */
+  html, body { height: auto; }
+  body { min-height: 100dvh; overflow: auto; display: block; }
   .layout { grid-template-columns: minmax(0, 1fr); }
-  .photo-frame { aspect-ratio: 16 / 10; }
+  .photo-frame { flex: none; aspect-ratio: 16 / 10; min-height: 0; }
 }
 
 @media (max-width: 560px) {
@@ -1063,14 +1098,18 @@ body {
 
   .prompt-line {
     flex: none;
+    justify-content: center;
     margin: 6px 12px 8px;
     padding-top: 7px;
     font-size: 11px;
     gap: 8px;
   }
 
-  .btn-ghost { padding: 5px 9px; font-size: 10.5px; }
-  .prompt-actions { gap: 5px; }
+  /* Same as portrait: the three buttons take the row, and the question is
+     asked again by the map panel below. */
+  #promptText { display: none; }
+  .prompt-actions { flex: 1; gap: 5px; justify-content: space-between; }
+  .btn-ghost { flex: 1; min-width: 0; padding: 5px 6px; font-size: 10.5px; text-align: center; }
 
   /* Right: the map absorbs the slack, so the controls always fit.
    * The min-height stops the result panel from squeezing the map down to a
@@ -1227,10 +1266,14 @@ body {
     padding-top: 9px;
     font-size: 12px;
     gap: 8px;
+    justify-content: center;
   }
 
-  .btn-ghost { padding: 5px 9px; font-size: 11px; }
-  .prompt-actions { gap: 5px; }
+  /* The buttons need the whole width here, and "Pick a region on the map."
+     sits directly below in the map panel asking the same thing. */
+  #promptText { display: none; }
+  .prompt-actions { flex: 1; gap: 5px; justify-content: space-between; }
+  .btn-ghost { flex: 1; min-width: 0; padding: 6px 4px; font-size: 11px; text-align: center; }
 
   .map-panel { flex: none; }
   .actionbar { padding: 9px 10px; gap: 8px; }

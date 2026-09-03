@@ -45,7 +45,8 @@
     name: $('fishName'), sci: $('fishSci'), fact: $('fishFact'),
     map: $('map'),
     actionBar: $('actionBar'), hint: $('hint'), guessBtn: $('guessBtn'),
-    hintBtn: $('hintBtn'), halfBtn: $('halfBtn'), promptText: $('promptText'),
+    hintBtn: $('hintBtn'), halfBtn: $('halfBtn'), factBtn: $('factBtn'),
+    promptText: $('promptText'),
     result: $('result'), verdict: $('verdict'), points: $('points'),
     resultBonus: $('resultBonus'),
     resultLine: $('resultLine'), resultFact: $('resultFact'), nextBtn: $('nextBtn'),
@@ -67,7 +68,7 @@
 
   const state = {
     deck: [], index: 0, total: 0, selected: null, results: [],
-    phase: 'guess', nameRevealed: false, halfShown: false,
+    phase: 'guess', nameRevealed: false, halfShown: false, factShown: false,
     hintsLeft: HINTS_PER_GAME,
     // Overwritten from storage before the first deal; these are the defaults.
     filter: { kind: 'all', pool: 'unseen' },
@@ -248,6 +249,10 @@
   }
 
   function updateHintButton() {
+    /* The fact is free and separate from the name: revealing the name does not
+     * take it away, and it only goes once the round is over, when the result
+     * card prints the fact whole. */
+    ui.factBtn.hidden = state.factShown || state.phase !== 'guess';
     if (state.nameRevealed) {
       ui.hintBtn.hidden = true;
       ui.halfBtn.hidden = true;
@@ -259,6 +264,16 @@
     ui.hintBtn.textContent = state.hintsLeft === 0
       ? 'No reveals left'
       : `Reveal name · ${state.hintsLeft} left`;
+  }
+
+  /* Free, and costs no bonus either: the fact says what the animal does, which
+   * is a clue to where it lives rather than what it is called. It starts folded
+   * away so the photograph has the panel to itself. */
+  function showFact() {
+    if (state.factShown) return;
+    state.factShown = true;
+    ui.fact.hidden = false;
+    updateHintButton();
   }
 
   /** Free: costs no reveal, but gives up this round's no-peek bonus. */
@@ -328,7 +343,8 @@
      * it lives. Any place it names is dotted out (see spoilers.js) until the
      * guess is in, at which point the result card prints the fact whole. */
     ui.fact.textContent = maskPlaces(fish.fact);
-    ui.fact.hidden = false;
+    ui.fact.hidden = true;
+    state.factShown = false;
     state.nameRevealed = false;
     state.halfShown = false;
     updateHintButton();
@@ -708,6 +724,7 @@
    * network is a real possibility. Say so rather than leaving an empty frame —
    * the round is still playable, since the name and the map carry the puzzle. */
   ui.photo.addEventListener('error', () => ui.photo.classList.add('is-broken'));
+  ui.factBtn.addEventListener('click', showFact);
   ui.halfBtn.addEventListener('click', showHalfName);
   ui.hintBtn.addEventListener('click', () => revealName({ spend: true }));
   ui.guessBtn.addEventListener('click', submitGuess);

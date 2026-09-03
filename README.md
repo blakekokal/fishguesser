@@ -14,7 +14,7 @@ and its name; you decide which of fifteen regions of the world it comes from.
   of them comes up twice — a full pass takes 46 games, and it survives a
   refresh
 - **A filter in the top bar** — deal from the whole collection or narrow it:
-  **fish only**, **crab mode**, **shark mode**, crossed with **unseen first**
+  **fish mode**, **crab mode**, **shark mode**, crossed with **unseen first**
   (the default, and how the game has always dealt), **seen only** or **any**.
   Each option carries the number of species behind it, and a narrowed mode never
   spends the pass of the species it does not deal
@@ -23,10 +23,12 @@ and its name; you decide which of fifteen regions of the world it comes from.
 - **The name is fully censored** — it reads as dots until you reveal it, so the
   photograph is the clue. The scientific name stays visible; the photo credit is
   held back until you answer, since a photographer or museum can name the place
-- **The fact is a free hint** — what the animal does is on screen before you
-  guess, since behaviour is a fair clue to where something lives. Any place it
-  names is dotted out while it is a hint (`src/spoilers.js`) and comes back with
-  the result, so a hint can never simply hand over the answer
+- **The fact is a free hint** — **Show hint** puts what the animal does on
+  screen before you guess, since behaviour is a fair clue to where something
+  lives. It costs nothing and no bonus, and it stays folded away until asked for
+  so the photograph keeps the height. Any place it names is dotted out while it
+  is a hint (`src/spoilers.js`) and comes back with the result, so a hint can
+  never simply hand over the answer
 - **A front page with the rules**, so the two kinds of peek and what they cost
   are clear before the first fish rather than discovered by losing points
 - **Two ways to peek** — **Show half** gives back the last word of the name and
@@ -36,8 +38,11 @@ and its name; you decide which of fifteen regions of the world it comes from.
 - **Bonuses for not peeking** — +500 for each fish you guess with its name still
   fully censored, and another +500 for every reveal you finish with. Either kind
   of peek gives up that round's +500; only a full reveal costs you a reveal
-- **Fits a phone on one screen** in both portrait and landscape, without
-  scrolling — the photo takes whatever height is left rather than setting it
+- **One screen, and the photo takes what is left** — the page fits the window
+  on a desktop as well as a phone, in portrait and landscape, and the photograph
+  is given every pixel the name, the buttons and any open hint do not need.
+  Between 561px and 1000px wide the two panels stack and the page scrolls
+  instead, since one screen cannot hold both
 - **The whole fish, always** — photos come in every proportion, so the frame
   letterboxes rather than crops, and fills the gap with a blurred wash of the
   same photo. Nothing loses its head or tail to the frame
@@ -196,7 +201,7 @@ The data files are plain arrays, so extending the game is additive:
    dotted out; the check reads the list and reports what is left standing.
 5. Only if it is not a fish: `src/kinds.js` reads crabs and sharks off their
    names, so those need nothing, but another cephalopod or mammal has to go in
-   `NOT_FISH` there or "Fish only" will deal it.
+   `NOT_FISH` there or "Fish mode" will deal it.
 
 A fact can give the region away without naming it — a word quoted in the local
 language, a fishery, a myth everyone can place. No list catches those, so write
