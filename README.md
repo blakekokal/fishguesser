@@ -25,7 +25,8 @@ and its name; you decide which of fifteen regions of the world it comes from.
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
 - **The name is fully censored** — it reads as dots until you reveal it, so the
-  photograph is the clue. The scientific name stays visible; the photo credit is
+  photograph is the clue. The scientific name sits on the same line rather than
+  under it, which is a line of height the photograph gets instead; the photo credit is
   held back until you answer, since a photographer or museum can name the place
 - **The fact is a free hint** — **Show hint** puts what the animal does on
   screen before you guess, since behaviour is a fair clue to where something
@@ -44,9 +45,11 @@ and its name; you decide which of fifteen regions of the world it comes from.
   of peek gives up that round's +500; only a full reveal costs you a reveal
 - **One screen, and the photo takes what is left** — the page fits the window
   on a desktop as well as a phone, in portrait and landscape, and the photograph
-  is given every pixel the name, the buttons and any open hint do not need.
-  Between 561px and 1000px wide the two panels stack and the page scrolls
-  instead, since one screen cannot hold both
+  is given every pixel the name, the buttons and any open hint do not need. The
+  photo panel takes the larger share of the width, since most of the collection
+  is photographed landscape and a letterboxed picture is limited by the width of
+  its frame rather than the height. Between 561px and 1000px wide the two panels
+  stack and the page scrolls instead, since one screen cannot hold both
 - **The whole fish, always** — photos come in every proportion, so the frame
   letterboxes rather than crops, and fills the gap with a blurred wash of the
   same photo. Nothing loses its head or tail to the frame
