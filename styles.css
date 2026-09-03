@@ -127,7 +127,9 @@ body {
 
 /* Wraps rather than pushing the row wide: five tiles no longer fit on a narrow
  * phone, and the page must never scroll sideways. */
-.stats { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
+/* Pushed right so the tiles sit beside the settings button rather than being
+   spread into the middle of the bar by space-between. */
+.stats { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; margin-left: auto; }
 
 .stat {
   display: flex;
@@ -140,81 +142,112 @@ body {
   background: var(--panel);
 }
 
-/* The photo check as a tile: a link, but it should read as one of the stats. */
-/* The save's name, editable in place: it reads as a stat value until it is
-   typed into, so the tile does not shout for attention it does not need. */
-.stat-input {
-  width: 100%;
-  min-width: 0;
-  padding: 0;
-  border: 0;
-  background: none;
-  color: var(--ink);
+/* The settings button and its panel. Everything that is not the round itself
+   lives in here: the pass counter, the filter, the save name, the photo check.
+   On the bar it is one button on the right rather than four tiles on a row of
+   their own, and the panel hangs below it. */
+.settings { position: relative; order: 3; }
+
+.settings-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  color: var(--ink-dim);
   font: inherit;
-  font-size: 14px;
-  font-weight: 700;
-  text-align: center;
-  text-overflow: ellipsis;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
-.stat-input::placeholder { color: var(--ink-faint); font-weight: 600; }
-.stat-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-.stat-link {
-  justify-content: center;
-  gap: 2px;
-  color: inherit;
-  text-decoration: none;
-}
-
-.stat-link:hover,
-.stat-link:focus-visible {
+.settings-btn:hover,
+.settings-btn[aria-expanded="true"] {
   border-color: var(--accent-deep);
   background: var(--panel-2);
+  color: var(--ink);
 }
 
-.stat-link .stat-value { font-size: 14px; color: var(--accent); }
+.settings-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.settings-mark { font-size: 15px; line-height: 1; }
 
-/* The filter tile is a button, and the panel hangs off it. The tile itself
-   carries no padding so the button fills it and the whole tile is the target. */
-.stat-filter { position: relative; padding: 0; }
-
-.filter-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  width: 100%;
-  padding: 6px 14px;
-  border: 0;
-  border-radius: 10px;
-  background: none;
-  color: inherit;
-  font: inherit;
-  cursor: pointer;
+/* What a game is being dealt from, when that is not everything. A closed panel
+   should never be the only place a narrowed mode is written down. */
+.settings-flag {
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--accent-deep);
+  color: var(--ink);
+  font-size: 10.5px;
+  font-weight: 700;
 }
 
-.filter-btn:hover,
-.filter-btn[aria-expanded="true"] { background: var(--panel-2); }
-.filter-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
-.filter-btn .stat-value { font-size: 13px; color: var(--accent); white-space: nowrap; }
-
-/* Anchored to the tile's right edge so it never runs off a narrow screen, and
-   above the panels below, which the sticky top bar otherwise only just clears. */
-.filter-panel {
+.settings-panel {
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
   z-index: 30;
   width: max-content;
-  max-width: min(280px, calc(100vw - 24px));
-  padding: 12px 14px 10px;
+  max-width: min(300px, calc(100vw - 24px));
+  padding: 12px 14px;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: var(--panel);
   box-shadow: var(--shadow);
   text-align: left;
 }
+
+/* The pass counter and its reset, as a line rather than a tile. */
+.set-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.set-row .filter-head { margin: 0; }
+
+.set-value {
+  font-size: 14px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.set-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.set-input::placeholder { color: var(--ink-faint); font-weight: 500; }
+.set-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.set-link {
+  display: block;
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.set-link:hover,
+.set-link:focus-visible { border-color: var(--accent-deep); color: var(--ink); }
 
 .filter-head {
   margin: 0 0 6px;
@@ -270,7 +303,7 @@ body {
 .filter-opt.is-on .filter-n { color: var(--ink); opacity: 0.75; }
 
 .filter-note {
-  margin: 0;
+  margin: 0 0 12px;
   color: var(--ink-faint);
   font-size: 10.5px;
 }
@@ -335,11 +368,6 @@ body {
 .stat-reset:disabled {
   opacity: 0.18;
   cursor: default;
-}
-
-.stat-seen .stat-value {
-  font-size: 14px;
-  color: var(--ink-faint);
 }
 
 .hint-dots {
@@ -1044,13 +1072,12 @@ body {
   .stat-value { font-size: 12px; }
   .stat-line { gap: 3px; }
   .stat-reset { width: 14px; height: 14px; font-size: 11px; }
-  .stat-seen .stat-value { font-size: 11px; }
-  .stat-filter { padding: 0; }
-  .filter-btn { padding: 2px 6px; gap: 0; }
-  .filter-btn .stat-value { font-size: 11px; }
-  .filter-panel { padding: 9px 11px 7px; }
+  .settings-btn { padding: 4px 9px; font-size: 11px; gap: 5px; }
+  .settings-label { display: none; }
+  .settings-panel { padding: 9px 11px; max-height: calc(100dvh - var(--topbar-h, 0px) - 16px); overflow-y: auto; }
   .filter-opt { padding: 4px 8px; font-size: 11px; }
   .filter-row { gap: 5px; margin-bottom: 9px; }
+  .set-row, .filter-note { margin-bottom: 8px; }
 
   .layout {
     flex: 1;
@@ -1187,9 +1214,12 @@ body {
   .brand-name { font-size: 15px; }
   .version { padding: 1px 7px; font-size: 9.5px; }
   .version-date { display: none; }
-  /* An even grid rather than a flex wrap, which left a gap on the left and
-     stranded the last tile on a line of its own. Seven tiles will not fit
-     across a phone legibly, so they take two full rows of four. */
+  /* The brand shares its line with the settings button now, and the three of
+     them do not fit: the count is on the rules card too, while the version is
+     the only way to spot a stale cached page, so the count gives way. */
+  .species-count { display: none; }
+  /* Four tiles, one even row: the rest of what was here is behind the settings
+     button, which rides up on the brand's line rather than taking a row. */
   .stats {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1197,32 +1227,27 @@ body {
     width: 100%;
   }
   .stat { min-width: 0; padding: 2px 6px; overflow: hidden; }
-  /* Eight tiles fill two rows of four exactly, so nothing has to stretch. */
-  /* The tiles clip their contents on a phone; this one has a panel hanging out
-     of it, which that would cut off at the tile's edge. */
-  .stat-filter { padding: 0; overflow: visible; }
-  .filter-btn { padding: 2px 6px; }
-  .filter-btn .stat-value { font-size: 11px; }
+  .brand { flex: 1; min-width: 0; }
+  .settings { order: 0; }
+  .settings-btn { padding: 5px 10px; font-size: 12px; }
 
-  /* The tile sits in the middle of the grid here, so hanging the panel off its
-     right edge would run it off the left of the screen. On a phone it belongs
-     to the viewport instead: pinned under the bar, edge to edge. */
-  .filter-panel {
+  /* Pinned to the viewport rather than hung off the button: edge to edge under
+     the bar, and scrollable if the phone is short. */
+  .settings-panel {
     position: fixed;
     top: calc(var(--topbar-h, 0px) + 6px);
     right: 8px;
     left: 8px;
     width: auto;
     max-width: none;
-    padding: 10px 12px 8px;
+    max-height: calc(100dvh - var(--topbar-h, 0px) - 16px);
+    overflow-y: auto;
+    padding: 10px 12px;
   }
   .stat-label { font-size: 8px; }
   .stat-value { font-size: 13px; }
   .stat-line { gap: 3px; }
   .stat-reset { width: 14px; height: 14px; font-size: 11px; }
-  .stat-seen .stat-value { font-size: 11px; }
-  .stat-link .stat-value { font-size: 11px; white-space: nowrap; }
-  .stat-input { font-size: 12px; }
   .hint-dots { min-height: 0; gap: 3px; }
   .hint-dot { font-size: 10px; }
 

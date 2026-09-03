@@ -56,9 +56,9 @@
     seen: $('seenValue'),
     resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
     topName: $('topName'),
-    filterBtn: $('filterBtn'), filterValue: $('filterValue'),
-    filterPanel: $('filterPanel'), filterPoolRow: $('filterPoolRow'),
-    filterKindRow: $('filterKindRow'),
+    settingsBtn: $('settingsBtn'), settingsPanel: $('settingsPanel'),
+    settingsFlag: $('settingsFlag'),
+    filterPoolRow: $('filterPoolRow'), filterKindRow: $('filterKindRow'),
     profileName: $('profileName'), profileSave: $('profileSaveBtn'),
     profileNote: $('profileNote'), backup: $('backupBtn'),
     restore: $('restoreBtn'), backupCode: $('backupCode'),
@@ -557,7 +557,7 @@
       return mode === 'seen' ? seen : list.length - seen;
     };
 
-    for (const btn of ui.filterPanel.querySelectorAll('.filter-opt')) {
+    for (const btn of ui.settingsPanel.querySelectorAll('.filter-opt')) {
       const { group, id } = btn.dataset;
       const on = state.filter[group] === id;
       const list = group === 'kind' ? FISH.filter(KIND_BY_ID[id].test) : pool;
@@ -574,8 +574,14 @@
 
     const kind = KIND_BY_ID[state.filter.kind];
     const poolFilter = POOL_FILTERS.find((p) => p.id === state.filter.pool);
-    ui.filterValue.textContent = `${kind.short} · ${poolFilter.short}`;
-    ui.filterBtn.title =
+    /* The flag is the whole of the filter that shows with the panel shut, so it
+     * appears exactly when a game is dealt from less than the default: the mode
+     * if one is on, otherwise the part of the pass. */
+    const narrowed = state.filter.kind !== 'all' || state.filter.pool !== 'unseen';
+    ui.settingsFlag.hidden = !narrowed;
+    ui.settingsFlag.textContent = state.filter.kind !== 'all'
+      ? kind.short : poolFilter.short;
+    ui.settingsBtn.title =
       `Dealing from ${kind.label.toLowerCase()}, ${poolFilter.label.toLowerCase()}`;
     ui.startFishCount.textContent = state.filter.kind === 'all'
       ? `all ${fmt(pool.length)} species`
@@ -585,27 +591,27 @@
   /* A game is five fish dealt at once, so a new pool means a new game rather
    * than a hand half from each. The panel says so before it is touched. */
   function setFilter(group, id) {
-    if (state.filter[group] === id) return closeFilter();
+    if (state.filter[group] === id) return closeSettings();
     state.filter[group] = id;
     writeFilter();
-    closeFilter();
+    closeSettings();
     renderFilter();
     startGame();
     renderSeen();
   }
 
-  function openFilter() {
+  function openSettings() {
     renderFilter(); // counts move as the pass does, so they are read on opening
-    ui.filterPanel.hidden = false;
-    ui.filterBtn.setAttribute('aria-expanded', 'true');
+    ui.settingsPanel.hidden = false;
+    ui.settingsBtn.setAttribute('aria-expanded', 'true');
   }
 
-  function closeFilter() {
-    ui.filterPanel.hidden = true;
-    ui.filterBtn.setAttribute('aria-expanded', 'false');
+  function closeSettings() {
+    ui.settingsPanel.hidden = true;
+    ui.settingsBtn.setAttribute('aria-expanded', 'false');
   }
 
-  const filterOpen = () => !ui.filterPanel.hidden;
+  const settingsOpen = () => !ui.settingsPanel.hidden;
 
   /* The two stored numbers, redrawn from whichever save is active: switching
    * name or pasting a code changes both without touching the game on screen. */
@@ -742,28 +748,29 @@
   ui.topName.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') { e.preventDefault(); ui.topName.blur(); }
   });
-  ui.filterBtn.addEventListener('click', () => (filterOpen() ? closeFilter() : openFilter()));
+  ui.settingsBtn.addEventListener('click',
+    () => (settingsOpen() ? closeSettings() : openSettings()));
   /* A click anywhere else puts the panel away, which is what a popover is
    * expected to do; the button's own click is left to the toggle above. */
   document.addEventListener('click', (e) => {
-    if (!filterOpen()) return;
-    if (e.target.closest('.stat-filter')) return;
-    closeFilter();
+    if (!settingsOpen()) return;
+    if (e.target.closest('.settings')) return;
+    closeSettings();
   });
   ui.backup.addEventListener('click', showBackup);
   ui.restore.addEventListener('click', restoreBackup);
   ui.resetBest.addEventListener('click', resetBest);
   ui.resetSeen.addEventListener('click', resetSeen);
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && filterOpen()) {
-      closeFilter();
-      ui.filterBtn.focus();
+    if (e.key === 'Escape' && settingsOpen()) {
+      closeSettings();
+      ui.settingsBtn.focus();
       return;
     }
     if (e.key !== 'Enter') return;
-    // The filter is open: Enter belongs to whatever is focused inside it, not
-    // to the game behind it.
-    if (filterOpen()) return;
+    // Settings are open: Enter belongs to whatever is focused inside the panel,
+    // not to the game behind it.
+    if (settingsOpen()) return;
     // Enter starts the game while the rules are up; the round behind them is
     // already dealt, so it must not also lock in a guess on the same press.
     if (!ui.startOverlay.hidden) {
@@ -774,7 +781,7 @@
       // request to start playing.
       if (e.target === ui.profileName || e.target === ui.backupCode) return;
       if (e.target === ui.topName) return;
-      if (e.target === ui.filterBtn) return;
+      if (e.target === ui.settingsBtn) return;
       if (e.target === ui.profileSave || e.target === ui.backup || e.target === ui.restore) return;
       beginPlay();
       return;

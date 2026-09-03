@@ -13,7 +13,11 @@ and its name; you decide which of fifteen regions of the world it comes from.
 - **5 rounds per game**, dealt so that every species comes up once before any
   of them comes up twice — a full pass takes 46 games, and it survives a
   refresh
-- **A filter in the top bar** — deal from the whole collection or narrow it:
+- **A top bar of four tiles** — round, score, hints and best. Everything else —
+  the pass counter, the filter, the save name, the photo check — is behind one
+  **Settings** button on the right, which on a phone is a whole row of the bar
+  given back to the photograph
+- **A filter under Settings** — deal from the whole collection or narrow it:
   **fish mode**, **crab mode**, **shark mode**, crossed with **unseen first**
   (the default, and how the game has always dealt), **seen only** or **any**.
   Each option carries the number of species behind it, and a narrowed mode never
@@ -71,9 +75,9 @@ named on the map itself, so there is no separate list to cross-reference.
 Sections are keyboard reachable too: `Tab` moves between them and `Enter`
 picks one. `Enter` also locks in a guess and advances to the next fish.
 Your best score and your place in the fish cycle are both kept in
-`localStorage`, under `fishguesser.best` and `fishguesser.seen`. The top bar
-shows each of them with a small `↺` beside it that clears that one on its
-own. The cycle counts a fish when it reaches the screen rather than when the
+`localStorage`, under `fishguesser.best` and `fishguesser.seen`. Best is a tile
+in the top bar and the pass counter is the first line under **Settings**, each
+with a small `↺` beside it that clears that one on its own. The cycle counts a fish when it reaches the screen rather than when the
 hand is dealt, so reloading the page, or walking away mid-game, does not spend
 fish you never saw. That is this browser only — there is no account and no
 server, so the score does not follow you to another device, and clearing site
@@ -87,8 +91,8 @@ starts fresh each time.
 There is no server behind the game, so the rules card's **Your save** block
 offers the two things a static page honestly can:
 
-- **A name**, typed either in the top bar (where it stays visible mid-game) or
-  here, which labels a save slot in this browser (`fishguesser.best:<name>`
+- **A name**, typed either under **Settings** (reachable mid-game, and from the
+  rules card) or here, which labels a save slot in this browser (`fishguesser.best:<name>`
   and `fishguesser.seen:<name>`) so two people can share a browser without
   spending each other's pass. Naming a save for the first time carries the
   progress already there with it; a second name starts empty. No password —
@@ -113,7 +117,8 @@ meet it: is that a whole fish, is it alive, is it recognisable? The name,
 species and credit show underneath, since the page is mostly used to spot a bad
 photo and say which one it is. `R` hides them to look at a picture cold. The
 region is never shown, deliberately — that is the game's answer, and reviewing
-the photographs should not spend it. It is reached from the Photos tile in the top bar.
+the photographs should not spend it. It is linked under **Settings** in the top
+bar, and from the footer.
 
 `←` / `→` (or the buttons) step, `Home` and `End` jump to the ends, the number
 box goes straight to one, and `R` toggles the details. It opens newest photo
