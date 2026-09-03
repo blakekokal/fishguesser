@@ -149,10 +149,20 @@ guess 6,000 km off scores around 680, and one on the far side of the planet
 scores almost nothing. Distance is the great-circle distance between the
 centroids of the two regions.
 
-The map sections follow the same rule: every point on the map belongs to
-whichever region's centre is nearest, so a section is exactly "everywhere
-closer to this region than to any other". The fifteen sections tile the map
-completely — there is no unclaimed water.
+The map sections follow a related but separate rule. Every point belongs to the
+region whose nearest **seed** is nearest — seeds being the handful of [lon, lat]
+points each region carries in `src/regions.js`, tracing the water it actually
+occupies. The fifteen sections still tile the map completely, with no unclaimed
+water, but they come out the shape of the seas: the Great Lakes region is
+landlocked North America, the Pacific has the American west coast and the
+Atlantic the east, and the Southern Ocean is a band right round Antarctica
+rather than a wedge.
+
+Scoring never reads the seeds. Distance is still centroid to centroid, so how a
+section is drawn and how far apart two regions are stay separate questions.
+`python3 tools/check_regions.py` re-runs the rule over four dozen real places —
+Chicago, the Grand Banks, Lake Malawi, the Ross Sea — and reports anything that
+lands in the wrong section, which is how a mistyped seed gets caught.
 
 ## Project layout
 
@@ -161,7 +171,7 @@ index.html              markup and script order
 photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
-src/regions.js          the 15 regions + haversine distance
+src/regions.js          the 15 regions, their map seeds + haversine distance
 src/fish.js             the 230 species (name, photo URL, home region, fact)
 src/spoilers.js         place names, dotted out while a fact is a hint
 src/kinds.js            what counts as a fish, a crab, a shark for the filter
@@ -176,6 +186,7 @@ tools/bump_version.py   bumps the version and stamps today's date
 tools/build_photo_urls.py  regenerates the photo URLs (--check verifies them)
 tools/build_coastlines.py  regenerates src/coastlines.js from Natural Earth
 tools/check_hints.py    checks no fact names its region while it is a hint
+tools/check_regions.py  checks the map sections land where they should
 ```
 
 ## Versioning
@@ -216,9 +227,10 @@ language, a fishery, a myth everyone can place. No list catches those, so write
 the fact asking whether it would still be a puzzle with the place names gone.
 
 To add a region, append it to `REGIONS` in `src/regions.js` with a
-representative `lat`/`lon` — that is all. The map sections are computed from
-those coordinates, so a new region carves its own section out of its
-neighbours automatically and the map stays fully covered. `LABEL_AT` in
+representative `lat`/`lon` — that is all it takes to get on the map, since a
+region with no seeds stands on its centroid, carves its own section out of its
+neighbours and keeps the map fully covered. Give it `seeds` when the shape of
+that section matters, and run `tools/check_regions.py`. `LABEL_AT` in
 `map.js` can nudge a label that lands badly, `STACKED` there breaks a long name
 onto two lines, and an optional `short` gives the map a shorter name than the
 full one.
