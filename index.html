@@ -94,11 +94,13 @@
       <p class="fish-sci" id="fishSci">—</p>
     </div>
     <!-- The round's free hint: what the animal does, with any place it names
-         dotted out until the guess is in. The full fact lands with the result. -->
+         dotted out until the guess is in. Folded away until asked for, so the
+         photo keeps the height. The full fact lands with the result. -->
     <p class="fish-fact" id="fishFact" hidden></p>
     <div class="prompt-line">
       <span id="promptText">Where in the world does it live?</span>
       <span class="prompt-actions">
+        <button class="btn btn-ghost" id="factBtn" type="button">Show hint</button>
         <button class="btn btn-ghost" id="halfBtn" type="button">Show half</button>
         <button class="btn btn-ghost" id="hintBtn" type="button">Reveal name</button>
       </span>

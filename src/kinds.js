@@ -9,7 +9,7 @@
  *
  * Adding a species: a new crab or shark is picked up by its name and needs
  * nothing here. Anything else that is not a fish — another cephalopod, a
- * mammal, a turtle — has to go in NOT_FISH, or "Fish only" will deal it. */
+ * mammal, a turtle — has to go in NOT_FISH, or "Fish mode" will deal it. */
 
 /* "Catshark" and "sawshark" are one word, so this deliberately matches inside a
  * word rather than on a boundary. */
@@ -36,7 +36,7 @@ const isFish = (fish) => !isCrab(fish) && !NOT_FISH.has(fish.id);
  * is dealt from; `short` is what fits on the tile in the top bar. */
 const KIND_FILTERS = [
   { id: 'all', label: 'All sea life', short: 'All', test: () => true },
-  { id: 'fish', label: 'Fish only', short: 'Fish', test: isFish },
+  { id: 'fish', label: 'Fish mode', short: 'Fish', test: isFish },
   { id: 'crab', label: 'Crab mode', short: 'Crabs', test: isCrab },
   { id: 'shark', label: 'Shark mode', short: 'Sharks', test: isShark },
 ];
