@@ -3,7 +3,7 @@
 A GeoGuessr-style guessing game for sea life. You get a photograph of an animal
 and its name; you decide which of fifteen regions of the world it comes from.
 
-- **230 species** — mostly bony fish, plus twenty-four sharks, eight rays, a
+- **230 species** — mostly bony fish, plus twenty-three sharks, eight rays, a
   sawfish, a lamprey and a chimaera, and fourteen that are not fish at all: ten
   crabs, two octopuses, a cuttlefish and a whale — each photographed alive in
   the wild or in an aquarium
@@ -13,6 +13,11 @@ and its name; you decide which of fifteen regions of the world it comes from.
 - **5 rounds per game**, dealt so that every species comes up once before any
   of them comes up twice — a full pass takes 46 games, and it survives a
   refresh
+- **A filter in the top bar** — deal from the whole collection or narrow it:
+  **fish only**, **crab mode**, **shark mode**, crossed with **unseen first**
+  (the default, and how the game has always dealt), **seen only** or **any**.
+  Each option carries the number of species behind it, and a narrowed mode never
+  spends the pass of the species it does not deal
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
 - **The name is fully censored** — it reads as dots until you reveal it, so the
@@ -146,6 +151,7 @@ src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions + haversine distance
 src/fish.js             the 230 species (name, photo URL, home region, fact)
 src/spoilers.js         place names, dotted out while a fact is a hint
+src/kinds.js            what counts as a fish, a crab, a shark for the filter
 src/credits.js          generated photo attribution
 src/coastlines.js       generated Natural Earth land outlines
 src/map.js              the world map: projection, coastlines, section partition
@@ -188,6 +194,9 @@ The data files are plain arrays, so extending the game is additive:
 4. Run `python3 tools/check_hints.py`. The fact is shown before the guess, so
    any place it names has to be in `PLACE_TERMS` in `src/spoilers.js` to be
    dotted out; the check reads the list and reports what is left standing.
+5. Only if it is not a fish: `src/kinds.js` reads crabs and sharks off their
+   names, so those need nothing, but another cephalopod or mammal has to go in
+   `NOT_FISH` there or "Fish only" will deal it.
 
 A fact can give the region away without naming it — a word quoted in the local
 language, a fishery, a myth everyone can place. No list catches those, so write

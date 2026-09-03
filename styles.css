@@ -52,7 +52,11 @@ body {
   backdrop-filter: blur(8px);
   position: sticky;
   top: 0;
-  z-index: 20;
+  /* Above the overlays, not under them: the filter, the save name and the two
+     resets all belong to the player rather than to the round, and the rules
+     card is exactly when someone wants to set a mode before starting. The
+     overlays leave room for the bar rather than sliding under it. */
+  z-index: 60;
 }
 
 .brand { display: flex; align-items: center; gap: 10px; }
@@ -162,6 +166,106 @@ body {
 }
 
 .stat-link .stat-value { font-size: 14px; color: var(--accent); }
+
+/* The filter tile is a button, and the panel hangs off it. The tile itself
+   carries no padding so the button fills it and the whole tile is the target. */
+.stat-filter { position: relative; padding: 0; }
+
+.filter-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+  padding: 6px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn[aria-expanded="true"] { background: var(--panel-2); }
+.filter-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.filter-btn .stat-value { font-size: 13px; color: var(--accent); white-space: nowrap; }
+
+/* Anchored to the tile's right edge so it never runs off a narrow screen, and
+   above the panels below, which the sticky top bar otherwise only just clears. */
+.filter-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 30;
+  width: max-content;
+  max-width: min(280px, calc(100vw - 24px));
+  padding: 12px 14px 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+
+.filter-head {
+  margin: 0 0 6px;
+  color: var(--ink-faint);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.filter-opt {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel-2);
+  color: var(--ink-dim);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: color 120ms ease, background-color 120ms ease, border-color 120ms ease;
+}
+
+.filter-opt:hover:not(:disabled) { color: var(--ink); border-color: var(--accent-deep); }
+.filter-opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.filter-opt.is-on {
+  border-color: var(--accent);
+  background: var(--accent-deep);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Nothing to deal from — "Seen only" before anything has been seen. Left in
+   place rather than hidden, so the row does not reshuffle as you play. */
+.filter-opt:disabled { opacity: 0.35; cursor: default; }
+
+.filter-n {
+  font-size: 10.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-faint);
+}
+
+.filter-opt.is-on .filter-n { color: var(--ink); opacity: 0.75; }
+
+.filter-note {
+  margin: 0;
+  color: var(--ink-faint);
+  font-size: 10.5px;
+}
 
 .stat-label {
   font-size: 10px;
@@ -602,7 +706,10 @@ body {
   z-index: 50;
   display: grid;
   place-items: center;
-  padding: 20px;
+  /* The top bar stays live above this, so the card is centred in what is left
+     below it. The height is measured in game.js — it changes with the tile
+     rows on a phone — and falls back to plain padding if it is not set. */
+  padding: calc(var(--topbar-h, 0px) + 20px) 20px 20px;
   background: rgba(3, 12, 21, 0.82);
   backdrop-filter: blur(6px);
 }
@@ -611,7 +718,9 @@ body {
  * rather than centred like the end card, because it is prose to be read. */
 .startcard {
   width: min(560px, 100%);
-  max-height: min(90vh, 90dvh);
+  /* The top bar stays live above the overlay, so the card is capped by what is
+     left below it — otherwise a landscape phone pushes Start off the bottom. */
+  max-height: min(90dvh, calc(100dvh - var(--topbar-h, 0px) - 40px));
   overflow-y: auto;
   padding: 28px;
   border: 1px solid var(--line);
@@ -767,7 +876,7 @@ body {
 
 .endcard {
   width: min(520px, 100%);
-  max-height: 90vh;
+  max-height: min(90dvh, calc(100dvh - var(--topbar-h, 0px) - 40px));
   overflow-y: auto;
   padding: 28px;
   border: 1px solid var(--line);
@@ -901,6 +1010,12 @@ body {
   .stat-line { gap: 3px; }
   .stat-reset { width: 14px; height: 14px; font-size: 11px; }
   .stat-seen .stat-value { font-size: 11px; }
+  .stat-filter { padding: 0; }
+  .filter-btn { padding: 2px 6px; gap: 0; }
+  .filter-btn .stat-value { font-size: 11px; }
+  .filter-panel { padding: 9px 11px 7px; }
+  .filter-opt { padding: 4px 8px; font-size: 11px; }
+  .filter-row { gap: 5px; margin-bottom: 9px; }
 
   .layout {
     flex: 1;
@@ -997,7 +1112,7 @@ body {
 
   .footer { display: none; }
 
-  .endcard { padding: 14px 18px; max-height: 92dvh; }
+  .endcard { padding: 14px 18px; max-height: min(90dvh, calc(100dvh - var(--topbar-h, 0px) - 40px)); }
   .end-score { font-size: 28px; }
   .end-max { font-size: 13px; }
   .end-blurb { margin-bottom: 8px; font-size: 12px; }
@@ -1043,8 +1158,25 @@ body {
     width: 100%;
   }
   .stat { min-width: 0; padding: 2px 6px; overflow: hidden; }
-  /* Last of seven, so it takes the spare cell and the row stays flush. */
-  .stat-link { grid-column: span 2; }
+  /* Eight tiles fill two rows of four exactly, so nothing has to stretch. */
+  /* The tiles clip their contents on a phone; this one has a panel hanging out
+     of it, which that would cut off at the tile's edge. */
+  .stat-filter { padding: 0; overflow: visible; }
+  .filter-btn { padding: 2px 6px; }
+  .filter-btn .stat-value { font-size: 11px; }
+
+  /* The tile sits in the middle of the grid here, so hanging the panel off its
+     right edge would run it off the left of the screen. On a phone it belongs
+     to the viewport instead: pinned under the bar, edge to edge. */
+  .filter-panel {
+    position: fixed;
+    top: calc(var(--topbar-h, 0px) + 6px);
+    right: 8px;
+    left: 8px;
+    width: auto;
+    max-width: none;
+    padding: 10px 12px 8px;
+  }
   .stat-label { font-size: 8px; }
   .stat-value { font-size: 13px; }
   .stat-line { gap: 3px; }
@@ -1121,7 +1253,7 @@ body {
 
   .zone-label { font-size: 26px; }
 
-  .endcard { padding: 16px 18px; max-height: 92dvh; }
+  .endcard { padding: 16px 18px; max-height: min(90dvh, calc(100dvh - var(--topbar-h, 0px) - 40px)); }
   .end-score { font-size: 32px; }
   .end-blurb { font-size: 12px; margin-bottom: 10px; }
   .breakdown-row { padding: 6px 0; font-size: 12.5px; }

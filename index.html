@@ -40,6 +40,27 @@
                 aria-label="Start a fresh pass through the collection">↺</button>
       </span>
     </div>
+    <!-- What a game is dealt from. Both rows default to how the game has always
+         played — everything, unseen first — so leaving it alone changes nothing.
+         The options themselves are built in game.js from KIND_FILTERS and
+         POOL_FILTERS, so the labels live in one place. -->
+    <div class="stat stat-filter">
+      <button class="filter-btn" id="filterBtn" type="button"
+              aria-expanded="false" aria-controls="filterPanel"
+              aria-haspopup="true" title="Choose what a game is dealt from">
+        <span class="stat-label">Filter</span>
+        <span class="stat-value" id="filterValue">All · Unseen</span>
+      </button>
+      <div class="filter-panel" id="filterPanel" hidden>
+        <p class="filter-head" id="filterPoolHead">Which species</p>
+        <div class="filter-row" id="filterPoolRow" role="group"
+             aria-labelledby="filterPoolHead"></div>
+        <p class="filter-head" id="filterKindHead">Mode</p>
+        <div class="filter-row" id="filterKindRow" role="group"
+             aria-labelledby="filterKindHead"></div>
+        <p class="filter-note">Changing either one deals a new game.</p>
+      </div>
+    </div>
     <!-- Which save is being played, always on screen: the rules card is only
          seen between games, and the name decides where progress is written. -->
     <div class="stat stat-name">
@@ -196,6 +217,7 @@
 <script src="src/version.js"></script>
 <script src="src/regions.js"></script>
 <script src="src/fish.js"></script>
+<script src="src/kinds.js"></script>
 <script src="src/spoilers.js"></script>
 <script src="src/profile.js"></script>
 <script src="src/credits.js"></script>
