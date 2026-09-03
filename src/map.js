@@ -13,14 +13,16 @@ const WorldMap = (() => {
 
 
   /* The map is partitioned into sections that tile it completely: every point
-   * belongs to whichever region's centre is nearest, measured as a real
-   * great-circle distance. That is the rule the scoring uses, so a section is
-   * exactly "everywhere closer to this region than to any other", and there is
-   * no unclaimed water. Sections are drawn translucent over the land so the
-   * coastline still reads underneath.
+   * belongs to whichever region's nearest seed is nearest, measured as a real
+   * great-circle distance. A region's seeds are the points in regions.js that
+   * trace the water it occupies — its centroid alone if it has none — so the
+   * sections come out the shape of the seas rather than as wedges around
+   * fifteen points, and there is still no unclaimed water anywhere. Sections
+   * are drawn translucent over the land so the coastline reads underneath.
    *
-   * Each region's lat/lon in regions.js is by definition inside its own
-   * section, and anchors both the label and the guess-to-answer line. */
+   * Scoring is a different question and still asks the centroid: how far the
+   * region you picked is from the region it came from. A section's shape and
+   * the distance between two regions are deliberately not the same measure. */
   const GRID_STEP = 0.25; // degrees; a step is sub-pixel, so edges read as smooth
 
   /** Lat/lon to a point on the unit sphere, so "nearest" is just a dot product. */
@@ -35,7 +37,13 @@ const WorldMap = (() => {
   function computePartition() {
     const cols = Math.round(360 / GRID_STEP);
     const rows = Math.round(180 / GRID_STEP);
-    const centres = REGIONS.map((r) => ({ id: r.id, v: toUnitVector(r.lon, r.lat) }));
+    /* Flattened once: every seed of every region, tagged with whose it is. A
+     * region with no seeds stands on its centroid, which is what a newly added
+     * region gets until someone draws it. */
+    const centres = REGIONS.flatMap((r) => (
+      (r.seeds && r.seeds.length ? r.seeds : [[r.lon, r.lat]])
+        .map(([lon, lat]) => ({ id: r.id, v: toUnitVector(lon, lat) }))
+    ));
     const owners = [];
 
     for (let j = 0; j < rows; j++) {
