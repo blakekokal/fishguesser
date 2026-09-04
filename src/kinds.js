@@ -39,6 +39,11 @@ const NOT_FISH = new Set([
   'sea-angel',              // a snail that swims
   'peacock-mantis-shrimp',
   'antarctic-cushion-star',
+  'spanish-dancer',         // a sea slug that swims like a cape
+  'giant-river-prawn',
+  'lions-mane-jellyfish',
+  'freshwater-jellyfish',
+  'pink-river-dolphin',
   'horseshoe-crab',         // excluded from crabs above, so it needs saying here
 ]);
 

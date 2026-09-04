@@ -528,6 +528,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/271102605",
   },
+  "freshwater-jellyfish": {
+    author: "OpenCage",
+    license: "CC BY-SA 2.5",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.5",
+    source: "https://commons.wikimedia.org/wiki/File:Craspedacusta_sowerbyi_by_OpenCage.jpg",
+  },
   "frontosa": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -569,6 +575,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Giant_Mudskipper_(Periophthalmodon_schlosseri).jpg",
+  },
+  "giant-river-prawn": {
+    author: "Dmitry Ivanov",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/321247585",
   },
   "giant-sea-bass": {
     author: "tunicatedreamz",
@@ -755,6 +767,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Ophiodon_elongatus_458366655.jpg",
+  },
+  "lions-mane-jellyfish": {
+    author: "W.carter",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Lion's_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg",
   },
   "longfin-eel": {
     author: "Nil NZ",
@@ -965,6 +983,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/197441524",
+  },
+  "pink-river-dolphin": {
+    author: "Tiago Lubiana",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/104514790",
   },
   "polar-cod": {
     author: "Totti",
@@ -1229,6 +1253,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/382883636",
+  },
+  "spanish-dancer": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/25713973",
   },
   "spanish-hogfish": {
     author: "LASZLO ILYES from Cleveland, Ohio, USA",
@@ -1676,4 +1706,9 @@ const PHOTO_ORDER = [
   "christmas-island-red-crab",
   "sally-lightfoot-crab",
   "blue-swimmer-crab",
+  "spanish-dancer",
+  "giant-river-prawn",
+  "lions-mane-jellyfish",
+  "freshwater-jellyfish",
+  "pink-river-dolphin",
 ];
