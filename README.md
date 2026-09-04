@@ -19,8 +19,9 @@ and its name; you decide which of fifteen regions of the world it comes from.
   **Settings** button on the right, which on a phone is a whole row of the bar
   given back to the photograph
 - **A filter under Settings** — deal from the whole collection or narrow it:
-  **fish mode**, **crab mode**, **shark mode**, crossed with **unseen first**
-  (the default, and how the game has always dealt), **seen only** or **any**.
+  **fish mode**, **everything but fish**, **crab mode**, **shark mode**, crossed
+  with **unseen first** (the default, and how the game has always dealt),
+  **seen only** or **any**.
   Each option carries the number of species behind it, and a narrowed mode never
   spends the pass of the species it does not deal
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
@@ -219,10 +220,10 @@ The data files are plain arrays, so extending the game is additive:
 4. Run `python3 tools/check_hints.py`. The fact is shown before the guess, so
    any place it names has to be in `PLACE_TERMS` in `src/spoilers.js` to be
    dotted out; the check reads the list and reports what is left standing.
-5. Only if it is not a fish: `src/kinds.js` reads crabs and sharks off their
-   names, so those need nothing, but anything else that is not a fish — a
+5. Only if it is not a fish: `src/kinds.js` reads crabs, sharks and rays off
+   their names, so those need nothing, but anything else that is not a fish — a
    cephalopod, a mammal, a sea star, a mantis shrimp — has to go in `NOT_FISH`
-   there or "Fish mode" will deal it. A name that lies goes in `NOT_CRABS` or
+   there, or "Fish mode" will deal it and "Everything but fish" will not. A name that lies goes in `NOT_CRABS` or
    `NOT_SHARKS` beside it: the horseshoe crab is a chelicerate, not a crab.
 
 A fact can give the region away without naming it — a word quoted in the local
