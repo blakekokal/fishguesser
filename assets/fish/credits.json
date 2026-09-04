@@ -1686,5 +1686,26 @@
     "author": "Kai Squires",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "christmas-island-red-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367389055/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/207689589",
+    "author": "ian_mcallan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sally-lightfoot-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2745965/large.jpg",
+    "source": "https://www.inaturalist.org/observations/2455785",
+    "author": "Brook",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blue-swimmer-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480383216/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/267319789",
+    "author": "Debra Baker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

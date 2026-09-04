@@ -216,6 +216,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/393772050",
   },
+  "blue-swimmer-crab": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/267319789",
+  },
   "bluegill": {
     author: "USFWS Mountain Prairie",
     license: "Public domain",
@@ -323,6 +329,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/193925914",
+  },
+  "christmas-island-red-crab": {
+    author: "ian_mcallan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/207689589",
   },
   "climbing-perch": {
     author: "Abu Hamas",
@@ -1098,6 +1110,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/155020772",
   },
+  "sally-lightfoot-crab": {
+    author: "Brook",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/2455785",
+  },
   "sand-tiger-shark": {
     author: "The Vertebrate Pokédex",
     license: "CC0",
@@ -1655,4 +1673,7 @@ const PHOTO_ORDER = [
   "sea-angel",
   "horseshoe-crab",
   "weedy-seadragon",
+  "christmas-island-red-crab",
+  "sally-lightfoot-crab",
+  "blue-swimmer-crab",
 ];
