@@ -3,15 +3,16 @@
 A GeoGuessr-style guessing game for sea life. You get a photograph of an animal
 and its name; you decide which of fifteen regions of the world it comes from.
 
-- **230 species** — mostly bony fish, plus twenty-three sharks, eight rays, a
-  sawfish, a lamprey and a chimaera, and fourteen that are not fish at all: ten
-  crabs, two octopuses, a cuttlefish and a whale — each photographed alive in
-  the wild or in an aquarium
-- **15 regions**, from the Arctic Ocean to New Zealand — between five and
+- **235 species** — mostly bony fish, plus twenty-three sharks, eight rays, a
+  sawfish, a lamprey and a chimaera, and eighteen that are not fish at all: ten
+  crabs, two octopuses, a cuttlefish, a whale, a mantis shrimp, a sea star, a
+  swimming snail and a horseshoe crab — each photographed alive in the wild or
+  in an aquarium
+- **15 regions**, from the Arctic Ocean to New Zealand — between six and
   twenty-one species live in each, so the map has to be read rather than memorised. The header counts
   the collection straight from the data, so it never goes stale
 - **5 rounds per game**, dealt so that every species comes up once before any
-  of them comes up twice — a full pass takes 46 games, and it survives a
+  of them comes up twice — a full pass takes 47 games, and it survives a
   refresh
 - **A top bar of four tiles** — round, score, hints and best. Everything else —
   the pass counter, the filter, the save name, the photo check — is behind one
@@ -105,7 +106,7 @@ offers the two things a static page honestly can:
   are unioned and the best score is the higher of the two, so pasting an old
   code can never cost you progress, and a code carrying a name gives an unnamed
   browser that name back. Ids travel as five-character hashes, which keeps a
-  full 220-fish save near 2 KB and lets a restore match whatever species the
+  full 235-fish save near 2 KB and lets a restore match whatever species the
   game holds now — anything it no longer knows is dropped and counted in the
   message.
 
@@ -114,7 +115,7 @@ and it only carries the two numbers above.
 
 ## Photo check
 
-`photos.html` steps through all 230 photographs one at a time, in the same
+`photos.html` steps through all 235 photographs one at a time, in the same
 letterboxed frame the game uses, so a picture can be judged as a player would
 meet it: is that a whole fish, is it alive, is it recognisable? The name,
 species and credit show underneath, since the page is mostly used to spot a bad
@@ -172,7 +173,7 @@ photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions, their map seeds + haversine distance
-src/fish.js             the 230 species (name, photo URL, home region, fact)
+src/fish.js             the 235 species (name, photo URL, home region, fact)
 src/spoilers.js         place names, dotted out while a fact is a hint
 src/kinds.js            what counts as a fish, a crab, a shark for the filter
 src/credits.js          generated photo attribution
@@ -219,8 +220,10 @@ The data files are plain arrays, so extending the game is additive:
    any place it names has to be in `PLACE_TERMS` in `src/spoilers.js` to be
    dotted out; the check reads the list and reports what is left standing.
 5. Only if it is not a fish: `src/kinds.js` reads crabs and sharks off their
-   names, so those need nothing, but another cephalopod or mammal has to go in
-   `NOT_FISH` there or "Fish mode" will deal it.
+   names, so those need nothing, but anything else that is not a fish — a
+   cephalopod, a mammal, a sea star, a mantis shrimp — has to go in `NOT_FISH`
+   there or "Fish mode" will deal it. A name that lies goes in `NOT_CRABS` or
+   `NOT_SHARKS` beside it: the horseshoe crab is a chelicerate, not a crab.
 
 A fact can give the region away without naming it — a word quoted in the local
 language, a fishery, a myth everyone can place. No list catches those, so write
@@ -251,7 +254,7 @@ computed from region centres, so nothing in the game depends on the counts
 matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 230 species; raise it for a longer game that shows more of the
+game samples 5 of the 235 species; raise it for a longer game that shows more of the
 collection.
 
 ## Map data

@@ -24,6 +24,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Squatina_squatina_120867948.jpg",
   },
+  "antarctic-cushion-star": {
+    author: "Oleksii Vasyliuk",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/134769128",
+  },
   "antarctic-toothfish": {
     author: "Citron",
     license: "CC BY-SA 3.0",
@@ -624,6 +630,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Erimacrus_isenbeckii_Sunpiazza1.jpg",
   },
+  "horseshoe-crab": {
+    author: "Ryan Hearty",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/27591961",
+  },
   "japanese-angelshark": {
     author: "RYO SATO",
     license: "CC BY-SA 2.0",
@@ -936,6 +948,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/37806678",
   },
+  "peacock-mantis-shrimp": {
+    author: "portioid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/197441524",
+  },
   "polar-cod": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -1097,6 +1115,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg",
+  },
+  "sea-angel": {
+    author: "Tine Kinn Kvamme",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/8387299",
   },
   "sea-lamprey": {
     author: "Stephanie Tran",
@@ -1313,6 +1337,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Pez_sapo_payaso_(Antennarius_maculatus),_Anilao,_Filipinas,_2023-08-24,_DD_39.jpg",
+  },
+  "weedy-seadragon": {
+    author: "Kai Squires",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/37463914",
   },
   "white-spotted-cichlid": {
     author: "lienyuan lee",
@@ -1620,4 +1650,9 @@ const PHOTO_ORDER = [
   "vampire-crab",
   "mud-crab",
   "purple-rock-crab",
+  "peacock-mantis-shrimp",
+  "antarctic-cushion-star",
+  "sea-angel",
+  "horseshoe-crab",
+  "weedy-seadragon",
 ];
