@@ -492,6 +492,14 @@ const FISH = [
     region: 'amazon',
     fact: 'A ray that never goes near the sea: its family stayed behind when the Amazon stopped draining to the Pacific, and it now stings more people a year than the piranhas bite.',
   },
+    {
+    id: 'pink-river-dolphin',
+    name: 'Pink River Dolphin',
+    sciName: 'Inia geoffrensis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/175141085/large.jpg',
+    region: 'amazon',
+    fact: 'Its neck bones never fused, so unlike a dolphin of the open sea it can turn its head to look at you, and it needs to: it hunts in among tree trunks, in forest that spends half the year under water. Males turn pinker the more they fight, the colour being scar tissue.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -980,6 +988,14 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'The smallest cichlid in the world, at about four centimetres, and it lives inside an empty snail shell in Lake Tanganyika, digging out the sand around it to keep the doorway clear.',
   },
+    {
+    id: 'spanish-dancer',
+    name: 'Spanish Dancer',
+    sciName: 'Hexabranchus sanguineus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/39857929/large.jpg',
+    region: 'rift-lakes',
+    fact: 'The biggest sea slug there is, and one of the few that can really swim: it unrolls the skirt of its body and flaps it, a foot of scarlet flamenco in open water. A pair of shrimp usually lives in the feathery gill on its back, coloured to match their host exactly.',
+  },
   // ---- Coral Triangle ----
   {
     id: 'mandarinfish',
@@ -1427,6 +1443,14 @@ const FISH = [
     region: 'arctic',
     fact: 'A snail that gave up its shell and flies through the water on a pair of wings. It eats one thing only — another swimming snail — seized with six grappling arms that shoot out of its head.',
   },
+    {
+    id: 'lions-mane-jellyfish',
+    name: 'Lion\'s Mane Jellyfish',
+    sciName: 'Cyanea capillata',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg/1280px-Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg',
+    region: 'arctic',
+    fact: 'Reckoned the longest animal alive: one measured out at thirty-seven metres of trailing tentacle, beating a blue whale, though nearly all of that is thread thinner than string. The bell alone can be taller than you are wide, and the whole animal is about 95 per cent water.',
+  },
   // ---- Great Lakes ----
   {
     id: 'lake-sturgeon',
@@ -1548,6 +1572,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Salvelinus_fontinalis_%28coaster_brook_trout%29_2.jpg/1280px-Salvelinus_fontinalis_%28coaster_brook_trout%29_2.jpg',
     region: 'great-lakes',
     fact: 'Not a trout but a char, and so tied to cold clean water that biologists read a stream\'s health from whether it is still there. The Lake Superior form, the coaster, runs the open shoreline instead of staying in creeks.',
+  },
+    {
+    id: 'freshwater-jellyfish',
+    name: 'Freshwater Jellyfish',
+    sciName: 'Craspedacusta sowerbii',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Craspedacusta_sowerbyi_by_OpenCage.jpg/1280px-Craspedacusta_sowerbyi_by_OpenCage.jpg',
+    region: 'great-lakes',
+    fact: 'A jellyfish the size of a coin that appears in lakes, ponds and flooded quarries — sometimes in their thousands — then is not seen again for years. It spends most of its life as a speck of polyp on a stone, and a whole swarm is often one clone, all the same sex, so it can never breed.',
   },
   // ---- Sea of Japan ----
   {
@@ -1808,6 +1840,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/358821280/large.jpeg',
     region: 'mekong',
     fact: 'Farmed by the million and sold worldwide as basa or swai, while the wild fish still runs hundreds of kilometres up the river to spawn.',
+  },
+    {
+    id: 'giant-river-prawn',
+    name: 'Giant River Prawn',
+    sciName: 'Macrobrachium rosenbergii',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/580943393/large.jpg',
+    region: 'mekong',
+    fact: 'Males come in three ranks that can be told apart at a glance — small, orange-clawed, and a blue-clawed giant whose arms are longer than the rest of him. A male climbs the ranks as he grows, moulting into the next set of claws, and only the blue ones hold a burrow.',
   },
   // ---- New Zealand ----
   {

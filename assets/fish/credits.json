@@ -1707,5 +1707,40 @@
     "author": "Debra Baker",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spanish-dancer": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39857929/large.jpg",
+    "source": "https://www.inaturalist.org/observations/25713973",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "giant-river-prawn": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580943393/large.jpg",
+    "source": "https://www.inaturalist.org/observations/321247585",
+    "author": "Dmitry Ivanov",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "lions-mane-jellyfish": {
+    "commons_title": "File:Lion's mane jellyfish in Gullmarn fjord at Sämstad 3.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lion's_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg",
+    "author": "W.carter",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "freshwater-jellyfish": {
+    "commons_title": "File:Craspedacusta sowerbyi by OpenCage.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Craspedacusta_sowerbyi_by_OpenCage.jpg",
+    "author": "OpenCage",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "pink-river-dolphin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175141085/large.jpg",
+    "source": "https://www.inaturalist.org/observations/104514790",
+    "author": "Tiago Lubiana",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

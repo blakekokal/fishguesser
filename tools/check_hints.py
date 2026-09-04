@@ -48,10 +48,23 @@ def terms():
 
 
 def facts():
+    """Every (id, region, fact) in fish.js.
+
+    A name or a fact can carry an escaped apostrophe (Lion\\'s, the male\\'s), so
+    a string here is "quote, anything that is not an unescaped quote, quote"
+    rather than a run of non-quotes — the simpler pattern skips those entries
+    silently, which is the one failure a checker must not have.
+    """
     text = open(FISH, encoding="utf-8").read()
-    return re.findall(
-        r"id: '([^']+)',\s*name: '[^']*',.*?region: '([^']+)',\s*fact: '(.*?)',\n  \}",
+    rows = re.findall(
+        r"id: '([^']+)',\s*name: '(?:[^'\\]|\\.)*',.*?region: '([^']+)',"
+        r"\s*fact: '((?:[^'\\]|\\.)*)',\n  \}",
         text, re.S)
+    total = len(re.findall(r"^    id: '", text, re.M))
+    if len(rows) != total:
+        raise SystemExit(f"parsed {len(rows)} facts but fish.js has {total} species"
+                         " — an entry does not match the expected shape")
+    return rows
 
 
 def main():
