@@ -1651,5 +1651,40 @@
     "author": "Geoff Shuetrim",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "peacock-mantis-shrimp": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347748872/large.jpg",
+    "source": "https://www.inaturalist.org/observations/197441524",
+    "author": "portioid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-cushion-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229771670/large.jpg",
+    "source": "https://www.inaturalist.org/observations/134769128",
+    "author": "Oleksii Vasyliuk",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sea-angel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11155530/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/8387299",
+    "author": "Tine Kinn Kvamme",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "horseshoe-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42946252/large.jpg",
+    "source": "https://www.inaturalist.org/observations/27591961",
+    "author": "Ryan Hearty",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "weedy-seadragon": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59394920/large.jpg",
+    "source": "https://www.inaturalist.org/observations/37463914",
+    "author": "Kai Squires",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

@@ -346,6 +346,14 @@ const FISH = [
     region: 'caribbean',
     fact: 'Spends its life in a burrow inland, sometimes miles from the shore, but the eggs only hatch in salt water — so once a year the females walk back down to the sea to shake their larvae into the surf.',
   },
+  {
+    id: 'horseshoe-crab',
+    name: 'Atlantic Horseshoe Crab',
+    sciName: 'Limulus polyphemus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/42946252/large.jpg',
+    region: 'north-atlantic',
+    fact: 'Not a crab at all but a cousin of the spiders, with ten eyes and blue blood that clots around bacteria — which is why medicine bleeds it to prove a vaccine is clean. Its shape has not needed changing in something like 450 million years.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -1126,6 +1134,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'A thumbnail-sized land crab from one hill in Borneo, orange with glowing yellow eyes. It skips the sea entirely: the eggs hatch straight into tiny crabs rather than drifting larvae.',
   },
+  {
+    id: 'peacock-mantis-shrimp',
+    name: 'Peacock Mantis Shrimp',
+    sciName: 'Odontodactylus scyllarus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/347748872/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Punches with a club that accelerates like a bullet and boils the water in front of it, hard enough to break aquarium glass. Each eye judges depth on its own, and carries a dozen kinds of colour receptor where ours have three.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1256,6 +1272,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Digs into a mangrove bank at low tide and comes out with the flood. One claw crushes and the other cuts, and a big male can break a shell most fish cannot.',
   },
+  {
+    id: 'weedy-seadragon',
+    name: 'Weedy Seadragon',
+    sciName: 'Phyllopteryx taeniolatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/59394920/large.jpg',
+    region: 'northern-australia',
+    fact: 'Drifts like a torn piece of weed, pushed along by fins so clear they are almost invisible, so nothing about it moves the way a fish should. The male carries the eggs stuck to the underside of his tail until they hatch.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -1296,6 +1320,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/72700520/large.jpg',
     region: 'southern-ocean',
     fact: 'Keeps red blood where its icefish neighbours gave theirs up, and has no swim bladder at all, so it props itself on the bottom on splayed fins and idles through the polar winter barely growing.',
+  },
+  {
+    id: 'antarctic-cushion-star',
+    name: 'Antarctic Cushion Star',
+    sciName: 'Odontaster validus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/229771670/large.jpg',
+    region: 'southern-ocean',
+    fact: 'Eats whatever it finds — sponge, plankton, whatever the seals leave — in water a fraction of a degree from freezing, and grows so slowly that a starfish the size of your hand can be decades old.',
   },
   // ---- Arctic Ocean ----
   {
@@ -1362,6 +1394,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/384399023/large.jpeg',
     region: 'arctic',
     fact: 'A knobbly ball the size of a plum and a hopeless swimmer, it rides out the current clamped to a stone by a suction disc made from its own fused pelvic fins.',
+  },
+  {
+    id: 'sea-angel',
+    name: 'Sea Angel',
+    sciName: 'Clione limacina',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/11155530/large.jpeg',
+    region: 'arctic',
+    fact: 'A snail that gave up its shell and flies through the water on a pair of wings. It eats one thing only — another swimming snail — seized with six grappling arms that shoot out of its head.',
   },
   // ---- Great Lakes ----
   {

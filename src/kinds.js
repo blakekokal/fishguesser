@@ -16,8 +16,10 @@
 const SHARK_NAME = /shark|dogfish|wobbegong/i;
 const CRAB_NAME = /crab/i;
 
-/* Names that lie: the bala shark is a carp with a dorsal fin and good PR. */
+/* Names that lie: the bala shark is a carp with a dorsal fin and good PR, and
+ * the horseshoe crab is closer to a spider than to anything in crab mode. */
 const NOT_SHARKS = new Set(['bala-shark']);
+const NOT_CRABS = new Set(['horseshoe-crab']);
 
 /* The collection's animals that are not fish and not crabs. Sharks and rays are
  * fish; a chimaera and a lamprey are fish. These are not. */
@@ -26,9 +28,13 @@ const NOT_FISH = new Set([
   'blue-ringed-octopus',
   'common-cuttlefish',
   'beluga-whale',
+  'sea-angel',              // a snail that swims
+  'peacock-mantis-shrimp',
+  'antarctic-cushion-star',
+  'horseshoe-crab',         // excluded from crabs above, so it needs saying here
 ]);
 
-const isCrab = (fish) => CRAB_NAME.test(fish.name);
+const isCrab = (fish) => CRAB_NAME.test(fish.name) && !NOT_CRABS.has(fish.id);
 const isShark = (fish) => SHARK_NAME.test(fish.name) && !NOT_SHARKS.has(fish.id);
 const isFish = (fish) => !isCrab(fish) && !NOT_FISH.has(fish.id);
 
