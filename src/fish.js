@@ -176,6 +176,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Not a true crab but a hermit crab that gave up the shell, which is why its tail is still folded crookedly to one side. Soviet scientists moved it to the Barents Sea in the 1960s and it has been marching along the Norwegian coast ever since.',
   },
+  {
+    id: 'sally-lightfoot-crab',
+    name: 'Sally Lightfoot Crab',
+    sciName: 'Grapsus grapsus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2745965/large.jpg',
+    region: 'north-pacific',
+    fact: 'Runs up vertical rock in the surf as though the waves were not happening, and is quick enough to cross a gap over open water. The young are nearly black against the lava; the red arrives moult by moult.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -1142,6 +1150,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Punches with a club that accelerates like a bullet and boils the water in front of it, hard enough to break aquarium glass. Each eye judges depth on its own, and carries a dozen kinds of colour receptor where ours have three.',
   },
+  {
+    id: 'christmas-island-red-crab',
+    name: 'Christmas Island Red Crab',
+    sciName: 'Gecarcoidea natalis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/367389055/large.jpeg',
+    region: 'coral-triangle',
+    fact: 'Lives in the forest and goes back to the sea once a year, tens of millions at once, in a red tide that covers roads and gardens for weeks. The island answers with crab bridges, crab tunnels and closed roads.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1279,6 +1295,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/59394920/large.jpg',
     region: 'northern-australia',
     fact: 'Drifts like a torn piece of weed, pushed along by fins so clear they are almost invisible, so nothing about it moves the way a fish should. The male carries the eggs stuck to the underside of his tail until they hatch.',
+  },
+  {
+    id: 'blue-swimmer-crab',
+    name: 'Blue Swimmer Crab',
+    sciName: 'Portunus armatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/480383216/large.jpeg',
+    region: 'northern-australia',
+    fact: 'Its back legs are flattened into paddles, so it swims rather than scuttles, and it settles by burying itself with only eyes and antennae showing. Males are electric blue; females stay a mottled green-brown.',
   },
   // ---- Southern Ocean ----
   {
