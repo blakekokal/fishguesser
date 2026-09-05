@@ -153,7 +153,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `mangrove-jack` | portioid | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/184223339) |
 | `marbled-electric-ray` | Ericsfr | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Torpedo_marmorata_(20150825)_01.jpg) |
 | `marbled-rock-crab` | Charles J. Sharp | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Marbled_crab_(Pachygrapsus_marmoratus)_Butrint.jpg) |
-| `matamata` | Whaldener Endo | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [iNaturalist](https://www.inaturalist.org/observations/121178138) |
+| `matamata` | J. Patrick Fischer | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:2009_Chelus_fimbriatus.JPG) |
 | `mediterranean-cardinalfish` | Ben Costamagna | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/229580364) |
 | `mediterranean-damselfish` | Donald Davesne | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/193870677) |
 | `mediterranean-moray` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Morena_del_Mediterr%C3%A1neo_(Muraena_helena),_Catania,_Sicilia,_Italia,_2025-04-05,_DD_35.jpg) |

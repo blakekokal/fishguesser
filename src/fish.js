@@ -504,7 +504,7 @@ const FISH = [
     id: 'matamata',
     name: 'Matamata',
     sciName: 'Chelus fimbriata',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/205032125/large.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/2009_Chelus_fimbriatus.JPG/1280px-2009_Chelus_fimbriatus.JPG',
     region: 'amazon',
     fact: 'Lies on the bottom looking like a rotting leaf, head flattened into a triangle and hung with frills of skin that drift in the current. It cannot chew and can barely bite: when a fish comes close enough it opens its throat so fast that the inrush of water carries the fish down whole.',
   },
