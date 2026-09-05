@@ -646,6 +646,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'The rim of the shell is crimped like the edge of a pie, which is what fishermen name it for, and the black-tipped claws can break open a whelk.',
   },
+    {
+    id: 'portuguese-man-o-war',
+    name: 'Portuguese Man o\' War',
+    sciName: 'Physalia physalis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/183028065/large.jpeg',
+    region: 'north-atlantic',
+    fact: 'Not one animal but a colony of them: the float is a single individual, the fishing tentacles and the digesting parts are others, and not one of them could live alone. It cannot swim at all — it sails, and the sail leans left on some and right on others, so no one wind can blow the whole lot ashore.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -889,6 +897,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Steatocranus_casuarius%2C_male.jpg/1280px-Steatocranus_casuarius%2C_male.jpg',
     region: 'congo',
     fact: 'Its swim bladder is far too small to float it, which is the point: in the Congo rapids it hops along the bottom from stone to stone rather than be swept downstream.',
+  },
+    {
+    id: 'aubrys-flapshell-turtle',
+    name: 'Aubry\'s Flapshell Turtle',
+    sciName: 'Cycloderma aubryi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/107154473/large.jpg',
+    region: 'congo',
+    fact: 'A turtle with a leathery pancake for a shell and flaps of skin that fold down over its back legs when it pulls them in. It lies buried in mud with only a snorkel of a nose above it, breathing through its throat, which takes oxygen out of the water well enough that it need not surface for hours.',
   },
   // ---- East African Rift Lakes ----
   {
@@ -1369,6 +1385,14 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Eats whatever it finds — sponge, plankton, whatever the seals leave — in water a fraction of a degree from freezing, and grows so slowly that a starfish the size of your hand can be decades old.',
   },
+    {
+    id: 'leopard-seal',
+    name: 'Leopard Seal',
+    sciName: 'Hydrurga leptonyx',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/619041400/large.jpg',
+    region: 'southern-ocean',
+    fact: 'The one seal that hunts other seals, and it waits under the lip of the ice for penguins — but the same head is built for the opposite job: the back teeth lock together into a sieve, and krill strained through them is most of what it actually eats.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -1580,6 +1604,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Craspedacusta_sowerbyi_by_OpenCage.jpg/1280px-Craspedacusta_sowerbyi_by_OpenCage.jpg',
     region: 'great-lakes',
     fact: 'A jellyfish the size of a coin that appears in lakes, ponds and flooded quarries — sometimes in their thousands — then is not seen again for years. It spends most of its life as a speck of polyp on a stone, and a whole swarm is often one clone, all the same sex, so it can never breed.',
+  },
+    {
+    id: 'rusty-crayfish',
+    name: 'Rusty Crayfish',
+    sciName: 'Faxonius rusticus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/548344933/large.jpg',
+    region: 'great-lakes',
+    fact: 'Meets trouble with its claws spread instead of backing into a hole, which is how it takes water off quieter crayfish, and it mows the weed beds down to stubble once it has. Most of its spread is anglers tipping out the last of a bait bucket at the end of the day.',
   },
   // ---- Sea of Japan ----
   {
@@ -1848,6 +1880,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/580943393/large.jpg',
     region: 'mekong',
     fact: 'Males come in three ranks that can be told apart at a glance — small, orange-clawed, and a blue-clawed giant whose arms are longer than the rest of him. A male climbs the ranks as he grows, moulting into the next set of claws, and only the blue ones hold a burrow.',
+  },
+    {
+    id: 'irrawaddy-dolphin',
+    name: 'Irrawaddy Dolphin',
+    sciName: 'Orcaella brevirostris',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/544731364/large.jpg',
+    region: 'mekong',
+    fact: 'A dolphin with no beak at all and a forehead that bulges out over its face. It spits — a jet of water fired a couple of metres, apparently to panic fish into a shoal — and some of them work with net fishermen, driving the shoal in on a signal and eating whatever bolts.',
   },
   // ---- New Zealand ----
   {

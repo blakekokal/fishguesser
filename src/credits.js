@@ -90,6 +90,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Anarhichas-lupus-Atlanterhavsparken.jpg",
   },
+  "aubrys-flapshell-turtle": {
+    author: "Lucy Keith-Diagne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/66467819",
+  },
   "australasian-snapper": {
     author: "Auckland War Memorial Museum",
     license: "CC BY 4.0",
@@ -660,6 +666,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/27591961",
   },
+  "irrawaddy-dolphin": {
+    author: "Ian Dugdale",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/302263707",
+  },
   "japanese-angelshark": {
     author: "RYO SATO",
     license: "CC BY-SA 2.0",
@@ -755,6 +767,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Ctenopoma_acutirostre_1.JPG",
+  },
+  "leopard-seal": {
+    author: "Kyle Bowman",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/340198432",
   },
   "leopard-shark": {
     author: "Brian Gratwicke",
@@ -996,6 +1014,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Boreogadus_saida_Kaiyukan.jpg",
   },
+  "portuguese-man-o-war": {
+    author: "Jan Ebr & Ivana Ebrová",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/108680440",
+  },
   "potato-cod": {
     author: "NasserHalaweh",
     license: "CC BY-SA 4.0",
@@ -1115,6 +1139,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Gramma_loreto_01.jpg",
+  },
+  "rusty-crayfish": {
+    author: "Evan Feusi",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/304187437",
   },
   "sailfin-sandfish": {
     author: "Totti",
@@ -1711,4 +1741,9 @@ const PHOTO_ORDER = [
   "lions-mane-jellyfish",
   "freshwater-jellyfish",
   "pink-river-dolphin",
+  "leopard-seal",
+  "portuguese-man-o-war",
+  "irrawaddy-dolphin",
+  "rusty-crayfish",
+  "aubrys-flapshell-turtle",
 ];
