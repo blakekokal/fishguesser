@@ -7,10 +7,10 @@
  * exception list for the names that lie. The animals that are neither fish nor
  * crabs are few enough to name outright.
  *
- * "Fish mode" and "Everything but fish" cut the collection in two with nothing
- * left over; crab and shark mode are narrower cuts of the second. A shark or a
- * ray is of course a fish, but nobody choosing between fish and everything else
- * means to file it with the herrings, so both count here as everything else.
+ * "Fish mode" and "Sea life" cut the collection in two with nothing left over;
+ * crab and shark mode are narrower cuts of the second. A shark or a ray is of
+ * course a fish, but nobody choosing between fish and everything else means to
+ * file it with the herrings, so both count as sea life here.
  *
  * Adding a species: a new crab or shark is picked up by its name and needs
  * nothing here. Anything else that is not a fish — another cephalopod, a
@@ -51,8 +51,8 @@ const isCrab = (fish) => CRAB_NAME.test(fish.name) && !NOT_CRABS.has(fish.id);
 const isShark = (fish) => SHARK_NAME.test(fish.name) && !NOT_SHARKS.has(fish.id);
 const isRay = (fish) => RAY_NAME.test(fish.name);
 
-/* Everything a player would not call a fish. Its opposite is fish mode, so
- * between the two nothing in the collection goes undealt. */
+/* Everything a player would not call a fish — what the "Sea life" mode deals.
+ * Its opposite is fish mode, so between the two nothing goes undealt. */
 const isOther = (fish) => (
   isCrab(fish) || isShark(fish) || isRay(fish) || NOT_FISH.has(fish.id)
 );
@@ -61,9 +61,9 @@ const isFish = (fish) => !isOther(fish);
 /* The mode row of the filter, in the order it is shown. `test` is what a game
  * is dealt from; `short` is what fits on the tile in the top bar. */
 const KIND_FILTERS = [
-  { id: 'all', label: 'All sea life', short: 'All', test: () => true },
+  { id: 'all', label: 'All', short: 'All', test: () => true },
   { id: 'fish', label: 'Fish mode', short: 'Fish', test: isFish },
-  { id: 'other', label: 'Everything but fish', short: 'Not fish', test: isOther },
+  { id: 'other', label: 'Sea life', short: 'Sea life', test: isOther },
   { id: 'crab', label: 'Crab mode', short: 'Crabs', test: isCrab },
   { id: 'shark', label: 'Shark mode', short: 'Sharks', test: isShark },
 ];
