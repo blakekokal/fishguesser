@@ -51,9 +51,7 @@ const NOT_FISH = new Set([
   'aubrys-flapshell-turtle',
   'matamata',
   'crown-of-thorns-starfish',
-  'walrus',
   'antarctic-krill',
-  'hippopotamus',
   'horseshoe-crab',         // excluded from crabs above, so it needs saying here
 ]);
 
