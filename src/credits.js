@@ -30,6 +30,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/134769128",
   },
+  "antarctic-krill": {
+    author: "Ingvild Riska",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/264532850",
+  },
   "antarctic-toothfish": {
     author: "Citron",
     license: "CC BY-SA 3.0",
@@ -408,6 +414,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Rhinoptera_bonasus_Brest.jpg",
   },
+  "crown-of-thorns-starfish": {
+    author: "Darren Obbard",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/264634378",
+  },
   "cuckoo-catfish": {
     author: "Mario Rubio García",
     license: "CC BY 2.0",
@@ -654,6 +666,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
   },
+  "hippopotamus": {
+    author: "Tony King",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/212246796",
+  },
   "horsehair-crab": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -851,6 +869,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Marbled_crab_(Pachygrapsus_marmoratus)_Butrint.jpg",
+  },
+  "matamata": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/121178138",
   },
   "mediterranean-cardinalfish": {
     author: "Ben Costamagna",
@@ -1410,6 +1434,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
   },
+  "walrus": {
+    author: "steve b",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/279753045",
+  },
   "warty-frogfish": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -1746,4 +1776,9 @@ const PHOTO_ORDER = [
   "irrawaddy-dolphin",
   "rusty-crayfish",
   "aubrys-flapshell-turtle",
+  "matamata",
+  "crown-of-thorns-starfish",
+  "walrus",
+  "antarctic-krill",
+  "hippopotamus",
 ];

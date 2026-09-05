@@ -500,6 +500,14 @@ const FISH = [
     region: 'amazon',
     fact: 'Its neck bones never fused, so unlike a dolphin of the open sea it can turn its head to look at you, and it needs to: it hunts in among tree trunks, in forest that spends half the year under water. Males turn pinker the more they fight, the colour being scar tissue.',
   },
+    {
+    id: 'matamata',
+    name: 'Matamata',
+    sciName: 'Chelus fimbriata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/205032125/large.jpg',
+    region: 'amazon',
+    fact: 'Lies on the bottom looking like a rotting leaf, head flattened into a triangle and hung with frills of skin that drift in the current. It cannot chew and can barely bite: when a fish comes close enough it opens its throat so fast that the inrush of water carries the fish down whole.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -906,6 +914,14 @@ const FISH = [
     region: 'congo',
     fact: 'A turtle with a leathery pancake for a shell and flaps of skin that fold down over its back legs when it pulls them in. It lies buried in mud with only a snorkel of a nose above it, breathing through its throat, which takes oxygen out of the water well enough that it need not surface for hours.',
   },
+    {
+    id: 'hippopotamus',
+    name: 'Hippopotamus',
+    sciName: 'Hippopotamus amphibius',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/375086268/large.jpg',
+    region: 'congo',
+    fact: 'Too dense to swim, so it walks along the bottom and pushes off it, and it surfaces to breathe in its sleep without ever waking up. The red that beads on its skin is not blood but its own sunscreen — an oil that goes from clear to red to brown as it dries, and kills bacteria on the way.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -1011,6 +1027,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/39857929/large.jpg',
     region: 'rift-lakes',
     fact: 'The biggest sea slug there is, and one of the few that can really swim: it unrolls the skirt of its body and flaps it, a foot of scarlet flamenco in open water. A pair of shrimp usually lives in the feathery gill on its back, coloured to match their host exactly.',
+  },
+    {
+    id: 'crown-of-thorns-starfish',
+    name: 'Crown-of-thorns Starfish',
+    sciName: 'Acanthaster planci',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/475207958/large.jpeg',
+    region: 'rift-lakes',
+    fact: 'Eats coral by turning its stomach inside out through its mouth and spreading it over the reef, digesting the polyps where they sit and leaving bare white rock. One can clear its own body area in a night, its spines carry venom that hurts for weeks, and in a plague year a reef can lose most of its coral.',
   },
   // ---- Coral Triangle ----
   {
@@ -1393,6 +1417,14 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'The one seal that hunts other seals, and it waits under the lip of the ice for penguins — but the same head is built for the opposite job: the back teeth lock together into a sieve, and krill strained through them is most of what it actually eats.',
   },
+    {
+    id: 'antarctic-krill',
+    name: 'Antarctic Krill',
+    sciName: 'Euphausia superba',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/475011078/large.jpg',
+    region: 'southern-ocean',
+    fact: 'One weighs less than a paperclip, but taken together they may outweigh every human alive, and their swarms turn kilometres of water rust-red. When the food runs out this one does something almost nothing else can: it moults backwards, shrinking to a smaller animal rather than starving.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -1474,6 +1506,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg/1280px-Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg',
     region: 'arctic',
     fact: 'Reckoned the longest animal alive: one measured out at thirty-seven metres of trailing tentacle, beating a blue whale, though nearly all of that is thread thinner than string. The bell alone can be taller than you are wide, and the whole animal is about 95 per cent water.',
+  },
+    {
+    id: 'walrus',
+    name: 'Walrus',
+    sciName: 'Odobenus rosmarus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/502380739/large.jpeg',
+    region: 'arctic',
+    fact: 'The tusks are climbing hooks — it drives them into the ice and hauls its weight up after them. Dinner is clams, found in the dark by feel with those whiskers, blasted out of the mud with a jet of water and then sucked out of the shell so hard that the shell is left behind.',
   },
   // ---- Great Lakes ----
   {
