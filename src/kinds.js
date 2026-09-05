@@ -44,7 +44,6 @@ const NOT_FISH = new Set([
   'lions-mane-jellyfish',
   'freshwater-jellyfish',
   'pink-river-dolphin',
-  'leopard-seal',
   'portuguese-man-o-war',   // a colony of four kinds of animal, no less a not-fish
   'irrawaddy-dolphin',
   'rusty-crayfish',

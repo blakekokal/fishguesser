@@ -1401,15 +1401,7 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Eats whatever it finds — sponge, plankton, whatever the seals leave — in water a fraction of a degree from freezing, and grows so slowly that a starfish the size of your hand can be decades old.',
   },
-    {
-    id: 'leopard-seal',
-    name: 'Leopard Seal',
-    sciName: 'Hydrurga leptonyx',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/619041400/large.jpg',
-    region: 'southern-ocean',
-    fact: 'The one seal that hunts other seals, and it waits under the lip of the ice for penguins — but the same head is built for the opposite job: the back teeth lock together into a sieve, and krill strained through them is most of what it actually eats.',
-  },
-    {
+      {
     id: 'antarctic-krill',
     name: 'Antarctic Krill',
     sciName: 'Euphausia superba',
