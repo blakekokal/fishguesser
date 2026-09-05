@@ -914,15 +914,7 @@ const FISH = [
     region: 'congo',
     fact: 'A turtle with a leathery pancake for a shell and flaps of skin that fold down over its back legs when it pulls them in. It lies buried in mud with only a snorkel of a nose above it, breathing through its throat, which takes oxygen out of the water well enough that it need not surface for hours.',
   },
-    {
-    id: 'hippopotamus',
-    name: 'Hippopotamus',
-    sciName: 'Hippopotamus amphibius',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/375086268/large.jpg',
-    region: 'congo',
-    fact: 'Too dense to swim, so it walks along the bottom and pushes off it, and it surfaces to breathe in its sleep without ever waking up. The red that beads on its skin is not blood but its own sunscreen — an oil that goes from clear to red to brown as it dries, and kills bacteria on the way.',
-  },
-  // ---- East African Rift Lakes ----
+    // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
     name: 'Electric Yellow Cichlid',
@@ -1507,15 +1499,7 @@ const FISH = [
     region: 'arctic',
     fact: 'Reckoned the longest animal alive: one measured out at thirty-seven metres of trailing tentacle, beating a blue whale, though nearly all of that is thread thinner than string. The bell alone can be taller than you are wide, and the whole animal is about 95 per cent water.',
   },
-    {
-    id: 'walrus',
-    name: 'Walrus',
-    sciName: 'Odobenus rosmarus',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/502380739/large.jpeg',
-    region: 'arctic',
-    fact: 'The tusks are climbing hooks — it drives them into the ice and hauls its weight up after them. Dinner is clams, found in the dark by feel with those whiskers, blasted out of the mud with a jet of water and then sucked out of the shell so hard that the shell is left behind.',
-  },
-  // ---- Great Lakes ----
+    // ---- Great Lakes ----
   {
     id: 'lake-sturgeon',
     name: 'Lake Sturgeon',

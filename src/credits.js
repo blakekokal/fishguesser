@@ -666,12 +666,6 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
   },
-  "hippopotamus": {
-    author: "Tony King",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/212246796",
-  },
   "horsehair-crab": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -1434,12 +1428,6 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
   },
-  "walrus": {
-    author: "steve b",
-    license: "CC0",
-    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    source: "https://www.inaturalist.org/observations/279753045",
-  },
   "warty-frogfish": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -1778,7 +1766,5 @@ const PHOTO_ORDER = [
   "aubrys-flapshell-turtle",
   "matamata",
   "crown-of-thorns-starfish",
-  "walrus",
   "antarctic-krill",
-  "hippopotamus",
 ];
