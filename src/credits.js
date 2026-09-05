@@ -859,10 +859,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Marbled_crab_(Pachygrapsus_marmoratus)_Butrint.jpg",
   },
   "matamata": {
-    author: "Whaldener Endo",
-    license: "CC0",
-    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    source: "https://www.inaturalist.org/observations/121178138",
+    author: "J. Patrick Fischer",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:2009_Chelus_fimbriatus.JPG",
   },
   "mediterranean-cardinalfish": {
     author: "Ben Costamagna",
