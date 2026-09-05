@@ -38,10 +38,11 @@ and its name; you decide which of fifteen regions of the world it comes from.
   never simply hand over the answer
 - **A front page with the rules**, so the two kinds of peek and what they cost
   are clear before the first fish rather than discovered by losing points
-- **Two ways to peek** — **Show half** gives back the last word of the name and
-  costs no reveal, while **Reveal name** un-masks the whole thing and spends one
-  of two reveals shared across the game. The full name always appears free once
-  you have guessed, since by then it is not a hint
+- **Two ways to peek** — **Show half** gives back half the name's letters,
+  picked at random and scattered through it, and costs no reveal, while
+  **Reveal name** un-masks the whole thing and spends one of two reveals shared
+  across the game. The full name always appears free once you have guessed,
+  since by then it is not a hint
 - **Bonuses for not peeking** — +500 for each fish you guess with its name still
   fully censored, and another +500 for every reveal you finish with. Either kind
   of peek gives up that round's +500; only a full reveal costs you a reveal

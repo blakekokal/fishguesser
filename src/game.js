@@ -222,18 +222,21 @@
    * but nothing about the words themselves shows. */
   const maskName = (name) => name.replace(/\S/g, '•');
 
-  const blank = (word) => '•'.repeat(word.length);
-
-  /* The free step: give back the last word, which says what kind of fish it is
-   * ("… Cod", "… Tetra") while the leading word — nearly always the geographic
-   * giveaway — stays hidden. A one-word name gives back its second half. */
+  /* The free step: hand back half the letters, scattered through the name
+   * rather than taken off one end. Giving back a whole word handed over a word
+   * — often the one that names the place — while this leaves every word partly
+   * standing, so the name has to be worked out from its shape. Which half is
+   * drawn fresh each time, and a round only ever asks once. */
   function halfMaskName(name) {
-    const words = name.split(' ');
-    if (words.length === 1) {
-      const cut = Math.ceil(name.length / 2);
-      return blank(name.slice(0, cut)) + name.slice(cut);
+    const chars = Array.from(name);
+    const spots = chars.map((c, i) => i).filter((i) => chars[i].trim() !== '');
+    // Fisher-Yates, so every letter has the same chance of being one shown.
+    for (let i = spots.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [spots[i], spots[j]] = [spots[j], spots[i]];
     }
-    return words.map((w, i) => (i < words.length - 1 ? blank(w) : w)).join(' ');
+    const shown = new Set(spots.slice(0, Math.ceil(spots.length / 2)));
+    return chars.map((c, i) => (c.trim() === '' || shown.has(i) ? c : '•')).join('');
   }
 
   function renderHints() {
