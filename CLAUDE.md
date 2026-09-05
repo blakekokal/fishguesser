@@ -17,6 +17,13 @@ A summary that lists regions undoes all of it in one line.
 Commit messages and `src/fish.js` obviously record the region — that is the
 data. Reading a diff is a deliberate act; a chat summary is not.
 
+## What counts as sea life
+
+A species has to live its life in the water. Cetaceans are in — a whale or a
+river dolphin never leaves it. Anything that hauls out on land or ice to rest,
+breed or sleep is not: seals, walruses, hippos and the like have been asked for
+and then removed twice, so do not add another.
+
 ## Where work should land
 
 The repository has no `main`. The default branch — the one GitHub Pages serves,

@@ -780,12 +780,6 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Ctenopoma_acutirostre_1.JPG",
   },
-  "leopard-seal": {
-    author: "Kyle Bowman",
-    license: "CC0",
-    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    source: "https://www.inaturalist.org/observations/340198432",
-  },
   "leopard-shark": {
     author: "Brian Gratwicke",
     license: "CC BY 2.0",
@@ -1759,7 +1753,6 @@ const PHOTO_ORDER = [
   "lions-mane-jellyfish",
   "freshwater-jellyfish",
   "pink-river-dolphin",
-  "leopard-seal",
   "portuguese-man-o-war",
   "irrawaddy-dolphin",
   "rusty-crayfish",

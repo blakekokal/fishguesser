@@ -1743,13 +1743,6 @@
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
-  "leopard-seal": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619041400/large.jpg",
-    "source": "https://www.inaturalist.org/observations/340198432",
-    "author": "Kyle Bowman",
-    "license": "CC0",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-  },
   "portuguese-man-o-war": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183028065/large.jpeg",
     "source": "https://www.inaturalist.org/observations/108680440",
