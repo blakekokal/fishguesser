@@ -1889,5 +1889,40 @@
     "author": "steve b",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "dumbo-octopus": {
+    "commons_title": "File:Dumbo-hires (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dumbo-hires_%28cropped%29.jpg",
+    "author": "NOAA Okeanos Explorer",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "sea-pig": {
+    "commons_title": "File:Scotoplanes globosa and crab.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Scotoplanes_globosa_and_crab.jpg",
+    "author": "NOAA/MBARI",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "giant-tube-worm": {
+    "commons_title": "File:Vers géants (Riftia Pachyptila) dans leur habitat (Ifremer 00569-68102).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg",
+    "author": "Ifremer",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "swimming-sea-cucumber": {
+    "commons_title": "File:Enypniastes eximia Puerto Rico.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Enypniastes_eximia_Puerto_Rico.jpg",
+    "author": "NOAA Okeanos Explorer",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "tripod-fish": {
+    "commons_title": "File:Campagne BIOZAIRE 2 - Poisson trépied ou poisson tripode (Ifremer 00574-68561).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg",
+    "author": "Ifremer",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

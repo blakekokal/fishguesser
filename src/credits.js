@@ -474,6 +474,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Carpetshark.jpg",
   },
+  "dumbo-octopus": {
+    author: "NOAA Okeanos Explorer",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Dumbo-hires_%28cropped%29.jpg",
+  },
   "dungeness-crab": {
     author: "Bildflut",
     license: "CC0",
@@ -641,6 +647,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Channa_micropeltes_-_T%C3%AAte_de_serpent_-_Aqua_Porte_Dor%C3%A9e_01.JPG",
+  },
+  "giant-tube-worm": {
+    author: "Ifremer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg",
   },
   "gilt-head-bream": {
     author: "Thesupermat",
@@ -1254,6 +1266,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg",
   },
+  "sea-pig": {
+    author: "NOAA/MBARI",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Scotoplanes_globosa_and_crab.jpg",
+  },
   "sea-scorpion": {
     author: "Libby Keatley",
     license: "CC BY 4.0",
@@ -1416,6 +1434,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/322520636",
   },
+  "swimming-sea-cucumber": {
+    author: "NOAA Okeanos Explorer",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Enypniastes_eximia_Puerto_Rico.jpg",
+  },
   "tambaqui": {
     author: "Brian Gratwicke",
     license: "CC BY 2.0",
@@ -1463,6 +1487,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/208159476",
+  },
+  "tripod-fish": {
+    author: "Ifremer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg",
   },
   "two-banded-seabream": {
     author: "Donald Davesne",
@@ -1858,4 +1888,9 @@ const PHOTO_ORDER = [
   "common-hermit-crab",
   "whale-shark",
   "southern-right-whale",
+  "dumbo-octopus",
+  "sea-pig",
+  "giant-tube-worm",
+  "swimming-sea-cucumber",
+  "tripod-fish",
 ];
