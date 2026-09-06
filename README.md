@@ -122,11 +122,12 @@ and it only carries the two numbers above.
 
 `photos.html` steps through all 274 photographs one at a time, in the same
 letterboxed frame the game uses, so a picture can be judged as a player would
-meet it: is that a whole fish, is it alive, is it recognisable? The name,
-species and credit show underneath, since the page is mostly used to spot a bad
-photo and say which one it is. `R` hides them to look at a picture cold. The
-region is never shown, deliberately — that is the game's answer, and reviewing
-the photographs should not spend it. A row of the game's modes narrows it to
+meet it: is that a whole fish, is it alive, is it recognisable? Nothing is
+named — what is in the collection is the game's other secret — so `R` (or the
+button) names the photo on screen for the one case that needs it, saying which
+picture wants replacing. That reveal lasts for that photo alone and is gone at
+the next one. The region is never shown at all, deliberately — that is the
+game's answer, and reviewing the photographs should not spend it. A row of the game's modes narrows it to
 one group at a time — the weird ones, the crabs — so a batch just added can be
 looked at without stepping past everything else. It is linked under
 **Settings** in the top bar, and from the footer.
