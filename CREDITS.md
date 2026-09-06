@@ -122,7 +122,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `gulf-saratoga` | Ginkgo100 | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG) |
 | `harlequin-sweetlips` | Rickard Zerpe | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg) |
 | `horsehair-crab` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Erimacrus_isenbeckii_Sunpiazza1.jpg) |
-| `horseshoe-crab` | Ryan Hearty | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/27591961) |
+| `horseshoe-crab` | Hans Hillewaert | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Limulus_polyphemus_(aq.).jpg) |
 | `irrawaddy-dolphin` | Ian Dugdale | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/302263707) |
 | `japanese-angelshark` | RYO SATO | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Squatina_japonica3.jpg) |
 | `japanese-bullhead-shark` | Jin Kemoole | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Japanese_bullhead_shark_Suma_Aqualife_Park.jpg) |

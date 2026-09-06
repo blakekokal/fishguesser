@@ -673,10 +673,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Erimacrus_isenbeckii_Sunpiazza1.jpg",
   },
   "horseshoe-crab": {
-    author: "Ryan Hearty",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/27591961",
+    author: "Hans Hillewaert",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Limulus_polyphemus_(aq.).jpg",
   },
   "irrawaddy-dolphin": {
     author: "Ian Dugdale",

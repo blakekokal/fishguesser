@@ -358,7 +358,7 @@ const FISH = [
     id: 'horseshoe-crab',
     name: 'Atlantic Horseshoe Crab',
     sciName: 'Limulus polyphemus',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/42946252/large.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Limulus_polyphemus_%28aq.%29.jpg/1280px-Limulus_polyphemus_%28aq.%29.jpg',
     region: 'north-atlantic',
     fact: 'Not a crab at all but a cousin of the spiders, with ten eyes and blue blood that clots around bacteria — which is why medicine bleeds it to prove a vaccine is clean. Its shape has not needed changing in something like 450 million years.',
   },
