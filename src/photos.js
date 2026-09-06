@@ -2,9 +2,12 @@
  *
  * A reviewing tool, not part of the game: it steps through every fish one at a
  * time in the same letterboxed frame the game uses, so a picture can be judged
- * as a player would meet it. The name is shown by default so a bad photo can be
- * named; `R` hides it to look at a picture cold. The region is never shown —
- * that is the answer, and reviewing photos must not spend it.
+ * as a player would meet it. Nothing is named — the collection is the game's
+ * other secret, so knowing what is in it before meeting it spoils the rounds
+ * the same way the region does. `R` names the photo on screen, for the one
+ * case that needs it: saying which picture wants replacing. That reveal lasts
+ * for that photo only and is gone at the next one, so a review stays blind by
+ * default. The region is never shown at all.
  *
  * Two orders: newest photo first, which is what a review after adding some
  * fish wants, and the collection's own order, where a number is a stable way
@@ -50,9 +53,9 @@
   let pool = FISH;
   let list = newestOf(FISH);
   let index = 0;
-  /* On by default: the page is mostly used to spot a bad photo and say which
-   * one it is, and that needs the name. `R` hides it to judge a picture cold. */
-  let revealed = true;
+  /* Off by default, and reset at every photo: the point of the page is to look
+   * at pictures without learning what is in the collection. */
+  let revealed = false;
 
   /* The next photo is fetched while this one is being looked at, so stepping
    * forward does not wait on the network every time. */
@@ -65,7 +68,7 @@
   function renderDetails() {
     ui.details.hidden = !revealed;
     ui.reveal.setAttribute('aria-pressed', String(revealed));
-    ui.reveal.textContent = revealed ? 'Hide details' : 'Show details';
+    ui.reveal.textContent = revealed ? 'Hide name' : 'Name this one';
     if (!revealed) return;
 
     const fish = list[index];
@@ -92,9 +95,16 @@
     }
   }
 
+  let shown = null;
+
   function show(i) {
     index = Math.min(Math.max(i, 0), list.length - 1);
     const fish = list[index];
+    /* A name is revealed for one photo and never carried on to another, which
+     * is a change of fish rather than of position — the number can stay the
+     * same across a change of mode or order. */
+    if (fish !== shown) revealed = false;
+    shown = fish;
 
     ui.photo.classList.remove('is-ready', 'is-broken');
     ui.photoBg.classList.remove('is-ready');

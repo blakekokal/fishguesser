@@ -19,7 +19,7 @@
   <div class="review-tools">
     <a class="btn btn-ghost" href="index.html">Back to the game</a>
     <button class="btn btn-ghost" id="orderBtn" type="button" aria-pressed="true">Newest first</button>
-    <button class="btn btn-ghost" id="revealBtn" type="button" aria-pressed="true">Hide details</button>
+    <button class="btn btn-ghost" id="revealBtn" type="button" aria-pressed="false">Name this one</button>
   </div>
 
   <!-- The same modes the game deals from, so a batch just added can be looked
@@ -35,9 +35,9 @@
     <img id="fishPhoto" class="photo" alt="Photograph under review" src="">
   </div>
 
-  <!-- Name and credit only, never the region: that is the game's answer. Shown
-       by default so a bad photo can be named; the toggle hides it to judge a
-       picture cold, the way a player meets it. -->
+  <!-- Name and credit only, never the region: that is the game's answer. Hidden
+       by default, and only for the photo on screen when asked for, so checking
+       the pictures does not quietly hand over what is in the collection. -->
   <div class="review-details" id="details">
     <h1 class="review-name" id="fishName">—</h1>
     <p class="review-sci" id="fishSci">—</p>
@@ -57,7 +57,8 @@
     <button class="btn btn-primary" id="nextBtn" type="button" aria-label="Next photo">Next ›</button>
   </div>
 
-  <p class="review-hint">Arrow keys step through. <kbd>R</kbd> hides the details to judge a photo cold.</p>
+  <p class="review-hint">Arrow keys step through. <kbd>R</kbd> names the one on
+    screen — say <em>number 12 in Weird</em> and the name is not needed at all.</p>
 </main>
 
 <script src="src/version.js"></script>
