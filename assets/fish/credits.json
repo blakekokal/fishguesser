@@ -1394,11 +1394,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "swell-shark": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583464564/large.jpg",
-    "source": "https://www.inaturalist.org/observations/322520636",
-    "author": "Matthew Inabinett",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
+    "commons_title": "File:Cephaloscyllium ventriosum.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cephaloscyllium_ventriosum.jpg",
+    "author": "Cliff",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
   },
   "sand-tiger-shark": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528604108/large.jpg",
@@ -1835,9 +1835,9 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "sperm-whale": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626149481/large.jpg",
-    "source": "https://www.inaturalist.org/observations/343707099",
-    "author": "Thomas Wilson",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/542160818/large.jpg",
+    "source": "https://www.inaturalist.org/observations/300883241",
+    "author": "Daniel Benák",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -1877,11 +1877,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "whale-shark": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420227771/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/236220728",
-    "author": "Jean-Paul Boerekamps",
-    "license": "CC0",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    "commons_title": "File:Whale shark Georgia aquarium.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Whale_shark_Georgia_aquarium.jpg",
+    "author": "Zac Wolf",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
   },
   "southern-right-whale": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260187622/large.jpeg",
