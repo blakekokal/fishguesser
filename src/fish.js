@@ -370,6 +370,14 @@ const FISH = [
     region: 'caribbean',
     fact: 'A body the size of a thumbnail on legs three times as long, with the head drawn out into a spike between the eyes and the claws dipped in violet. It picks at anything small enough from a sponge or an anemone, and will see off another of its own kind to keep the perch.',
   },
+    {
+    id: 'swimming-sea-cucumber',
+    name: 'Swimming Sea Cucumber',
+    sciName: 'Enypniastes eximia',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Enypniastes_eximia_Puerto_Rico.jpg/1280px-Enypniastes_eximia_Puerto_Rico.jpg',
+    region: 'caribbean',
+    fact: 'A sea cucumber that gave up the seabed: it lifts off and swims under a webbed veil, clear enough that the last meal shows as a red loop through the middle of it. Touch it and the skin flashes blue-green, and can be sloughed off onto whatever did the touching.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -840,6 +848,14 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Cuts a living sponge to the shape of its own back and wears it there for life, gripped by the last two pairs of legs, which point upwards for no other purpose. The sponge goes on growing, so the disguise only fits better with age — and almost nothing will eat a sponge.',
   },
+    {
+    id: 'giant-tube-worm',
+    name: 'Giant Tube Worm',
+    sciName: 'Riftia pachyptila',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg/1280px-Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg',
+    region: 'north-pacific',
+    fact: 'Has no mouth, no gut and no way of feeding itself. It grows two metres tall beside water hot enough to melt lead, and lives entirely on the bacteria packed into its own body, which build its food out of the poison coming up through the floor.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -945,6 +961,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/60318367/large.jpeg',
     region: 'congo',
     fact: 'The male carries one claw about as heavy as the rest of him and one so small it can barely feed him, and he spends the day waving the big one to be noticed. Lose it and the replacement grows back lighter and weaker but the same size — a bluff that works, because nobody can tell by looking.',
+  },
+    {
+    id: 'tripod-fish',
+    name: 'Tripod Fish',
+    sciName: 'Bathypterois grallator',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg/1280px-Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg',
+    region: 'congo',
+    fact: 'Stands on three stilts — two fin rays and the lower half of its tail, each longer than the fish itself — and faces into the current with its front fins held up like antennae, waiting to feel something drift into them. Its eyes are nearly useless, so it hardly needs them.',
   },
   // ---- East African Rift Lakes ----
   {
@@ -1489,6 +1513,14 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'The crusted patches on its head are not barnacles but its own roughened skin, laid out differently on every animal, so one can be named from a photograph. It has no fin on its back at all, and will hold its tail up in the wind and let itself be sailed along.',
   },
+    {
+    id: 'sea-pig',
+    name: 'Sea Pig',
+    sciName: 'Scotoplanes globosa',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Scotoplanes_globosa_and_crab.jpg/1280px-Scotoplanes_globosa_and_crab.jpg',
+    region: 'southern-ocean',
+    fact: 'Walks the abyssal mud on ten inflated legs, following its nose to the freshest patch of whatever has sunk from above and eating the sediment to get at it. Young king crabs ride underneath, out of sight of anything hunting from over the top.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -1578,6 +1610,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Blue_Chionoecetes_opilio.JPG/1280px-Blue_Chionoecetes_opilio.JPG',
     region: 'arctic',
     fact: 'Moults for the last time when it comes of age and then never grows again, so the shell it hardens into has to last the rest of its life. An old one is furred with barnacles and scratched all over, carrying every mark it has collected since, because it can never shed them.',
+  },
+    {
+    id: 'dumbo-octopus',
+    name: 'Dumbo Octopus',
+    sciName: 'Grimpoteuthis sp.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Dumbo-hires_%28cropped%29.jpg/1280px-Dumbo-hires_%28cropped%29.jpg',
+    region: 'arctic',
+    fact: 'Flies through black water four kilometres down by flapping a pair of fins like ears, and swallows what it catches whole rather than tearing it up. The female carries eggs at every stage at once, so whenever conditions allow she has one ready to lay.',
   },
   // ---- Great Lakes ----
   {
