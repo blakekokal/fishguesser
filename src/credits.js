@@ -264,6 +264,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg",
   },
+  "boxer-crab": {
+    author: "Chris Spain",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/258464606",
+  },
   "brook-trout": {
     author: "James St. John",
     license: "CC BY 2.0",
@@ -1278,6 +1284,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg",
   },
+  "snow-crab": {
+    author: "Blue Rose Man",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Blue_Chionoecetes_opilio.JPG",
+  },
   "sockeye-salmon": {
     author: "David Menke",
     license: "Public domain",
@@ -1313,6 +1325,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/217304938",
+  },
+  "sponge-crab": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/31873557",
   },
   "spotted-ratfish": {
     author: "Stosh Morency",
@@ -1434,6 +1452,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/37463914",
   },
+  "west-african-fiddler-crab": {
+    author: "Isaac Caswell",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/37993895",
+  },
   "white-spotted-cichlid": {
     author: "lienyuan lee",
     license: "CC BY 3.0",
@@ -1469,6 +1493,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/103705249",
+  },
+  "yellowline-arrow-crab": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/120487148",
   },
   "yellowmouth-barracuda": {
     author: "Donald Davesne",
@@ -1760,4 +1790,9 @@ const PHOTO_ORDER = [
   "matamata",
   "crown-of-thorns-starfish",
   "antarctic-krill",
+  "west-african-fiddler-crab",
+  "boxer-crab",
+  "sponge-crab",
+  "yellowline-arrow-crab",
+  "snow-crab",
 ];
