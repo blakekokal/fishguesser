@@ -1,7 +1,7 @@
 /* Fishguesser — what each species is, for the mode filter.
  *
  * A game can be narrowed to part of the collection: fish only, crabs, sharks
- * and whales. Rather than hang a `kind` on all 255 entries, the groups that
+ * and whales, or just the strange-looking ones. Rather than hang a `kind` on all 255 entries, the groups that
  * read off a name reliably are matched by name — anything with "crab" in it is
  * a crab, anything with "shark", "dogfish" or "wobbegong" is a shark, anything
  * with "whale", "dolphin" or "porpoise" is a whale — with an exception list for
@@ -84,12 +84,52 @@ const isOther = (fish) => (
 );
 const isFish = (fish) => !isOther(fish);
 
+/* Weird mode: the ones worth looking at twice. This is the one group a rule
+ * cannot find — nothing in a name or a family says "strange" — so it is a hand
+ * written list, chosen on the photograph: an animal shaped wrong, dressed in
+ * colours nothing needs, wearing something it picked up, or built along lines
+ * that look like a mistake. A new species belongs here only if its picture
+ * would stop somebody scrolling. */
+const WEIRD = new Set([
+  // shaped wrong
+  'spotted-ratfish', 'sarcastic-fringehead', 'grunt-sculpin', 'wolf-eel',
+  'peacock-flounder', 'atlantic-wolffish', 'lumpfish', 'spiny-lumpsucker',
+  'common-dragonet', 'flying-gurnard', 'red-gurnard', 'longhorn-cowfish',
+  'torafugu', 'japanese-pineconefish', 'bumphead-parrotfish', 'nurseryfish',
+  'giant-mudskipper', 'clown-featherback', 'elephantnose-fish', 'matamata',
+  'longnose-gar', 'american-paddlefish', 'lake-sturgeon', 'goliath-tigerfish',
+  'largetooth-sawfish', 'japanese-sawshark', 'japanese-angelshark', 'angelshark',
+  'tripod-fish', 'sea-pig', 'dumbo-octopus', 'swimming-sea-cucumber',
+  'giant-tube-worm', 'greenland-shark', 'sperm-whale', 'whale-shark',
+  // dressed for it
+  'mandarinfish', 'psychedelic-frogfish', 'warty-frogfish', 'ribbon-eel',
+  'pygmy-seahorse', 'weedy-seadragon', 'harlequin-sweetlips', 'clown-triggerfish',
+  'pyjama-cardinalfish', 'banggai-cardinalfish', 'moorish-idol', 'garibaldi',
+  'siamese-fighting-fish', 'discus', 'zebra-pleco', 'spanish-dancer',
+  'blue-ringed-octopus', 'peacock-mantis-shrimp', 'vampire-crab',
+  'crown-of-thorns-starfish', 'lions-mane-jellyfish', 'portuguese-man-o-war',
+  'sea-angel', 'freshwater-jellyfish', 'antarctic-cushion-star',
+  // carrying, hiding or plugged into something
+  'sponge-crab', 'boxer-crab', 'common-hermit-crab', 'horseshoe-crab',
+  'yellowline-arrow-crab', 'japanese-spider-crab', 'horsehair-crab',
+  'chinese-mitten-crab', 'west-african-fiddler-crab', 'christmas-island-red-crab',
+  'tasselled-wobbegong', 'leopard-bushfish', 'glass-catfish',
+  'upside-down-catfish', 'electric-catfish', 'electric-eel', 'marbled-electric-ray',
+  'sea-lamprey', 'reedfish', 'ornate-bichir', 'african-butterflyfish',
+  'buffalohead-cichlid', 'aubrys-flapshell-turtle', 'pink-river-dolphin',
+  'caribbean-reef-octopus', 'common-cuttlefish', 'swell-shark',
+  'draughtsboard-shark', 'climbing-perch', 'kissing-gourami',
+]);
+
+const isWeird = (fish) => WEIRD.has(fish.id);
+
 /* The mode row of the filter, in the order it is shown. `test` is what a game
  * is dealt from; `short` is what fits on the tile in the top bar. */
 const KIND_FILTERS = [
   { id: 'all', label: 'All', short: 'All', test: () => true },
   { id: 'fish', label: 'Fish mode', short: 'Fish', test: isFish },
   { id: 'other', label: 'Sea life', short: 'Sea life', test: isOther },
+  { id: 'weird', label: 'Weird mode', short: 'Weird', test: isWeird },
   { id: 'crab', label: 'Crab mode', short: 'Crabs', test: isCrab },
   { id: 'shark', label: 'Shark/whale mode', short: 'Sharks/whales',
     test: (fish) => isShark(fish) || isWhale(fish) },
