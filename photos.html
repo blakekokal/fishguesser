@@ -21,6 +21,12 @@
     <button class="btn btn-ghost" id="orderBtn" type="button" aria-pressed="true">Newest first</button>
     <button class="btn btn-ghost" id="revealBtn" type="button" aria-pressed="true">Hide details</button>
   </div>
+
+  <!-- The same modes the game deals from, so a batch just added can be looked
+       at on its own — the weird ones, the crabs — instead of stepping through
+       everything. Built from KIND_FILTERS, so the labels live in one place. -->
+  <div class="filter-row review-modes" id="modeRow" role="group"
+       aria-label="Which species to step through"></div>
 </header>
 
 <main class="review">
@@ -57,6 +63,7 @@
 <script src="src/version.js"></script>
 <script src="src/regions.js"></script>
 <script src="src/fish.js"></script>
+<script src="src/kinds.js"></script>
 <script src="src/credits.js"></script>
 <script src="src/photos.js"></script>
 </body>

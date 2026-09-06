@@ -126,8 +126,10 @@ meet it: is that a whole fish, is it alive, is it recognisable? The name,
 species and credit show underneath, since the page is mostly used to spot a bad
 photo and say which one it is. `R` hides them to look at a picture cold. The
 region is never shown, deliberately — that is the game's answer, and reviewing
-the photographs should not spend it. It is linked under **Settings** in the top
-bar, and from the footer.
+the photographs should not spend it. A row of the game's modes narrows it to
+one group at a time — the weird ones, the crabs — so a batch just added can be
+looked at without stepping past everything else. It is linked under
+**Settings** in the top bar, and from the footer.
 
 `←` / `→` (or the buttons) step, `Home` and `End` jump to the ends, the number
 box goes straight to one, and `R` toggles the details. It opens newest photo
