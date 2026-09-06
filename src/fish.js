@@ -1052,6 +1052,14 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'Eats coral by turning its stomach inside out through its mouth and spreading it over the reef, digesting the polyps where they sit and leaving bare white rock. One can clear its own body area in a night, its spines carry venom that hurts for weeks, and in a plague year a reef can lose most of its coral.',
   },
+    {
+    id: 'blue-whale',
+    name: 'Blue Whale',
+    sciName: 'Balaenoptera musculus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/107982647/large.jpg',
+    region: 'rift-lakes',
+    fact: 'The largest animal that has ever lived, and it lives on some of the smallest: a gulp takes in more water than the animal itself weighs, and everything but the krill is pushed back out through a curtain of baleen. Its tongue alone outweighs an elephant, and its call carries for hundreds of miles.',
+  },
   // ---- Coral Triangle ----
   {
     id: 'mandarinfish',
@@ -1384,6 +1392,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Holds a living sea anemone in each claw and waves them like pom-poms, using the sting to fend off anything bigger and the tentacles to mop food off the sand. A crab with only one will tear that anemone in half and let the halves grow back into a matching pair.',
   },
+    {
+    id: 'humpback-whale',
+    name: 'Humpback Whale',
+    sciName: 'Megaptera novaeangliae',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2562747/large.jpg',
+    region: 'northern-australia',
+    fact: 'Blows a net of bubbles around a shoal and rises through the middle of it with its mouth open — a trick some groups work together and others never learn at all. The males all sing the same song, and when one of them changes a phrase the rest take up the new version.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -1440,6 +1456,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/475011078/large.jpg',
     region: 'southern-ocean',
     fact: 'One weighs less than a paperclip, but taken together they may outweigh every human alive, and their swarms turn kilometres of water rust-red. When the food runs out this one does something almost nothing else can: it moults backwards, shrinking to a smaller animal rather than starving.',
+  },
+    {
+    id: 'orca',
+    name: 'Orca',
+    sciName: 'Orcinus orca',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/181337170/large.jpeg',
+    region: 'southern-ocean',
+    fact: 'Hunts in families that keep their own dialect and their own menu: one lot will eat nothing but fish, another only seals, and neither will touch what the other lives on. The knowledge is taught rather than inherited, and some of them charge in a line to wash a seal off its floe.',
   },
   // ---- Arctic Ocean ----
   {
@@ -1815,6 +1839,14 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'Every inch of it is furred with short stiff bristles, which is where the name comes from — kegani, the hairy crab, and the most prized crab on a northern Japanese table.',
   },
+    {
+    id: 'dalls-porpoise',
+    name: 'Dall\'s Porpoise',
+    sciName: 'Phocoenoides dalli',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/485359435/large.jpeg',
+    region: 'sea-of-japan',
+    fact: 'The fastest of the small whales, and it throws up a hollow cone of spray as it surfaces, so what you see first is a rooster tail of water with nothing apparently under it. Stubby, blunt and marked black and white, like a torpedo built by somebody in a hurry.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -2081,5 +2113,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/83862679/large.jpeg',
     region: 'new-zealand',
     fact: 'Works the splash zone where the swell breaks, holding on through the wave and grazing the rock the moment it drains — and the young are mottled grey, turning purple only as they grow.',
+  },
+  {
+    id: 'sperm-whale',
+    name: 'Sperm Whale',
+    sciName: 'Physeter macrocephalus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/626149481/large.jpg',
+    region: 'new-zealand',
+    fact: 'Carries a barrel of oily wax in its forehead and makes the loudest sound any animal makes with it, a click that maps the black water a kilometre down where it hunts squid. It sleeps upright, whole groups of them hanging still in the water with their noses at the surface.',
   },
 ];
