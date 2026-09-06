@@ -1924,5 +1924,40 @@
     "author": "Ifremer",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "leafy-seadragon": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501684378/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/279389471",
+    "author": "ttsquid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blue-dragon": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175027232/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/104453938",
+    "author": "Thomas Mesaglio",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-lipped-batfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161750771/large.jpg",
+    "source": "https://www.inaturalist.org/observations/97278286",
+    "author": "jeyre",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ocean-sunfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19811694/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/13496785",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "leaf-scorpionfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161050682/large.jpg",
+    "source": "https://www.inaturalist.org/observations/96902034",
+    "author": "Bernard DUPONT",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

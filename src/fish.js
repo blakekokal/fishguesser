@@ -184,6 +184,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Runs up vertical rock in the surf as though the waves were not happening, and is quick enough to cross a gap over open water. The young are nearly black against the lava; the red arrives moult by moult.',
   },
+    {
+    id: 'red-lipped-batfish',
+    name: 'Red-lipped Batfish',
+    sciName: 'Ogcocephalus darwini',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/161750771/large.jpg',
+    region: 'north-pacific',
+    fact: 'Barely swims at all — it walks the bottom on stiffened fins like a man on crutches — and fishes instead, unfolding a small lure from a socket between its eyes. Nobody has worked out what the red lips are for.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -686,6 +694,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Owns no shell of its own and spends its life moving house, trying empty whelks on for size. When a good one turns up they line up by size on the sand, each waiting to step into the shell of the one ahead the moment its owner walks out.',
   },
+    {
+    id: 'blue-dragon',
+    name: 'Blue Dragon',
+    sciName: 'Glaucus atlanticus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/175027232/large.jpeg',
+    region: 'north-atlantic',
+    fact: 'A sea slug the size of a coin that floats upside down at the surface on a bubble of air it swallowed, blue side up and silver side down so nothing sees it from either direction. It eats stinging siphonophores and saves the stings, which makes it sting worse than what it ate.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -855,6 +871,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg/1280px-Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg',
     region: 'north-pacific',
     fact: 'Has no mouth, no gut and no way of feeding itself. It grows two metres tall beside water hot enough to melt lead, and lives entirely on the bacteria packed into its own body, which build its food out of the poison coming up through the floor.',
+  },
+    {
+    id: 'ocean-sunfish',
+    name: 'Ocean Sunfish',
+    sciName: 'Mola mola',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/19811694/large.jpeg',
+    region: 'mediterranean',
+    fact: 'The heaviest bony fish there is: a swimming head that stops where the tail should start, steering with a frill of fused fin. It lies flat on the surface to let birds pick the parasites off it, then drops hundreds of metres into the cold to feed.',
   },
   // ---- Congo Basin ----
   {
@@ -1278,6 +1302,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Lives in the forest and goes back to the sea once a year, tens of millions at once, in a red tide that covers roads and gardens for weeks. The island answers with crab bridges, crab tunnels and closed roads.',
   },
+    {
+    id: 'leaf-scorpionfish',
+    name: 'Leaf Scorpionfish',
+    sciName: 'Taenianotus triacanthus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/161050682/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Props itself on its fins and rocks with the surge exactly as a dead leaf would, waiting for something small to swim past its mouth. It sheds its whole skin every couple of weeks to keep the algae off, and turns up yellow, pink, white or black.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1439,6 +1471,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2562747/large.jpg',
     region: 'northern-australia',
     fact: 'Blows a net of bubbles around a shoal and rises through the middle of it with its mouth open — a trick some groups work together and others never learn at all. The males all sing the same song, and when one of them changes a phrase the rest take up the new version.',
+  },
+    {
+    id: 'leafy-seadragon',
+    name: 'Leafy Seadragon',
+    sciName: 'Phycodurus eques',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/501684378/large.jpeg',
+    region: 'northern-australia',
+    fact: 'Every leaf on it is a flap of skin that does nothing at all but look like weed; it is moved by two clear fins beating too fast to see, so it appears to drift rather than swim. The male carries the eggs stuck to the underside of his tail until they hatch.',
   },
   // ---- Southern Ocean ----
   {

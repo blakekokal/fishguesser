@@ -66,6 +66,7 @@ const NOT_FISH = new Set([
   'matamata',
   'crown-of-thorns-starfish',
   'antarctic-krill',
+  'blue-dragon',
   'horseshoe-crab',         // excluded from crabs above, so it needs saying here
 ]);
 
@@ -107,6 +108,8 @@ const WEIRD = new Set([
   'pyjama-cardinalfish', 'banggai-cardinalfish', 'moorish-idol', 'garibaldi',
   'siamese-fighting-fish', 'discus', 'zebra-pleco', 'spanish-dancer',
   'blue-ringed-octopus', 'peacock-mantis-shrimp', 'vampire-crab',
+  'leafy-seadragon', 'blue-dragon', 'red-lipped-batfish', 'ocean-sunfish',
+  'leaf-scorpionfish',
   'crown-of-thorns-starfish', 'lions-mane-jellyfish', 'portuguese-man-o-war',
   'sea-angel', 'freshwater-jellyfish', 'antarctic-cushion-star',
   // carrying, hiding or plugged into something
