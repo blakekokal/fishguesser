@@ -210,6 +210,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Blue_Cod_in_Milford_Sound.jpg",
   },
+  "blue-dragon": {
+    author: "Thomas Mesaglio",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/104453938",
+  },
   "blue-land-crab": {
     author: "Krzysztof Ziarnek, Kenraiz",
     license: "CC BY-SA 4.0",
@@ -816,6 +822,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pristis_pristis_-_Daly_River.JPG",
   },
+  "leaf-scorpionfish": {
+    author: "Bernard DUPONT",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/96902034",
+  },
+  "leafy-seadragon": {
+    author: "ttsquid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/279389471",
+  },
   "lemon-shark": {
     author: "Albert kok",
     license: "CC BY-SA 3.0",
@@ -990,6 +1008,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Kurtus_gulliveri.jpg",
   },
+  "ocean-sunfish": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/13496785",
+  },
   "ocellate-river-stingray": {
     author: "Steven G. Johnson",
     license: "CC BY-SA 3.0",
@@ -1157,6 +1181,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Paralithodes_camtschaticus,_1.jpg",
+  },
+  "red-lipped-batfish": {
+    author: "jeyre",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/97278286",
   },
   "red-moki": {
     author: "Avenue",
@@ -1893,4 +1923,9 @@ const PHOTO_ORDER = [
   "giant-tube-worm",
   "swimming-sea-cucumber",
   "tripod-fish",
+  "leafy-seadragon",
+  "blue-dragon",
+  "red-lipped-batfish",
+  "ocean-sunfish",
+  "leaf-scorpionfish",
 ];
