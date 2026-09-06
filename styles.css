@@ -1351,6 +1351,10 @@ body {
 
 .review-tools { display: flex; align-items: center; gap: 8px; }
 
+/* The mode row sits under the two tool buttons rather than beside them, so a
+   narrow screen wraps the modes and not the controls. */
+.review-modes { flex-basis: 100%; margin: 8px 0 0; }
+
 /* One screen, never scrolling: the controls have to stay reachable, and
  * whatever is left over goes to the photo rather than to a fixed ratio. */
 .review-body {

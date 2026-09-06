@@ -8,7 +8,11 @@
  *
  * Two orders: newest photo first, which is what a review after adding some
  * fish wants, and the collection's own order, where a number is a stable way
- * to point at one ("number 37 is bad") without the details on screen. */
+ * to point at one ("number 37 is bad") without the details on screen.
+ *
+ * The mode row narrows it to what one of the game's modes deals — the weird
+ * ones, the crabs — so a batch just added can be looked at without stepping
+ * past everything else. */
 
 (() => {
   const $ = (id) => document.getElementById(id);
@@ -17,11 +21,10 @@
     details: $('details'), name: $('fishName'), sci: $('fishSci'),
     meta: $('fishMeta'), count: $('count'), jump: $('jump'),
     prev: $('prevBtn'), next: $('nextBtn'), reveal: $('revealBtn'),
-    speciesCount: $('speciesCount'), order: $('orderBtn'),
+    speciesCount: $('speciesCount'), order: $('orderBtn'), modeRow: $('modeRow'),
   };
 
   const fmt = (n) => n.toLocaleString('en-US');
-  const total = FISH.length;
 
   /* PHOTO_CREDITS is keyed alphabetically, but PHOTO_ORDER keeps the order
    * photos were actually added — a swapped photo moves to the end there too,
@@ -30,13 +33,22 @@
   const byId = new Map(FISH.map((f) => [f.id, f]));
   const added = (typeof PHOTO_ORDER === 'undefined' ? [] : PHOTO_ORDER)
     .filter((id) => byId.has(id));
-  const newest = [
-    ...[...added].reverse().map((id) => byId.get(id)),
-    ...FISH.filter((f) => !added.includes(f.id)),
-  ];
+  const addedSet = new Set(added);
 
+  /* Newest-first within whatever the mode leaves: the photos added last, then
+   * everything the order does not know about, in the collection's own order. */
+  const newestOf = (pool) => {
+    const inPool = new Set(pool.map((f) => f.id));
+    return [
+      ...[...added].filter((id) => inPool.has(id)).reverse().map((id) => byId.get(id)),
+      ...pool.filter((f) => !addedSet.has(f.id)),
+    ];
+  };
+
+  let kind = 'all';
   let newestFirst = true;
-  let list = newest;
+  let pool = FISH;
+  let list = newestOf(FISH);
   let index = 0;
   /* On by default: the page is mostly used to spot a bad photo and say which
    * one it is, and that needs the name. `R` hides it to judge a picture cold. */
@@ -45,7 +57,7 @@
   /* The next photo is fetched while this one is being looked at, so stepping
    * forward does not wait on the network every time. */
   function preload(i) {
-    if (i < 0 || i >= total) return;
+    if (i < 0 || i >= list.length) return;
     const img = new Image();
     img.src = list[i].image;
   }
@@ -81,7 +93,7 @@
   }
 
   function show(i) {
-    index = Math.min(Math.max(i, 0), total - 1);
+    index = Math.min(Math.max(i, 0), list.length - 1);
     const fish = list[index];
 
     ui.photo.classList.remove('is-ready', 'is-broken');
@@ -89,10 +101,11 @@
     ui.photo.src = fish.image;
     ui.photoBg.src = fish.image;
 
-    ui.count.textContent = `of ${fmt(total)}`;
+    ui.count.textContent = `of ${fmt(list.length)}`;
     ui.jump.value = String(index + 1);
+    ui.jump.max = String(list.length);
     ui.prev.disabled = index === 0;
-    ui.next.disabled = index === total - 1;
+    ui.next.disabled = index === list.length - 1;
 
     renderDetails();
     preload(index + 1);
@@ -115,10 +128,50 @@
   ui.order.addEventListener('click', () => {
     const current = list[index];
     newestFirst = !newestFirst;
-    list = newestFirst ? newest : FISH;
+    relist(current);
     renderOrder();
-    show(list.indexOf(current));
   });
+
+  /* Rebuilds the list for the current mode and order, keeping the photo on
+   * screen where it can — a mode that no longer holds it starts at the top. */
+  function relist(keep) {
+    pool = FISH.filter(KIND_BY_ID[kind].test);
+    list = newestFirst ? newestOf(pool) : pool;
+    const at = keep ? list.indexOf(keep) : -1;
+    show(at === -1 ? 0 : at);
+  }
+
+  /* One button per mode, each carrying how many photos are behind it. */
+  function buildModes() {
+    for (const k of KIND_FILTERS) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'filter-opt';
+      btn.dataset.id = k.id;
+      const text = document.createElement('span');
+      text.textContent = k.short;
+      const n = document.createElement('span');
+      n.className = 'filter-n';
+      n.textContent = fmt(FISH.filter(k.test).length);
+      btn.append(text, n);
+      btn.title = k.label;
+      btn.addEventListener('click', () => {
+        if (kind === k.id) return;
+        kind = k.id;
+        renderModes();
+        relist(list[index]);
+      });
+      ui.modeRow.append(btn);
+    }
+  }
+
+  function renderModes() {
+    for (const btn of ui.modeRow.querySelectorAll('.filter-opt')) {
+      const on = btn.dataset.id === kind;
+      btn.classList.toggle('is-on', on);
+      btn.setAttribute('aria-pressed', String(on));
+    }
+  }
 
   function renderOrder() {
     ui.order.textContent = newestFirst ? 'Newest first' : 'Collection order';
@@ -143,13 +196,14 @@
     if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); step(1); }
     else if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
     else if (e.key === 'Home') { e.preventDefault(); show(0); }
-    else if (e.key === 'End') { e.preventDefault(); show(total - 1); }
+    else if (e.key === 'End') { e.preventDefault(); show(list.length - 1); }
     else if (e.key === 'r' || e.key === 'R') { revealed = !revealed; renderDetails(); }
   });
 
   renderOrder();
-  ui.jump.max = String(total);
-  ui.speciesCount.textContent = fmt(total);
+  buildModes();
+  renderModes();
+  ui.speciesCount.textContent = fmt(FISH.length);
   const label = document.createElement('span');
   label.className = 'species-count-label';
   label.textContent = 'species';
