@@ -1826,5 +1826,40 @@
     "author": "Blue Rose Man",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "humpback-whale": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2562747/large.jpg",
+    "source": "https://www.inaturalist.org/observations/2306249",
+    "author": "Ken-ichi Ueda",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sperm-whale": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626149481/large.jpg",
+    "source": "https://www.inaturalist.org/observations/343707099",
+    "author": "Thomas Wilson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "orca": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181337170/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/107777946",
+    "author": "steve b",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "blue-whale": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107982647/large.jpg",
+    "source": "https://www.inaturalist.org/observations/66914921",
+    "author": "Thomas Galewski",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "dalls-porpoise": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485359435/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/269911494",
+    "author": "MadMagpie",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

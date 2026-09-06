@@ -234,6 +234,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/267319789",
   },
+  "blue-whale": {
+    author: "Thomas Galewski",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/66914921",
+  },
   "bluegill": {
     author: "USFWS Mountain Prairie",
     license: "Public domain",
@@ -437,6 +443,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Labrus_mixtus_23_BG.jpg",
+  },
+  "dalls-porpoise": {
+    author: "MadMagpie",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/269911494",
   },
   "discus": {
     author: "H. Zell",
@@ -683,6 +695,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Limulus_polyphemus_(aq.).jpg",
+  },
+  "humpback-whale": {
+    author: "Ken-ichi Ueda",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/2306249",
   },
   "irrawaddy-dolphin": {
     author: "Ian Dugdale",
@@ -959,6 +977,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Chionodraco_rastrospinosus.jpg",
+  },
+  "orca": {
+    author: "steve b",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/107777946",
   },
   "ornate-bichir": {
     author: "Bloopityboop",
@@ -1319,6 +1343,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Bodianus_rufus_(46598633625).jpg",
+  },
+  "sperm-whale": {
+    author: "Thomas Wilson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/343707099",
   },
   "spiny-lumpsucker": {
     author: "Sue Carnahan",
@@ -1795,4 +1825,9 @@ const PHOTO_ORDER = [
   "sponge-crab",
   "yellowline-arrow-crab",
   "snow-crab",
+  "humpback-whale",
+  "sperm-whale",
+  "orca",
+  "blue-whale",
+  "dalls-porpoise",
 ];
