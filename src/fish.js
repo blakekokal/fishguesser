@@ -670,6 +670,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Not one animal but a colony of them: the float is a single individual, the fishing tentacles and the digesting parts are others, and not one of them could live alone. It cannot swim at all — it sails, and the sail leans left on some and right on others, so no one wind can blow the whole lot ashore.',
   },
+    {
+    id: 'common-hermit-crab',
+    name: 'Common Hermit Crab',
+    sciName: 'Pagurus bernhardus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/285264344/large.jpg',
+    region: 'north-atlantic',
+    fact: 'Owns no shell of its own and spends its life moving house, trying empty whelks on for size. When a good one turns up they line up by size on the sand, each waiting to step into the shell of the one ahead the moment its owner walks out.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -1059,6 +1067,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/107982647/large.jpg',
     region: 'rift-lakes',
     fact: 'The largest animal that has ever lived, and it lives on some of the smallest: a gulp takes in more water than the animal itself weighs, and everything but the krill is pushed back out through a curtain of baleen. Its tongue alone outweighs an elephant, and its call carries for hundreds of miles.',
+  },
+    {
+    id: 'whale-shark',
+    name: 'Whale Shark',
+    sciName: 'Rhincodon typus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/420227771/large.jpeg',
+    region: 'rift-lakes',
+    fact: 'The biggest fish there is, and it lives on some of the smallest things in the sea, straining plankton through pads in its throat. Every one carries a different pattern of spots, and they are told apart by software written to match star fields.',
   },
   // ---- Coral Triangle ----
   {
@@ -1465,6 +1481,14 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Hunts in families that keep their own dialect and their own menu: one lot will eat nothing but fish, another only seals, and neither will touch what the other lives on. The knowledge is taught rather than inherited, and some of them charge in a line to wash a seal off its floe.',
   },
+    {
+    id: 'southern-right-whale',
+    name: 'Southern Right Whale',
+    sciName: 'Eubalaena australis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/260187622/large.jpeg',
+    region: 'southern-ocean',
+    fact: 'The crusted patches on its head are not barnacles but its own roughened skin, laid out differently on every animal, so one can be named from a photograph. It has no fin on its back at all, and will hold its tail up in the wind and let itself be sailed along.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -1846,6 +1870,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/485359435/large.jpeg',
     region: 'sea-of-japan',
     fact: 'The fastest of the small whales, and it throws up a hollow cone of spray as it surfaces, so what you see first is a rooster tail of water with nothing apparently under it. Stubby, blunt and marked black and white, like a torpedo built by somebody in a hurry.',
+  },
+    {
+    id: 'chinese-mitten-crab',
+    name: 'Chinese Mitten Crab',
+    sciName: 'Eriocheir sinensis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2802207/large.jpg',
+    region: 'sea-of-japan',
+    fact: 'Both claws are covered in a dark felt of bristles, like a pair of mittens worn to dinner. It hatches in salt water, spends years walking upriver — past locks, through fields, across roads — and then makes the whole journey back down to breed once and die.',
   },
   // ---- Mekong Basin ----
   {

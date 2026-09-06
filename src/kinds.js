@@ -54,6 +54,7 @@ const NOT_FISH = new Set([
   'orca',
   'blue-whale',
   'dalls-porpoise',
+  'southern-right-whale',
   'portuguese-man-o-war',   // a colony of four kinds of animal, no less a not-fish
   'irrawaddy-dolphin',
   'rusty-crayfish',
