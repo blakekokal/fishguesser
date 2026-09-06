@@ -354,6 +354,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/193925914",
   },
+  "chinese-mitten-crab": {
+    author: "Kim, Hyun-tae",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/2495685",
+  },
   "christmas-island-red-crab": {
     author: "ian_mcallan",
     license: "CC BY 4.0",
@@ -395,6 +401,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/335263442",
+  },
+  "common-hermit-crab": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/164842609",
   },
   "common-stingray": {
     author: "Chris Taklis",
@@ -1320,6 +1332,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg",
   },
+  "southern-right-whale": {
+    author: "steve b",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/150849220",
+  },
   "southern-stingray": {
     author: "Albert kok",
     license: "CC BY-SA 3.0",
@@ -1487,6 +1505,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/37993895",
+  },
+  "whale-shark": {
+    author: "Jean-Paul Boerekamps",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/236220728",
   },
   "white-spotted-cichlid": {
     author: "lienyuan lee",
@@ -1830,4 +1854,8 @@ const PHOTO_ORDER = [
   "orca",
   "blue-whale",
   "dalls-porpoise",
+  "chinese-mitten-crab",
+  "common-hermit-crab",
+  "whale-shark",
+  "southern-right-whale",
 ];
