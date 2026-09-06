@@ -1411,10 +1411,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Bodianus_rufus_(46598633625).jpg",
   },
   "sperm-whale": {
-    author: "Thomas Wilson",
+    author: "Daniel Benák",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/343707099",
+    source: "https://www.inaturalist.org/observations/300883241",
   },
   "spiny-lumpsucker": {
     author: "Sue Carnahan",
@@ -1459,10 +1459,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus_Cala_Gracio.jpg",
   },
   "swell-shark": {
-    author: "Matthew Inabinett",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/322520636",
+    author: "Cliff",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cephaloscyllium_ventriosum.jpg",
   },
   "swimming-sea-cucumber": {
     author: "NOAA Okeanos Explorer",
@@ -1567,10 +1567,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/37993895",
   },
   "whale-shark": {
-    author: "Jean-Paul Boerekamps",
-    license: "CC0",
-    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    source: "https://www.inaturalist.org/observations/236220728",
+    author: "Zac Wolf",
+    license: "CC BY-SA 2.5",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.5",
+    source: "https://commons.wikimedia.org/wiki/File:Whale_shark_Georgia_aquarium.jpg",
   },
   "white-spotted-cichlid": {
     author: "lienyuan lee",
