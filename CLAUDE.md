@@ -1,5 +1,12 @@
 # Working on Fishguesser
 
+## Never name what was added
+
+Finding out what is in the collection is the game. Do not list the species you
+added — not their common names, not their scientific names, not a nickname that
+gives one away. Say how many went in, which mode they land in, and that the
+checks pass. The player meets them in a round, not in a chat message.
+
 ## Never say where a species lives
 
 The region a species is filed under **is the answer to a round**. Do not name it
