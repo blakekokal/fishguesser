@@ -362,6 +362,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Not a crab at all but a cousin of the spiders, with ten eyes and blue blood that clots around bacteria — which is why medicine bleeds it to prove a vaccine is clean. Its shape has not needed changing in something like 450 million years.',
   },
+    {
+    id: 'yellowline-arrow-crab',
+    name: 'Yellowline Arrow Crab',
+    sciName: 'Stenorhynchus seticornis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/203789611/large.jpg',
+    region: 'caribbean',
+    fact: 'A body the size of a thumbnail on legs three times as long, with the head drawn out into a spike between the eyes and the claws dipped in violet. It picks at anything small enough from a sponge or an anemone, and will see off another of its own kind to keep the perch.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -816,6 +824,14 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Lives above the waterline on splash-zone rock, breathing air through damp gills, and bolts sideways into a crack the moment a shadow falls on it.',
   },
+    {
+    id: 'sponge-crab',
+    name: 'Sponge Crab',
+    sciName: 'Dromia personata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/49923886/large.jpg',
+    region: 'mediterranean',
+    fact: 'Cuts a living sponge to the shape of its own back and wears it there for life, gripped by the last two pairs of legs, which point upwards for no other purpose. The sponge goes on growing, so the disguise only fits better with age — and almost nothing will eat a sponge.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -914,7 +930,15 @@ const FISH = [
     region: 'congo',
     fact: 'A turtle with a leathery pancake for a shell and flaps of skin that fold down over its back legs when it pulls them in. It lies buried in mud with only a snorkel of a nose above it, breathing through its throat, which takes oxygen out of the water well enough that it need not surface for hours.',
   },
-    // ---- East African Rift Lakes ----
+      {
+    id: 'west-african-fiddler-crab',
+    name: 'West African Fiddler Crab',
+    sciName: 'Afruca tangeri',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/60318367/large.jpeg',
+    region: 'congo',
+    fact: 'The male carries one claw about as heavy as the rest of him and one so small it can barely feed him, and he spends the day waving the big one to be noticed. Lose it and the replacement grows back lighter and weaker but the same size — a bluff that works, because nobody can tell by looking.',
+  },
+  // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
     name: 'Electric Yellow Cichlid',
@@ -1352,6 +1376,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Its back legs are flattened into paddles, so it swims rather than scuttles, and it settles by burying itself with only eyes and antennae showing. Males are electric blue; females stay a mottled green-brown.',
   },
+    {
+    id: 'boxer-crab',
+    name: 'Boxer Crab',
+    sciName: 'Lybia tessellata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/463734589/large.jpeg',
+    region: 'northern-australia',
+    fact: 'Holds a living sea anemone in each claw and waves them like pom-poms, using the sting to fend off anything bigger and the tentacles to mop food off the sand. A crab with only one will tear that anemone in half and let the halves grow back into a matching pair.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -1491,7 +1523,15 @@ const FISH = [
     region: 'arctic',
     fact: 'Reckoned the longest animal alive: one measured out at thirty-seven metres of trailing tentacle, beating a blue whale, though nearly all of that is thread thinner than string. The bell alone can be taller than you are wide, and the whole animal is about 95 per cent water.',
   },
-    // ---- Great Lakes ----
+      {
+    id: 'snow-crab',
+    name: 'Snow Crab',
+    sciName: 'Chionoecetes opilio',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Blue_Chionoecetes_opilio.JPG/1280px-Blue_Chionoecetes_opilio.JPG',
+    region: 'arctic',
+    fact: 'Moults for the last time when it comes of age and then never grows again, so the shell it hardens into has to last the rest of its life. An old one is furred with barnacles and scratched all over, carrying every mark it has collected since, because it can never shed them.',
+  },
+  // ---- Great Lakes ----
   {
     id: 'lake-sturgeon',
     name: 'Lake Sturgeon',
