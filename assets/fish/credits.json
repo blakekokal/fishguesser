@@ -1959,5 +1959,40 @@
     "author": "Bernard DUPONT",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "burbot": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22806149/large.jpg",
+    "source": "https://www.inaturalist.org/observations/15241887",
+    "author": "Josh",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "john-dory": {
+    "commons_title": "File:Saint-Pierre (Zeus faber) (Ifremer 00555-66734 - 44450).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint-Pierre_%28Zeus_faber%29_%28Ifremer_00555-66734_-_44450%29.jpg",
+    "author": "Olivier Dugornay (Ifremer)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "african-tigerfish": {
+    "commons_title": "File:Hydrocynus vittatus - Ndweshi.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hydrocynus_vittatus_-_Ndweshi.jpg",
+    "author": "Klaus Rudloff",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "nile-perch": {
+    "commons_title": "File:Lates niloticus by DaijuAzuma.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lates_niloticus_by_DaijuAzuma.jpg",
+    "author": "Daiju Azuma",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "giant-pangasius": {
+    "commons_title": "File:Pangasius sanitwongsei Zoologischer Garten Aquarium Berlin.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Pangasius_sanitwongsei_Zoologischer_Garten_Aquarium_Berlin.JPG",
+    "author": "Raymond Ellis",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }
