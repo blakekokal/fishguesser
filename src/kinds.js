@@ -1,7 +1,7 @@
 /* Fishguesser — what each species is, for the mode filter.
  *
  * A game can be narrowed to part of the collection: fish only, crabs, sharks
- * and whales, or just the strange-looking ones. Rather than hang a `kind` on all 255 entries, the groups that
+ * and whales, fresh water or salt, or just the strange-looking ones. Rather than hang a `kind` on all 255 entries, the groups that
  * read off a name reliably are matched by name — anything with "crab" in it is
  * a crab, anything with "shark", "dogfish" or "wobbegong" is a shark, anything
  * with "whale", "dolphin" or "porpoise" is a whale — with an exception list for
@@ -126,6 +126,50 @@ const WEIRD = new Set([
 
 const isWeird = (fish) => WEIRD.has(fish.id);
 
+/* Fresh water or salt. Region is nearly enough — four of the fifteen are river
+ * basins and lakes — but not quite: a mangrove crab and a deep-sea fish are
+ * filed under a river basin, and a lungfish, an eel and a grayling live inland
+ * in regions named for a sea. Diadromous species are filed by where they do
+ * their growing: an eel that spends its life in a river counts as fresh even
+ * though it spawns at sea, while a salmon that feeds at sea counts as salt. */
+const FRESHWATER = new Set([
+  'red-bellied-piranha', 'arapaima', 'discus', 'electric-eel', 'oscar',
+  'cardinal-tetra', 'redtail-catfish', 'tambaqui', 'peacock-bass',
+  'silver-arowana', 'freshwater-angelfish', 'trahira', 'severum',
+  'banded-leporinus', 'zebra-pleco', 'ocellate-river-stingray',
+  'pink-river-dolphin', 'matamata',
+
+  'goliath-tigerfish', 'elephantnose-fish', 'congo-tetra',
+  'african-butterflyfish', 'six-barred-distichodus', 'ornate-bichir',
+  'reedfish', 'upside-down-catfish', 'electric-catfish', 'leopard-bushfish',
+  'buffalohead-cichlid', 'aubrys-flapshell-turtle', 'african-tigerfish',
+
+  'lake-sturgeon', 'muskellunge', 'lake-trout', 'bluegill', 'walleye',
+  'yellow-perch', 'longnose-gar', 'bowfin', 'smallmouth-bass', 'pumpkinseed',
+  'northern-pike', 'american-paddlefish', 'rainbow-darter', 'northern-hogsucker',
+  'brook-trout', 'freshwater-jellyfish', 'rusty-crayfish', 'burbot',
+
+  'mekong-giant-catfish', 'siamese-fighting-fish', 'giant-freshwater-stingray',
+  'giant-snakehead', 'giant-barb', 'clown-featherback', 'glass-catfish',
+  'siamese-tigerfish', 'climbing-perch', 'giant-gourami', 'kissing-gourami',
+  'bala-shark', 'striped-catfish', 'giant-river-prawn', 'irrawaddy-dolphin',
+  'giant-pangasius',
+
+  'electric-yellow-cichlid', 'frontosa', 'zebra-mbuna', 'malawi-eyebiter',
+  'white-spotted-cichlid', 'cuckoo-catfish', 'peacock-cichlid',
+  'blunthead-cichlid', 'golden-mbuna', 'fairy-cichlid', 'sardine-cichlid',
+  'shell-dweller-cichlid', 'nile-perch',
+
+  // Inland species in regions named for a sea.
+  'australian-lungfish', 'gulf-saratoga', 'eastern-rainbowfish', 'jungle-perch',
+  'spangled-perch', 'archerfish', 'largetooth-sawfish', 'barramundi',
+  'nurseryfish', 'arctic-grayling', 'arctic-char', 'ayu', 'sakhalin-taimen',
+  'chinese-mitten-crab', 'longfin-eel',
+]);
+
+const isFresh = (fish) => FRESHWATER.has(fish.id);
+const isSalt = (fish) => !FRESHWATER.has(fish.id);
+
 /* The mode row of the filter, in the order it is shown. `test` is what a game
  * is dealt from; `short` is what fits on the tile in the top bar. */
 const KIND_FILTERS = [
@@ -133,6 +177,8 @@ const KIND_FILTERS = [
   { id: 'fish', label: 'Fish mode', short: 'Fish', test: isFish },
   { id: 'other', label: 'Sea life', short: 'Sea life', test: isOther },
   { id: 'weird', label: 'Weird mode', short: 'Weird', test: isWeird },
+  { id: 'fresh', label: 'Freshwater', short: 'Fresh', test: isFresh },
+  { id: 'salt', label: 'Saltwater', short: 'Salt', test: isSalt },
   { id: 'crab', label: 'Crab mode', short: 'Crabs', test: isCrab },
   { id: 'shark', label: 'Shark/whale mode', short: 'Sharks/whales',
     test: (fish) => isShark(fish) || isWhale(fish) },
