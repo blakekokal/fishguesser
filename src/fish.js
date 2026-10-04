@@ -994,6 +994,14 @@ const FISH = [
     region: 'congo',
     fact: 'Stands on three stilts — two fin rays and the lower half of its tail, each longer than the fish itself — and faces into the current with its front fins held up like antennae, waiting to feel something drift into them. Its eyes are nearly useless, so it hardly needs them.',
   },
+    {
+    id: 'african-tigerfish',
+    name: 'African Tigerfish',
+    sciName: 'Hydrocynus vittatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Hydrocynus_vittatus_-_Ndweshi.jpg/1280px-Hydrocynus_vittatus_-_Ndweshi.jpg',
+    region: 'congo',
+    fact: 'Its teeth slot into sockets in the opposite jaw, so the mouth shuts like a trap rather than a pair of scissors, and it has been filmed launching clear of the water to take swallows out of the air as they skim the surface.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -1123,6 +1131,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Whale_shark_Georgia_aquarium.jpg/1280px-Whale_shark_Georgia_aquarium.jpg',
     region: 'rift-lakes',
     fact: 'The biggest fish there is, and it lives on some of the smallest things in the sea, straining plankton through pads in its throat. Every one carries a different pattern of spots, and they are told apart by software written to match star fields.',
+  },
+    {
+    id: 'nile-perch',
+    name: 'Nile Perch',
+    sciName: 'Lates niloticus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Lates_niloticus_by_DaijuAzuma.jpg/1280px-Lates_niloticus_by_DaijuAzuma.jpg',
+    region: 'rift-lakes',
+    fact: 'Reaches two metres and the better part of two hundred kilos without ever leaving fresh water, and eats whatever fits, including its own young. Put into a lake it had never lived in, it cleared several hundred smaller species out of existence inside a few decades.',
   },
   // ---- Coral Triangle ----
   {
@@ -1797,6 +1813,14 @@ const FISH = [
     region: 'great-lakes',
     fact: 'Meets trouble with its claws spread instead of backing into a hole, which is how it takes water off quieter crayfish, and it mows the weed beds down to stubble once it has. Most of its spread is anglers tipping out the last of a bait bucket at the end of the day.',
   },
+    {
+    id: 'burbot',
+    name: 'Burbot',
+    sciName: 'Lota lota',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/22806149/large.jpg',
+    region: 'great-lakes',
+    fact: 'The one cod that never goes near the sea. It has a single barbel under its chin, a liver that can be a tenth of its own weight and was once pressed for lamp oil, and it spawns under the ice in a slow rolling ball of fish.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'sakhalin-taimen',
@@ -2089,6 +2113,14 @@ const FISH = [
     region: 'mekong',
     fact: 'A dolphin with no beak at all and a forehead that bulges out over its face. It spits — a jet of water fired a couple of metres, apparently to panic fish into a shoal — and some of them work with net fishermen, driving the shoal in on a signal and eating whatever bolts.',
   },
+    {
+    id: 'giant-pangasius',
+    name: 'Giant Pangasius',
+    sciName: 'Pangasius sanitwongsei',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Pangasius_sanitwongsei_Zoologischer_Garten_Aquarium_Berlin.JPG/1280px-Pangasius_sanitwongsei_Zoologischer_Garten_Aquarium_Berlin.JPG',
+    region: 'mekong',
+    fact: 'A catfish past two metres long, with the front rays of its fins drawn out into trailing threads and a hunting habit unusual for a catfish — it takes other fish in the deep channels. So few are left that most people who know it have only ever seen one through glass.',
+  },
   // ---- New Zealand ----
   {
     id: 'australasian-snapper',
@@ -2233,5 +2265,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/542160818/large.jpg',
     region: 'new-zealand',
     fact: 'Carries a barrel of oily wax in its forehead and makes the loudest sound any animal makes with it, a click that maps the black water a kilometre down where it hunts squid. It sleeps upright, whole groups of them hanging still in the water with their noses at the surface.',
+  },
+  {
+    id: 'john-dory',
+    name: 'John Dory',
+    sciName: 'Zeus faber',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Saint-Pierre_%28Zeus_faber%29_%28Ifremer_00555-66734_-_44450%29.jpg/1280px-Saint-Pierre_%28Zeus_faber%29_%28Ifremer_00555-66734_-_44450%29.jpg',
+    region: 'new-zealand',
+    fact: 'Seen head-on it is barely there — a fish the thickness of a plate — so it edges up to something that cannot tell how big it is, then shoots its jaw forward into a tube and inhales. The dark spot on each side stands in for an eye, and the spines along its back fold flat when it is calm.',
   },
 ];

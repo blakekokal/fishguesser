@@ -12,6 +12,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg",
   },
+  "african-tigerfish": {
+    author: "Klaus Rudloff",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Hydrocynus_vittatus_-_Ndweshi.jpg",
+  },
   "american-paddlefish": {
     author: "Jon Mortin",
     license: "CC BY 4.0",
@@ -299,6 +305,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/259177333",
+  },
+  "burbot": {
+    author: "Josh",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/15241887",
   },
   "butterfish": {
     author: "Shaun Lee",
@@ -636,6 +648,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Giant_Mudskipper_(Periophthalmodon_schlosseri).jpg",
   },
+  "giant-pangasius": {
+    author: "Raymond Ellis",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Pangasius_sanitwongsei_Zoologischer_Garten_Aquarium_Berlin.JPG",
+  },
   "giant-river-prawn": {
     author: "Dmitry Ivanov",
     license: "CC BY 4.0",
@@ -779,6 +797,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://commons.wikimedia.org/wiki/File:Ditrema_temmincki_temmincki_Oarai.jpg",
+  },
+  "john-dory": {
+    author: "Olivier Dugornay (Ifremer)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Saint-Pierre_%28Zeus_faber%29_%28Ifremer_00555-66734_-_44450%29.jpg",
   },
   "jungle-perch": {
     author: "dhfischer",
@@ -983,6 +1007,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Myliobatis_tenuicaudatus_186845675.jpg",
+  },
+  "nile-perch": {
+    author: "Daiju Azuma",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Lates_niloticus_by_DaijuAzuma.jpg",
   },
   "northern-hogsucker": {
     author: "Donald Davesne",
@@ -1928,4 +1958,9 @@ const PHOTO_ORDER = [
   "red-lipped-batfish",
   "ocean-sunfish",
   "leaf-scorpionfish",
+  "burbot",
+  "john-dory",
+  "african-tigerfish",
+  "nile-perch",
+  "giant-pangasius",
 ];

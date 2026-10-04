@@ -3,7 +3,7 @@
 A GeoGuessr-style guessing game for sea life. You get a photograph of an animal
 and its name; you decide which of fifteen regions of the world it comes from.
 
-- **274 species** — mostly bony fish, plus twenty-four sharks, eight rays, a
+- **279 species** — mostly bony fish, plus twenty-four sharks, eight rays, a
   sawfish, a lamprey and a chimaera, and fifty-one that are not fish at all:
   twenty crabs, nine whales, dolphins and porpoises, three octopuses, a
   cuttlefish, two turtles, two sea cucumbers, a tube worm, two jellyfish and a
@@ -111,7 +111,7 @@ offers the two things a static page honestly can:
   are unioned and the best score is the higher of the two, so pasting an old
   code can never cost you progress, and a code carrying a name gives an unnamed
   browser that name back. Ids travel as five-character hashes, which keeps a
-  full 274-fish save near 2 KB and lets a restore match whatever species the
+  full 279-fish save near 2 KB and lets a restore match whatever species the
   game holds now — anything it no longer knows is dropped and counted in the
   message.
 
@@ -120,7 +120,7 @@ and it only carries the two numbers above.
 
 ## Photo check
 
-`photos.html` steps through all 274 photographs one at a time, in the same
+`photos.html` steps through all 279 photographs one at a time, in the same
 letterboxed frame the game uses, so a picture can be judged as a player would
 meet it: is that a whole fish, is it alive, is it recognisable? Nothing is
 named — what is in the collection is the game's other secret — so `R` (or the
@@ -181,7 +181,7 @@ photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions, their map seeds + haversine distance
-src/fish.js             the 274 species (name, photo URL, home region, fact)
+src/fish.js             the 279 species (name, photo URL, home region, fact)
 src/spoilers.js         place names, dotted out while a fact is a hint
 src/kinds.js            what counts as a fish, a crab, a shark for the filter
 src/credits.js          generated photo attribution
@@ -265,7 +265,7 @@ computed from region centres, so nothing in the game depends on the counts
 matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 274 species; raise it for a longer game that shows more of the
+game samples 5 of the 279 species; raise it for a longer game that shows more of the
 collection.
 
 ## Map data
