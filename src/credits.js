@@ -204,6 +204,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:C._aceratus.jpg",
   },
+  "blackfoot-paua": {
+    author: "Michael Berardozzi",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/289710472",
+  },
   "blacktip-reef-shark": {
     author: "陳德範（Chen, De-Fan）",
     license: "CC BY 4.0",
@@ -239,6 +245,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/393772050",
+  },
+  "blue-sea-star": {
+    author: "Chuck Wilson",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/179204653",
   },
   "blue-swimmer-crab": {
     author: "Debra Baker",
@@ -383,6 +395,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/207689589",
+  },
+  "christmas-tree-worm": {
+    author: "Pauline Walsh Jacobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/289615278",
   },
   "climbing-perch": {
     author: "Abu Hamas",
@@ -575,6 +593,18 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG",
+  },
+  "flamboyant-cuttlefish": {
+    author: "Pauline Walsh Jacobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/189771861",
+  },
+  "flower-urchin": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/46342637",
   },
   "flying-gurnard": {
     author: "Vicmicallef",
@@ -1963,4 +1993,9 @@ const PHOTO_ORDER = [
   "african-tigerfish",
   "nile-perch",
   "giant-pangasius",
+  "flamboyant-cuttlefish",
+  "christmas-tree-worm",
+  "flower-urchin",
+  "blackfoot-paua",
+  "blue-sea-star",
 ];

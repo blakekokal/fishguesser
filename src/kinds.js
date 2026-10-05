@@ -59,6 +59,11 @@ const NOT_FISH = new Set([
   'sea-pig',
   'giant-tube-worm',
   'swimming-sea-cucumber',
+  'flamboyant-cuttlefish',
+  'christmas-tree-worm',
+  'flower-urchin',
+  'blackfoot-paua',
+  'blue-sea-star',
   'portuguese-man-o-war',   // a colony of four kinds of animal, no less a not-fish
   'irrawaddy-dolphin',
   'rusty-crayfish',
@@ -111,6 +116,7 @@ const WEIRD = new Set([
   'leafy-seadragon', 'blue-dragon', 'red-lipped-batfish', 'ocean-sunfish',
   'leaf-scorpionfish',
   'crown-of-thorns-starfish', 'lions-mane-jellyfish', 'portuguese-man-o-war',
+  'flamboyant-cuttlefish', 'christmas-tree-worm', 'flower-urchin', 'blue-sea-star',
   'sea-angel', 'freshwater-jellyfish', 'antarctic-cushion-star',
   // carrying, hiding or plugged into something
   'sponge-crab', 'boxer-crab', 'common-hermit-crab', 'horseshoe-crab',

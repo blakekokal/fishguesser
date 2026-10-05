@@ -1994,5 +1994,40 @@
     "author": "Raymond Ellis",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "flamboyant-cuttlefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332532130/large.jpg",
+    "source": "https://www.inaturalist.org/observations/189771861",
+    "author": "Pauline Walsh Jacobson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "christmas-tree-worm": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520918835/large.jpg",
+    "source": "https://www.inaturalist.org/observations/289615278",
+    "author": "Pauline Walsh Jacobson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "flower-urchin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73502140/large.jpg",
+    "source": "https://www.inaturalist.org/observations/46342637",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blackfoot-paua": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/521092730/large.jpg",
+    "source": "https://www.inaturalist.org/observations/289710472",
+    "author": "Michael Berardozzi",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blue-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311955295/large.jpg",
+    "source": "https://www.inaturalist.org/observations/179204653",
+    "author": "Chuck Wilson",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }
