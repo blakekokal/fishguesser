@@ -386,6 +386,14 @@ const FISH = [
     region: 'caribbean',
     fact: 'A sea cucumber that gave up the seabed: it lifts off and swims under a webbed veil, clear enough that the last meal shows as a red loop through the middle of it. Touch it and the skin flashes blue-green, and can be sloughed off onto whatever did the touching.',
   },
+    {
+    id: 'christmas-tree-worm',
+    name: 'Christmas Tree Worm',
+    sciName: 'Spirobranchus giganteus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/520918835/large.jpg',
+    region: 'caribbean',
+    fact: 'The two spirals are the gills and mouth of a worm whose body is a tube bored down into living coral. Pass a shadow over them and they are gone faster than the eye follows, then creep out again a few seconds later as if nothing had happened.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -1140,6 +1148,14 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'Reaches two metres and the better part of two hundred kilos without ever leaving fresh water, and eats whatever fits, including its own young. Put into a lake it had never lived in, it cleared several hundred smaller species out of existence inside a few decades.',
   },
+    {
+    id: 'blue-sea-star',
+    name: 'Blue Sea Star',
+    sciName: 'Linckia laevigata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/311955295/large.jpg',
+    region: 'rift-lakes',
+    fact: 'That blue comes from a pigment bound to protein that nothing else makes, and it holds its colour even out of the light. Break an arm off and the arm can grow a whole new animal from the stump, so one of them is sometimes found as a star with four long arms and one stub.',
+  },
   // ---- Coral Triangle ----
   {
     id: 'mandarinfish',
@@ -1326,6 +1342,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Props itself on its fins and rocks with the surge exactly as a dead leaf would, waiting for something small to swim past its mouth. It sheds its whole skin every couple of weeks to keep the algae off, and turns up yellow, pink, white or black.',
   },
+    {
+    id: 'flamboyant-cuttlefish',
+    name: 'Flamboyant Cuttlefish',
+    sciName: 'Metasepia pfefferi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/332532130/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Too small and too slow to get away from anything, so instead of swimming it walks the bottom on two arms and two flaps of skin, pulsing waves of purple and yellow as it goes. That is a warning, not camouflage: its flesh is poisonous, which is almost unheard of in a cuttlefish.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1495,6 +1519,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/501684378/large.jpeg',
     region: 'northern-australia',
     fact: 'Every leaf on it is a flap of skin that does nothing at all but look like weed; it is moved by two clear fins beating too fast to see, so it appears to drift rather than swim. The male carries the eggs stuck to the underside of his tail until they hatch.',
+  },
+    {
+    id: 'flower-urchin',
+    name: 'Flower Urchin',
+    sciName: 'Toxopneustes pileolus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/73502140/large.jpg',
+    region: 'northern-australia',
+    fact: 'What look like little flowers are hundreds of jaws on stalks, each a three-lipped pincer that grips and injects, and the sting has killed — which cannot be said of any other urchin. It dresses itself as well, holding scraps of shell and weed over its back with its tube feet.',
   },
   // ---- Southern Ocean ----
   {
@@ -2273,5 +2305,13 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Saint-Pierre_%28Zeus_faber%29_%28Ifremer_00555-66734_-_44450%29.jpg/1280px-Saint-Pierre_%28Zeus_faber%29_%28Ifremer_00555-66734_-_44450%29.jpg',
     region: 'new-zealand',
     fact: 'Seen head-on it is barely there — a fish the thickness of a plate — so it edges up to something that cannot tell how big it is, then shoots its jaw forward into a tube and inhales. The dark spot on each side stands in for an eye, and the spines along its back fold flat when it is calm.',
+  },
+  {
+    id: 'blackfoot-paua',
+    name: 'Blackfoot Pāua',
+    sciName: 'Haliotis iris',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/521092730/large.jpg',
+    region: 'new-zealand',
+    fact: 'A snail that grips rock hard enough to need a lever to shift, plain and crusted outside and all green and violet within, where the shell is laid down in sheets thin enough to split light. It breathes through a row of holes along the rim, opening new ones as it grows and sealing the old.',
   },
 ];
