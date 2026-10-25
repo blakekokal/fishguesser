@@ -672,6 +672,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/243375053",
   },
+  "giant-isopod": {
+    author: "Eric Polk",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Bathynomus_giganteus_side_-_MBA.png",
+  },
   "giant-mudskipper": {
     author: "Mhlayson",
     license: "CC BY-SA 4.0",
@@ -720,6 +726,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Kryptopterus_vitreolus_(Cologne_Zoo).jpg",
   },
+  "glass-sponge": {
+    author: "NOAA Okeanos Explorer Program",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg",
+  },
   "golden-mbuna": {
     author: "Roland Godon",
     license: "CC BY 4.0",
@@ -755,6 +767,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG",
+  },
+  "gummy-squirrel": {
+    author: "NOAA Okeanos Explorer Program",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Psychropotes_longicauda_NOAA.jpg",
   },
   "harlequin-sweetlips": {
     author: "Rickard Zerpe",
@@ -1218,6 +1236,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Queen_Triggerfish_Balistes_vetula.jpg",
   },
+  "rabbit-fish": {
+    author: "MAREANO / Havforskningsinstituttet",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Havmus_%28Chimaera_monstrosa%29_over_havbotn.jpg",
+  },
   "rainbow-darter": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
@@ -1601,6 +1625,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg",
+  },
+  "venus-flytrap-anemone": {
+    author: "Aquapix / NOAA Expedition to the Deep Slope 2007",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Actinoscyphia_aurelia.jpg",
   },
   "walleye": {
     author: "Engbretson, Eric / U.S. Fish and Wildlife Service",
@@ -1998,4 +2028,9 @@ const PHOTO_ORDER = [
   "flower-urchin",
   "blackfoot-paua",
   "blue-sea-star",
+  "glass-sponge",
+  "venus-flytrap-anemone",
+  "gummy-squirrel",
+  "rabbit-fish",
+  "giant-isopod",
 ];
