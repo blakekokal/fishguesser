@@ -122,6 +122,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `giant-barb` | Mhlayson | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Siamese_giant_carp_(Catlocarpio_siamensis)_2.jpg) |
 | `giant-freshwater-stingray` | Gant223 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Urogymnus_polylepis_at_Itabashi_Botanical_Garden.png) |
 | `giant-gourami` | Jarro Nevsbaru | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/243375053) |
+| `giant-isopod` | Eric Polk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Bathynomus_giganteus_side_-_MBA.png) |
 | `giant-mudskipper` | Mhlayson | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Giant_Mudskipper_(Periophthalmodon_schlosseri).jpg) |
 | `giant-pangasius` | Raymond Ellis | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Pangasius_sanitwongsei_Zoologischer_Garten_Aquarium_Berlin.JPG) |
 | `giant-river-prawn` | Dmitry Ivanov | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/321247585) |
@@ -130,12 +131,14 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `giant-tube-worm` | Ifremer | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Vers_g%C3%A9ants_%28Riftia_Pachyptila%29_dans_leur_habitat_%28Ifremer_00569-68102%29.jpg) |
 | `gilt-head-bream` | Thesupermat | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Brest_-_Oc%C3%A9anopolis_-_2015_-_051.jpg) |
 | `glass-catfish` | TomCatX | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Kryptopterus_vitreolus_(Cologne_Zoo).jpg) |
+| `glass-sponge` | NOAA Okeanos Explorer Program | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg) |
 | `golden-mbuna` | Roland Godon | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/138845070) |
 | `goliath-tigerfish` | Sablegsd | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hydrocynus_goliath.jpg) |
 | `greenland-shark` | Hemming1952 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Greenland_shark_profile.jpg) |
 | `grey-reef-shark` | Daniel Benák | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/134590155) |
 | `grunt-sculpin` | Alicia Christman | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/231605752) |
 | `gulf-saratoga` | Ginkgo100 | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG) |
+| `gummy-squirrel` | NOAA Okeanos Explorer Program | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Psychropotes_longicauda_NOAA.jpg) |
 | `harlequin-sweetlips` | Rickard Zerpe | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg) |
 | `horsehair-crab` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Erimacrus_isenbeckii_Sunpiazza1.jpg) |
 | `horseshoe-crab` | Hans Hillewaert | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Limulus_polyphemus_(aq.).jpg) |
@@ -213,6 +216,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `pyjama-cardinalfish` | Rickard Zerpe | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pajama_cardinalfish_(Sphaeramia_nematoptera)_(44065265714).jpg) |
 | `queen-angelfish` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pez_ángel_reina_(Holacanthus_ciliaris),_Cozumel,_México,_2025-12-20,_DD_134.jpg) |
 | `queen-triggerfish` | Greg Grimes | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Queen_Triggerfish_Balistes_vetula.jpg) |
+| `rabbit-fish` | MAREANO / Havforskningsinstituttet | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Havmus_%28Chimaera_monstrosa%29_over_havbotn.jpg) |
 | `rainbow-darter` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/10943406) |
 | `red-bellied-piranha` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg) |
 | `red-gurnard` | Brian Gratwicke | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Chelidonichthys_kumu.jpg) |
@@ -277,6 +281,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `two-banded-seabream` | Donald Davesne | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/83306261) |
 | `upside-down-catfish` | Igor Balashov | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/237908815) |
 | `vampire-crab` | CEphoto, Uwe Aranas | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg) |
+| `venus-flytrap-anemone` | Aquapix / NOAA Expedition to the Deep Slope 2007 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Actinoscyphia_aurelia.jpg) |
 | `walleye` | Engbretson, Eric / U.S. Fish and Wildlife Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg) |
 | `warty-frogfish` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pez_sapo_payaso_(Antennarius_maculatus),_Anilao,_Filipinas,_2023-08-24,_DD_39.jpg) |
 | `weedy-seadragon` | Kai Squires | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/37463914) |

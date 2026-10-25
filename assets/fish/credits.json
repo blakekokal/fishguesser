@@ -2029,5 +2029,41 @@
     "author": "Chuck Wilson",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "glass-sponge": {
+    "commons_title": "File:Euplectella aspergillum Okeanos.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg",
+    "author": "NOAA Okeanos Explorer Program",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "venus-flytrap-anemone": {
+    "commons_title": "File:Actinoscyphia aurelia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Actinoscyphia_aurelia.jpg",
+    "author": "Aquapix / NOAA Expedition to the Deep Slope 2007",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "gummy-squirrel": {
+    "commons_title": "File:Psychropotes longicauda NOAA.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Psychropotes_longicauda_NOAA.jpg",
+    "author": "NOAA Okeanos Explorer Program",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "rabbit-fish": {
+    "commons_title": "File:Havmus (Chimaera monstrosa) over havbotn.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Havmus_%28Chimaera_monstrosa%29_over_havbotn.jpg",
+    "author": "MAREANO / Havforskningsinstituttet",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "giant-isopod": {
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Bathynomus_giganteus_side_-_MBA.png/1280px-Bathynomus_giganteus_side_-_MBA.png",
+    "commons_title": "File:Bathynomus giganteus side - MBA.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Bathynomus_giganteus_side_-_MBA.png",
+    "author": "Eric Polk",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

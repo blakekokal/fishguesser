@@ -192,6 +192,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Barely swims at all — it walks the bottom on stiffened fins like a man on crutches — and fishes instead, unfolding a small lure from a socket between its eyes. Nobody has worked out what the red lips are for.',
   },
+    {
+    id: 'gummy-squirrel',
+    name: 'Gummy Squirrel',
+    sciName: 'Psychropotes longicauda',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Psychropotes_longicauda_NOAA.jpg/1280px-Psychropotes_longicauda_NOAA.jpg',
+    region: 'north-pacific',
+    fact: 'A sea cucumber the length of a forearm that ploughs the abyssal mud with a sail of a tail held up behind it, and oozes a sticky yellow slime when anything takes hold of it. The plain it lives on is scattered with potato-sized lumps of metal, which is the only reason anyone has been down there to photograph it.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -393,6 +401,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/520918835/large.jpg',
     region: 'caribbean',
     fact: 'The two spirals are the gills and mouth of a worm whose body is a tube bored down into living coral. Pass a shadow over them and they are gone faster than the eye follows, then creep out again a few seconds later as if nothing had happened.',
+  },
+  {
+    id: 'venus-flytrap-anemone',
+    name: 'Venus Flytrap Anemone',
+    sciName: 'Actinoscyphia aurelia',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Actinoscyphia_aurelia.jpg/1280px-Actinoscyphia_aurelia.jpg',
+    region: 'caribbean',
+    fact: 'Stands on a stalk facing into the current with its crown wide open, then folds the whole thing shut around whatever drifts in, the way the plant it is named for does, and opens again hours later. Those tentacles are the only arms it has; the rest of it is the stalk.',
+  },
+  {
+    id: 'giant-isopod',
+    name: 'Giant Isopod',
+    sciName: 'Bathynomus giganteus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Bathynomus_giganteus_side_-_MBA.png/1280px-Bathynomus_giganteus_side_-_MBA.png',
+    region: 'caribbean',
+    fact: 'A woodlouse the size of a cat, plated like a tank and able to roll into a ball. It lives on whatever sinks — a whale, when one comes down — and can go years between meals: one kept in a tank turned down every meal it was offered for five years and stayed in good health.',
   },
   // ---- Amazon Basin ----
   {
@@ -709,6 +733,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/175027232/large.jpeg',
     region: 'north-atlantic',
     fact: 'A sea slug the size of a coin that floats upside down at the surface on a bubble of air it swallowed, blue side up and silver side down so nothing sees it from either direction. It eats stinging siphonophores and saves the stings, which makes it sting worse than what it ate.',
+  },
+    {
+    id: 'rabbit-fish',
+    name: 'Rabbit Fish',
+    sciName: 'Chimaera monstrosa',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Havmus_%28Chimaera_monstrosa%29_over_havbotn.jpg/1280px-Havmus_%28Chimaera_monstrosa%29_over_havbotn.jpg',
+    region: 'north-atlantic',
+    fact: 'Not a shark but a distant cousin, built of cartilage, with teeth fused into plates like those of a rodent and a venomous spine standing in front of the dorsal fin. It finds buried shellfish by the sensors stippled across its snout, and the males carry a retractable club on the forehead.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -2014,6 +2046,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2802207/large.jpg',
     region: 'sea-of-japan',
     fact: 'Both claws are covered in a dark felt of bristles, like a pair of mittens worn to dinner. It hatches in salt water, spends years walking upriver — past locks, through fields, across roads — and then makes the whole journey back down to breed once and die.',
+  },
+    {
+    id: 'glass-sponge',
+    name: 'Glass Sponge',
+    sciName: 'Euplectella aspergillum',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Euplectella_aspergillum_Okeanos.jpg/1280px-Euplectella_aspergillum_Okeanos.jpg',
+    region: 'sea-of-japan',
+    fact: 'A sponge that spins itself a lattice out of glass, at the temperature of the sea floor, in fibres that carry light better than the ones in a cable. A pair of shrimp usually move in as larvae, grow too big to get back out, and spend the rest of their lives inside the tube.',
   },
   // ---- Mekong Basin ----
   {
