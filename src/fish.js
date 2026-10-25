@@ -1074,6 +1074,14 @@ const FISH = [
     region: 'congo',
     fact: 'Buries itself in gravel with only the eyes showing, takes the colour of whatever it is lying in, and lunges at what passes overhead — an ambusher rather than a crusher of shells. Alarmed, it does what the rest of its family does and swallows water until it is twice the size.',
   },
+    {
+    id: 'african-knifefish',
+    name: 'African Knifefish',
+    sciName: 'Xenomystus nigri',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/53146309/large.jpg',
+    region: 'congo',
+    fact: 'No fin at all along its back, and it swims either way — forwards or into reverse — by rippling the single long fin beneath it. It gulps air when the water turns bad, and it barks: a grunt made with the swim bladder that carries across a quiet room.',
+  },
   // ---- East African Rift Lakes ----
   {
     id: 'electric-yellow-cichlid',
@@ -1219,6 +1227,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/311955295/large.jpg',
     region: 'rift-lakes',
     fact: 'That blue comes from a pigment bound to protein that nothing else makes, and it holds its colour even out of the light. Break an arm off and the arm can grow a whole new animal from the stump, so one of them is sometimes found as a star with four long arms and one stub.',
+  },
+    {
+    id: 'harlequin-shrimp',
+    name: 'Harlequin Shrimp',
+    sciName: 'Hymenocera picta',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG/1280px-Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG',
+    region: 'rift-lakes',
+    fact: 'Eats starfish and nothing else. A pair finds one, tips it over and drags it home, then eats it alive over several days, starting at the arm tips so the rest stays fresh. Those spade-shaped claws are levers, not weapons.',
   },
   // ---- Coral Triangle ----
   {
@@ -1673,6 +1689,14 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Walks the abyssal mud on ten inflated legs, following its nose to the freshest patch of whatever has sunk from above and eating the sediment to get at it. Young king crabs ride underneath, out of sight of anything hunting from over the top.',
   },
+    {
+    id: 'antarctic-jellyfish',
+    name: 'Antarctic Jellyfish',
+    sciName: 'Diplulmaris antarctica',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Diplulmaris_antarctica.jpg/1280px-Diplulmaris_antarctica.jpg',
+    region: 'southern-ocean',
+    fact: 'Drifts under metres of sea ice in water a degree below freezing, trailing threads that small fish shelter among without being stung. The orange in the middle of it is whatever it has eaten, showing through.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -1770,6 +1794,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Dumbo-hires_%28cropped%29.jpg/1280px-Dumbo-hires_%28cropped%29.jpg',
     region: 'arctic',
     fact: 'Flies through black water four kilometres down by flapping a pair of fins like ears, and swallows what it catches whole rather than tearing it up. The female carries eggs at every stage at once, so whenever conditions allow she has one ready to lay.',
+  },
+    {
+    id: 'northern-shrimp',
+    name: 'Northern Shrimp',
+    sciName: 'Pandalus borealis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/323338900/large.jpeg',
+    region: 'arctic',
+    fact: 'Starts adult life male and turns female after a couple of seasons, so every big one in a swarm is a mother and every small one a father. They climb hundreds of metres at dusk to feed and sink again before it gets light.',
   },
   // ---- Great Lakes ----
   {
@@ -2233,6 +2265,14 @@ const FISH = [
     region: 'mekong',
     fact: 'A catfish past two metres long, with the front rays of its fins drawn out into trailing threads and a hunting habit unusual for a catfish — it takes other fish in the deep channels. So few are left that most people who know it have only ever seen one through glass.',
   },
+    {
+    id: 'snail-eating-turtle',
+    name: 'Snail-eating Turtle',
+    sciName: 'Malayemys subtrijuga',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/618967206/large.jpg',
+    region: 'mekong',
+    fact: 'Eats more or less nothing but snails, cracking them with broad plates in its jaws, and wears white stripes painted down a blunt face. When the water goes it buries itself in the mud and waits for the floods.',
+  },
   // ---- New Zealand ----
   {
     id: 'australasian-snapper',
@@ -2393,5 +2433,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/521092730/large.jpg',
     region: 'new-zealand',
     fact: 'A snail that grips rock hard enough to need a lever to shift, plain and crusted outside and all green and violet within, where the shell is laid down in sheets thin enough to split light. It breathes through a row of holes along the rim, opening new ones as it grows and sealing the old.',
+  },
+  {
+    id: 'sea-perch',
+    name: 'Sea Perch',
+    sciName: 'Helicolenus percoides',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/589590719/large.jpg',
+    region: 'new-zealand',
+    fact: 'Sits on the bottom propped on splayed fins with venom in the spines along its back, and moves for nothing until something small swims within reach. It grows slowly and lives a long time, which is why a trawled patch of ground takes decades to fill back up.',
   },
 ];

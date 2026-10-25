@@ -2100,5 +2100,47 @@
     "author": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "african-knifefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146309/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814680",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "northern-shrimp": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323338900/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/185163942",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "snail-eating-turtle": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618967206/large.jpg",
+    "source": "https://www.inaturalist.org/observations/340162443",
+    "author": "sucker69420",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sea-perch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589590719/large.jpg",
+    "source": "https://www.inaturalist.org/observations/325572878",
+    "author": "Lisa Bennett",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "harlequin-shrimp": {
+    "commons_title": "File:Hymenocera picta en train de retourner Fromia milleporella.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG",
+    "author": "Nathalie Rodrigues",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "antarctic-jellyfish": {
+    "commons_title": "File:Diplulmaris antarctica.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Diplulmaris_antarctica.jpg",
+    "author": "Steve Clabuesch, National Science Foundation",
+    "license": "Public domain",
+    "license_url": ""
   }
 }

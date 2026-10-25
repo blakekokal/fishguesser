@@ -12,6 +12,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg",
   },
+  "african-knifefish": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814680",
+  },
   "african-tigerfish": {
     author: "Klaus Rudloff",
     license: "CC BY-SA 4.0",
@@ -35,6 +41,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/134769128",
+  },
+  "antarctic-jellyfish": {
+    author: "Steve Clabuesch, National Science Foundation",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Diplulmaris_antarctica.jpg",
   },
   "antarctic-krill": {
     author: "Ingvild Riska",
@@ -780,6 +792,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Psychropotes_longicauda_NOAA.jpg",
   },
+  "harlequin-shrimp": {
+    author: "Nathalie Rodrigues",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG",
+  },
   "harlequin-sweetlips": {
     author: "Rickard Zerpe",
     license: "CC BY 2.0",
@@ -1091,6 +1109,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/86468799",
+  },
+  "northern-shrimp": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/185163942",
   },
   "nurse-shark": {
     author: "Ross Garner",
@@ -1410,6 +1434,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg",
   },
+  "sea-perch": {
+    author: "Lisa Bennett",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/325572878",
+  },
   "sea-pig": {
     author: "NOAA/MBARI",
     license: "CC BY-SA 3.0",
@@ -1481,6 +1511,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg",
+  },
+  "snail-eating-turtle": {
+    author: "sucker69420",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/340162443",
   },
   "snow-crab": {
     author: "Blue Rose Man",
@@ -2068,4 +2104,10 @@ const PHOTO_ORDER = [
   "black-ghost-knifefish",
   "potato-puffer",
   "rainbow-wrasse",
+  "african-knifefish",
+  "northern-shrimp",
+  "snail-eating-turtle",
+  "sea-perch",
+  "harlequin-shrimp",
+  "antarctic-jellyfish",
 ];
