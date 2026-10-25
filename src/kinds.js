@@ -192,6 +192,18 @@ const FRESHWATER = new Set([
 const isFresh = (fish) => FRESHWATER.has(fish.id);
 const isSalt = (fish) => !FRESHWATER.has(fish.id);
 
+/* The hundred most recently added, straight off the end of ADDED_ORDER (see
+ * tools/build_added.py). Nothing in the collection's own order says what is
+ * new — it is stored by region — so the history of the data file is where this
+ * comes from. A species added later pushes the oldest out; a swapped photo
+ * changes nothing here. */
+const RECENT_COUNT = 100;
+const RECENT = new Set(
+  (typeof ADDED_ORDER === 'undefined' ? [] : ADDED_ORDER).slice(-RECENT_COUNT)
+);
+
+const isRecent = (fish) => RECENT.has(fish.id);
+
 /* The mode row of the filter, in the order it is shown. `test` is what a game
  * is dealt from; `short` is what fits on the tile in the top bar. */
 const KIND_FILTERS = [
@@ -199,6 +211,7 @@ const KIND_FILTERS = [
   { id: 'fish', label: 'Fish mode', short: 'Fish', test: isFish },
   { id: 'other', label: 'Sea life', short: 'Sea life', test: isOther },
   { id: 'weird', label: 'Weird mode', short: 'Weird', test: isWeird },
+  { id: 'new', label: 'Last 100 added', short: 'Newest', test: isRecent },
   { id: 'fresh', label: 'Freshwater', short: 'Fresh', test: isFresh },
   { id: 'salt', label: 'Saltwater', short: 'Salt', test: isSalt },
   { id: 'crab', label: 'Crab mode', short: 'Crabs', test: isCrab },

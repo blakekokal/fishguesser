@@ -24,8 +24,9 @@ and its name; you decide which of fifteen regions of the world it comes from.
   given back to the photograph
 - **A filter under Settings** — deal from the whole collection or narrow it:
   **fish mode**, **sea life** (everything that is not a fish), **weird mode**
-  (a hand-picked set of the strangest-looking ones), **freshwater**,
-  **saltwater**, **crab mode**, **shark/whale mode**, crossed with **unseen first** (the default, and how the game
+  (a hand-picked set of the strangest-looking ones), **last 100 added**,
+  **freshwater**, **saltwater**, **crab mode**, **shark/whale mode**, crossed
+  with **unseen first** (the default, and how the game
   has always dealt), **seen only** or **any**.
   Each option carries the number of species behind it, and a narrowed mode never
   spends the pass of the species it does not deal
@@ -190,6 +191,7 @@ styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions, their map seeds + haversine distance
 src/fish.js             the 300 species (name, photo URL, home region, fact)
+src/added.js            generated: the order they were added in, oldest first
 src/spoilers.js         place names, dotted out while a fact is a hint
 src/kinds.js            what counts as a fish, a crab, a shark for the filter
 src/credits.js          generated photo attribution
@@ -199,6 +201,7 @@ src/game.js             game loop, scoring, end screen
 src/photos.js           the photo check page
 assets/fish/credits.json  which Commons file each fish uses, and its credit
 tools/build_credits.py  regenerates src/credits.js and CREDITS.md
+tools/build_added.py    regenerates src/added.js: what was added when
 tools/bump_version.py   bumps the version and stamps today's date
 tools/build_photo_urls.py  regenerates the photo URLs (--check verifies them)
 tools/build_coastlines.py  regenerates src/coastlines.js from Natural Earth
@@ -235,13 +238,17 @@ The data files are plain arrays, so extending the game is additive:
 4. Run `python3 tools/check_hints.py`. The fact is shown before the guess, so
    any place it names has to be in `PLACE_TERMS` in `src/spoilers.js` to be
    dotted out; the check reads the list and reports what is left standing.
-5. If it lives in fresh water, add it to `FRESHWATER` in `src/kinds.js` —
+5. Run `python3 tools/build_added.py`. The collection is stored by region, so
+   nothing in it says what is new; this reads the history of `src/fish.js` and
+   writes the order species arrived in, which is what "last 100 added" deals
+   from. Anything uncommitted counts as newest, so it is right either way.
+6. If it lives in fresh water, add it to `FRESHWATER` in `src/kinds.js` —
    everything not in that list counts as salt, and a diadromous species is
    filed by where it does its growing.
-6. Optional: add it to `WEIRD` in `src/kinds.js` if its photograph would stop
+7. Optional: add it to `WEIRD` in `src/kinds.js` if its photograph would stop
    somebody scrolling — that list is what "Weird mode" deals, and nothing but
    the picture decides it.
-7. Only if it is not a fish: `src/kinds.js` reads crabs, sharks and rays off
+8. Only if it is not a fish: `src/kinds.js` reads crabs, sharks and rays off
    their names, so those need nothing, but anything else that is not a fish — a
    cephalopod, a mammal, a sea star, a mantis shrimp — has to go in `NOT_FISH`
    there, or "Fish mode" will deal it and "Sea life" will not. A name that lies goes in `NOT_CRABS` or

@@ -46,4 +46,9 @@ python3 tools/check_regions.py   # the map's sections still land where they shou
 python3 tools/build_photo_urls.py --check   # every photo URL still resolves
 ```
 
+After adding or removing a species, also run `python3 tools/build_added.py` —
+it rereads the history of `src/fish.js` and rewrites `src/added.js`, which is
+what the "last 100 added" filter deals from. A shallow clone truncates that
+history, so `git fetch --unshallow` first if the counts look wrong.
+
 Adding species, regions or photographs is documented in [README.md](README.md).
