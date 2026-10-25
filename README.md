@@ -40,6 +40,12 @@ and its name; you decide which of fifteen regions of the world it comes from.
   so the photograph keeps the height. Any place it names is dotted out while it
   is a hint (`src/spoilers.js`) and comes back with the result, so a hint can
   never simply hand over the answer
+- **Fits the phone it is held in** — the page runs edge to edge under the
+  notch and the home bar with `viewport-fit=cover`, pads itself clear of them
+  with `env(safe-area-inset-*)`, paints the browser's own bars from
+  `theme-color` so nothing comes out white around a dark page, and measures
+  itself in `svh` so one screen means one screen whether the address bar is
+  showing or not
 - **A front page with the rules**, so the two kinds of peek and what they cost
   are clear before the first fish rather than discovered by losing points
 - **Two ways to peek** — **Show half** gives back half the name's letters,
