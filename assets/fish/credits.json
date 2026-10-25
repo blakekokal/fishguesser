@@ -2065,5 +2065,40 @@
     "author": "Eric Polk",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "longear-sunfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507076620/large.jpg",
+    "source": "https://www.inaturalist.org/observations/282246397",
+    "author": "L.J. Lamera",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "marbled-hatchetfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205146696/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121243602",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "black-ghost-knifefish": {
+    "commons_title": "File:Apteronotus albifrons Aquarium tropical du Palais de la Porte Dorée 10 04 2016 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg",
+    "author": "Vassil",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "potato-puffer": {
+    "commons_title": "File:Tetraodon miurus 14554205.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tetraodon_miurus_14554205.jpg",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rainbow-wrasse": {
+    "commons_title": "File:Doncella (Coris julis), Cabo de Palos, España, 2022-07-17, DD 69.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Doncella_%28Coris_julis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_69.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

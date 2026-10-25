@@ -122,6 +122,8 @@ const WEIRD = new Set([
   'crown-of-thorns-starfish', 'lions-mane-jellyfish', 'portuguese-man-o-war',
   'flamboyant-cuttlefish', 'christmas-tree-worm', 'flower-urchin', 'blue-sea-star',
   'glass-sponge', 'venus-flytrap-anemone', 'gummy-squirrel', 'giant-isopod',
+  'black-ghost-knifefish', 'potato-puffer', 'marbled-hatchetfish',
+  'longear-sunfish',
   'rabbit-fish',
   'sea-angel', 'freshwater-jellyfish', 'antarctic-cushion-star',
   // carrying, hiding or plugged into something
@@ -177,6 +179,9 @@ const FRESHWATER = new Set([
   'spangled-perch', 'archerfish', 'largetooth-sawfish', 'barramundi',
   'nurseryfish', 'arctic-grayling', 'arctic-char', 'ayu', 'sakhalin-taimen',
   'chinese-mitten-crab', 'longfin-eel',
+
+  'longear-sunfish', 'black-ghost-knifefish', 'potato-puffer',
+  'marbled-hatchetfish',
 ]);
 
 const isFresh = (fish) => FRESHWATER.has(fish.id);
