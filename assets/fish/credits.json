@@ -2142,5 +2142,40 @@
     "author": "Steve Clabuesch, National Science Foundation",
     "license": "Public domain",
     "license_url": ""
+  },
+  "lionfish": {
+    "commons_title": "File:Pterois volitans Manado-e.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pterois_volitans_Manado-e.jpg",
+    "author": "Jens Petersen",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5"
+  },
+  "giant-clam": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350440855/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/198787856",
+    "author": "Sockrosma",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "chambered-nautilus": {
+    "commons_title": "File:Nautilus pompilius photo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_photo.jpg",
+    "author": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "asian-swamp-eel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128995928/large.jpg",
+    "source": "https://www.inaturalist.org/observations/78794765",
+    "author": "Ian Dugdale",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "porcupinefish": {
+    "commons_title": "File:Pez erizo moteado (Diodon hystrix), Cabo Pulmo, Baja California, México, 2024-12-19, DD 23.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pez_erizo_moteado_%28Diodon_hystrix%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_23.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

@@ -61,6 +61,8 @@ const NOT_FISH = new Set([
   'swimming-sea-cucumber',
   'harlequin-shrimp',
   'antarctic-jellyfish',
+  'giant-clam',
+  'chambered-nautilus',
   'northern-shrimp',
   'snail-eating-turtle',
   'flamboyant-cuttlefish',
@@ -128,6 +130,7 @@ const WEIRD = new Set([
   'glass-sponge', 'venus-flytrap-anemone', 'gummy-squirrel', 'giant-isopod',
   'black-ghost-knifefish', 'potato-puffer', 'marbled-hatchetfish',
   'harlequin-shrimp', 'antarctic-jellyfish', 'african-knifefish',
+  'chambered-nautilus', 'porcupinefish', 'lionfish', 'giant-clam',
   'longear-sunfish',
   'rabbit-fish',
   'sea-angel', 'freshwater-jellyfish', 'antarctic-cushion-star',
@@ -187,6 +190,7 @@ const FRESHWATER = new Set([
 
   'longear-sunfish', 'black-ghost-knifefish', 'potato-puffer',
   'marbled-hatchetfish', 'african-knifefish', 'snail-eating-turtle',
+  'asian-swamp-eel',
 ]);
 
 const isFresh = (fish) => FRESHWATER.has(fish.id);

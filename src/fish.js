@@ -200,6 +200,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'A sea cucumber the length of a forearm that ploughs the abyssal mud with a sail of a tail held up behind it, and oozes a sticky yellow slime when anything takes hold of it. The plain it lives on is scattered with potato-sized lumps of metal, which is the only reason anyone has been down there to photograph it.',
   },
+    {
+    id: 'porcupinefish',
+    name: 'Porcupinefish',
+    sciName: 'Diodon hystrix',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pez_erizo_moteado_%28Diodon_hystrix%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_23.jpg/1280px-Pez_erizo_moteado_%28Diodon_hystrix%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_23.jpg',
+    region: 'north-pacific',
+    fact: 'Swallows water until it is a ball two or three times its own size, which stands every spine on end at once; the rest of the time those spines lie flat and it looks like an ordinary fish with a dog-like face. Its teeth are fused into a single plate for cracking shells.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -417,6 +425,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Bathynomus_giganteus_side_-_MBA.png/1280px-Bathynomus_giganteus_side_-_MBA.png',
     region: 'caribbean',
     fact: 'A woodlouse the size of a cat, plated like a tank and able to roll into a ball. It lives on whatever sinks — a whale, when one comes down — and can go years between meals: one kept in a tank turned down every meal it was offered for five years and stayed in good health.',
+  },
+    {
+    id: 'lionfish',
+    name: 'Lionfish',
+    sciName: 'Pterois volitans',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Pterois_volitans_Manado-e.jpg/1280px-Pterois_volitans_Manado-e.jpg',
+    region: 'caribbean',
+    fact: 'Eighteen venomous spines held out like a fan, and a habit of herding small fish into a corner with its pectoral fins before swallowing them whole. It has no natural check where it has been let loose, so divers are paid by the tail to take them out.',
   },
   // ---- Amazon Basin ----
   {
@@ -1430,6 +1446,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Too small and too slow to get away from anything, so instead of swimming it walks the bottom on two arms and two flaps of skin, pulsing waves of purple and yellow as it goes. That is a warning, not camouflage: its flesh is poisonous, which is almost unheard of in a cuttlefish.',
   },
+    {
+    id: 'chambered-nautilus',
+    name: 'Chambered Nautilus',
+    sciName: 'Nautilus pompilius',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Nautilus_pompilius_photo.jpg/1280px-Nautilus_pompilius_photo.jpg',
+    region: 'coral-triangle',
+    fact: 'A cephalopod that kept its shell, and rides up and down each night by pumping gas in and out of the chambers behind it. It has something like ninety arms with no suckers, pinhole eyes with no lens, and it has been making the same shell for half a billion years.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1607,6 +1631,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/73502140/large.jpg',
     region: 'northern-australia',
     fact: 'What look like little flowers are hundreds of jaws on stalks, each a three-lipped pincer that grips and injects, and the sting has killed — which cannot be said of any other urchin. It dresses itself as well, holding scraps of shell and weed over its back with its tube feet.',
+  },
+    {
+    id: 'giant-clam',
+    name: 'Giant Clam',
+    sciName: 'Tridacna gigas',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/350440855/large.jpeg',
+    region: 'northern-australia',
+    fact: 'The largest shellfish there is, a metre across and a quarter of a tonne, and it farms: the frilled mantle is packed with algae that feed it in exchange for a lit place to live, which is where those colours come from. It settles once and never moves again.',
   },
   // ---- Southern Ocean ----
   {
@@ -2272,6 +2304,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/618967206/large.jpg',
     region: 'mekong',
     fact: 'Eats more or less nothing but snails, cracking them with broad plates in its jaws, and wears white stripes painted down a blunt face. When the water goes it buries itself in the mud and waits for the floods.',
+  },
+    {
+    id: 'asian-swamp-eel',
+    name: 'Asian Swamp Eel',
+    sciName: 'Monopterus albus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/128995928/large.jpg',
+    region: 'mekong',
+    fact: 'Not an eel: a fish with no scales, no paired fins and almost no gills, breathing through the lining of its mouth instead. It crosses wet ground to find new water, digs into mud to wait out a drought, and the big ones all began as females.',
   },
   // ---- New Zealand ----
   {
