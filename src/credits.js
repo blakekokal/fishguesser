@@ -84,6 +84,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.5",
     source: "https://commons.wikimedia.org/wiki/File:Underwater_Arctic_Grayling.jpg",
   },
+  "asian-swamp-eel": {
+    author: "Ian Dugdale",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/78794765",
+  },
   "atlantic-blue-tang": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -390,6 +396,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://commons.wikimedia.org/wiki/File:Full_Shot_of_a_Caribbean_Reef_Shark_at_Tiger_Beach_Bahamas.jpg",
   },
+  "chambered-nautilus": {
+    author: "Hans Hillewaert",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_photo.jpg",
+  },
   "cherry-anthias": {
     author: "harum.koh from Kobe city, Japan",
     license: "CC BY-SA 2.0",
@@ -678,6 +690,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Siamese_giant_carp_(Catlocarpio_siamensis)_2.jpg",
   },
+  "giant-clam": {
+    author: "Sockrosma",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/198787856",
+  },
   "giant-freshwater-stingray": {
     author: "Gant223",
     license: "CC BY-SA 4.0",
@@ -954,6 +972,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Ophiodon_elongatus_458366655.jpg",
   },
+  "lionfish": {
+    author: "Jens Petersen",
+    license: "CC BY 2.5",
+    license_url: "https://creativecommons.org/licenses/by/2.5",
+    source: "https://commons.wikimedia.org/wiki/File:Pterois_volitans_Manado-e.jpg",
+  },
   "lions-mane-jellyfish": {
     author: "W.carter",
     license: "CC0",
@@ -1223,6 +1247,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Boreogadus_saida_Kaiyukan.jpg",
+  },
+  "porcupinefish": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pez_erizo_moteado_%28Diodon_hystrix%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_23.jpg",
   },
   "portuguese-man-o-war": {
     author: "Jan Ebr & Ivana Ebrová",
@@ -2110,4 +2140,9 @@ const PHOTO_ORDER = [
   "sea-perch",
   "harlequin-shrimp",
   "antarctic-jellyfish",
+  "lionfish",
+  "giant-clam",
+  "chambered-nautilus",
+  "asian-swamp-eel",
+  "porcupinefish",
 ];

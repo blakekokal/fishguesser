@@ -307,4 +307,9 @@ const ADDED_ORDER = [
   'northern-shrimp',
   'snail-eating-turtle',
   'sea-perch',
+  'porcupinefish',
+  'lionfish',
+  'chambered-nautilus',
+  'giant-clam',
+  'asian-swamp-eel',
 ];
