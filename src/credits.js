@@ -192,6 +192,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Beluga_Whale_(Underwater),_Vancouver_Aquarium_(319841848).jpg",
   },
+  "black-ghost-knifefish": {
+    author: "Vassil",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg",
+  },
   "black-rockcod": {
     author: "Sarka Masova",
     license: "CC BY 4.0",
@@ -936,6 +942,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Lion's_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg",
   },
+  "longear-sunfish": {
+    author: "L.J. Lamera",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/282246397",
+  },
   "longfin-eel": {
     author: "Nil NZ",
     license: "CC BY-SA 4.0",
@@ -989,6 +1001,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Torpedo_marmorata_(20150825)_01.jpg",
+  },
+  "marbled-hatchetfish": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/121243602",
   },
   "marbled-rock-crab": {
     author: "Charles J. Sharp",
@@ -1194,6 +1212,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Serranidae_Epinephelus_tukula_1.jpg",
   },
+  "potato-puffer": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Tetraodon_miurus_14554205.jpg",
+  },
   "psychedelic-frogfish": {
     author: "Truite agile",
     license: "CC BY-SA 4.0",
@@ -1247,6 +1271,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/10943406",
+  },
+  "rainbow-wrasse": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Doncella_%28Coris_julis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_69.jpg",
   },
   "red-bellied-piranha": {
     author: "H. Zell",
@@ -2033,4 +2063,9 @@ const PHOTO_ORDER = [
   "gummy-squirrel",
   "rabbit-fish",
   "giant-isopod",
+  "longear-sunfish",
+  "marbled-hatchetfish",
+  "black-ghost-knifefish",
+  "potato-puffer",
+  "rainbow-wrasse",
 ];

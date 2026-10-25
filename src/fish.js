@@ -564,6 +564,22 @@ const FISH = [
     region: 'amazon',
     fact: 'Lies on the bottom looking like a rotting leaf, head flattened into a triangle and hung with frills of skin that drift in the current. It cannot chew and can barely bite: when a fish comes close enough it opens its throat so fast that the inrush of water carries the fish down whole.',
   },
+    {
+    id: 'black-ghost-knifefish',
+    name: 'Black Ghost Knifefish',
+    sciName: 'Apteronotus albifrons',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg/1280px-Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg',
+    region: 'amazon',
+    fact: 'Holds its body stiff and swims in any direction it likes — forwards, backwards, straight up — on one long fin rippling along its underside. It can barely see, and hunts instead inside a weak electric field it throws around itself, reading the dents that other animals press into it.',
+  },
+  {
+    id: 'marbled-hatchetfish',
+    name: 'Marbled Hatchetfish',
+    sciName: 'Carnegiella strigata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/205146696/large.jpg',
+    region: 'amazon',
+    fact: 'The deep keel under it is solid muscle driving a pair of outsized side fins, and it is the one fish that properly flies rather than glides: startled, it leaves the water altogether and beats its way a metre or two, loud enough to hear.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -920,6 +936,14 @@ const FISH = [
     region: 'mediterranean',
     fact: 'The heaviest bony fish there is: a swimming head that stops where the tail should start, steering with a frill of fused fin. It lies flat on the surface to let birds pick the parasites off it, then drops hundreds of metres into the cold to feed.',
   },
+    {
+    id: 'rainbow-wrasse',
+    name: 'Rainbow Wrasse',
+    sciName: 'Coris julis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Doncella_%28Coris_julis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_69.jpg/1280px-Doncella_%28Coris_julis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_69.jpg',
+    region: 'mediterranean',
+    fact: 'Hatches female and drab, and the ones that get big turn male and put on an orange zigzag down the flank. It sleeps buried in sand, and follows larger fish around to snatch whatever they turn over.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -1041,6 +1065,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Hydrocynus_vittatus_-_Ndweshi.jpg/1280px-Hydrocynus_vittatus_-_Ndweshi.jpg',
     region: 'congo',
     fact: 'Its teeth slot into sockets in the opposite jaw, so the mouth shuts like a trap rather than a pair of scissors, and it has been filmed launching clear of the water to take swallows out of the air as they skim the surface.',
+  },
+    {
+    id: 'potato-puffer',
+    name: 'Potato Puffer',
+    sciName: 'Tetraodon miurus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tetraodon_miurus_14554205.jpg/1280px-Tetraodon_miurus_14554205.jpg',
+    region: 'congo',
+    fact: 'Buries itself in gravel with only the eyes showing, takes the colour of whatever it is lying in, and lunges at what passes overhead — an ambusher rather than a crusher of shells. Alarmed, it does what the rest of its family does and swallows water until it is twice the size.',
   },
   // ---- East African Rift Lakes ----
   {
@@ -1884,6 +1916,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/22806149/large.jpg',
     region: 'great-lakes',
     fact: 'The one cod that never goes near the sea. It has a single barbel under its chin, a liver that can be a tenth of its own weight and was once pressed for lamp oil, and it spawns under the ice in a slow rolling ball of fish.',
+  },
+    {
+    id: 'longear-sunfish',
+    name: 'Longear Sunfish',
+    sciName: 'Lepomis megalotis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/507076620/large.jpg',
+    region: 'great-lakes',
+    fact: 'A palm-sized fish painted like something off a reef: turquoise worm-tracks over orange, and a long black ear flap edged in white. The male sweeps a saucer of gravel clean with his tail and guards it, and a colony of them can be dozens of saucers side by side.',
   },
   // ---- Sea of Japan ----
   {
