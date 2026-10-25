@@ -12,10 +12,12 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | Fish | Author | Licence | Source |
 | --- | --- | --- | --- |
 | `african-butterflyfish` | Vassil | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg) |
+| `african-knifefish` | John P Friel | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/33814680) |
 | `african-tigerfish` | Klaus Rudloff | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hydrocynus_vittatus_-_Ndweshi.jpg) |
 | `american-paddlefish` | Jon Mortin | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/255918853) |
 | `angelshark` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Squatina_squatina_120867948.jpg) |
 | `antarctic-cushion-star` | Oleksii Vasyliuk | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/134769128) |
+| `antarctic-jellyfish` | Steve Clabuesch, National Science Foundation | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Diplulmaris_antarctica.jpg) |
 | `antarctic-krill` | Ingvild Riska | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/264532850) |
 | `antarctic-toothfish` | Citron | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni.jpg) |
 | `arapaima` | T.Voekler | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Arapaima_gigas_5147.jpg) |
@@ -140,6 +142,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `grunt-sculpin` | Alicia Christman | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/231605752) |
 | `gulf-saratoga` | Ginkgo100 | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG) |
 | `gummy-squirrel` | NOAA Okeanos Explorer Program | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Psychropotes_longicauda_NOAA.jpg) |
+| `harlequin-shrimp` | Nathalie Rodrigues | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG) |
 | `harlequin-sweetlips` | Rickard Zerpe | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg) |
 | `horsehair-crab` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Erimacrus_isenbeckii_Sunpiazza1.jpg) |
 | `horseshoe-crab` | Hans Hillewaert | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Limulus_polyphemus_(aq.).jpg) |
@@ -192,6 +195,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `nile-perch` | Daiju Azuma | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Lates_niloticus_by_DaijuAzuma.jpg) |
 | `northern-hogsucker` | Donald Davesne | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/225896518) |
 | `northern-pike` | Klaus Kevin Kristensen | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/86468799) |
+| `northern-shrimp` | Leïla Brunner | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/185163942) |
 | `nurse-shark` | Ross Garner | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Ginglymostoma_cirratum_utila.jpg) |
 | `nurseryfish` | Geekgecko | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Kurtus_gulliveri.jpg) |
 | `ocean-sunfish` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/13496785) |
@@ -245,6 +249,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `sardine-cichlid` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg) |
 | `sea-angel` | Tine Kinn Kvamme | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/8387299) |
 | `sea-lamprey` | Stephanie Tran | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg) |
+| `sea-perch` | Lisa Bennett | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/325572878) |
 | `sea-pig` | NOAA/MBARI | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Scotoplanes_globosa_and_crab.jpg) |
 | `sea-scorpion` | Libby Keatley | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/248457271) |
 | `sevengill-shark` | Luca Davenport-Thomas | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/330674724) |
@@ -257,6 +262,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `six-barred-distichodus` | Hectonichus | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG) |
 | `smallmouth-bass` | Engbretson Eric, U.S. Fish and Wildlife Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Detailed_underwater_photo_of_smallmouth_bass_fish_micropterus_dolomieu.jpg) |
 | `smallspotted-catshark` | Ecomare/Sytske Dijksen | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg) |
+| `snail-eating-turtle` | sucker69420 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/340162443) |
 | `snow-crab` | Blue Rose Man | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Blue_Chionoecetes_opilio.JPG) |
 | `sockeye-salmon` | David Menke | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg) |
 | `southern-right-whale` | steve b | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [iNaturalist](https://www.inaturalist.org/observations/150849220) |
