@@ -1039,7 +1039,9 @@ body {
 
 /* ---------- responsive ---------- */
 
-@media (max-width: 1000px) {
+/* Portrait only: sideways, a narrow window has the width for two columns and
+   not the height for two rows, so it keeps the one-screen layout below. */
+@media (max-width: 1000px) and (orientation: portrait) {
   /* Stacked, so the page is taller than the window again. It scrolls here
      rather than fitting one screen, and the photo takes a shape of its own
      instead of the height a fitted panel would have left it. */
@@ -1065,14 +1067,16 @@ body {
   .actionbar .btn { width: 100%; }
 }
 
-/* ---------- phone in landscape: fit on one screen, no scrolling ----------
+/* ---------- held sideways: fit on one screen, no scrolling ----------
  *
- * Keyed off a short viewport as well as the orientation so it catches phones
- * held sideways without also catching laptops, which are landscape but tall.
- * Every panel becomes a flex column with `min-height: 0` so the photo and the
- * map absorb the leftover height instead of overflowing the screen. */
+ * Keyed off the width rather than the height. A short viewport is the usual
+ * case — a phone turned on its side — but any handset held that way wants the
+ * photo beside the map rather than above it, whatever its height reports, and
+ * a laptop is wider than this and keeps the desktop layout. Every panel
+ * becomes a flex column with `min-height: 0` so the photo and the map absorb
+ * the leftover height instead of overflowing the screen. */
 
-@media (orientation: landscape) and (max-height: 560px) {
+@media (orientation: landscape) and (max-width: 1000px) {
   html, body { height: 100%; }
 
   body {
@@ -1230,6 +1234,36 @@ body {
  * Same idea as the landscape block: the page becomes a flex column and the
  * photo absorbs whatever height is left once the map and controls have taken
  * theirs, instead of the photo's aspect ratio dictating the page height. */
+
+/* Sideways but not short — a small tablet, a half-screen window. The layout
+   above is right; its sizes were cut for a phone's 400 pixels of height, and
+   with more to spend the text goes back to something comfortable. */
+@media (orientation: landscape) and (max-width: 1000px) and (min-height: 561px) {
+  .topbar { padding: 10px 14px; }
+  .brand-mark { font-size: 20px; }
+  .brand-name { font-size: 17px; }
+  .stat { padding: 4px 10px; }
+  .stat-label { font-size: 9.5px; }
+  .stat-value { font-size: 15px; }
+  .settings-btn { padding: 6px 12px; font-size: 13px; }
+  .settings-label { display: inline; }
+
+  .layout { gap: 12px; padding: 12px; }
+  .fish-id { padding: 9px 16px 0; }
+  .fish-name { font-size: 20px; }
+  .fish-sci { font-size: 13px; }
+  .fish-fact { margin: 9px 16px 0; padding: 9px 11px; font-size: 13px; -webkit-line-clamp: 5; }
+  .prompt-line { margin: 9px 16px 12px; font-size: 13px; }
+  .btn-ghost { padding: 8px 10px; font-size: 13px; }
+  .hint { font-size: 13px; }
+  .actionbar { padding: 10px 12px; }
+  .actionbar .btn { padding: 9px 18px; font-size: 15px; }
+  .zone-label { font-size: 22px; stroke-width: 4.5; }
+  .result { padding: 12px 14px; }
+  .verdict, .points { font-size: 16px; }
+  .result-line { font-size: 13.5px; }
+  .result-fact { font-size: 12.5px; }
+}
 
 @media (orientation: portrait) and (max-width: 560px) {
   html, body { height: 100%; }
