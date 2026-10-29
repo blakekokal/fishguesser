@@ -1848,13 +1848,6 @@
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
-  "blue-whale": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107982647/large.jpg",
-    "source": "https://www.inaturalist.org/observations/66914921",
-    "author": "Thomas Galewski",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
-  },
   "dalls-porpoise": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485359435/large.jpeg",
     "source": "https://www.inaturalist.org/observations/269911494",
@@ -2177,5 +2170,12 @@
     "author": "Chad Ordelheide",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "blue-whale": {
+    "commons_title": "File:Anim1754 - Flickr - NOAA Photo Library (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File%3AAnim1754_-_Flickr_-_NOAA_Photo_Library_%28cropped%29.jpg",
+    "author": "NOAA Photo Library",
+    "license": "Public domain",
+    "license_url": ""
   }
 }
