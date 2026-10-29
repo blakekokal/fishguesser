@@ -1216,7 +1216,7 @@ const FISH = [
     id: 'blue-whale',
     name: 'Blue Whale',
     sciName: 'Balaenoptera musculus',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/107982647/large.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Anim1754_-_Flickr_-_NOAA_Photo_Library_%28cropped%29.jpg/1280px-Anim1754_-_Flickr_-_NOAA_Photo_Library_%28cropped%29.jpg',
     region: 'rift-lakes',
     fact: 'The largest animal that has ever lived, and it lives on some of the smallest: a gulp takes in more water than the animal itself weighs, and everything but the krill is pushed back out through a curtain of baleen. Its tongue alone outweighs an elephant, and its call carries for hundreds of miles.',
   },

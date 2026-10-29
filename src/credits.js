@@ -283,10 +283,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/267319789",
   },
   "blue-whale": {
-    author: "Thomas Galewski",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/66914921",
+    author: "NOAA Photo Library",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File%3AAnim1754_-_Flickr_-_NOAA_Photo_Library_%28cropped%29.jpg",
   },
   "bluegill": {
     author: "USFWS Mountain Prairie",
@@ -2098,7 +2098,6 @@ const PHOTO_ORDER = [
   "humpback-whale",
   "sperm-whale",
   "orca",
-  "blue-whale",
   "dalls-porpoise",
   "chinese-mitten-crab",
   "common-hermit-crab",
@@ -2145,4 +2144,5 @@ const PHOTO_ORDER = [
   "asian-swamp-eel",
   "porcupinefish",
   "harlequin-shrimp",
+  "blue-whale",
 ];
