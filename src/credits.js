@@ -811,10 +811,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Psychropotes_longicauda_NOAA.jpg",
   },
   "harlequin-shrimp": {
-    author: "Nathalie Rodrigues",
-    license: "CC BY-SA 4.0",
-    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG",
+    author: "Chad Ordelheide",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File%3AHarlequin_Shrimp_1.jpg",
   },
   "harlequin-sweetlips": {
     author: "Rickard Zerpe",
@@ -2138,11 +2138,11 @@ const PHOTO_ORDER = [
   "northern-shrimp",
   "snail-eating-turtle",
   "sea-perch",
-  "harlequin-shrimp",
   "antarctic-jellyfish",
   "lionfish",
   "giant-clam",
   "chambered-nautilus",
   "asian-swamp-eel",
   "porcupinefish",
+  "harlequin-shrimp",
 ];

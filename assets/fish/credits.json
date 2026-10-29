@@ -2129,13 +2129,6 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
-  "harlequin-shrimp": {
-    "commons_title": "File:Hymenocera picta en train de retourner Fromia milleporella.JPG",
-    "source": "https://commons.wikimedia.org/wiki/File:Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG",
-    "author": "Nathalie Rodrigues",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
   "antarctic-jellyfish": {
     "commons_title": "File:Diplulmaris antarctica.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Diplulmaris_antarctica.jpg",
@@ -2177,5 +2170,12 @@
     "author": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "harlequin-shrimp": {
+    "commons_title": "File:Harlequin Shrimp 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File%3AHarlequin_Shrimp_1.jpg",
+    "author": "Chad Ordelheide",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

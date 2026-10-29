@@ -1248,7 +1248,7 @@ const FISH = [
     id: 'harlequin-shrimp',
     name: 'Harlequin Shrimp',
     sciName: 'Hymenocera picta',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG/1280px-Hymenocera_picta_en_train_de_retourner_Fromia_milleporella.JPG',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Harlequin_Shrimp_1.jpg/1280px-Harlequin_Shrimp_1.jpg',
     region: 'rift-lakes',
     fact: 'Eats starfish and nothing else. A pair finds one, tips it over and drags it home, then eats it alive over several days, starting at the arm tips so the rest stays fresh. Those spade-shaped claws are levers, not weapons.',
   },
