@@ -1114,7 +1114,7 @@ const FISH = [
     region: 'congo',
     fact: 'No fin at all along its back, and it swims either way — forwards or into reverse — by rippling the single long fin beneath it. It gulps air when the water turns bad, and it barks: a grunt made with the swim bladder that carries across a quiet room.',
   },
-  // ---- East African Rift Lakes ----
+  // ---- East Africa and the Indian Ocean ----
   {
     id: 'electric-yellow-cichlid',
     name: 'Electric Yellow Cichlid',

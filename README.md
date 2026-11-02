@@ -278,14 +278,14 @@ picture is any good, so look at it.
 
 Regions do not need equal numbers of fish, and they do not have them. Pick the
 best species and the best photograph for each region and let the counts fall
-where they fall: the Southern Ocean has five and the Arctic eight, where the
-Coral Triangle has nineteen. Scoring is by distance and the map sections are
+where they fall: the Southern Ocean has eleven and the Arctic thirteen, where
+the Caribbean has twenty-seven. Scoring is by distance and the map sections are
 computed from region centres, so nothing in the game depends on the counts
 matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 310 species; raise it for a longer game that shows more of the
-collection.
+game samples 5 of the 310 species; raise it for a longer game that shows more
+of the collection.
 
 ## Map data
 

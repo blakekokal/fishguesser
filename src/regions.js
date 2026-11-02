@@ -106,12 +106,18 @@ const REGIONS = [
   },
   {
     id: 'rift-lakes',
-    name: 'East African Rift Lakes',
-    short: 'Rift Lakes',
-    blurb: 'Malawi, Tanganyika and Victoria — deep lakes bursting with cichlids.',
+    // The section covers the lakes and the ocean off them — Mombasa, the
+    // Mozambique Channel and the Arabian Sea all fall inside it — so the name
+    // has to say both, or a reef animal looks misfiled.
+    name: 'East Africa and the Indian Ocean',
+    short: 'E. Africa',
+    // A proper place name, so it reads "from East Africa and ...".
+    article: false,
+    blurb: 'Malawi, Tanganyika and Victoria, plus the reefs and ocean off the coast.',
     lat: -12,
     lon: 34,
-    // Victoria, Tanganyika and Malawi, and the East African coast.
+    // The three great lakes, the East African coast, and the western Indian
+    // Ocean out past Madagascar.
     seeds: [
       [34, -12], [33, -2], [29, -6], [35, -14], [40, -6], [45, -12],
       [55, -15], [38, -20], [48, -25], [58, 10], [65, 2], [52, 18]
