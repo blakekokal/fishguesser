@@ -1,17 +1,18 @@
 /* Fishguesser — what each species is, for the mode filter.
  *
  * A game can be narrowed to part of the collection: fish only, crabs, sharks
- * and whales, fresh water or salt, or just the strange-looking ones. Rather than hang a `kind` on all 255 entries, the groups that
- * read off a name reliably are matched by name — anything with "crab" in it is
- * a crab, anything with "shark", "dogfish" or "wobbegong" is a shark, anything
- * with "whale", "dolphin" or "porpoise" is a whale — with an exception list for
- * the names that lie. The animals that are neither fish nor crabs are few
+ * and whales, fresh water or salt, or just the strange-looking ones. Rather
+ * than hang a `kind` on all 310 entries, the groups that read off a name
+ * reliably are matched by name — anything with "crab" in it is a crab,
+ * anything with "shark", "dogfish" or "wobbegong" is a shark, anything with
+ * "whale", "dolphin" or "porpoise" is a whale — with an exception list for the
+ * names that lie. The animals that are neither fish nor crabs are few
  * enough to name outright.
  *
  * "Fish mode" and "Sea life" cut the collection in two with nothing left over;
- * crab mode and shark/whale mode are narrower cuts of the second. A shark or a ray is of
- * course a fish, but nobody choosing between fish and everything else means to
- * file it with the herrings, so both count as sea life here.
+ * crab mode and shark/whale mode are narrower cuts of the second. A shark or a
+ * ray is of course a fish, but nobody choosing between fish and everything
+ * else means to file it with the herrings, so both count as sea life here.
  *
  * Adding a species: a new crab, shark or whale is picked up by its name and
  * needs nothing here. Anything else that is not a fish — a cephalopod, a
@@ -143,7 +144,7 @@ const WEIRD = new Set([
   'sea-lamprey', 'reedfish', 'ornate-bichir', 'african-butterflyfish',
   'buffalohead-cichlid', 'aubrys-flapshell-turtle', 'pink-river-dolphin',
   'caribbean-reef-octopus', 'common-cuttlefish', 'swell-shark',
-  'draughtsboard-shark', 'kissing-gourami',
+  'draughtsboard-shark', 'kissing-gourami', 'anemone-hermit-crab',
 ]);
 
 const isWeird = (fish) => WEIRD.has(fish.id);
@@ -190,7 +191,7 @@ const FRESHWATER = new Set([
 
   'longear-sunfish', 'black-ghost-knifefish', 'potato-puffer',
   'marbled-hatchetfish', 'african-knifefish', 'snail-eating-turtle',
-  'asian-swamp-eel',
+  'asian-swamp-eel', 'italian-freshwater-crab',
 ]);
 
 const isFresh = (fish) => FRESHWATER.has(fish.id);

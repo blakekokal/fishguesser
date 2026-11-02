@@ -30,6 +30,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/255918853",
   },
+  "anemone-hermit-crab": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cangrejo_ermita%C3%B1o_%28Dardanus_pedunculatus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_148.jpg",
+  },
   "angelshark": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
@@ -846,6 +852,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/302263707",
   },
+  "italian-freshwater-crab": {
+    author: "Smailtn",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://commons.wikimedia.org/wiki/File:Potamon_fluviatile_A%C3%AFn_Draham.jpg",
+  },
   "japanese-angelshark": {
     author: "RYO SATO",
     license: "CC BY-SA 2.0",
@@ -1560,6 +1572,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg",
   },
+  "soldier-crab": {
+    author: "Daniel Eisenhauer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/319338735",
+  },
   "southern-right-whale": {
     author: "steve b",
     license: "CC0",
@@ -1607,6 +1625,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/31873557",
+  },
+  "spotted-porcelain-crab": {
+    author: "Jean-Paul Boerekamps",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/142143693",
   },
   "spotted-ratfish": {
     author: "Stosh Morency",
@@ -1721,6 +1745,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg",
+  },
+  "velvet-swimming-crab": {
+    author: "Diego Delso",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:N%C3%A9cora_%28Necora_puber%29%2C_Set%C3%BAbal%2C_Portugal%2C_2020-08-01%2C_DD_08.jpg",
   },
   "venus-flytrap-anemone": {
     author: "Aquapix / NOAA Expedition to the Deep Slope 2007",
@@ -2145,4 +2175,9 @@ const PHOTO_ORDER = [
   "porcupinefish",
   "harlequin-shrimp",
   "blue-whale",
+  "soldier-crab",
+  "spotted-porcelain-crab",
+  "italian-freshwater-crab",
+  "anemone-hermit-crab",
+  "velvet-swimming-crab",
 ];
