@@ -2177,5 +2177,40 @@
     "author": "NOAA Photo Library",
     "license": "Public domain",
     "license_url": ""
+  },
+  "soldier-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577231658/large.jpg",
+    "source": "https://www.inaturalist.org/observations/319338735",
+    "author": "Daniel Eisenhauer",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spotted-porcelain-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243652515/large.jpg",
+    "source": "https://www.inaturalist.org/observations/142143693",
+    "author": "Jean-Paul Boerekamps",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "italian-freshwater-crab": {
+    "commons_title": "File:Potamon fluviatile Aïn Draham.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Potamon_fluviatile_A%C3%AFn_Draham.jpg",
+    "author": "Smailtn",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "anemone-hermit-crab": {
+    "commons_title": "File:Cangrejo ermitaño (Dardanus pedunculatus), Zanzíbar, Tanzania, 2024-06-01, DD 148.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cangrejo_ermita%C3%B1o_%28Dardanus_pedunculatus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_148.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "velvet-swimming-crab": {
+    "commons_title": "File:Nécora (Necora puber), Setúbal, Portugal, 2020-08-01, DD 08.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:N%C3%A9cora_%28Necora_puber%29%2C_Set%C3%BAbal%2C_Portugal%2C_2020-08-01%2C_DD_08.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

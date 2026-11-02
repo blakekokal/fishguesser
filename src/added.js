@@ -312,4 +312,9 @@ const ADDED_ORDER = [
   'chambered-nautilus',
   'giant-clam',
   'asian-swamp-eel',
+  'velvet-swimming-crab',
+  'italian-freshwater-crab',
+  'anemone-hermit-crab',
+  'spotted-porcelain-crab',
+  'soldier-crab',
 ];

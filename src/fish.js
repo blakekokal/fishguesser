@@ -184,7 +184,7 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Runs up vertical rock in the surf as though the waves were not happening, and is quick enough to cross a gap over open water. The young are nearly black against the lava; the red arrives moult by moult.',
   },
-    {
+  {
     id: 'red-lipped-batfish',
     name: 'Red-lipped Batfish',
     sciName: 'Ogcocephalus darwini',
@@ -192,7 +192,7 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Barely swims at all — it walks the bottom on stiffened fins like a man on crutches — and fishes instead, unfolding a small lure from a socket between its eyes. Nobody has worked out what the red lips are for.',
   },
-    {
+  {
     id: 'gummy-squirrel',
     name: 'Gummy Squirrel',
     sciName: 'Psychropotes longicauda',
@@ -200,7 +200,7 @@ const FISH = [
     region: 'north-pacific',
     fact: 'A sea cucumber the length of a forearm that ploughs the abyssal mud with a sail of a tail held up behind it, and oozes a sticky yellow slime when anything takes hold of it. The plain it lives on is scattered with potato-sized lumps of metal, which is the only reason anyone has been down there to photograph it.',
   },
-    {
+  {
     id: 'porcupinefish',
     name: 'Porcupinefish',
     sciName: 'Diodon hystrix',
@@ -386,7 +386,7 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Not a crab at all but a cousin of the spiders, with ten eyes and blue blood that clots around bacteria — which is why medicine bleeds it to prove a vaccine is clean. Its shape has not needed changing in something like 450 million years.',
   },
-    {
+  {
     id: 'yellowline-arrow-crab',
     name: 'Yellowline Arrow Crab',
     sciName: 'Stenorhynchus seticornis',
@@ -394,7 +394,7 @@ const FISH = [
     region: 'caribbean',
     fact: 'A body the size of a thumbnail on legs three times as long, with the head drawn out into a spike between the eyes and the claws dipped in violet. It picks at anything small enough from a sponge or an anemone, and will see off another of its own kind to keep the perch.',
   },
-    {
+  {
     id: 'swimming-sea-cucumber',
     name: 'Swimming Sea Cucumber',
     sciName: 'Enypniastes eximia',
@@ -402,7 +402,7 @@ const FISH = [
     region: 'caribbean',
     fact: 'A sea cucumber that gave up the seabed: it lifts off and swims under a webbed veil, clear enough that the last meal shows as a red loop through the middle of it. Touch it and the skin flashes blue-green, and can be sloughed off onto whatever did the touching.',
   },
-    {
+  {
     id: 'christmas-tree-worm',
     name: 'Christmas Tree Worm',
     sciName: 'Spirobranchus giganteus',
@@ -426,7 +426,7 @@ const FISH = [
     region: 'caribbean',
     fact: 'A woodlouse the size of a cat, plated like a tank and able to roll into a ball. It lives on whatever sinks — a whale, when one comes down — and can go years between meals: one kept in a tank turned down every meal it was offered for five years and stayed in good health.',
   },
-    {
+  {
     id: 'lionfish',
     name: 'Lionfish',
     sciName: 'Pterois volitans',
@@ -564,7 +564,7 @@ const FISH = [
     region: 'amazon',
     fact: 'A ray that never goes near the sea: its family stayed behind when the Amazon stopped draining to the Pacific, and it now stings more people a year than the piranhas bite.',
   },
-    {
+  {
     id: 'pink-river-dolphin',
     name: 'Pink River Dolphin',
     sciName: 'Inia geoffrensis',
@@ -572,7 +572,7 @@ const FISH = [
     region: 'amazon',
     fact: 'Its neck bones never fused, so unlike a dolphin of the open sea it can turn its head to look at you, and it needs to: it hunts in among tree trunks, in forest that spends half the year under water. Males turn pinker the more they fight, the colour being scar tissue.',
   },
-    {
+  {
     id: 'matamata',
     name: 'Matamata',
     sciName: 'Chelus fimbriata',
@@ -580,7 +580,7 @@ const FISH = [
     region: 'amazon',
     fact: 'Lies on the bottom looking like a rotting leaf, head flattened into a triangle and hung with frills of skin that drift in the current. It cannot chew and can barely bite: when a fish comes close enough it opens its throat so fast that the inrush of water carries the fish down whole.',
   },
-    {
+  {
     id: 'black-ghost-knifefish',
     name: 'Black Ghost Knifefish',
     sciName: 'Apteronotus albifrons',
@@ -742,7 +742,7 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'The rim of the shell is crimped like the edge of a pie, which is what fishermen name it for, and the black-tipped claws can break open a whelk.',
   },
-    {
+  {
     id: 'portuguese-man-o-war',
     name: 'Portuguese Man o\' War',
     sciName: 'Physalia physalis',
@@ -750,7 +750,7 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Not one animal but a colony of them: the float is a single individual, the fishing tentacles and the digesting parts are others, and not one of them could live alone. It cannot swim at all — it sails, and the sail leans left on some and right on others, so no one wind can blow the whole lot ashore.',
   },
-    {
+  {
     id: 'common-hermit-crab',
     name: 'Common Hermit Crab',
     sciName: 'Pagurus bernhardus',
@@ -758,7 +758,7 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Owns no shell of its own and spends its life moving house, trying empty whelks on for size. When a good one turns up they line up by size on the sand, each waiting to step into the shell of the one ahead the moment its owner walks out.',
   },
-    {
+  {
     id: 'blue-dragon',
     name: 'Blue Dragon',
     sciName: 'Glaucus atlanticus',
@@ -766,13 +766,21 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'A sea slug the size of a coin that floats upside down at the surface on a bubble of air it swallowed, blue side up and silver side down so nothing sees it from either direction. It eats stinging siphonophores and saves the stings, which makes it sting worse than what it ate.',
   },
-    {
+  {
     id: 'rabbit-fish',
     name: 'Rabbit Fish',
     sciName: 'Chimaera monstrosa',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Havmus_%28Chimaera_monstrosa%29_over_havbotn.jpg/1280px-Havmus_%28Chimaera_monstrosa%29_over_havbotn.jpg',
     region: 'north-atlantic',
     fact: 'Not a shark but a distant cousin, built of cartilage, with teeth fused into plates like those of a rodent and a venomous spine standing in front of the dorsal fin. It finds buried shellfish by the sensors stippled across its snout, and the males carry a retractable club on the forehead.',
+  },
+  {
+    id: 'velvet-swimming-crab',
+    name: 'Velvet Swimming Crab',
+    sciName: 'Necora puber',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/N%C3%A9cora_%28Necora_puber%29%2C_Set%C3%BAbal%2C_Portugal%2C_2020-08-01%2C_DD_08.jpg/1280px-N%C3%A9cora_%28Necora_puber%29%2C_Set%C3%BAbal%2C_Portugal%2C_2020-08-01%2C_DD_08.jpg',
+    region: 'north-atlantic',
+    fact: 'Under a short fur that traps silt it looks like one more stone on the bottom, until it moves and the eyes give it away — a startling red. The last pair of legs are flattened into paddles, and rather than back off it will swim at whatever is bothering it with both claws held up.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -928,7 +936,7 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Lives above the waterline on splash-zone rock, breathing air through damp gills, and bolts sideways into a crack the moment a shadow falls on it.',
   },
-    {
+  {
     id: 'sponge-crab',
     name: 'Sponge Crab',
     sciName: 'Dromia personata',
@@ -936,7 +944,7 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Cuts a living sponge to the shape of its own back and wears it there for life, gripped by the last two pairs of legs, which point upwards for no other purpose. The sponge goes on growing, so the disguise only fits better with age — and almost nothing will eat a sponge.',
   },
-    {
+  {
     id: 'giant-tube-worm',
     name: 'Giant Tube Worm',
     sciName: 'Riftia pachyptila',
@@ -944,7 +952,7 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Has no mouth, no gut and no way of feeding itself. It grows two metres tall beside water hot enough to melt lead, and lives entirely on the bacteria packed into its own body, which build its food out of the poison coming up through the floor.',
   },
-    {
+  {
     id: 'ocean-sunfish',
     name: 'Ocean Sunfish',
     sciName: 'Mola mola',
@@ -952,13 +960,21 @@ const FISH = [
     region: 'mediterranean',
     fact: 'The heaviest bony fish there is: a swimming head that stops where the tail should start, steering with a frill of fused fin. It lies flat on the surface to let birds pick the parasites off it, then drops hundreds of metres into the cold to feed.',
   },
-    {
+  {
     id: 'rainbow-wrasse',
     name: 'Rainbow Wrasse',
     sciName: 'Coris julis',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Doncella_%28Coris_julis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_69.jpg/1280px-Doncella_%28Coris_julis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_69.jpg',
     region: 'mediterranean',
     fact: 'Hatches female and drab, and the ones that get big turn male and put on an orange zigzag down the flank. It sleeps buried in sand, and follows larger fish around to snatch whatever they turn over.',
+  },
+  {
+    id: 'italian-freshwater-crab',
+    name: 'Italian Freshwater Crab',
+    sciName: 'Potamon fluviatile',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Potamon_fluviatile_A%C3%AFn_Draham.jpg/1280px-Potamon_fluviatile_A%C3%AFn_Draham.jpg',
+    region: 'mediterranean',
+    fact: 'One of the few crabs that never goes near salt water. With no tide to carry larvae off, the eggs skip the drifting stage altogether and hatch straight into miniature crabs that ride under their mother for weeks. On wet nights it leaves the stream and walks overland between pools.',
   },
   // ---- Congo Basin ----
   {
@@ -1050,7 +1066,7 @@ const FISH = [
     region: 'congo',
     fact: 'Its swim bladder is far too small to float it, which is the point: in the Congo rapids it hops along the bottom from stone to stone rather than be swept downstream.',
   },
-    {
+  {
     id: 'aubrys-flapshell-turtle',
     name: 'Aubry\'s Flapshell Turtle',
     sciName: 'Cycloderma aubryi',
@@ -1066,7 +1082,7 @@ const FISH = [
     region: 'congo',
     fact: 'The male carries one claw about as heavy as the rest of him and one so small it can barely feed him, and he spends the day waving the big one to be noticed. Lose it and the replacement grows back lighter and weaker but the same size — a bluff that works, because nobody can tell by looking.',
   },
-    {
+  {
     id: 'tripod-fish',
     name: 'Tripod Fish',
     sciName: 'Bathypterois grallator',
@@ -1074,7 +1090,7 @@ const FISH = [
     region: 'congo',
     fact: 'Stands on three stilts — two fin rays and the lower half of its tail, each longer than the fish itself — and faces into the current with its front fins held up like antennae, waiting to feel something drift into them. Its eyes are nearly useless, so it hardly needs them.',
   },
-    {
+  {
     id: 'african-tigerfish',
     name: 'African Tigerfish',
     sciName: 'Hydrocynus vittatus',
@@ -1082,7 +1098,7 @@ const FISH = [
     region: 'congo',
     fact: 'Its teeth slot into sockets in the opposite jaw, so the mouth shuts like a trap rather than a pair of scissors, and it has been filmed launching clear of the water to take swallows out of the air as they skim the surface.',
   },
-    {
+  {
     id: 'potato-puffer',
     name: 'Potato Puffer',
     sciName: 'Tetraodon miurus',
@@ -1090,7 +1106,7 @@ const FISH = [
     region: 'congo',
     fact: 'Buries itself in gravel with only the eyes showing, takes the colour of whatever it is lying in, and lunges at what passes overhead — an ambusher rather than a crusher of shells. Alarmed, it does what the rest of its family does and swallows water until it is twice the size.',
   },
-    {
+  {
     id: 'african-knifefish',
     name: 'African Knifefish',
     sciName: 'Xenomystus nigri',
@@ -1196,7 +1212,7 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'The smallest cichlid in the world, at about four centimetres, and it lives inside an empty snail shell in Lake Tanganyika, digging out the sand around it to keep the doorway clear.',
   },
-    {
+  {
     id: 'spanish-dancer',
     name: 'Spanish Dancer',
     sciName: 'Hexabranchus sanguineus',
@@ -1204,7 +1220,7 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'The biggest sea slug there is, and one of the few that can really swim: it unrolls the skirt of its body and flaps it, a foot of scarlet flamenco in open water. A pair of shrimp usually lives in the feathery gill on its back, coloured to match their host exactly.',
   },
-    {
+  {
     id: 'crown-of-thorns-starfish',
     name: 'Crown-of-thorns Starfish',
     sciName: 'Acanthaster planci',
@@ -1212,7 +1228,7 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'Eats coral by turning its stomach inside out through its mouth and spreading it over the reef, digesting the polyps where they sit and leaving bare white rock. One can clear its own body area in a night, its spines carry venom that hurts for weeks, and in a plague year a reef can lose most of its coral.',
   },
-    {
+  {
     id: 'blue-whale',
     name: 'Blue Whale',
     sciName: 'Balaenoptera musculus',
@@ -1220,7 +1236,7 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'The largest animal that has ever lived, and it lives on some of the smallest: a gulp takes in more water than the animal itself weighs, and everything but the krill is pushed back out through a curtain of baleen. Its tongue alone outweighs an elephant, and its call carries for hundreds of miles.',
   },
-    {
+  {
     id: 'whale-shark',
     name: 'Whale Shark',
     sciName: 'Rhincodon typus',
@@ -1228,7 +1244,7 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'The biggest fish there is, and it lives on some of the smallest things in the sea, straining plankton through pads in its throat. Every one carries a different pattern of spots, and they are told apart by software written to match star fields.',
   },
-    {
+  {
     id: 'nile-perch',
     name: 'Nile Perch',
     sciName: 'Lates niloticus',
@@ -1236,7 +1252,7 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'Reaches two metres and the better part of two hundred kilos without ever leaving fresh water, and eats whatever fits, including its own young. Put into a lake it had never lived in, it cleared several hundred smaller species out of existence inside a few decades.',
   },
-    {
+  {
     id: 'blue-sea-star',
     name: 'Blue Sea Star',
     sciName: 'Linckia laevigata',
@@ -1244,13 +1260,21 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'That blue comes from a pigment bound to protein that nothing else makes, and it holds its colour even out of the light. Break an arm off and the arm can grow a whole new animal from the stump, so one of them is sometimes found as a star with four long arms and one stub.',
   },
-    {
+  {
     id: 'harlequin-shrimp',
     name: 'Harlequin Shrimp',
     sciName: 'Hymenocera picta',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Harlequin_Shrimp_1.jpg/1280px-Harlequin_Shrimp_1.jpg',
     region: 'rift-lakes',
     fact: 'Eats starfish and nothing else. A pair finds one, tips it over and drags it home, then eats it alive over several days, starting at the arm tips so the rest stays fresh. Those spade-shaped claws are levers, not weapons.',
+  },
+  {
+    id: 'anemone-hermit-crab',
+    name: 'Anemone Hermit Crab',
+    sciName: 'Dardanus pedunculatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Cangrejo_ermita%C3%B1o_%28Dardanus_pedunculatus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_148.jpg/1280px-Cangrejo_ermita%C3%B1o_%28Dardanus_pedunculatus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_148.jpg',
+    region: 'rift-lakes',
+    fact: 'Arms its borrowed shell with living weapons: it prises stinging anemones off the rock and plants them around the outside, one at a time, until the shell bristles with them. When it outgrows the shell it peels every anemone off again and replants it on the new one.',
   },
   // ---- Coral Triangle ----
   {
@@ -1430,7 +1454,7 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Lives in the forest and goes back to the sea once a year, tens of millions at once, in a red tide that covers roads and gardens for weeks. The island answers with crab bridges, crab tunnels and closed roads.',
   },
-    {
+  {
     id: 'leaf-scorpionfish',
     name: 'Leaf Scorpionfish',
     sciName: 'Taenianotus triacanthus',
@@ -1438,7 +1462,7 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Props itself on its fins and rocks with the surge exactly as a dead leaf would, waiting for something small to swim past its mouth. It sheds its whole skin every couple of weeks to keep the algae off, and turns up yellow, pink, white or black.',
   },
-    {
+  {
     id: 'flamboyant-cuttlefish',
     name: 'Flamboyant Cuttlefish',
     sciName: 'Metasepia pfefferi',
@@ -1446,13 +1470,21 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Too small and too slow to get away from anything, so instead of swimming it walks the bottom on two arms and two flaps of skin, pulsing waves of purple and yellow as it goes. That is a warning, not camouflage: its flesh is poisonous, which is almost unheard of in a cuttlefish.',
   },
-    {
+  {
     id: 'chambered-nautilus',
     name: 'Chambered Nautilus',
     sciName: 'Nautilus pompilius',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Nautilus_pompilius_photo.jpg/1280px-Nautilus_pompilius_photo.jpg',
     region: 'coral-triangle',
     fact: 'A cephalopod that kept its shell, and rides up and down each night by pumping gas in and out of the chambers behind it. It has something like ninety arms with no suckers, pinhole eyes with no lens, and it has been making the same shell for half a billion years.',
+  },
+  {
+    id: 'spotted-porcelain-crab',
+    name: 'Spotted Porcelain Crab',
+    sciName: 'Neopetrolisthes maculatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/243652515/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Spends its whole life among the tentacles of a stinging anemone, somehow unbothered by them, and hardly ever steps outside. It does not hunt: it unfurls a pair of feathery fans beside its mouth and combs plankton out of the current. Take hold of one and it hands over a leg and walks off.',
   },
   // ---- Northern Australia ----
   {
@@ -1600,7 +1632,7 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Its back legs are flattened into paddles, so it swims rather than scuttles, and it settles by burying itself with only eyes and antennae showing. Males are electric blue; females stay a mottled green-brown.',
   },
-    {
+  {
     id: 'boxer-crab',
     name: 'Boxer Crab',
     sciName: 'Lybia tessellata',
@@ -1608,7 +1640,7 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Holds a living sea anemone in each claw and waves them like pom-poms, using the sting to fend off anything bigger and the tentacles to mop food off the sand. A crab with only one will tear that anemone in half and let the halves grow back into a matching pair.',
   },
-    {
+  {
     id: 'humpback-whale',
     name: 'Humpback Whale',
     sciName: 'Megaptera novaeangliae',
@@ -1616,7 +1648,7 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Blows a net of bubbles around a shoal and rises through the middle of it with its mouth open — a trick some groups work together and others never learn at all. The males all sing the same song, and when one of them changes a phrase the rest take up the new version.',
   },
-    {
+  {
     id: 'leafy-seadragon',
     name: 'Leafy Seadragon',
     sciName: 'Phycodurus eques',
@@ -1624,7 +1656,7 @@ const FISH = [
     region: 'northern-australia',
     fact: 'Every leaf on it is a flap of skin that does nothing at all but look like weed; it is moved by two clear fins beating too fast to see, so it appears to drift rather than swim. The male carries the eggs stuck to the underside of his tail until they hatch.',
   },
-    {
+  {
     id: 'flower-urchin',
     name: 'Flower Urchin',
     sciName: 'Toxopneustes pileolus',
@@ -1632,13 +1664,21 @@ const FISH = [
     region: 'northern-australia',
     fact: 'What look like little flowers are hundreds of jaws on stalks, each a three-lipped pincer that grips and injects, and the sting has killed — which cannot be said of any other urchin. It dresses itself as well, holding scraps of shell and weed over its back with its tube feet.',
   },
-    {
+  {
     id: 'giant-clam',
     name: 'Giant Clam',
     sciName: 'Tridacna gigas',
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/350440855/large.jpeg',
     region: 'northern-australia',
     fact: 'The largest shellfish there is, a metre across and a quarter of a tonne, and it farms: the frilled mantle is packed with algae that feed it in exchange for a lit place to live, which is where those colours come from. It settles once and never moves again.',
+  },
+  {
+    id: 'soldier-crab',
+    name: 'Soldier Crab',
+    sciName: 'Mictyris longicarpus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/577231658/large.jpg',
+    region: 'northern-australia',
+    fact: 'A crab the colour of a robin\'s egg that walks straight ahead instead of sidling, which almost nothing else with claws does. It feeds as it goes, rolling sand through its mouthparts and leaving a trail of discarded pellets behind it, and when disturbed it corkscrews down into the wet sand sideways and is gone.',
   },
   // ---- Southern Ocean ----
   {
@@ -1697,7 +1737,7 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'One weighs less than a paperclip, but taken together they may outweigh every human alive, and their swarms turn kilometres of water rust-red. When the food runs out this one does something almost nothing else can: it moults backwards, shrinking to a smaller animal rather than starving.',
   },
-    {
+  {
     id: 'orca',
     name: 'Orca',
     sciName: 'Orcinus orca',
@@ -1705,7 +1745,7 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Hunts in families that keep their own dialect and their own menu: one lot will eat nothing but fish, another only seals, and neither will touch what the other lives on. The knowledge is taught rather than inherited, and some of them charge in a line to wash a seal off its floe.',
   },
-    {
+  {
     id: 'southern-right-whale',
     name: 'Southern Right Whale',
     sciName: 'Eubalaena australis',
@@ -1713,7 +1753,7 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'The crusted patches on its head are not barnacles but its own roughened skin, laid out differently on every animal, so one can be named from a photograph. It has no fin on its back at all, and will hold its tail up in the wind and let itself be sailed along.',
   },
-    {
+  {
     id: 'sea-pig',
     name: 'Sea Pig',
     sciName: 'Scotoplanes globosa',
@@ -1721,7 +1761,7 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Walks the abyssal mud on ten inflated legs, following its nose to the freshest patch of whatever has sunk from above and eating the sediment to get at it. Young king crabs ride underneath, out of sight of anything hunting from over the top.',
   },
-    {
+  {
     id: 'antarctic-jellyfish',
     name: 'Antarctic Jellyfish',
     sciName: 'Diplulmaris antarctica',
@@ -1803,7 +1843,7 @@ const FISH = [
     region: 'arctic',
     fact: 'A snail that gave up its shell and flies through the water on a pair of wings. It eats one thing only — another swimming snail — seized with six grappling arms that shoot out of its head.',
   },
-    {
+  {
     id: 'lions-mane-jellyfish',
     name: 'Lion\'s Mane Jellyfish',
     sciName: 'Cyanea capillata',
@@ -1819,7 +1859,7 @@ const FISH = [
     region: 'arctic',
     fact: 'Moults for the last time when it comes of age and then never grows again, so the shell it hardens into has to last the rest of its life. An old one is furred with barnacles and scratched all over, carrying every mark it has collected since, because it can never shed them.',
   },
-    {
+  {
     id: 'dumbo-octopus',
     name: 'Dumbo Octopus',
     sciName: 'Grimpoteuthis sp.',
@@ -1827,7 +1867,7 @@ const FISH = [
     region: 'arctic',
     fact: 'Flies through black water four kilometres down by flapping a pair of fins like ears, and swallows what it catches whole rather than tearing it up. The female carries eggs at every stage at once, so whenever conditions allow she has one ready to lay.',
   },
-    {
+  {
     id: 'northern-shrimp',
     name: 'Northern Shrimp',
     sciName: 'Pandalus borealis',
@@ -1957,7 +1997,7 @@ const FISH = [
     region: 'great-lakes',
     fact: 'Not a trout but a char, and so tied to cold clean water that biologists read a stream\'s health from whether it is still there. The Lake Superior form, the coaster, runs the open shoreline instead of staying in creeks.',
   },
-    {
+  {
     id: 'freshwater-jellyfish',
     name: 'Freshwater Jellyfish',
     sciName: 'Craspedacusta sowerbii',
@@ -1965,7 +2005,7 @@ const FISH = [
     region: 'great-lakes',
     fact: 'A jellyfish the size of a coin that appears in lakes, ponds and flooded quarries — sometimes in their thousands — then is not seen again for years. It spends most of its life as a speck of polyp on a stone, and a whole swarm is often one clone, all the same sex, so it can never breed.',
   },
-    {
+  {
     id: 'rusty-crayfish',
     name: 'Rusty Crayfish',
     sciName: 'Faxonius rusticus',
@@ -1973,7 +2013,7 @@ const FISH = [
     region: 'great-lakes',
     fact: 'Meets trouble with its claws spread instead of backing into a hole, which is how it takes water off quieter crayfish, and it mows the weed beds down to stubble once it has. Most of its spread is anglers tipping out the last of a bait bucket at the end of the day.',
   },
-    {
+  {
     id: 'burbot',
     name: 'Burbot',
     sciName: 'Lota lota',
@@ -1981,7 +2021,7 @@ const FISH = [
     region: 'great-lakes',
     fact: 'The one cod that never goes near the sea. It has a single barbel under its chin, a liver that can be a tenth of its own weight and was once pressed for lamp oil, and it spawns under the ice in a slow rolling ball of fish.',
   },
-    {
+  {
     id: 'longear-sunfish',
     name: 'Longear Sunfish',
     sciName: 'Lepomis megalotis',
@@ -2135,7 +2175,7 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'Every inch of it is furred with short stiff bristles, which is where the name comes from — kegani, the hairy crab, and the most prized crab on a northern Japanese table.',
   },
-    {
+  {
     id: 'dalls-porpoise',
     name: 'Dall\'s Porpoise',
     sciName: 'Phocoenoides dalli',
@@ -2143,7 +2183,7 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'The fastest of the small whales, and it throws up a hollow cone of spray as it surfaces, so what you see first is a rooster tail of water with nothing apparently under it. Stubby, blunt and marked black and white, like a torpedo built by somebody in a hurry.',
   },
-    {
+  {
     id: 'chinese-mitten-crab',
     name: 'Chinese Mitten Crab',
     sciName: 'Eriocheir sinensis',
@@ -2151,7 +2191,7 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'Both claws are covered in a dark felt of bristles, like a pair of mittens worn to dinner. It hatches in salt water, spends years walking upriver — past locks, through fields, across roads — and then makes the whole journey back down to breed once and die.',
   },
-    {
+  {
     id: 'glass-sponge',
     name: 'Glass Sponge',
     sciName: 'Euplectella aspergillum',
@@ -2273,7 +2313,7 @@ const FISH = [
     region: 'mekong',
     fact: 'Farmed by the million and sold worldwide as basa or swai, while the wild fish still runs hundreds of kilometres up the river to spawn.',
   },
-    {
+  {
     id: 'giant-river-prawn',
     name: 'Giant River Prawn',
     sciName: 'Macrobrachium rosenbergii',
@@ -2281,7 +2321,7 @@ const FISH = [
     region: 'mekong',
     fact: 'Males come in three ranks that can be told apart at a glance — small, orange-clawed, and a blue-clawed giant whose arms are longer than the rest of him. A male climbs the ranks as he grows, moulting into the next set of claws, and only the blue ones hold a burrow.',
   },
-    {
+  {
     id: 'irrawaddy-dolphin',
     name: 'Irrawaddy Dolphin',
     sciName: 'Orcaella brevirostris',
@@ -2289,7 +2329,7 @@ const FISH = [
     region: 'mekong',
     fact: 'A dolphin with no beak at all and a forehead that bulges out over its face. It spits — a jet of water fired a couple of metres, apparently to panic fish into a shoal — and some of them work with net fishermen, driving the shoal in on a signal and eating whatever bolts.',
   },
-    {
+  {
     id: 'giant-pangasius',
     name: 'Giant Pangasius',
     sciName: 'Pangasius sanitwongsei',
@@ -2297,7 +2337,7 @@ const FISH = [
     region: 'mekong',
     fact: 'A catfish past two metres long, with the front rays of its fins drawn out into trailing threads and a hunting habit unusual for a catfish — it takes other fish in the deep channels. So few are left that most people who know it have only ever seen one through glass.',
   },
-    {
+  {
     id: 'snail-eating-turtle',
     name: 'Snail-eating Turtle',
     sciName: 'Malayemys subtrijuga',
@@ -2305,7 +2345,7 @@ const FISH = [
     region: 'mekong',
     fact: 'Eats more or less nothing but snails, cracking them with broad plates in its jaws, and wears white stripes painted down a blunt face. When the water goes it buries itself in the mud and waits for the floods.',
   },
-    {
+  {
     id: 'asian-swamp-eel',
     name: 'Asian Swamp Eel',
     sciName: 'Monopterus albus',

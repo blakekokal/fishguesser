@@ -3,21 +3,21 @@
 A GeoGuessr-style guessing game for sea life. You get a photograph of an animal
 and its name; you decide which of fifteen regions of the world it comes from.
 
-- **305 species** — mostly bony fish, plus twenty-four sharks, eight rays, a
-  sawfish, a lamprey and two chimaeras, and sixty-six that are not fish at all:
-  twenty crabs, nine whales, dolphins and porpoises, three octopuses, two
-  cuttlefish, a nautilus, a giant clam, three turtles, three sea cucumbers, two
-  worms, an urchin, an abalone, three sea stars, three jellyfish and a
-  siphonophore, a glass sponge,
-  a deep-sea anemone, two shrimp and a prawn, a crayfish, a krill, an isopod, a
-  mantis shrimp, three swimming sea slugs and a horseshoe crab — each
-  photographed alive in the wild, in an aquarium, or by a robot on the deep sea
-  floor
-- **15 regions**, from the Arctic Ocean to New Zealand — between six and
-  twenty-two species live in each, so the map has to be read rather than memorised. The header counts
-  the collection straight from the data, so it never goes stale
+- **310 species** — mostly bony fish, plus twenty-four sharks, eight rays, a
+  sawfish, a lamprey and two chimaeras, and seventy-one that are not fish at
+  all: twenty-five crabs, nine whales, dolphins and porpoises, three octopuses,
+  two cuttlefish, a nautilus, a giant clam, three turtles, three sea cucumbers,
+  two worms, an urchin, an abalone, three sea stars, three jellyfish and a
+  siphonophore, a glass sponge, a deep-sea anemone, two shrimp and a prawn, a
+  crayfish, a krill, an isopod, a mantis shrimp, three swimming sea slugs and a
+  horseshoe crab — each photographed alive in the wild, in an aquarium, or by a
+  robot on the deep sea floor
+- **15 regions**, from the Arctic Ocean to New Zealand — between eleven and
+  twenty-seven species live in each, so the map has to be read rather than
+  memorised. The header counts the collection straight from the data, so it
+  never goes stale
 - **5 rounds per game**, dealt so that every species comes up once before any
-  of them comes up twice — a full pass takes 48 games, and it survives a
+  of them comes up twice — a full pass takes 62 games, and it survives a
   refresh
 - **A top bar of four tiles** — round, score, hints and best. Everything else —
   the pass counter, the filter, the save name, the photo check — is behind one
@@ -121,7 +121,7 @@ offers the two things a static page honestly can:
   are unioned and the best score is the higher of the two, so pasting an old
   code can never cost you progress, and a code carrying a name gives an unnamed
   browser that name back. Ids travel as five-character hashes, which keeps a
-  full 305-fish save near 2 KB and lets a restore match whatever species the
+  full 310-fish save near 2 KB and lets a restore match whatever species the
   game holds now — anything it no longer knows is dropped and counted in the
   message.
 
@@ -130,7 +130,7 @@ and it only carries the two numbers above.
 
 ## Photo check
 
-`photos.html` steps through all 305 photographs one at a time, in the same
+`photos.html` steps through all 310 photographs one at a time, in the same
 letterboxed frame the game uses, so a picture can be judged as a player would
 meet it: is that a whole fish, is it alive, is it recognisable? Nothing is
 named — what is in the collection is the game's other secret — so `R` (or the
@@ -191,7 +191,7 @@ photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 15 regions, their map seeds + haversine distance
-src/fish.js             the 305 species (name, photo URL, home region, fact)
+src/fish.js             the 310 species (name, photo URL, home region, fact)
 src/added.js            generated: the order they were added in, oldest first
 src/spoilers.js         place names, dotted out while a fact is a hint
 src/kinds.js            what counts as a fish, a crab, a shark for the filter
@@ -284,7 +284,7 @@ computed from region centres, so nothing in the game depends on the counts
 matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 305 species; raise it for a longer game that shows more of the
+game samples 5 of the 310 species; raise it for a longer game that shows more of the
 collection.
 
 ## Map data
