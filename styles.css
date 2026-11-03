@@ -597,6 +597,41 @@ body {
   gap: 6px;
 }
 
+/* ---------- the round gate ----------
+ *
+ * A game is dealt before it is asked for, so the photograph is already loading
+ * behind this. It is covered rather than blurred: a glimpse of the picture is
+ * the whole puzzle handed over, and the same goes for the name and the fact.
+ * The panel keeps its size, so starting a round does not move the layout. */
+
+.fish-panel { position: relative; }
+
+/* `visibility`, not `display`: the photo goes on loading underneath, which is
+ * the point of dealing early, and a screen reader is not read the answer. */
+body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
+
+.round-gate {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 24px;
+  background: var(--panel);
+  text-align: center;
+}
+
+.round-gate .btn { min-width: 180px; }
+
+.round-gate-note {
+  margin: 0;
+  color: var(--ink-faint);
+  font-size: 13px;
+}
+
 .btn-ghost {
   flex: none;
   padding: 7px 14px;
@@ -798,14 +833,6 @@ body {
   background: rgba(3, 12, 21, 0.82);
   backdrop-filter: blur(6px);
 }
-
-/* While the start card is up, the round behind it is not just dimmed — it is
- * not there. The photograph is the whole puzzle, so a glimpse of it through
- * the blur would spend the round before it is claimed as seen, and the same
- * goes for the name, the fact and the peek buttons. `visibility` rather than
- * `display`, so the panel keeps its size and the photo goes on loading
- * underneath, which is the point of dealing the round early. */
-body.is-waiting .fish-panel { visibility: hidden; }
 
 /* The front page: the rules, and the gate every game opens behind. Left-aligned
  * rather than centred like the end card, because it is prose to be read. */

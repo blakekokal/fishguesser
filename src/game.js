@@ -53,6 +53,7 @@
     version: $('version'), speciesCount: $('speciesCount'),
     startOverlay: $('startOverlay'), startBtn: $('startBtn'),
     startFishCount: $('startFishCount'),
+    roundGate: $('roundGate'), roundStartBtn: $('roundStartBtn'),
     seen: $('seenValue'),
     resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
     topName: $('topName'),
@@ -368,8 +369,8 @@
     ui.result.hidden = true;
     document.body.classList.remove('is-result');
 
-    // The first round of a game is dealt behind the gate; beginPlay marks it.
-    if (ui.startOverlay.hidden) markSeen(fish);
+    // The first round of a game is dealt under the cover; beginPlay marks it.
+    if (!waiting()) markSeen(fish);
   }
 
   function submitGuess() {
@@ -700,38 +701,45 @@
 
   /* Empties the pass without disturbing the game on screen. The fish being
    * looked at right now is marked straight back, so the count reads 1 mid-round
-   * and 0 from the rules screen, where nothing has been shown yet. */
+   * and 0 under the cover, where nothing has been shown yet. */
   function resetSeen() {
     writeSeen([]);
-    if (ui.startOverlay.hidden) markSeen(state.deck[state.index]);
+    if (!waiting()) markSeen(state.deck[state.index]);
     renderSeen();
   }
 
-  /* The gate in front of every game. The round behind it is already dealt and
-   * its photo already loading — that is the point of dealing early — but
-   * `is-waiting` takes the whole fish panel out of sight, so nothing of the
-   * round is given away through the blur. Nothing counts as seen until the
-   * curtain lifts, which is what keeps opening the page, or changing what the
-   * game deals from, from spending a fish nobody looked at. */
+  /* Whether a dealt game is still waiting to be asked for. While it is, the
+   * fish panel is covered (see .round-gate in styles.css) and nothing in it
+   * counts as seen — which is what keeps opening the page, or changing what
+   * the game deals from, from spending a fish nobody looked at. */
+  const waiting = () => document.body.classList.contains('is-waiting');
+
+  /* The cover goes over every game. The rules card is a separate thing on top
+   * of it: shown once when the page opens, because that is when they are worth
+   * reading, and not again for the games after it — the cover is enough of a
+   * gate by then, and a wall of rules between every game is not. */
   function holdForStart() {
     document.body.classList.add('is-waiting');
-    ui.startOverlay.hidden = false;
+    ui.roundGate.hidden = false;
     // preventScroll: focusing the button would otherwise scroll the rules card
     // down to it, landing the player halfway through the text.
-    ui.startBtn.focus({ preventScroll: true });
+    const target = ui.startOverlay.hidden ? ui.roundStartBtn : ui.startBtn;
+    target.focus({ preventScroll: true });
   }
 
-  /* Lifts that curtain. Dealing again here would throw away the photo that has
-   * been loading meanwhile, so this only reveals what is already waiting. */
+  /* Lifts the cover, and the rules card with it if this is the first game.
+   * Dealing again here would throw away the photo that has been loading
+   * meanwhile, so this only reveals what is already waiting. */
   function beginPlay() {
-    if (ui.startOverlay.hidden) return;
+    if (!waiting()) return;
     ui.startOverlay.hidden = true;
+    ui.roundGate.hidden = true;
     document.body.classList.remove('is-waiting');
     markSeen(state.deck[state.index]); // now it is actually being looked at
   }
 
   /* Every game starts the same way — from the page opening, from Play again,
-   * and from the filter changing — so every game goes behind the gate. */
+   * and from the filter changing — so every game goes under the cover. */
   function startGame() {
     state.deck = dealFish(ROUNDS);
     state.index = 0;
@@ -740,8 +748,8 @@
     state.hintsLeft = HINTS_PER_GAME;
     renderHints();
     ui.overlay.hidden = true;
-    /* The gate goes up before the round is drawn, not after: renderRound marks
-     * what it draws as seen unless the gate is already covering it. */
+    /* The cover goes on before the round is drawn, not after: renderRound
+     * marks what it draws as seen unless the cover is already over it. */
     holdForStart();
     renderRound();
   }
@@ -759,6 +767,7 @@
   ui.nextBtn.addEventListener('click', nextRound);
   ui.playAgain.addEventListener('click', startGame);
   ui.startBtn.addEventListener('click', beginPlay);
+  ui.roundStartBtn.addEventListener('click', beginPlay);
   ui.profileSave.addEventListener('click', () => useName(ui.profileName));
   ui.profileName.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') { e.preventDefault(); useName(ui.profileName); }
@@ -793,9 +802,9 @@
     // Settings are open: Enter belongs to whatever is focused inside the panel,
     // not to the game behind it.
     if (settingsOpen()) return;
-    // Enter starts the game while the rules are up; the round behind them is
+    // Enter starts the game while one is waiting under the cover; the round is
     // already dealt, so it must not also lock in a guess on the same press.
-    if (!ui.startOverlay.hidden) {
+    if (waiting()) {
       // Enter on a focused reset button already presses it; starting the game
       // off the same keystroke would carry the player straight out of the rules.
       if (e.target === ui.resetBest || e.target === ui.resetSeen) return;
@@ -870,7 +879,7 @@
   ui.best.textContent = best ? fmt(best) : '—';
   ui.resetBest.disabled = !best;
   /* Deals the first round behind the rules, so its photo is fetched while they
-   * are being read, and raises the gate over it. */
+   * are being read, and draws the cover over it. */
   startGame();
   renderSeen();
   renderProfile();
