@@ -49,11 +49,12 @@ and its name; you decide which of fifteen regions of the world it comes from.
   `theme-color` so nothing comes out white around a dark page, and measures
   itself in `svh` so one screen means one screen whether the address bar is
   showing or not
-- **A start card in front of every game**, carrying the rules — so the two
-  kinds of peek and what they cost are clear before the first fish rather than
-  discovered by losing points — and holding the round out of sight until you
-  ask for it, so opening the page or changing what the game deals from never
-  spends a fish you did not look at
+- **A front page with the rules**, so the two kinds of peek and what they cost
+  are clear before the first fish rather than discovered by losing points
+- **Every game waits under a cover** on the fish panel until **Start round** is
+  pressed. Nothing of the round shows through it and nothing counts as seen, so
+  opening the page, pressing Play again or changing what the game deals from
+  never spends a fish you did not look at
 - **Two ways to peek** — **Show half** gives back half the name's letters,
   picked at random and scattered through it, and costs no reveal, while
   **Reveal name** un-masks the whole thing and spends one of two reveals shared
@@ -79,12 +80,16 @@ to show them.
 
 ## Playing
 
-Open `index.html` in a browser. A start card lays out the rules and the
-scoring; **Start round** (or `Enter`) begins. The first fish is dealt behind it
-so its photo is already loading while the rules are being read, but the panel
-it sits in is hidden until you start, and it is not counted as seen until then.
-Every game opens the same way — **Play again**, and changing the mode or the
-pool, both deal a new game and put the card back up.
+Open `index.html` in a browser. A front page lays out the rules and the
+scoring; **Start round** (or `Enter`) begins. That card is shown once, when the
+page opens — after it, a new game waits under a **Start round** cover on the
+fish panel instead, which is gate enough without a wall of rules between every
+game. **Play again** and changing the mode or the pool both deal a new game and
+draw the cover back over it.
+
+Either way the round underneath is dealt first, so its photograph is already
+loading while you decide to start, and nothing in it — the picture, the name,
+the fact — shows or counts as seen until the cover lifts.
 
 Some browsers restrict pages loaded over `file://`, so if anything looks off,
 serve the folder over HTTP instead:

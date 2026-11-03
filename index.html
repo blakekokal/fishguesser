@@ -118,6 +118,14 @@
         <button class="btn btn-ghost" id="hintBtn" type="button">Reveal name</button>
       </span>
     </div>
+
+    <!-- Covers the round until it is asked for. The fish behind it is already
+         dealt and its photo already loading, but nothing of it shows and
+         nothing counts as seen until this lifts. -->
+    <div class="round-gate" id="roundGate" hidden>
+      <button class="btn btn-primary" id="roundStartBtn" type="button">Start round</button>
+      <p class="round-gate-note">Nothing counts as seen until you start.</p>
+    </div>
   </section>
 
   <section class="panel map-panel">
