@@ -368,7 +368,7 @@
     ui.result.hidden = true;
     document.body.classList.remove('is-result');
 
-    // Round one is dealt behind the rules; beginPlay marks it once they lift.
+    // The first round of a game is dealt behind the gate; beginPlay marks it.
     if (ui.startOverlay.hidden) markSeen(fish);
   }
 
@@ -707,15 +707,31 @@
     renderSeen();
   }
 
-  /* The front page holds the first round until the rules have been read. The
-   * round behind it is already dealt, so this only lifts the curtain — dealing
-   * again here would throw away the photo that has been loading meanwhile.
-   * Play again skips the rules: by then the player knows how it works. */
+  /* The gate in front of every game. The round behind it is already dealt and
+   * its photo already loading — that is the point of dealing early — but
+   * `is-waiting` takes the whole fish panel out of sight, so nothing of the
+   * round is given away through the blur. Nothing counts as seen until the
+   * curtain lifts, which is what keeps opening the page, or changing what the
+   * game deals from, from spending a fish nobody looked at. */
+  function holdForStart() {
+    document.body.classList.add('is-waiting');
+    ui.startOverlay.hidden = false;
+    // preventScroll: focusing the button would otherwise scroll the rules card
+    // down to it, landing the player halfway through the text.
+    ui.startBtn.focus({ preventScroll: true });
+  }
+
+  /* Lifts that curtain. Dealing again here would throw away the photo that has
+   * been loading meanwhile, so this only reveals what is already waiting. */
   function beginPlay() {
+    if (ui.startOverlay.hidden) return;
     ui.startOverlay.hidden = true;
+    document.body.classList.remove('is-waiting');
     markSeen(state.deck[state.index]); // now it is actually being looked at
   }
 
+  /* Every game starts the same way — from the page opening, from Play again,
+   * and from the filter changing — so every game goes behind the gate. */
   function startGame() {
     state.deck = dealFish(ROUNDS);
     state.index = 0;
@@ -724,6 +740,9 @@
     state.hintsLeft = HINTS_PER_GAME;
     renderHints();
     ui.overlay.hidden = true;
+    /* The gate goes up before the round is drawn, not after: renderRound marks
+     * what it draws as seen unless the gate is already covering it. */
+    holdForStart();
     renderRound();
   }
 
@@ -850,12 +869,9 @@
   const best = readBest();
   ui.best.textContent = best ? fmt(best) : '—';
   ui.resetBest.disabled = !best;
-  /* Deal the first round behind the rules so its photo is fetched while they
-   * are being read, then hand focus to Start. */
+  /* Deals the first round behind the rules, so its photo is fetched while they
+   * are being read, and raises the gate over it. */
   startGame();
   renderSeen();
   renderProfile();
-  // preventScroll: focusing the button would otherwise scroll the rules card
-  // down to it, landing the player halfway through the text.
-  ui.startBtn.focus({ preventScroll: true });
 })();

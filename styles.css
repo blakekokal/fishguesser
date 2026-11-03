@@ -799,7 +799,15 @@ body {
   backdrop-filter: blur(6px);
 }
 
-/* The front page: the rules, read once before the first round. Left-aligned
+/* While the start card is up, the round behind it is not just dimmed — it is
+ * not there. The photograph is the whole puzzle, so a glimpse of it through
+ * the blur would spend the round before it is claimed as seen, and the same
+ * goes for the name, the fact and the peek buttons. `visibility` rather than
+ * `display`, so the panel keeps its size and the photo goes on loading
+ * underneath, which is the point of dealing the round early. */
+body.is-waiting .fish-panel { visibility: hidden; }
+
+/* The front page: the rules, and the gate every game opens behind. Left-aligned
  * rather than centred like the end card, because it is prose to be read. */
 .startcard {
   width: min(560px, 100%);

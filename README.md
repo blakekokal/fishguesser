@@ -49,8 +49,11 @@ and its name; you decide which of fifteen regions of the world it comes from.
   `theme-color` so nothing comes out white around a dark page, and measures
   itself in `svh` so one screen means one screen whether the address bar is
   showing or not
-- **A front page with the rules**, so the two kinds of peek and what they cost
-  are clear before the first fish rather than discovered by losing points
+- **A start card in front of every game**, carrying the rules — so the two
+  kinds of peek and what they cost are clear before the first fish rather than
+  discovered by losing points — and holding the round out of sight until you
+  ask for it, so opening the page or changing what the game deals from never
+  spends a fish you did not look at
 - **Two ways to peek** — **Show half** gives back half the name's letters,
   picked at random and scattered through it, and costs no reveal, while
   **Reveal name** un-masks the whole thing and spends one of two reveals shared
@@ -76,10 +79,12 @@ to show them.
 
 ## Playing
 
-Open `index.html` in a browser. A front page lays out the rules and the scoring
-before the first round; **Start** (or `Enter`) begins. The first fish is dealt
-behind it so its photo is already loading while the rules are being read, and
-**Play again** at the end skips straight back into a game.
+Open `index.html` in a browser. A start card lays out the rules and the
+scoring; **Start round** (or `Enter`) begins. The first fish is dealt behind it
+so its photo is already loading while the rules are being read, but the panel
+it sits in is hidden until you start, and it is not counted as seen until then.
+Every game opens the same way — **Play again**, and changing the mode or the
+pool, both deal a new game and put the card back up.
 
 Some browsers restrict pages loaded over `file://`, so if anything looks off,
 serve the folder over HTTP instead:
