@@ -599,10 +599,13 @@ body {
 
 /* ---------- the round gate ----------
  *
- * A game is dealt before it is asked for, so the photograph is already loading
- * behind this. It is covered rather than blurred: a glimpse of the picture is
- * the whole puzzle handed over, and the same goes for the name and the fact.
- * The panel keeps its size, so starting a round does not move the layout. */
+ * The rules, and the button that starts a game, take over the fish panel
+ * rather than opening over the whole page: the map stays beside them, so
+ * nothing has to be dismissed to see the board. A game is dealt before it is
+ * asked for, so the photograph is already loading underneath this — covered
+ * rather than blurred, since a glimpse of the picture is the whole puzzle
+ * handed over, and the same goes for the name and the fact. The panel keeps
+ * its size, so starting a round does not move the layout. */
 
 .fish-panel { position: relative; }
 
@@ -615,21 +618,7 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
   inset: 0;
   z-index: 2;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  padding: 24px;
   background: var(--panel);
-  text-align: center;
-}
-
-.round-gate .btn { min-width: 180px; }
-
-.round-gate-note {
-  margin: 0;
-  color: var(--ink-faint);
-  font-size: 13px;
 }
 
 .btn-ghost {
@@ -818,7 +807,10 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
 
 .result .btn { margin-top: 14px; }
 
-/* ---------- end overlay ---------- */
+/* ---------- end overlay ----------
+ *
+ * The final score, and only that: the rules moved into the fish panel, so this
+ * is the one thing left that covers the page. */
 
 .overlay {
   position: fixed;
@@ -834,23 +826,19 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
   backdrop-filter: blur(6px);
 }
 
-/* The front page: the rules, and the gate every game opens behind. Left-aligned
- * rather than centred like the end card, because it is prose to be read. */
+/* The rules themselves, filling the gate. Left-aligned rather than centred
+ * like the end card, because it is prose to be read. It carries no border or
+ * background of its own: the panel it sits in is the card. */
 .startcard {
-  width: min(560px, 100%);
-  /* The top bar stays live above the overlay, so the card is capped by what is
-     left below it — otherwise a landscape phone pushes Start off the bottom. */
-  max-height: min(90svh, calc(100svh - var(--topbar-h, 0px) - 40px));
+  flex: 1;
+  /* Without it a flex child refuses to shrink below its content, and the
+     rules would push the panel instead of scrolling inside it. */
+  min-height: 0;
   overflow-y: auto;
-  padding: 28px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: var(--panel);
-  box-shadow: var(--shadow);
-  text-align: left;
   /* No bottom padding: the pinned Start band supplies it, and a gap here would
-   * be a strip of card the text could show through below the button. */
-  padding-bottom: 0;
+   * be a strip of panel the text could show through below the button. */
+  padding: clamp(16px, 3vw, 26px) clamp(16px, 3vw, 26px) 0;
+  text-align: left;
 }
 
 .start-eyebrow {
@@ -970,8 +958,15 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
   position: sticky;
   bottom: 0;
   margin-top: 4px;
-  padding-bottom: 24px;
+  padding-bottom: clamp(16px, 3vw, 26px);
   background: var(--panel);
+}
+
+.start-note {
+  margin: 8px 0 0;
+  color: var(--ink-faint);
+  font-size: 12.5px;
+  text-align: center;
 }
 
 .start-actions::before {

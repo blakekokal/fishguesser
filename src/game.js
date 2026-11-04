@@ -51,9 +51,8 @@
     resultBonus: $('resultBonus'),
     resultLine: $('resultLine'), resultFact: $('resultFact'), nextBtn: $('nextBtn'),
     version: $('version'), speciesCount: $('speciesCount'),
-    startOverlay: $('startOverlay'), startBtn: $('startBtn'),
-    startFishCount: $('startFishCount'),
-    roundGate: $('roundGate'), roundStartBtn: $('roundStartBtn'),
+    startBtn: $('startBtn'), startFishCount: $('startFishCount'),
+    roundGate: $('roundGate'),
     seen: $('seenValue'),
     resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
     topName: $('topName'),
@@ -714,25 +713,23 @@
    * the game deals from, from spending a fish nobody looked at. */
   const waiting = () => document.body.classList.contains('is-waiting');
 
-  /* The cover goes over every game. The rules card is a separate thing on top
-   * of it: shown once when the page opens, because that is when they are worth
-   * reading, and not again for the games after it — the cover is enough of a
-   * gate by then, and a wall of rules between every game is not. */
+  /* The rules take this panel over before every game. They are a panel and not
+   * a dialog on purpose: the map stays on screen beside them, so the page the
+   * game is played on is the page the rules are read on. */
   function holdForStart() {
     document.body.classList.add('is-waiting');
     ui.roundGate.hidden = false;
-    // preventScroll: focusing the button would otherwise scroll the rules card
-    // down to it, landing the player halfway through the text.
-    const target = ui.startOverlay.hidden ? ui.roundStartBtn : ui.startBtn;
-    target.focus({ preventScroll: true });
+    ui.roundGate.scrollTop = 0;
+    // preventScroll: focusing the button would otherwise scroll the rules
+    // straight down to it, landing the player halfway through the text.
+    ui.startBtn.focus({ preventScroll: true });
   }
 
-  /* Lifts the cover, and the rules card with it if this is the first game.
-   * Dealing again here would throw away the photo that has been loading
-   * meanwhile, so this only reveals what is already waiting. */
+  /* Hands the panel back to the round. Dealing again here would throw away the
+   * photo that has been loading meanwhile, so this only reveals what is
+   * already waiting. */
   function beginPlay() {
     if (!waiting()) return;
-    ui.startOverlay.hidden = true;
     ui.roundGate.hidden = true;
     document.body.classList.remove('is-waiting');
     markSeen(state.deck[state.index]); // now it is actually being looked at
@@ -767,7 +764,6 @@
   ui.nextBtn.addEventListener('click', nextRound);
   ui.playAgain.addEventListener('click', startGame);
   ui.startBtn.addEventListener('click', beginPlay);
-  ui.roundStartBtn.addEventListener('click', beginPlay);
   ui.profileSave.addEventListener('click', () => useName(ui.profileName));
   ui.profileName.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') { e.preventDefault(); useName(ui.profileName); }
@@ -879,7 +875,7 @@
   ui.best.textContent = best ? fmt(best) : '—';
   ui.resetBest.disabled = !best;
   /* Deals the first round behind the rules, so its photo is fetched while they
-   * are being read, and draws the cover over it. */
+   * are being read. */
   startGame();
   renderSeen();
   renderProfile();
