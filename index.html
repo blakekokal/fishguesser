@@ -119,12 +119,78 @@
       </span>
     </div>
 
-    <!-- Covers the round until it is asked for. The fish behind it is already
-         dealt and its photo already loading, but nothing of it shows and
-         nothing counts as seen until this lifts. -->
+    <!-- Takes this panel over whenever a game is waiting to be asked for. The
+         rules live here rather than in a dialog over the whole page: the map
+         stays visible beside them, and the round behind — already dealt, its
+         photo already loading — shows nothing and counts as nothing until
+         Start round lifts it. -->
     <div class="round-gate" id="roundGate" hidden>
-      <button class="btn btn-primary" id="roundStartBtn" type="button">Start round</button>
-      <p class="round-gate-note">Nothing counts as seen until you start.</p>
+      <div class="startcard">
+        <p class="start-eyebrow">A guessing game for sea life</p>
+        <h2 class="start-title"><span aria-hidden="true">🐟</span> Fishguesser</h2>
+        <p class="start-lede">You get a photograph and a scientific name. Work out
+          where in the world it lives, and click that part of the map.</p>
+
+        <ol class="start-steps">
+          <li><strong>Look at the animal.</strong> Its common name starts blanked
+            out — the photo is the clue.</li>
+          <li><strong>Pick a region</strong> on the map, then
+            <strong>Lock in guess</strong>.</li>
+          <li><strong>Five rounds</strong>, drawn at random from
+            <span id="startFishCount">the collection</span>.</li>
+        </ol>
+
+        <h3 class="start-h">Scoring</h3>
+        <ul class="start-rules">
+          <li><span class="pts">5,000</span> for the right region. Get it wrong and
+            you still score, but it falls away the further off you were — a
+            neighbouring region is worth about 3,000, the far side of the planet
+            almost nothing.</li>
+        </ul>
+
+        <h3 class="start-h">Peeking at the name</h3>
+        <ul class="start-rules">
+          <li><span class="tag tag-free">Free</span> <strong>Show half</strong>
+            hands back half the letters, scattered through the name. Costs you
+            nothing, any time you like.</li>
+          <li><span class="tag">2 per game</span> <strong>Reveal name</strong>
+            un-blanks the whole thing. You only get two for the whole game.</li>
+          <li><span class="pts">+500</span> every round you guess with the name
+            still fully blanked — and half counts as peeking, so the free option
+            does cost you this.</li>
+          <li><span class="pts">+500</span> for each reveal you never spend.
+            Finish with both and that is <strong>1,000</strong> banked.</li>
+        </ul>
+
+        <p class="start-foot">A perfect game is <strong>28,500</strong>: five
+          regions dead right, five clean guesses, both reveals unused.</p>
+
+        <!-- No server sits behind this game, so a name is a label on a save in
+             this browser, not an account. The backup code is the part that leaves
+             the browser: keep it somewhere and a cleared cache costs nothing. -->
+        <h3 class="start-h">Your save</h3>
+        <div class="profile">
+          <div class="profile-row">
+            <input class="profile-input" id="profileName" type="text" maxlength="24"
+                   autocomplete="off" spellcheck="false"
+                   placeholder="Add a name (optional)" aria-label="Name for this save">
+            <button class="btn btn-ghost" id="profileSaveBtn" type="button">Use name</button>
+          </div>
+          <p class="profile-note" id="profileNote">Progress is kept in this browser.</p>
+          <div class="profile-row">
+            <button class="btn btn-ghost" id="backupBtn" type="button">Back up</button>
+            <button class="btn btn-ghost" id="restoreBtn" type="button">Restore</button>
+          </div>
+          <textarea class="profile-code" id="backupCode" rows="3" spellcheck="false"
+                    placeholder="Paste a backup code here, then press Restore"
+                    aria-label="Backup code" hidden></textarea>
+        </div>
+
+        <div class="start-actions">
+          <button class="btn btn-primary btn-wide" id="startBtn" type="button">Start round</button>
+          <p class="start-note">Nothing counts as seen until you start.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -152,74 +218,6 @@
   </section>
 
 </main>
-
-<div class="overlay" id="startOverlay">
-  <div class="startcard">
-    <p class="start-eyebrow">A guessing game for sea life</p>
-    <h2 class="start-title"><span aria-hidden="true">🐟</span> Fishguesser</h2>
-    <p class="start-lede">You get a photograph and a scientific name. Work out
-      where in the world it lives, and click that part of the map.</p>
-
-    <ol class="start-steps">
-      <li><strong>Look at the animal.</strong> Its common name starts blanked
-        out — the photo is the clue.</li>
-      <li><strong>Pick a region</strong> on the map, then
-        <strong>Lock in guess</strong>.</li>
-      <li><strong>Five rounds</strong>, drawn at random from
-        <span id="startFishCount">the collection</span>.</li>
-    </ol>
-
-    <h3 class="start-h">Scoring</h3>
-    <ul class="start-rules">
-      <li><span class="pts">5,000</span> for the right region. Get it wrong and
-        you still score, but it falls away the further off you were — a
-        neighbouring region is worth about 3,000, the far side of the planet
-        almost nothing.</li>
-    </ul>
-
-    <h3 class="start-h">Peeking at the name</h3>
-    <ul class="start-rules">
-      <li><span class="tag tag-free">Free</span> <strong>Show half</strong>
-        hands back half the letters, scattered through the name. Costs you
-        nothing, any time you like.</li>
-      <li><span class="tag">2 per game</span> <strong>Reveal name</strong>
-        un-blanks the whole thing. You only get two for the whole game.</li>
-      <li><span class="pts">+500</span> every round you guess with the name
-        still fully blanked — and half counts as peeking, so the free option
-        does cost you this.</li>
-      <li><span class="pts">+500</span> for each reveal you never spend.
-        Finish with both and that is <strong>1,000</strong> banked.</li>
-    </ul>
-
-    <p class="start-foot">A perfect game is <strong>28,500</strong>: five
-      regions dead right, five clean guesses, both reveals unused.</p>
-
-    <!-- No server sits behind this game, so a name is a label on a save in
-         this browser, not an account. The backup code is the part that leaves
-         the browser: keep it somewhere and a cleared cache costs nothing. -->
-    <h3 class="start-h">Your save</h3>
-    <div class="profile">
-      <div class="profile-row">
-        <input class="profile-input" id="profileName" type="text" maxlength="24"
-               autocomplete="off" spellcheck="false"
-               placeholder="Add a name (optional)" aria-label="Name for this save">
-        <button class="btn btn-ghost" id="profileSaveBtn" type="button">Use name</button>
-      </div>
-      <p class="profile-note" id="profileNote">Progress is kept in this browser.</p>
-      <div class="profile-row">
-        <button class="btn btn-ghost" id="backupBtn" type="button">Back up</button>
-        <button class="btn btn-ghost" id="restoreBtn" type="button">Restore</button>
-      </div>
-      <textarea class="profile-code" id="backupCode" rows="3" spellcheck="false"
-                placeholder="Paste a backup code here, then press Restore"
-                aria-label="Backup code" hidden></textarea>
-    </div>
-
-    <div class="start-actions">
-      <button class="btn btn-primary btn-wide" id="startBtn" type="button">Start round</button>
-    </div>
-  </div>
-</div>
 
 <div class="overlay" id="overlay" hidden>
   <div class="endcard">
