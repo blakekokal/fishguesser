@@ -72,6 +72,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/323456793",
   },
+  "antarctic-sea-urchin": {
+    author: "Ingvild Riska",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/202827282",
+  },
   "antarctic-toothfish": {
     author: "Citron",
     license: "CC BY-SA 3.0",
@@ -203,6 +209,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lates_calcarifer,_2014-09-19a.jpg",
+  },
+  "barred-bichir": {
+    author: "ばぶじ～",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Polypterus_delhezi_2.jpg",
   },
   "barred-knifejaw": {
     author: "Nicola Crockford",
@@ -492,6 +504,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Balistoides_conspicillum_01.jpg",
   },
+  "cockatoo-cichlid": {
+    author: "Made be Uploader",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Apistogramma_cacatuoides_double_red_male.jpg",
+  },
   "common-basket-star": {
     author: "Rachel Crane",
     license: "CC BY 4.0",
@@ -527,6 +545,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Phenacogrammus_interruptus_1.jpg",
+  },
+  "copperband-butterflyfish": {
+    author: "portioid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/225659077",
   },
   "coral-trout": {
     author: "Leonard Low from Australia",
@@ -1002,6 +1026,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/183323839",
   },
+  "kribensis": {
+    author: "NasserHalaweh",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cichlidae_Pelvicachromis_pulcher_4.jpg",
+  },
   "lake-sturgeon": {
     author: "USFWS Mountain Prairie",
     license: "Public domain",
@@ -1067,6 +1097,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Lion's_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg",
+  },
+  "logperch": {
+    author: "Dean Hester",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/266989599",
   },
   "longear-sunfish": {
     author: "L.J. Lamera",
@@ -1728,6 +1764,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/316212027",
   },
+  "stalked-tunicate": {
+    author: "Lara Gibson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/7186904",
+  },
+  "sterbas-cory": {
+    author: "Matthew Mannell",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Corydoras_Sterbai.jpg",
+  },
   "stoplight-parrotfish": {
     author: "Adona9 at English Wikipedia",
     license: "CC BY-SA 3.0",
@@ -1739,6 +1787,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/203116244",
+  },
+  "striped-julie": {
+    author: "Regani",
+    license: "Public domain",
+    license_url: "",
+    source: "https://commons.wikimedia.org/wiki/File:Julidochromis_regani.jpg",
   },
   "striped-red-mullet": {
     author: "Tigerente",
@@ -1793,6 +1847,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/305762931",
+  },
+  "tiger-shovelnose-catfish": {
+    author: "Lerdsuwa",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pseudoplatystoma_tigrinum1.jpg",
   },
   "tompot-blenny": {
     author: "Katerina Kalogerini",
@@ -2285,4 +2345,14 @@ const PHOTO_ORDER = [
   "common-basket-star",
   "antarctic-brittle-star",
   "iowa-darter",
+  "kribensis",
+  "barred-bichir",
+  "cockatoo-cichlid",
+  "tiger-shovelnose-catfish",
+  "sterbas-cory",
+  "antarctic-sea-urchin",
+  "stalked-tunicate",
+  "logperch",
+  "copperband-butterflyfish",
+  "striped-julie",
 ];

@@ -2317,5 +2317,75 @@
     "author": "Dean Hester",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "kribensis": {
+    "commons_title": "File:Cichlidae Pelvicachromis pulcher 4.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cichlidae_Pelvicachromis_pulcher_4.jpg",
+    "author": "NasserHalaweh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "barred-bichir": {
+    "commons_title": "File:Polypterus delhezi 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Polypterus_delhezi_2.jpg",
+    "author": "ばぶじ～",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cockatoo-cichlid": {
+    "commons_title": "File:Apistogramma cacatuoides double red male.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apistogramma_cacatuoides_double_red_male.jpg",
+    "author": "Made be Uploader",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "tiger-shovelnose-catfish": {
+    "commons_title": "File:Pseudoplatystoma tigrinum1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pseudoplatystoma_tigrinum1.jpg",
+    "author": "Lerdsuwa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "sterbas-cory": {
+    "commons_title": "File:Corydoras Sterbai.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Corydoras_Sterbai.jpg",
+    "author": "Matthew Mannell",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "antarctic-sea-urchin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358268422/large.jpg",
+    "source": "https://www.inaturalist.org/observations/202827282",
+    "author": "Ingvild Riska",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "stalked-tunicate": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9266135/large.jpg",
+    "source": "https://www.inaturalist.org/observations/7186904",
+    "author": "Lara Gibson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "logperch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479746229/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/266989599",
+    "author": "Dean Hester",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "copperband-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/400115584/large.jpg",
+    "source": "https://www.inaturalist.org/observations/225659077",
+    "author": "portioid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "striped-julie": {
+    "commons_title": "File:Julidochromis regani.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Julidochromis_regani.jpg",
+    "author": "Regani",
+    "license": "Public domain",
+    "license_url": ""
   }
 }
