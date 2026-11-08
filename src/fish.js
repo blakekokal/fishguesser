@@ -208,6 +208,22 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Swallows water until it is a ball two or three times its own size, which stands every spine on end at once; the rest of the time those spines lie flat and it looks like an ordinary fish with a dog-like face. Its teeth are fused into a single plate for cracking shells.',
   },
+  {
+    id: 'puget-sound-king-crab',
+    name: 'Puget Sound King Crab',
+    sciName: 'Lopholithodes mandtii',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/598317665/large.jpg',
+    region: 'north-pacific',
+    fact: 'Plated in knobbly orange and white, and so rigid it looks assembled rather than grown. Threatened, it folds every leg up under itself until it is a lumpy boulder with nothing to grip, then unfolds and goes back to prising sea urchins apart.',
+  },
+  {
+    id: 'sunflower-sea-star',
+    name: 'Sunflower Sea Star',
+    sciName: 'Pycnopodia helianthoides',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/1728423/large.JPG',
+    region: 'north-pacific',
+    fact: 'Starts life with five arms and keeps adding them, up to twenty-four, and runs on fifteen thousand tube feet — fast enough, for a starfish, to catch a fleeing sea urchin. A wasting disease took most of them in a handful of years, and it has been scarce ever since.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -433,6 +449,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Pterois_volitans_Manado-e.jpg/1280px-Pterois_volitans_Manado-e.jpg',
     region: 'caribbean',
     fact: 'Eighteen venomous spines held out like a fan, and a habit of herding small fish into a corner with its pectoral fins before swallowing them whole. It has no natural check where it has been let loose, so divers are paid by the tail to take them out.',
+  },
+  {
+    id: 'green-moray',
+    name: 'Green Moray',
+    sciName: 'Gymnothorax funebris',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/339978183/large.jpeg',
+    region: 'caribbean',
+    fact: 'Not actually green: the skin underneath is brown, and the yellow slime it coats itself in does the rest. It holds its mouth open to breathe rather than to threaten, and carries a second set of jaws back in its throat that shoot forward to drag prey down.',
   },
   // ---- Amazon Basin ----
   {
@@ -782,6 +806,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Under a short fur that traps silt it looks like one more stone on the bottom, until it moves and the eyes give it away — a startling red. The last pair of legs are flattened into paddles, and rather than back off it will swim at whatever is bothering it with both claws held up.',
   },
+  {
+    id: 'great-spider-crab',
+    name: 'Great Spider Crab',
+    sciName: 'Hyas araneus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/199155354/large.jpg',
+    region: 'north-atlantic',
+    fact: 'Plants scraps of sponge and weed on the hooked hairs covering its shell until it is wearing the seabed. The garden cannot be taken off, only grown again at each moult, so an old one looks less like an animal than like something that fell off a rock.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -975,6 +1007,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Potamon_fluviatile_A%C3%AFn_Draham.jpg/1280px-Potamon_fluviatile_A%C3%AFn_Draham.jpg',
     region: 'mediterranean',
     fact: 'One of the few crabs that never goes near salt water. With no tide to carry larvae off, the eggs skip the drifting stage altogether and hatch straight into miniature crabs that ride under their mother for weeks. On wet nights it leaves the stream and walks overland between pools.',
+  },
+  {
+    id: 'greater-slipper-lobster',
+    name: 'Greater Slipper Lobster',
+    sciName: 'Scyllarides latus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/533408765/large.jpg',
+    region: 'mediterranean',
+    fact: 'A lobster that traded its antennae for a pair of flat shovels, and uses them to lever itself under ledges and to work clams open. It has no claws and no spines worth the name, so when something does find it the only move left is a backwards flick of the tail.',
   },
   // ---- Congo Basin ----
   {
@@ -1486,6 +1526,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Spends its whole life among the tentacles of a stinging anemone, somehow unbothered by them, and hardly ever steps outside. It does not hunt: it unfurls a pair of feathery fans beside its mouth and combs plankton out of the current. Take hold of one and it hands over a leg and walks off.',
   },
+  {
+    id: 'banded-coral-shrimp',
+    name: 'Banded Coral Shrimp',
+    sciName: 'Stenopus hispidus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/71820944/large.jpeg',
+    region: 'coral-triangle',
+    fact: 'Keeps a cleaning station and advertises it by waving antennae twice as long as the rest of it, until a fish stops and lets it pick parasites out of its mouth. A pair bonds for life and drives off any other of its kind that comes near.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1769,6 +1817,14 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Drifts under metres of sea ice in water a degree below freezing, trailing threads that small fish shelter among without being stung. The orange in the middle of it is whatever it has eaten, showing through.',
   },
+  {
+    id: 'antarctic-ribbon-worm',
+    name: 'Antarctic Ribbon Worm',
+    sciName: 'Parborlasia corrugatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/585273755/large.jpg',
+    region: 'southern-ocean',
+    fact: 'Two metres of pale soft ribbon that smells out whatever has died on the bottom and arrives in numbers. It shoots a sticky proboscis at anything still moving, and wraps itself in acid slime sour enough that nothing cares to bite it.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -2028,6 +2084,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/507076620/large.jpg',
     region: 'great-lakes',
     fact: 'A palm-sized fish painted like something off a reef: turquoise worm-tracks over orange, and a long black ear flap edged in white. The male sweeps a saucer of gravel clean with his tail and guards it, and a colony of them can be dozens of saucers side by side.',
+  },
+  {
+    id: 'channel-catfish',
+    name: 'Channel Catfish',
+    sciName: 'Ictalurus punctatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/738715325/large.jpg',
+    region: 'great-lakes',
+    fact: 'Tastes with its whole body. Its skin carries more than a hundred thousand taste buds, so swimming through dark water is swimming through flavour, and the barbels round the mouth are only where they are packed thickest.',
   },
   // ---- Sea of Japan ----
   {
@@ -2352,6 +2416,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/128995928/large.jpg',
     region: 'mekong',
     fact: 'Not an eel: a fish with no scales, no paired fins and almost no gills, breathing through the lining of its mouth instead. It crosses wet ground to find new water, digs into mud to wait out a drought, and the big ones all began as females.',
+  },
+  {
+    id: 'fire-eel',
+    name: 'Fire Eel',
+    sciName: 'Mastacembelus erythrotaenia',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%D0%9C%D0%B0%D1%81%D1%82%D0%B0%D1%86%D0%B5%D0%BC%D0%B1%D0%B5%D0%BB_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%8B%D0%B9_%28Mastacembelus_erythrotaenia%29.jpg/1280px-%D0%9C%D0%B0%D1%81%D1%82%D0%B0%D1%86%D0%B5%D0%BC%D0%B1%D0%B5%D0%BB_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%8B%D0%B9_%28Mastacembelus_erythrotaenia%29.jpg',
+    region: 'mekong',
+    fact: 'Not an eel but a spiny eel, with a row of short separate spines along its back and a fleshy snout it works into the sand like a finger. The red bands come in with age, and it spends the day buried with only that snout showing.',
+  },
+  {
+    id: 'pearl-gourami',
+    name: 'Pearl Gourami',
+    sciName: 'Trichopodus leerii',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Trichopodus_leerii_h080.jpg/1280px-Trichopodus_leerii_h080.jpg',
+    region: 'mekong',
+    fact: 'Speckled all over as though someone had flicked white paint at it, and the two long threads trailing underneath are feelers for what it cannot see. It gulps air at the surface through an organ above the gills, which is how it lives in water with almost no oxygen in it.',
   },
   // ---- New Zealand ----
   {

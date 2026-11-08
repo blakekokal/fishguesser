@@ -60,6 +60,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/264532850",
   },
+  "antarctic-ribbon-worm": {
+    author: "Rachel Crane",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/323456793",
+  },
   "antarctic-toothfish": {
     author: "Citron",
     license: "CC BY-SA 3.0",
@@ -161,6 +167,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/34802668",
+  },
+  "banded-coral-shrimp": {
+    author: "TheMongrelKoi",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/45298652",
   },
   "banded-leporinus": {
     author: "Andrew J. Crawford",
@@ -408,6 +420,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Nautilus_pompilius_photo.jpg",
   },
+  "channel-catfish": {
+    author: "Michelle W. （鍾偉瑋）",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/402401697",
+  },
   "cherry-anthias": {
     author: "harum.koh from Kobe city, Japan",
     license: "CC BY-SA 2.0",
@@ -630,6 +648,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG",
   },
+  "fire-eel": {
+    author: "Гурьева Светлана (zooclub.ru)",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%81%D1%82%D0%B0%D1%86%D0%B5%D0%BC%D0%B1%D0%B5%D0%BB_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%8B%D0%B9_%28Mastacembelus_erythrotaenia%29.jpg",
+  },
   "flamboyant-cuttlefish": {
     author: "Pauline Walsh Jacobson",
     license: "CC BY 4.0",
@@ -785,6 +809,24 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Hydrocynus_goliath.jpg",
+  },
+  "great-spider-crab": {
+    author: "Ian Manning",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/117902959",
+  },
+  "greater-slipper-lobster": {
+    author: "Ben Jobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/296246663",
+  },
+  "green-moray": {
+    author: "Jared Shorma",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/193544371",
   },
   "greenland-shark": {
     author: "Hemming1952",
@@ -1248,6 +1290,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/197441524",
   },
+  "pearl-gourami": {
+    author: "h080",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Trichopodus_leerii_h080.jpg",
+  },
   "pink-river-dolphin": {
     author: "Tiago Lubiana",
     license: "CC0",
@@ -1289,6 +1337,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Psychedelic_frogfish_juvenile.jpg",
+  },
+  "puget-sound-king-crab": {
+    author: "Samuelle Simard-Provençal",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/330009995",
   },
   "pumpkinseed": {
     author: "Henggang Cui",
@@ -1661,6 +1715,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus_Cala_Gracio.jpg",
+  },
+  "sunflower-sea-star": {
+    author: "Old Goat",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/1397870",
   },
   "swell-shark": {
     author: "Cliff",
@@ -2180,4 +2240,14 @@ const PHOTO_ORDER = [
   "italian-freshwater-crab",
   "anemone-hermit-crab",
   "velvet-swimming-crab",
+  "channel-catfish",
+  "puget-sound-king-crab",
+  "sunflower-sea-star",
+  "green-moray",
+  "greater-slipper-lobster",
+  "antarctic-ribbon-worm",
+  "great-spider-crab",
+  "banded-coral-shrimp",
+  "fire-eel",
+  "pearl-gourami",
 ];
