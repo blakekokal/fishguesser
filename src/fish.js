@@ -224,6 +224,14 @@ const FISH = [
     region: 'north-pacific',
     fact: 'Starts life with five arms and keeps adding them, up to twenty-four, and runs on fifteen thousand tube feet — fast enough, for a starfish, to catch a fleeing sea urchin. A wasting disease took most of them in a handful of years, and it has been scarce ever since.',
   },
+  {
+    id: 'rockmover-wrasse',
+    name: 'Rockmover Wrasse',
+    sciName: 'Novaculichthys taeniourus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/204786257/large.jpg',
+    region: 'north-pacific',
+    fact: 'Takes rocks the size of its own head in its jaws and flips them over to get at what is underneath, working across a patch of rubble until there is nothing left unturned. The young look nothing like it — a ragged brown scrap that tumbles in the surge exactly like a torn piece of weed.',
+  },
   // ---- Caribbean Sea ----
   {
     id: 'queen-angelfish',
@@ -1380,6 +1388,22 @@ const FISH = [
     region: 'rift-lakes',
     fact: 'Lives pressed against rock, and swims belly to the stone whichever way up that leaves it — along a wall, under an overhang, upside down in a crack. A pair holds one crevice for years, and the grown young stay on as helpers instead of leaving to find their own.',
   },
+  {
+    id: 'bluespotted-ribbontail-ray',
+    name: 'Bluespotted Ribbontail Ray',
+    sciName: 'Taeniura lymma',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/229213941/large.jpg',
+    region: 'rift-lakes',
+    fact: 'Waits out the low tide buried with only its eyes showing, then works over the sand after worms and crabs, finding them by the faint electricity of their own muscles. The spots are a warning rather than camouflage: there are two venomous spines near the end of the tail.',
+  },
+  {
+    id: 'pennant-coralfish',
+    name: 'Pennant Coralfish',
+    sciName: 'Heniochus acuminatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/723807272/large.jpg',
+    region: 'rift-lakes',
+    fact: 'Trails a white streamer off its back fin that can be longer than the rest of it. The young work as cleaners, picking parasites off fish many times their size, and the adults pair off for life, feeding and moving about as two rather than joining a shoal.',
+  },
   // ---- Coral Triangle ----
   {
     id: 'mandarinfish',
@@ -1606,6 +1630,22 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Carries its mouth on the end of a long bony snout and works it like a pair of forceps, picking worms and small anemones out of cracks nothing else can reach. The black spot near the tail is a false eye, so that whatever lunges at it aims at the wrong end.',
   },
+  {
+    id: 'yellow-boxfish',
+    name: 'Yellow Boxfish',
+    sciName: 'Ostracion cubicus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/465877519/large.jpeg',
+    region: 'coral-triangle',
+    fact: 'Rigid: the scales are fused into a box of bony plates with holes left for the eyes, mouth and fins, so it gets about by sculling with the fins alone. The young are a yellow cube spotted with black and lose both the colour and the shape as they grow. Frightened badly enough, it leaks a poison.',
+  },
+  {
+    id: 'variable-neon-slug',
+    name: 'Variable Neon Slug',
+    sciName: 'Nembrotha kubaryana',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/334074651/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Eats colonial sea squirts and keeps what it finds in them: their toxins go into its own skin, and the colours are there to say so. The orange tufts on its back are its gills, carried out in the open where anything could take a bite, which tells you how little it expects to be bothered.',
+  },
   // ---- Northern Australia ----
   {
     id: 'barramundi',
@@ -1799,6 +1839,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/577231658/large.jpg',
     region: 'northern-australia',
     fact: 'A crab the colour of a robin\'s egg that walks straight ahead instead of sidling, which almost nothing else with claws does. It feeds as it goes, rolling sand through its mouthparts and leaving a trail of discarded pellets behind it, and when disturbed it corkscrews down into the wet sand sideways and is gone.',
+  },
+  {
+    id: 'picasso-triggerfish',
+    name: 'Picasso Triggerfish',
+    sciName: 'Rhinecanthus aculeatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/486787117/large.jpg',
+    region: 'northern-australia',
+    fact: 'Painted as though somebody had tried out every colour they owned on one fish. Cornered, it backs into a hole and locks its first dorsal spine upright with a smaller one behind it, so nothing can pull it out again until it decides to come.',
+  },
+  {
+    id: 'pincushion-star',
+    name: 'Pincushion Star',
+    sciName: 'Culcita novaeguineae',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/45712144/large.jpeg',
+    region: 'northern-australia',
+    fact: 'A starfish that has filled in. The five arms are still there under the skin, but it has swollen into a dome and looks more like a cushion than a star. It spends the night with its stomach out over the coral, digesting the polyps where they sit, and often has a small fish living inside it.',
   },
   // ---- Southern Ocean ----
   {
@@ -2035,6 +2091,22 @@ const FISH = [
     region: 'arctic',
     fact: 'A brittle star whose five arms fork, and fork again, and keep forking until there are thousands of curling tips. By day it is a knotted ball jammed in a crevice; at night it climbs up into the current, opens the whole tangle into a net facing the flow, and combs plankton out of the water.',
   },
+  {
+    id: 'arctic-comb-jelly',
+    name: 'Arctic Comb Jelly',
+    sciName: 'Mertensia ovum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/526733962/large.jpg',
+    region: 'arctic',
+    fact: 'Not a jellyfish, and it cannot sting. It swims on eight rows of beating hairs that split the light into a rainbow running down its sides, and fishes with two sticky tentacles trailed out behind. In cold enough water it can live for years, which for something this flimsy is remarkable.',
+  },
+  {
+    id: 'christmas-anemone',
+    name: 'Christmas Anemone',
+    sciName: 'Urticina crassicornis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/175089767/large.jpeg',
+    region: 'arctic',
+    fact: 'Red and green at once, which is where the name comes from. It can move, slowly, on its base, and will cross a rock to pick a fight with a neighbour over space. It swallows whole urchins, spines included, and days later spits the cleaned shell back out.',
+  },
   // ---- Great Lakes ----
   {
     id: 'lake-sturgeon',
@@ -2212,6 +2284,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/479746229/large.jpeg',
     region: 'great-lakes',
     fact: 'Has a hard snout that sticks out well past its mouth, and uses it as a crowbar — working along the bottom flipping stones over one after another to get at whatever is sheltering underneath. Almost nothing it shares a river with can do that, so it eats well.',
+  },
+  {
+    id: 'stonecat',
+    name: 'Stonecat',
+    sciName: 'Noturus flavus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/438063420/large.jpeg',
+    region: 'great-lakes',
+    fact: 'A small catfish that spends the day jammed under a slab and the night feeling its way along the bottom. The spines in the fins behind its head carry venom — not dangerous, but a sting that aches for hours, which is a surprise from something you could hold in one hand.',
   },
   // ---- Sea of Japan ----
   {
