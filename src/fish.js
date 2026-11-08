@@ -620,6 +620,30 @@ const FISH = [
     region: 'amazon',
     fact: 'The deep keel under it is solid muscle driving a pair of outsized side fins, and it is the one fish that properly flies rather than glides: startled, it leaves the water altogether and beats its way a metre or two, loud enough to hear.',
   },
+  {
+    id: 'cockatoo-cichlid',
+    name: 'Cockatoo Cichlid',
+    sciName: 'Apistogramma cacatuoides',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Apistogramma_cacatuoides_double_red_male.jpg/1280px-Apistogramma_cacatuoides_double_red_male.jpg',
+    region: 'amazon',
+    fact: 'The male raises a crest of spiky orange rays along his back, which is where the name comes from, and patrols a handful of caves that each hold a female. The females do the fighting: each stays with her eggs and drives off whatever comes near, her own mate included.',
+  },
+  {
+    id: 'tiger-shovelnose-catfish',
+    name: 'Tiger Shovelnose Catfish',
+    sciName: 'Pseudoplatystoma tigrinum',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Pseudoplatystoma_tigrinum1.jpg/1280px-Pseudoplatystoma_tigrinum1.jpg',
+    region: 'amazon',
+    fact: 'A flat spade of a head, whiskers longer than the rest of it, and a coat of black loops over silver. It hunts in the dark by touch and by taste, holds still in the current while something swims past, and takes fish half its own length in one go.',
+  },
+  {
+    id: 'sterbas-cory',
+    name: 'Sterba\'s Cory',
+    sciName: 'Corydoras sterbai',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Corydoras_Sterbai.jpg/1280px-Corydoras_Sterbai.jpg',
+    region: 'amazon',
+    fact: 'Wears two overlapping rows of bony plates instead of scales, and breathes through its gut as well as its gills — it dashes up, swallows air, and takes the oxygen out of it on the way through. Alarmed, it locks its fin spines upright, which makes it an awkward mouthful.',
+  },
   // ---- North Atlantic ----
   {
     id: 'atlantic-cod',
@@ -813,6 +837,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/199155354/large.jpg',
     region: 'north-atlantic',
     fact: 'Plants scraps of sponge and weed on the hooked hairs covering its shell until it is wearing the seabed. The garden cannot be taken off, only grown again at each moult, so an old one looks less like an animal than like something that fell off a rock.',
+  },
+  {
+    id: 'stalked-tunicate',
+    name: 'Stalked Tunicate',
+    sciName: 'Boltenia ovifera',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/9266135/large.jpg',
+    region: 'north-atlantic',
+    fact: 'Looks like a potato on a stick, and is a closer relative of fish than of anything else on the rock beside it. The larva is a swimming tadpole with a stiffening rod down its back; it glues itself down head first, absorbs the tail and most of the nerve cord, and spends the rest of its life pumping water through itself.',
   },
   // ---- Mediterranean Sea ----
   {
@@ -1114,7 +1146,7 @@ const FISH = [
     region: 'congo',
     fact: 'A turtle with a leathery pancake for a shell and flaps of skin that fold down over its back legs when it pulls them in. It lies buried in mud with only a snorkel of a nose above it, breathing through its throat, which takes oxygen out of the water well enough that it need not surface for hours.',
   },
-      {
+  {
     id: 'west-african-fiddler-crab',
     name: 'West African Fiddler Crab',
     sciName: 'Afruca tangeri',
@@ -1161,6 +1193,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cichlidae_-_Hemichromis_lifalili.JPG/1280px-Cichlidae_-_Hemichromis_lifalili.JPG',
     region: 'congo',
     fact: 'Drab brown for most of its life, and then it pairs off to spawn and both parents turn the colour of a hot coal, spangled all over in blue. They scrub a flat stone clean to lay on, then spend weeks herding the fry about and seeing off anything that comes near, whatever its size.',
+  },
+  {
+    id: 'kribensis',
+    name: 'Kribensis',
+    sciName: 'Pelvicachromis pulcher',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cichlidae_Pelvicachromis_pulcher_4.jpg/1280px-Cichlidae_Pelvicachromis_pulcher_4.jpg',
+    region: 'congo',
+    fact: 'A cichlid the length of a finger that nests in a hole, and the one doing the advertising is the female: she turns cherry red across the belly and dances in front of the male until he agrees. Both then herd the fry about in a cloud for weeks.',
+  },
+  {
+    id: 'barred-bichir',
+    name: 'Barred Bichir',
+    sciName: 'Polypterus delhezi',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Polypterus_delhezi_2.jpg/1280px-Polypterus_delhezi_2.jpg',
+    region: 'congo',
+    fact: 'Plated in scales set as hard as enamel, with a row of separate little sails down its back and thick fleshy fins it props itself on like legs. It gulps air into a pair of true lungs, and the bold black bars break its outline up among roots and litter.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -1323,6 +1371,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Cangrejo_ermita%C3%B1o_%28Dardanus_pedunculatus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_148.jpg/1280px-Cangrejo_ermita%C3%B1o_%28Dardanus_pedunculatus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_148.jpg',
     region: 'rift-lakes',
     fact: 'Arms its borrowed shell with living weapons: it prises stinging anemones off the rock and plants them around the outside, one at a time, until the shell bristles with them. When it outgrows the shell it peels every anemone off again and replants it on the new one.',
+  },
+  {
+    id: 'striped-julie',
+    name: 'Striped Julie',
+    sciName: 'Julidochromis regani',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Julidochromis_regani.jpg/1280px-Julidochromis_regani.jpg',
+    region: 'rift-lakes',
+    fact: 'Lives pressed against rock, and swims belly to the stone whichever way up that leaves it — along a wall, under an overhang, upside down in a crack. A pair holds one crevice for years, and the grown young stay on as helpers instead of leaving to find their own.',
   },
   // ---- Coral Triangle ----
   {
@@ -1541,6 +1597,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/71820944/large.jpeg',
     region: 'coral-triangle',
     fact: 'Keeps a cleaning station and advertises it by waving antennae twice as long as the rest of it, until a fish stops and lets it pick parasites out of its mouth. A pair bonds for life and drives off any other of its kind that comes near.',
+  },
+  {
+    id: 'copperband-butterflyfish',
+    name: 'Copperband Butterflyfish',
+    sciName: 'Chelmon rostratus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/400115584/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Carries its mouth on the end of a long bony snout and works it like a pair of forceps, picking worms and small anemones out of cracks nothing else can reach. The black spot near the tail is a false eye, so that whatever lunges at it aims at the wrong end.',
   },
   // ---- Northern Australia ----
   {
@@ -1785,7 +1849,7 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Eats whatever it finds — sponge, plankton, whatever the seals leave — in water a fraction of a degree from freezing, and grows so slowly that a starfish the size of your hand can be decades old.',
   },
-      {
+  {
     id: 'antarctic-krill',
     name: 'Antarctic Krill',
     sciName: 'Euphausia superba',
@@ -1840,6 +1904,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/457364989/large.jpg',
     region: 'southern-ocean',
     fact: 'Rows itself along the bottom on five thin arms, far quicker than a starfish manages, and sheds one without hesitation if something takes hold of it. It eats whatever turns up — plankton, carrion, other brittle stars — and broods its young inside its body until they are small adults.',
+  },
+  {
+    id: 'antarctic-sea-urchin',
+    name: 'Antarctic Sea Urchin',
+    sciName: 'Sterechinus neumayeri',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/358268422/large.jpg',
+    region: 'southern-ocean',
+    fact: 'Grows so slowly in water that sits below freezing that a small one can be decades old, and its larvae drift for months before they settle. It grazes algae off rock, picks over anything dead it finds, and holds bits of shell and gravel over itself with its tube feet.',
   },
   // ---- Arctic Ocean ----
   {
@@ -1923,7 +1995,7 @@ const FISH = [
     region: 'arctic',
     fact: 'Reckoned the longest animal alive: one measured out at thirty-seven metres of trailing tentacle, beating a blue whale, though nearly all of that is thread thinner than string. The bell alone can be taller than you are wide, and the whole animal is about 95 per cent water.',
   },
-      {
+  {
     id: 'snow-crab',
     name: 'Snow Crab',
     sciName: 'Chionoecetes opilio',
@@ -2132,6 +2204,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/631208728/large.jpg',
     region: 'great-lakes',
     fact: 'Has no swim bladder, so hovering is not an option: it rests on the bottom and gets about in short darts, which is where the family name comes from. For a few weeks each spring the male goes barred in rust and turquoise, then fades back to something you would never spot.',
+  },
+  {
+    id: 'logperch',
+    name: 'Logperch',
+    sciName: 'Percina caprodes',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/479746229/large.jpeg',
+    region: 'great-lakes',
+    fact: 'Has a hard snout that sticks out well past its mouth, and uses it as a crowbar — working along the bottom flipping stones over one after another to get at whatever is sheltering underneath. Almost nothing it shares a river with can do that, so it eats well.',
   },
   // ---- Sea of Japan ----
   {

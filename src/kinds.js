@@ -2,7 +2,7 @@
  *
  * A game can be narrowed to part of the collection: fish only, crabs, sharks
  * and whales, fresh water or salt, or just the strange-looking ones. Rather
- * than hang a `kind` on all 325 entries, the groups that read off a name
+ * than hang a `kind` on all 335 entries, the groups that read off a name
  * reliably are matched by name — anything with "crab" in it is a crab,
  * anything with "shark", "dogfish" or "wobbegong" is a shark, anything with
  * "whale", "dolphin" or "porpoise" is a whale — with an exception list for the
@@ -42,6 +42,7 @@ const NOT_FISH = new Set([
   'sunflower-sea-star', 'greater-slipper-lobster',
   'bushy-backed-nudibranch', 'common-basket-star',
   'antarctic-brittle-star',
+  'antarctic-sea-urchin', 'stalked-tunicate',
   'antarctic-ribbon-worm', 'banded-coral-shrimp',
   'blue-ringed-octopus',
   'common-cuttlefish',
@@ -151,7 +152,8 @@ const WEIRD = new Set([
   'draughtsboard-shark', 'kissing-gourami', 'anemone-hermit-crab',
   'puget-sound-king-crab', 'sunflower-sea-star', 'antarctic-ribbon-worm',
   'banded-coral-shrimp', 'greater-slipper-lobster',
-  'bushy-backed-nudibranch', 'common-basket-star',
+  'bushy-backed-nudibranch', 'common-basket-star', 'stalked-tunicate',
+  'barred-bichir', 'cockatoo-cichlid',
 ]);
 
 const isWeird = (fish) => WEIRD.has(fish.id);
@@ -200,6 +202,9 @@ const FRESHWATER = new Set([
   'marbled-hatchetfish', 'african-knifefish', 'snail-eating-turtle',
   'asian-swamp-eel', 'italian-freshwater-crab', 'channel-catfish',
   'fire-eel', 'pearl-gourami', 'jewel-cichlid', 'iowa-darter',
+  'kribensis', 'barred-bichir', 'cockatoo-cichlid',
+  'tiger-shovelnose-catfish', 'sterbas-cory', 'logperch',
+  'striped-julie',
 ]);
 
 const isFresh = (fish) => FRESHWATER.has(fish.id);
