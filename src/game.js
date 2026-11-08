@@ -1032,6 +1032,13 @@
    * looked at right now is marked straight back, so the count reads 1 mid-round
    * and 0 under the cover, where nothing has been shown yet. */
   function resetSeen() {
+    /* It wipes the whole pass for this save, and there is no undo, so it asks
+     * first and says how much would go. */
+    const n = readSeen().length;
+    if (!n) return;
+    const ok = window.confirm(
+      `Reset seen fish? The ${fmt(n)} species you have seen this pass can all come up again.`);
+    if (!ok) return;
     writeSeen([]);
     if (!waiting()) markSeen(state.deck[state.index]);
     renderSeen();

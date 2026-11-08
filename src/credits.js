@@ -210,6 +210,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Banggai-Kardinalbarsch_Pterapogon_kauderni.jpg",
   },
+  "barber-goby": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/387493513",
+  },
   "barramundi": {
     author: "Mitch Ames",
     license: "CC BY-SA 4.0",
@@ -371,6 +377,24 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/258464606",
+  },
+  "brazilian-basslet": {
+    author: "bewambay",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/6968809",
+  },
+  "brazilian-damsel": {
+    author: "Bárbara Verdinha",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/374951737",
+  },
+  "brazilian-red-sea-star": {
+    author: "Bernard Picton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/68399517",
   },
   "brook-trout": {
     author: "James St. John",
@@ -887,6 +911,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/193544371",
+  },
+  "greenbeak-parrotfish": {
+    author: "bewambay",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/6973999",
   },
   "greenland-shark": {
     author: "Hemming1952",
@@ -2425,4 +2455,9 @@ const PHOTO_ORDER = [
   "variable-neon-slug",
   "rockmover-wrasse",
   "stonecat",
+  "barber-goby",
+  "brazilian-basslet",
+  "greenbeak-parrotfish",
+  "brazilian-damsel",
+  "brazilian-red-sea-star",
 ];

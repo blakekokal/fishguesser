@@ -2457,5 +2457,40 @@
     "author": "Dean Hester",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "barber-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/709572594/large.jpg",
+    "source": "https://www.inaturalist.org/observations/387493513",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-basslet": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8914566/large.jpg",
+    "source": "https://www.inaturalist.org/observations/6968809",
+    "author": "bewambay",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "greenbeak-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8922621/large.jpg",
+    "source": "https://www.inaturalist.org/observations/6973999",
+    "author": "bewambay",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-damsel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/685397315/large.jpg",
+    "source": "https://www.inaturalist.org/observations/374951737",
+    "author": "Bárbara Verdinha",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-red-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110744496/large.jpg",
+    "source": "https://www.inaturalist.org/observations/68399517",
+    "author": "Bernard Picton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

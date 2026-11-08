@@ -270,6 +270,27 @@ body {
   text-decoration: none;
 }
 
+/* Reset seen fish: a full-width labelled button, so the one way to start a
+   fresh pass is never a stray glyph that is easy to miss. */
+.set-btn {
+  display: block;
+  width: 100%;
+  margin: -4px 0 12px;
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+  color: var(--ink);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+.set-btn:hover:not(:disabled) { border-color: var(--accent-deep); }
+.set-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.set-btn:disabled { opacity: 0.4; cursor: default; }
+
 .set-link:hover,
 .set-link:focus-visible { border-color: var(--accent-deep); color: var(--ink); }
 

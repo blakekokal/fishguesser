@@ -352,4 +352,9 @@ const ADDED_ORDER = [
   'arctic-comb-jelly',
   'christmas-anemone',
   'stonecat',
+  'barber-goby',
+  'brazilian-basslet',
+  'greenbeak-parrotfish',
+  'brazilian-damsel',
+  'brazilian-red-sea-star',
 ];
