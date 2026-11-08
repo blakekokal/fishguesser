@@ -1,7 +1,7 @@
 # Fishguesser 🐟
 
 A GeoGuessr-style guessing game for sea life. You get a photograph of an animal
-and its name; you decide which of fifteen regions of the world it comes from.
+and its name; you decide which of sixteen regions of the world it comes from.
 
 - **345 species** — mostly bony fish, plus twenty-four sharks, nine rays, a
   sawfish, a lamprey and two chimaeras, and eighty-six that are not fish at all:
@@ -13,9 +13,9 @@ and its name; you decide which of fifteen regions of the world it comes from.
   an isopod, a mantis shrimp, five sea slugs and a horseshoe crab — each
   photographed alive in the wild, in an aquarium, or by a robot on the deep sea
   floor
-- **15 regions**, from the Arctic Ocean to New Zealand — between fourteen and
-  thirty species live in each, so the map has to be read rather than
-  memorised. The header counts the collection straight from the data, so it
+- **16 regions**, from the Arctic Ocean to New Zealand — most hold between
+  fourteen and thirty species, so the map has to be read rather than
+  memorised; the South Atlantic is new and still filling up. The header counts the collection straight from the data, so it
   never goes stale
 - **5 rounds per game**, dealt so that every species comes up once before any
   of them comes up twice — a full pass takes 69 games, and it survives a
@@ -182,10 +182,11 @@ centroids of the two regions.
 The map sections follow a related but separate rule. Every point belongs to the
 region whose nearest **seed** is nearest — seeds being the handful of [lon, lat]
 points each region carries in `src/regions.js`, tracing the water it actually
-occupies. The fifteen sections still tile the map completely, with no unclaimed
+occupies. The sixteen sections still tile the map completely, with no unclaimed
 water, but they come out the shape of the seas: the Great Lakes region is
 landlocked North America, the Pacific has the American west coast and the
-Atlantic the east, the Amazon Basin stops at the shore of South America, and
+Atlantic the east, the Amazon Basin and the Congo Basin stop at the shore with
+the South Atlantic between them, and
 the Southern Ocean is a band right round Antarctica rather than a wedge. A
 coastline the seam has to follow closely is drawn with pairs of seeds — one a
 few degrees inland, its partner the same distance offshore — so the boundary
@@ -206,7 +207,7 @@ index.html              markup and script order
 photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
-src/regions.js          the 15 regions, their map seeds + haversine distance
+src/regions.js          the 16 regions, their map seeds + haversine distance
 src/fish.js             the 345 species (name, photo URL, home region, fact)
 src/added.js            generated: the order they were added in, oldest first
 src/spoilers.js         place names, dotted out while a fact is a hint
@@ -295,7 +296,9 @@ picture is any good, so look at it.
 Regions do not need equal numbers of fish, and they do not have them. Pick the
 best species and the best photograph for each region and let the counts fall
 where they fall: the Southern Ocean has fourteen and the Arctic seventeen, where
-the Coral Triangle has thirty. Scoring is by distance and the map sections are
+the Coral Triangle has thirty, and the South Atlantic, split off from the
+Congo Basin so the river and the ocean are separate answers, has only two so
+far. Scoring is by distance and the map sections are
 computed from region centres, so nothing in the game depends on the counts
 matching.
 

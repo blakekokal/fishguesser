@@ -140,7 +140,8 @@ const WorldMap = (() => {
   const LABEL_AT = {
     'southern-ocean': [-25, -63],
     amazon: [-62, -10],
-    congo: [6, -4],
+    congo: [21, -1],
+    'south-atlantic': [-18, -20],
     'rift-lakes': [41, -18],
     'coral-triangle': [131, 6],
     mekong: [98, 17],
@@ -152,6 +153,7 @@ const WorldMap = (() => {
    * the text stops running across a seam into the neighbour. */
   const STACKED = new Set([
     'congo',
+    'great-lakes',
     'rift-lakes',
     'coral-triangle',
     'mekong',

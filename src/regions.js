@@ -66,7 +66,7 @@ const REGIONS = [
     lat: -4,
     lon: -62,
     // The basin and the rest of the continent, stopping at the shore: the
-    // Atlantic off Brazil belongs to the South Atlantic section and the
+    // Atlantic off Brazil belongs to the South Atlantic and the
     // Pacific off Peru and Chile to the East Pacific. Each coastal seed here
     // has a partner a few degrees offshore in that neighbour, so the seam
     // between the two pairs lands on the coastline itself.
@@ -78,7 +78,7 @@ const REGIONS = [
       [-67, -22], [-67.5, -26], [-68.5, -30], [-69, -34], [-70.5, -38],
       [-71, -42], [-72, -46], [-72.5, -50],
       // Atlantic side, the same.
-      [-59, 4], [-54, 2], [-51, -2], [-46, -4], [-41, -5.5], [-38.5, -7.5],
+      [-63, 7], [-59, 4], [-54, 2], [-51, -2], [-46, -4], [-41, -5.5], [-38.5, -7.5],
       [-41, -12], [-42.5, -17], [-44, -21], [-48.5, -23.5], [-51, -27],
       [-55, -30.5], [-58, -33], [-63, -35.5], [-67.5, -40], [-70.5, -45],
       [-70.5, -48], [-72, -51.5]
@@ -114,20 +114,41 @@ const REGIONS = [
   },
   {
     id: 'congo',
-    // The section is the river and the whole ocean it empties into, across
-    // to the coast of Brazil, so the name has to say both.
-    name: 'Congo Basin and the South Atlantic',
-    short: 'Congo & S. Atlantic',
-    blurb: 'Vast, fast, murky rivers through central African rainforest, and the Atlantic from the Gulf of Guinea across to Brazil.',
+    name: 'Congo Basin',
+    blurb: 'Vast, fast, murky rivers running through central African rainforest.',
     lat: -2,
     lon: 22,
-    // The basin, the Gulf of Guinea it empties into, and the South Atlantic
-    // over to South America, where seeds just offshore keep the seam on the
-    // coast.
+    // The basin and the rest of West and central Africa's fresh water,
+    // stopping at the shore: the sea off it is the South Atlantic's. Coastal
+    // seeds sit a few degrees inland, each with a partner the same distance
+    // offshore in the South Atlantic, so the seam lands on the coastline.
     seeds: [
-      [22, -2], [18, 0], [26, -4], [12, -4], [6, 3], [0, 1], [10, -10],
-      [20, -8], [15, 5], [-15, -5], [-12, -20], [-25, -30], [-30, 2],
-      // Just off the coast of South America, partnering the Amazon's.
+      [22, -2], [18, 0], [26, -4], [20, -8], [15, 5], [24, 4], [10, 10],
+      [-14, 14.5], [-12, 11.5], [-10, 9.5], [-8, 7.5], [-4, 8.2], [0, 8.6],
+      [3, 9.4], [7, 7.3], [11.5, 4.5], [12.5, 1], [14, -2], [15, -5],
+      [16, -8.5], [16.5, -12], [15, -15.5], [15, -18], [17, -22], [18, -26],
+      [19.5, -29], [21, -32]
+    ],
+  },
+  {
+    id: 'south-atlantic',
+    name: 'South Atlantic',
+    short: 'S. Atlantic',
+    blurb: 'The open Atlantic between Africa and South America, from the Gulf of Guinea down to the Cape and Patagonia.',
+    lat: -15,
+    lon: -15,
+    // The ocean from the Gulf of Guinea south, between the two continents.
+    // Both coasts are traced by seeds just offshore, each partnering one
+    // inland in the Congo Basin or the Amazon, so the seams sit on the shore.
+    seeds: [
+      [-15, -15], [-15, -5], [-12, -25], [-25, -30], [-30, 2], [0, -15],
+      [-5, -32], [-20, -40], [5, -40], [-35, -40], [-20, 5],
+      // Off Africa.
+      [-20.5, 14.7], [-18, 11], [-15.5, 7], [-12, 4.5], [-8, 1.5],
+      [-4, 2.2], [0, 2.6], [3, 3.4], [6.5, 1.5], [6.5, -1], [8, -3.5],
+      [9, -6], [10, -9], [10.5, -12.5], [9, -16], [8.8, -18], [11, -22.5],
+      [12, -26.5], [13.5, -30], [15, -33], [15.5, -35.5],
+      // Off South America, partnering the Amazon's.
       [-55, 9], [-50, 5], [-46, 2], [-42, 0], [-38, -1], [-33, -4],
       [-32, -8], [-35, -13], [-36.5, -18], [-38, -22.5], [-42, -26],
       [-45.5, -28.5], [-49, -33], [-51.5, -36.5], [-54, -40], [-59, -43],
@@ -151,7 +172,10 @@ const REGIONS = [
     // Ocean out past Madagascar.
     seeds: [
       [34, -12], [33, -2], [29, -6], [35, -14], [40, -6], [45, -12],
-      [55, -15], [38, -20], [48, -25], [58, 10], [65, 2], [52, 18]
+      [55, -15], [38, -20], [48, -25], [58, 10], [65, 2], [52, 18],
+      // Off the south coast of Africa, so the Cape's Indian Ocean side is
+      // not left to the river basin inland.
+      [21, -38], [26, -37], [31, -34]
     ],
   },
   {
@@ -213,9 +237,9 @@ const REGIONS = [
   },
   {
     id: 'great-lakes',
-    name: 'Great Lakes',
-    article: false,
-    blurb: 'Freshwater inland seas carved out by the ice sheets, and the rivers of the North American interior.',
+    name: 'Great Lakes and inland North America',
+    short: 'Great Lakes & inland N. America',
+    blurb: 'Freshwater inland seas carved out by the ice sheets, and the lakes, rivers and ponds of the whole North American interior.',
     lat: 45,
     lon: -85,
     // The lakes and the middle of the continent — landlocked, with

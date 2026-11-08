@@ -1056,7 +1056,7 @@ const FISH = [
     region: 'mediterranean',
     fact: 'A lobster that traded its antennae for a pair of flat shovels, and uses them to lever itself under ledges and to work clams open. It has no claws and no spines worth the name, so when something does find it the only move left is a backwards flick of the tail.',
   },
-  // ---- Congo Basin and the South Atlantic ----
+  // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
     name: 'Goliath Tigerfish',
@@ -1155,22 +1155,6 @@ const FISH = [
     fact: 'A turtle with a leathery pancake for a shell and flaps of skin that fold down over its back legs when it pulls them in. It lies buried in mud with only a snorkel of a nose above it, breathing through its throat, which takes oxygen out of the water well enough that it need not surface for hours.',
   },
   {
-    id: 'west-african-fiddler-crab',
-    name: 'West African Fiddler Crab',
-    sciName: 'Afruca tangeri',
-    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/60318367/large.jpeg',
-    region: 'congo',
-    fact: 'The male carries one claw about as heavy as the rest of him and one so small it can barely feed him, and he spends the day waving the big one to be noticed. Lose it and the replacement grows back lighter and weaker but the same size — a bluff that works, because nobody can tell by looking.',
-  },
-  {
-    id: 'tripod-fish',
-    name: 'Tripod Fish',
-    sciName: 'Bathypterois grallator',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg/1280px-Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg',
-    region: 'congo',
-    fact: 'Stands on three stilts — two fin rays and the lower half of its tail, each longer than the fish itself — and faces into the current with its front fins held up like antennae, waiting to feel something drift into them. Its eyes are nearly useless, so it hardly needs them.',
-  },
-  {
     id: 'african-tigerfish',
     name: 'African Tigerfish',
     sciName: 'Hydrocynus vittatus',
@@ -1217,6 +1201,23 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Polypterus_delhezi_2.jpg/1280px-Polypterus_delhezi_2.jpg',
     region: 'congo',
     fact: 'Plated in scales set as hard as enamel, with a row of separate little sails down its back and thick fleshy fins it props itself on like legs. It gulps air into a pair of true lungs, and the bold black bars break its outline up among roots and litter.',
+  },
+  // ---- South Atlantic ----
+  {
+    id: 'west-african-fiddler-crab',
+    name: 'West African Fiddler Crab',
+    sciName: 'Afruca tangeri',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/60318367/large.jpeg',
+    region: 'south-atlantic',
+    fact: 'The male carries one claw about as heavy as the rest of him and one so small it can barely feed him, and he spends the day waving the big one to be noticed. Lose it and the replacement grows back lighter and weaker but the same size — a bluff that works, because nobody can tell by looking.',
+  },
+  {
+    id: 'tripod-fish',
+    name: 'Tripod Fish',
+    sciName: 'Bathypterois grallator',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg/1280px-Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg',
+    region: 'south-atlantic',
+    fact: 'Stands on three stilts — two fin rays and the lower half of its tail, each longer than the fish itself — and faces into the current with its front fins held up like antennae, waiting to feel something drift into them. Its eyes are nearly useless, so it hardly needs them.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -2107,7 +2108,7 @@ const FISH = [
     region: 'arctic',
     fact: 'Red and green at once, which is where the name comes from. It can move, slowly, on its base, and will cross a rock to pick a fight with a neighbour over space. It swallows whole urchins, spines included, and days later spits the cleaned shell back out.',
   },
-  // ---- Great Lakes ----
+  // ---- Great Lakes and inland North America ----
   {
     id: 'lake-sturgeon',
     name: 'Lake Sturgeon',
