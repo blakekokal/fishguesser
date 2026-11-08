@@ -68,6 +68,26 @@ const WorldMap = (() => {
     return { owners, cols, rows };
   }
 
+  /* Which sections touch, read off the same grid the map is drawn from, so
+   * "borders" always means what the player sees: two regions border when any
+   * cell of one sits next to a cell of the other, across the date line
+   * included. Used by 3 lives to say how near a miss was. */
+  function computeBorders({ owners, cols, rows }) {
+    const touching = new Map(REGIONS.map((r) => [r.id, new Set()]));
+    const link = (a, b) => {
+      if (a === b) return;
+      touching.get(a).add(b);
+      touching.get(b).add(a);
+    };
+    for (let j = 0; j < rows; j++) {
+      for (let i = 0; i < cols; i++) {
+        link(owners[j][i], owners[j][(i + 1) % cols]);
+        if (j + 1 < rows) link(owners[j][i], owners[j + 1][i]);
+      }
+    }
+    return touching;
+  }
+
   const cellX = (i) => (i * GRID_STEP * W) / 360;
   const cellY = (j) => (j * GRID_STEP * H) / 180;
 
@@ -215,6 +235,7 @@ const WorldMap = (() => {
   /* Regions taken off the board for the rest of a game (Zone elimination):
    * drawn grey, not clickable, not reachable by Tab. */
   let out = new Set();
+  let borders = new Map();
 
   function build(target, pickHandler) {
     svg = target;
@@ -246,6 +267,7 @@ const WorldMap = (() => {
 
     const partition = computePartition();
     const fills = fillPaths(partition);
+    borders = computeBorders(partition);
 
     zoneGroup = el('g', { class: 'zones' });
     svg.append(zoneGroup);
@@ -448,5 +470,8 @@ const WorldMap = (() => {
     }
   }
 
-  return { build, setSelected, setHover, setOut, reveal, unlock, project };
+  /** Whether two regions' sections share a border on the map. */
+  const bordering = (a, b) => Boolean(borders.get(a) && borders.get(a).has(b));
+
+  return { build, setSelected, setHover, setOut, reveal, unlock, project, bordering };
 })();

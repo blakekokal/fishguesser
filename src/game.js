@@ -29,7 +29,9 @@
    * not comparable and it keeps a best of its own. Five zones is the same
    * length as a classic game and shares that one. */
   const BEST_KEY = () => PROFILE.bestKey()
-    + (state.filter.game === 'elimination' ? ':elimination' : '');
+    + ({ elimination: ':elimination', lives: ':lives' }[state.filter.game] || '');
+  // 3 lives: misses allowed before the game is over.
+  const LIVES = 3;
   // Which fish have already come up in the current pass through the list.
   // Kept next to the best score so a refresh does not restart the cycle.
   const SEEN_KEY = () => PROFILE.seenKey();
@@ -58,6 +60,8 @@
       desc: 'Five rounds from five different regions — no region is the answer twice.' },
     { id: 'elimination', label: 'Zone elimination', short: 'Elimination',
       desc: 'One round per region. Each region greys out once its animal has come up.' },
+    { id: 'lives', label: '3 lives', short: '3 lives',
+      desc: 'Endless. A wrong region costs a life and you stay on that animal, told whether you were on the border or nowhere close. Lose all three and it is over.' },
   ];
   const GAME_BY_ID = Object.fromEntries(GAME_TYPES.map((g) => [g.id, g]));
 
@@ -93,6 +97,8 @@
     filterPoolRow: $('filterPoolRow'), filterKindRow: $('filterKindRow'),
     filterGameRow: $('filterGameRow'),
     startRounds: $('startRounds'), startPerfect: $('startPerfect'),
+    startFoot: $('startFoot'), roundLabel: $('roundLabel'),
+    startScoring: document.querySelectorAll('[data-scoring]'),
     startPerfectRounds: document.querySelectorAll('.start-perfect-n'),
     profileName: $('profileName'), profileSave: $('profileSaveBtn'),
     profileNote: $('profileNote'), backup: $('backupBtn'),
@@ -106,7 +112,10 @@
     phase: 'guess', nameRevealed: false, halfShown: false, factShown: false,
     hintsLeft: HINTS_PER_GAME,
     // Regions greyed out in Zone elimination: answered, or never in the deck.
+    // In 3 lives: the regions already guessed wrong for the animal on screen.
     out: new Set(),
+    // 3 lives: lives left, animals placed, and misses on the current animal.
+    lives: LIVES, found: 0, misses: 0,
     // Overwritten from storage before the first deal; these are the defaults.
     filter: { kind: 'all', pool: 'unseen', game: 'classic' },
   };
@@ -290,6 +299,7 @@
 
   /** A game's deck, by whichever kind of game is being played. */
   function deal() {
+    if (state.filter.game === 'lives') return dealFish(1);
     if (state.filter.game === 'spread') return dealByZone(ROUNDS);
     if (state.filter.game === 'elimination') return dealByZone(null);
     return dealFish(ROUNDS);
@@ -297,6 +307,7 @@
 
   /** How many rounds a game of the current kind would have, before dealing. */
   function roundsFor(game) {
+    if (game === 'lives') return Infinity;
     if (game !== 'elimination') return ROUNDS;
     return new Set(kindPool().map((f) => f.region)
       .filter((id) => !ELIMINATION_SKIP.has(id))).size;
@@ -428,8 +439,18 @@
     state.phase = 'guess';
     state.selected = null;
 
-    ui.round.textContent = `${state.index + 1} / ${rounds()}`;
-    ui.score.textContent = fmt(state.total);
+    if (lives()) {
+      // A fresh animal: every region is back in play and the misses reset.
+      state.out = new Set();
+      state.misses = 0;
+      renderLives();
+      ui.score.textContent = fmt(state.found);
+    } else {
+      ui.roundLabel.textContent = 'Round';
+      ui.round.removeAttribute('aria-label');
+      ui.round.textContent = `${state.index + 1} / ${rounds()}`;
+      ui.score.textContent = fmt(state.total);
+    }
 
     ui.photo.classList.remove('is-ready');
     ui.photo.classList.remove('is-broken');
@@ -454,6 +475,7 @@
     state.halfShown = false;
     updateHintButton();
     ui.promptText.textContent = 'Where in the world does it live?';
+    ui.promptText.classList.remove('is-near', 'is-far');
 
     /* Loaded now but kept hidden until the guess is in: photographer names and
      * institutions ("Auckland War Memorial Museum") can give the region away.
@@ -475,8 +497,83 @@
     if (!waiting()) markSeen(fish);
   }
 
+  const lives = () => state.filter.game === 'lives';
+
+  /** The Round tile becomes the lives left, as hearts, in 3 lives. */
+  function renderLives() {
+    ui.roundLabel.textContent = 'Lives';
+    ui.round.replaceChildren();
+    const hearts = document.createElement('span');
+    hearts.className = 'lives-hearts';
+    hearts.textContent = '\u2665'.repeat(state.lives) + '\u2661'.repeat(LIVES - state.lives);
+    ui.round.append(hearts);
+    ui.round.setAttribute('aria-label', `${state.lives} of ${LIVES} lives left`);
+  }
+
+  /* 3 lives. A wrong region costs a life, greys that region out for this
+   * animal, and says how near it was — "on the border" when the guessed
+   * region's section touches the right one on the map, "nowhere close" when
+   * it does not — and the player goes again on the same animal. The round
+   * ends when they find it, or on the last life. */
+  function submitLivesGuess() {
+    const fish = state.deck[state.index];
+    const guess = REGIONS_BY_ID[state.selected];
+    const answer = REGIONS_BY_ID[fish.region];
+    const correct = guess.id === answer.id;
+
+    if (!correct) {
+      state.lives -= 1;
+      state.misses += 1;
+      renderLives();
+      if (state.lives > 0) {
+        state.out.add(guess.id);
+        state.selected = null;
+        WorldMap.setSelected(null);
+        WorldMap.setOut(state.out);
+        ui.guessBtn.disabled = true;
+        const near = WorldMap.bordering(guess.id, answer.id);
+        const left = `${state.lives} ${state.lives === 1 ? 'life' : 'lives'} left`;
+        ui.promptText.textContent = near
+          ? `On the border — not ${withArticle(guess)}, but right next to it. ${left}.`
+          : `Nowhere close — it isn't anywhere near ${withArticle(guess)}. ${left}.`;
+        ui.promptText.classList.toggle('is-near', near);
+        ui.promptText.classList.toggle('is-far', !near);
+        ui.hint.textContent = 'Pick another region.';
+        return;
+      }
+    }
+
+    state.phase = 'result';
+    revealName();
+    ui.credit.hidden = !ui.credit.textContent;
+    ui.fact.hidden = true;
+    if (correct) state.found += 1;
+    state.results.push({ fish, guess, answer, correct, misses: state.misses });
+
+    WorldMap.reveal(guess.id, answer.id);
+    ui.score.textContent = fmt(state.found);
+    ui.result.className = 'result ' + (correct ? 'is-correct' : 'is-off');
+    const missNote = state.misses === 1 ? 'after 1 miss' : `after ${state.misses} misses`;
+    ui.verdict.textContent = correct
+      ? (state.misses ? `Found it, ${missNote}` : 'Correct')
+      : 'Out of lives';
+    ui.points.textContent = correct ? '+1' : '';
+    ui.resultLine.textContent = correct
+      ? `The ${fish.name} is from ${withArticle(answer)}.`
+      : `You said ${withArticle(guess)}. The ${fish.name} is from ${withArticle(answer)}.`;
+    ui.resultBonus.hidden = true;
+    ui.resultFact.textContent = fish.fact;
+    ui.nextBtn.textContent = state.lives > 0 ? 'Next one' : 'See final score';
+
+    ui.actionBar.hidden = true;
+    ui.result.hidden = false;
+    document.body.classList.add('is-result');
+    ui.nextBtn.focus();
+  }
+
   function submitGuess() {
     if (state.phase !== 'guess' || !state.selected) return;
+    if (lives()) return submitLivesGuess();
     state.phase = 'result';
 
     /* Read this before the free end-of-round reveal below, otherwise every
@@ -527,6 +624,19 @@
   }
 
   function nextRound() {
+    if (lives()) {
+      if (state.lives <= 0) return endGame();
+      /* Endless: the next animal is dealt only now, once the last one has been
+       * marked seen, so the pass never hands back the one just played. */
+      // "Seen only" and "Any" draw at random, so they could deal the animal
+      // just played straight back; a few redraws keep it from following itself.
+      const last = state.deck[state.index];
+      let next = dealFish(1);
+      for (let i = 0; i < 5 && next[0] && last && next[0].id === last.id; i++) next = dealFish(1);
+      state.deck.push(...next);
+      state.index += 1;
+      return renderRound();
+    }
     if (state.index + 1 >= rounds()) return endGame();
     state.index += 1;
     renderRound();
@@ -535,8 +645,49 @@
   const perfectScore = (n) => n * (MAX_POINTS + NO_PEEK_BONUS)
     + HINTS_PER_GAME * SAVED_HINT_BONUS;
 
+  /* 3 lives has no points: the score is how many animals were placed. */
+  function endLivesGame() {
+    const best = Math.max(readBest(), state.found);
+    if (best) writeBest(best);
+    ui.best.textContent = best ? fmt(best) : '—';
+    ui.resetBest.disabled = !best;
+    ui.finalScore.textContent = fmt(state.found);
+    ui.finalMax.textContent = state.found === 1 ? ' animal found' : ' animals found';
+    const firstTry = state.results.filter((r) => r.correct && !r.misses).length;
+    const grade =
+      state.found >= 40 ? 'Marine biologist behaviour.' :
+      state.found >= 20 ? 'Strong instincts for fish.' :
+      state.found >= 8 ? 'Not bad — the oceans are big.' :
+      'Plenty of sea left to learn.';
+    const placed = state.found === 0
+      ? 'None placed before the third miss.'
+      : `${fmt(firstTry)} of them first time.`;
+    ui.endBlurb.textContent = `${placed} ${grade}`;
+
+    ui.breakdown.replaceChildren();
+    for (const r of state.results) {
+      const li = document.createElement('li');
+      li.className = 'breakdown-row' + (r.correct && !r.misses ? ' is-correct' : '');
+      const name = document.createElement('span');
+      name.className = 'breakdown-fish';
+      name.textContent = r.fish.name;
+      const where = document.createElement('span');
+      where.className = 'breakdown-where';
+      where.textContent = r.answer.name
+        + (r.misses ? `  ·  ${r.misses} ${r.misses === 1 ? 'miss' : 'misses'}` : '');
+      const mark = document.createElement('span');
+      mark.className = 'breakdown-points';
+      mark.textContent = r.correct ? '\u2713' : '\u2717';
+      li.append(name, where, mark);
+      ui.breakdown.append(li);
+    }
+    ui.overlay.hidden = false;
+    ui.playAgain.focus();
+  }
+
   function endGame() {
     state.phase = 'over';
+    if (lives()) return endLivesGame();
 
     // Unspent hints cash out here, so saving all three is worth 1,500.
     const savedBonus = state.hintsLeft * SAVED_HINT_BONUS;
@@ -678,7 +829,7 @@
         const n = roundsFor(id);
         btn.classList.toggle('is-on', on);
         btn.setAttribute('aria-pressed', String(on));
-        btn.title = `${n} rounds`;
+        btn.title = n === Infinity ? 'Endless, until the third miss' : `${n} rounds`;
         btn.querySelector('.filter-n').textContent = fmt(n);
         continue;
       }
@@ -719,6 +870,22 @@
 
     /* The rules card says how long this game is and what a perfect one is. */
     const n = roundsFor(state.filter.game);
+    const livesMode = state.filter.game === 'lives';
+    ui.startScoring.forEach((el) => { el.hidden = livesMode; });
+    if (!startFootHtml) startFootHtml = ui.startFoot.innerHTML;
+    if (livesMode) {
+      ui.startFoot.textContent = 'Three lives. A wrong region costs one and you '
+        + 'stay on that animal until you place it, told whether you were on the '
+        + 'border of the right region or nowhere close. Your score is how many you '
+        + 'place before the third miss.';
+      ui.startRounds.textContent = 'One animal after another,';
+      return;
+    }
+    if (ui.startFoot.innerHTML !== startFootHtml) {
+      ui.startFoot.innerHTML = startFootHtml;
+      ui.startPerfect = $('startPerfect');
+      ui.startPerfectRounds = document.querySelectorAll('.start-perfect-n');
+    }
     ui.startRounds.textContent = {
       classic: 'Five rounds',
       spread: 'Five rounds, each from a different region,',
@@ -727,6 +894,8 @@
     ui.startPerfect.textContent = fmt(perfectScore(n));
     ui.startPerfectRounds.forEach((el) => { el.textContent = n === 5 ? 'five' : fmt(n); });
   }
+
+  let startFootHtml = null; // the perfect-score line, put back after 3 lives
 
   /* A game is five fish dealt at once, so a new pool means a new game rather
    * than a hand half from each. The panel says so before it is touched. */
@@ -900,6 +1069,9 @@
    * and from the filter changing — so every game goes under the cover. */
   function startGame() {
     state.deck = deal();
+    state.lives = LIVES;
+    state.found = 0;
+    state.misses = 0;
     /* In Zone elimination a region with nothing in this deck — one the mode
      * has no species in — is out before the first round. */
     const inDeck = new Set(state.deck.map((f) => f.region));

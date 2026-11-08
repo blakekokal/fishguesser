@@ -806,6 +806,11 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
 .result.is-close .verdict { color: var(--warn); }
 .result.is-off .verdict { color: var(--bad); }
 
+/* 3 lives: after a miss the prompt says how near it was, until the next guess. */
+#promptText.is-near { color: var(--warn); font-weight: 600; }
+#promptText.is-far { color: var(--bad); font-weight: 600; }
+.lives-hearts { color: var(--bad); letter-spacing: 0.08em; }
+
 .points { font-size: 19px; font-weight: 700; font-variant-numeric: tabular-nums; }
 
 .result-line { margin: 6px 0 0; font-size: 15px; }

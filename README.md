@@ -51,6 +51,14 @@ and its name; you decide which of sixteen regions of the world it comes from.
     (`ELIMINATION_SKIP` in `src/game.js`). Its games run three times as long, so it keeps its own
     best score, shown in the Best tile while it is selected; the backup code
     carries only the five-round best
+  - **3 lives** — endless, with three lives. A wrong region costs one and
+    goes grey for that animal, and you stay on the same animal until you place
+    it, told after each miss whether you were **on the border** (the region
+    you picked touches the right one on the map) or **nowhere close**. The
+    third miss ends the game. There are no points: the score is how many
+    animals you placed, and it keeps a best of its own. Which regions border
+    which is read off the map's own sections, so it always matches what is
+    drawn
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
 - **The name is fully censored** — it reads as dots until you reveal it, so the

@@ -110,7 +110,7 @@
   </div>
 
   <div class="stats">
-    <div class="stat"><span class="stat-label">Round</span><span class="stat-value" id="roundValue">1 / 5</span></div>
+    <div class="stat"><span class="stat-label" id="roundLabel">Round</span><span class="stat-value" id="roundValue">1 / 5</span></div>
     <div class="stat"><span class="stat-label">Score</span><span class="stat-value" id="scoreValue">0</span></div>
     <div class="stat"><span class="stat-label">Hints</span><span class="stat-value hint-dots" id="hintsValue"></span></div>
     <!-- The best score, next to the button that clears it. -->
@@ -173,8 +173,8 @@
             <span id="startFishCount">the collection</span>.</li>
         </ol>
 
-        <h3 class="start-h">Scoring</h3>
-        <ul class="start-rules">
+        <h3 class="start-h" data-scoring>Scoring</h3>
+        <ul class="start-rules" data-scoring>
           <li><span class="pts">5,000</span> for the right region. Get it wrong and
             you still score, but it falls away the further off you were — a
             neighbouring region is worth about 3,000, the far side of the planet
@@ -195,7 +195,7 @@
             Finish with both and that is <strong>1,000</strong> banked.</li>
         </ul>
 
-        <p class="start-foot">A perfect game is <strong id="startPerfect">28,500</strong>:
+        <p class="start-foot" id="startFoot">A perfect game is <strong id="startPerfect">28,500</strong>:
           <span class="start-perfect-n">five</span> regions dead right,
           <span class="start-perfect-n">five</span> clean guesses, both reveals
           unused.</p>
