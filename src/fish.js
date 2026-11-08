@@ -14,7 +14,7 @@
  * unfair round. */
 
 const FISH = [
-  // ---- North Pacific ----
+  // ---- North and East Pacific ----
   {
     id: 'sockeye-salmon',
     name: 'Sockeye Salmon',
@@ -1056,7 +1056,7 @@ const FISH = [
     region: 'mediterranean',
     fact: 'A lobster that traded its antennae for a pair of flat shovels, and uses them to lever itself under ledges and to work clams open. It has no claws and no spines worth the name, so when something does find it the only move left is a backwards flick of the tail.',
   },
-  // ---- Congo Basin ----
+  // ---- Congo Basin and the South Atlantic ----
   {
     id: 'goliath-tigerfish',
     name: 'Goliath Tigerfish',
@@ -1646,7 +1646,7 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Eats colonial sea squirts and keeps what it finds in them: their toxins go into its own skin, and the colours are there to say so. The orange tufts on its back are its gills, carried out in the open where anything could take a bite, which tells you how little it expects to be bothered.',
   },
-  // ---- Northern Australia ----
+  // ---- Australia ----
   {
     id: 'barramundi',
     name: 'Barramundi',

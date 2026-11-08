@@ -185,8 +185,13 @@ points each region carries in `src/regions.js`, tracing the water it actually
 occupies. The fifteen sections still tile the map completely, with no unclaimed
 water, but they come out the shape of the seas: the Great Lakes region is
 landlocked North America, the Pacific has the American west coast and the
-Atlantic the east, and the Southern Ocean is a band right round Antarctica
-rather than a wedge.
+Atlantic the east, the Amazon Basin stops at the shore of South America, and
+the Southern Ocean is a band right round Antarctica rather than a wedge. A
+coastline the seam has to follow closely is drawn with pairs of seeds — one a
+few degrees inland, its partner the same distance offshore — so the boundary
+falls between them, on the coast. Where a section takes in more than its
+first name says, the name says so too, on the map as well as in the
+description shown when it is picked.
 
 Scoring never reads the seeds. Distance is still centroid to centroid, so how a
 section is drawn and how far apart two regions are stay separate questions.

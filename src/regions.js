@@ -4,7 +4,7 @@
  * its label on the world map and for distance-based partial credit when you
  * guess wrong. `short` is an optional map-only label for names too long to sit
  * on the map comfortably; everything else shows the full `name`. `article:
- * false` marks a proper place name that reads "from Northern Australia" rather
+ * false` marks a proper place name that reads "from Australia" rather
  * than "from the ...".
  *
  * `seeds` is what the map's sections are drawn from: a handful of [lon, lat]
@@ -23,26 +23,33 @@
 const REGIONS = [
   {
     id: 'north-pacific',
-    name: 'North Pacific',
-    short: 'N. Pacific',
-    blurb: 'Cold, plankton-rich coasts from Kamchatka to British Columbia.',
+    // The section runs from the Bering Sea right down the American coast
+    // and out to the islands off it, so the name says east as well as north.
+    name: 'North and East Pacific',
+    short: 'N. & E. Pacific',
+    blurb: 'Cold kelp coasts from the Bering Sea to Baja, then the warm eastern Pacific down to the Galápagos.',
     lat: 54,
     lon: -152,
-    // Bering Sea down the American coast to Baja, and west to the
-    // Kurils; Japan's own water is the Sea of Japan's.
+    // Bering Sea down the American coast to Baja and on to Chile, and west
+    // to the Kurils; Japan's own water is the Sea of Japan's.
     seeds: [
       [-175, 58], [-160, 56], [-145, 55], [-135, 52], [-128, 46], [-124, 40],
       [-120, 33], [-115, 28], [-112, 18], [-100, 10], [-90, 6], [-92, -2],
       [-155, 42], [-175, 40],
       [-160, 25], [-140, 30],
-      [165, 45], [172, 52], [-180, 50]
+      [165, 45], [172, 52], [-180, 50],
+      // Just off the coast of South America, partnering the Amazon's.
+      [-82, 2], [-84, -2], [-85, -6], [-82, -10], [-79, -14], [-75, -18],
+      [-73.5, -22], [-74, -26], [-75, -30], [-75.5, -34], [-77, -38],
+      [-78, -42], [-79, -46], [-79, -50],
+      [-78, -54], [-81.5, 5], [-79, -7.5]
     ],
   },
   {
     id: 'caribbean',
     name: 'Caribbean Sea',
     short: 'Caribbean',
-    blurb: 'Warm, clear reef water around the Antilles and the Gulf.',
+    blurb: 'Warm, clear reef water around the Antilles, Florida and the Gulf of Mexico.',
     lat: 16,
     lon: -76,
     // The Caribbean proper plus the Gulf of Mexico, Florida and the
@@ -55,20 +62,33 @@ const REGIONS = [
   {
     id: 'amazon',
     name: 'Amazon Basin',
-    blurb: 'Tea-coloured freshwater rivers and flooded forest.',
+    blurb: 'Tea-coloured rivers and flooded forest, and the rest of the fresh water of South America.',
     lat: -4,
     lon: -62,
-    // The basin and the water it drains into, off north-east Brazil.
+    // The basin and the rest of the continent, stopping at the shore: the
+    // Atlantic off Brazil belongs to the South Atlantic section and the
+    // Pacific off Peru and Chile to the East Pacific. Each coastal seed here
+    // has a partner a few degrees offshore in that neighbour, so the seam
+    // between the two pairs lands on the coastline itself.
     seeds: [
-      [-62, -4], [-55, -2], [-70, -6], [-50, 0], [-45, -8], [-60, -12],
-      [-38, -8], [-33, -10], [-48, -18]
+      [-62, -4], [-55, -2], [-70, -6], [-66, 1], [-60, -12], [-52, -10],
+      [-64, -18], [-62, -26],
+      // Pacific side, a few degrees inland of the coast.
+      [-75, 2], [-77, -2], [-78, -6], [-75, -10], [-73, -14], [-68, -18],
+      [-67, -22], [-67.5, -26], [-68.5, -30], [-69, -34], [-70.5, -38],
+      [-71, -42], [-72, -46], [-72.5, -50],
+      // Atlantic side, the same.
+      [-59, 4], [-54, 2], [-51, -2], [-46, -4], [-41, -5.5], [-38.5, -7.5],
+      [-41, -12], [-42.5, -17], [-44, -21], [-48.5, -23.5], [-51, -27],
+      [-55, -30.5], [-58, -33], [-63, -35.5], [-67.5, -40], [-70.5, -45],
+      [-70.5, -48], [-72, -51.5]
     ],
   },
   {
     id: 'north-atlantic',
     name: 'North Atlantic',
     short: 'N. Atlantic',
-    blurb: 'Cold shelf seas off Iceland, Norway and the Grand Banks.',
+    blurb: 'Cold shelf seas from Cape Hatteras and the Grand Banks to Iceland, Norway and the North Sea.',
     lat: 62,
     lon: -20,
     // Iceland and the Norwegian shelf, the Grand Banks, and the
@@ -83,7 +103,7 @@ const REGIONS = [
     id: 'mediterranean',
     name: 'Mediterranean Sea',
     short: 'Mediterranean',
-    blurb: 'Warm, salty and almost tideless, ringed by three continents.',
+    blurb: 'Warm, salty and almost tideless, ringed by three continents, with the Black Sea beyond the Bosporus.',
     lat: 36,
     lon: 16,
     // The Mediterranean and the Black Sea.
@@ -94,14 +114,25 @@ const REGIONS = [
   },
   {
     id: 'congo',
-    name: 'Congo Basin',
-    blurb: 'Vast, fast, murky rivers running through central African rainforest.',
+    // The section is the river and the whole ocean it empties into, across
+    // to the coast of Brazil, so the name has to say both.
+    name: 'Congo Basin and the South Atlantic',
+    short: 'Congo & S. Atlantic',
+    blurb: 'Vast, fast, murky rivers through central African rainforest, and the Atlantic from the Gulf of Guinea across to Brazil.',
     lat: -2,
     lon: 22,
-    // The basin, and the Gulf of Guinea it empties into.
+    // The basin, the Gulf of Guinea it empties into, and the South Atlantic
+    // over to South America, where seeds just offshore keep the seam on the
+    // coast.
     seeds: [
       [22, -2], [18, 0], [26, -4], [12, -4], [6, 3], [0, 1], [10, -10],
-      [20, -8], [15, 5]
+      [20, -8], [15, 5], [-15, -5], [-12, -20], [-25, -30], [-30, 2],
+      // Just off the coast of South America, partnering the Amazon's.
+      [-55, 9], [-50, 5], [-46, 2], [-42, 0], [-38, -1], [-33, -4],
+      [-32, -8], [-35, -13], [-36.5, -18], [-38, -22.5], [-42, -26],
+      [-45.5, -28.5], [-49, -33], [-51.5, -36.5], [-54, -40], [-59, -43],
+      [-62.5, -47], [-64, -51],
+      [-58, 10.5], [-44.5, -26.5], [-58, -41], [-54, -37.5]
     ],
   },
   {
@@ -110,7 +141,7 @@ const REGIONS = [
     // Mozambique Channel and the Arabian Sea all fall inside it — so the name
     // has to say both, or a reef animal looks misfiled.
     name: 'East Africa and the Indian Ocean',
-    short: 'E. Africa',
+    short: 'E. Africa & Indian Ocean',
     // A proper place name, so it reads "from East Africa and ...".
     article: false,
     blurb: 'Malawi, Tanganyika and Victoria, plus the reefs and ocean off the coast.',
@@ -138,10 +169,12 @@ const REGIONS = [
   },
   {
     id: 'northern-australia',
-    name: 'Northern Australia',
-    // A proper place name, so it reads "from Northern Australia", not "the".
+    // The section is the whole continent and its shelf, south coast
+    // included, so the name is too.
+    name: 'Australia',
+    // A proper place name, so it reads "from Australia", not "the".
     article: false,
-    blurb: 'Mangrove estuaries and the Coral Sea along the tropical north.',
+    blurb: 'The whole continent and its shelf: mangroves and the Barrier Reef in the tropical north, kelp along the cool south.',
     lat: -14,
     lon: 133,
     // The continent and its shelf, including the Great Barrier
@@ -182,7 +215,7 @@ const REGIONS = [
     id: 'great-lakes',
     name: 'Great Lakes',
     article: false,
-    blurb: 'Freshwater inland seas of North America, carved out by the ice sheets.',
+    blurb: 'Freshwater inland seas carved out by the ice sheets, and the rivers of the North American interior.',
     lat: 45,
     lon: -85,
     // The lakes and the middle of the continent — landlocked, with
@@ -195,7 +228,7 @@ const REGIONS = [
   {
     id: 'sea-of-japan',
     name: 'Sea of Japan',
-    blurb: 'Cool, deep water between Japan and the Asian mainland.',
+    blurb: 'Both coasts of Japan, Korea, and the Yellow and East China seas.',
     lat: 38,
     lon: 135,
     // Japan on both sides, Korea, and the Yellow and East China seas.
@@ -220,7 +253,7 @@ const REGIONS = [
     id: 'new-zealand',
     name: 'New Zealand',
     article: false,
-    blurb: 'Isolated temperate islands in the South Pacific, far from anywhere.',
+    blurb: 'Isolated temperate islands, with the Tasman Sea and the open South Pacific around them.',
     lat: -42,
     lon: 174,
     // Both islands, the Tasman Sea and the South Pacific east of them.

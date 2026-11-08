@@ -140,11 +140,11 @@ const WorldMap = (() => {
   const LABEL_AT = {
     'southern-ocean': [-25, -63],
     amazon: [-62, -10],
-    congo: [14, 0],
+    congo: [6, -4],
     'rift-lakes': [41, -18],
     'coral-triangle': [131, 6],
     mekong: [98, 17],
-    'northern-australia': [134, -21],
+    'northern-australia': [134, -25],
     'new-zealand': [156, -44],
   };
 
@@ -152,10 +152,10 @@ const WorldMap = (() => {
    * the text stops running across a seam into the neighbour. */
   const STACKED = new Set([
     'congo',
+    'rift-lakes',
     'coral-triangle',
     'mekong',
     'new-zealand',
-    'northern-australia',
   ]);
 
   /** Puts a label at (x, y), carrying any stacked lines along with it. */
@@ -171,7 +171,10 @@ const WorldMap = (() => {
       label.textContent = text;
       return;
     }
-    const cut = text.lastIndexOf(' ');
+    /* A name joined with "&" breaks after it, so the two halves of the
+     * section ("E. Africa &" / "Indian Ocean") each stay on one line. */
+    const amp = text.indexOf('& ');
+    const cut = amp !== -1 ? amp + 1 : text.lastIndexOf(' ');
     const lines = cut === -1 ? [text] : [text.slice(0, cut), text.slice(cut + 1)];
     label.textContent = '';
     lines.forEach((line, i) => {
