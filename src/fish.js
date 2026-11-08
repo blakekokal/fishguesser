@@ -1154,6 +1154,14 @@ const FISH = [
     region: 'congo',
     fact: 'No fin at all along its back, and it swims either way — forwards or into reverse — by rippling the single long fin beneath it. It gulps air when the water turns bad, and it barks: a grunt made with the swim bladder that carries across a quiet room.',
   },
+  {
+    id: 'jewel-cichlid',
+    name: 'Jewel Cichlid',
+    sciName: 'Hemichromis lifalili',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cichlidae_-_Hemichromis_lifalili.JPG/1280px-Cichlidae_-_Hemichromis_lifalili.JPG',
+    region: 'congo',
+    fact: 'Drab brown for most of its life, and then it pairs off to spawn and both parents turn the colour of a hot coal, spangled all over in blue. They scrub a flat stone clean to lay on, then spend weeks herding the fry about and seeing off anything that comes near, whatever its size.',
+  },
   // ---- East Africa and the Indian Ocean ----
   {
     id: 'electric-yellow-cichlid',
@@ -1825,6 +1833,14 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Two metres of pale soft ribbon that smells out whatever has died on the bottom and arrives in numbers. It shoots a sticky proboscis at anything still moving, and wraps itself in acid slime sour enough that nothing cares to bite it.',
   },
+  {
+    id: 'antarctic-brittle-star',
+    name: 'Antarctic Brittle Star',
+    sciName: 'Ophionotus victoriae',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/457364989/large.jpg',
+    region: 'southern-ocean',
+    fact: 'Rows itself along the bottom on five thin arms, far quicker than a starfish manages, and sheds one without hesitation if something takes hold of it. It eats whatever turns up — plankton, carrion, other brittle stars — and broods its young inside its body until they are small adults.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -1930,6 +1946,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/323338900/large.jpeg',
     region: 'arctic',
     fact: 'Starts adult life male and turns female after a couple of seasons, so every big one in a swarm is a mother and every small one a father. They climb hundreds of metres at dusk to feed and sink again before it gets light.',
+  },
+  {
+    id: 'bushy-backed-nudibranch',
+    name: 'Bushy-backed Nudibranch',
+    sciName: 'Dendronotus frondosus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/595554171/large.jpg',
+    region: 'arctic',
+    fact: 'A sea slug wearing a forest: every frond along its back is a branching gill, and the pair at the front are its feelers. It grazes on hydroids and takes its colour from whichever it has been eating, so the same animal turns up white, orange or deep red.',
+  },
+  {
+    id: 'common-basket-star',
+    name: 'Common Basket Star',
+    sciName: 'Gorgonocephalus eucnemis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/732073963/large.jpg',
+    region: 'arctic',
+    fact: 'A brittle star whose five arms fork, and fork again, and keep forking until there are thousands of curling tips. By day it is a knotted ball jammed in a crevice; at night it climbs up into the current, opens the whole tangle into a net facing the flow, and combs plankton out of the water.',
   },
   // ---- Great Lakes ----
   {
@@ -2092,6 +2124,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/738715325/large.jpg',
     region: 'great-lakes',
     fact: 'Tastes with its whole body. Its skin carries more than a hundred thousand taste buds, so swimming through dark water is swimming through flavour, and the barbels round the mouth are only where they are packed thickest.',
+  },
+  {
+    id: 'iowa-darter',
+    name: 'Iowa Darter',
+    sciName: 'Etheostoma exile',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/631208728/large.jpg',
+    region: 'great-lakes',
+    fact: 'Has no swim bladder, so hovering is not an option: it rests on the bottom and gets about in short darts, which is where the family name comes from. For a few weeks each spring the male goes barred in rust and turquoise, then fades back to something you would never spot.',
   },
   // ---- Sea of Japan ----
   {

@@ -42,6 +42,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Squatina_squatina_120867948.jpg",
   },
+  "antarctic-brittle-star": {
+    author: "Ingvild Riska",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/255237771",
+  },
   "antarctic-cushion-star": {
     author: "Oleksii Vasyliuk",
     license: "CC BY 4.0",
@@ -366,6 +372,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/15241887",
   },
+  "bushy-backed-nudibranch": {
+    author: "Vsevolod Rudyi",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/328635570",
+  },
   "butterfish": {
     author: "Shaun Lee",
     license: "CC BY 4.0",
@@ -479,6 +491,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Balistoides_conspicillum_01.jpg",
+  },
+  "common-basket-star": {
+    author: "Rachel Crane",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/399042060",
   },
   "common-cuttlefish": {
     author: "Michael Bommerer",
@@ -888,6 +906,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/2306249",
   },
+  "iowa-darter": {
+    author: "Dean Hester",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/346287687",
+  },
   "irrawaddy-dolphin": {
     author: "Ian Dugdale",
     license: "CC BY 4.0",
@@ -941,6 +965,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://commons.wikimedia.org/wiki/File:Ditrema_temmincki_temmincki_Oarai.jpg",
+  },
+  "jewel-cichlid": {
+    author: "Hectonichus",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Cichlidae_-_Hemichromis_lifalili.JPG",
   },
   "john-dory": {
     author: "Olivier Dugornay (Ifremer)",
@@ -2250,4 +2280,9 @@ const PHOTO_ORDER = [
   "banded-coral-shrimp",
   "fire-eel",
   "pearl-gourami",
+  "jewel-cichlid",
+  "bushy-backed-nudibranch",
+  "common-basket-star",
+  "antarctic-brittle-star",
+  "iowa-darter",
 ];

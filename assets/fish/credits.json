@@ -2282,5 +2282,40 @@
     "author": "h080",
     "license": "CC BY-SA 2.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "jewel-cichlid": {
+    "commons_title": "File:Cichlidae - Hemichromis lifalili.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Cichlidae_-_Hemichromis_lifalili.JPG",
+    "author": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "bushy-backed-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595554171/large.jpg",
+    "source": "https://www.inaturalist.org/observations/328635570",
+    "author": "Vsevolod Rudyi",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "common-basket-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732073963/large.jpg",
+    "source": "https://www.inaturalist.org/observations/399042060",
+    "author": "Rachel Crane",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-brittle-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457364989/large.jpg",
+    "source": "https://www.inaturalist.org/observations/255237771",
+    "author": "Ingvild Riska",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "iowa-darter": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631208728/large.jpg",
+    "source": "https://www.inaturalist.org/observations/346287687",
+    "author": "Dean Hester",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
