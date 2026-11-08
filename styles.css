@@ -159,11 +159,11 @@ body {
   background: var(--panel);
 }
 
-/* The settings button and its panel. Everything that is not the round itself
-   lives in here: the pass counter, the filter, the save name, the photo check.
-   On the bar it is one button on the right rather than four tiles on a row of
-   their own, and the panel hangs below it. */
-.settings { position: relative; order: 3; }
+/* The three menus on the right of the bar — Mode, Filter, Settings. Each is a
+   button with a panel that hangs below it; everything that is not the round
+   itself lives in one of them rather than on a row of tiles of its own. */
+.menus { display: flex; align-items: center; gap: 8px; order: 3; }
+.settings { position: relative; }
 
 .settings-btn {
   display: inline-flex;
@@ -318,6 +318,14 @@ body {
 }
 
 .filter-opt.is-on .filter-n { color: var(--ink); opacity: 0.75; }
+
+/* The Mode panel lists its three games one under another, the round count
+   pushed to the right, with the chosen game described underneath. */
+.filter-col { flex-direction: column; align-items: stretch; min-width: 200px; }
+.filter-col .filter-opt { justify-content: space-between; border-radius: 10px; }
+.mode-desc { margin: 0 0 8px; color: var(--ink-dim); font-size: 12px; line-height: 1.4; max-width: 260px; }
+
+.set-hint { margin: -4px 0 12px; color: var(--ink-faint); font-size: 10.5px; line-height: 1.4; }
 
 .filter-note {
   margin: 0 0 12px;
@@ -1149,6 +1157,9 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
   .stat-reset { width: 14px; height: 14px; font-size: 11px; }
   .settings-btn { padding: 4px 9px; font-size: 11px; gap: 5px; }
   .settings-label { display: none; }
+  /* A flag's words would push the menus onto a second row here, so it goes to
+     a dot: something is off its default, and the open panel says what. */
+  .settings-flag { width: 7px; height: 7px; padding: 0; font-size: 0; }
   .settings-panel { padding: 9px 11px; max-height: calc(100svh - var(--topbar-h, 0px) - 16px); overflow-y: auto; }
   .filter-opt { padding: 4px 8px; font-size: 11px; }
   .filter-row { gap: 5px; margin-bottom: 9px; }
@@ -1340,8 +1351,13 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
   }
   .stat { min-width: 0; padding: 2px 6px; overflow: hidden; }
   .brand { flex: 1; min-width: 0; }
-  .settings { order: 0; }
-  .settings-btn { padding: 5px 10px; font-size: 12px; }
+  .menus { order: 0; gap: 5px; }
+  .settings-btn { padding: 5px 9px; font-size: 12px; gap: 5px; }
+  /* Three labelled buttons do not fit beside the brand on a phone held
+     upright, so they go to their marks, and a flag goes to a dot for the same
+     reason — the open panel says what is set. */
+  .settings-label { display: none; }
+  .settings-flag { width: 7px; height: 7px; padding: 0; font-size: 0; }
 
   /* Pinned to the viewport rather than hung off the button: edge to edge under
      the bar, and scrollable if the phone is short. */

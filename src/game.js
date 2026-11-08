@@ -52,9 +52,12 @@
    * and each region goes grey on the map once its animal has come up, so the
    * board narrows as the game goes on. */
   const GAME_TYPES = [
-    { id: 'classic', label: 'Classic', short: 'Classic' },
-    { id: 'spread', label: 'Five zones', short: 'Five zones' },
-    { id: 'elimination', label: 'Zone elimination', short: 'Elimination' },
+    { id: 'classic', label: 'Classic', short: 'Classic',
+      desc: 'Five rounds drawn at random from anywhere.' },
+    { id: 'spread', label: 'Five zones', short: 'Five zones',
+      desc: 'Five rounds from five different regions — no region is the answer twice.' },
+    { id: 'elimination', label: 'Zone elimination', short: 'Elimination',
+      desc: 'One round per region. Each region greys out once its animal has come up.' },
   ];
   const GAME_BY_ID = Object.fromEntries(GAME_TYPES.map((g) => [g.id, g]));
 
@@ -84,8 +87,9 @@
     seen: $('seenValue'),
     resetBest: $('resetBestBtn'), resetSeen: $('resetSeenBtn'),
     topName: $('topName'),
-    settingsBtn: $('settingsBtn'), settingsPanel: $('settingsPanel'),
-    settingsFlag: $('settingsFlag'),
+    modeBtn: $('modeBtn'), modeFlag: $('modeFlag'), modeDesc: $('modeDesc'),
+    filterBtn: $('filterBtn'), filterFlag: $('filterFlag'),
+    settingsBtn: $('settingsBtn'),
     filterPoolRow: $('filterPoolRow'), filterKindRow: $('filterKindRow'),
     filterGameRow: $('filterGameRow'),
     startRounds: $('startRounds'), startPerfect: $('startPerfect'),
@@ -665,7 +669,7 @@
       return mode === 'seen' ? seen : list.length - seen;
     };
 
-    for (const btn of ui.settingsPanel.querySelectorAll('.filter-opt')) {
+    for (const btn of document.querySelectorAll('.menus .filter-opt')) {
       const { group, id } = btn.dataset;
       const on = state.filter[group] === id;
       /* The game row counts rounds, not species: what changes between its
@@ -696,14 +700,19 @@
      * appears exactly when a game is dealt from less than the default: the mode
      * if one is on, otherwise the part of the pass. */
     const game = GAME_BY_ID[state.filter.game];
+    /* Each menu flags itself when it is off its default, so a closed panel is
+     * never the only place a narrowed game is written down. */
+    ui.modeFlag.hidden = state.filter.game === 'classic';
+    ui.modeFlag.textContent = game.short;
+    ui.modeBtn.title = `Mode: ${game.label}`;
+    ui.modeDesc.textContent = game.desc;
     const flags = [];
     if (state.filter.kind !== 'all') flags.push(kind.short);
-    else if (state.filter.pool !== 'unseen') flags.push(poolFilter.short);
-    if (state.filter.game !== 'classic') flags.push(game.short);
-    ui.settingsFlag.hidden = !flags.length;
-    ui.settingsFlag.textContent = flags.join(' · ');
-    ui.settingsBtn.title =
-      `${game.label}: dealing from ${kind.label.toLowerCase()}, ${poolFilter.label.toLowerCase()}`;
+    if (state.filter.pool !== 'unseen') flags.push(poolFilter.short);
+    ui.filterFlag.hidden = !flags.length;
+    ui.filterFlag.textContent = flags.join(' · ');
+    ui.filterBtn.title =
+      `Dealing from ${kind.label.toLowerCase()}, ${poolFilter.label.toLowerCase()}`;
     ui.startFishCount.textContent = state.filter.kind === 'all'
       ? `all ${fmt(pool.length)} species`
       : `the ${fmt(pool.length)} in ${kind.label.toLowerCase()}`;
@@ -732,18 +741,41 @@
     if (group === 'game') renderStored(); // elimination keeps its own best
   }
 
-  function openSettings() {
+  /* The three menus on the bar. Only one is open at a time: opening one puts
+   * the others away, as a click anywhere else does. */
+  const MENUS = [...document.querySelectorAll('.menus .menu')].map((root) => ({
+    root,
+    btn: root.querySelector('.settings-btn'),
+    panel: root.querySelector('.settings-panel'),
+  }));
+
+  function openMenu(menu) {
+    closeSettings();
     renderFilter(); // counts move as the pass does, so they are read on opening
-    ui.settingsPanel.hidden = false;
-    ui.settingsBtn.setAttribute('aria-expanded', 'true');
+    menu.panel.hidden = false;
+    menu.btn.setAttribute('aria-expanded', 'true');
+    /* A panel hangs right-aligned under its button, which is right when the
+     * menus sit at the right of the bar. If the bar ever wraps them onto a row
+     * of their own on the left, that would hang it off the edge of the
+     * screen, so it is nudged back inside. */
+    menu.panel.style.translate = '';
+    const r = menu.panel.getBoundingClientRect();
+    const edge = 8;
+    let dx = 0;
+    if (r.left < edge) dx = edge - r.left;
+    else if (r.right > window.innerWidth - edge) dx = window.innerWidth - edge - r.right;
+    if (dx) menu.panel.style.translate = `${dx}px 0`;
   }
 
   function closeSettings() {
-    ui.settingsPanel.hidden = true;
-    ui.settingsBtn.setAttribute('aria-expanded', 'false');
+    for (const m of MENUS) {
+      m.panel.hidden = true;
+      m.btn.setAttribute('aria-expanded', 'false');
+    }
   }
 
-  const settingsOpen = () => !ui.settingsPanel.hidden;
+  const openMenuOf = () => MENUS.find((m) => !m.panel.hidden);
+  const settingsOpen = () => Boolean(openMenuOf());
 
   /* The two stored numbers, redrawn from whichever save is active: switching
    * name or pasting a code changes both without touching the game on screen. */
@@ -910,8 +942,10 @@
   ui.topName.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') { e.preventDefault(); ui.topName.blur(); }
   });
-  ui.settingsBtn.addEventListener('click',
-    () => (settingsOpen() ? closeSettings() : openSettings()));
+  for (const m of MENUS) {
+    m.btn.addEventListener('click',
+      () => (m.panel.hidden ? openMenu(m) : closeSettings()));
+  }
   /* A click anywhere else puts the panel away, which is what a popover is
    * expected to do; the button's own click is left to the toggle above. */
   document.addEventListener('click', (e) => {
@@ -925,8 +959,9 @@
   ui.resetSeen.addEventListener('click', resetSeen);
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && settingsOpen()) {
+      const open = openMenuOf();
       closeSettings();
-      ui.settingsBtn.focus();
+      open.btn.focus();
       return;
     }
     if (e.key !== 'Enter') return;
@@ -943,7 +978,7 @@
       // request to start playing.
       if (e.target === ui.profileName || e.target === ui.backupCode) return;
       if (e.target === ui.topName) return;
-      if (e.target === ui.settingsBtn) return;
+      if (MENUS.some((m) => e.target === m.btn)) return;
       if (e.target === ui.profileSave || e.target === ui.backup || e.target === ui.restore) return;
       beginPlay();
       return;

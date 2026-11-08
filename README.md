@@ -20,11 +20,14 @@ and its name; you decide which of sixteen regions of the world it comes from.
 - **5 rounds per game**, dealt so that every species comes up once before any
   of them comes up twice — a full pass takes 69 games, and it survives a
   refresh
-- **A top bar of four tiles** — round, score, hints and best. Everything else —
-  the pass counter, the filter, the save name, the photo check — is behind one
-  **Settings** button on the right, which on a phone is a whole row of the bar
-  given back to the photograph
-- **A filter under Settings** — deal from the whole collection or narrow it:
+- **A top bar of four tiles** — round, score, hints and best — and three menus
+  on the right: **Mode**, **Filter** and **Settings**. Mode and Filter each
+  carry a flag naming what is set whenever it is off its default (a dot on a
+  phone, where the words would not fit), so a narrowed game is never hidden
+  behind a closed panel. On a phone the three shrink to their marks and ride
+  up on the brand's line, which is a whole row of the bar given back to the
+  photograph
+- **Filter** — deal from the whole collection or narrow it:
   **fish mode**, **sea life** (everything that is not a fish), **weird mode**
   (a hand-picked set of the strangest-looking ones), **last 100 added**,
   **freshwater**, **saltwater**, **crab mode**, **shark/whale mode**, crossed
@@ -32,8 +35,8 @@ and its name; you decide which of sixteen regions of the world it comes from.
   has always dealt), **seen only** or **any**.
   Each option carries the number of species behind it, and a narrowed mode never
   spends the pass of the species it does not deal
-- **Three kinds of game**, the third row under Settings, each crossed with
-  whatever the filter deals from:
+- **Mode** — three kinds of game, each crossed with whatever the filter deals
+  from, the number beside each being how many rounds it is:
   - **Classic** — five rounds drawn at random, the default and how the game
     has always played
   - **Five zones** — five rounds from five different regions, so no region is
@@ -120,7 +123,7 @@ Sections are keyboard reachable too: `Tab` moves between them and `Enter`
 picks one. `Enter` also locks in a guess and advances to the next fish.
 Your best score and your place in the fish cycle are both kept in
 `localStorage`, under `fishguesser.best` and `fishguesser.seen`. Best is a tile
-in the top bar and the pass counter is the first line under **Settings**, each
+in the top bar and the pass counter is under **Settings**, each
 with a small `↺` beside it that clears that one on its own. The cycle counts a fish when it reaches the screen rather than when the
 hand is dealt, so reloading the page, or walking away mid-game, does not spend
 fish you never saw. That is this browser only — there is no account and no
@@ -136,7 +139,7 @@ There is no server behind the game, so the rules card's **Your save** block
 offers the two things a static page honestly can:
 
 - **A name**, typed either under **Settings** (reachable mid-game, and from the
-  rules card) or here, which labels a save slot in this browser (`fishguesser.best:<name>`
+  rules card, alongside the pass counter and the photo check) or here, which labels a save slot in this browser (`fishguesser.best:<name>`
   and `fishguesser.seen:<name>`) so two people can share a browser without
   spending each other's pass. Naming a save for the first time carries the
   progress already there with it; a second name starts empty. No password —

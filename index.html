@@ -23,61 +23,89 @@
     <span class="version" id="version"></span>
   </div>
 
-  <!-- Everything that is not the round itself: the pass counter, what a game is
-       dealt from, the save name and the photo check. They were a second row of
-       tiles, which on a phone is height the photograph wants. The flag on the
-       button says when a game is being dealt from less than everything, so a
-       narrowed mode is never a surprise behind a closed panel. -->
-  <div class="settings">
-    <button class="settings-btn" id="settingsBtn" type="button"
-            aria-expanded="false" aria-controls="settingsPanel" aria-haspopup="true"
-            title="Filter, save name and the photo check">
-      <span class="settings-mark" aria-hidden="true">⚙</span>
-      <span class="settings-label">Settings</span>
-      <span class="settings-flag" id="settingsFlag" hidden></span>
-    </button>
-
-    <div class="settings-panel" id="settingsPanel" hidden>
-      <!-- How far this pass has got, next to the button that restarts it, so
-           the reset is never ambiguous. -->
-      <div class="set-row">
-        <p class="filter-head" id="seenHead">Seen this pass</p>
-        <span class="stat-line">
-          <span class="set-value" id="seenValue">—</span>
-          <button class="stat-reset" id="resetSeenBtn" type="button"
-                  title="Start a fresh pass through the collection"
-                  aria-label="Start a fresh pass through the collection">↺</button>
-        </span>
+  <!-- Everything that is not the round itself, as three menus on the right of
+       the bar: Mode (how a game's rounds are spread over the map), Filter (what
+       a game is dealt from) and Settings (the save name, the pass counter and
+       the photo check). A flag on Mode and on Filter says when either is off its
+       default, so a narrowed game is never a surprise behind a closed panel. -->
+  <div class="menus">
+    <div class="settings menu" data-menu="mode">
+      <button class="settings-btn" id="modeBtn" type="button"
+              aria-expanded="false" aria-controls="modePanel" aria-haspopup="true"
+              title="Classic, Five zones or Zone elimination">
+        <span class="settings-mark" aria-hidden="true">◎</span>
+        <span class="settings-label">Mode</span>
+        <span class="settings-flag" id="modeFlag" hidden></span>
+      </button>
+      <div class="settings-panel" id="modePanel" hidden>
+        <!-- Built from GAME_TYPES in game.js; the number on each option is how
+             many rounds that game is. -->
+        <p class="filter-head" id="filterGameHead">Mode</p>
+        <div class="filter-row filter-col" id="filterGameRow" role="group"
+             aria-labelledby="filterGameHead"></div>
+        <p class="mode-desc" id="modeDesc"></p>
+        <p class="filter-note">Changing it deals a new game.</p>
       </div>
+    </div>
 
-      <!-- Both rows default to how the game has always played — everything,
-           unseen first — so leaving them alone changes nothing. The options are
-           built in game.js from KIND_FILTERS and POOL_FILTERS, so the labels
-           live in one place. -->
-      <p class="filter-head" id="filterPoolHead">Which species</p>
-      <div class="filter-row" id="filterPoolRow" role="group"
-           aria-labelledby="filterPoolHead"></div>
-      <p class="filter-head" id="filterKindHead">Mode</p>
-      <div class="filter-row" id="filterKindRow" role="group"
-           aria-labelledby="filterKindHead"></div>
-      <!-- How the rounds are spread over the map; the number on each is how
-           many rounds that game is. Built from GAME_TYPES in game.js. -->
-      <p class="filter-head" id="filterGameHead">Game</p>
-      <div class="filter-row" id="filterGameRow" role="group"
-           aria-labelledby="filterGameHead"></div>
-      <p class="filter-note">Changing any of these deals a new game.</p>
+    <div class="settings menu" data-menu="filter">
+      <button class="settings-btn" id="filterBtn" type="button"
+              aria-expanded="false" aria-controls="filterPanel" aria-haspopup="true"
+              title="Which species a game is dealt from">
+        <span class="settings-mark" aria-hidden="true">☰</span>
+        <span class="settings-label">Filter</span>
+        <span class="settings-flag" id="filterFlag" hidden></span>
+      </button>
+      <div class="settings-panel" id="filterPanel" hidden>
+        <!-- Both rows default to how the game has always played — everything,
+             unseen first — so leaving them alone changes nothing. The options
+             are built in game.js from KIND_FILTERS and POOL_FILTERS, so the
+             labels live in one place. The number on each is how many species
+             it would deal from. -->
+        <p class="filter-head" id="filterKindHead">Animals</p>
+        <div class="filter-row" id="filterKindRow" role="group"
+             aria-labelledby="filterKindHead"></div>
+        <p class="filter-head" id="filterPoolHead">Seen or unseen</p>
+        <div class="filter-row" id="filterPoolRow" role="group"
+             aria-labelledby="filterPoolHead"></div>
+        <p class="filter-note">Changing either one deals a new game.</p>
+      </div>
+    </div>
 
-      <!-- The name decides where progress is written, so it belongs with the
-           counter above rather than with the round. -->
-      <p class="filter-head" id="saveHead">Save</p>
-      <input class="set-input" id="topName" type="text" maxlength="24"
-             autocomplete="off" spellcheck="false" placeholder="Add a name"
-             aria-labelledby="saveHead">
+    <div class="settings menu" data-menu="settings">
+      <button class="settings-btn" id="settingsBtn" type="button"
+              aria-expanded="false" aria-controls="settingsPanel" aria-haspopup="true"
+              title="Save name, progress and the photo check">
+        <span class="settings-mark" aria-hidden="true">⚙</span>
+        <span class="settings-label">Settings</span>
+      </button>
+      <div class="settings-panel" id="settingsPanel" hidden>
+        <!-- The name decides where progress is written, so it comes first,
+             with the pass it is saving right under it. -->
+        <p class="filter-head" id="saveHead">Save name</p>
+        <input class="set-input" id="topName" type="text" maxlength="24"
+               autocomplete="off" spellcheck="false" placeholder="Add a name"
+               aria-labelledby="saveHead">
+        <p class="set-hint">Progress and your best score are kept in this browser
+          under this name. A backup code is on the rules card.</p>
 
-      <a class="set-link" href="photos.html" target="_blank" rel="noopener"
-         title="Every photograph, one at a time, with the answers hidden">
-        Photo check — every picture, answers hidden ↗
-      </a>
+        <!-- How far this pass has got, next to the button that restarts it, so
+             the reset is never ambiguous. -->
+        <div class="set-row">
+          <p class="filter-head" id="seenHead">Seen this pass</p>
+          <span class="stat-line">
+            <span class="set-value" id="seenValue">—</span>
+            <button class="stat-reset" id="resetSeenBtn" type="button"
+                    title="Start a fresh pass through the collection"
+                    aria-label="Start a fresh pass through the collection">↺</button>
+          </span>
+        </div>
+
+        <a class="set-link" href="photos.html" target="_blank" rel="noopener"
+           title="Every photograph, one at a time, with the answers hidden">
+          Photo check — every picture, answers hidden ↗
+        </a>
+      </div>
     </div>
   </div>
 
