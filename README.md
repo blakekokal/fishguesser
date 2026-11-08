@@ -20,8 +20,10 @@ and its name; you decide which of sixteen regions of the world it comes from.
 - **5 rounds per game**, dealt so that every species comes up once before any
   of them comes up twice — a full pass takes 69 games, and it survives a
   refresh
-- **A top bar of four tiles** — round, score, hints and best — and three menus
-  on the right: **Mode**, **Filter** and **Settings**. Mode and Filter each
+- **A top bar** — the brand on the left, four tiles in the middle (round,
+  score, hints and best) and three menus on the right: **Mode**, **Filter** and
+  **Settings**. Where one row cannot hold all three, the tiles drop to a
+  centred row of their own beneath. Mode and Filter each
   carry a flag naming what is set whenever it is off its default (a dot on a
   phone, where the words would not fit), so a narrowed game is never hidden
   behind a closed panel. On a phone the three shrink to their marks and ride

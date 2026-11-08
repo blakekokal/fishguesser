@@ -85,6 +85,14 @@ body {
 }
 
 .brand { display: flex; align-items: center; gap: 10px; }
+
+/* Three columns on a wide bar: the brand on the left, the score tiles in the
+   middle, the menus on the right. The two outer columns share the space
+   either side equally, which is what centres the tiles; neither shrinks below
+   its own content, so a narrower bar simply lets the tiles drift off centre. */
+.brand { flex: 1 1 0; }
+.menus { flex: 1 1 0; justify-content: flex-end; }
+
 .brand-mark { font-size: 26px; line-height: 1; }
 .brand-name {
   font-size: 20px;
@@ -143,10 +151,9 @@ body {
 }
 
 /* Wraps rather than pushing the row wide: five tiles no longer fit on a narrow
- * phone, and the page must never scroll sideways. */
-/* Pushed right so the tiles sit beside the settings button rather than being
-   spread into the middle of the bar by space-between. */
-.stats { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; margin-left: auto; }
+ * phone, and the page must never scroll sideways. Between the brand and the
+ * menus, so in the middle of the bar. */
+.stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; order: 2; }
 
 .stat {
   display: flex;
@@ -1085,6 +1092,23 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
 
 /* Portrait only: sideways, a narrow window has the width for two columns and
    not the height for two rows, so it keeps the one-screen layout below. */
+/* Brand, tiles and menus only fit one row from about 1250px. Below that the
+   species count (it is on the rules card too) and the build date step aside
+   first, which keeps the three on one line down to a small laptop. */
+@media (max-width: 1280px) {
+  .species-count, .version-date { display: none; }
+}
+
+/* Narrower still — a tablet, a small laptop window — and one row cannot hold
+   all three, so the bar becomes two on purpose: the brand with the menus at
+   the right, and the score tiles centred on a row of their own beneath, the
+   same arrangement a phone held upright gets. */
+@media (min-width: 561px) and (max-width: 1060px) and (orientation: portrait),
+       (min-width: 1001px) and (max-width: 1060px),
+       (orientation: landscape) and (min-width: 561px) and (max-width: 1000px) and (min-height: 561px) {
+  .stats { order: 4; flex-basis: 100%; }
+}
+
 @media (max-width: 1000px) and (orientation: portrait) {
   /* Stacked, so the page is taller than the window again. It scrolls here
      rather than fitting one screen, and the photo takes a shape of its own
