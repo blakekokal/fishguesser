@@ -58,6 +58,13 @@
   ];
   const GAME_BY_ID = Object.fromEntries(GAME_TYPES.map((g) => [g.id, g]));
 
+  /* Regions Zone elimination leaves out, grey from the first round. A region
+   * with only a couple of species would repeat one of them every game from
+   * the third on, since elimination has to deal from every region it plays;
+   * so a region sits here until it has enough species to carry a round.
+   * Classic and Five zones still deal from it. */
+  const ELIMINATION_SKIP = new Set(['south-atlantic']);
+
   const $ = (id) => document.getElementById(id);
   const ui = {
     round: $('roundValue'), score: $('scoreValue'), best: $('bestValue'),
@@ -253,6 +260,7 @@
 
     const byZone = new Map();
     for (const f of pool) {
+      if (count == null && ELIMINATION_SKIP.has(f.region)) continue;
       if (!byZone.has(f.region)) byZone.set(f.region, []);
       byZone.get(f.region).push(f);
     }
@@ -286,7 +294,8 @@
   /** How many rounds a game of the current kind would have, before dealing. */
   function roundsFor(game) {
     if (game !== 'elimination') return ROUNDS;
-    return new Set(kindPool().map((f) => f.region)).size;
+    return new Set(kindPool().map((f) => f.region)
+      .filter((id) => !ELIMINATION_SKIP.has(id))).size;
   }
 
   const rounds = () => state.deck.length;

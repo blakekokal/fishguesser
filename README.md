@@ -38,10 +38,12 @@ and its name; you decide which of sixteen regions of the world it comes from.
     has always played
   - **Five zones** — five rounds from five different regions, so no region is
     the answer twice in one game
-  - **Zone elimination** — one round from every region, sixteen in all, and
+  - **Zone elimination** — one round from every region, fifteen in all, and
     each region goes grey on the map, out of play, once its animal has come up.
     A narrowed mode plays only the regions it has a species in, with the rest
-    grey from the start. Its games run three times as long, so it keeps its own
+    grey from the start. The South Atlantic is grey from the start too, and
+    sits out until it has enough species to carry a round every game
+    (`ELIMINATION_SKIP` in `src/game.js`). Its games run three times as long, so it keeps its own
     best score, shown in the Best tile while it is selected; the backup code
     carries only the five-round best
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
