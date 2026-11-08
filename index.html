@@ -60,7 +60,12 @@
       <p class="filter-head" id="filterKindHead">Mode</p>
       <div class="filter-row" id="filterKindRow" role="group"
            aria-labelledby="filterKindHead"></div>
-      <p class="filter-note">Changing either one deals a new game.</p>
+      <!-- How the rounds are spread over the map; the number on each is how
+           many rounds that game is. Built from GAME_TYPES in game.js. -->
+      <p class="filter-head" id="filterGameHead">Game</p>
+      <div class="filter-row" id="filterGameRow" role="group"
+           aria-labelledby="filterGameHead"></div>
+      <p class="filter-note">Changing any of these deals a new game.</p>
 
       <!-- The name decides where progress is written, so it belongs with the
            counter above rather than with the round. -->
@@ -136,7 +141,7 @@
             out — the photo is the clue.</li>
           <li><strong>Pick a region</strong> on the map, then
             <strong>Lock in guess</strong>.</li>
-          <li><strong>Five rounds</strong>, drawn at random from
+          <li><strong id="startRounds">Five rounds</strong> drawn at random from
             <span id="startFishCount">the collection</span>.</li>
         </ol>
 
@@ -162,8 +167,10 @@
             Finish with both and that is <strong>1,000</strong> banked.</li>
         </ul>
 
-        <p class="start-foot">A perfect game is <strong>28,500</strong>: five
-          regions dead right, five clean guesses, both reveals unused.</p>
+        <p class="start-foot">A perfect game is <strong id="startPerfect">28,500</strong>:
+          <span class="start-perfect-n">five</span> regions dead right,
+          <span class="start-perfect-n">five</span> clean guesses, both reveals
+          unused.</p>
 
         <!-- No server sits behind this game, so a name is a label on a save in
              this browser, not an account. The backup code is the part that leaves

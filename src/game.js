@@ -1,11 +1,15 @@
 /* Fishguesser — game loop.
  *
- * Five rounds drawn at random from the fish list. Each round shows one fish and
+ * Five rounds drawn at random from the fish list — or, in the two zone games,
+ * five from five different regions, or one from every region with each region
+ * greyed out on the map once its animal has come up. Each round shows one fish and
  * you pick the region it comes from: an exact hit is worth MAX_POINTS, and a
  * miss earns partial credit that decays with the distance between the region
  * you picked and the right one. */
 
 (() => {
+  // A classic game, and a Five zones game. Zone elimination plays one round
+  // per region instead, so the length of a game is read off its deck.
   const ROUNDS = 5;
   const MAX_POINTS = 5000;
   // Full reveals are a budget for the whole game, not per fish, so using one
@@ -21,7 +25,11 @@
   const DECAY_KM = 3000;
   // Both live in localStorage, under keys that depend on which save is
   // active — see profile.js, which owns the naming and the backup codes.
-  const BEST_KEY = () => PROFILE.bestKey();
+  /* Zone elimination is sixteen rounds to the others' five, so its scores are
+   * not comparable and it keeps a best of its own. Five zones is the same
+   * length as a classic game and shares that one. */
+  const BEST_KEY = () => PROFILE.bestKey()
+    + (state.filter.game === 'elimination' ? ':elimination' : '');
   // Which fish have already come up in the current pass through the list.
   // Kept next to the best score so a refresh does not restart the cycle.
   const SEEN_KEY = () => PROFILE.seenKey();
@@ -36,6 +44,19 @@
     { id: 'seen', label: 'Seen only', short: 'Seen' },
     { id: 'any', label: 'Any', short: 'Any' },
   ];
+
+  /* How a game's rounds are spread over the map. `classic` is how the game has
+   * always dealt and stays the default. `spread` deals five fish from five
+   * different regions, so no region is the answer twice in one game.
+   * `elimination` deals one fish from every region the mode has a species in,
+   * and each region goes grey on the map once its animal has come up, so the
+   * board narrows as the game goes on. */
+  const GAME_TYPES = [
+    { id: 'classic', label: 'Classic', short: 'Classic' },
+    { id: 'spread', label: 'Five zones', short: 'Five zones' },
+    { id: 'elimination', label: 'Zone elimination', short: 'Elimination' },
+  ];
+  const GAME_BY_ID = Object.fromEntries(GAME_TYPES.map((g) => [g.id, g]));
 
   const $ = (id) => document.getElementById(id);
   const ui = {
@@ -59,6 +80,9 @@
     settingsBtn: $('settingsBtn'), settingsPanel: $('settingsPanel'),
     settingsFlag: $('settingsFlag'),
     filterPoolRow: $('filterPoolRow'), filterKindRow: $('filterKindRow'),
+    filterGameRow: $('filterGameRow'),
+    startRounds: $('startRounds'), startPerfect: $('startPerfect'),
+    startPerfectRounds: document.querySelectorAll('.start-perfect-n'),
     profileName: $('profileName'), profileSave: $('profileSaveBtn'),
     profileNote: $('profileNote'), backup: $('backupBtn'),
     restore: $('restoreBtn'), backupCode: $('backupCode'),
@@ -70,8 +94,10 @@
     deck: [], index: 0, total: 0, selected: null, results: [],
     phase: 'guess', nameRevealed: false, halfShown: false, factShown: false,
     hintsLeft: HINTS_PER_GAME,
+    // Regions greyed out in Zone elimination: answered, or never in the deck.
+    out: new Set(),
     // Overwritten from storage before the first deal; these are the defaults.
-    filter: { kind: 'all', pool: 'unseen' },
+    filter: { kind: 'all', pool: 'unseen', game: 'classic' },
   };
 
   const fmt = (n) => n.toLocaleString('en-US');
@@ -133,9 +159,10 @@
       const kind = KIND_BY_ID[raw && raw.kind] ? raw.kind : 'all';
       const pool = POOL_FILTERS.some((p) => p.id === (raw && raw.pool))
         ? raw.pool : 'unseen';
-      return { kind, pool };
+      const game = GAME_BY_ID[raw && raw.game] ? raw.game : 'classic';
+      return { kind, pool, game };
     } catch {
-      return { kind: 'all', pool: 'unseen' };
+      return { kind: 'all', pool: 'unseen', game: 'classic' };
     }
   }
 
@@ -201,6 +228,68 @@
     }
     return take(tail.concat(head), count);
   }
+
+  /* The two zone games deal by region rather than from one heap: a fish is
+   * drawn from each chosen region, preferring what the pool setting prefers
+   * (the unseen ones, by default), and falling back to anything from that
+   * region rather than skipping it. Regions that still have a preferred fish
+   * are chosen first, so the pass keeps moving.
+   *
+   * `count` is how many regions to draw from; null means every region the
+   * mode has a species in, which is Zone elimination. A narrow mode with fewer
+   * regions than rounds — a handful of crabs, say — tops up from the rest of
+   * the pool, since a game is always the full five. */
+  function dealByZone(count) {
+    const pool = kindPool();
+    const seenSet = new Set(readSeen());
+    const mode = state.filter.pool;
+
+    // A spent pass turns over here just as it does in a classic deal.
+    if (mode === 'unseen' && state.filter.kind === 'all'
+        && pool.every((f) => seenSet.has(f.id))) {
+      writeSeen([]);
+      seenSet.clear();
+    }
+
+    const byZone = new Map();
+    for (const f of pool) {
+      if (!byZone.has(f.region)) byZone.set(f.region, []);
+      byZone.get(f.region).push(f);
+    }
+    const prefer = (list) => {
+      if (mode === 'any') return list;
+      if (mode === 'seen') return list.filter((f) => seenSet.has(f.id));
+      return list.filter((f) => !seenSet.has(f.id));
+    };
+    const zones = shuffle([...byZone.entries()])
+      .map(([id, all]) => ({ id, all, best: prefer(all) }));
+    // Stable, so regions stay shuffled among themselves on either side.
+    zones.sort((a, b) => Number(b.best.length > 0) - Number(a.best.length > 0));
+
+    const chosen = count == null ? zones : zones.slice(0, count);
+    const hand = chosen.map((z) => shuffle(z.best.length ? z.best : z.all)[0]);
+    if (count != null && hand.length < count) {
+      const dealt = new Set(hand.map((f) => f.id));
+      const rest = pool.filter((f) => !dealt.has(f.id));
+      hand.push(...take(rest.length ? rest : pool, count - hand.length));
+    }
+    return shuffle(hand);
+  }
+
+  /** A game's deck, by whichever kind of game is being played. */
+  function deal() {
+    if (state.filter.game === 'spread') return dealByZone(ROUNDS);
+    if (state.filter.game === 'elimination') return dealByZone(null);
+    return dealFish(ROUNDS);
+  }
+
+  /** How many rounds a game of the current kind would have, before dealing. */
+  function roundsFor(game) {
+    if (game !== 'elimination') return ROUNDS;
+    return new Set(kindPool().map((f) => f.region)).size;
+  }
+
+  const rounds = () => state.deck.length;
 
   /* One fish has reached the player, so the pass moves on by one. Called when a
    * fish becomes visible rather than when it is dealt, which is what keeps a
@@ -326,7 +415,7 @@
     state.phase = 'guess';
     state.selected = null;
 
-    ui.round.textContent = `${state.index + 1} / ${ROUNDS}`;
+    ui.round.textContent = `${state.index + 1} / ${rounds()}`;
     ui.score.textContent = fmt(state.total);
 
     ui.photo.classList.remove('is-ready');
@@ -360,6 +449,7 @@
     ui.credit.textContent = credit ? `${credit.author} · ${credit.license}` : '';
     ui.credit.hidden = true;
 
+    WorldMap.setOut(state.out);
     WorldMap.unlock();
 
     ui.guessBtn.disabled = true;
@@ -395,6 +485,9 @@
 
     state.total += points;
     state.results.push({ fish, guess, answer, correct, distance, points, bonus });
+    /* Zone elimination: this region has had its turn. It stays lit as the
+     * answer for now and goes grey when the next round is drawn. */
+    if (state.filter.game === 'elimination') state.out.add(answer.id);
 
     WorldMap.reveal(guess.id, answer.id);
     ui.score.textContent = fmt(state.total);
@@ -412,7 +505,7 @@
       ui.resultBonus.hidden = true;
     }
     ui.resultFact.textContent = fish.fact;
-    ui.nextBtn.textContent = state.index + 1 >= ROUNDS ? 'See final score' : 'Next one';
+    ui.nextBtn.textContent = state.index + 1 >= rounds() ? 'See final score' : 'Next one';
 
     ui.actionBar.hidden = true;
     ui.result.hidden = false;
@@ -421,10 +514,13 @@
   }
 
   function nextRound() {
-    if (state.index + 1 >= ROUNDS) return endGame();
+    if (state.index + 1 >= rounds()) return endGame();
     state.index += 1;
     renderRound();
   }
+
+  const perfectScore = (n) => n * (MAX_POINTS + NO_PEEK_BONUS)
+    + HINTS_PER_GAME * SAVED_HINT_BONUS;
 
   function endGame() {
     state.phase = 'over';
@@ -434,8 +530,7 @@
     state.total += savedBonus;
     ui.score.textContent = fmt(state.total);
 
-    const max = ROUNDS * (MAX_POINTS + NO_PEEK_BONUS)
-      + HINTS_PER_GAME * SAVED_HINT_BONUS;
+    const max = perfectScore(rounds());
     const best = Math.max(readBest(), state.total);
     writeBest(best);
 
@@ -457,7 +552,7 @@
     const cleanNote = clean
       ? ` ${clean} guessed blind.`
       : ' None guessed blind.';
-    ui.endBlurb.textContent = `${hits} of ${ROUNDS} exactly right.${cleanNote} ${grade}`;
+    ui.endBlurb.textContent = `${hits} of ${rounds()} exactly right.${cleanNote} ${grade}`;
 
     ui.breakdown.replaceChildren();
     for (const r of state.results) {
@@ -546,6 +641,7 @@
     };
     POOL_FILTERS.forEach((p) => add(ui.filterPoolRow, p.id, 'pool', p.label));
     KIND_FILTERS.forEach((k) => add(ui.filterKindRow, k.id, 'kind', k.label));
+    GAME_TYPES.forEach((g) => add(ui.filterGameRow, g.id, 'game', g.label));
   }
 
   /* Counts every option against the *other* row's current choice, so the panel
@@ -563,6 +659,16 @@
     for (const btn of ui.settingsPanel.querySelectorAll('.filter-opt')) {
       const { group, id } = btn.dataset;
       const on = state.filter[group] === id;
+      /* The game row counts rounds, not species: what changes between its
+       * options is how long a game is, not what it is dealt from. */
+      if (group === 'game') {
+        const n = roundsFor(id);
+        btn.classList.toggle('is-on', on);
+        btn.setAttribute('aria-pressed', String(on));
+        btn.title = `${n} rounds`;
+        btn.querySelector('.filter-n').textContent = fmt(n);
+        continue;
+      }
       const list = group === 'kind' ? FISH.filter(KIND_BY_ID[id].test) : pool;
       const mode = group === 'kind' ? state.filter.pool : id;
       const n = inPass(list, mode);
@@ -580,15 +686,28 @@
     /* The flag is the whole of the filter that shows with the panel shut, so it
      * appears exactly when a game is dealt from less than the default: the mode
      * if one is on, otherwise the part of the pass. */
-    const narrowed = state.filter.kind !== 'all' || state.filter.pool !== 'unseen';
-    ui.settingsFlag.hidden = !narrowed;
-    ui.settingsFlag.textContent = state.filter.kind !== 'all'
-      ? kind.short : poolFilter.short;
+    const game = GAME_BY_ID[state.filter.game];
+    const flags = [];
+    if (state.filter.kind !== 'all') flags.push(kind.short);
+    else if (state.filter.pool !== 'unseen') flags.push(poolFilter.short);
+    if (state.filter.game !== 'classic') flags.push(game.short);
+    ui.settingsFlag.hidden = !flags.length;
+    ui.settingsFlag.textContent = flags.join(' · ');
     ui.settingsBtn.title =
-      `Dealing from ${kind.label.toLowerCase()}, ${poolFilter.label.toLowerCase()}`;
+      `${game.label}: dealing from ${kind.label.toLowerCase()}, ${poolFilter.label.toLowerCase()}`;
     ui.startFishCount.textContent = state.filter.kind === 'all'
       ? `all ${fmt(pool.length)} species`
       : `the ${fmt(pool.length)} in ${kind.label.toLowerCase()}`;
+
+    /* The rules card says how long this game is and what a perfect one is. */
+    const n = roundsFor(state.filter.game);
+    ui.startRounds.textContent = {
+      classic: 'Five rounds',
+      spread: 'Five rounds, each from a different region,',
+      elimination: `One round per region, ${n} in all, each region greying out on the map once its animal has come up,`,
+    }[state.filter.game];
+    ui.startPerfect.textContent = fmt(perfectScore(n));
+    ui.startPerfectRounds.forEach((el) => { el.textContent = n === 5 ? 'five' : fmt(n); });
   }
 
   /* A game is five fish dealt at once, so a new pool means a new game rather
@@ -601,6 +720,7 @@
     renderFilter();
     startGame();
     renderSeen();
+    if (group === 'game') renderStored(); // elimination keeps its own best
   }
 
   function openSettings() {
@@ -738,7 +858,13 @@
   /* Every game starts the same way — from the page opening, from Play again,
    * and from the filter changing — so every game goes under the cover. */
   function startGame() {
-    state.deck = dealFish(ROUNDS);
+    state.deck = deal();
+    /* In Zone elimination a region with nothing in this deck — one the mode
+     * has no species in — is out before the first round. */
+    const inDeck = new Set(state.deck.map((f) => f.region));
+    state.out = new Set(state.filter.game === 'elimination'
+      ? REGIONS.map((r) => r.id).filter((id) => !inDeck.has(id))
+      : []);
     state.index = 0;
     state.total = 0;
     state.results = [];

@@ -212,6 +212,9 @@ const WorldMap = (() => {
   const zones = new Map();
   let onPick = () => {};
   let locked = false;
+  /* Regions taken off the board for the rest of a game (Zone elimination):
+   * drawn grey, not clickable, not reachable by Tab. */
+  let out = new Set();
 
   function build(target, pickHandler) {
     svg = target;
@@ -291,7 +294,7 @@ const WorldMap = (() => {
 
       const choose = (e) => {
         e.preventDefault();
-        if (!locked) onPick(region.id);
+        if (!locked && !out.has(region.id)) onPick(region.id);
       };
       group.addEventListener('click', choose);
       group.addEventListener('keydown', (e) => {
@@ -391,7 +394,19 @@ const WorldMap = (() => {
 
   /** Highlight a zone from outside the map. */
   function setHover(regionId) {
-    for (const [id, entry] of zones) mark(entry, 'is-hover', !locked && id === regionId);
+    for (const [id, entry] of zones) {
+      mark(entry, 'is-hover', !locked && !out.has(id) && id === regionId);
+    }
+  }
+
+  /** Grey regions out for the rest of a game, or bring them all back. */
+  function setOut(ids) {
+    out = new Set(ids);
+    for (const [id, entry] of zones) {
+      mark(entry, 'is-out', out.has(id));
+      entry.group.setAttribute('tabindex', out.has(id) || locked ? '-1' : '0');
+      entry.group.setAttribute('aria-disabled', String(out.has(id)));
+    }
   }
 
   /** Show the answer: mark both pins and draw the link between them. */
@@ -425,13 +440,13 @@ const WorldMap = (() => {
   function unlock() {
     locked = false;
     overlayGroup.replaceChildren();
-    for (const entry of zones.values()) {
+    for (const [id, entry] of zones) {
       for (const c of ['is-answer', 'is-guess', 'is-dim', 'is-selected', 'is-hover']) {
         mark(entry, c, false);
       }
-      entry.group.setAttribute('tabindex', '0');
+      entry.group.setAttribute('tabindex', out.has(id) ? '-1' : '0');
     }
   }
 
-  return { build, setSelected, setHover, reveal, unlock, project };
+  return { build, setSelected, setHover, setOut, reveal, unlock, project };
 })();

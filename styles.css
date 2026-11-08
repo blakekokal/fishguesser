@@ -729,6 +729,12 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
 
 .zone.is-dim { opacity: 0.22; pointer-events: none; }
 
+/* Zone elimination: a region whose animal has already come up. Grey rather
+ * than dim, so it reads as taken off the board, not merely out of focus. */
+.zone.is-out { pointer-events: none; cursor: default; }
+.zone.is-out .zone-fill { fill: rgba(120, 130, 140, 0.42); }
+.zone-label.is-out { fill: #8a96a0; opacity: 0.55; }
+
 .link {
   stroke: #f4d06a;
   stroke-width: 2.5;

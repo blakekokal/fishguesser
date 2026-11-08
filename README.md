@@ -32,6 +32,18 @@ and its name; you decide which of sixteen regions of the world it comes from.
   has always dealt), **seen only** or **any**.
   Each option carries the number of species behind it, and a narrowed mode never
   spends the pass of the species it does not deal
+- **Three kinds of game**, the third row under Settings, each crossed with
+  whatever the filter deals from:
+  - **Classic** — five rounds drawn at random, the default and how the game
+    has always played
+  - **Five zones** — five rounds from five different regions, so no region is
+    the answer twice in one game
+  - **Zone elimination** — one round from every region, sixteen in all, and
+    each region goes grey on the map, out of play, once its animal has come up.
+    A narrowed mode plays only the regions it has a species in, with the rest
+    grey from the start. Its games run three times as long, so it keeps its own
+    best score, shown in the Best tile while it is selected; the backup code
+    carries only the five-round best
 - **Distance-based scoring** — an exact hit is 5,000 points, and a near miss
   still earns partial credit that decays with how far off you were
 - **The name is fully censored** — it reads as dots until you reveal it, so the
