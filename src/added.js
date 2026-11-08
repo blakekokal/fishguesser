@@ -327,4 +327,9 @@ const ADDED_ORDER = [
   'channel-catfish',
   'fire-eel',
   'pearl-gourami',
+  'jewel-cichlid',
+  'antarctic-brittle-star',
+  'bushy-backed-nudibranch',
+  'common-basket-star',
+  'iowa-darter',
 ];
