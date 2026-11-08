@@ -2387,5 +2387,75 @@
     "author": "Regani",
     "license": "Public domain",
     "license_url": ""
+  },
+  "arctic-comb-jelly": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/526733962/large.jpg",
+    "source": "https://www.inaturalist.org/observations/292688688",
+    "author": "Ingvild Riska",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "christmas-anemone": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175089767/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/104489835",
+    "author": "Ian Manning",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bluespotted-ribbontail-ray": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229213941/large.jpg",
+    "source": "https://www.inaturalist.org/observations/134478247",
+    "author": "Daniel Benák",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pennant-coralfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/723807272/large.jpg",
+    "source": "https://www.inaturalist.org/observations/394796319",
+    "author": "Gregor Bailar",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "picasso-triggerfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486787117/large.jpg",
+    "source": "https://www.inaturalist.org/observations/270653251",
+    "author": "Cricket Raspet",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pincushion-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45712144/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/29294371",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "yellow-boxfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465877519/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/259519679",
+    "author": "Chris Spain",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "variable-neon-slug": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334074651/large.jpg",
+    "source": "https://www.inaturalist.org/observations/190551216",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "rockmover-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204786257/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121041343",
+    "author": "Don Loarie",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "stonecat": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438063420/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/245484954",
+    "author": "Dean Hester",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

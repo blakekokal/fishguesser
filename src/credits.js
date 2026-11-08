@@ -102,6 +102,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_Kaiyukan.jpg",
   },
+  "arctic-comb-jelly": {
+    author: "Ingvild Riska",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/292688688",
+  },
   "arctic-grayling": {
     author: "AKSMITH",
     license: "CC BY-SA 2.5",
@@ -336,6 +342,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Bluegirdled_angelfish_(Pomacanthus_navarchus)_(46982094954).jpg",
   },
+  "bluespotted-ribbontail-ray": {
+    author: "Daniel Benák",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/134478247",
+  },
   "blunthead-cichlid": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -467,6 +479,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/2495685",
+  },
+  "christmas-anemone": {
+    author: "Ian Manning",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/104489835",
   },
   "christmas-island-red-crab": {
     author: "ian_mcallan",
@@ -1362,6 +1380,24 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Trichopodus_leerii_h080.jpg",
   },
+  "pennant-coralfish": {
+    author: "Gregor Bailar",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/394796319",
+  },
+  "picasso-triggerfish": {
+    author: "Cricket Raspet",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/270653251",
+  },
+  "pincushion-star": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/29294371",
+  },
   "pink-river-dolphin": {
     author: "Tiago Lubiana",
     license: "CC0",
@@ -1529,6 +1565,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Chabelita_tricolor_(Holacanthus_tricolor),_Cozumel,_México,_2025-12-20,_DD_104.jpg",
+  },
+  "rockmover-wrasse": {
+    author: "Don Loarie",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/121041343",
   },
   "royal-gramma": {
     author: "H. Zell",
@@ -1776,6 +1818,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Corydoras_Sterbai.jpg",
   },
+  "stonecat": {
+    author: "Dean Hester",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/245484954",
+  },
   "stoplight-parrotfish": {
     author: "Adona9 at English Wikipedia",
     license: "CC BY-SA 3.0",
@@ -1896,6 +1944,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg",
   },
+  "variable-neon-slug": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/190551216",
+  },
   "velvet-swimming-crab": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -1955,6 +2009,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/145836028",
+  },
+  "yellow-boxfish": {
+    author: "Chris Spain",
+    license: "CC0",
+    license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    source: "https://www.inaturalist.org/observations/259519679",
   },
   "yellow-perch": {
     author: "USFWS Mountain Prairie",
@@ -2355,4 +2415,14 @@ const PHOTO_ORDER = [
   "logperch",
   "copperband-butterflyfish",
   "striped-julie",
+  "arctic-comb-jelly",
+  "christmas-anemone",
+  "bluespotted-ribbontail-ray",
+  "pennant-coralfish",
+  "picasso-triggerfish",
+  "pincushion-star",
+  "yellow-boxfish",
+  "variable-neon-slug",
+  "rockmover-wrasse",
+  "stonecat",
 ];
