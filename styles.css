@@ -1104,15 +1104,6 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
   .species-count, .version-date { display: none; }
 }
 
-/* Narrower still — a tablet, a small laptop window — and one row cannot hold
-   all three, so the bar becomes two on purpose: the brand with the menus at
-   the right, and the score tiles centred on a row of their own beneath, the
-   same arrangement a phone held upright gets. */
-@media (min-width: 561px) and (max-width: 1060px) and (orientation: portrait),
-       (min-width: 1001px) and (max-width: 1060px),
-       (orientation: landscape) and (min-width: 561px) and (max-width: 1000px) and (min-height: 561px) {
-  .stats { order: 4; flex-basis: 100%; }
-}
 
 @media (max-width: 1000px) and (orientation: portrait) {
   /* Stacked, so the page is taller than the window again. It scrolls here
@@ -1655,4 +1646,36 @@ body.is-waiting .fish-panel > :not(.round-gate) { visibility: hidden; }
 @media (orientation: portrait) and (max-width: 560px) {
   .review { gap: 10px; padding-bottom: 12px; }
   .review-hint { display: none; }
+}
+
+/* A tablet or a small laptop window: the brand, the four tiles and the menus
+   still share one row, the tiles in the middle, because the menus give up
+   their words for their marks and a flag goes to a dot, as on a phone. The
+   button's tooltip and the open panel still say what is set. Last in the file
+   so it wins over the landscape-tablet block that puts the words back. */
+@media (min-width: 561px) and (max-width: 1100px) {
+  .settings-label { display: none; }
+  .settings-flag { width: 7px; height: 7px; padding: 0; font-size: 0; }
+}
+
+/* Narrower still, a tablet held upright: the tiles slim down a little too. */
+@media (min-width: 561px) and (max-width: 900px) and (min-height: 561px) {
+  .stat { min-width: 60px; padding: 6px 10px; }
+  .stats { gap: 8px; }
+  .topbar { gap: 12px; }
+}
+
+/* An upright tablet with a mode or filter set needs the room the version
+   pill takes. It is the first thing to go here because it is only for
+   spotting a stale cached page, and a desktop still shows it. */
+@media (min-width: 701px) and (max-width: 820px) {
+  .version { display: none; }
+}
+
+/* Below 700px one row cannot hold the three at all, so the bar takes the
+   phone's arrangement on purpose: brand and menus on top, the four tiles as
+   an even row of their own beneath. */
+@media (min-width: 561px) and (max-width: 700px) {
+  .stats { order: 4; flex-basis: 100%; display: grid; grid-template-columns: repeat(4, 1fr); }
+  .stat { min-width: 0; }
 }

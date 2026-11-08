@@ -22,8 +22,9 @@ and its name; you decide which of sixteen regions of the world it comes from.
   refresh
 - **A top bar** — the brand on the left, four tiles in the middle (round,
   score, hints and best) and three menus on the right: **Mode**, **Filter** and
-  **Settings**. Where one row cannot hold all three, the tiles drop to a
-  centred row of their own beneath. Mode and Filter each
+  **Settings**, all on one row. On a tablet the menus show only their marks to
+  make the room; below 700px wide, as on a phone held upright, the tiles drop
+  to an even row of their own beneath. Mode and Filter each
   carry a flag naming what is set whenever it is off its default (a dot on a
   phone, where the words would not fit), so a narrowed game is never hidden
   behind a closed panel. On a phone the three shrink to their marks and ride
