@@ -40,6 +40,7 @@ const NOT_WHALES = new Set([]);
 const NOT_FISH = new Set([
   'caribbean-reef-octopus',
   'sunflower-sea-star', 'greater-slipper-lobster', 'brazilian-red-sea-star',
+  'rio-brain-coral', 'gold-lined-sea-slug', 'heavisides-dolphin',
   'bushy-backed-nudibranch', 'common-basket-star',
   'antarctic-brittle-star',
   'antarctic-sea-urchin', 'stalked-tunicate',

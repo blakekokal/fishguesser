@@ -390,6 +390,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/374951737",
   },
+  "brazilian-fanged-blenny": {
+    author: "Nicola Crockford",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/349002389",
+  },
   "brazilian-red-sea-star": {
     author: "Bernard Picton",
     license: "CC BY 4.0",
@@ -882,6 +888,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg",
   },
+  "gold-lined-sea-slug": {
+    author: "Rodrigo Canalli",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/19892478",
+  },
   "golden-mbuna": {
     author: "Roland Godon",
     license: "CC BY 4.0",
@@ -959,6 +971,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
+  },
+  "heavisides-dolphin": {
+    author: "Stefan Haag",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/67082272",
   },
   "horsehair-crab": {
     author: "Totti",
@@ -1590,6 +1608,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Anguila_list%C3%B3n_azul_(Rhinomuraena_quaesita),_Anilao,_Filipinas,_2023-08-23,_DD_60.jpg",
   },
+  "rio-brain-coral": {
+    author: "João D'Andretta",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/137420959",
+  },
   "rock-beauty": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -1769,6 +1793,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/319338735",
+  },
+  "south-american-silver-porgy": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/385780106",
   },
   "southern-right-whale": {
     author: "steve b",
@@ -2460,4 +2490,9 @@ const PHOTO_ORDER = [
   "greenbeak-parrotfish",
   "brazilian-damsel",
   "brazilian-red-sea-star",
+  "rio-brain-coral",
+  "brazilian-fanged-blenny",
+  "south-american-silver-porgy",
+  "heavisides-dolphin",
+  "gold-lined-sea-slug",
 ];

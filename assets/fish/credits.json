@@ -2492,5 +2492,40 @@
     "author": "Bernard Picton",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rio-brain-coral": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234698209/large.jpg",
+    "source": "https://www.inaturalist.org/observations/137420959",
+    "author": "João D'Andretta",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-fanged-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/636569304/large.jpg",
+    "source": "https://www.inaturalist.org/observations/349002389",
+    "author": "Nicola Crockford",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "south-american-silver-porgy": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/706278211/large.jpg",
+    "source": "https://www.inaturalist.org/observations/385780106",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "heavisides-dolphin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108288063/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/67082272",
+    "author": "Stefan Haag",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "gold-lined-sea-slug": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30677588/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/19892478",
+    "author": "Rodrigo Canalli",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

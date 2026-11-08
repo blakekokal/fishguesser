@@ -357,4 +357,9 @@ const ADDED_ORDER = [
   'greenbeak-parrotfish',
   'brazilian-damsel',
   'brazilian-red-sea-star',
+  'rio-brain-coral',
+  'brazilian-fanged-blenny',
+  'south-american-silver-porgy',
+  'heavisides-dolphin',
+  'gold-lined-sea-slug',
 ];
