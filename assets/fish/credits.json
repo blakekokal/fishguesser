@@ -2527,5 +2527,152 @@
     "author": "Rodrigo Canalli",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "narwhal": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565614005/large.jpg",
+    "source": "https://www.inaturalist.org/observations/313224281",
+    "author": "steve b",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "bowhead-whale": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/560483795/large.jpg",
+    "source": "https://www.inaturalist.org/observations/310546447",
+    "author": "steve b",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "antarctic-minke-whale": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252553318/large.jpg",
+    "source": "https://www.inaturalist.org/observations/146841470",
+    "author": "Bob Walker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hourglass-dolphin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/765040403/large.jpg",
+    "source": "https://www.inaturalist.org/observations/415470920",
+    "author": "steve b",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "zelindas-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234718516/large.jpg",
+    "source": "https://www.inaturalist.org/observations/137431757",
+    "author": "João D'Andretta",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "noble-pen-shell": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198518537/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/117540049",
+    "author": "Marino Linić",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "violescent-sea-whip": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43645696/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/28019265",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "queen-conch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218108647/large.jpg",
+    "source": "https://www.inaturalist.org/observations/128407783",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "flamingo-tongue": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344184445/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/195615100",
+    "author": "Alicia Christman",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spanish-shawl": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287764579/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/166189751",
+    "author": "Cricket Raspet",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hectors-dolphin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593857121/large.jpg",
+    "source": "https://www.inaturalist.org/observations/327772863",
+    "author": "Mark Anderson",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "dead-mans-fingers": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7012568/large.jpg",
+    "source": "https://www.inaturalist.org/observations/5664898",
+    "author": "Bernard Picton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spotted-gar": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2822747/large.JPG",
+    "source": "https://www.inaturalist.org/observations/2511605",
+    "author": "Kristiina Hurme",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "tucuxi-dolphin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41875570/large.jpg",
+    "source": "https://www.inaturalist.org/observations/26946893",
+    "author": "Franklin Checa",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "giant-cuttlefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206262517/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/121861820",
+    "author": "Peter Crowcroft",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "japanese-spiny-lobster": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554256426/large.jpg",
+    "source": "https://www.inaturalist.org/observations/307296323",
+    "author": "呂一起(Lyu yi-chi)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "japanese-sea-nettle": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1921961/large.JPG",
+    "source": "https://www.inaturalist.org/observations/1551502",
+    "author": "harum.koh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "mimic-octopus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732469762/large.jpg",
+    "source": "https://www.inaturalist.org/observations/399243915",
+    "author": "Ben Costamagna",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "elongate-lamprologus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520845068/large.jpg",
+    "source": "https://www.inaturalist.org/observations/289575857",
+    "author": "Zach Johnson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "african-spottail-tetra": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53144455/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33812083",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bristle-tail-filefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395568928/large.jpg",
+    "source": "https://www.inaturalist.org/observations/223263913",
+    "author": "portioid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

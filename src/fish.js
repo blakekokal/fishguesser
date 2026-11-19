@@ -466,6 +466,22 @@ const FISH = [
     region: 'caribbean',
     fact: 'Not actually green: the skin underneath is brown, and the yellow slime it coats itself in does the rest. It holds its mouth open to breathe rather than to threaten, and carries a second set of jaws back in its throat that shoot forward to drag prey down.',
   },
+  {
+    id: 'queen-conch',
+    name: 'Queen Conch',
+    sciName: 'Aliger gigas',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/218108647/large.jpg',
+    region: 'caribbean',
+    fact: 'A big sea snail that grazes seagrass and gets about by digging a sickle-shaped claw into the sand and vaulting forward. Its eyes sit on stalks and peer out from under the shell\'s flared pink lip, and very rarely one makes a pink pearl.',
+  },
+  {
+    id: 'flamingo-tongue',
+    name: 'Flamingo Tongue',
+    sciName: 'Cyphoma gibbosum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/344184445/large.jpeg',
+    region: 'caribbean',
+    fact: 'The spotted pattern is not the shell: it is living tissue wrapped over a plain cream shell, and pulled back inside when the snail is disturbed. It crawls along sea fans eating their polyps, and keeps the fans\' toxins to make itself taste bad.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -651,6 +667,14 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Corydoras_Sterbai.jpg/1280px-Corydoras_Sterbai.jpg',
     region: 'amazon',
     fact: 'Wears two overlapping rows of bony plates instead of scales, and breathes through its gut as well as its gills — it dashes up, swallows air, and takes the oxygen out of it on the way through. Alarmed, it locks its fin spines upright, which makes it an awkward mouthful.',
+  },
+  {
+    id: 'tucuxi-dolphin',
+    name: 'Tucuxi Dolphin',
+    sciName: 'Sotalia fluviatilis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/41875570/large.jpg',
+    region: 'amazon',
+    fact: 'Looks like a small bottlenose dolphin but lives its whole life in fresh water. Unlike the river dolphin it shares its home with, it keeps to the open channels, travels in tight groups and leaps clear of the water; its closest relative lives along the sea coast.',
   },
   // ---- North Atlantic ----
   {
@@ -854,6 +878,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Looks like a potato on a stick, and is a closer relative of fish than of anything else on the rock beside it. The larva is a swimming tadpole with a stiffening rod down its back; it glues itself down head first, absorbs the tail and most of the nerve cord, and spends the rest of its life pumping water through itself.',
   },
+  {
+    id: 'dead-mans-fingers',
+    name: 'Dead Man\'s Fingers',
+    sciName: 'Alcyonium digitatum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/7012568/large.jpg',
+    region: 'north-atlantic',
+    fact: 'A soft coral: a colony of polyps in a fleshy, lumpy body with no stony skeleton. With its polyps drawn in it looks like a pale, swollen hand; with them out it turns fuzzy and translucent as they catch plankton. Each summer it shuts down for weeks and sheds a skin.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -1025,6 +1057,14 @@ const FISH = [
     fact: 'Has no mouth, no gut and no way of feeding itself. It grows two metres tall beside water hot enough to melt lead, and lives entirely on the bacteria packed into its own body, which build its food out of the poison coming up through the floor.',
   },
   {
+    id: 'spanish-shawl',
+    name: 'Spanish Shawl',
+    sciName: 'Flabellinopsis iodinea',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/287764579/large.jpeg',
+    region: 'north-pacific',
+    fact: 'A purple sea slug with a crop of orange plumes, and when it is knocked loose it swims, flexing its body from side to side. The orange comes from pigment in the hydroids it eats, and the plumes are armed with stinging cells taken from the same prey.',
+  },
+  {
     id: 'ocean-sunfish',
     name: 'Ocean Sunfish',
     sciName: 'Mola mola',
@@ -1055,6 +1095,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/533408765/large.jpg',
     region: 'mediterranean',
     fact: 'A lobster that traded its antennae for a pair of flat shovels, and uses them to lever itself under ledges and to work clams open. It has no claws and no spines worth the name, so when something does find it the only move left is a backwards flick of the tail.',
+  },
+  {
+    id: 'noble-pen-shell',
+    name: 'Noble Pen Shell',
+    sciName: 'Pinna nobilis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/198518537/large.jpeg',
+    region: 'mediterranean',
+    fact: 'One of the largest clams in the world, over a metre tall, standing upright in seagrass with its pointed end buried. It anchors itself with a tuft of fine golden threads that were once spun into sea silk, a cloth rarer than gold. Since 2016 a parasite has killed almost every one in the wild.',
+  },
+  {
+    id: 'violescent-sea-whip',
+    name: 'Violescent Sea Whip',
+    sciName: 'Paramuricea clavata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/43645696/large.jpeg',
+    region: 'mediterranean',
+    fact: 'A gorgonian: a colony of tiny eight-armed polyps on a flexible branching skeleton, grown as a fan a metre across set square to the current so every polyp can comb it for food. It grows a centimetre or two a year, and summer heatwaves have killed whole forests of it.',
   },
   // ---- Congo Basin ----
   {
@@ -1202,6 +1258,14 @@ const FISH = [
     region: 'congo',
     fact: 'Plated in scales set as hard as enamel, with a row of separate little sails down its back and thick fleshy fins it props itself on like legs. It gulps air into a pair of true lungs, and the bold black bars break its outline up among roots and litter.',
   },
+  {
+    id: 'african-spottail-tetra',
+    name: 'African Spottail Tetra',
+    sciName: 'Brachypetersius altus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/53144455/large.jpg',
+    region: 'congo',
+    fact: 'A deep-bodied little characin, silver with a dark spot at the root of its tail. It lives in schools in slow, shaded forest streams, picking insects and other small food off the surface and out of the water column.',
+  },
   // ---- South Atlantic ----
   {
     id: 'west-african-fiddler-crab',
@@ -1298,6 +1362,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/30677588/large.jpeg',
     region: 'south-atlantic',
     fact: 'A sea slug with no shell, painted blue with gold piping. It eats sponges and keeps their chemical defences for itself, so the loud colours are a warning to anything thinking of eating it. The feathery tuft on its back is its gills.',
+  },
+  {
+    id: 'zelindas-parrotfish',
+    name: 'Zelinda\'s Parrotfish',
+    sciName: 'Scarus zelindae',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/234718516/large.jpg',
+    region: 'south-atlantic',
+    fact: 'Scrapes algae off dead coral with teeth fused into a beak, then grinds the rock it bites off in its throat and passes it as fine sand — much of the pale sand around a reef has been through a parrotfish. It starts life female and may turn male later, changing colour as it does.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -1484,6 +1556,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/723807272/large.jpg',
     region: 'rift-lakes',
     fact: 'Trails a white streamer off its back fin that can be longer than the rest of it. The young work as cleaners, picking parasites off fish many times their size, and the adults pair off for life, feeding and moving about as two rather than joining a shoal.',
+  },
+  {
+    id: 'elongate-lamprologus',
+    name: 'Elongate Lamprologus',
+    sciName: 'Lepidiolamprologus elongatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/520845068/large.jpg',
+    region: 'rift-lakes',
+    fact: 'A long, spotted hunter in a family of fish that mostly graze or pick. It stalks small fish over the rocks and sand, lunging from close range, and a pair guard their eggs and fry together for weeks, driving off anything that comes near.',
   },
   // ---- Coral Triangle ----
   {
@@ -1727,6 +1807,22 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Eats colonial sea squirts and keeps what it finds in them: their toxins go into its own skin, and the colours are there to say so. The orange tufts on its back are its gills, carried out in the open where anything could take a bite, which tells you how little it expects to be bothered.',
   },
+  {
+    id: 'mimic-octopus',
+    name: 'Mimic Octopus',
+    sciName: 'Thaumoctopus mimicus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/732469762/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Impersonates the dangerous: it swims flat with its arms trailing to pass as a flatfish, buries itself and waves two arms in opposite directions as a sea snake, and splays them all out as a lionfish. It lives on open sand with nowhere to hide, and science only described it in 2005.',
+  },
+  {
+    id: 'bristle-tail-filefish',
+    name: 'Bristle-tail Filefish',
+    sciName: 'Acreichthys tomentosus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/395568928/large.jpg',
+    region: 'coral-triangle',
+    fact: 'A small filefish that lives among seagrass and soft corals and changes colour to match whatever it sits in, from weed green to sponge brown, with flaps of skin to break up its outline. Males carry a brush of stiff bristles on either side of the tail. It is famous among aquarium keepers for eating the pest anemones nothing else will touch.',
+  },
   // ---- Australia ----
   {
     id: 'barramundi',
@@ -1937,6 +2033,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'A starfish that has filled in. The five arms are still there under the skin, but it has swollen into a dome and looks more like a cushion than a star. It spends the night with its stomach out over the coral, digesting the polyps where they sit, and often has a small fish living inside it.',
   },
+  {
+    id: 'giant-cuttlefish',
+    name: 'Giant Cuttlefish',
+    sciName: 'Ascarosepion apama',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/206262517/large.jpeg',
+    region: 'northern-australia',
+    fact: 'The largest cuttlefish, half a metre long, and every winter tens of thousands gather on one rocky shore to breed. Small males pass themselves off as females — arms tucked in, colours changed — to slip past a big male guarding his mate.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -2049,6 +2153,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/358268422/large.jpg',
     region: 'southern-ocean',
     fact: 'Grows so slowly in water that sits below freezing that a small one can be decades old, and its larvae drift for months before they settle. It grazes algae off rock, picks over anything dead it finds, and holds bits of shell and gravel over itself with its tube feet.',
+  },
+  {
+    id: 'antarctic-minke-whale',
+    name: 'Antarctic Minke Whale',
+    sciName: 'Balaenoptera bonaerensis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/252553318/large.jpg',
+    region: 'southern-ocean',
+    fact: 'A small rorqual, barely nine metres long, that lunges through swarms of krill with the pleats of its throat ballooned open. It slips through cracks and leads deep into the pack ice where larger whales cannot follow, and where it spends the winter is still largely unknown.',
+  },
+  {
+    id: 'hourglass-dolphin',
+    name: 'Hourglass Dolphin',
+    sciName: 'Lagenorhynchus cruciger',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/765040403/large.jpg',
+    region: 'southern-ocean',
+    fact: 'Black, with two white patches on each side that pinch together at the waist like the halves of an hourglass. It lives far out over deep, cold water and is known almost entirely from sightings off ships, whose bow waves it races in to ride.',
   },
   // ---- Arctic Ocean ----
   {
@@ -2187,6 +2307,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/175089767/large.jpeg',
     region: 'arctic',
     fact: 'Red and green at once, which is where the name comes from. It can move, slowly, on its base, and will cross a rock to pick a fight with a neighbour over space. It swallows whole urchins, spines included, and days later spits the cleaned shell back out.',
+  },
+  {
+    id: 'narwhal',
+    name: 'Narwhal',
+    sciName: 'Monodon monoceros',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/565614005/large.jpg',
+    region: 'arctic',
+    fact: 'The tusk is a tooth: a single canine that grows out through the upper lip in a left-handed spiral up to three metres long, its surface laced with nerve endings. It dives more than a kilometre and a half for flatfish and squid, and has no teeth in its mouth at all to eat them with.',
+  },
+  {
+    id: 'bowhead-whale',
+    name: 'Bowhead Whale',
+    sciName: 'Balaena mysticetus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/560483795/large.jpg',
+    region: 'arctic',
+    fact: 'Breaks ice thick enough to stand on with the top of its head when it needs to breathe, and wears half a metre of blubber. It may be the longest-lived mammal: harpoon points more than a century old have been pulled out of living whales, and one was reckoned to be over two hundred.',
   },
   // ---- Great Lakes and inland North America ----
   {
@@ -2374,6 +2510,14 @@ const FISH = [
     region: 'great-lakes',
     fact: 'A small catfish that spends the day jammed under a slab and the night feeling its way along the bottom. The spines in the fins behind its head carry venom — not dangerous, but a sting that aches for hours, which is a surprise from something you could hold in one hand.',
   },
+  {
+    id: 'spotted-gar',
+    name: 'Spotted Gar',
+    sciName: 'Lepisosteus oculatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2822747/large.JPG',
+    region: 'great-lakes',
+    fact: 'Gulps air at the surface into a swim bladder that works as a lung, which lets it live in warm, stagnant backwaters few other fish can stand. Its body is armoured in hard, diamond-shaped scales, and its eggs are poisonous.',
+  },
   // ---- Sea of Japan ----
   {
     id: 'sakhalin-taimen',
@@ -2543,6 +2687,22 @@ const FISH = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Euplectella_aspergillum_Okeanos.jpg/1280px-Euplectella_aspergillum_Okeanos.jpg',
     region: 'sea-of-japan',
     fact: 'A sponge that spins itself a lattice out of glass, at the temperature of the sea floor, in fibres that carry light better than the ones in a cable. A pair of shrimp usually move in as larvae, grow too big to get back out, and spend the rest of their lives inside the tube.',
+  },
+  {
+    id: 'japanese-spiny-lobster',
+    name: 'Japanese Spiny Lobster',
+    sciName: 'Panulirus japonicus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/554256426/large.jpg',
+    region: 'sea-of-japan',
+    fact: 'Has no claws. It fends off attackers with its long spiny antennae, and by rubbing a pad at their base along a ridge to make a loud rasp, like a bow drawn across a string. Its larvae drift for most of a year as flat, see-through leaves before they settle.',
+  },
+  {
+    id: 'japanese-sea-nettle',
+    name: 'Japanese Sea Nettle',
+    sciName: 'Chrysaora pacifica',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/1921961/large.JPG',
+    region: 'sea-of-japan',
+    fact: 'A jellyfish with sixteen dark stripes radiating over its bell and tentacles that trail for metres and sting hard enough to hurt a swimmer. It eats other jellyfish as well as plankton, and small fish often shelter under its bell, immune to the sting.',
   },
   // ---- Mekong Basin ----
   {
@@ -2882,5 +3042,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/589590719/large.jpg',
     region: 'new-zealand',
     fact: 'Sits on the bottom propped on splayed fins with venom in the spines along its back, and moves for nothing until something small swims within reach. It grows slowly and lives a long time, which is why a trawled patch of ground takes decades to fill back up.',
+  },
+  {
+    id: 'hectors-dolphin',
+    name: 'Hector\'s Dolphin',
+    sciName: 'Cephalorhynchus hectori',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/593857121/large.jpg',
+    region: 'new-zealand',
+    fact: 'One of the smallest dolphins, about 1.4 metres long, with a rounded dorsal fin shaped like an ear. It stays close inshore all its life and rarely ranges more than a few dozen kilometres along the coast, which is why nets set near the shore have cost it so dearly.',
   },
 ];

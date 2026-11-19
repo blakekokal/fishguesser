@@ -92,6 +92,11 @@ const NOT_FISH = new Set([
   'antarctic-krill',
   'blue-dragon',
   'horseshoe-crab',         // excluded from crabs above, so it needs saying here
+  'narwhal', 'bowhead-whale', 'antarctic-minke-whale', 'hourglass-dolphin',
+  'hectors-dolphin', 'tucuxi-dolphin', 'noble-pen-shell', 'violescent-sea-whip',
+  'queen-conch', 'flamingo-tongue', 'spanish-shawl', 'dead-mans-fingers',
+  'giant-cuttlefish', 'japanese-spiny-lobster', 'japanese-sea-nettle',
+  'mimic-octopus',
 ]);
 
 const isCrab = (fish) => CRAB_NAME.test(fish.name) && !NOT_CRABS.has(fish.id);
@@ -158,6 +163,8 @@ const WEIRD = new Set([
   'bushy-backed-nudibranch', 'common-basket-star', 'stalked-tunicate',
   'barred-bichir', 'cockatoo-cichlid', 'arctic-comb-jelly',
   'yellow-boxfish', 'variable-neon-slug', 'rockmover-wrasse',
+  'narwhal', 'mimic-octopus', 'flamingo-tongue', 'spanish-shawl',
+  'dead-mans-fingers',
 ]);
 
 const isWeird = (fish) => WEIRD.has(fish.id);
@@ -209,6 +216,8 @@ const FRESHWATER = new Set([
   'kribensis', 'barred-bichir', 'cockatoo-cichlid',
   'tiger-shovelnose-catfish', 'sterbas-cory', 'logperch',
   'striped-julie', 'stonecat',
+  'spotted-gar', 'tucuxi-dolphin', 'elongate-lamprologus',
+  'african-spottail-tetra',
 ]);
 
 const isFresh = (fish) => FRESHWATER.has(fish.id);

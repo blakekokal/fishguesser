@@ -18,6 +18,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814680",
   },
+  "african-spottail-tetra": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33812083",
+  },
   "african-tigerfish": {
     author: "Klaus Rudloff",
     license: "CC BY-SA 4.0",
@@ -65,6 +71,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/264532850",
+  },
+  "antarctic-minke-whale": {
+    author: "Bob Walker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/146841470",
   },
   "antarctic-ribbon-worm": {
     author: "Rachel Crane",
@@ -372,6 +384,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Bowfin_01.jpg",
   },
+  "bowhead-whale": {
+    author: "steve b",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/310546447",
+  },
   "boxer-crab": {
     author: "Chris Spain",
     license: "CC0",
@@ -401,6 +419,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/68399517",
+  },
+  "bristle-tail-filefish": {
+    author: "portioid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/223263913",
   },
   "brook-trout": {
     author: "James St. John",
@@ -642,6 +666,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/269911494",
   },
+  "dead-mans-fingers": {
+    author: "Bernard Picton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/5664898",
+  },
   "discus": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -708,6 +738,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mormyridae_Gnathonemus_petersii_2.jpg",
   },
+  "elongate-lamprologus": {
+    author: "Zach Johnson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/289575857",
+  },
   "emerald-rockcod": {
     author: "Zureks",
     license: "CC BY-SA 3.0",
@@ -749,6 +785,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/189771861",
+  },
+  "flamingo-tongue": {
+    author: "Alicia Christman",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/195615100",
   },
   "flower-urchin": {
     author: "Dan Schofield",
@@ -815,6 +857,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/198787856",
+  },
+  "giant-cuttlefish": {
+    author: "Peter Crowcroft",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/121861820",
   },
   "giant-freshwater-stingray": {
     author: "Gant223",
@@ -978,6 +1026,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/67082272",
   },
+  "hectors-dolphin": {
+    author: "Mark Anderson",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/327772863",
+  },
   "horsehair-crab": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -989,6 +1043,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Limulus_polyphemus_(aq.).jpg",
+  },
+  "hourglass-dolphin": {
+    author: "steve b",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/415470920",
   },
   "humpback-whale": {
     author: "Ken-ichi Ueda",
@@ -1038,6 +1098,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://commons.wikimedia.org/wiki/File:Pristiophorus_japonicus_ioworld.jpg",
   },
+  "japanese-sea-nettle": {
+    author: "harum.koh",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/1551502",
+  },
   "japanese-seabass": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -1049,6 +1115,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Giant_Japanese_spider_crab_(Macrocheira_kaempferi)_at_the_Shedd_Aquarium,_Chicago,_IL_(6802024350).jpg",
+  },
+  "japanese-spiny-lobster": {
+    author: "呂一起(Lyu yi-chi)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/307296323",
   },
   "japanese-surfperch": {
     author: "タウナギ",
@@ -1272,6 +1344,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg",
   },
+  "mimic-octopus": {
+    author: "Ben Costamagna",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/399243915",
+  },
   "moorish-idol": {
     author: "Rusty",
     license: "CC BY 4.0",
@@ -1290,6 +1368,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Esox_masquinongy_(muskellunge)_1.jpg",
   },
+  "narwhal": {
+    author: "steve b",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/313224281",
+  },
   "nassau-grouper": {
     author: "OAR/National Undersea Research Program",
     license: "Public domain",
@@ -1307,6 +1391,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lates_niloticus_by_DaijuAzuma.jpg",
+  },
+  "noble-pen-shell": {
+    author: "Marino Linić",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/117540049",
   },
   "northern-hogsucker": {
     author: "Donald Davesne",
@@ -1523,6 +1613,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Pez_ángel_reina_(Holacanthus_ciliaris),_Cozumel,_México,_2025-12-20,_DD_134.jpg",
+  },
+  "queen-conch": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/128407783",
   },
   "queen-triggerfish": {
     author: "Greg Grimes",
@@ -1830,6 +1926,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Bodianus_rufus_(46598633625).jpg",
   },
+  "spanish-shawl": {
+    author: "Cricket Raspet",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/166189751",
+  },
   "sperm-whale": {
     author: "Daniel Benák",
     license: "CC BY 4.0",
@@ -1847,6 +1949,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/31873557",
+  },
+  "spotted-gar": {
+    author: "Kristiina Hurme",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/2511605",
   },
   "spotted-porcelain-crab": {
     author: "Jean-Paul Boerekamps",
@@ -1986,6 +2094,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg",
   },
+  "tucuxi-dolphin": {
+    author: "Franklin Checa",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/26946893",
+  },
   "two-banded-seabream": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -2021,6 +2135,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Actinoscyphia_aurelia.jpg",
+  },
+  "violescent-sea-whip": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/28019265",
   },
   "walleye": {
     author: "Engbretson, Eric / U.S. Fish and Wildlife Service",
@@ -2135,6 +2255,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Zebra_shark_(Stegostoma_fasciatum).jpg",
+  },
+  "zelindas-parrotfish": {
+    author: "João D'Andretta",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/137431757",
   },
 };
 
@@ -2495,4 +2621,25 @@ const PHOTO_ORDER = [
   "south-american-silver-porgy",
   "heavisides-dolphin",
   "gold-lined-sea-slug",
+  "narwhal",
+  "bowhead-whale",
+  "antarctic-minke-whale",
+  "hourglass-dolphin",
+  "zelindas-parrotfish",
+  "noble-pen-shell",
+  "violescent-sea-whip",
+  "queen-conch",
+  "flamingo-tongue",
+  "spanish-shawl",
+  "hectors-dolphin",
+  "dead-mans-fingers",
+  "spotted-gar",
+  "tucuxi-dolphin",
+  "giant-cuttlefish",
+  "japanese-spiny-lobster",
+  "japanese-sea-nettle",
+  "mimic-octopus",
+  "elongate-lamprologus",
+  "african-spottail-tetra",
+  "bristle-tail-filefish",
 ];
