@@ -126,6 +126,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.5",
     source: "https://commons.wikimedia.org/wiki/File:Underwater_Arctic_Grayling.jpg",
   },
+  "arctic-staghorn-sculpin": {
+    author: "Sue Carnahan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/217304923",
+  },
   "asian-swamp-eel": {
     author: "Ian Dugdale",
     license: "CC BY 4.0",
@@ -420,6 +426,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/68399517",
   },
+  "brazilian-wrasse": {
+    author: "Paulo Mascaretti",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/344307537",
+  },
   "bristle-tail-filefish": {
     author: "portioid",
     license: "CC BY 4.0",
@@ -431,6 +443,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Salvelinus_fontinalis_(coaster_brook_trout)_2.jpg",
+  },
+  "brown-meagre": {
+    author: "shahar chaikin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/388587494",
   },
   "buffalohead-cichlid": {
     author: "5snake5",
@@ -1698,6 +1716,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Erpetoichthys_calabaricus_01.jpg",
   },
+  "reef-parrotfish": {
+    author: "João D'Andretta",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/99732722",
+  },
   "ribbon-eel": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -2123,6 +2147,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/190551216",
+  },
+  "variable-triplefin": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/106108411",
   },
   "velvet-swimming-crab": {
     author: "Diego Delso",
@@ -2642,4 +2672,9 @@ const PHOTO_ORDER = [
   "elongate-lamprologus",
   "african-spottail-tetra",
   "bristle-tail-filefish",
+  "reef-parrotfish",
+  "brazilian-wrasse",
+  "brown-meagre",
+  "arctic-staghorn-sculpin",
+  "variable-triplefin",
 ];

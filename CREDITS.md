@@ -31,6 +31,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `arctic-char` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_Kaiyukan.jpg) |
 | `arctic-comb-jelly` | Ingvild Riska | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/292688688) |
 | `arctic-grayling` | AKSMITH | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | [Commons](https://commons.wikimedia.org/wiki/File:Underwater_Arctic_Grayling.jpg) |
+| `arctic-staghorn-sculpin` | Sue Carnahan | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/217304923) |
 | `asian-swamp-eel` | Ian Dugdale | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/78794765) |
 | `atlantic-blue-tang` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pez_cirujano_azul_(Acanthurus_coeruleus),_Cozumel,_México,_2025-12-20,_DD_75.jpg) |
 | `atlantic-cod` | Wilhelm Thomas Fiege | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Atlantic_Cod,_Atlantischer_Kabeljau_(Gadus_morhua).jpg) |
@@ -80,8 +81,10 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `brazilian-damsel` | Bárbara Verdinha | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/374951737) |
 | `brazilian-fanged-blenny` | Nicola Crockford | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/349002389) |
 | `brazilian-red-sea-star` | Bernard Picton | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/68399517) |
+| `brazilian-wrasse` | Paulo Mascaretti | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/344307537) |
 | `bristle-tail-filefish` | portioid | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/223263913) |
 | `brook-trout` | James St. John | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Salvelinus_fontinalis_(coaster_brook_trout)_2.jpg) |
+| `brown-meagre` | shahar chaikin | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/388587494) |
 | `buffalohead-cichlid` | 5snake5 | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Steatocranus_casuarius,_male.jpg) |
 | `bumphead-parrotfish` | R Vasconcellos | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/259177333) |
 | `burbot` | Josh | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [iNaturalist](https://www.inaturalist.org/observations/15241887) |
@@ -293,6 +296,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `red-seabream` | タウナギ | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Pagrus_major_ioworld.jpg) |
 | `redtail-catfish` | Emőke Dénes | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Hal_-_Phractocephalus_hemioliopterus_-_1.jpg) |
 | `reedfish` | Tylwyth Eldar | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Erpetoichthys_calabaricus_01.jpg) |
+| `reef-parrotfish` | João D'Andretta | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/99732722) |
 | `ribbon-eel` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Anguila_list%C3%B3n_azul_(Rhinomuraena_quaesita),_Anilao,_Filipinas,_2023-08-23,_DD_60.jpg) |
 | `rio-brain-coral` | João D'Andretta | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/137420959) |
 | `rock-beauty` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Chabelita_tricolor_(Holacanthus_tricolor),_Cozumel,_México,_2025-12-20,_DD_104.jpg) |
@@ -364,6 +368,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `upside-down-catfish` | Igor Balashov | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/237908815) |
 | `vampire-crab` | CEphoto, Uwe Aranas | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg) |
 | `variable-neon-slug` | Georgina Jones | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [iNaturalist](https://www.inaturalist.org/observations/190551216) |
+| `variable-triplefin` | Debra Baker | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/106108411) |
 | `velvet-swimming-crab` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:N%C3%A9cora_%28Necora_puber%29%2C_Set%C3%BAbal%2C_Portugal%2C_2020-08-01%2C_DD_08.jpg) |
 | `venus-flytrap-anemone` | Aquapix / NOAA Expedition to the Deep Slope 2007 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Actinoscyphia_aurelia.jpg) |
 | `violescent-sea-whip` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/28019265) |

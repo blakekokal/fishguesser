@@ -2674,5 +2674,40 @@
     "author": "portioid",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "reef-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166319558/large.jpg",
+    "source": "https://www.inaturalist.org/observations/99732722",
+    "author": "João D'Andretta",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627328060/large.jpg",
+    "source": "https://www.inaturalist.org/observations/344307537",
+    "author": "Paulo Mascaretti",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "brown-meagre": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711710980/large.jpg",
+    "source": "https://www.inaturalist.org/observations/388587494",
+    "author": "shahar chaikin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "arctic-staghorn-sculpin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384397253/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/217304923",
+    "author": "Sue Carnahan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "variable-triplefin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178185611/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/106108411",
+    "author": "Debra Baker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

@@ -383,4 +383,9 @@ const ADDED_ORDER = [
   'japanese-spiny-lobster',
   'japanese-sea-nettle',
   'hectors-dolphin',
+  'brown-meagre',
+  'reef-parrotfish',
+  'brazilian-wrasse',
+  'arctic-staghorn-sculpin',
+  'variable-triplefin',
 ];

@@ -1112,6 +1112,14 @@ const FISH = [
     region: 'mediterranean',
     fact: 'A gorgonian: a colony of tiny eight-armed polyps on a flexible branching skeleton, grown as a fan a metre across set square to the current so every polyp can comb it for food. It grows a centimetre or two a year, and summer heatwaves have killed whole forests of it.',
   },
+  {
+    id: 'brown-meagre',
+    name: 'Brown Meagre',
+    sciName: 'Sciaena umbra',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/711710980/large.jpg',
+    region: 'mediterranean',
+    fact: 'A shy bronze fish that hangs in small groups at the mouths of caves by day and comes out to feed at night. Like other drums it knocks loudly by beating muscles against its swim bladder, and divers can hear the groups calling at dusk. Spearfishing made it rare, and it is one of the first fish to come back when an area is protected.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -1370,6 +1378,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/234718516/large.jpg',
     region: 'south-atlantic',
     fact: 'Scrapes algae off dead coral with teeth fused into a beak, then grinds the rock it bites off in its throat and passes it as fine sand — much of the pale sand around a reef has been through a parrotfish. It starts life female and may turn male later, changing colour as it does.',
+  },
+  {
+    id: 'reef-parrotfish',
+    name: 'Reef Parrotfish',
+    sciName: 'Sparisoma amplum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/166319558/large.jpg',
+    region: 'south-atlantic',
+    fact: 'Bites so hard at the rock that it leaves pale scars across the reef, scraping away more of the reef surface than almost any other fish around it. The big males wear blue-green with a yellow-orange patch on the gill cover, while females and young are mottled red-brown and look like another species altogether.',
+  },
+  {
+    id: 'brazilian-wrasse',
+    name: 'Brazilian Wrasse',
+    sciName: 'Halichoeres brasiliensis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/627328060/large.jpg',
+    region: 'south-atlantic',
+    fact: 'Spends the day turning over rubble and snapping up the small crabs, snails and sea urchins hiding underneath, then buries itself in the sand to sleep at night. Like most wrasses it starts life as a female, and the biggest fish on a stretch of reef turn into green-and-gold males.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -2324,6 +2348,14 @@ const FISH = [
     region: 'arctic',
     fact: 'Breaks ice thick enough to stand on with the top of its head when it needs to breathe, and wears half a metre of blubber. It may be the longest-lived mammal: harpoon points more than a century old have been pulled out of living whales, and one was reckoned to be over two hundred.',
   },
+  {
+    id: 'arctic-staghorn-sculpin',
+    name: 'Arctic Staghorn Sculpin',
+    sciName: 'Gymnocanthus tricuspis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/384397253/large.jpeg',
+    region: 'arctic',
+    fact: 'Named for the branched spine on each cheek, shaped like a stag\'s antlers, which can jam in the throat of anything that tries to swallow it. It sits motionless on stony and muddy bottoms in water close to freezing, mottled to match the gravel, and snaps up worms and small crustaceans that come within reach.',
+  },
   // ---- Great Lakes and inland North America ----
   {
     id: 'lake-sturgeon',
@@ -3050,5 +3082,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/593857121/large.jpg',
     region: 'new-zealand',
     fact: 'One of the smallest dolphins, about 1.4 metres long, with a rounded dorsal fin shaped like an ear. It stays close inshore all its life and rarely ranges more than a few dozen kilometres along the coast, which is why nets set near the shore have cost it so dearly.',
+  },
+  {
+    id: 'variable-triplefin',
+    name: 'Variable Triplefin',
+    sciName: 'Forsterygion varium',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/178185611/large.jpeg',
+    region: 'new-zealand',
+    fact: 'A finger-length fish that perches on rocks propped up on its stiff lower fins, watching for small crustaceans to dart at. Its back fin is split into three separate parts, which gives the family its name. In the breeding season males darken and guard a patch of rock where several females lay their eggs.',
   },
 ];
