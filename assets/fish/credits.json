@@ -3451,5 +3451,117 @@
     "author": "Clinton Duffy",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "monkeyface-prickleback": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174781131/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/104323039",
+    "author": "Matt Muir",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ocellate-box-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231491672/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/135701810",
+    "author": "Benjamin Mako Hill",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "long-nosed-knifefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18549984/large.jpg",
+    "source": "https://www.inaturalist.org/observations/12794641",
+    "author": "Michael Bakker Paiva",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "straight-nosed-pipefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48893046/large.jpg",
+    "source": "https://www.inaturalist.org/observations/31250805",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-cave-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140265070/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/85271384",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "tailspot-bushfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146298/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814675",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "milky-sea-nettle": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608360449/large.jpg",
+    "source": "https://www.inaturalist.org/observations/334938752",
+    "author": "Sebastián Gómez Barboza Silveira",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "red-knobbed-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13336415/large.jpg",
+    "source": "https://www.inaturalist.org/observations/9743016",
+    "author": "Bernard Picton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "kunies-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82984424/large.jpg",
+    "source": "https://www.inaturalist.org/observations/52212999",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "shaws-cowfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263786716/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/152783057",
+    "author": "Belinda Forbes",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "charcots-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448716327/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/250848218",
+    "author": "Agustín Zarco",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "warty-bobtail": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31350268/large.jpg",
+    "source": "https://www.inaturalist.org/observations/20305179",
+    "author": "Георгий Виноградов (Georgy Vinogradov)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "common-shiner": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/516502152/large.jpg",
+    "source": "https://www.inaturalist.org/observations/287149862",
+    "author": "Dean Hester",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "multicolorfin-rainbowfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460943490/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/257007351",
+    "author": "Nicola Crockford",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hill-barb": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356062090/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/201674547",
+    "author": "Jacek Pietruszewski",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "marbled-kelpfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260778492/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/151169985",
+    "author": "Saryu Mae 前 朝琉",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

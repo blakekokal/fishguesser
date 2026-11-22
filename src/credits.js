@@ -684,6 +684,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/402401697",
   },
+  "charcots-sea-star": {
+    author: "Agustín Zarco",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/250848218",
+  },
   "cherry-anthias": {
     author: "harum.koh from Kobe city, Japan",
     license: "CC BY-SA 2.0",
@@ -791,6 +797,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/164842609",
+  },
+  "common-shiner": {
+    author: "Dean Hester",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/287149862",
   },
   "common-stingray": {
     author: "Chris Taklis",
@@ -1290,6 +1302,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/327772863",
   },
+  "hill-barb": {
+    author: "Jacek Pietruszewski",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/201674547",
+  },
   "horned-turban": {
     author: "りなべる",
     license: "CC BY 4.0",
@@ -1458,6 +1476,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Cichlidae_Pelvicachromis_pulcher_4.jpg",
   },
+  "kunies-nudibranch": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/52212999",
+  },
   "lake-sturgeon": {
     author: "USFWS Mountain Prairie",
     license: "Public domain",
@@ -1536,6 +1560,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/266989599",
   },
+  "long-nosed-knifefish": {
+    author: "Michael Bakker Paiva",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/12794641",
+  },
   "longear-sunfish": {
     author: "L.J. Lamera",
     license: "CC BY 4.0",
@@ -1608,6 +1638,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/36367432",
   },
+  "marbled-kelpfish": {
+    author: "Saryu Mae 前 朝琉",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/151169985",
+  },
   "marbled-rock-crab": {
     author: "Charles J. Sharp",
     license: "CC BY-SA 4.0",
@@ -1644,11 +1680,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg",
   },
+  "milky-sea-nettle": {
+    author: "Sebastián Gómez Barboza Silveira",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/334938752",
+  },
   "mimic-octopus": {
     author: "Ben Costamagna",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/399243915",
+  },
+  "monkeyface-prickleback": {
+    author: "Matt Muir",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/104323039",
   },
   "monkfish": {
     author: "Libby Keatley",
@@ -1679,6 +1727,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/117701367",
+  },
+  "multicolorfin-rainbowfish": {
+    author: "Nicola Crockford",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/257007351",
   },
   "muskellunge": {
     author: "James St. John",
@@ -1775,6 +1829,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/382625763",
+  },
+  "ocellate-box-crab": {
+    author: "Benjamin Mako Hill",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/135701810",
   },
   "ocellate-river-stingray": {
     author: "Steven G. Johnson",
@@ -2082,6 +2142,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
   },
+  "red-cave-goby": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/85271384",
+  },
   "red-chiton": {
     author: "Agustín Zarco",
     license: "CC BY 4.0",
@@ -2105,6 +2171,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Paralithodes_camtschaticus,_1.jpg",
+  },
+  "red-knobbed-sea-star": {
+    author: "Bernard Picton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/9743016",
   },
   "red-lipped-batfish": {
     author: "jeyre",
@@ -2339,6 +2411,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/351898598",
+  },
+  "shaws-cowfish": {
+    author: "Belinda Forbes",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/152783057",
   },
   "shell-dweller-cichlid": {
     author: "Richard A. Ingebrigtsen",
@@ -2580,6 +2658,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Stoplight-parrotfish.jpg",
   },
+  "straight-nosed-pipefish": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/31250805",
+  },
   "striped-blenny": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -2627,6 +2711,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Enypniastes_eximia_Puerto_Rico.jpg",
+  },
+  "tailspot-bushfish": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814675",
   },
   "talking-catfish": {
     author: "Michael Bakker Paiva",
@@ -2783,6 +2873,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
+  },
+  "warty-bobtail": {
+    author: "Георгий Виноградов (Georgy Vinogradov)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/20305179",
   },
   "warty-frogfish": {
     author: "Diego Delso",
@@ -3419,4 +3515,20 @@ const PHOTO_ORDER = [
   "fourspine-sculpin",
   "torrent-catfish",
   "pale-toadfish",
+  "monkeyface-prickleback",
+  "ocellate-box-crab",
+  "long-nosed-knifefish",
+  "straight-nosed-pipefish",
+  "red-cave-goby",
+  "tailspot-bushfish",
+  "milky-sea-nettle",
+  "red-knobbed-sea-star",
+  "kunies-nudibranch",
+  "shaws-cowfish",
+  "charcots-sea-star",
+  "warty-bobtail",
+  "common-shiner",
+  "multicolorfin-rainbowfish",
+  "hill-barb",
+  "marbled-kelpfish",
 ];
