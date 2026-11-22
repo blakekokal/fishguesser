@@ -84,6 +84,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/200856567",
   },
+  "antarctic-bristle-worm": {
+    author: "Carlos Girón",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/237518287",
+  },
   "antarctic-brittle-star": {
     author: "Ingvild Riska",
     license: "CC BY 4.0",
@@ -311,6 +317,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/395425426",
+  },
+  "banded-brittle-star": {
+    author: "Javier",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/27904268",
   },
   "banded-coral-shrimp": {
     author: "TheMongrelKoi",
@@ -1014,6 +1026,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Phenacogrammus_interruptus_1.jpg",
   },
+  "copper-rockfish": {
+    author: "Will Sides",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/112014844",
+  },
   "copperband-butterflyfish": {
     author: "portioid",
     license: "CC BY 4.0",
@@ -1079,6 +1097,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/98375462",
+  },
+  "cushion-star": {
+    author: "Paul Dufour",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/186177002",
   },
   "dalls-porpoise": {
     author: "MadMagpie",
@@ -1560,6 +1584,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/193544371",
   },
+  "green-razorfish": {
+    author: "Paul Asman",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/101711431",
+  },
   "greenbeak-parrotfish": {
     author: "bewambay",
     license: "CC BY 4.0",
@@ -1950,6 +1980,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Triakis_semifasciata_Gratwicke.jpg",
   },
+  "leopard-squeaker": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33812087",
+  },
   "lettuce-sea-slug": {
     author: "cello caruso-turiello",
     license: "CC BY 4.0",
@@ -1979,6 +2015,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/266989599",
+  },
+  "long-horned-solar-nudibranch": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/50358747",
   },
   "long-nosed-knifefish": {
     author: "Michael Bakker Paiva",
@@ -2027,6 +2069,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lumpfish-Cyclopterus_lumpus.jpg",
+  },
+  "madagascar-butterflyfish": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/139398027",
   },
   "malawi-eyebiter": {
     author: "Hectonichus",
@@ -2496,6 +2544,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/121153849",
   },
+  "pike-gudgeon": {
+    author: "James-LaFontaine",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/407909732",
+  },
   "pincushion-star": {
     author: "Dan Schofield",
     license: "CC BY 4.0",
@@ -2814,6 +2868,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/106799307",
   },
+  "rocas-damselfish": {
+    author: "João D'Andretta",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/102352771",
+  },
   "rock-bass": {
     author: "Quinn",
     license: "CC BY 4.0",
@@ -2862,6 +2922,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Gramma_loreto_01.jpg",
   },
+  "rusty-blenny": {
+    author: "Yves Bas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/185602459",
+  },
   "rusty-crayfish": {
     author: "Evan Feusi",
     license: "CC0",
@@ -2903,6 +2969,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/2455785",
+  },
+  "salmon-nudibranch": {
+    author: "Sue Carnahan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/217304945",
   },
   "salp": {
     author: "Ingvild Riska",
@@ -3378,6 +3450,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/245484954",
   },
+  "stonelapping-minnow": {
+    author: "John Witton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/187627742",
+  },
   "stoplight-parrotfish": {
     author: "Adona9 at English Wikipedia",
     license: "CC BY-SA 3.0",
@@ -3509,6 +3587,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/290999643",
+  },
+  "three-spot-headstander": {
+    author: "Michael Bakker Paiva",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/12795598",
   },
   "tiger-shovelnose-catfish": {
     author: "Lerdsuwa",
@@ -3714,6 +3798,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/37993895",
   },
+  "western-blacknose-dace": {
+    author: "Gojilynx",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/294207055",
+  },
   "western-blue-devil": {
     author: "ttsquid",
     license: "CC BY 4.0",
@@ -3845,6 +3935,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/255624935",
+  },
+  "yellowstriped-leatherjacket": {
+    author: "Jiri Hronik",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/355256348",
   },
   "yellowtail-kingfish": {
     author: "Debra Baker",
@@ -4539,4 +4635,20 @@ const PHOTO_ORDER = [
   "japanese-spined-loach",
   "chestnut-mystus",
   "reef-star",
+  "copper-rockfish",
+  "green-razorfish",
+  "three-spot-headstander",
+  "cushion-star",
+  "rusty-blenny",
+  "leopard-squeaker",
+  "rocas-damselfish",
+  "madagascar-butterflyfish",
+  "long-horned-solar-nudibranch",
+  "yellowstriped-leatherjacket",
+  "antarctic-bristle-worm",
+  "salmon-nudibranch",
+  "western-blacknose-dace",
+  "pike-gudgeon",
+  "stonelapping-minnow",
+  "banded-brittle-star",
 ];

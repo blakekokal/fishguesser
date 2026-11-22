@@ -4571,5 +4571,117 @@
     "author": "Jacqui Geux",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "copper-rockfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189171133/large.jpg",
+    "source": "https://www.inaturalist.org/observations/112014844",
+    "author": "Will Sides",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "green-razorfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169885858/large.jpg",
+    "source": "https://www.inaturalist.org/observations/101711431",
+    "author": "Paul Asman",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "three-spot-headstander": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18551510/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/12795598",
+    "author": "Michael Bakker Paiva",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "cushion-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325298827/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/186177002",
+    "author": "Paul Dufour",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rusty-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324172990/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/185602459",
+    "author": "Yves Bas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "leopard-squeaker": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53144470/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33812087",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rocas-damselfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171072619/large.jpg",
+    "source": "https://www.inaturalist.org/observations/102352771",
+    "author": "João D'Andretta",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "madagascar-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238414783/large.jpg",
+    "source": "https://www.inaturalist.org/observations/139398027",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "long-horned-solar-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79962709/large.jpg",
+    "source": "https://www.inaturalist.org/observations/50358747",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "yellowstriped-leatherjacket": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/647951344/large.jpg",
+    "source": "https://www.inaturalist.org/observations/355256348",
+    "author": "Jiri Hronik",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-bristle-worm": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/422720902/large.jpg",
+    "source": "https://www.inaturalist.org/observations/237518287",
+    "author": "Carlos Girón",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "salmon-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384399666/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/217304945",
+    "author": "Sue Carnahan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "western-blacknose-dace": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/529539866/large.jpg",
+    "source": "https://www.inaturalist.org/observations/294207055",
+    "author": "Gojilynx",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pike-gudgeon": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/749703123/large.jpg",
+    "source": "https://www.inaturalist.org/observations/407909732",
+    "author": "James-LaFontaine",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "stonelapping-minnow": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328167400/large.jpg",
+    "source": "https://www.inaturalist.org/observations/187627742",
+    "author": "John Witton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "banded-brittle-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43459211/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/27904268",
+    "author": "Javier",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
