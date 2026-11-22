@@ -3563,5 +3563,117 @@
     "author": "Saryu Mae 前 朝琉",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "high-cockscomb": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177634253/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/105817060",
+    "author": "Zoltán Stekkelpak",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "banded-jawfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655078099/large.jpg",
+    "source": "https://www.inaturalist.org/observations/359061505",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sauron-pacu": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253222365/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/147186689",
+    "author": "Renato Moraes",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "compass-jellyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664933334/large.jpg",
+    "source": "https://www.inaturalist.org/observations/364243126",
+    "author": "Fraser Higgins",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "warty-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684343563/large.jpg",
+    "source": "https://www.inaturalist.org/observations/374410073",
+    "author": "Dietmar K. L. Moser",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "zakons-petrocephalus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146196/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814646",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "mole-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174253173/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/104029268",
+    "author": "Lucas Kaminski",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "shorttail-nurse-shark": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115300956/large.jpg",
+    "source": "https://www.inaturalist.org/observations/70875152",
+    "author": "Ewout Knoester",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "purple-queen": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388941498/large.jpg",
+    "source": "https://www.inaturalist.org/observations/219736058",
+    "author": "portioid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "eastern-stripey": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349964680/large.jpg",
+    "source": "https://www.inaturalist.org/observations/198542903",
+    "author": "Lachlan Copeland",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "antarctic-sea-angel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/762486106/large.jpg",
+    "source": "https://www.inaturalist.org/observations/414211741",
+    "author": "Ingvild Riska",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spiny-amphipod": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/699702495/large.jpg",
+    "source": "https://www.inaturalist.org/observations/183826058",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "striped-shiner": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654396958/large.jpg",
+    "source": "https://www.inaturalist.org/observations/358707467",
+    "author": "Steven Wang",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "korean-turban": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574833927/large.jpg",
+    "source": "https://www.inaturalist.org/observations/318242566",
+    "author": "Nicola Crockford",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blackline-rasbora": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573044990/large.jpg",
+    "source": "https://www.inaturalist.org/observations/317141630",
+    "author": "Ian Dugdale",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "jewel-anemone": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492173399/large.jpg",
+    "source": "https://www.inaturalist.org/observations/273686152",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

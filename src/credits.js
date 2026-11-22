@@ -120,6 +120,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/323456793",
   },
+  "antarctic-sea-angel": {
+    author: "Ingvild Riska",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/414211741",
+  },
   "antarctic-sea-urchin": {
     author: "Ingvild Riska",
     license: "CC BY 4.0",
@@ -270,6 +276,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/45298652",
   },
+  "banded-jawfish": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/359061505",
+  },
   "banded-kokopu": {
     author: "Oscar Dove",
     license: "CC BY 4.0",
@@ -389,6 +401,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/289710472",
+  },
+  "blackline-rasbora": {
+    author: "Ian Dugdale",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/317141630",
   },
   "blacktip-reef-shark": {
     author: "陳德範（Chen, De-Fan）",
@@ -810,6 +828,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Dasyatis_pastinaca_24933880.jpg",
   },
+  "compass-jellyfish": {
+    author: "Fraser Higgins",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/364243126",
+  },
   "congo-tetra": {
     author: "7TP (Krzysztof Bartosik)",
     license: "CC BY-SA 4.0",
@@ -941,6 +965,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Melanotaenia_splendida_splendida_188164829.jpg",
+  },
+  "eastern-stripey": {
+    author: "Lachlan Copeland",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/198542903",
   },
   "edible-crab": {
     author: "Olivier Dugornay (Ifremer)",
@@ -1302,6 +1332,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/327772863",
   },
+  "high-cockscomb": {
+    author: "Zoltán Stekkelpak",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/105817060",
+  },
   "hill-barb": {
     author: "Jacek Pietruszewski",
     license: "CC BY 4.0",
@@ -1422,6 +1458,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://commons.wikimedia.org/wiki/File:Ditrema_temmincki_temmincki_Oarai.jpg",
   },
+  "jewel-anemone": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/273686152",
+  },
   "jewel-cichlid": {
     author: "Hectonichus",
     license: "CC BY-SA 3.0",
@@ -1469,6 +1511,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/183323839",
+  },
+  "korean-turban": {
+    author: "Nicola Crockford",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/318242566",
   },
   "kribensis": {
     author: "NasserHalaweh",
@@ -1691,6 +1739,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/399243915",
+  },
+  "mole-crab": {
+    author: "Lucas Kaminski",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/104029268",
   },
   "monkeyface-prickleback": {
     author: "Matt Muir",
@@ -2082,6 +2136,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/83287662",
   },
+  "purple-queen": {
+    author: "portioid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/219736058",
+  },
   "purple-rock-crab": {
     author: "Geoff Shuetrim",
     license: "CC BY 4.0",
@@ -2346,6 +2406,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg",
   },
+  "sauron-pacu": {
+    author: "Renato Moraes",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/147186689",
+  },
   "schliewens-goby": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
@@ -2435,6 +2501,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/131497815",
+  },
+  "shorttail-nurse-shark": {
+    author: "Ewout Knoester",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/70875152",
   },
   "siamese-fighting-fish": {
     author: "Henryk Niestrój",
@@ -2574,6 +2646,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/393737787",
   },
+  "spiny-amphipod": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/183826058",
+  },
   "spiny-cushion-star": {
     author: "Jan Ebr &amp; Ivana Ebrová",
     license: "CC BY 4.0",
@@ -2693,6 +2771,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/323456786",
+  },
+  "striped-shiner": {
+    author: "Steven Wang",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/358707467",
   },
   "sunflower-sea-star": {
     author: "Old Goat",
@@ -2880,6 +2964,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/20305179",
   },
+  "warty-crab": {
+    author: "Dietmar K. L. Moser",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/374410073",
+  },
   "warty-frogfish": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -2993,6 +3083,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/261228182",
+  },
+  "zakons-petrocephalus": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814646",
   },
   "zebra-bullhead-shark": {
     author: "劉哲瑋",
@@ -3531,4 +3627,20 @@ const PHOTO_ORDER = [
   "multicolorfin-rainbowfish",
   "hill-barb",
   "marbled-kelpfish",
+  "high-cockscomb",
+  "banded-jawfish",
+  "sauron-pacu",
+  "compass-jellyfish",
+  "warty-crab",
+  "zakons-petrocephalus",
+  "mole-crab",
+  "shorttail-nurse-shark",
+  "purple-queen",
+  "eastern-stripey",
+  "antarctic-sea-angel",
+  "spiny-amphipod",
+  "striped-shiner",
+  "korean-turban",
+  "blackline-rasbora",
+  "jewel-anemone",
 ];
