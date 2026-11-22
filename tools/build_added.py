@@ -4,7 +4,8 @@
 The collection is stored by region, so nothing in src/fish.js says which
 entries are new. The repository does: every species arrived in some commit, and
 walking the history of that one file in order gives the sequence they appeared
-in. That sequence is what "the last hundred added" means.
+in, and the date of that commit is when it joined. That is what "added in the
+last week" reads.
 
     python3 tools/build_added.py
 
@@ -18,6 +19,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FISH = os.path.join(ROOT, "src", "fish.js")
@@ -33,16 +35,18 @@ def git(*args):
 
 
 def order():
-    """Every id, oldest first, by the commit it first appeared in."""
+    """Every (id, unix time it was added), oldest first, by the commit it first
+    appeared in."""
     seen = {}
-    commits = git("log", "--reverse", "--format=%H", "--", REL).split()
-    for commit in commits:
+    log = git("log", "--reverse", "--format=%H %ct", "--", REL).split("\n")
+    for line in filter(None, log):
+        commit, stamp = line.split()
         try:
             text = git("show", f"{commit}:{REL}")
         except subprocess.CalledProcessError:
             continue  # the file did not exist at that commit yet
         for fid in ID.findall(text):
-            seen.setdefault(fid, commit)
+            seen.setdefault(fid, int(stamp))
     ids = list(seen)
 
     # Whatever is on disk now wins: an id the history has never seen is new,
@@ -50,8 +54,9 @@ def order():
     current = ID.findall(open(FISH, encoding="utf-8").read())
     live = set(current)
     ids = [i for i in ids if i in live]
-    ids += [i for i in current if i not in seen]
-    return ids
+    now = int(time.time())
+    fresh = [i for i in current if i not in seen]
+    return [(i, seen[i]) for i in ids] + [(i, now) for i in fresh]
 
 
 def write(ids):
@@ -61,13 +66,14 @@ def write(ids):
         " * GENERATED FILE — do not edit by hand.",
         " * Run `python3 tools/build_added.py` to rebuild it from the history of",
         " * src/fish.js. The collection itself is stored by region, so this is the",
-        " * only record of what is new; the filter's \"last 100\" reads off the end",
-        " * of it. Kept as a plain script so the game still works from disk. */",
+        " * only record of what is new. Each entry is [id, unix seconds of the",
+        " * commit it arrived in]; the filter's \"added in the last week\" reads",
+        " * the dates. Kept as a plain script so the game still works from disk. */",
         "",
         "const ADDED_ORDER = [",
     ]
-    for fid in ids:
-        lines.append(f"  '{fid}',")
+    for fid, stamp in ids:
+        lines.append(f"  ['{fid}', {stamp}],")
     lines.append("];")
     lines.append("")
     with open(OUT, "w", encoding="utf-8") as f:
@@ -77,7 +83,7 @@ def write(ids):
 def main():
     ids = order()
     write(ids)
-    print(f"wrote src/added.js — {len(ids)} species, newest is {ids[-1]!r}")
+    print(f"wrote src/added.js — {len(ids)} species, newest added {time.strftime('%Y-%m-%d %H:%M', time.gmtime(ids[-1][1]))} UTC")
     return 0
 
 

@@ -329,15 +329,21 @@ const FRESHWATER = new Set([
 const isFresh = (fish) => FRESHWATER.has(fish.id);
 const isSalt = (fish) => !FRESHWATER.has(fish.id);
 
-/* The hundred most recently added, straight off the end of ADDED_ORDER (see
- * tools/build_added.py). Nothing in the collection's own order says what is
- * new — it is stored by region — so the history of the data file is where this
- * comes from. A species added later pushes the oldest out; a swapped photo
- * changes nothing here. */
-const RECENT_COUNT = 100;
-const RECENT = new Set(
-  (typeof ADDED_ORDER === 'undefined' ? [] : ADDED_ORDER).slice(-RECENT_COUNT)
-);
+/* Everything added in the last seven days, by the date of the commit each
+ * species arrived in (ADDED_ORDER, see tools/build_added.py). Nothing in the
+ * collection's own order says what is new — it is stored by region — so the
+ * history of the data file is where this comes from. The week is counted back
+ * from when the page is opened, so a quiet week empties the filter and the
+ * option shows as disabled; a swapped photo changes nothing here. */
+const RECENT_DAYS = 7;
+const RECENT = (() => {
+  const since = Date.now() / 1000 - RECENT_DAYS * 24 * 60 * 60;
+  return new Set(
+    (typeof ADDED_ORDER === 'undefined' ? [] : ADDED_ORDER)
+      .filter(([, at]) => at >= since)
+      .map(([id]) => id)
+  );
+})();
 
 const isRecent = (fish) => RECENT.has(fish.id);
 
@@ -348,7 +354,7 @@ const KIND_FILTERS = [
   { id: 'fish', label: 'Fish mode', short: 'Fish', test: isFish },
   { id: 'other', label: 'Sea life', short: 'Sea life', test: isOther },
   { id: 'weird', label: 'Weird mode', short: 'Weird', test: isWeird },
-  { id: 'new', label: 'Last 100 added', short: 'Newest', test: isRecent },
+  { id: 'new', label: 'Added this week', short: 'New this week', test: isRecent },
   { id: 'fresh', label: 'Freshwater', short: 'Fresh', test: isFresh },
   { id: 'salt', label: 'Saltwater', short: 'Salt', test: isSalt },
   { id: 'crab', label: 'Crab mode', short: 'Crabs', test: isCrab },

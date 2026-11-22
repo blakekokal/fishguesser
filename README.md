@@ -33,7 +33,7 @@ and its name; you decide which of sixteen regions of the world it comes from.
   photograph
 - **Filter** — deal from the whole collection or narrow it:
   **fish mode**, **sea life** (everything that is not a fish), **weird mode**
-  (a hand-picked set of the strangest-looking ones), **last 100 added**,
+  (a hand-picked set of the strangest-looking ones), **added this week** (every species added in the last seven days),
   **freshwater**, **saltwater**, **crab mode**, **shark/whale mode**, crossed
   with **unseen first** (the default, and how the game
   has always dealt), **seen only** or **any**.
@@ -287,8 +287,8 @@ The data files are plain arrays, so extending the game is additive:
    dotted out; the check reads the list and reports what is left standing.
 5. Run `python3 tools/build_added.py`. The collection is stored by region, so
    nothing in it says what is new; this reads the history of `src/fish.js` and
-   writes the order species arrived in, which is what "last 100 added" deals
-   from. Anything uncommitted counts as newest, so it is right either way.
+   writes the order species arrived in and the date of each, which is what
+   "added this week" deals from. Anything uncommitted counts as newest, so it is right either way.
 6. If it lives in fresh water, add it to `FRESHWATER` in `src/kinds.js` —
    everything not in that list counts as salt, and a diadromous species is
    filed by where it does its growing.
