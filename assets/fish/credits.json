@@ -3115,5 +3115,117 @@
     "author": "Lisa Bennett",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blue-banded-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239798416/large.jpg",
+    "source": "https://www.inaturalist.org/observations/140119277",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "trumpetfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430513630/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/241551076",
+    "author": "Chris Spain",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "speckled-piranha": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205176431/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121261404",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "american-lobster": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75691769/large.jpg",
+    "source": "https://www.inaturalist.org/observations/47716764",
+    "author": "Roger Rittmaster",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "purple-flabellina": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136771569/large.jpg",
+    "source": "https://www.inaturalist.org/observations/83287662",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "big-scaled-fin-eater": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146705/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814778",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "agassizs-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334539866/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/190787854",
+    "author": "Fabrício Mil Homens Riella",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spiny-cushion-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486038044/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/270277466",
+    "author": "Jan Ebr &amp; Ivana Ebrová",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ornate-ghost-pipefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386504710/large.jpg",
+    "source": "https://www.inaturalist.org/observations/218430513",
+    "author": "portioid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "old-wife": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461877493/large.jpg",
+    "source": "https://www.inaturalist.org/observations/257469298",
+    "author": "John Witton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "humped-rockcod": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72700537/large.jpg",
+    "source": "https://www.inaturalist.org/observations/45839265",
+    "author": "Sarka Masova",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "polar-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31349744/large.jpg",
+    "source": "https://www.inaturalist.org/observations/20304841",
+    "author": "Георгий Виноградов (Georgy Vinogradov)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brook-stickleback": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249581189/large.jpg",
+    "source": "https://www.inaturalist.org/observations/145305070",
+    "author": "Dustin Snider",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "grass-puffer": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/641399800/large.jpg",
+    "source": "https://www.inaturalist.org/observations/351470105",
+    "author": "unipon",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "one-gilled-eel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242020338/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/141292618",
+    "author": "Aleksandr Novikov",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "thornfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189579525/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/112243227",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

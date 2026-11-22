@@ -30,6 +30,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Hydrocynus_vittatus_-_Ndweshi.jpg",
   },
+  "agassizs-parrotfish": {
+    author: "Fabrício Mil Homens Riella",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/190787854",
+  },
   "allards-clownfish": {
     author: "jeyre",
     license: "CC BY 4.0",
@@ -41,6 +47,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/178688862",
+  },
+  "american-lobster": {
+    author: "Roger Rittmaster",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/47716764",
   },
   "american-paddlefish": {
     author: "Jon Mortin",
@@ -318,6 +330,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Beluga_Whale_(Underwater),_Vancouver_Aquarium_(319841848).jpg",
   },
+  "big-scaled-fin-eater": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814778",
+  },
   "black-ghost-knifefish": {
     author: "Vassil",
     license: "CC0",
@@ -347,6 +365,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/259913283",
+  },
+  "blue-banded-goby": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/140119277",
   },
   "blue-bat-star": {
     author: "alexey_tat",
@@ -497,6 +521,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/223263913",
+  },
+  "brook-stickleback": {
+    author: "Dustin Snider",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/145305070",
   },
   "brook-trout": {
     author: "James St. John",
@@ -1116,6 +1146,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Hydrocynus_goliath.jpg",
   },
+  "grass-puffer": {
+    author: "unipon",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/351470105",
+  },
   "great-spider-crab": {
     author: "Ian Manning",
     license: "CC BY 4.0",
@@ -1223,6 +1259,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/2306249",
+  },
+  "humped-rockcod": {
+    author: "Sarka Masova",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/45839265",
   },
   "iowa-darter": {
     author: "Dean Hester",
@@ -1674,6 +1716,18 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Chionodraco_rastrospinosus.jpg",
   },
+  "old-wife": {
+    author: "John Witton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/257469298",
+  },
+  "one-gilled-eel": {
+    author: "Aleksandr Novikov",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/141292618",
+  },
   "opalescent-nudibranch": {
     author: "Ken-ichi Ueda",
     license: "CC BY 4.0",
@@ -1691,6 +1745,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis_VA_01.jpg",
+  },
+  "ornate-ghost-pipefish": {
+    author: "portioid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/218430513",
   },
   "ornate-wrasse": {
     author: "Cisamarc",
@@ -1800,6 +1860,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Boreogadus_saida_Kaiyukan.jpg",
   },
+  "polar-sea-star": {
+    author: "Георгий Виноградов (Georgy Vinogradov)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/20304841",
+  },
   "polar-shrimp": {
     author: "Vsevolod Rudyi",
     license: "CC BY 4.0",
@@ -1859,6 +1925,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/13315289",
+  },
+  "purple-flabellina": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/83287662",
   },
   "purple-rock-crab": {
     author: "Geoff Shuetrim",
@@ -2256,6 +2328,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/166189751",
   },
+  "speckled-piranha": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121261404",
+  },
   "sperm-whale": {
     author: "Daniel Benák",
     license: "CC BY 4.0",
@@ -2267,6 +2345,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/393737787",
+  },
+  "spiny-cushion-star": {
+    author: "Jan Ebr &amp; Ivana Ebrová",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/270277466",
   },
   "spiny-lumpsucker": {
     author: "Sue Carnahan",
@@ -2394,6 +2478,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Tasselled_wobbegong_(Eucrossorhinus_dasypogon).jpg",
   },
+  "thornfish": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/112243227",
+  },
   "threadsail-filefish": {
     author: "呂一起(Lyu yi-chi)",
     license: "CC BY 4.0",
@@ -2435,6 +2525,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg",
+  },
+  "trumpetfish": {
+    author: "Chris Spain",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/241551076",
   },
   "tucuxi-dolphin": {
     author: "Franklin Checa",
@@ -3083,4 +3179,20 @@ const PHOTO_ORDER = [
   "spiky-sea-cucumber",
   "cambodian-puffer",
   "paddle-crab",
+  "blue-banded-goby",
+  "trumpetfish",
+  "speckled-piranha",
+  "american-lobster",
+  "purple-flabellina",
+  "big-scaled-fin-eater",
+  "agassizs-parrotfish",
+  "spiny-cushion-star",
+  "ornate-ghost-pipefish",
+  "old-wife",
+  "humped-rockcod",
+  "polar-sea-star",
+  "brook-stickleback",
+  "grass-puffer",
+  "one-gilled-eel",
+  "thornfish",
 ];
