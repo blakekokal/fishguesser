@@ -12,6 +12,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg",
   },
+  "african-glass-catfish": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814648",
+  },
   "african-knifefish": {
     author: "John P Friel",
     license: "CC BY 4.0",
@@ -137,6 +143,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/146841470",
+  },
+  "antarctic-red-chiton": {
+    author: "Agustín Zarco",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/250848239",
   },
   "antarctic-ribbon-worm": {
     author: "Rachel Crane",
@@ -522,6 +534,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/259913283",
   },
+  "blackwedged-butterflyfish": {
+    author: "desertnaturalist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/248459363",
+  },
   "blood-star": {
     author: "Bernadette Kavanaugh",
     license: "CC BY 4.0",
@@ -617,6 +635,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Bluegirdled_angelfish_(Pomacanthus_navarchus)_(46982094954).jpg",
+  },
+  "bluespotted-goatfish": {
+    author: "Tim",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/388733841",
   },
   "bluespotted-ribbontail-ray": {
     author: "Daniel Benák",
@@ -1091,6 +1115,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/260980530",
+  },
+  "crested-nembrotha": {
+    author: "Ben Costamagna",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/353346143",
   },
   "crimson-banded-wrasse": {
     author: "Bryce Watts-Parker",
@@ -1590,6 +1620,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/68423877",
   },
+  "goldspotted-mudskipper": {
+    author: "Ian Dugdale",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/302608986",
+  },
   "goldspotted-snake-eel": {
     author: "Matteo Bellucci",
     license: "CC BY 4.0",
@@ -1631,6 +1667,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/193544371",
+  },
+  "green-puffer": {
+    author: "Paulo Nogueira",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/351539709",
   },
   "green-razorfish": {
     author: "Paul Asman",
@@ -1721,6 +1763,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/201674547",
+  },
+  "hombergs-tritonia": {
+    author: "Rebekah Bajkó",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/340796987",
   },
   "hooded-nudibranch": {
     author: "Alex Heyman",
@@ -2052,6 +2100,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/206337930",
   },
+  "lined-chiton": {
+    author: "Anna",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121947718",
+  },
   "lingcod": {
     author: "Chris Spain",
     license: "CC0",
@@ -2250,6 +2304,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg",
   },
+  "milky-hydromedusa": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/185163576",
+  },
   "milky-sea-nettle": {
     author: "Sebastián Gómez Barboza Silveira",
     license: "CC0",
@@ -2358,6 +2418,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Lates_niloticus_by_DaijuAzuma.jpg",
   },
+  "noble-chiton": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/273686229",
+  },
   "noble-pen-shell": {
     author: "Marino Linić",
     license: "CC0",
@@ -2393,6 +2459,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/86468799",
+  },
+  "northern-redbelly-dace": {
+    author: "feralist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/402795035",
   },
   "northern-shrimp": {
     author: "Leïla Brunner",
@@ -3018,6 +3090,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/304187437",
   },
+  "sachs-knifefish": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121979247",
+  },
   "saddleback-clownfish": {
     author: "Jean-Paul Boerekamps",
     license: "CC0",
@@ -3167,6 +3245,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/351898598",
+  },
+  "sharpnose-puffer": {
+    author: "desertnaturalist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/204901132",
   },
   "shaws-cowfish": {
     author: "Belinda Forbes",
@@ -3516,6 +3600,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/7186904",
   },
+  "star-limpet": {
+    author: "harum.koh",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/13608687",
+  },
   "starry-jewel-cichlid": {
     author: "John P Friel",
     license: "CC BY 4.0",
@@ -3719,6 +3809,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/72994035",
+  },
+  "tortonese-stingray": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/90457907",
   },
   "trahira": {
     author: "R Vasconcellos",
@@ -4763,4 +4859,20 @@ const PHOTO_ORDER = [
   "bearded-mudskipper",
   "maori-octopus",
   "arctic-lobed-comb-jelly",
+  "lined-chiton",
+  "sharpnose-puffer",
+  "sachs-knifefish",
+  "hombergs-tritonia",
+  "tortonese-stingray",
+  "african-glass-catfish",
+  "green-puffer",
+  "blackwedged-butterflyfish",
+  "crested-nembrotha",
+  "bluespotted-goatfish",
+  "antarctic-red-chiton",
+  "milky-hydromedusa",
+  "northern-redbelly-dace",
+  "star-limpet",
+  "goldspotted-mudskipper",
+  "noble-chiton",
 ];

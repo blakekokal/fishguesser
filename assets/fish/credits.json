@@ -4795,5 +4795,117 @@
     "author": "Sue Carnahan",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "lined-chiton": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206415219/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/121947718",
+    "author": "Anna",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "sharpnose-puffer": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362230894/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/204901132",
+    "author": "desertnaturalist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sachs-knifefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206474719/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121979247",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "hombergs-tritonia": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620241361/large.jpg",
+    "source": "https://www.inaturalist.org/observations/340796987",
+    "author": "Rebekah Bajkó",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "tortonese-stingray": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149502519/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/90457907",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "african-glass-catfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146206/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814648",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "green-puffer": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/641527345/large.jpg",
+    "source": "https://www.inaturalist.org/observations/351539709",
+    "author": "Paulo Nogueira",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blackwedged-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443949633/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/248459363",
+    "author": "desertnaturalist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "crested-nembrotha": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/644748627/large.jpg",
+    "source": "https://www.inaturalist.org/observations/353346143",
+    "author": "Ben Costamagna",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bluespotted-goatfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711996168/large.jpg",
+    "source": "https://www.inaturalist.org/observations/388733841",
+    "author": "Tim",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-red-chiton": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448719392/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/250848239",
+    "author": "Agustín Zarco",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "milky-hydromedusa": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323338307/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/185163576",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "northern-redbelly-dace": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/739477275/large.jpg",
+    "source": "https://www.inaturalist.org/observations/402795035",
+    "author": "feralist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "star-limpet": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20023907/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/13608687",
+    "author": "harum.koh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "goldspotted-mudskipper": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545366117/large.jpg",
+    "source": "https://www.inaturalist.org/observations/302608986",
+    "author": "Ian Dugdale",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "noble-chiton": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492177204/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/273686229",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
