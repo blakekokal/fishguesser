@@ -198,6 +198,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/66467819",
   },
+  "aurora-sea-star": {
+    author: "Charlotte Kirchner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/198440763",
+  },
   "australasian-snapper": {
     author: "Auckland War Memorial Museum",
     license: "CC BY 4.0",
@@ -558,6 +564,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:CA_Sheephead,_CINMS.jpg",
   },
+  "cambodian-puffer": {
+    author: "Shane Austin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/363413956",
+  },
+  "camila-puffer": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/383346005",
+  },
   "capelin": {
     author: "michaelbakkerpaiva",
     license: "CC BY 4.0",
@@ -665,6 +683,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Apistogramma_cacatuoides_double_red_male.jpg",
+  },
+  "coconut-octopus": {
+    author: "Bernard DUPONT",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/96210976",
   },
   "common-basket-star": {
     author: "Rachel Crane",
@@ -798,11 +822,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mero_(Epinephelus_marginatus),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-15,_DD_34.jpg",
   },
+  "earspot-angelfish": {
+    author: "Ewout Knoester",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/13344919",
+  },
   "eartheater": {
     author: "Whaldener Endo",
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/121451816",
+  },
+  "eastern-blue-devil": {
+    author: "Joanna Chen",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/63627980",
   },
   "eastern-blue-groper": {
     author: "Lawrence Hylton",
@@ -1001,6 +1037,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Bathynomus_giganteus_side_-_MBA.png",
+  },
+  "giant-kelpfish": {
+    author: "zr217",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/67105607",
   },
   "giant-mudskipper": {
     author: "Mhlayson",
@@ -1266,6 +1308,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Saint-Pierre_%28Zeus_faber%29_%28Ifremer_00555-66734_-_44450%29.jpg",
   },
+  "johnny-darter": {
+    author: "Dean Hester",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/267965763",
+  },
   "jungle-perch": {
     author: "dhfischer",
     license: "CC BY 4.0",
@@ -1349,6 +1397,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Triakis_semifasciata_Gratwicke.jpg",
+  },
+  "lettuce-sea-slug": {
+    author: "cello caruso-turiello",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/206337930",
   },
   "lingcod": {
     author: "Chris Spain",
@@ -1662,6 +1716,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Squalus_suckleyi_in_an_aquarium.jpg",
   },
+  "paddle-crab": {
+    author: "Lisa Bennett",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/1399154",
+  },
   "painted-comber": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -1716,6 +1776,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/270653251",
   },
+  "pike-cichlid": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121153849",
+  },
   "pincushion-star": {
     author: "Dan Schofield",
     license: "CC BY 4.0",
@@ -1733,6 +1799,18 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Boreogadus_saida_Kaiyukan.jpg",
+  },
+  "polar-shrimp": {
+    author: "Vsevolod Rudyi",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/159736420",
+  },
+  "polls-bichir": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814693",
   },
   "porcupinefish": {
     author: "Diego Delso",
@@ -1884,6 +1962,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/125784387",
   },
+  "red-triplefin": {
+    author: "Golfopolikayak",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/120473866",
+  },
   "redtail-catfish": {
     author: "Emőke Dénes",
     license: "CC BY-SA 4.0",
@@ -1925,6 +2009,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Chabelita_tricolor_(Holacanthus_tricolor),_Cozumel,_México,_2025-12-20,_DD_104.jpg",
+  },
+  "rock-gunnel": {
+    author: "Vsevolod Rudyi",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/256177089",
   },
   "rockmover-wrasse": {
     author: "Don Loarie",
@@ -2171,6 +2261,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/300883241",
+  },
+  "spiky-sea-cucumber": {
+    author: "Сергей Степин",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/393737787",
   },
   "spiny-lumpsucker": {
     author: "Sue Carnahan",
@@ -2971,4 +3067,20 @@ const PHOTO_ORDER = [
   "bambooleaf-wrasse",
   "moonlight-gourami",
   "banded-kokopu",
+  "giant-kelpfish",
+  "lettuce-sea-slug",
+  "pike-cichlid",
+  "rock-gunnel",
+  "red-triplefin",
+  "polls-bichir",
+  "camila-puffer",
+  "earspot-angelfish",
+  "coconut-octopus",
+  "eastern-blue-devil",
+  "aurora-sea-star",
+  "polar-shrimp",
+  "johnny-darter",
+  "spiky-sea-cucumber",
+  "cambodian-puffer",
+  "paddle-crab",
 ];

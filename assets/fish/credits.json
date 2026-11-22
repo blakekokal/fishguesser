@@ -3003,5 +3003,117 @@
     "author": "Oscar Dove",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "giant-kelpfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108335426/large.jpg",
+    "source": "https://www.inaturalist.org/observations/67105607",
+    "author": "zr217",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "lettuce-sea-slug": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364935914/large.jpg",
+    "source": "https://www.inaturalist.org/observations/206337930",
+    "author": "cello caruso-turiello",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pike-cichlid": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204987076/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121153849",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "rock-gunnel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459245080/large.jpg",
+    "source": "https://www.inaturalist.org/observations/256177089",
+    "author": "Vsevolod Rudyi",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-triplefin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203769853/large.gif",
+    "source": "https://www.inaturalist.org/observations/120473866",
+    "author": "Golfopolikayak",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "polls-bichir": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146355/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814693",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "camila-puffer": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/701602903/large.jpg",
+    "source": "https://www.inaturalist.org/observations/383346005",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "earspot-angelfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19552746/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/13344919",
+    "author": "Ewout Knoester",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "coconut-octopus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159808622/large.jpg",
+    "source": "https://www.inaturalist.org/observations/96210976",
+    "author": "Bernard DUPONT",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "eastern-blue-devil": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102149837/large.jpg",
+    "source": "https://www.inaturalist.org/observations/63627980",
+    "author": "Joanna Chen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "aurora-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520371110/large.jpg",
+    "source": "https://www.inaturalist.org/observations/198440763",
+    "author": "Charlotte Kirchner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "polar-shrimp": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275997969/large.jpg",
+    "source": "https://www.inaturalist.org/observations/159736420",
+    "author": "Vsevolod Rudyi",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "johnny-darter": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481589504/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/267965763",
+    "author": "Dean Hester",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spiky-sea-cucumber": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721736273/large.jpg",
+    "source": "https://www.inaturalist.org/observations/393737787",
+    "author": "Сергей Степин",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "cambodian-puffer": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/663352908/large.jpg",
+    "source": "https://www.inaturalist.org/observations/363413956",
+    "author": "Shane Austin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "paddle-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1730498/large.JPG",
+    "source": "https://www.inaturalist.org/observations/1399154",
+    "author": "Lisa Bennett",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
