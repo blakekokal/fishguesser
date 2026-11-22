@@ -5019,5 +5019,117 @@
     "author": "Ben Costamagna",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "manacled-sculpin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463494036/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/258347895",
+    "author": "Simone Littledale",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pederson-cleaner-shrimp": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333128448/large.jpg",
+    "source": "https://www.inaturalist.org/observations/190076711",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "south-american-silver-croaker": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205360868/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121362876",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "european-spiny-lobster": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70172370/large.jpg",
+    "source": "https://www.inaturalist.org/observations/44258918",
+    "author": "Bernard Picton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "violet-sea-urchin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137419625/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/83666970",
+    "author": "Chris Taklis",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "congo-squeaker": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146718/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814782",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rock-stone-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735779011/large.jpg",
+    "source": "https://www.inaturalist.org/observations/400909731",
+    "author": "Nicollas Michels",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sky-emperor": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174544385/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/104279524",
+    "author": "Ewout Knoester",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "orange-skunk-clownfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283956250/large.jpg",
+    "source": "https://www.inaturalist.org/observations/214179299",
+    "author": "portioid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "vermilion-biscuit-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/752748792/large.jpg",
+    "source": "https://www.inaturalist.org/observations/409401778",
+    "author": "Bryce Watts-Parker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-soft-shell-clam": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/427478180/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/239819017",
+    "author": "eloise kerroux",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "mud-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322230870/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/184587655",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "white-crappie": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323184451/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/185084836",
+    "author": "Rorey",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "kuroda-sea-hare": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662951277/large.jpg",
+    "source": "https://www.inaturalist.org/observations/363193561",
+    "author": "りなべる",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "gold-edged-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193412966/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/114547133",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "smiths-barb": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368715345/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/208262190",
+    "author": "Cheryl Stinchcomb",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

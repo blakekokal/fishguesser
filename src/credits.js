@@ -180,6 +180,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/202827282",
   },
+  "antarctic-soft-shell-clam": {
+    author: "eloise kerroux",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/239819017",
+  },
   "antarctic-spiny-plunderfish": {
     author: "Agustín Zarco",
     license: "CC BY 4.0",
@@ -1098,6 +1104,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/99448122",
   },
+  "congo-squeaker": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814782",
+  },
   "congo-tetra": {
     author: "7TP (Krzysztof Bartosik)",
     license: "CC BY-SA 4.0",
@@ -1392,6 +1404,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG",
   },
+  "european-spiny-lobster": {
+    author: "Bernard Picton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/44258918",
+  },
   "fairy-cichlid": {
     author: "Bjoertvedt",
     license: "CC BY-SA 4.0",
@@ -1625,6 +1643,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg",
+  },
+  "gold-edged-nudibranch": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/114547133",
   },
   "gold-lined-sea-slug": {
     author: "Rodrigo Canalli",
@@ -2076,6 +2100,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/52212999",
   },
+  "kuroda-sea-hare": {
+    author: "りなべる",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/363193561",
+  },
   "lake-sturgeon": {
     author: "USFWS Mountain Prairie",
     license: "Public domain",
@@ -2262,6 +2292,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/192081524",
   },
+  "manacled-sculpin": {
+    author: "Simone Littledale",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/258347895",
+  },
   "mandarinfish": {
     author: "Luc Viatour",
     license: "CC BY-SA 3.0",
@@ -2430,6 +2466,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/117701367",
   },
+  "mud-star": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/184587655",
+  },
   "multicolorfin-rainbowfish": {
     author: "Nicola Crockford",
     license: "CC BY 4.0",
@@ -2592,6 +2634,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/20483646",
   },
+  "orange-skunk-clownfish": {
+    author: "portioid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/214179299",
+  },
   "orangestriped-squeaker": {
     author: "John P Friel",
     license: "CC BY 4.0",
@@ -2735,6 +2783,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.0",
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Trichopodus_leerii_h080.jpg",
+  },
+  "pederson-cleaner-shrimp": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/190076711",
   },
   "pennant-coralfish": {
     author: "Gregor Bailar",
@@ -3120,6 +3174,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/256177089",
   },
+  "rock-stone-crab": {
+    author: "Nicollas Michels",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/400909731",
+  },
   "rockhead-poacher": {
     author: "Aiva Noringseth",
     license: "CC BY 4.0",
@@ -3402,6 +3462,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG",
   },
+  "sky-emperor": {
+    author: "Ewout Knoester",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/104279524",
+  },
   "slender-goby": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -3450,6 +3516,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg",
   },
+  "smiths-barb": {
+    author: "Cheryl Stinchcomb",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/208262190",
+  },
   "smiths-hillstream-loach": {
     author: "Utain Pummarin",
     license: "CC BY 4.0",
@@ -3491,6 +3563,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/319338735",
+  },
+  "south-american-silver-croaker": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121362876",
   },
   "south-american-silver-porgy": {
     author: "Donald Davesne",
@@ -4026,11 +4104,23 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Actinoscyphia_aurelia.jpg",
   },
+  "vermilion-biscuit-star": {
+    author: "Bryce Watts-Parker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/409401778",
+  },
   "violescent-sea-whip": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/28019265",
+  },
+  "violet-sea-urchin": {
+    author: "Chris Taklis",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/83666970",
   },
   "virgin-paua": {
     author: "Javier",
@@ -4103,6 +4193,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.5",
     license_url: "https://creativecommons.org/licenses/by-sa/2.5",
     source: "https://commons.wikimedia.org/wiki/File:Whale_shark_Georgia_aquarium.jpg",
+  },
+  "white-crappie": {
+    author: "Rorey",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/185084836",
   },
   "white-ear": {
     author: "libby hepburn",
@@ -4987,4 +5083,20 @@ const PHOTO_ORDER = [
   "boddarts-mudskipper",
   "hairy-seaweed-crab",
   "variable-headshield-slug",
+  "manacled-sculpin",
+  "pederson-cleaner-shrimp",
+  "south-american-silver-croaker",
+  "european-spiny-lobster",
+  "violet-sea-urchin",
+  "congo-squeaker",
+  "rock-stone-crab",
+  "sky-emperor",
+  "orange-skunk-clownfish",
+  "vermilion-biscuit-star",
+  "antarctic-soft-shell-clam",
+  "mud-star",
+  "white-crappie",
+  "kuroda-sea-hare",
+  "gold-edged-nudibranch",
+  "smiths-barb",
 ];
