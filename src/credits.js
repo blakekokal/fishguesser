@@ -210,6 +210,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/217304923",
   },
+  "argentine-sea-bass": {
+    author: "Hugo Hulsberg",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/65430971",
+  },
   "asian-swamp-eel": {
     author: "Ian Dugdale",
     license: "CC BY 4.0",
@@ -798,6 +804,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/8836782",
   },
+  "central-mudminnow": {
+    author: "Gojilynx",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/365780857",
+  },
   "central-stoneroller": {
     author: "Dean Hester",
     license: "CC BY 4.0",
@@ -984,6 +996,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/152157136",
   },
+  "cornish-clingfish": {
+    author: "John Hepburn",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/178900789",
+  },
   "cownose-ray": {
     author: "Citron",
     license: "CC BY-SA 3.0",
@@ -1158,6 +1176,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Electrophorus_electricus_in_Ouwehands_Dierenpark_01.jpg",
   },
+  "electric-flame-scallop": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/27064108",
+  },
   "electric-yellow-cichlid": {
     author: "Jmatz at English Wikipedia\n\n(Original text: Julian Matz (talk))",
     license: "CC BY-SA 3.0",
@@ -1326,6 +1350,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Siamese_giant_carp_(Catlocarpio_siamensis)_2.jpg",
   },
+  "giant-basket-star": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/148806711",
+  },
   "giant-clam": {
     author: "Sockrosma",
     license: "CC BY 4.0",
@@ -1458,6 +1488,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Hydrocynus_goliath.jpg",
   },
+  "granaster-sea-star": {
+    author: "Stephanie Dolrenry",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/65746328",
+  },
   "grass-puffer": {
     author: "unipon",
     license: "CC BY 4.0",
@@ -1536,6 +1572,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
   },
+  "hasselts-catfish": {
+    author: "Utain Pummarin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/103358868",
+  },
   "heavisides-dolphin": {
     author: "Stefan Haag",
     license: "CC BY 4.0",
@@ -1559,6 +1601,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/201674547",
+  },
+  "hooded-nudibranch": {
+    author: "Alex Heyman",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/60034528",
   },
   "horn-shark": {
     author: "Michael Bear",
@@ -1614,6 +1662,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/45839265",
   },
+  "indian-triggerfish": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/35913682",
+  },
   "iowa-darter": {
     author: "Dean Hester",
     license: "CC BY 4.0",
@@ -1643,6 +1697,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Japanese_bullhead_shark_Suma_Aqualife_Park.jpg",
+  },
+  "japanese-dark-sleeper": {
+    author: "りなべる",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/197876097",
   },
   "japanese-pineconefish": {
     author: "Georgina Jones",
@@ -1871,6 +1931,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/12794641",
+  },
+  "long-snouted-seahorse": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/39723536",
   },
   "longear-sunfish": {
     author: "L.J. Lamera",
@@ -2406,6 +2472,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814693",
   },
+  "porcupine-amphipod": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/184775736",
+  },
   "porcupinefish": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -2886,6 +2958,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/381745131",
   },
+  "shortjaw-kokopu": {
+    author: "Oscar Dove",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/249568194",
+  },
   "shortnose-sturgeon": {
     author: "jeffcherry",
     license: "CC0",
@@ -3029,6 +3107,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/37841240",
+  },
+  "southern-keeled-octopus": {
+    author: "Christopher Mark",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/11317458",
   },
   "southern-redbelly-dace": {
     author: "Dean Hester",
@@ -3480,6 +3564,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/106108411",
   },
+  "varis-electric-eel": {
+    author: "Sheelagh Halsey",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33277761",
+  },
   "velvet-swimming-crab": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -3629,6 +3719,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Yellow_Perch_(Perca_flavescens).jpg",
+  },
+  "yellow-tailed-congo-tetra": {
+    author: "Zaire",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Alestopetersius_caudalis.jpg",
   },
   "yelloweye-rockfish": {
     author: "Oregon Department of Fish & Wildlife",
@@ -4315,4 +4411,20 @@ const PHOTO_ORDER = [
   "hotoke-loach",
   "koh-chang-loach",
   "oblique-swimming-triplefin",
+  "hooded-nudibranch",
+  "giant-basket-star",
+  "varis-electric-eel",
+  "cornish-clingfish",
+  "long-snouted-seahorse",
+  "yellow-tailed-congo-tetra",
+  "argentine-sea-bass",
+  "indian-triggerfish",
+  "electric-flame-scallop",
+  "southern-keeled-octopus",
+  "granaster-sea-star",
+  "porcupine-amphipod",
+  "central-mudminnow",
+  "japanese-dark-sleeper",
+  "hasselts-catfish",
+  "shortjaw-kokopu",
 ];

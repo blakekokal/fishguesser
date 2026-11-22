@@ -4347,5 +4347,117 @@
     "author": "Debra Baker",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hooded-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95968524/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/60034528",
+    "author": "Alex Heyman",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "giant-basket-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256321309/large.jpg",
+    "source": "https://www.inaturalist.org/observations/148806711",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "varis-electric-eel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52254721/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33277761",
+    "author": "Sheelagh Halsey",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "cornish-clingfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311381314/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/178900789",
+    "author": "John Hepburn",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "long-snouted-seahorse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63042432/large.jpg",
+    "source": "https://www.inaturalist.org/observations/39723536",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "yellow-tailed-congo-tetra": {
+    "commons_title": "File:Alestopetersius caudalis.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Alestopetersius_caudalis.jpg",
+    "author": "Zaire",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "argentine-sea-bass": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105312174/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/65430971",
+    "author": "Hugo Hulsberg",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "indian-triggerfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56693471/large.jpg",
+    "source": "https://www.inaturalist.org/observations/35913682",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "electric-flame-scallop": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42069703/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/27064108",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "southern-keeled-octopus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16111037/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/11317458",
+    "author": "Christopher Mark",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "granaster-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105856696/large.jpg",
+    "source": "https://www.inaturalist.org/observations/65746328",
+    "author": "Stephanie Dolrenry",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "porcupine-amphipod": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/699706789/large.jpg",
+    "source": "https://www.inaturalist.org/observations/184775736",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "central-mudminnow": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667853581/large.jpg",
+    "source": "https://www.inaturalist.org/observations/365780857",
+    "author": "Gojilynx",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "japanese-dark-sleeper": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348627157/large.jpg",
+    "source": "https://www.inaturalist.org/observations/197876097",
+    "author": "りなべる",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hasselts-catfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172962103/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/103358868",
+    "author": "Utain Pummarin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "shortjaw-kokopu": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446141232/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/249568194",
+    "author": "Oscar Dove",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
