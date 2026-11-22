@@ -72,6 +72,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Squatina_squatina_120867948.jpg",
   },
+  "ansorges-panchax": {
+    author: "Gina Walsh",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/200856567",
+  },
   "antarctic-brittle-star": {
     author: "Ingvild Riska",
     license: "CC BY 4.0",
@@ -702,6 +708,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Adult_Clown_featherback_in_aquarium.jpg",
   },
+  "clown-goby-cichlid": {
+    author: "Zach Johnson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/289573807",
+  },
   "clown-triggerfish": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -1254,6 +1266,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/415470920",
   },
+  "humpback-batfish": {
+    author: "portioid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/218430512",
+  },
   "humpback-whale": {
     author: "Ken-ichi Ueda",
     license: "CC BY 4.0",
@@ -1656,6 +1674,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/117540049",
   },
+  "noble-scallop": {
+    author: "kfa",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/67244994",
+  },
   "north-atlantic-right-whale": {
     author: "Ann McKenzie",
     license: "CC0",
@@ -1787,6 +1811,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/154755047",
+  },
+  "painted-greenling": {
+    author: "Ken-ichi Ueda",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/748",
   },
   "peacock-bass": {
     author: "Petruss",
@@ -1992,6 +2022,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
   },
+  "red-eye-puffer": {
+    author: "Павлик Лисицын",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/144751462",
+  },
   "red-gurnard": {
     author: "Brian Gratwicke",
     license: "CC BY 2.0",
@@ -2040,6 +2076,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/120473866",
   },
+  "redside-dace": {
+    author: "Steven Wang",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/356996715",
+  },
   "redtail-catfish": {
     author: "Emőke Dénes",
     license: "CC BY-SA 4.0",
@@ -2057,6 +2099,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/99732722",
+  },
+  "reef-squid": {
+    author: "Matteo Cassella",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/40060329",
   },
   "ribbon-eel": {
     author: "Diego Delso",
@@ -2196,6 +2244,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/217304924",
   },
+  "sea-tadpole": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/184310973",
+  },
   "sevengill-shark": {
     author: "Luca Davenport-Thomas",
     license: "CC BY 4.0",
@@ -2219,6 +2273,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/381745131",
+  },
+  "shortnose-sturgeon": {
+    author: "jeffcherry",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/131497815",
   },
   "siamese-fighting-fish": {
     author: "Henryk Niestrój",
@@ -2291,6 +2351,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/385780106",
+  },
+  "southern-dumpling-squid": {
+    author: "Christopher Mark",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/37841240",
   },
   "southern-right-whale": {
     author: "steve b",
@@ -2400,6 +2466,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/7186904",
   },
+  "stegosaurus-nudibranch": {
+    author: "Rodrigo Canalli",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/19892429",
+  },
   "sterbas-cory": {
     author: "Matthew Mannell",
     license: "Public domain",
@@ -2417,6 +2489,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "http://creativecommons.org/licenses/by-sa/3.0/",
     source: "https://commons.wikimedia.org/wiki/File:Stoplight-parrotfish.jpg",
+  },
+  "striped-blenny": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/154755050",
   },
   "striped-catfish": {
     author: "Gannu03",
@@ -2436,6 +2514,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mullus_surmuletus_Cala_Gracio.jpg",
   },
+  "striped-rockcod": {
+    author: "Rachel Crane",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/323456786",
+  },
   "sunflower-sea-star": {
     author: "Old Goat",
     license: "CC BY-SA 4.0",
@@ -2453,6 +2537,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Enypniastes_eximia_Puerto_Rico.jpg",
+  },
+  "talking-catfish": {
+    author: "Michael Bakker Paiva",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/7174834",
   },
   "tambaqui": {
     author: "Brian Gratwicke",
@@ -2549,6 +2639,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/237908815",
+  },
+  "urchin-clingfish": {
+    author: "Saryu Mae 前 朝琉",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/283876194",
   },
   "vampire-crab": {
     author: "CEphoto, Uwe Aranas",
@@ -3195,4 +3291,20 @@ const PHOTO_ORDER = [
   "grass-puffer",
   "one-gilled-eel",
   "thornfish",
+  "painted-greenling",
+  "reef-squid",
+  "talking-catfish",
+  "shortnose-sturgeon",
+  "striped-blenny",
+  "ansorges-panchax",
+  "stegosaurus-nudibranch",
+  "clown-goby-cichlid",
+  "humpback-batfish",
+  "southern-dumpling-squid",
+  "striped-rockcod",
+  "sea-tadpole",
+  "redside-dace",
+  "noble-scallop",
+  "red-eye-puffer",
+  "urchin-clingfish",
 ];

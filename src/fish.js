@@ -514,6 +514,14 @@ const FISH = [
     region: 'caribbean',
     fact: 'A long, stick-thin fish that hangs head-down among sea rods and soft corals to vanish against them. It also shadows larger fish, hiding along their backs to get close to prey, then expands its tube snout and sucks small fish in like a pipette.',
   },
+  {
+    id: 'reef-squid',
+    name: 'Reef Squid',
+    sciName: 'Sepioteuthis sepioidea',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/63623021/large.jpg',
+    region: 'caribbean',
+    fact: 'Hovers in small groups over reefs and seagrass, flickering through colours and patterns that it uses to court, warn and threaten — a male can show one display to a female on one side and another to a rival on the other. It lives only about a year.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -739,6 +747,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/205176431/large.jpg',
     region: 'amazon',
     fact: 'A deep-bodied piranha with silver flanks speckled in dark spots and an orange-red throat. It bites chunks out of fins and scales of other fish as well as eating whole prey, and its teeth interlock like a row of blades.',
+  },
+  {
+    id: 'talking-catfish',
+    name: 'Talking Catfish',
+    sciName: 'Amblydoras nauticus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/9246494/large.jpeg',
+    region: 'amazon',
+    fact: 'An armoured catfish with a row of thorny plates down each side. It makes loud croaking and grunting noises by grinding its fin spines and vibrating its swim bladder, and it spends the day buried in leaf litter or sand.',
   },
   // ---- North Atlantic ----
   {
@@ -990,6 +1006,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Its two claws differ: a heavy crusher for cracking shells and a slender cutter for tearing. It keeps growing for life by moulting and can pass a century, and the biggest on record weighed over twenty kilograms.',
   },
+  {
+    id: 'shortnose-sturgeon',
+    name: 'Shortnose Sturgeon',
+    sciName: 'Acipenser brevirostrum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/223786222/large.jpeg',
+    region: 'north-atlantic',
+    fact: 'A small sturgeon with rows of bony plates instead of scales and a snout full of sensitive barbels for feeling out food on the bottom. It lives in rivers and estuaries, travelling up to spawn, and can live more than sixty years.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -1201,6 +1225,14 @@ const FISH = [
     fact: 'A thumb-sized goby, scarlet with electric-blue bars, that perches on rock near urchin spines and darts into cover when threatened. Groups are run by one male; if he disappears, the largest female becomes a male within days — and can switch back if a bigger male turns up.',
   },
   {
+    id: 'painted-greenling',
+    name: 'Painted Greenling',
+    sciName: 'Oxylebius pictus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/789/large.jpg',
+    region: 'north-pacific',
+    fact: 'A small, pale fish striped with red bars and peppered with spots, which perches on rock among anemones. It is one of the few fish that can rest among anemone tentacles without being stung. Males darken almost black when guarding eggs.',
+  },
+  {
     id: 'ocean-sunfish',
     name: 'Ocean Sunfish',
     sciName: 'Mola mola',
@@ -1287,6 +1319,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/136771569/large.jpg',
     region: 'mediterranean',
     fact: 'A violet sea slug fringed with clusters of purple and white plumes. It feeds on hydroids and stores their stinging cells in the tips of its plumes to defend itself.',
+  },
+  {
+    id: 'striped-blenny',
+    name: 'Striped Blenny',
+    sciName: 'Parablennius rouxi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/267427482/large.jpg',
+    region: 'mediterranean',
+    fact: 'A slim, white blenny with a black stripe from nose to tail that perches in holes and cracks in rock, often among sponges. It is one of the few blennies that is pale rather than mottled, and males guard eggs inside empty tubes.',
   },
   // ---- Congo Basin ----
   {
@@ -1490,6 +1530,14 @@ const FISH = [
     region: 'congo',
     fact: 'A slim, striped predator that sneaks up on other fish and bites pieces from their fins and scales. Its tail is boldly banded, and it can stalk by drifting slowly, looking harmless, until close enough to snap.',
   },
+  {
+    id: 'ansorges-panchax',
+    name: 'Ansorge\'s Panchax',
+    sciName: 'Epiplatys ansorgii',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/354451276/large.jpeg',
+    region: 'congo',
+    fact: 'A small killifish that lives just under the surface of shady forest streams, its upturned mouth picking off insects that fall in. Males are spotted with red and have flowing fins. It lays eggs among floating plants.',
+  },
   // ---- South Atlantic ----
   {
     id: 'west-african-fiddler-crab',
@@ -1658,6 +1706,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/334539866/large.jpeg',
     region: 'south-atlantic',
     fact: 'A parrotfish that grazes algae off rock with fused, beak-like teeth, grinding up the stone too and passing it as fine sand. Terminal males are green and red with a yellow spot on the side; females and young are mottled brown.',
+  },
+  {
+    id: 'stegosaurus-nudibranch',
+    name: 'Stegosaurus Nudibranch',
+    sciName: 'Tambja stegosauriformis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/30677496/large.jpg',
+    region: 'south-atlantic',
+    fact: 'A yellow and green sea slug ringed with blue spots, with a row of plates along its back that gives it its name. It eats bryozoans, and like other brightly coloured slugs it carries chemicals that make it unpleasant to eat.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -1884,6 +1940,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/486038044/large.jpeg',
     region: 'rift-lakes',
     fact: 'A sea star so puffed up that it looks more like a pentagonal pillow than a star, its arms all but gone. It feeds on coral polyps by pushing out its stomach over them, and small fish and shrimp often shelter under it.',
+  },
+  {
+    id: 'clown-goby-cichlid',
+    name: 'Clown Goby Cichlid',
+    sciName: 'Eretmodus marksmithi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/520841136/large.jpg',
+    region: 'rift-lakes',
+    fact: 'A small cichlid that lives in the surf zone of rocky shores, scraping algae with chisel-like teeth. It has almost lost its swim bladder, so it hops along the rocks like a goby rather than swimming. Both parents brood the eggs in their mouths.',
   },
   // ---- Coral Triangle ----
   {
@@ -2175,6 +2239,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Not a pipefish but a close relative of seahorses, covered in frills and spines that blend into the feather stars and sea fans it hangs beside, head down. Females carry eggs in a pouch made from their pelvic fins.',
   },
+  {
+    id: 'humpback-batfish',
+    name: 'Humpback Batfish',
+    sciName: 'Platax batavianus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/386504296/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Juveniles are black with orange edges and tall fins that make them look like drifting toxic flatworms or dead leaves. As they grow, they lose the extreme fins and become silvery adults with a bump on the forehead.',
+  },
   // ---- Australia ----
   {
     id: 'barramundi',
@@ -2425,6 +2497,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'A deep-bodied, black-and-white striped fish with a tall dorsal spine. It is said to be named for the grinding noise it makes when caught. The spines carry a mild venom, and it lives in small schools on rocky reefs and jetties.',
   },
+  {
+    id: 'southern-dumpling-squid',
+    name: 'Southern Dumpling Squid',
+    sciName: 'Euprymna tasmanica',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/60067600/large.jpg',
+    region: 'northern-australia',
+    fact: 'A small, round squid that buries itself in sand by day and hunts shrimp at night. It hosts glowing bacteria in an organ on its underside, which give off light matching the moonlight above and hide its shadow from predators below.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -2601,6 +2681,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/72700537/large.jpg',
     region: 'southern-ocean',
     fact: 'A bottom-dwelling fish of very cold water that has antifreeze proteins in its blood to keep it from freezing solid. It feeds on worms and small crustaceans on the sea floor and was fished so heavily in the past that it is slow to recover.',
+  },
+  {
+    id: 'striped-rockcod',
+    name: 'Striped Rockcod',
+    sciName: 'Pseudotrematomus hansoni',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/585273667/large.jpg',
+    region: 'southern-ocean',
+    fact: 'A dark-banded rockcod that lives at the bottom of near-freezing water. Like its relatives it has antifreeze proteins in its blood, and it hides under rocks and in crevices, feeding on small crustaceans and worms.',
   },
   // ---- Arctic Ocean ----
   {
@@ -2803,6 +2891,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/31349744/large.jpg',
     region: 'arctic',
     fact: 'A bright red sea star with five long, tapering arms that hunts clams and other sea stars on the cold sea floor. Females brood their eggs under their arms, hunched over them, until they hatch.',
+  },
+  {
+    id: 'sea-tadpole',
+    name: 'Sea Tadpole',
+    sciName: 'Careproctus reinhardti',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/321705151/large.jpeg',
+    region: 'arctic',
+    fact: 'A soft, pink snailfish shaped like a tadpole, with a sucker on its belly made from its pelvic fins. It lives on cold, deep mud, and its jelly-like body has no scales.',
   },
   // ---- Great Lakes and inland North America ----
   {
@@ -3029,6 +3125,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/249581189/large.jpg',
     region: 'great-lakes',
     fact: 'A small fish with five or six short spines on its back that can be locked upright to jam in a predator\'s throat. The male builds a nest of plant fragments glued together with a kidney secretion and guards the eggs and fry.',
+  },
+  {
+    id: 'redside-dace',
+    name: 'Redside Dace',
+    sciName: 'Clinostomus elongatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/651071158/large.jpg',
+    region: 'great-lakes',
+    fact: 'A small minnow with a red stripe along its flank and an unusually large mouth. It leaps clear of the water to catch flying insects, especially in small, cool streams where trees overhang the banks.',
   },
   // ---- Sea of Japan ----
   {
@@ -3264,6 +3368,14 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'A small, spotted puffer that spawns in great numbers at the water\'s edge on summer nights, at the high tides of new and full moon, wriggling up onto the pebbles as waves break. Its organs hold enough nerve toxin to kill.',
   },
+  {
+    id: 'noble-scallop',
+    name: 'Noble Scallop',
+    sciName: 'Mimachlamys crassicostata',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/108596045/large.jpeg',
+    region: 'sea-of-japan',
+    fact: 'A brightly coloured scallop — orange, purple, red or yellow — with rough ribs on its shell. It can swim by clapping its valves together and jetting water out, and it has dozens of tiny blue eyes along the edge of its mantle.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -3465,6 +3577,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/242020338/large.jpeg',
     region: 'mekong',
     fact: 'A red, worm-like swamp eel with its gill openings merged into a single slit under the throat. It burrows in the mud of mangroves and estuaries and can breathe air, surviving low tide buried in damp mud.',
+  },
+  {
+    id: 'red-eye-puffer',
+    name: 'Red-eye Puffer',
+    sciName: 'Carinotetraodon lorteti',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/248508080/large.jpg',
+    region: 'mekong',
+    fact: 'A puffer only a few centimetres long. Both sexes have bright red eyes; males also show a dark belly stripe and raise a crest along their back to rivals and females. It lives in slow, weedy water and eats snails and small invertebrates.',
   },
   // ---- New Zealand ----
   {
@@ -3682,5 +3802,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/189579525/large.jpeg',
     region: 'new-zealand',
     fact: 'A mottled rock-pool fish with a large head and a sharp spine on each gill cover. It sits motionless among seaweed and rocks, its colours matching them, and gulps down small crabs and shrimp that come close.',
+  },
+  {
+    id: 'urchin-clingfish',
+    name: 'Urchin Clingfish',
+    sciName: 'Dellichthys morelandi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/510101429/large.jpg',
+    region: 'new-zealand',
+    fact: 'A small fish with a sucker on its belly that clings to sea urchins and rock. It hides among the spines and picks off tiny crustaceans that live around it.',
   },
 ];

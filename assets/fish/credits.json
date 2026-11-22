@@ -3227,5 +3227,117 @@
     "author": "Luca Davenport-Thomas",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "painted-greenling": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/789/large.jpg",
+    "source": "https://www.inaturalist.org/observations/748",
+    "author": "Ken-ichi Ueda",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "reef-squid": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63623021/large.jpg",
+    "source": "https://www.inaturalist.org/observations/40060329",
+    "author": "Matteo Cassella",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "talking-catfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9246494/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/7174834",
+    "author": "Michael Bakker Paiva",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "shortnose-sturgeon": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223786222/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/131497815",
+    "author": "jeffcherry",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "striped-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267427482/large.jpg",
+    "source": "https://www.inaturalist.org/observations/154755050",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ansorges-panchax": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354451276/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/200856567",
+    "author": "Gina Walsh",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "stegosaurus-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30677496/large.jpg",
+    "source": "https://www.inaturalist.org/observations/19892429",
+    "author": "Rodrigo Canalli",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "clown-goby-cichlid": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520841136/large.jpg",
+    "source": "https://www.inaturalist.org/observations/289573807",
+    "author": "Zach Johnson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "humpback-batfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386504296/large.jpg",
+    "source": "https://www.inaturalist.org/observations/218430512",
+    "author": "portioid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "southern-dumpling-squid": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60067600/large.jpg",
+    "source": "https://www.inaturalist.org/observations/37841240",
+    "author": "Christopher Mark",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "striped-rockcod": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585273667/large.jpg",
+    "source": "https://www.inaturalist.org/observations/323456786",
+    "author": "Rachel Crane",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sea-tadpole": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321705151/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/184310973",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "redside-dace": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/651071158/large.jpg",
+    "source": "https://www.inaturalist.org/observations/356996715",
+    "author": "Steven Wang",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "noble-scallop": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108596045/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/67244994",
+    "author": "kfa",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "red-eye-puffer": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248508080/large.jpg",
+    "source": "https://www.inaturalist.org/observations/144751462",
+    "author": "Павлик Лисицын",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "urchin-clingfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/510101429/large.jpg",
+    "source": "https://www.inaturalist.org/observations/283876194",
+    "author": "Saryu Mae 前 朝琉",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
