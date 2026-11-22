@@ -168,6 +168,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni.jpg",
   },
+  "apolegma-nudibranch": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/36667304",
+  },
   "arapaima": {
     author: "T.Voekler",
     license: "CC BY-SA 3.0",
@@ -492,6 +498,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/259913283",
   },
+  "blood-star": {
+    author: "Bernadette Kavanaugh",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/183709406",
+  },
   "blue-banded-goby": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -708,6 +720,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/255798360",
   },
+  "bucchichs-goby": {
+    author: "Albert Cardona",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/86397134",
+  },
   "buffalohead-cichlid": {
     author: "5snake5",
     license: "CC0",
@@ -774,6 +792,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/180908836",
   },
+  "cangico-anemone": {
+    author: "Romi Galeota Lencina",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/17602275",
+  },
   "capelin": {
     author: "michaelbakkerpaiva",
     license: "CC BY 4.0",
@@ -797,6 +821,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://commons.wikimedia.org/wiki/File:Full_Shot_of_a_Caribbean_Reef_Shark_at_Tiger_Beach_Bahamas.jpg",
+  },
+  "caribbean-two-spot-octopus": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/139169854",
   },
   "cave-crayfish": {
     author: "Valentin Moser",
@@ -839,6 +869,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.0",
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Japan_fish,_Sakuradai_(Sacura_margaritacea)_(15770306721).jpg",
+  },
+  "chestnut-mystus": {
+    author: "Utain Pummarin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/103358870",
   },
   "china-rockfish": {
     author: "dpcmiller",
@@ -1284,6 +1320,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:FlyingGurnard.jpg",
   },
+  "four-tentacled-hydromedusa": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/193092114",
+  },
   "foureye-butterflyfish": {
     author: "Fish and Dive",
     license: "CC BY 4.0",
@@ -1620,6 +1662,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/67897881",
   },
+  "hornyhead-chub": {
+    author: "moxostoma",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/296351292",
+  },
   "horsehair-crab": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -1733,6 +1781,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Giant_Japanese_spider_crab_(Macrocheira_kaempferi)_at_the_Shedd_Aquarium,_Chicago,_IL_(6802024350).jpg",
+  },
+  "japanese-spined-loach": {
+    author: "WATANABE Hitoshi 渡辺仁",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/320615961",
   },
   "japanese-spiny-lobster": {
     author: "呂一起(Lyu yi-chi)",
@@ -1997,6 +2051,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/184223339",
+  },
+  "marbled-catfish": {
+    author: "Carlos Otávio Gussoni",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/37847323",
   },
   "marbled-electric-ray": {
     author: "Ericsfr",
@@ -2724,6 +2784,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/40060329",
   },
+  "reef-star": {
+    author: "Jacqui Geux",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/14874149",
+  },
   "ribbon-eel": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -2783,6 +2849,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/103347614",
+  },
+  "rosy-rockfish": {
+    author: "Konshau Duman",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/302137706",
   },
   "royal-gramma": {
     author: "H. Zell",
@@ -3282,6 +3354,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/7186904",
   },
+  "starry-jewel-cichlid": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814673",
+  },
   "stegosaurus-nudibranch": {
     author: "Rodrigo Canalli",
     license: "CC BY 4.0",
@@ -3600,6 +3678,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Sander_vitreus.jpg",
   },
+  "warty-antarctic-sea-squirt": {
+    author: "Charlotte Kirchner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/198501309",
+  },
   "warty-bobtail": {
     author: "Георгий Виноградов (Georgy Vinogradov)",
     license: "CC BY 4.0",
@@ -3630,6 +3714,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/37993895",
   },
+  "western-blue-devil": {
+    author: "ttsquid",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/328463787",
+  },
   "western-talma": {
     author: "Belinda Forbes",
     license: "CC BY 4.0",
@@ -3653,6 +3743,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 3.0",
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:珍珠蝴蝶_Tropheus_duboisi_(Marlier,_1959)_-_panoramio.jpg",
+  },
+  "whitebarred-rubberlip": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/326931870",
   },
   "whitetip-reef-shark": {
     author: "Peter Nathaniel Boyer",
@@ -4427,4 +4523,20 @@ const PHOTO_ORDER = [
   "japanese-dark-sleeper",
   "hasselts-catfish",
   "shortjaw-kokopu",
+  "rosy-rockfish",
+  "caribbean-two-spot-octopus",
+  "marbled-catfish",
+  "blood-star",
+  "bucchichs-goby",
+  "starry-jewel-cichlid",
+  "cangico-anemone",
+  "whitebarred-rubberlip",
+  "apolegma-nudibranch",
+  "western-blue-devil",
+  "warty-antarctic-sea-squirt",
+  "four-tentacled-hydromedusa",
+  "hornyhead-chub",
+  "japanese-spined-loach",
+  "chestnut-mystus",
+  "reef-star",
 ];

@@ -4459,5 +4459,117 @@
     "author": "Oscar Dove",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rosy-rockfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544497057/large.jpg",
+    "source": "https://www.inaturalist.org/observations/302137706",
+    "author": "Konshau Duman",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "caribbean-two-spot-octopus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237983692/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/139169854",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "marbled-catfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60079155/large.jpg",
+    "source": "https://www.inaturalist.org/observations/37847323",
+    "author": "Carlos Otávio Gussoni",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blood-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320549266/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/183709406",
+    "author": "Bernadette Kavanaugh",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bucchichs-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142323972/large.jpg",
+    "source": "https://www.inaturalist.org/observations/86397134",
+    "author": "Albert Cardona",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "starry-jewel-cichlid": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146294/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814673",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "cangico-anemone": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26803341/large.jpg",
+    "source": "https://www.inaturalist.org/observations/17602275",
+    "author": "Romi Galeota Lencina",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "whitebarred-rubberlip": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592202502/large.jpg",
+    "source": "https://www.inaturalist.org/observations/326931870",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "apolegma-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57993266/large.jpg",
+    "source": "https://www.inaturalist.org/observations/36667304",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "western-blue-devil": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595203235/large.jpg",
+    "source": "https://www.inaturalist.org/observations/328463787",
+    "author": "ttsquid",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "warty-antarctic-sea-squirt": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349881186/large.png",
+    "source": "https://www.inaturalist.org/observations/198501309",
+    "author": "Charlotte Kirchner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "four-tentacled-hydromedusa": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339132840/large.jpg",
+    "source": "https://www.inaturalist.org/observations/193092114",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hornyhead-chub": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533563188/large.jpg",
+    "source": "https://www.inaturalist.org/observations/296351292",
+    "author": "moxostoma",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "japanese-spined-loach": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579712548/large.jpg",
+    "source": "https://www.inaturalist.org/observations/320615961",
+    "author": "WATANABE Hitoshi 渡辺仁",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "chestnut-mystus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172962170/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/103358870",
+    "author": "Utain Pummarin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "reef-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22202456/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/14874149",
+    "author": "Jacqui Geux",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
