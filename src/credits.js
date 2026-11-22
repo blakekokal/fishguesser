@@ -108,6 +108,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/264532850",
   },
+  "antarctic-limpet": {
+    author: "Tim",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/293140488",
+  },
   "antarctic-minke-whale": {
     author: "Bob Walker",
     license: "CC BY 4.0",
@@ -383,6 +389,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814778",
+  },
+  "binza-nudibranch": {
+    author: "Pauline Walsh Jacobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/202670530",
   },
   "black-crappie": {
     author: "Quinn",
@@ -684,6 +696,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/383346005",
   },
+  "canary-drum": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/180908836",
+  },
   "capelin": {
     author: "michaelbakkerpaiva",
     license: "CC BY 4.0",
@@ -966,6 +984,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mero_(Epinephelus_marginatus),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-15,_DD_34.jpg",
   },
+  "dwarf-sleeper": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814710",
+  },
   "earspot-angelfish": {
     author: "Ewout Knoester",
     license: "CC BY-SA 4.0",
@@ -1073,6 +1097,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/69140017",
+  },
+  "fantail-darter": {
+    author: "moxostoma",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/18551736",
   },
   "fire-eel": {
     author: "Гурьева Светлана (zooclub.ru)",
@@ -1392,6 +1422,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/201674547",
   },
+  "horn-shark": {
+    author: "Michael Bear",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/9963975",
+  },
   "horned-turban": {
     author: "りなべる",
     license: "CC BY 4.0",
@@ -1547,6 +1583,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Hexagrammos_decagrammus_hembra.jpg",
+  },
+  "kidako-moray": {
+    author: "ippanjin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/306300592",
   },
   "kina": {
     author: "Emily Roberts",
@@ -1758,6 +1800,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:2009_Chelus_fimbriatus.JPG",
   },
+  "mccullochs-scalyfin": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/260668852",
+  },
   "mediterranean-cardinalfish": {
     author: "Ben Costamagna",
     license: "CC BY 4.0",
@@ -1811,6 +1859,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/210998943",
+  },
+  "montagus-sea-snail": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/63842417",
   },
   "moonlight-gourami": {
     author: "Utain Pummarin",
@@ -2052,6 +2106,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/5480919",
   },
+  "patagonian-crab": {
+    author: "vinicius_s_domingues",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/139071057",
+  },
   "peacock-bass": {
     author: "Petruss",
     license: "CC BY-SA 4.0",
@@ -2081,6 +2141,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/154729581",
+  },
+  "pearl-danio": {
+    author: "Павлик Лисицын",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/147884188",
   },
   "pearl-gourami": {
     author: "h080",
@@ -2430,6 +2496,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/304187437",
   },
+  "saddleback-clownfish": {
+    author: "Jean-Paul Boerekamps",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/142059175",
+  },
   "saduria-isopod": {
     author: "Zac Peterson",
     license: "CC BY 4.0",
@@ -2622,6 +2694,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/70912604",
   },
+  "smalleye-stingray": {
+    author: "Ewout Knoester",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/78027592",
+  },
   "smallmouth-bass": {
     author: "Engbretson Eric, U.S. Fish and Wildlife Service",
     license: "Public domain",
@@ -2736,6 +2814,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/183826058",
   },
+  "spiny-brittle-star": {
+    author: "Георгий Виноградов (Georgy Vinogradov)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/20302906",
+  },
   "spiny-cushion-star": {
     author: "Jan Ebr &amp; Ivana Ebrová",
     license: "CC BY 4.0",
@@ -2765,6 +2849,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/2511605",
+  },
+  "spotted-pike-characin": {
+    author: "Kathy Richardson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/235441334",
   },
   "spotted-porcelain-crab": {
     author: "Jean-Paul Boerekamps",
@@ -3035,6 +3125,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/28019265",
+  },
+  "virgin-paua": {
+    author: "Javier",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/145789096",
   },
   "walleye": {
     author: "Engbretson, Eric / U.S. Fish and Wildlife Service",
@@ -3755,4 +3851,20 @@ const PHOTO_ORDER = [
   "false-kelpfish",
   "malayan-leaffish",
   "fire-nudibranch",
+  "horn-shark",
+  "binza-nudibranch",
+  "spotted-pike-characin",
+  "montagus-sea-snail",
+  "canary-drum",
+  "dwarf-sleeper",
+  "patagonian-crab",
+  "smalleye-stingray",
+  "saddleback-clownfish",
+  "mccullochs-scalyfin",
+  "antarctic-limpet",
+  "spiny-brittle-star",
+  "fantail-darter",
+  "kidako-moray",
+  "pearl-danio",
+  "virgin-paua",
 ];

@@ -3787,5 +3787,117 @@
     "author": "Luca Davenport-Thomas",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "horn-shark": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13685261/large.jpg",
+    "source": "https://www.inaturalist.org/observations/9963975",
+    "author": "Michael Bear",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "binza-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357968605/large.jpg",
+    "source": "https://www.inaturalist.org/observations/202670530",
+    "author": "Pauline Walsh Jacobson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spotted-pike-characin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418718650/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/235441334",
+    "author": "Kathy Richardson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "montagus-sea-snail": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102531520/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/63842417",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "canary-drum": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315211898/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/180908836",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "dwarf-sleeper": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146415/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814710",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "patagonian-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237787744/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/139071057",
+    "author": "vinicius_s_domingues",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "smalleye-stingray": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127651196/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/78027592",
+    "author": "Ewout Knoester",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "saddleback-clownfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243492185/large.jpg",
+    "source": "https://www.inaturalist.org/observations/142059175",
+    "author": "Jean-Paul Boerekamps",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "mccullochs-scalyfin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468153709/large.jpg",
+    "source": "https://www.inaturalist.org/observations/260668852",
+    "author": "Debra Baker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-limpet": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/527590477/large.jpg",
+    "source": "https://www.inaturalist.org/observations/293140488",
+    "author": "Tim",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spiny-brittle-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31346623/large.jpg",
+    "source": "https://www.inaturalist.org/observations/20302906",
+    "author": "Георгий Виноградов (Georgy Vinogradov)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "fantail-darter": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28382153/large.jpg",
+    "source": "https://www.inaturalist.org/observations/18551736",
+    "author": "moxostoma",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "kidako-moray": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/552351181/large.jpg",
+    "source": "https://www.inaturalist.org/observations/306300592",
+    "author": "ippanjin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pearl-danio": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254555011/large.jpg",
+    "source": "https://www.inaturalist.org/observations/147884188",
+    "author": "Павлик Лисицын",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "virgin-paua": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250490218/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/145789096",
+    "author": "Javier",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
