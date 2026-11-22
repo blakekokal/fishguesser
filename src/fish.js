@@ -618,6 +618,14 @@ const FISH = [
     region: 'caribbean',
     fact: 'A small, flattened wrasse with a steep forehead that lives over sand and seagrass. When threatened it dives head-first into the sand and vanishes, and it sleeps buried there at night.',
   },
+  {
+    id: 'indigo-hamlet',
+    name: 'Indigo Hamlet',
+    sciName: 'Hypoplectrus indigo',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/400728012/large.jpg',
+    region: 'caribbean',
+    fact: 'A small sea bass banded in vivid blue and white. Each is male and female at once; a pair spawning at dusk take turns releasing eggs and sperm, so neither one ends up doing all the costly egg-laying.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -947,6 +955,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/18551510/large.jpeg',
     region: 'amazon',
     fact: 'A slender, silvery fish with three dark spots along its side that feeds head-down, nibbling algae and small animals from submerged wood and rocks. It travels in schools in clear rivers.',
+  },
+  {
+    id: 'bristlenose-armoured-catfish',
+    name: 'Bristlenose Armoured Catfish',
+    sciName: 'Pseudorinelepis genibarbis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/205175781/large.jpg',
+    region: 'amazon',
+    fact: 'A dark, heavily armoured catfish with a sucker mouth and bristles along the sides of its head. It clings to logs in blackwater rivers and rasps algae and wood, and males guard eggs laid in holes in the bank.',
   },
   // ---- North Atlantic ----
   {
@@ -1302,6 +1318,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'A small, plump sea star with very short arms, often hidden under stones in rock pools. Each starts life as a male and turns female as it grows, laying sticky eggs on the underside of rocks.',
   },
+  {
+    id: 'european-lobster',
+    name: 'European Lobster',
+    sciName: 'Homarus gammarus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/402772663/large.jpg',
+    region: 'north-atlantic',
+    fact: 'A deep blue lobster with one heavy crushing claw and one sharper cutting claw. It hides in rocky crevices by day and hunts crabs, shellfish and worms at night, and it turns red only when cooked.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -1617,6 +1641,14 @@ const FISH = [
     fact: 'A rockfish washed in copper and orange with a pale stripe along the rear of its side. It stays close to one rocky reef its whole life, hunting crabs and small fish, and it can live for half a century.',
   },
   {
+    id: 'east-pacific-red-octopus',
+    name: 'East Pacific Red Octopus',
+    sciName: 'Octopus rubescens',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/224339775/large.jpg',
+    region: 'north-pacific',
+    fact: 'A small, rusty-red octopus that lives in empty shells, bottles and crevices. It can flush from red to white in an instant and raise little horns of skin over its eyes, and it drills into clams and snails with its beak to inject venom.',
+  },
+  {
     id: 'ocean-sunfish',
     name: 'Ocean Sunfish',
     sciName: 'Mola mola',
@@ -1807,6 +1839,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/324172990/large.jpeg',
     region: 'mediterranean',
     fact: 'A large, mottled blenny with frilly tentacles over its eyes that rests on rocks in shallow water. Males guard eggs laid in crevices, and it can make cracking sounds by grinding its teeth.',
+  },
+  {
+    id: 'long-snout-wrasse',
+    name: 'Long-snout Wrasse',
+    sciName: 'Symphodus rostratus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/267794368/large.jpg',
+    region: 'mediterranean',
+    fact: 'A slim, green wrasse with a long, pointed snout that it uses to pick small animals from seagrass leaves. Males build nests of algae and guard the eggs, and it can shift between green and brown to match its background.',
   },
   // ---- Congo Basin ----
   {
@@ -2114,6 +2154,14 @@ const FISH = [
     region: 'congo',
     fact: 'A catfish covered in leopard-like spots with long, branched whiskers for feeling out food in the river bed. It can creak loudly by grinding its fin spines when caught.',
   },
+  {
+    id: 'donnys-elephantfish',
+    name: 'Donny\'s Elephantfish',
+    sciName: 'Genyomyrus donnyi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/53146254/large.jpg',
+    region: 'congo',
+    fact: 'An elephantfish with a long, downturned chin that it uses to probe mud for insect larvae. It produces weak electric pulses to sense its surroundings and to signal to other fish in murky water.',
+  },
   // ---- South Atlantic ----
   {
     id: 'west-african-fiddler-crab',
@@ -2386,6 +2434,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/171072619/large.jpg',
     region: 'south-atlantic',
     fact: 'Bright orange as a juvenile, darkening to blue-grey with age, this damselfish lives on a handful of remote oceanic islands. Adults farm and defend patches of algae on the reef.',
+  },
+  {
+    id: 'comb-grouper',
+    name: 'Comb Grouper',
+    sciName: 'Mycteroperca acutirostris',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/628213439/large.jpg',
+    region: 'south-atlantic',
+    fact: 'A slender grouper with a pointed snout and pale spots on a dark green body. Unlike most groupers it often hunts in midwater, feeding on plankton and small fish with its comb-like gill rakers.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -2716,6 +2772,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/238414783/large.jpg',
     region: 'rift-lakes',
     fact: 'A white butterflyfish with a pattern of dark chevrons on its sides and an orange rear. It feeds on coral polyps and small invertebrates, and is usually seen in pairs.',
+  },
+  {
+    id: 'zebra-angelfish',
+    name: 'Zebra Angelfish',
+    sciName: 'Genicanthus caudovittatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/56628685/large.jpg',
+    region: 'rift-lakes',
+    fact: 'A pale angelfish of deep reef slopes. Males are striped with thin dark lines and have a long, lyre-shaped tail, while females are plain with black edges to their tails. It feeds on plankton in midwater.',
   },
   // ---- Coral Triangle ----
   {
@@ -3111,6 +3175,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'A large sea slug whose back is covered in long, finger-like projections that farm algae taken from the soft corals it eats. The algae photosynthesise inside its body and feed the slug as it sunbathes.',
   },
+  {
+    id: 'leopard-sea-slug',
+    name: 'Leopard Sea Slug',
+    sciName: 'Euselenops luniceps',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/158695648/large.jpg',
+    region: 'coral-triangle',
+    fact: 'A flat, broad sea slug covered in dark leopard spots, with a long siphon at the front it uses like a snorkel while buried in sand. It hunts other small sea slugs at night.',
+  },
   // ---- Australia ----
   {
     id: 'barramundi',
@@ -3465,6 +3537,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'A filefish with tough, sandpapery skin and yellow lines along its body that lives in kelp and seagrass. It has a single strong spine on its head that it can lock upright when threatened.',
   },
+  {
+    id: 'sculptured-seamoth',
+    name: 'Sculptured Seamoth',
+    sciName: 'Pegasus lancifer',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/34638828/large.jpg',
+    region: 'northern-australia',
+    fact: 'A small, flattened fish encased in bony plates, with wing-like pectoral fins and a long snout. It walks over sand on its fins and sheds its whole skin every few days in one piece.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -3745,6 +3825,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/422720902/large.jpg',
     region: 'southern-ocean',
     fact: 'A thick, segmented worm with rows of paddle-like legs edged in bristles. It burrows in soft sediment of cold, shallow bays and hunts small animals, extending a muscular throat to grab them.',
+  },
+  {
+    id: 'marbled-rockcod',
+    name: 'Marbled Rockcod',
+    sciName: 'Notothenia rossii',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/458487156/large.jpeg',
+    region: 'southern-ocean',
+    fact: 'A large, mottled cod-like fish with antifreeze proteins in its blood. It was once so heavily fished around the islands where it lives that numbers have still not recovered decades later.',
   },
   // ---- Arctic Ocean ----
   {
@@ -4051,6 +4139,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/384399666/large.jpeg',
     region: 'arctic',
     fact: 'A salmon-pink sea slug covered in long, fleshy projections on its back. It feeds on hydroids and stores their stinging cells in the tips of its projections for its own defence.',
+  },
+  {
+    id: 'arctic-lobed-comb-jelly',
+    name: 'Arctic Lobed Comb Jelly',
+    sciName: 'Dryodora glandiformis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/383654036/large.jpeg',
+    region: 'arctic',
+    fact: 'A small, clear jelly with two rounded lobes it uses to wrap around and engulf prey. Rows of beating hairs along its body scatter light into rainbow ripples, though it has no stinging cells at all.',
   },
   // ---- Great Lakes and inland North America ----
   {
@@ -4381,6 +4477,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/529539866/large.jpg',
     region: 'great-lakes',
     fact: 'A small minnow with a dark stripe from snout to tail that lives in cool, clear streams. In spring males grow bright orange fins and spawn over gravel in riffles.',
+  },
+  {
+    id: 'cutlip-minnow',
+    name: 'Cutlip Minnow',
+    sciName: 'Exoglossum maxillingua',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/748425943/large.jpg',
+    region: 'great-lakes',
+    fact: 'A minnow with an odd three-lobed lower jaw, like a pair of pincers, that it uses to pluck snails and insect larvae from rocks. Some even pick the eyes from other fish. Males build pebble nests.',
   },
   // ---- Sea of Japan ----
   {
@@ -4720,6 +4824,14 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'A long, sand-coloured fish with a pointed snout and whiskers that rests on sand in clear rivers. It sifts sand for tiny insects and worms, and it can bury itself completely when frightened.',
   },
+  {
+    id: 'moon-crab',
+    name: 'Moon Crab',
+    sciName: 'Matuta victor',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/521136190/large.jpg',
+    region: 'sea-of-japan',
+    fact: 'A round, sand-coloured crab speckled with red spots and with paddle-shaped legs. It can dig into sand in moments and swims backwards using its flattened legs.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -5025,6 +5137,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/328167400/large.jpg',
     region: 'mekong',
     fact: 'A slender minnow with a sucking disc on its chin that lets it graze algae from rocks in fast streams. It holds itself against the current and moves upstream in schools.',
+  },
+  {
+    id: 'bearded-mudskipper',
+    name: 'Bearded Mudskipper',
+    sciName: 'Scartelaos histophorus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/277090673/large.jpeg',
+    region: 'mekong',
+    fact: 'A slender mudskipper with a fringe of whiskers under its chin. It lives on soft mudflats, breathing through its skin and mouth lining when out of water, and males leap into the air to attract females.',
   },
   // ---- New Zealand ----
   {
@@ -5346,5 +5466,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/43459211/large.jpeg',
     region: 'new-zealand',
     fact: 'A brittle star with long, banded arms that it can whip about to move quickly over rocks. It hides under boulders by day and comes out at night to scavenge, and it can drop an arm to escape and regrow it.',
+  },
+  {
+    id: 'maori-octopus',
+    name: 'Māori Octopus',
+    sciName: 'Macroctopus maorum',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/342040904/large.jpeg',
+    region: 'new-zealand',
+    fact: 'A large, reddish octopus with white spots that can reach more than a metre across. It hunts crabs and lobsters on rocky reefs at night, prying them from crevices with powerful arms.',
   },
 ];

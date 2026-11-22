@@ -216,6 +216,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.5",
     source: "https://commons.wikimedia.org/wiki/File:Underwater_Arctic_Grayling.jpg",
   },
+  "arctic-lobed-comb-jelly": {
+    author: "Sue Carnahan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/217150803",
+  },
   "arctic-staghorn-sculpin": {
     author: "Sue Carnahan",
     license: "CC BY 4.0",
@@ -425,6 +431,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/57722",
+  },
+  "bearded-mudskipper": {
+    author: "Utain Pummarin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/160358742",
   },
   "beluga-whale": {
     author: "Antony Stanley",
@@ -702,6 +714,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/223263913",
   },
+  "bristlenose-armoured-catfish": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121260649",
+  },
   "brook-stickleback": {
     author: "Dustin Snider",
     license: "CC BY 4.0",
@@ -966,6 +984,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/96210976",
   },
+  "comb-grouper": {
+    author: "Paulo Mascaretti",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/344765306",
+  },
   "common-basket-star": {
     author: "Rachel Crane",
     license: "CC BY 4.0",
@@ -1104,6 +1128,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/186177002",
   },
+  "cutlip-minnow": {
+    author: "Mark Eanes",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/407289768",
+  },
   "dalls-porpoise": {
     author: "MadMagpie",
     license: "CC0",
@@ -1139,6 +1169,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/243057660",
+  },
+  "donnys-elephantfish": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814660",
   },
   "draughtsboard-shark": {
     author: "Py1jtp",
@@ -1187,6 +1223,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/121451816",
+  },
+  "east-pacific-red-octopus": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/131797470",
   },
   "eastern-blue-devil": {
     author: "Joanna Chen",
@@ -1277,6 +1319,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/311749158",
+  },
+  "european-lobster": {
+    author: "Libby Keatley",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/227063423",
   },
   "european-seabass": {
     author: "Bjoertvedt",
@@ -1746,6 +1794,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/35913682",
   },
+  "indigo-hamlet": {
+    author: "Pauline Walsh Jacobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/225988247",
+  },
   "iowa-darter": {
     author: "Dean Hester",
     license: "CC BY 4.0",
@@ -1974,6 +2028,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Ctenopoma_acutirostre_1.JPG",
   },
+  "leopard-sea-slug": {
+    author: "Bernard DUPONT",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/95581170",
+  },
   "leopard-shark": {
     author: "Brian Gratwicke",
     license: "CC BY 2.0",
@@ -2027,6 +2087,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/12794641",
+  },
+  "long-snout-wrasse": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/154953812",
   },
   "long-snouted-seahorse": {
     author: "Julien Renoult",
@@ -2100,6 +2166,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/184223339",
   },
+  "maori-octopus": {
+    author: "Joep de Ligt",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/194565451",
+  },
   "marbled-catfish": {
     author: "Carlos Otávio Gussoni",
     license: "CC BY 4.0",
@@ -2135,6 +2207,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Marbled_crab_(Pachygrapsus_marmoratus)_Butrint.jpg",
+  },
+  "marbled-rockcod": {
+    author: "Pablo",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/255796418",
   },
   "matamata": {
     author: "J. Patrick Fischer",
@@ -2207,6 +2285,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/63842417",
+  },
+  "moon-crab": {
+    author: "りなべる",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/289728939",
   },
   "moonlight-gourami": {
     author: "Utain Pummarin",
@@ -3017,6 +3101,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/180184399",
+  },
+  "sculptured-seamoth": {
+    author: "Christopher Mark",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/22364714",
   },
   "sea-angel": {
     author: "Tine Kinn Kvamme",
@@ -3954,6 +4044,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814646",
   },
+  "zebra-angelfish": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/35876246",
+  },
   "zebra-bullhead-shark": {
     author: "劉哲瑋",
     license: "CC0",
@@ -4651,4 +4747,20 @@ const PHOTO_ORDER = [
   "pike-gudgeon",
   "stonelapping-minnow",
   "banded-brittle-star",
+  "east-pacific-red-octopus",
+  "indigo-hamlet",
+  "bristlenose-armoured-catfish",
+  "european-lobster",
+  "long-snout-wrasse",
+  "donnys-elephantfish",
+  "comb-grouper",
+  "zebra-angelfish",
+  "leopard-sea-slug",
+  "sculptured-seamoth",
+  "marbled-rockcod",
+  "cutlip-minnow",
+  "moon-crab",
+  "bearded-mudskipper",
+  "maori-octopus",
+  "arctic-lobed-comb-jelly",
 ];
