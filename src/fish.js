@@ -490,6 +490,14 @@ const FISH = [
     region: 'caribbean',
     fact: 'Juveniles are mostly fin: a sail-like dorsal taller than the body and a few black bands, drifting in slow circles under ledges. Adults keep the stripes and add white spots on the tail. It calls with a drum muscle beating against its swim bladder.',
   },
+  {
+    id: 'smooth-trunkfish',
+    name: 'Smooth Trunkfish',
+    sciName: 'Lactophrys triqueter',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/345297453/large.jpeg',
+    region: 'caribbean',
+    fact: 'Its body is a rigid box of fused bony plates, so only its fins move — it hovers and sculls like a little helicopter. It blows jets of water into the sand to uncover worms and shrimp, and its skin can release a toxin that poisons fish around it.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -691,6 +699,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/205454462/large.jpg',
     region: 'amazon',
     fact: 'A deep-bodied cichlid that lives in flooded forest and slow, tea-coloured backwaters, picking insects and small fish off submerged branches. Its colour shifts with mood, from olive and chocolate to a blushing red underside when it breeds.',
+  },
+  {
+    id: 'eartheater',
+    name: 'Eartheater',
+    sciName: 'Satanoperca jurupari',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/205516703/large.jpg',
+    region: 'amazon',
+    fact: 'Takes mouthfuls of sand from the river bed and sifts out the small animals in it, blowing the grit back out through its gills. It is a mouthbrooder: the parents carry the eggs and then the young in their mouths, spitting them out to feed and gathering them back in at any threat.',
   },
   // ---- North Atlantic ----
   {
@@ -918,6 +934,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'Mostly head and mouth, fringed with flaps of skin that break up its outline on the bottom. The first spine of its dorsal fin has become a fishing rod with a fleshy lure on the end, which it twitches over its jaws until something comes close enough to swallow.',
   },
+  {
+    id: 'cunner',
+    name: 'Cunner',
+    sciName: 'Tautogolabrus adspersus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/163774124/large.jpeg',
+    region: 'north-atlantic',
+    fact: 'A small, drab wrasse of piers and rocky ledges, famous among anglers for stealing bait. When the water turns cold in winter it wedges itself into a crevice and goes into a torpor, barely moving or feeding until spring.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -1105,6 +1129,14 @@ const FISH = [
     fact: 'A rockfish in convict stripes, black bars on yellow-green with pink lips, that keeps to one crevice and defends it against all comers. Like its relatives it gives birth to live young rather than laying eggs, releasing thousands of tiny larvae at once.',
   },
   {
+    id: 'opalescent-nudibranch',
+    name: 'Opalescent Nudibranch',
+    sciName: 'Hermissenda opalescens',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/31611117/large.jpg',
+    region: 'north-pacific',
+    fact: 'A finger-long sea slug in electric blue lines with orange-tipped plumes down its back. It eats hydroids and anemones and keeps their stinging cells unfired, moving them into its own plumes as a borrowed defence. It is aggressive for a slug, and bites others of its kind.',
+  },
+  {
     id: 'ocean-sunfish',
     name: 'Ocean Sunfish',
     sciName: 'Mola mola',
@@ -1167,6 +1199,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/267382219/large.jpg',
     region: 'mediterranean',
     fact: 'Males in breeding colours are blue, green and yellow with a red-spotted face, and build nests of seaweed in rock crevices that several females lay into. A smaller male may sneak in to fertilise eggs while the owner is busy chasing off a rival.',
+  },
+  {
+    id: 'red-starfish',
+    name: 'Red Starfish',
+    sciName: 'Echinaster sepositus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/213346624/large.jpeg',
+    region: 'mediterranean',
+    fact: 'A bright red sea star with five slender, rounded arms, rough and pitted like orange peel. It feeds on sponges by turning its stomach out over them. Lose an arm to a predator and it grows a new one.',
   },
   // ---- Congo Basin ----
   {
@@ -1346,6 +1386,14 @@ const FISH = [
     region: 'congo',
     fact: 'A slender, pike-shaped hunter with armoured scales and a jaw full of sharp teeth, which it uses to snip mouthfuls of fin from other fish rather than eat them whole. It lies still among plants and strikes from a standstill.',
   },
+  {
+    id: 'yellow-marbled-synodontis',
+    name: 'Yellow Marbled Synodontis',
+    sciName: 'Synodontis schoutedeni',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/53146408/large.jpg',
+    region: 'congo',
+    fact: 'A squeaker catfish marbled in brown on cream, with branched whiskers round its mouth for feeling out food at night. Like its relatives it creaks when grabbed, grinding a locked fin spine, and the spine itself makes it awkward to swallow.',
+  },
   // ---- South Atlantic ----
   {
     id: 'west-african-fiddler-crab',
@@ -1490,6 +1538,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/57480106/large.jpeg',
     region: 'south-atlantic',
     fact: 'A firm, domed jellyfish with a ring of dark violet marks round the rim and no long tentacles — it feeds through hundreds of tiny mouths on its frilled arms. In summer it can be so thick in coastal water that it clogs fishing nets.',
+  },
+  {
+    id: 'brown-burrfish',
+    name: 'Brown Burrfish',
+    sciName: 'Chilomycterus spinosus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/700224332/large.jpg',
+    region: 'south-atlantic',
+    fact: 'A relative of the porcupinefish whose spines are short and fixed upright rather than lying flat until it inflates. When threatened it gulps water and swells into a prickly ball. Beak-like fused teeth crack crabs and snails.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -1692,6 +1748,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/741526935/large.jpg',
     region: 'rift-lakes',
     fact: 'A sea slug patterned like a stained-glass window: yellow ridges cut its back into blocks, each filled with dark and pale spots. It feeds on sponges and borrows their chemistry, and the bright colours warn fish that it tastes foul.',
+  },
+  {
+    id: 'allards-clownfish',
+    name: 'Allard\'s Clownfish',
+    sciName: 'Amphiprion allardi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/133831979/large.jpg',
+    region: 'rift-lakes',
+    fact: 'A dark clownfish with two white bands and a white tail, living among the tentacles of a sea anemone that would sting another fish. All start out male; when the largest female in the anemone dies, the biggest male changes sex and takes her place.',
   },
   // ---- Coral Triangle ----
   {
@@ -1959,6 +2023,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'Striped and spotted in rust and white in a pattern different on every animal, which lets divers recognise individuals. It spends the day down a burrow in sand and comes out at dusk, stretching its long arms into the shape of a lionfish or a sea snake.',
   },
+  {
+    id: 'ambon-scorpionfish',
+    name: 'Ambon Scorpionfish',
+    sciName: 'Pteroidichthys amboinensis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/310978054/large.jpg',
+    region: 'coral-triangle',
+    fact: 'Covered in flaps and tassels and able to change colour to match the sand or algae around it, it can be almost impossible to see. It sheds its skin every few weeks, and eyelash-like horns above its eyes give it a startled look.',
+  },
   // ---- Australia ----
   {
     id: 'barramundi',
@@ -2185,6 +2257,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'A blunt-headed bullhead shark with a harness of dark markings and flat crushing teeth for cracking sea urchins and shellfish. It lays eggs in spiral cases and screws them into rock crevices with its mouth, and returns to the same reef to breed year after year.',
   },
+  {
+    id: 'eastern-blue-groper',
+    name: 'Eastern Blue Groper',
+    sciName: 'Achoerodus viridis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/542129723/large.jpg',
+    region: 'northern-australia',
+    fact: 'Not a grouper but a huge wrasse, growing past a metre long. All are born female and brown; some become blue males later in life. They are curious and follow divers around, and they crunch sea urchins and crabs with heavy, peg-like teeth.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -2337,6 +2417,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/31654107/large.jpg',
     region: 'southern-ocean',
     fact: 'A jellyfish that never swims: it lives upside down, fixed to seaweed by a short stalk, with eight arms each ending in a pompom of small tentacles to catch passing crustaceans. Between the arms sit sticky pads it can use to shuffle to a new spot.',
+  },
+  {
+    id: 'salp',
+    name: 'Salp',
+    sciName: 'Salpa thompsoni',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/465375620/large.jpg',
+    region: 'southern-ocean',
+    fact: 'A barrel of clear jelly that swims by jet propulsion, pumping water through itself and filtering out plant plankton. It alternates generations: a single salp buds off long chains of linked clones, which then breed sexually. Swarms of them can strip the water bare.',
   },
   // ---- Arctic Ocean ----
   {
@@ -2515,6 +2603,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/225117553/large.jpeg',
     region: 'arctic',
     fact: 'A bottom-hugging sculpin named for four bony knobs on top of its head. It lives along cold coasts in water that is barely salty, and some populations were stranded in lakes when the ice retreated and have lived in fresh water ever since.',
+  },
+  {
+    id: 'sea-strawberry',
+    name: 'Sea Strawberry',
+    sciName: 'Gersemia rubiformis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/384397730/large.jpeg',
+    region: 'arctic',
+    fact: 'A soft coral with no hard skeleton, made of hundreds of tiny polyps on knobbly lobes that look like a bunch of berries. When disturbed the polyps pull in and the colony shrinks into a tight lump.',
   },
   // ---- Great Lakes and inland North America ----
   {
@@ -2717,6 +2813,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/520428996/large.jpg',
     region: 'great-lakes',
     fact: 'A stocky sunfish with red eyes that lurks around boulders and sunken logs and ambushes crayfish. It can change from pale to dark mottled in moments to match its background. Males sweep out a nest in gravel and guard the eggs and young.',
+  },
+  {
+    id: 'mottled-sculpin',
+    name: 'Mottled Sculpin',
+    sciName: 'Cottus bairdii',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/239963253/large.jpg',
+    region: 'great-lakes',
+    fact: 'A big-headed, bottom-dwelling fish of cold streams that props itself on broad fins between stones. The male digs a cavity under a flat rock, and the female lays her eggs on its ceiling, upside down. He then guards them alone.',
   },
   // ---- Sea of Japan ----
   {
@@ -2928,6 +3032,14 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'A sea snail that grazes kelp and grows rows of hollow spines along its shell where the water is rough, but stays smooth in sheltered spots — the spines help wedge it among rocks when waves hit. It seals itself in with a heavy, chalky lid.',
   },
+  {
+    id: 'bambooleaf-wrasse',
+    name: 'Bambooleaf Wrasse',
+    sciName: 'Pseudolabrus sieboldi',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/725057453/large.jpg',
+    region: 'sea-of-japan',
+    fact: 'A rocky-reef wrasse that sleeps tucked into crevices or under sand at night and comes out with the sun. Each starts out female and may become a male later, turning from reddish-brown to a bolder pattern as it does.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -3105,6 +3217,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/249066273/large.jpg',
     region: 'mekong',
     fact: 'A small surface fish with a long lower jaw and a short upper one. Males fight by locking jaws and wrestling until one gives up, a contest bred into a betting sport. Females give birth to live young after carrying them inside like a guppy.',
+  },
+  {
+    id: 'moonlight-gourami',
+    name: 'Moonlight Gourami',
+    sciName: 'Trichopodus microlepis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/330904330/large.jpg',
+    region: 'mekong',
+    fact: 'A silver, slab-sided gourami with long thread-like pelvic fins that it uses as feelers. Like other labyrinth fish it can gulp air from the surface, which lets it live in still, low-oxygen swamps. The male builds a bubble nest among floating plants.',
   },
   // ---- New Zealand ----
   {
@@ -3298,5 +3418,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/51391027/large.jpg',
     region: 'new-zealand',
     fact: 'A sea urchin that grazes kelp beds bare where too few of its predators — crayfish and snapper — are left to keep it in check, leaving rock barrens. The roe inside is eaten raw, and the empty green tests wash up on beaches by the hundred.',
+  },
+  {
+    id: 'banded-kokopu',
+    name: 'Banded Kōkopu',
+    sciName: 'Galaxias fasciatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/446152448/large.jpeg',
+    region: 'new-zealand',
+    fact: 'A stocky, scaleless fish with thin pale bands across a brown body, living in small forest streams under overhanging banks. Its young are born at sea and swim back upstream in spring — they can climb wet rock faces and waterfalls to reach the headwaters.',
   },
 ];

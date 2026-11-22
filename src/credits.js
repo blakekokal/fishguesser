@@ -30,6 +30,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Hydrocynus_vittatus_-_Ndweshi.jpg",
   },
+  "allards-clownfish": {
+    author: "jeyre",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/81596130",
+  },
+  "ambon-scorpionfish": {
+    author: "Pauline Walsh Jacobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/178688862",
+  },
   "american-paddlefish": {
     author: "Jon Mortin",
     license: "CC BY 4.0",
@@ -216,11 +228,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/34802668",
   },
+  "bambooleaf-wrasse": {
+    author: "りなべる",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/395425426",
+  },
   "banded-coral-shrimp": {
     author: "TheMongrelKoi",
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/45298652",
+  },
+  "banded-kokopu": {
+    author: "Oscar Dove",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/249572063",
   },
   "banded-leporinus": {
     author: "Andrew J. Crawford",
@@ -474,6 +498,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Salvelinus_fontinalis_(coaster_brook_trout)_2.jpg",
   },
+  "brown-burrfish": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/382625747",
+  },
   "brown-meagre": {
     author: "shahar chaikin",
     license: "CC BY 4.0",
@@ -714,6 +744,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Labrus_mixtus_23_BG.jpg",
   },
+  "cunner": {
+    author: "Dan Bender",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/98375462",
+  },
   "dalls-porpoise": {
     author: "MadMagpie",
     license: "CC0",
@@ -761,6 +797,18 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mero_(Epinephelus_marginatus),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-15,_DD_34.jpg",
+  },
+  "eartheater": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121451816",
+  },
+  "eastern-blue-groper": {
+    author: "Lawrence Hylton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/300867383",
   },
   "eastern-rainbowfish": {
     author: "Jesse de Vries",
@@ -1446,11 +1494,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/210998943",
   },
+  "moonlight-gourami": {
+    author: "Utain Pummarin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/188973647",
+  },
   "moorish-idol": {
     author: "Rusty",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/188577",
+  },
+  "mottled-sculpin": {
+    author: "Sam Turner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/140205336",
   },
   "mud-crab": {
     author: "coenobita",
@@ -1559,6 +1619,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Chionodraco_rastrospinosus.jpg",
+  },
+  "opalescent-nudibranch": {
+    author: "Ken-ichi Ueda",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/20483646",
   },
   "orca": {
     author: "steve b",
@@ -1812,6 +1878,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pagrus_major_ioworld.jpg",
   },
+  "red-starfish": {
+    author: "Mirela",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/125784387",
+  },
   "redtail-catfish": {
     author: "Emőke Dénes",
     license: "CC BY-SA 4.0",
@@ -1896,6 +1968,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/2455785",
   },
+  "salp": {
+    author: "Ingvild Riska",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/259268528",
+  },
   "sand-tiger-shark": {
     author: "The Vertebrate Pokédex",
     license: "CC0",
@@ -1949,6 +2027,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/248457271",
+  },
+  "sea-strawberry": {
+    author: "Sue Carnahan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/217304924",
   },
   "sevengill-shark": {
     author: "Luca Davenport-Thomas",
@@ -2009,6 +2093,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg",
+  },
+  "smooth-trunkfish": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/196168830",
   },
   "snail-eating-turtle": {
     author: "sucker69420",
@@ -2381,6 +2471,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/259519679",
+  },
+  "yellow-marbled-synodontis": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814707",
   },
   "yellow-perch": {
     author: "USFWS Mountain Prairie",
@@ -2859,4 +2955,20 @@ const PHOTO_ORDER = [
   "horned-turban",
   "wrestling-halfbeak",
   "kina",
+  "opalescent-nudibranch",
+  "smooth-trunkfish",
+  "eartheater",
+  "cunner",
+  "red-starfish",
+  "yellow-marbled-synodontis",
+  "brown-burrfish",
+  "allards-clownfish",
+  "ambon-scorpionfish",
+  "eastern-blue-groper",
+  "salp",
+  "sea-strawberry",
+  "mottled-sculpin",
+  "bambooleaf-wrasse",
+  "moonlight-gourami",
+  "banded-kokopu",
 ];

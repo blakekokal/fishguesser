@@ -2891,5 +2891,117 @@
     "author": "Emily Roberts",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "opalescent-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31611117/large.jpg",
+    "source": "https://www.inaturalist.org/observations/20483646",
+    "author": "Ken-ichi Ueda",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "smooth-trunkfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345297453/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/196168830",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "eartheater": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205516703/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121451816",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "cunner": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163774124/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/98375462",
+    "author": "Dan Bender",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-starfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213346624/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/125784387",
+    "author": "Mirela",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "yellow-marbled-synodontis": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146408/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814707",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brown-burrfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700224332/large.jpg",
+    "source": "https://www.inaturalist.org/observations/382625747",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "allards-clownfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133831979/large.jpg",
+    "source": "https://www.inaturalist.org/observations/81596130",
+    "author": "jeyre",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ambon-scorpionfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310978054/large.jpg",
+    "source": "https://www.inaturalist.org/observations/178688862",
+    "author": "Pauline Walsh Jacobson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "eastern-blue-groper": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/542129723/large.jpg",
+    "source": "https://www.inaturalist.org/observations/300867383",
+    "author": "Lawrence Hylton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "salp": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465375620/large.jpg",
+    "source": "https://www.inaturalist.org/observations/259268528",
+    "author": "Ingvild Riska",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sea-strawberry": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384397730/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/217304924",
+    "author": "Sue Carnahan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "mottled-sculpin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239963253/large.jpg",
+    "source": "https://www.inaturalist.org/observations/140205336",
+    "author": "Sam Turner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bambooleaf-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725057453/large.jpg",
+    "source": "https://www.inaturalist.org/observations/395425426",
+    "author": "りなべる",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "moonlight-gourami": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330904330/large.jpg",
+    "source": "https://www.inaturalist.org/observations/188973647",
+    "author": "Utain Pummarin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "banded-kokopu": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446152448/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/249572063",
+    "author": "Oscar Dove",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
