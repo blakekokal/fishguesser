@@ -132,6 +132,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/202827282",
   },
+  "antarctic-spiny-plunderfish": {
+    author: "Agustín Zarco",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/250848219",
+  },
   "antarctic-stalked-jellyfish": {
     author: "Erasmo Macaya Horta",
     license: "CC BY 4.0",
@@ -167,6 +173,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/292688688",
+  },
+  "arctic-feather-star": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/184774565",
   },
   "arctic-grayling": {
     author: "AKSMITH",
@@ -570,6 +582,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/68399517",
   },
+  "brazilian-sandperch": {
+    author: "demianlescano",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/105867946",
+  },
   "brazilian-wrasse": {
     author: "Paulo Mascaretti",
     license: "CC0",
@@ -689,6 +707,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://commons.wikimedia.org/wiki/File:Full_Shot_of_a_Caribbean_Reef_Shark_at_Tiger_Beach_Bahamas.jpg",
+  },
+  "cave-crayfish": {
+    author: "Valentin Moser",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/8836782",
   },
   "chambered-nautilus": {
     author: "Hans Hillewaert",
@@ -912,6 +936,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Symphysodon_aequifasciatus_-_Karlsruhe_Zoo_04.jpg",
   },
+  "doderleins-wrasse": {
+    author: "Michal Maňas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/243057660",
+  },
   "draughtsboard-shark": {
     author: "Py1jtp",
     license: "CC BY-SA 3.0",
@@ -1038,11 +1068,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Neolamprologus_brichardi_LoroParqueTenerife_princess_of_burundi_IMG_5384.JPG",
   },
+  "false-kelpfish": {
+    author: "りなべる",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/69140017",
+  },
   "fire-eel": {
     author: "Гурьева Светлана (zooclub.ru)",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%81%D1%82%D0%B0%D1%86%D0%B5%D0%BC%D0%B1%D0%B5%D0%BB_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%8B%D0%B9_%28Mastacembelus_erythrotaenia%29.jpg",
+  },
+  "fire-nudibranch": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/284989507",
   },
   "firefly-squid": {
     author: "kamataryo",
@@ -1115,6 +1157,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_-_Karlsruhe_Zoo_01.jpg",
+  },
+  "gabon-bushfish": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814676",
   },
   "garfish": {
     author: "Sarah Faulwetter",
@@ -1656,6 +1704,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cichlidae_-_Dimidiochromis_compressiceps.JPG",
   },
+  "malayan-leaffish": {
+    author: "rukai95",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/192081524",
+  },
   "mandarinfish": {
     author: "Luc Viatour",
     license: "CC BY-SA 3.0",
@@ -1920,6 +1974,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/20483646",
   },
+  "orangethroat-darter": {
+    author: "moxostoma",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/18551770",
+  },
   "orca": {
     author: "steve b",
     license: "CC0",
@@ -2033,6 +2093,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/394796319",
+  },
+  "pentagon-sea-star": {
+    author: "Ewout Knoester",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/14572961",
   },
   "picasso-triggerfish": {
     author: "Cricket Raspet",
@@ -2262,6 +2328,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pagrus_major_ioworld.jpg",
   },
+  "red-spotted-coral-crab": {
+    author: "desertnaturalist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/163091654",
+  },
   "red-starfish": {
     author: "Mirela",
     license: "CC0",
@@ -2333,6 +2405,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/256177089",
+  },
+  "rockhead-poacher": {
+    author: "Aiva Noringseth",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/149303669",
   },
   "rockmover-wrasse": {
     author: "Don Loarie",
@@ -2525,6 +2603,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/203671686",
+  },
+  "silver-hatchetfish": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121039891",
   },
   "six-barred-distichodus": {
     author: "Hectonichus",
@@ -2994,6 +3078,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.5",
     source: "https://commons.wikimedia.org/wiki/File:Whale_shark_Georgia_aquarium.jpg",
   },
+  "white-ear": {
+    author: "libby hepburn",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/201092225",
+  },
   "white-spotted-cichlid": {
     author: "lienyuan lee",
     license: "CC BY 3.0",
@@ -3005,6 +3095,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/10386392",
+  },
+  "winter-skate": {
+    author: "shahar chaikin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/139533011",
   },
   "wolf-eel": {
     author: "Julien Lepage",
@@ -3643,4 +3739,20 @@ const PHOTO_ORDER = [
   "korean-turban",
   "blackline-rasbora",
   "jewel-anemone",
+  "rockhead-poacher",
+  "cave-crayfish",
+  "silver-hatchetfish",
+  "winter-skate",
+  "doderleins-wrasse",
+  "gabon-bushfish",
+  "brazilian-sandperch",
+  "pentagon-sea-star",
+  "red-spotted-coral-crab",
+  "white-ear",
+  "antarctic-spiny-plunderfish",
+  "arctic-feather-star",
+  "orangethroat-darter",
+  "false-kelpfish",
+  "malayan-leaffish",
+  "fire-nudibranch",
 ];

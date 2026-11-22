@@ -3675,5 +3675,117 @@
     "author": "Luca Davenport-Thomas",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rockhead-poacher": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257251120/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/149303669",
+    "author": "Aiva Noringseth",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "cave-crayfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11872200/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/8836782",
+    "author": "Valentin Moser",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "silver-hatchetfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204783266/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121039891",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "winter-skate": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238672253/large.jpg",
+    "source": "https://www.inaturalist.org/observations/139533011",
+    "author": "shahar chaikin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "doderleins-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433366273/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/243057660",
+    "author": "Michal Maňas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "gabon-bushfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146302/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814676",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-sandperch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177730675/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/105867946",
+    "author": "demianlescano",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "pentagon-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21715090/large.jpg",
+    "source": "https://www.inaturalist.org/observations/14572961",
+    "author": "Ewout Knoester",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "red-spotted-coral-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282050472/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/163091654",
+    "author": "desertnaturalist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "white-ear": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354913699/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/201092225",
+    "author": "libby hepburn",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-spiny-plunderfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448716496/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/250848219",
+    "author": "Agustín Zarco",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "arctic-feather-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322584331/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/184774565",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "orangethroat-darter": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28382204/large.jpg",
+    "source": "https://www.inaturalist.org/observations/18551770",
+    "author": "moxostoma",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "false-kelpfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112123843/large.jpg",
+    "source": "https://www.inaturalist.org/observations/69140017",
+    "author": "りなべる",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "malayan-leaffish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/337119407/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/192081524",
+    "author": "rukai95",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "fire-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/512227006/large.jpg",
+    "source": "https://www.inaturalist.org/observations/284989507",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
