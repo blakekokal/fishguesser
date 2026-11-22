@@ -4907,5 +4907,117 @@
     "author": "Luca Davenport-Thomas",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-sponge-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466509312/large.jpg",
+    "source": "https://www.inaturalist.org/observations/259834410",
+    "author": "Nathan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "branching-anemone": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639535873/large.jpg",
+    "source": "https://www.inaturalist.org/observations/350507137",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "redhook-silver-dollar": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204796591/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121046856",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "starlet-anemone": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123895266/large.jpg",
+    "source": "https://www.inaturalist.org/observations/75711596",
+    "author": "Ian Manning",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "caneva-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44964933/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/28829344",
+    "author": "Valentin Moser",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ornate-fin-eater": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146362/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814692",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sea-pansy": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625414686/large.jpg",
+    "source": "https://www.inaturalist.org/observations/343345020",
+    "author": "LPB",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "adorned-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589239421/large.jpg",
+    "source": "https://www.inaturalist.org/observations/325444479",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "magpie-morwong": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711967958/large.jpg",
+    "source": "https://www.inaturalist.org/observations/388720716",
+    "author": "Tim",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-copepod": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175052786/large.jpg",
+    "source": "https://www.inaturalist.org/observations/104469119",
+    "author": "michcjackson",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "kelp-snailfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384396021/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/217304913",
+    "author": "Sue Carnahan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spottail-shiner": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/427275807/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/239871158",
+    "author": "Quinn",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "flat-shore-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2046410/large.JPG",
+    "source": "https://www.inaturalist.org/observations/1690892",
+    "author": "harum.koh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "boddarts-mudskipper": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477936919/large.jpg",
+    "source": "https://www.inaturalist.org/observations/266031928",
+    "author": "dhfischer",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hairy-seaweed-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169046960/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/101238460",
+    "author": "Lisa Bennett",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "variable-headshield-slug": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650010655/large.jpg",
+    "source": "https://www.inaturalist.org/observations/356435462",
+    "author": "Ben Costamagna",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

@@ -6,6 +6,12 @@
  * runtime) so the game still works when opened straight from disk. */
 
 const PHOTO_CREDITS = {
+  "adorned-wrasse": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/325444479",
+  },
   "african-butterflyfish": {
     author: "Vassil",
     license: "CC0",
@@ -101,6 +107,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/255237771",
+  },
+  "antarctic-copepod": {
+    author: "michcjackson",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/104469119",
   },
   "antarctic-cushion-star": {
     author: "Oleksii Vasyliuk",
@@ -654,6 +666,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Tropheus_moorii_'Moliro'_-_Karlsruhe_Zoo_01.jpg",
   },
+  "boddarts-mudskipper": {
+    author: "dhfischer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/266031928",
+  },
   "bonnethead": {
     author: "Eric Kilby from Somerville, MA, USA",
     license: "CC BY-SA 2.0",
@@ -689,6 +707,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/258464606",
+  },
+  "branching-anemone": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/350507137",
   },
   "brazilian-basslet": {
     author: "bewambay",
@@ -845,6 +869,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/180908836",
+  },
+  "caneva-blenny": {
+    author: "Valentin Moser",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/28829344",
   },
   "cangico-anemone": {
     author: "Romi Galeota Lencina",
@@ -1410,6 +1440,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/195615100",
   },
+  "flat-shore-crab": {
+    author: "harum.koh",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/1690892",
+  },
   "flower-urchin": {
     author: "Dan Schofield",
     license: "CC BY 4.0",
@@ -1722,6 +1758,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Psychropotes_longicauda_NOAA.jpg",
   },
+  "hairy-seaweed-crab": {
+    author: "Lisa Bennett",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/101238460",
+  },
   "harlequin-shrimp": {
     author: "Chad Ordelheide",
     license: "CC BY-SA 3.0",
@@ -1986,6 +2028,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Hexagrammos_decagrammus_hembra.jpg",
   },
+  "kelp-snailfish": {
+    author: "Sue Carnahan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/217304913",
+  },
   "kidako-moray": {
     author: "ippanjin",
     license: "CC BY 4.0",
@@ -2195,6 +2243,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/139398027",
+  },
+  "magpie-morwong": {
+    author: "Tim",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/388720716",
   },
   "malawi-eyebiter": {
     author: "Hectonichus",
@@ -2561,6 +2615,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis_VA_01.jpg",
+  },
+  "ornate-fin-eater": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814692",
   },
   "ornate-ghost-pipefish": {
     author: "portioid",
@@ -2940,6 +3000,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pagrus_major_ioworld.jpg",
   },
+  "red-sponge-nudibranch": {
+    author: "Nathan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/259834410",
+  },
   "red-spotted-coral-crab": {
     author: "desertnaturalist",
     license: "CC BY 4.0",
@@ -2963,6 +3029,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/327216600",
+  },
+  "redhook-silver-dollar": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121046856",
   },
   "redside-dace": {
     author: "Steven Wang",
@@ -3203,6 +3275,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus_282284066_(cropped).jpg",
+  },
+  "sea-pansy": {
+    author: "LPB",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/343345020",
   },
   "sea-perch": {
     author: "Lisa Bennett",
@@ -3534,6 +3612,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/31873557",
   },
+  "spottail-shiner": {
+    author: "Quinn",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/239871158",
+  },
   "spotted-batfish": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -3605,6 +3689,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/13608687",
+  },
+  "starlet-anemone": {
+    author: "Ian Manning",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/75711596",
   },
   "starry-jewel-cichlid": {
     author: "John P Friel",
@@ -3899,6 +3989,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Lahad-Datu_Sabah_Mount-Silam-Red-Crab-Geosesarma-aurantium-01.jpg",
+  },
+  "variable-headshield-slug": {
+    author: "Ben Costamagna",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/356435462",
   },
   "variable-neon-slug": {
     author: "Georgina Jones",
@@ -4875,4 +4971,20 @@ const PHOTO_ORDER = [
   "star-limpet",
   "goldspotted-mudskipper",
   "noble-chiton",
+  "red-sponge-nudibranch",
+  "branching-anemone",
+  "redhook-silver-dollar",
+  "starlet-anemone",
+  "caneva-blenny",
+  "ornate-fin-eater",
+  "sea-pansy",
+  "adorned-wrasse",
+  "magpie-morwong",
+  "antarctic-copepod",
+  "kelp-snailfish",
+  "spottail-shiner",
+  "flat-shore-crab",
+  "boddarts-mudskipper",
+  "hairy-seaweed-crab",
+  "variable-headshield-slug",
 ];

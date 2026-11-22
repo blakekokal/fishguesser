@@ -634,6 +634,14 @@ const FISH = [
     region: 'caribbean',
     fact: 'A small, pointed-nosed puffer with blue lines and spots on an orange-brown back. Its skin contains a powerful toxin, and a filefish mimics its pattern to gain the same protection.',
   },
+  {
+    id: 'branching-anemone',
+    name: 'Branching Anemone',
+    sciName: 'Lebrunia neglecta',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/639535873/large.jpg',
+    region: 'caribbean',
+    fact: 'An anemone that spreads branching, beaded pseudotentacles by day, packed with algae that photosynthesise for it. At night it pulls them in and extends long, stinging tentacles to catch passing plankton.',
+  },
   // ---- Amazon Basin ----
   {
     id: 'red-bellied-piranha',
@@ -979,6 +987,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/206474719/large.jpg',
     region: 'amazon',
     fact: 'A slender, dark ghost knifefish that swims by rippling a long fin along its belly. It lives in deep river channels where it is always dark and finds food with a weak electric field.',
+  },
+  {
+    id: 'redhook-silver-dollar',
+    name: 'Redhook Silver Dollar',
+    sciName: 'Myloplus rubripinnis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/204796591/large.jpg',
+    region: 'amazon',
+    fact: 'A round, silvery, plant-eating relative of piranhas. Males grow a red, hook-shaped anal fin in the breeding season. It travels in schools and eats fruit, seeds and leaves in flooded forest.',
   },
   // ---- North Atlantic ----
   {
@@ -1350,6 +1366,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'A large, warty sea slug that feeds on soft corals such as dead man\'s fingers. It can swim clumsily by flexing its body when attacked, and it is used in neuroscience because its brain cells are big.',
   },
+  {
+    id: 'starlet-anemone',
+    name: 'Starlet Anemone',
+    sciName: 'Aulactinia stella',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/123895266/large.jpg',
+    region: 'north-atlantic',
+    fact: 'A small anemone with pale-striped tentacles that lives in rock pools and under seaweed on cold shores. It broods its young inside its body, releasing them as tiny anemones.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -1681,6 +1705,14 @@ const FISH = [
     fact: 'A chiton whose eight shell plates are painted with zigzag lines of red, white and blue. It lives on pink coralline algae and eats it, and its colours match the algae so closely that it is hard to spot.',
   },
   {
+    id: 'red-sponge-nudibranch',
+    name: 'Red Sponge Nudibranch',
+    sciName: 'Rostanga pulchra',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/466509312/large.jpg',
+    region: 'north-pacific',
+    fact: 'A small orange-red sea slug that lives on the red sponges it eats and matches them almost perfectly. It even lays its coiled ribbon of eggs on the sponge, in the same shade.',
+  },
+  {
     id: 'ocean-sunfish',
     name: 'Ocean Sunfish',
     sciName: 'Mola mola',
@@ -1887,6 +1919,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/149502519/large.jpeg',
     region: 'mediterranean',
     fact: 'A sand-coloured stingray with a long whip-like tail armed with a venomous spine. It lies buried in sand in shallow bays with only its eyes showing, and it feeds on crabs, shrimps and worms.',
+  },
+  {
+    id: 'caneva-blenny',
+    name: 'Caneva Blenny',
+    sciName: 'Microlipophrys canevae',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/44964933/large.jpeg',
+    region: 'mediterranean',
+    fact: 'A tiny blenny of the splash zone with a dark head and blue-spotted cheeks. It lives in holes in rock just below the surface, and males guard eggs laid inside the hole.',
   },
   // ---- Congo Basin ----
   {
@@ -2210,6 +2250,14 @@ const FISH = [
     region: 'congo',
     fact: 'A small, nearly see-through catfish with a dark stripe along its side and long whiskers. It swims in midwater in schools, unlike most catfish, and feeds on tiny insects and crustaceans.',
   },
+  {
+    id: 'ornate-fin-eater',
+    name: 'Ornate Fin-eater',
+    sciName: 'Ichthyborus ornatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/53146362/large.jpg',
+    region: 'congo',
+    fact: 'A long, barred predator with a pointed snout that sneaks up on other fish and bites pieces from their fins and scales. It can also take small fish whole.',
+  },
   // ---- South Atlantic ----
   {
     id: 'west-african-fiddler-crab',
@@ -2498,6 +2546,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/641527345/large.jpg',
     region: 'south-atlantic',
     fact: 'A small, spotted puffer of mangroves and shallow bays that can inflate itself when threatened. Its flesh and organs are poisonous, and it feeds on crabs and shellfish with its beak-like teeth.',
+  },
+  {
+    id: 'sea-pansy',
+    name: 'Sea Pansy',
+    sciName: 'Renilla muelleri',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/625414686/large.jpg',
+    region: 'south-atlantic',
+    fact: 'A colony of tiny polyps on a flat, kidney-shaped body that lies on sand, anchored by a short stalk. When touched it flashes with blue-green light, rippling across the colony.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -2844,6 +2900,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/443949633/large.jpeg',
     region: 'rift-lakes',
     fact: 'A butterflyfish with two black wedges on its back and fine vertical lines on its white sides. It feeds on coral polyps and small invertebrates, often in pairs or small groups.',
+  },
+  {
+    id: 'adorned-wrasse',
+    name: 'Adorned Wrasse',
+    sciName: 'Halichoeres cosmetus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/589239421/large.jpg',
+    region: 'rift-lakes',
+    fact: 'A slender wrasse striped in orange and blue-grey with dark eyespots on its dorsal fin. It picks small animals from rubble on shallow reefs and buries itself in sand to sleep.',
   },
   // ---- Coral Triangle ----
   {
@@ -3255,6 +3319,14 @@ const FISH = [
     region: 'coral-triangle',
     fact: 'A black sea slug covered in bright green bumps that feeds on sea squirts. It eats them whole and keeps their chemicals for defence, and its bright colours warn fish away.',
   },
+  {
+    id: 'variable-headshield-slug',
+    name: 'Variable Headshield Slug',
+    sciName: 'Chelidonura varians',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/650010655/large.jpg',
+    region: 'coral-triangle',
+    fact: 'A black sea slug edged with electric-blue lines, with a shield-like head it uses to plough through sand. It hunts flatworms, following their slime trails.',
+  },
   // ---- Australia ----
   {
     id: 'barramundi',
@@ -3625,6 +3697,14 @@ const FISH = [
     region: 'northern-australia',
     fact: 'A pinkish goatfish dotted with blue spots that probes sand with two long chin barbels for worms and shrimps. Other fish often follow it, picking up prey it disturbs.',
   },
+  {
+    id: 'magpie-morwong',
+    name: 'Magpie Morwong',
+    sciName: 'Pseudogoniistius nigripes',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/711967958/large.jpg',
+    region: 'northern-australia',
+    fact: 'A black-and-white banded fish with thick lips that it uses to suck small invertebrates from sand and algae. It is curious and often approaches divers.',
+  },
   // ---- Southern Ocean ----
   {
     id: 'antarctic-toothfish',
@@ -3921,6 +4001,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/448719392/large.jpeg',
     region: 'southern-ocean',
     fact: 'A small red chiton with eight overlapping shell plates that grazes algae on rocks in shallow, icy water. If dislodged, it can curl up into a ball to protect its soft underside.',
+  },
+  {
+    id: 'antarctic-copepod',
+    name: 'Antarctic Copepod',
+    sciName: 'Boeckella poppei',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/175052786/large.jpg',
+    region: 'southern-ocean',
+    fact: 'A tiny red crustacean of shallow lakes and meltwater ponds that freeze solid for much of the year. It survives the long winters as tough resting eggs, which hatch when the ice melts.',
   },
   // ---- Arctic Ocean ----
   {
@@ -4243,6 +4331,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/323338307/large.jpeg',
     region: 'arctic',
     fact: 'A small, milky-white jellyfish with folded, frilly gonads hanging inside its bell. It drifts in cold water, catching tiny animals with its fringe of tentacles.',
+  },
+  {
+    id: 'kelp-snailfish',
+    name: 'Kelp Snailfish',
+    sciName: 'Liparis tunicatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/384396021/large.jpeg',
+    region: 'arctic',
+    fact: 'A soft, tadpole-shaped fish with a sucker on its belly made from its pelvic fins. It lives among kelp in near-freezing water, and it has antifreeze proteins that keep its blood from freezing.',
   },
   // ---- Great Lakes and inland North America ----
   {
@@ -4589,6 +4685,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/739477275/large.jpg',
     region: 'great-lakes',
     fact: 'A tiny minnow with two dark stripes along its side. In spring males turn bright red underneath, and it lives in bogs, beaver ponds and cool, weedy streams.',
+  },
+  {
+    id: 'spottail-shiner',
+    name: 'Spottail Shiner',
+    sciName: 'Hudsonius hudsonius',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/427275807/large.jpeg',
+    region: 'great-lakes',
+    fact: 'A silvery minnow with a dark spot at the base of its tail that lives in big lakes and rivers. It schools along sandy shores and is an important food for bigger fish.',
   },
   // ---- Sea of Japan ----
   {
@@ -4944,6 +5048,14 @@ const FISH = [
     region: 'sea-of-japan',
     fact: 'A flat limpet with radiating ribs that clamps to rocks on the shore and grazes algae when the tide is in. Each one returns to the same spot after feeding, wearing a scar in the rock that fits its shell.',
   },
+  {
+    id: 'flat-shore-crab',
+    name: 'Flat Shore Crab',
+    sciName: 'Gaetice depressus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2046410/large.JPG',
+    region: 'sea-of-japan',
+    fact: 'A flat, square-bodied crab that hides under stones on rocky shores. Its thin body lets it squeeze into tight cracks, and it feeds on algae and small animals.',
+  },
   // ---- Mekong Basin ----
   {
     id: 'mekong-giant-catfish',
@@ -5265,6 +5377,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/545366117/large.jpg',
     region: 'mekong',
     fact: 'A small mudskipper dotted with gold spots that hops over mud and climbs mangrove roots at low tide. It keeps water in its gill chambers to breathe out of water and rolls in puddles to stay moist.',
+  },
+  {
+    id: 'boddarts-mudskipper',
+    name: 'Boddart\'s Mudskipper',
+    sciName: 'Boleophthalmus boddarti',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/477936919/large.jpg',
+    region: 'mekong',
+    fact: 'A mudskipper with blue spots and a tall dorsal fin that it raises to show off to rivals and mates. It grazes algae from the mud surface and digs burrows to hide in when the tide comes in.',
   },
   // ---- New Zealand ----
   {
@@ -5602,5 +5722,13 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/492177204/large.jpeg',
     region: 'new-zealand',
     fact: 'A large chiton with eight shell plates edged by a thick, bristly girdle. It clings to rocks on exposed shores and grazes algae at night, and it can grow longer than a hand.',
+  },
+  {
+    id: 'hairy-seaweed-crab',
+    name: 'Hairy Seaweed Crab',
+    sciName: 'Notomithrax ursus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/169046960/large.jpeg',
+    region: 'new-zealand',
+    fact: 'A small spider crab covered in hooked hairs that it uses to attach pieces of seaweed and sponge to its shell, disguising itself. It replaces its decorations when it moves to a new spot.',
   },
 ];
