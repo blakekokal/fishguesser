@@ -571,10 +571,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/259913283",
   },
   "blackwedged-butterflyfish": {
-    author: "desertnaturalist",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/248459363",
+    author: "Ewout Knoester",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/13086161",
   },
   "blood-star": {
     author: "Bernadette Kavanaugh",
@@ -673,10 +673,10 @@ const PHOTO_CREDITS = {
     source: "https://commons.wikimedia.org/wiki/File:Bluegirdled_angelfish_(Pomacanthus_navarchus)_(46982094954).jpg",
   },
   "bluespotted-goatfish": {
-    author: "Tim",
+    author: "ttsquid",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/388733841",
+    source: "https://www.inaturalist.org/observations/279389603",
   },
   "bluespotted-ribbontail-ray": {
     author: "Daniel Benák",
@@ -733,10 +733,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/258464606",
   },
   "branching-anemone": {
-    author: "Dan Schofield",
+    author: "Robin White",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/350507137",
+    source: "https://www.inaturalist.org/observations/220377541",
   },
   "brazilian-basslet": {
     author: "bewambay",
@@ -781,10 +781,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/68451854",
   },
   "brazilian-wrasse": {
-    author: "Paulo Mascaretti",
-    license: "CC0",
-    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
-    source: "https://www.inaturalist.org/observations/344307537",
+    author: "João D'Andretta",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/137420972",
   },
   "bristle-tail-filefish": {
     author: "portioid",
@@ -1588,7 +1588,7 @@ const PHOTO_CREDITS = {
     author: "Dan Schofield",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/148806711",
+    source: "https://www.inaturalist.org/observations/336100422",
   },
   "giant-clam": {
     author: "Sockrosma",
@@ -1783,10 +1783,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/351539709",
   },
   "green-razorfish": {
-    author: "Paul Asman",
+    author: "Pauline Walsh Jacobson",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/101711431",
+    source: "https://www.inaturalist.org/observations/139144536",
   },
   "greenbeak-parrotfish": {
     author: "bewambay",
@@ -1879,10 +1879,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/201674547",
   },
   "hombergs-tritonia": {
-    author: "Rebekah Bajkó",
+    author: "Heine Jensen",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/340796987",
+    source: "https://www.inaturalist.org/observations/103119351",
   },
   "hooded-nudibranch": {
     author: "Alex Heyman",
@@ -2689,10 +2689,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/20483646",
   },
   "orange-skunk-clownfish": {
-    author: "portioid",
+    author: "Roger Rittmaster",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/214179299",
+    source: "https://www.inaturalist.org/observations/377698806",
   },
   "orangestriped-squeaker": {
     author: "John P Friel",
@@ -4087,10 +4087,10 @@ const PHOTO_CREDITS = {
     source: "https://www.inaturalist.org/observations/360723233",
   },
   "triangle-cichlid": {
-    author: "Diogo Luiz",
-    license: "CC BY 4.0",
-    license_url: "https://creativecommons.org/licenses/by/4.0",
-    source: "https://www.inaturalist.org/observations/106799254",
+    author: "Brent Tibbats",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Uaru_amphiacanthoides_Singapore.jpg",
   },
   "triangular-butterflyfish": {
     author: "Bernard DUPONT",

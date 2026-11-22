@@ -2683,11 +2683,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "brazilian-wrasse": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627328060/large.jpg",
-    "source": "https://www.inaturalist.org/observations/344307537",
-    "author": "Paulo Mascaretti",
-    "license": "CC0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234698367/large.jpg",
+    "source": "https://www.inaturalist.org/observations/137420972",
+    "author": "João D'Andretta",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "brown-meagre": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711710980/large.jpg",
@@ -3887,7 +3887,7 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "pearl-danio": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254555011/large.jpg",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254555018/large.jpg",
     "source": "https://www.inaturalist.org/observations/147884188",
     "author": "Павлик Лисицын",
     "license": "CC BY 4.0",
@@ -3915,11 +3915,12 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "triangle-cichlid": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179491137/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/106799254",
-    "author": "Diogo Luiz",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
+    "file": "assets/fish/triangle-cichlid.jpg",
+    "commons_title": "File:Uaru amphiacanthoides Singapore.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Uaru_amphiacanthoides_Singapore.jpg",
+    "author": "Brent Tibbats",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   },
   "common-sunstar": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362222476/large.jpg",
@@ -4356,8 +4357,8 @@
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
   },
   "giant-basket-star": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256321309/large.jpg",
-    "source": "https://www.inaturalist.org/observations/148806711",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610701890/large.jpg",
+    "source": "https://www.inaturalist.org/observations/336100422",
     "author": "Dan Schofield",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
@@ -4580,9 +4581,9 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "green-razorfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169885858/large.jpg",
-    "source": "https://www.inaturalist.org/observations/101711431",
-    "author": "Paul Asman",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237935182/large.jpg",
+    "source": "https://www.inaturalist.org/observations/139144536",
+    "author": "Pauline Walsh Jacobson",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -4818,9 +4819,9 @@
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
   },
   "hombergs-tritonia": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620241361/large.jpg",
-    "source": "https://www.inaturalist.org/observations/340796987",
-    "author": "Rebekah Bajkó",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172520105/large.jpg",
+    "source": "https://www.inaturalist.org/observations/103119351",
+    "author": "Heine Jensen",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -4846,11 +4847,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "blackwedged-butterflyfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443949633/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/248459363",
-    "author": "desertnaturalist",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19063007/large.jpg",
+    "source": "https://www.inaturalist.org/observations/13086161",
+    "author": "Ewout Knoester",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "crested-nembrotha": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/644748627/large.jpg",
@@ -4860,9 +4861,9 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "bluespotted-goatfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711996168/large.jpg",
-    "source": "https://www.inaturalist.org/observations/388733841",
-    "author": "Tim",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501686266/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/279389603",
+    "author": "ttsquid",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -4916,9 +4917,9 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "branching-anemone": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639535873/large.jpg",
-    "source": "https://www.inaturalist.org/observations/350507137",
-    "author": "Dan Schofield",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390170364/large.jpg",
+    "source": "https://www.inaturalist.org/observations/220377541",
+    "author": "Robin White",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -5077,9 +5078,9 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "orange-skunk-clownfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283956250/large.jpg",
-    "source": "https://www.inaturalist.org/observations/214179299",
-    "author": "portioid",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/690699601/large.jpg",
+    "source": "https://www.inaturalist.org/observations/377698806",
+    "author": "Roger Rittmaster",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
