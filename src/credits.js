@@ -396,6 +396,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Myliobatis_californica_channel_islands.jpg",
   },
+  "batangas-halgerda": {
+    author: "BJ Smit",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/57722",
+  },
   "beluga-whale": {
     author: "Antony Stanley",
     license: "CC BY-SA 2.0",
@@ -437,6 +443,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/45839264",
+  },
+  "blackburns-butterflyfish": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/150892317",
   },
   "blackfin-icefish": {
     author: "Ambiederman",
@@ -683,6 +695,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/388587494",
+  },
+  "bruces-sea-star": {
+    author: "Pablo",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/255798360",
   },
   "buffalohead-cichlid": {
     author: "5snake5",
@@ -1074,6 +1092,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814710",
   },
+  "dwarf-surfperch": {
+    author: "Jesse Rorabaugh",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/164363597",
+  },
   "earspot-angelfish": {
     author: "Ewout Knoester",
     license: "CC BY-SA 4.0",
@@ -1097,6 +1121,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/300867383",
+  },
+  "eastern-hulafish": {
+    author: "Tim",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/144664837",
   },
   "eastern-rainbowfish": {
     author: "Jesse de Vries",
@@ -1554,6 +1584,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Limulus_polyphemus_(aq.).jpg",
   },
+  "hotoke-loach": {
+    author: "WATANABE Hitoshi 渡辺仁",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/224438131",
+  },
   "hourglass-dolphin": {
     author: "steve b",
     license: "CC0",
@@ -1721,6 +1757,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/183323839",
+  },
+  "koh-chang-loach": {
+    author: "Attila Oláh",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/30092479",
   },
   "korean-turban": {
     author: "Nicola Crockford",
@@ -2112,6 +2154,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Kurtus_gulliveri.jpg",
   },
+  "oblique-swimming-triplefin": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/261225293",
+  },
   "ocean-sunfish": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
@@ -2159,6 +2207,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/20483646",
+  },
+  "orangestriped-squeaker": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33812065",
   },
   "orangethroat-darter": {
     author: "moxostoma",
@@ -2219,6 +2273,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/154755047",
+  },
+  "painted-damselfish": {
+    author: "Bernard Picton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/68385103",
   },
   "painted-greenling": {
     author: "Ken-ichi Ueda",
@@ -2418,6 +2478,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/52443782",
   },
+  "purple-sun-star": {
+    author: "Mikhail Nevsky",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/61806721",
+  },
   "pygmy-seahorse": {
     author: "Rickard Zerpe",
     license: "CC BY-SA 2.0",
@@ -2603,6 +2669,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/18551833",
+  },
+  "rivulus-killifish": {
+    author: "Diogo Luiz",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/106799307",
   },
   "rock-bass": {
     author: "Quinn",
@@ -2856,11 +2928,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG",
   },
+  "slender-goby": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/154953827",
+  },
   "slender-spined-sea-star": {
     author: "Георгий Виноградов (Georgy Vinogradov)",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/20304992",
+  },
+  "slimy-sculpin": {
+    author: "Dean Hester",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/271603209",
   },
   "slimy-snailfish": {
     author: "Alex Heyman",
@@ -3035,6 +3119,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/217304938",
+  },
+  "spinyhead-blenny": {
+    author: "Robin White",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/143461492",
   },
   "sponge-crab": {
     author: "Julien Renoult",
@@ -3479,6 +3569,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/10386392",
+  },
+  "winter-flounder": {
+    author: "Michael",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/217804759",
   },
   "winter-skate": {
     author: "shahar chaikin",
@@ -4203,4 +4299,20 @@ const PHOTO_ORDER = [
   "dark-chub",
   "smiths-hillstream-loach",
   "crested-blenny",
+  "dwarf-surfperch",
+  "spinyhead-blenny",
+  "rivulus-killifish",
+  "winter-flounder",
+  "slender-goby",
+  "orangestriped-squeaker",
+  "painted-damselfish",
+  "blackburns-butterflyfish",
+  "batangas-halgerda",
+  "eastern-hulafish",
+  "bruces-sea-star",
+  "purple-sun-star",
+  "slimy-sculpin",
+  "hotoke-loach",
+  "koh-chang-loach",
+  "oblique-swimming-triplefin",
 ];

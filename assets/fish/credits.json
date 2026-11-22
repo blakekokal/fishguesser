@@ -4235,5 +4235,117 @@
     "author": "Debra Baker",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "dwarf-surfperch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/284379064/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/164363597",
+    "author": "Jesse Rorabaugh",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "spinyhead-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246036314/large.jpg",
+    "source": "https://www.inaturalist.org/observations/143461492",
+    "author": "Robin White",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rivulus-killifish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179491867/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/106799307",
+    "author": "Diogo Luiz",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "winter-flounder": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385352195/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/217804759",
+    "author": "Michael",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "slender-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267794572/large.jpg",
+    "source": "https://www.inaturalist.org/observations/154953827",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "orangestriped-squeaker": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53144351/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33812065",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "painted-damselfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110716929/large.jpg",
+    "source": "https://www.inaturalist.org/observations/68385103",
+    "author": "Bernard Picton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blackburns-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260269269/large.jpg",
+    "source": "https://www.inaturalist.org/observations/150892317",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "batangas-halgerda": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89958/large.jpg",
+    "source": "https://www.inaturalist.org/observations/57722",
+    "author": "BJ Smit",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "eastern-hulafish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248340213/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/144664837",
+    "author": "Tim",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bruces-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458490613/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/255798360",
+    "author": "Pablo",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "purple-sun-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/98946213/large.jpg",
+    "source": "https://www.inaturalist.org/observations/61806721",
+    "author": "Mikhail Nevsky",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "slimy-sculpin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488551210/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/271603209",
+    "author": "Dean Hester",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hotoke-loach": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397742238/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/224438131",
+    "author": "WATANABE Hitoshi 渡辺仁",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "koh-chang-loach": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46995018/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/30092479",
+    "author": "Attila Oláh",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "oblique-swimming-triplefin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469265109/large.jpg",
+    "source": "https://www.inaturalist.org/observations/261225293",
+    "author": "Debra Baker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
