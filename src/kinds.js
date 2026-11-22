@@ -107,6 +107,8 @@ const NOT_FISH = new Set([
   'spiky-sea-cucumber',
   'american-lobster', 'purple-flabellina', 'spiny-cushion-star', 'polar-sea-star',
   'reef-squid', 'stegosaurus-nudibranch', 'southern-dumpling-squid', 'noble-scallop',
+  'painted-tunicate', 'berrys-bobtail-squid',
+  'blue-spiny-crayfish', 'red-chiton', 'saduria-isopod',
 ]);
 
 const isCrab = (fish) => CRAB_NAME.test(fish.name) && !NOT_CRABS.has(fish.id);
@@ -181,6 +183,7 @@ const WEIRD = new Set([
   'coconut-octopus', 'lettuce-sea-slug',
   'ornate-ghost-pipefish', 'one-gilled-eel', 'old-wife', 'spiny-cushion-star',
   'sea-tadpole', 'humpback-batfish', 'stegosaurus-nudibranch',
+  'painted-tunicate', 'berrys-bobtail-squid', 'red-chiton',
 ]);
 
 const isWeird = (fish) => WEIRD.has(fish.id);
@@ -210,6 +213,9 @@ const FRESHWATER = new Set([
   'speckled-piranha', 'big-scaled-fin-eater', 'brook-stickleback', 'one-gilled-eel',
   'talking-catfish', 'shortnose-sturgeon', 'ansorges-panchax', 'clown-goby-cichlid',
   'redside-dace', 'red-eye-puffer',
+  'spotted-silver-dollar', 'boulengers-featherfin-tetra', 'banded-petrochromis',
+  'blue-spiny-crayfish', 'black-crappie', 'fourspine-sculpin', 'torrent-catfish',
+  'atlantic-whitefish',
 
   'lake-sturgeon', 'muskellunge', 'lake-trout', 'bluegill', 'walleye',
   'yellow-perch', 'longnose-gar', 'bowfin', 'smallmouth-bass', 'pumpkinseed',

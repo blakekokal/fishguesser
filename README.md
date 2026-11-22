@@ -3,15 +3,15 @@
 A GeoGuessr-style guessing game for sea life. You get a photograph of an animal
 and its name; you decide which of sixteen regions of the world it comes from.
 
-- **471 species** — mostly bony fish, plus twenty-five sharks, ten rays, a
-  sawfish, a lamprey and two chimaeras, and a hundred and thirty-six that are not fish
+- **487 species** — mostly bony fish, plus twenty-five sharks, ten rays, a
+  sawfish, a lamprey and two chimaeras, and a hundred and forty-one that are not fish
   at all: twenty-eight crabs, seventeen whales, dolphins and porpoises, six
-  octopuses, three cuttlefish, three squid, a nautilus, a giant clam, a pen shell and a scallop, four sea
+  octopuses, three cuttlefish, four squid, a nautilus, a giant clam, a pen shell and a scallop, four sea
   snails, three turtles, four sea cucumbers, three worms, three urchins, an
   abalone, twelve sea stars, two brittle stars, six jellyfish, a comb jelly and a
-  siphonophore, a glass sponge, two anemones, four corals, a sea squirt and a salp, four
-  shrimp and a prawn, a crayfish, a slipper lobster, a spiny lobster and a clawed lobster, a
-  krill, two isopods, a mantis shrimp, twelve sea slugs and a horseshoe crab — each
+  siphonophore, a glass sponge, two anemones, four corals, two sea squirts and a salp, four
+  shrimp and a prawn, two crayfish, a slipper lobster, a spiny lobster and a clawed lobster, a
+  krill, three isopods, a mantis shrimp, twelve sea slugs, a chiton and a horseshoe crab — each
   photographed alive in the wild, in an aquarium, or by a robot on the deep sea
   floor
 - **16 regions**, from the Arctic Ocean to New Zealand — most hold between
@@ -19,7 +19,7 @@ and its name; you decide which of sixteen regions of the world it comes from.
   memorised; the South Atlantic is new and still filling up. The header counts the collection straight from the data, so it
   never goes stale
 - **5 rounds per game**, dealt so that every species comes up once before any
-  of them comes up twice — a full pass takes 95 games, and it survives a
+  of them comes up twice — a full pass takes 98 games, and it survives a
   refresh
 - **A top bar** — the brand on the left, four tiles in the middle (round,
   score, hints and best) and three menus on the right: **Mode**, **Filter** and
@@ -161,7 +161,7 @@ offers the two things a static page honestly can:
   are unioned and the best score is the higher of the two, so pasting an old
   code can never cost you progress, and a code carrying a name gives an unnamed
   browser that name back. Ids travel as five-character hashes, which keeps a
-  full 471-fish save near 2 KB and lets a restore match whatever species the
+  full 487-fish save near 2 KB and lets a restore match whatever species the
   game holds now — anything it no longer knows is dropped and counted in the
   message.
 
@@ -170,7 +170,7 @@ and it only carries the two numbers above.
 
 ## Photo check
 
-`photos.html` steps through all 471 photographs one at a time, in the same
+`photos.html` steps through all 487 photographs one at a time, in the same
 letterboxed frame the game uses, so a picture can be judged as a player would
 meet it: is that a whole fish, is it alive, is it recognisable? Nothing is
 named — what is in the collection is the game's other secret — so `R` (or the
@@ -237,7 +237,7 @@ photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 16 regions, their map seeds + haversine distance
-src/fish.js             the 471 species (name, photo URL, home region, fact)
+src/fish.js             the 487 species (name, photo URL, home region, fact)
 src/added.js            generated: the order they were added in, oldest first
 src/spoilers.js         place names, dotted out while a fact is a hint
 src/kinds.js            what counts as a fish, a crab, a shark for the filter
@@ -324,15 +324,15 @@ picture is any good, so look at it.
 
 Regions do not need equal numbers of fish, and they do not have them. Pick the
 best species and the best photograph for each region and let the counts fall
-where they fall: the Southern Ocean has twenty-three and the Arctic twenty-six, where
+where they fall: the Southern Ocean has twenty-four and the Arctic twenty-seven, where
 the Coral Triangle has thirty-two, and the South Atlantic, split off from the
-Congo Basin so the river and the ocean are separate answers, has twenty-two so
+Congo Basin so the river and the ocean are separate answers, has twenty-three so
 far. Scoring is by distance and the map sections are
 computed from region centres, so nothing in the game depends on the counts
 matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 471 species; raise it for a longer game that shows more
+game samples 5 of the 487 species; raise it for a longer game that shows more
 of the collection.
 
 ## Map data

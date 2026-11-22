@@ -204,6 +204,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Laks_i_laksetrappa.JPG",
   },
+  "atlantic-whitefish": {
+    author: "Ian Manning",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/19243337",
+  },
   "atlantic-wolffish": {
     author: "Bjørn Christian Tørrissen",
     license: "CC BY-SA 4.0",
@@ -276,6 +282,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://www.inaturalist.org/observations/111130147",
   },
+  "banded-petrochromis": {
+    author: "Zach Johnson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/304232784",
+  },
   "banded-wrasse": {
     author: "Luca Davenport-Thomas",
     license: "CC BY 4.0",
@@ -336,11 +348,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Beluga_Whale_(Underwater),_Vancouver_Aquarium_(319841848).jpg",
   },
+  "berrys-bobtail-squid": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33044970",
+  },
   "big-scaled-fin-eater": {
     author: "John P Friel",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814778",
+  },
+  "black-crappie": {
+    author: "Quinn",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/216948036",
   },
   "black-ghost-knifefish": {
     author: "Vassil",
@@ -420,6 +444,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/179204653",
   },
+  "blue-spiny-crayfish": {
+    author: "dhfischer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/57200525",
+  },
   "blue-swimmer-crab": {
     author: "Debra Baker",
     license: "CC BY 4.0",
@@ -461,6 +491,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.0",
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Bonnethead_shark_Aquarium_of_the_Pacific.jpg",
+  },
+  "boulengers-featherfin-tetra": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814704",
   },
   "boulengers-fin-eater": {
     author: "John P Friel",
@@ -1008,6 +1044,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/132212903",
   },
+  "fourspine-sculpin": {
+    author: "Nick Tobler (Cowturtle)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/343464686",
+  },
   "french-angelfish": {
     author: "LASZLO ILYES from Cleveland, Ohio, USA",
     license: "CC BY 2.0",
@@ -1151,6 +1193,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/138845070",
+  },
+  "goldenback-wrasse": {
+    author: "Bernard Picton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/68423877",
   },
   "goliath-tigerfish": {
     author: "Sablegsd",
@@ -1818,6 +1866,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/748",
   },
+  "painted-tunicate": {
+    author: "Pauline Walsh Jacobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/101474455",
+  },
+  "pale-toadfish": {
+    author: "Clinton Duffy",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/5480919",
+  },
   "peacock-bass": {
     author: "Petruss",
     license: "CC BY-SA 4.0",
@@ -2022,6 +2082,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
   },
+  "red-chiton": {
+    author: "Agustín Zarco",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/250848238",
+  },
   "red-eye-puffer": {
     author: "Павлик Лисицын",
     license: "CC BY 4.0",
@@ -2154,6 +2220,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/304187437",
   },
+  "saduria-isopod": {
+    author: "Zac Peterson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/58284198",
+  },
   "sailfin-sandfish": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -2201,6 +2273,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Cyprichromis_leptosoma_%27Kitumba%27_-_Karlsruhe_Zoo_01.jpg",
+  },
+  "schliewens-goby": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/180184399",
   },
   "sea-angel": {
     author: "Tine Kinn Kvamme",
@@ -2303,6 +2381,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG",
+  },
+  "slimy-snailfish": {
+    author: "Alex Heyman",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/70912604",
   },
   "smallmouth-bass": {
     author: "Engbretson Eric, U.S. Fish and Wildlife Service",
@@ -2454,6 +2538,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Hydrolagus_colliei_8049778.jpg",
   },
+  "spotted-silver-dollar": {
+    author: "Vincent A. Vos",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/170674844",
+  },
   "spotty": {
     author: "Thomas Linley",
     license: "CC BY 4.0",
@@ -2597,6 +2687,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Takifugu_rubripes_AQUAS.jpg",
+  },
+  "torrent-catfish": {
+    author: "Utain Pummarin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/72994035",
   },
   "trahira": {
     author: "R Vasconcellos",
@@ -3307,4 +3403,20 @@ const PHOTO_ORDER = [
   "noble-scallop",
   "red-eye-puffer",
   "urchin-clingfish",
+  "slimy-snailfish",
+  "painted-tunicate",
+  "spotted-silver-dollar",
+  "atlantic-whitefish",
+  "schliewens-goby",
+  "boulengers-featherfin-tetra",
+  "goldenback-wrasse",
+  "banded-petrochromis",
+  "berrys-bobtail-squid",
+  "blue-spiny-crayfish",
+  "red-chiton",
+  "saduria-isopod",
+  "black-crappie",
+  "fourspine-sculpin",
+  "torrent-catfish",
+  "pale-toadfish",
 ];
