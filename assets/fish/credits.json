@@ -4123,5 +4123,117 @@
     "author": "Thomas Linley",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rockpool-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172941729/large.jpg",
+    "source": "https://www.inaturalist.org/observations/103347614",
+    "author": "Trevor Van Loon",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "barred-hamlet": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154083696/large.jpg",
+    "source": "https://www.inaturalist.org/observations/93008283",
+    "author": "marique",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spotted-whiptail-pleco": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210090882/large.jpg",
+    "source": "https://www.inaturalist.org/observations/123978316",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "two-spotted-clingfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711114113/large.jpg",
+    "source": "https://www.inaturalist.org/observations/388286559",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "grey-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267794474/large.jpg",
+    "source": "https://www.inaturalist.org/observations/154953821",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "african-pike-characin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53169115/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33825729",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "barbel-clingfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718297978/large.jpg",
+    "source": "https://www.inaturalist.org/observations/391980688",
+    "author": "Flávio Mendes",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "powder-blue-tang": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618877772/large.jpg",
+    "source": "https://www.inaturalist.org/observations/340118828",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "gold-mouth-sea-squirt": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82454960/large.jpg",
+    "source": "https://www.inaturalist.org/observations/51882258",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "western-talma": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622057395/large.jpg",
+    "source": "https://www.inaturalist.org/observations/341675027",
+    "author": "Belinda Forbes",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-giant-jellyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/370572298/large.jpg",
+    "source": "https://www.inaturalist.org/observations/209401025",
+    "author": "avocat",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "northern-hydromedusa": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154317281/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/93133530",
+    "author": "Charlotte Kirchner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "central-stoneroller": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428764620/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/240648492",
+    "author": "Dean Hester",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "dark-chub": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442515918/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/247730996",
+    "author": "りなべる",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "smiths-hillstream-loach": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172961884/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/103358856",
+    "author": "Utain Pummarin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "crested-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468771997/large.jpg",
+    "source": "https://www.inaturalist.org/observations/260980530",
+    "author": "Debra Baker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

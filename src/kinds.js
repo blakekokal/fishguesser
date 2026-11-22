@@ -121,6 +121,7 @@ const NOT_FISH = new Set([
   'southern-sea-butterfly', 'jellyfish-amphipod',
   'three-coloured-nudibranch', 'toliara-nudibranch', 'urchin-carrier-crab',
   'ten-legged-sea-spider', 'slender-spined-sea-star',
+  'gold-mouth-sea-squirt', 'antarctic-giant-jellyfish', 'northern-hydromedusa',
 ]);
 
 const isCrab = (fish) => CRAB_NAME.test(fish.name) && !NOT_CRABS.has(fish.id);
@@ -203,6 +204,7 @@ const WEIRD = new Set([
   'triangle-cichlid', 'common-sunstar', 'spotted-batfish', 'two-margined-flatworm',
   'jellyfish-amphipod',
   'urchin-carrier-crab', 'ten-legged-sea-spider', 'topknot',
+  'gold-mouth-sea-squirt', 'spotted-whiptail-pleco',
 ]);
 
 const isWeird = (fish) => WEIRD.has(fish.id);
@@ -243,6 +245,8 @@ const FRESHWATER = new Set([
   'triangle-cichlid', 'thicklip-cichlid', 'river-redhorse', 'blue-mahseer',
   'sheepshead-acara', 'lateral-tylochromis', 'southern-redbelly-dace',
   'golden-hill-barb',
+  'spotted-whiptail-pleco', 'african-pike-characin', 'central-stoneroller',
+  'dark-chub', 'smiths-hillstream-loach',
 
   'lake-sturgeon', 'muskellunge', 'lake-trout', 'bluegill', 'walleye',
   'yellow-perch', 'longnose-gar', 'bowfin', 'smallmouth-bass', 'pumpkinseed',

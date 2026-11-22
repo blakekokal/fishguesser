@@ -18,6 +18,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814680",
   },
+  "african-pike-characin": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33825729",
+  },
   "african-spottail-tetra": {
     author: "John P Friel",
     license: "CC BY 4.0",
@@ -95,6 +101,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/37600066",
+  },
+  "antarctic-giant-jellyfish": {
+    author: "avocat",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/209401025",
   },
   "antarctic-jellyfish": {
     author: "Steve Clabuesch, National Science Foundation",
@@ -330,6 +342,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Banggai-Kardinalbarsch_Pterapogon_kauderni.jpg",
   },
+  "barbel-clingfish": {
+    author: "Flávio Mendes",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/391980688",
+  },
   "barber-goby": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -347,6 +365,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Polypterus_delhezi_2.jpg",
+  },
+  "barred-hamlet": {
+    author: "marique",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/93008283",
   },
   "barred-knifejaw": {
     author: "Nicola Crockford",
@@ -756,6 +780,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/8836782",
   },
+  "central-stoneroller": {
+    author: "Dean Hester",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/240648492",
+  },
   "chambered-nautilus": {
     author: "Hans Hillewaert",
     license: "CC BY-SA 4.0",
@@ -942,6 +972,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Rhinoptera_bonasus_Brest.jpg",
   },
+  "crested-blenny": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/260980530",
+  },
   "crimson-banded-wrasse": {
     author: "Bryce Watts-Parker",
     license: "CC BY 4.0",
@@ -977,6 +1013,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/269911494",
+  },
+  "dark-chub": {
+    author: "りなべる",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/247730996",
   },
   "dead-mans-fingers": {
     author: "Bernard Picton",
@@ -1350,6 +1392,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/19892478",
   },
+  "gold-mouth-sea-squirt": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/51882258",
+  },
   "golden-hill-barb": {
     author: "Utain Pummarin",
     license: "CC BY 4.0",
@@ -1421,6 +1469,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/134590155",
+  },
+  "grey-wrasse": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/154953821",
   },
   "grunt-sculpin": {
     author: "Alicia Christman",
@@ -2028,6 +2082,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/225896518",
   },
+  "northern-hydromedusa": {
+    author: "Charlotte Kirchner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/93133530",
+  },
   "northern-pike": {
     author: "Klaus Kevin Kristensen",
     license: "CC BY 4.0",
@@ -2316,6 +2376,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Tetraodon_miurus_14554205.jpg",
   },
+  "powder-blue-tang": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/340118828",
+  },
   "psychedelic-frogfish": {
     author: "Truite agile",
     license: "CC BY-SA 4.0",
@@ -2567,6 +2633,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/121041343",
+  },
+  "rockpool-blenny": {
+    author: "Trevor Van Loon",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/103347614",
   },
   "royal-gramma": {
     author: "H. Zell",
@@ -2820,6 +2892,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Ecomare_-_hondshaai_(hondshaai-zeeaquarium-1108-sd).jpg",
   },
+  "smiths-hillstream-loach": {
+    author: "Utain Pummarin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/103358856",
+  },
   "smooth-trunkfish": {
     author: "Dan Schofield",
     license: "CC BY 4.0",
@@ -3011,6 +3089,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/170674844",
+  },
+  "spotted-whiptail-pleco": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/123978316",
   },
   "spotty": {
     author: "Thomas Linley",
@@ -3264,6 +3348,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/54122847",
   },
+  "two-spotted-clingfish": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/388286559",
+  },
   "upside-down-catfish": {
     author: "Igor Balashov",
     license: "CC BY 4.0",
@@ -3359,6 +3449,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/37993895",
+  },
+  "western-talma": {
+    author: "Belinda Forbes",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/341675027",
   },
   "whale-shark": {
     author: "Zac Wolf",
@@ -4091,4 +4187,20 @@ const PHOTO_ORDER = [
   "smallscale-blackfish",
   "golden-hill-barb",
   "scarlet-wrasse",
+  "rockpool-blenny",
+  "barred-hamlet",
+  "spotted-whiptail-pleco",
+  "two-spotted-clingfish",
+  "grey-wrasse",
+  "african-pike-characin",
+  "barbel-clingfish",
+  "powder-blue-tang",
+  "gold-mouth-sea-squirt",
+  "western-talma",
+  "antarctic-giant-jellyfish",
+  "northern-hydromedusa",
+  "central-stoneroller",
+  "dark-chub",
+  "smiths-hillstream-loach",
+  "crested-blenny",
 ];
