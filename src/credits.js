@@ -96,6 +96,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/202827282",
   },
+  "antarctic-stalked-jellyfish": {
+    author: "Erasmo Macaya Horta",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/20508125",
+  },
   "antarctic-toothfish": {
     author: "Citron",
     license: "CC BY-SA 3.0",
@@ -396,6 +402,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Bonnethead_shark_Aquarium_of_the_Pacific.jpg",
   },
+  "boulengers-fin-eater": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33812081",
+  },
   "bowfin": {
     author: "United States Fish and Wildlife Services",
     license: "Public domain",
@@ -569,6 +581,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/2495685",
+  },
+  "chocolate-cichlid": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121417305",
   },
   "christmas-anemone": {
     author: "Ian Manning",
@@ -858,6 +876,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Chaetodon_capistratus_394406658.jpg",
   },
+  "fourhorn-sculpin": {
+    author: "Aleksandr Novikov",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/132212903",
+  },
   "french-angelfish": {
     author: "LASZLO ILYES from Cleveland, Ohio, USA",
     license: "CC BY 2.0",
@@ -1080,6 +1104,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/327772863",
   },
+  "horned-turban": {
+    author: "りなべる",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/67897881",
+  },
   "horsehair-crab": {
     author: "Totti",
     license: "CC BY-SA 4.0",
@@ -1205,6 +1235,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Hexagrammos_decagrammus_hembra.jpg",
+  },
+  "kina": {
+    author: "Emily Roberts",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/32751227",
   },
   "kissing-gourami": {
     author: "Igor Balashov",
@@ -1356,6 +1392,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/121243602",
   },
+  "marbled-jellyfish": {
+    author: "Pablo H Capovilla",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/36367432",
+  },
   "marbled-rock-crab": {
     author: "Charles J. Sharp",
     license: "CC BY-SA 4.0",
@@ -1397,6 +1439,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/399243915",
+  },
+  "monkfish": {
+    author: "Libby Keatley",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/210998943",
   },
   "moorish-idol": {
     author: "Rusty",
@@ -1578,6 +1626,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/197441524",
   },
+  "peacock-wrasse": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/154729581",
+  },
   "pearl-gourami": {
     author: "h080",
     license: "CC BY-SA 2.0",
@@ -1619,6 +1673,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Pez_erizo_moteado_%28Diodon_hystrix%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_23.jpg",
+  },
+  "port-jackson-shark": {
+    author: "Lawrence Hylton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/306716933",
   },
   "portuguese-man-o-war": {
     author: "Jan Ebr & Ivana Ebrová",
@@ -1781,6 +1841,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/137420959",
+  },
+  "rock-bass": {
+    author: "Quinn",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/289353527",
   },
   "rock-beauty": {
     author: "Diego Delso",
@@ -2028,6 +2094,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/31873557",
   },
+  "spotted-drum": {
+    author: "Roger Rittmaster",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/20546082",
+  },
   "spotted-gar": {
     author: "Kristiina Hurme",
     license: "CC BY 4.0",
@@ -2166,6 +2238,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/208159476",
   },
+  "treefish": {
+    author: "Nathan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/360723233",
+  },
   "tripod-fish": {
     author: "Ifremer",
     license: "CC BY 4.0",
@@ -2279,6 +2357,24 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/255796607",
+  },
+  "wonderpus-octopus": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/41888755",
+  },
+  "wrestling-halfbeak": {
+    author: "Павлик Лисицын",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/145037559",
+  },
+  "yellow-blocked-nudibranch": {
+    author: "Ewout Knoester",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/403846905",
   },
   "yellow-boxfish": {
     author: "Chris Spain",
@@ -2747,4 +2843,20 @@ const PHOTO_ORDER = [
   "firefly-squid",
   "blue-bat-star",
   "sea-butterfly",
+  "treefish",
+  "spotted-drum",
+  "chocolate-cichlid",
+  "monkfish",
+  "peacock-wrasse",
+  "boulengers-fin-eater",
+  "marbled-jellyfish",
+  "yellow-blocked-nudibranch",
+  "wonderpus-octopus",
+  "port-jackson-shark",
+  "antarctic-stalked-jellyfish",
+  "fourhorn-sculpin",
+  "rock-bass",
+  "horned-turban",
+  "wrestling-halfbeak",
+  "kina",
 ];

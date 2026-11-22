@@ -2779,5 +2779,117 @@
     "author": "Leïla Brunner",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "treefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658244698/large.jpg",
+    "source": "https://www.inaturalist.org/observations/360723233",
+    "author": "Nathan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spotted-drum": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31717879/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/20546082",
+    "author": "Roger Rittmaster",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "chocolate-cichlid": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205454462/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121417305",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "monkfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373109148/large.jpg",
+    "source": "https://www.inaturalist.org/observations/210998943",
+    "author": "Libby Keatley",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "peacock-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267382219/large.jpg",
+    "source": "https://www.inaturalist.org/observations/154729581",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "boulengers-fin-eater": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53144427/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33812081",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "marbled-jellyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57480106/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/36367432",
+    "author": "Pablo H Capovilla",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "yellow-blocked-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/741526935/large.jpg",
+    "source": "https://www.inaturalist.org/observations/403846905",
+    "author": "Ewout Knoester",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "wonderpus-octopus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66472403/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/41888755",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "port-jackson-shark": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/553150641/large.jpg",
+    "source": "https://www.inaturalist.org/observations/306716933",
+    "author": "Lawrence Hylton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-stalked-jellyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31654107/large.jpg",
+    "source": "https://www.inaturalist.org/observations/20508125",
+    "author": "Erasmo Macaya Horta",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "fourhorn-sculpin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225117553/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/132212903",
+    "author": "Aleksandr Novikov",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rock-bass": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520428996/large.jpg",
+    "source": "https://www.inaturalist.org/observations/289353527",
+    "author": "Quinn",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "horned-turban": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109818000/large.jpg",
+    "source": "https://www.inaturalist.org/observations/67897881",
+    "author": "りなべる",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "wrestling-halfbeak": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249066273/large.jpg",
+    "source": "https://www.inaturalist.org/observations/145037559",
+    "author": "Павлик Лисицын",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "kina": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51391027/large.jpg",
+    "source": "https://www.inaturalist.org/observations/32751227",
+    "author": "Emily Roberts",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
