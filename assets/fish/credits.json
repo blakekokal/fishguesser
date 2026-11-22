@@ -5131,5 +5131,117 @@
     "author": "Cheryl Stinchcomb",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "three-coloured-top-snail": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367993923/large.jpg",
+    "source": "https://www.inaturalist.org/observations/208010450",
+    "author": "Parsa Fard",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rainbow-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346892229/large.jpg",
+    "source": "https://www.inaturalist.org/observations/197018559",
+    "author": "Jay Brasher",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "shag-rug-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204831653/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121066644",
+    "author": "Jamie O'Neill",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "comber": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/489589178/large.jpg",
+    "source": "https://www.inaturalist.org/observations/272140253",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "balays-petrocephalus": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146246/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814657",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-sharpnose-puffer": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110840723/large.jpg",
+    "source": "https://www.inaturalist.org/observations/68451854",
+    "author": "Bernard Picton",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "dianas-hogfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588952895/large.jpg",
+    "source": "https://www.inaturalist.org/observations/325301979",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "triangular-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160681551/large.jpg",
+    "source": "https://www.inaturalist.org/observations/96696774",
+    "author": "Bernard DUPONT",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "thompsons-chromodoris": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116464368/large.jpg",
+    "source": "https://www.inaturalist.org/observations/71525471",
+    "author": "Eldon E Ball",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-fairy-shrimp": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72697065/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/45837344",
+    "author": "Sarka Masova",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "tortoiseshell-limpet": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384397822/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/217304929",
+    "author": "Sue Carnahan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "rosyface-shiner": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297790477/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/171602875",
+    "author": "Zakqary Roy",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "japanese-babylon": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711165429/large.jpg",
+    "source": "https://www.inaturalist.org/observations/388309729",
+    "author": "げっとり",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "beardless-barb": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254032694/large.jpg",
+    "source": "https://www.inaturalist.org/observations/147612563",
+    "author": "Павлик Лисицын",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "golden-scale-worm": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226301512/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/132906217",
+    "author": "Javier",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "golden-trahira": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205460539/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121419376",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
   }
 }

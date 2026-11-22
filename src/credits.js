@@ -120,6 +120,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/134769128",
   },
+  "antarctic-fairy-shrimp": {
+    author: "Sarka Masova",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/45837344",
+  },
   "antarctic-giant-isopod": {
     author: "Agustín Zarco",
     license: "CC BY 4.0",
@@ -342,6 +348,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://www.inaturalist.org/observations/180968053",
   },
+  "balays-petrocephalus": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814657",
+  },
   "ballan-wrasse": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
@@ -467,6 +479,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/160358742",
+  },
+  "beardless-barb": {
+    author: "Павлик Лисицын",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/147612563",
   },
   "beluga-whale": {
     author: "Antony Stanley",
@@ -755,6 +773,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/105867946",
+  },
+  "brazilian-sharpnose-puffer": {
+    author: "Bernard Picton",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/68451854",
   },
   "brazilian-wrasse": {
     author: "Paulo Mascaretti",
@@ -1050,6 +1074,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/344765306",
   },
+  "comber": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/272140253",
+  },
   "common-basket-star": {
     author: "Rachel Crane",
     license: "CC BY 4.0",
@@ -1229,6 +1259,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814772",
+  },
+  "dianas-hogfish": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/325301979",
   },
   "discus": {
     author: "H. Zell",
@@ -1674,6 +1710,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/138845070",
   },
+  "golden-scale-worm": {
+    author: "Javier",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/132906217",
+  },
+  "golden-trahira": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121419376",
+  },
   "goldenback-wrasse": {
     author: "Bernard Picton",
     license: "CC BY 4.0",
@@ -1937,6 +1985,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.0",
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Squatina_japonica3.jpg",
+  },
+  "japanese-babylon": {
+    author: "げっとり",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/388309729",
   },
   "japanese-bullhead-shark": {
     author: "Jin Kemoole",
@@ -2982,6 +3036,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/10943406",
   },
+  "rainbow-parrotfish": {
+    author: "Jay Brasher",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/197018559",
+  },
   "rainbow-wrasse": {
     author: "Diego Delso",
     license: "CC BY-SA 4.0",
@@ -3204,6 +3264,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/302137706",
   },
+  "rosyface-shiner": {
+    author: "Zakqary Roy",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/171602875",
+  },
   "royal-gramma": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -3383,6 +3449,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/351898598",
+  },
+  "shag-rug-nudibranch": {
+    author: "Jamie O'Neill",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/121066644",
   },
   "sharpnose-puffer": {
     author: "desertnaturalist",
@@ -3918,6 +3990,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/10493077",
   },
+  "thompsons-chromodoris": {
+    author: "Eldon E Ball",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/71525471",
+  },
   "thornfish": {
     author: "Luca Davenport-Thomas",
     license: "CC BY 4.0",
@@ -3935,6 +4013,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/290999643",
+  },
+  "three-coloured-top-snail": {
+    author: "Parsa Fard",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/208010450",
   },
   "three-spot-headstander": {
     author: "Michael Bakker Paiva",
@@ -3978,6 +4062,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/72994035",
   },
+  "tortoiseshell-limpet": {
+    author: "Sue Carnahan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/217304929",
+  },
   "tortonese-stingray": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
@@ -4001,6 +4091,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/106799254",
+  },
+  "triangular-butterflyfish": {
+    author: "Bernard DUPONT",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/96696774",
   },
   "tripod-fish": {
     author: "Ifremer",
@@ -5099,4 +5195,20 @@ const PHOTO_ORDER = [
   "kuroda-sea-hare",
   "gold-edged-nudibranch",
   "smiths-barb",
+  "three-coloured-top-snail",
+  "rainbow-parrotfish",
+  "shag-rug-nudibranch",
+  "comber",
+  "balays-petrocephalus",
+  "brazilian-sharpnose-puffer",
+  "dianas-hogfish",
+  "triangular-butterflyfish",
+  "thompsons-chromodoris",
+  "antarctic-fairy-shrimp",
+  "tortoiseshell-limpet",
+  "rosyface-shiner",
+  "japanese-babylon",
+  "beardless-barb",
+  "golden-scale-worm",
+  "golden-trahira",
 ];

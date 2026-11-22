@@ -30,6 +30,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `antarctic-brittle-star` | Ingvild Riska | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/255237771) |
 | `antarctic-copepod` | michcjackson | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/104469119) |
 | `antarctic-cushion-star` | Oleksii Vasyliuk | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/134769128) |
+| `antarctic-fairy-shrimp` | Sarka Masova | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/45837344) |
 | `antarctic-giant-isopod` | Agustín Zarco | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/37600066) |
 | `antarctic-giant-jellyfish` | avocat | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/209401025) |
 | `antarctic-jellyfish` | Steve Clabuesch, National Science Foundation | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Diplulmaris_antarctica.jpg) |
@@ -67,6 +68,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `australian-lungfish` | タウナギ | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Neoceratodus_forsteri_Nagoya1.jpg) |
 | `ayu` | タウナギ | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Plecoglossus_altivelis_Totto.jpg) |
 | `bala-shark` | Martyn Drabik-Hamshare | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | [iNaturalist](https://www.inaturalist.org/observations/180968053) |
+| `balays-petrocephalus` | John P Friel | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/33814657) |
 | `ballan-wrasse` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/34802668) |
 | `bambooleaf-wrasse` | りなべる | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/395425426) |
 | `banded-brittle-star` | Javier | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/27904268) |
@@ -88,6 +90,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `bat-ray` | Claire Fackler, CINMS, NOAA | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Myliobatis_californica_channel_islands.jpg) |
 | `batangas-halgerda` | BJ Smit | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/57722) |
 | `bearded-mudskipper` | Utain Pummarin | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/160358742) |
+| `beardless-barb` | Павлик Лисицын | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/147612563) |
 | `beluga-whale` | Antony Stanley | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Beluga_Whale_(Underwater),_Vancouver_Aquarium_(319841848).jpg) |
 | `berrys-bobtail-squid` | Dan Schofield | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/33044970) |
 | `big-scaled-fin-eater` | John P Friel | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/33814778) |
@@ -136,6 +139,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `brazilian-guitarfish` | Diogo Luiz | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/29803971) |
 | `brazilian-red-sea-star` | Bernard Picton | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/68399517) |
 | `brazilian-sandperch` | demianlescano | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/105867946) |
+| `brazilian-sharpnose-puffer` | Bernard Picton | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/68451854) |
 | `brazilian-wrasse` | Paulo Mascaretti | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/344307537) |
 | `bristle-tail-filefish` | portioid | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/223263913) |
 | `bristlenose-armoured-catfish` | Whaldener Endo | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/121260649) |
@@ -185,6 +189,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `cockatoo-cichlid` | Made be Uploader | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Apistogramma_cacatuoides_double_red_male.jpg) |
 | `coconut-octopus` | Bernard DUPONT | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/96210976) |
 | `comb-grouper` | Paulo Mascaretti | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/344765306) |
+| `comber` | Donald Davesne | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/272140253) |
 | `common-basket-star` | Rachel Crane | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/399042060) |
 | `common-cuttlefish` | Michael Bommerer | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/247648491) |
 | `common-dragonet` | Klaus Kevin Kristensen | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/335263442) |
@@ -215,6 +220,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `dark-chub` | りなべる | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/247730996) |
 | `dead-mans-fingers` | Bernard Picton | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/5664898) |
 | `decorated-synodontis` | John P Friel | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/33814772) |
+| `dianas-hogfish` | Georgina Jones | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [iNaturalist](https://www.inaturalist.org/observations/325301979) |
 | `discus` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Symphysodon_aequifasciatus_-_Karlsruhe_Zoo_04.jpg) |
 | `doderleins-wrasse` | Michal Maňas | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/243057660) |
 | `donnys-elephantfish` | John P Friel | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/33814660) |
@@ -289,6 +295,8 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `gold-mouth-sea-squirt` | Dan Schofield | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/51882258) |
 | `golden-hill-barb` | Utain Pummarin | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/192608096) |
 | `golden-mbuna` | Roland Godon | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/138845070) |
+| `golden-scale-worm` | Javier | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/132906217) |
+| `golden-trahira` | Whaldener Endo | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/121419376) |
 | `goldenback-wrasse` | Bernard Picton | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/68423877) |
 | `goldspotted-mudskipper` | Ian Dugdale | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/302608986) |
 | `goldspotted-snake-eel` | Matteo Bellucci | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/407275624) |
@@ -333,6 +341,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `irrawaddy-dolphin` | Ian Dugdale | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/302263707) |
 | `italian-freshwater-crab` | Smailtn | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [Commons](https://commons.wikimedia.org/wiki/File:Potamon_fluviatile_A%C3%AFn_Draham.jpg) |
 | `japanese-angelshark` | RYO SATO | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Squatina_japonica3.jpg) |
+| `japanese-babylon` | げっとり | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/388309729) |
 | `japanese-bullhead-shark` | Jin Kemoole | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Japanese_bullhead_shark_Suma_Aqualife_Park.jpg) |
 | `japanese-dark-sleeper` | りなべる | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/197876097) |
 | `japanese-pineconefish` | Georgina Jones | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [iNaturalist](https://www.inaturalist.org/observations/337396330) |
@@ -507,6 +516,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `queen-triggerfish` | Greg Grimes | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Queen_Triggerfish_Balistes_vetula.jpg) |
 | `rabbit-fish` | MAREANO / Havforskningsinstituttet | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Havmus_%28Chimaera_monstrosa%29_over_havbotn.jpg) |
 | `rainbow-darter` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/10943406) |
+| `rainbow-parrotfish` | Jay Brasher | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/197018559) |
 | `rainbow-wrasse` | Diego Delso | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Doncella_%28Coris_julis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_69.jpg) |
 | `red-bellied-piranha` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg) |
 | `red-cave-goby` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/85271384) |
@@ -544,6 +554,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `rockmover-wrasse` | Don Loarie | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/121041343) |
 | `rockpool-blenny` | Trevor Van Loon | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/103347614) |
 | `rosy-rockfish` | Konshau Duman | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/302137706) |
+| `rosyface-shiner` | Zakqary Roy | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/171602875) |
 | `royal-gramma` | H. Zell | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Gramma_loreto_01.jpg) |
 | `rusty-blenny` | Yves Bas | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/185602459) |
 | `rusty-crayfish` | Evan Feusi | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [iNaturalist](https://www.inaturalist.org/observations/304187437) |
@@ -574,6 +585,7 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `sea-tadpole` | Leïla Brunner | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/184310973) |
 | `sevengill-shark` | Luca Davenport-Thomas | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/330674724) |
 | `severum` | Matthew Inabinett | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/351898598) |
+| `shag-rug-nudibranch` | Jamie O'Neill | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/121066644) |
 | `sharpnose-puffer` | desertnaturalist | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/204901132) |
 | `shaws-cowfish` | Belinda Forbes | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/152783057) |
 | `sheepshead-acara` | Whaldener Endo | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/121040270) |
@@ -663,9 +675,11 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `tasselled-wobbegong` | Rickard Zerpe | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Tasselled_wobbegong_(Eucrossorhinus_dasypogon).jpg) |
 | `ten-legged-sea-spider` | desertnaturalist | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/302136334) |
 | `thicklip-cichlid` | John P Friel | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/10493077) |
+| `thompsons-chromodoris` | Eldon E Ball | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/71525471) |
 | `thornfish` | Luca Davenport-Thomas | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/112243227) |
 | `threadsail-filefish` | 呂一起(Lyu yi-chi) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/305762931) |
 | `three-coloured-nudibranch` | Donald Davesne | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/290999643) |
+| `three-coloured-top-snail` | Parsa Fard | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/208010450) |
 | `three-spot-headstander` | Michael Bakker Paiva | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/12795598) |
 | `tiger-shovelnose-catfish` | Lerdsuwa | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Pseudoplatystoma_tigrinum1.jpg) |
 | `toliara-nudibranch` | Georgina Jones | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [iNaturalist](https://www.inaturalist.org/observations/109997918) |
@@ -673,10 +687,12 @@ This file is generated — run `python3 tools/build_credits.py` to rebuild it.
 | `topknot` | Echo Severs | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/343997134) |
 | `torafugu` | Totti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Takifugu_rubripes_AQUAS.jpg) |
 | `torrent-catfish` | Utain Pummarin | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/72994035) |
+| `tortoiseshell-limpet` | Sue Carnahan | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/217304929) |
 | `tortonese-stingray` | Julien Renoult | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/90457907) |
 | `trahira` | R Vasconcellos | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/208159476) |
 | `treefish` | Nathan | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/360723233) |
 | `triangle-cichlid` | Diogo Luiz | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/106799254) |
+| `triangular-butterflyfish` | Bernard DUPONT | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [iNaturalist](https://www.inaturalist.org/observations/96696774) |
 | `tripod-fish` | Ifremer | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Campagne_BIOZAIRE_2_-_Poisson_tr%C3%A9pied_ou_poisson_tripode_%28Ifremer_00574-68561%29.jpg) |
 | `trumpetfish` | Chris Spain | [CC0](https://creativecommons.org/publicdomain/zero/1.0) | [iNaturalist](https://www.inaturalist.org/observations/241551076) |
 | `tucuxi-dolphin` | Franklin Checa | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [iNaturalist](https://www.inaturalist.org/observations/26946893) |
