@@ -886,6 +886,14 @@ const FISH = [
     region: 'north-atlantic',
     fact: 'A soft coral: a colony of polyps in a fleshy, lumpy body with no stony skeleton. With its polyps drawn in it looks like a pale, swollen hand; with them out it turns fuzzy and translucent as they catch plankton. Each summer it shuts down for weeks and sheds a skin.',
   },
+  {
+    id: 'north-atlantic-right-whale',
+    name: 'North Atlantic Right Whale',
+    sciName: 'Eubalaena glacialis',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/637485809/large.jpg',
+    region: 'north-atlantic',
+    fact: 'Whalers named it the right whale to hunt: slow, close to shore, and it floated when killed. Its head is crusted with pale patches of rough skin that mark each whale in a pattern as individual as a fingerprint. Fewer than four hundred are left, and ships and fishing rope are what kill them now.',
+  },
   // ---- Mediterranean Sea ----
   {
     id: 'gilt-head-bream',
@@ -1274,6 +1282,22 @@ const FISH = [
     region: 'congo',
     fact: 'A deep-bodied little characin, silver with a dark spot at the root of its tail. It lives in schools in slow, shaded forest streams, picking insects and other small food off the surface and out of the water column.',
   },
+  {
+    id: 'decorated-synodontis',
+    name: 'Decorated Synodontis',
+    sciName: 'Synodontis decorus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/53146686/large.jpg',
+    region: 'congo',
+    fact: 'A squeaker catfish: it locks the first spine of each front fin and grinds it in its socket, making a creak that startles whatever has it in its mouth. Young ones are spotted all over; adults grow a long streamer off the dorsal fin and bold bars across the tail.',
+  },
+  {
+    id: 'needlenose-fin-eater',
+    name: 'Needlenose Fin-eater',
+    sciName: 'Belonophago hutsebouti',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/53146283/large.jpg',
+    region: 'congo',
+    fact: 'A pencil-thin fish with a long beak for a snout, which it uses to bite pieces out of the fins and scales of other fish rather than eating them whole. It hangs motionless among plants, looking like a twig, until a victim drifts within reach.',
+  },
   // ---- South Atlantic ----
   {
     id: 'west-african-fiddler-crab',
@@ -1394,6 +1418,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/627328060/large.jpg',
     region: 'south-atlantic',
     fact: 'Spends the day turning over rubble and snapping up the small crabs, snails and sea urchins hiding underneath, then buries itself in the sand to sleep at night. Like most wrasses it starts life as a female, and the biggest fish on a stretch of reef turn into green-and-gold males.',
+  },
+  {
+    id: 'brazilian-guitarfish',
+    name: 'Brazilian Guitarfish',
+    sciName: 'Pseudobatos horkelii',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/46533094/large.jpeg',
+    region: 'south-atlantic',
+    fact: 'A ray built like a shark from the waist back, with a flat, wedge-shaped head that gives the family its name. It lies half-buried in sand by day and digs out shrimp and crabs. Females come into shallow bays to give birth to live young, and nets set there have cut its numbers by more than nine tenths.',
+  },
+  {
+    id: 'ocean-surgeonfish',
+    name: 'Ocean Surgeonfish',
+    sciName: 'Acanthurus bahianus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/700225464/large.jpg',
+    region: 'south-atlantic',
+    fact: 'Carries a scalpel on each side of its tail — a sharp, hinged spine that flicks out when it lashes sideways. It spends the day grazing films of algae off rock in loose roving groups, and can shift from pale grey to deep brown in a few seconds.',
   },
   // ---- East Africa and the Indian Ocean ----
   {
@@ -2194,6 +2234,22 @@ const FISH = [
     region: 'southern-ocean',
     fact: 'Black, with two white patches on each side that pinch together at the waist like the halves of an hourglass. It lives far out over deep, cold water and is known almost entirely from sightings off ships, whose bow waves it races in to ride.',
   },
+  {
+    id: 'wolftrap-sea-star',
+    name: 'Wolftrap Sea Star',
+    sciName: 'Labidiaster annulatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/458487330/large.jpeg',
+    region: 'southern-ocean',
+    fact: 'Has up to fifty slender arms round a small central disc, each lined with tiny pincers. It holds them up into the current and snaps shut on small swimming crustaceans that blunder in — one of very few sea stars that catches prey on the move.',
+  },
+  {
+    id: 'antarctic-giant-isopod',
+    name: 'Antarctic Giant Isopod',
+    sciName: 'Glyptonotus antarcticus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/59636092/large.jpeg',
+    region: 'southern-ocean',
+    fact: 'A relative of the woodlouse that grows to the length of a hand in near-freezing water, where the cold slows its whole life down: a female broods her eggs in a pouch for close to two years. It scavenges and hunts across the sea floor and eats almost anything it can catch.',
+  },
   // ---- Arctic Ocean ----
   {
     id: 'greenland-shark',
@@ -2355,6 +2411,14 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/384397253/large.jpeg',
     region: 'arctic',
     fact: 'Named for the branched spine on each cheek, shaped like a stag\'s antlers, which can jam in the throat of anything that tries to swallow it. It sits motionless on stony and muddy bottoms in water close to freezing, mottled to match the gravel, and snaps up worms and small crustaceans that come within reach.',
+  },
+  {
+    id: 'sea-butterfly',
+    name: 'Sea Butterfly',
+    sciName: 'Limacina helicina',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/357292984/large.jpg',
+    region: 'arctic',
+    fact: 'A snail the size of a lentil that swims by flapping two wings grown from its foot, and catches food in a floating web of mucus far bigger than itself. Its paper-thin shell is among the first things to dissolve as seawater grows more acidic, so it is watched as an early warning.',
   },
   // ---- Great Lakes and inland North America ----
   {
@@ -2735,6 +2799,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/1921961/large.JPG',
     region: 'sea-of-japan',
     fact: 'A jellyfish with sixteen dark stripes radiating over its bell and tentacles that trail for metres and sting hard enough to hurt a swimmer. It eats other jellyfish as well as plankton, and small fish often shelter under its bell, immune to the sting.',
+  },
+  {
+    id: 'firefly-squid',
+    name: 'Firefly Squid',
+    sciName: 'Watasenia scintillans',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/186706722/large.jpg',
+    region: 'sea-of-japan',
+    fact: 'A squid the length of a thumb studded with hundreds of light organs, with three bright ones at the tip of each of its lower arms. In spring vast numbers rise from deep water to spawn, and on nights when waves wash them in, the shoreline glows blue.',
+  },
+  {
+    id: 'blue-bat-star',
+    name: 'Blue Bat Star',
+    sciName: 'Patiria pectinifera',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/57898125/large.jpg',
+    region: 'sea-of-japan',
+    fact: 'A sea star with arms so short it is nearly a pentagon, webbed between like a bat\'s wing. No two are patterned alike — deep blue blotched with orange, or orange all over. It feeds by pushing its stomach out through its mouth and digesting whatever it is sitting on.',
   },
   // ---- Mekong Basin ----
   {

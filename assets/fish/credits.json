@@ -2709,5 +2709,75 @@
     "author": "Debra Baker",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-guitarfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46533094/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/29803971",
+    "author": "Diogo Luiz",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ocean-surgeonfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700225464/large.jpg",
+    "source": "https://www.inaturalist.org/observations/382625763",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "decorated-synodontis": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146686/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814772",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "needlenose-fin-eater": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146283/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814667",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "wolftrap-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458487330/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/255796607",
+    "author": "Pablo",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "antarctic-giant-isopod": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59636092/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/37600066",
+    "author": "Agustín Zarco",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "north-atlantic-right-whale": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/637485809/large.jpg",
+    "source": "https://www.inaturalist.org/observations/349571811",
+    "author": "Ann McKenzie",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "firefly-squid": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186706722/large.jpg",
+    "source": "https://www.inaturalist.org/observations/110656072",
+    "author": "kamataryo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "blue-bat-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57898125/large.jpg",
+    "source": "https://www.inaturalist.org/observations/36613384",
+    "author": "alexey_tat",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sea-butterfly": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357292984/large.jpg",
+    "source": "https://www.inaturalist.org/observations/202315502",
+    "author": "Leïla Brunner",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

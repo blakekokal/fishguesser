@@ -60,6 +60,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/134769128",
   },
+  "antarctic-giant-isopod": {
+    author: "Agustín Zarco",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/37600066",
+  },
   "antarctic-jellyfish": {
     author: "Steve Clabuesch, National Science Foundation",
     license: "Public domain",
@@ -306,6 +312,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/259913283",
   },
+  "blue-bat-star": {
+    author: "alexey_tat",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/36613384",
+  },
   "blue-cod": {
     author: "André Richard Chalmers",
     license: "CC BY-SA 4.0",
@@ -419,6 +431,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/349002389",
+  },
+  "brazilian-guitarfish": {
+    author: "Diogo Luiz",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/29803971",
   },
   "brazilian-red-sea-star": {
     author: "Bernard Picton",
@@ -690,6 +708,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/5664898",
   },
+  "decorated-synodontis": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814772",
+  },
   "discus": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -797,6 +821,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%81%D1%82%D0%B0%D1%86%D0%B5%D0%BC%D0%B1%D0%B5%D0%BB_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%8B%D0%B9_%28Mastacembelus_erythrotaenia%29.jpg",
+  },
+  "firefly-squid": {
+    author: "kamataryo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/110656072",
   },
   "flamboyant-cuttlefish": {
     author: "Pauline Walsh Jacobson",
@@ -1398,6 +1428,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Epinephelus_striatus_2.jpg",
   },
+  "needlenose-fin-eater": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814667",
+  },
   "new-zealand-eagle-ray": {
     author: "Oscar Dove",
     license: "CC BY 4.0",
@@ -1415,6 +1451,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/117540049",
+  },
+  "north-atlantic-right-whale": {
+    author: "Ann McKenzie",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/349571811",
   },
   "northern-hogsucker": {
     author: "Donald Davesne",
@@ -1451,6 +1493,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/13496785",
+  },
+  "ocean-surgeonfish": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/382625763",
   },
   "ocellate-river-stingray": {
     author: "Steven G. Johnson",
@@ -1805,6 +1853,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/8387299",
+  },
+  "sea-butterfly": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/202315502",
   },
   "sea-lamprey": {
     author: "Stephanie Tran",
@@ -2219,6 +2273,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/145836028",
+  },
+  "wolftrap-sea-star": {
+    author: "Pablo",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/255796607",
   },
   "yellow-boxfish": {
     author: "Chris Spain",
@@ -2677,4 +2737,14 @@ const PHOTO_ORDER = [
   "brown-meagre",
   "arctic-staghorn-sculpin",
   "variable-triplefin",
+  "brazilian-guitarfish",
+  "ocean-surgeonfish",
+  "decorated-synodontis",
+  "needlenose-fin-eater",
+  "wolftrap-sea-star",
+  "antarctic-giant-isopod",
+  "north-atlantic-right-whale",
+  "firefly-squid",
+  "blue-bat-star",
+  "sea-butterfly",
 ];
