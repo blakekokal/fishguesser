@@ -432,6 +432,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/315770103",
   },
+  "blackhead-triplefin": {
+    author: "Belinda Forbes",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/342875996",
+  },
   "blackline-rasbora": {
     author: "Ian Dugdale",
     license: "CC BY 4.0",
@@ -1344,6 +1350,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/19892478",
   },
+  "golden-hill-barb": {
+    author: "Utain Pummarin",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/192608096",
+  },
   "golden-mbuna": {
     author: "Roland Godon",
     license: "CC BY 4.0",
@@ -1355,6 +1367,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/68423877",
+  },
+  "goldspotted-snake-eel": {
+    author: "Matteo Bellucci",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/407275624",
   },
   "goliath-tigerfish": {
     author: "Sablegsd",
@@ -1685,6 +1703,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 3.0",
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pristis_pristis_-_Daly_River.JPG",
+  },
+  "lateral-tylochromis": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/33814716",
   },
   "leaf-scorpionfish": {
     author: "Bernard DUPONT",
@@ -2622,6 +2646,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/147186689",
   },
+  "scarlet-wrasse": {
+    author: "Thomas Linley",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/333830520",
+  },
   "schliewens-goby": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
@@ -2694,6 +2724,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/152783057",
   },
+  "sheepshead-acara": {
+    author: "Whaldener Endo",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/121040270",
+  },
   "shell-dweller-cichlid": {
     author: "Richard A. Ingebrigtsen",
     license: "CC BY-SA 3.0",
@@ -2748,6 +2784,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Distichodontidae_-_Distichodus_sexfasciatus.JPG",
   },
+  "slender-spined-sea-star": {
+    author: "Георгий Виноградов (Georgy Vinogradov)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/20304992",
+  },
   "slimy-snailfish": {
     author: "Alex Heyman",
     license: "CC0",
@@ -2765,6 +2807,12 @@ const PHOTO_CREDITS = {
     license: "Public domain",
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Detailed_underwater_photo_of_smallmouth_bass_fish_micropterus_dolomieu.jpg",
+  },
+  "smallscale-blackfish": {
+    author: "WATANABE Hitoshi 渡辺仁",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/179142895",
   },
   "smallspotted-catshark": {
     author: "Ecomare/Sytske Dijksen",
@@ -2819,6 +2867,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/37841240",
+  },
+  "southern-redbelly-dace": {
+    author: "Dean Hester",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/271603215",
   },
   "southern-right-whale": {
     author: "steve b",
@@ -2945,6 +2999,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Hydrolagus_colliei_8049778.jpg",
+  },
+  "spotted-scorpionfish": {
+    author: "Eric Crandall",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/196888465",
   },
   "spotted-silver-dollar": {
     author: "Vincent A. Vos",
@@ -3084,6 +3144,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Tasselled_wobbegong_(Eucrossorhinus_dasypogon).jpg",
   },
+  "ten-legged-sea-spider": {
+    author: "desertnaturalist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/302136334",
+  },
   "thicklip-cichlid": {
     author: "John P Friel",
     license: "CC BY 4.0",
@@ -3102,17 +3168,35 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/305762931",
   },
+  "three-coloured-nudibranch": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/290999643",
+  },
   "tiger-shovelnose-catfish": {
     author: "Lerdsuwa",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Pseudoplatystoma_tigrinum1.jpg",
   },
+  "toliara-nudibranch": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/109997918",
+  },
   "tompot-blenny": {
     author: "Katerina Kalogerini",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/57164613",
+  },
+  "topknot": {
+    author: "Echo Severs",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/343997134",
   },
   "torafugu": {
     author: "Totti",
@@ -3162,6 +3246,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/26946893",
   },
+  "tuiupiranga-parrotfish": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/391013438",
+  },
   "two-banded-seabream": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -3179,6 +3269,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/237908815",
+  },
+  "urchin-carrier-crab": {
+    author: "Pauline Walsh Jacobson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/198134465",
   },
   "urchin-clingfish": {
     author: "Saryu Mae 前 朝琉",
@@ -3979,4 +4075,20 @@ const PHOTO_ORDER = [
   "blackhead-seabream",
   "blue-mahseer",
   "blue-eyed-triplefin",
+  "spotted-scorpionfish",
+  "goldspotted-snake-eel",
+  "sheepshead-acara",
+  "topknot",
+  "three-coloured-nudibranch",
+  "lateral-tylochromis",
+  "tuiupiranga-parrotfish",
+  "toliara-nudibranch",
+  "urchin-carrier-crab",
+  "blackhead-triplefin",
+  "ten-legged-sea-spider",
+  "slender-spined-sea-star",
+  "southern-redbelly-dace",
+  "smallscale-blackfish",
+  "golden-hill-barb",
+  "scarlet-wrasse",
 ];

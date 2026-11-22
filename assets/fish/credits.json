@@ -4011,5 +4011,117 @@
     "author": "Debra Baker",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spotted-scorpionfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346627809/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/196888465",
+    "author": "Eric Crandall",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "goldspotted-snake-eel": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/748396606/large.jpg",
+    "source": "https://www.inaturalist.org/observations/407275624",
+    "author": "Matteo Bellucci",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sheepshead-acara": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204784370/large.jpg",
+    "source": "https://www.inaturalist.org/observations/121040270",
+    "author": "Whaldener Endo",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "topknot": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626725978/large.jpg",
+    "source": "https://www.inaturalist.org/observations/343997134",
+    "author": "Echo Severs",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "three-coloured-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523529392/large.jpg",
+    "source": "https://www.inaturalist.org/observations/290999643",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "lateral-tylochromis": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53146450/large.jpg",
+    "source": "https://www.inaturalist.org/observations/33814716",
+    "author": "John P Friel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "tuiupiranga-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/716419655/large.jpg",
+    "source": "https://www.inaturalist.org/observations/391013438",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "toliara-nudibranch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185489149/large.jpg",
+    "source": "https://www.inaturalist.org/observations/109997918",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "urchin-carrier-crab": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349146707/large.jpg",
+    "source": "https://www.inaturalist.org/observations/198134465",
+    "author": "Pauline Walsh Jacobson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "blackhead-triplefin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624465743/large.jpg",
+    "source": "https://www.inaturalist.org/observations/342875996",
+    "author": "Belinda Forbes",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ten-legged-sea-spider": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544493103/large.jpg",
+    "source": "https://www.inaturalist.org/observations/302136334",
+    "author": "desertnaturalist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "slender-spined-sea-star": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31349987/large.jpg",
+    "source": "https://www.inaturalist.org/observations/20304992",
+    "author": "Георгий Виноградов (Georgy Vinogradov)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "southern-redbelly-dace": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488560698/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/271603215",
+    "author": "Dean Hester",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "smallscale-blackfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311835407/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/179142895",
+    "author": "WATANABE Hitoshi 渡辺仁",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "golden-hill-barb": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119109705/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/192608096",
+    "author": "Utain Pummarin",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "scarlet-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606101081/large.jpg",
+    "source": "https://www.inaturalist.org/observations/333830520",
+    "author": "Thomas Linley",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
