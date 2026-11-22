@@ -426,6 +426,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/289710472",
   },
+  "blackhead-seabream": {
+    author: "Liem Malarney",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/315770103",
+  },
   "blackline-rasbora": {
     author: "Ian Dugdale",
     license: "CC BY 4.0",
@@ -462,11 +468,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/104453938",
   },
+  "blue-eyed-triplefin": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/261328872",
+  },
   "blue-land-crab": {
     author: "Krzysztof Ziarnek, Kenraiz",
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Cardisoma_guanhumi_kz01.jpg",
+  },
+  "blue-mahseer": {
+    author: "Chuck Wilson",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/342712542",
   },
   "blue-maomao": {
     author: "Luca Davenport-Thomas",
@@ -870,11 +888,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Dasyatis_pastinaca_24933880.jpg",
   },
+  "common-sunstar": {
+    author: "Libby Keatley",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/204896179",
+  },
   "compass-jellyfish": {
     author: "Fraser Higgins",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/364243126",
+  },
+  "coney": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/99448122",
   },
   "congo-tetra": {
     author: "7TP (Krzysztof Bartosik)",
@@ -905,6 +935,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Rhinoptera_bonasus_Brest.jpg",
+  },
+  "crimson-banded-wrasse": {
+    author: "Bryce Watts-Parker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/381250774",
   },
   "crown-of-thorns-starfish": {
     author: "Darren Obbard",
@@ -1542,6 +1578,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0/",
     source: "https://commons.wikimedia.org/wiki/File:Ditrema_temmincki_temmincki_Oarai.jpg",
   },
+  "jellyfish-amphipod": {
+    author: "Leïla Brunner",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/205533040",
+  },
   "jewel-anemone": {
     author: "Luca Davenport-Thomas",
     license: "CC BY 4.0",
@@ -1577,6 +1619,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/64148300",
+  },
+  "kelp-bass": {
+    author: "Ron Burkert",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/17077585",
   },
   "kelp-greenling": {
     author: "Steve Lonhart / NOAA MBNMS",
@@ -2412,6 +2460,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/120473866",
   },
+  "redback-hogfish": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/327216600",
+  },
   "redside-dace": {
     author: "Steven Wang",
     license: "CC BY 4.0",
@@ -2453,6 +2507,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/137420959",
+  },
+  "river-redhorse": {
+    author: "moxostoma",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/18551833",
   },
   "rock-bass": {
     author: "Quinn",
@@ -2724,6 +2784,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/340162443",
   },
+  "snakelocks-anemone": {
+    author: "Yves Bas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/326477105",
+  },
   "snow-crab": {
     author: "Blue Rose Man",
     license: "CC0",
@@ -2759,6 +2825,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/150849220",
+  },
+  "southern-sea-butterfly": {
+    author: "Ingvild Riska",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/334898054",
   },
   "southern-stingray": {
     author: "Albert kok",
@@ -2837,6 +2909,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/31873557",
+  },
+  "spotted-batfish": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/387493496",
   },
   "spotted-drum": {
     author: "Roger Rittmaster",
@@ -3006,6 +3084,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Tasselled_wobbegong_(Eucrossorhinus_dasypogon).jpg",
   },
+  "thicklip-cichlid": {
+    author: "John P Friel",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/10493077",
+  },
   "thornfish": {
     author: "Luca Davenport-Thomas",
     license: "CC BY 4.0",
@@ -3054,6 +3138,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/360723233",
   },
+  "triangle-cichlid": {
+    author: "Diogo Luiz",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/106799254",
+  },
   "tripod-fish": {
     author: "Ifremer",
     license: "CC BY 4.0",
@@ -3077,6 +3167,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/83306261",
+  },
+  "two-margined-flatworm": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/54122847",
   },
   "upside-down-catfish": {
     author: "Igor Balashov",
@@ -3867,4 +3963,20 @@ const PHOTO_ORDER = [
   "kidako-moray",
   "pearl-danio",
   "virgin-paua",
+  "kelp-bass",
+  "coney",
+  "triangle-cichlid",
+  "common-sunstar",
+  "snakelocks-anemone",
+  "thicklip-cichlid",
+  "spotted-batfish",
+  "redback-hogfish",
+  "two-margined-flatworm",
+  "crimson-banded-wrasse",
+  "southern-sea-butterfly",
+  "jellyfish-amphipod",
+  "river-redhorse",
+  "blackhead-seabream",
+  "blue-mahseer",
+  "blue-eyed-triplefin",
 ];
