@@ -175,7 +175,10 @@ const REGIONS = [
       [55, -15], [38, -20], [48, -25], [58, 10], [65, 2], [52, 18],
       // Off the south coast of Africa, so the Cape's Indian Ocean side is
       // not left to the river basin inland.
-      [21, -38], [26, -37], [31, -34]
+      [21, -38], [26, -37], [31, -34],
+      // The Red Sea, both gulfs at its head included: without these its
+      // northern half sits nearer the Levant seed and reads as Mediterranean.
+      [34, 28], [38, 21]
     ],
   },
   {
