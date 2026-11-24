@@ -5244,5 +5244,705 @@
     "author": "Whaldener Endo",
     "license": "CC0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "blacksmith-chromis": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231885407/large.jpg",
+    "source": "https://www.inaturalist.org/observations/135916193",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "harlequin-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350709679/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/198927102",
+    "author": "Rob Foster",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "honeycomb-cowfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151885815/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/91789856",
+    "author": "Jay Brasher",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "neon-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592159129/large.jpg",
+    "source": "https://www.inaturalist.org/observations/326909186",
+    "author": "Robert Webster",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "jackknife-fish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59083059/large.jpg",
+    "source": "https://www.inaturalist.org/observations/37286869",
+    "author": "Matteo Cassella",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "whitespotted-filefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129263909/large.jpg",
+    "source": "https://www.inaturalist.org/observations/78949549",
+    "author": "Jean-Paul Boerekamps",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "web-burrfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58762390/large.jpg",
+    "source": "https://www.inaturalist.org/observations/37102712",
+    "author": "Matteo Cassella",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "goldsinny-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/352461853/large.jpg",
+    "source": "https://www.inaturalist.org/observations/199832815",
+    "author": "Libby Keatley",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "small-mouthed-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392795137/large.jpg",
+    "source": "https://www.inaturalist.org/observations/221783474",
+    "author": "Libby Keatley",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pogge": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343572438/large.jpg",
+    "source": "https://www.inaturalist.org/observations/195315797",
+    "author": "Klaus Kevin Kristensen",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "atlantic-warbonnet": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557972398/large.jpg",
+    "source": "https://www.inaturalist.org/observations/219077127",
+    "author": "Libby Keatley",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "snake-pipefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/766188849/large.jpg",
+    "source": "https://www.inaturalist.org/observations/416063310",
+    "author": "Tony Gilbert",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sphinx-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/561786990/large.jpg",
+    "source": "https://www.inaturalist.org/observations/311216506",
+    "author": "Radu Teodoreanu",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "masked-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/581020123/large.jpg",
+    "source": "https://www.inaturalist.org/observations/321284200",
+    "author": "R Vasconcellos",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "two-band-anemonefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283189232/large.jpg",
+    "source": "https://www.inaturalist.org/observations/163717994",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sohal-surgeonfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334315485/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/190676760",
+    "author": "Andrew Deacon",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "vermiculate-angelfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244213322/large.jpg",
+    "source": "https://www.inaturalist.org/observations/142446419",
+    "author": "Jean-Paul Boerekamps",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "solor-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332727275/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/189876419",
+    "author": "desertnaturalist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "mado": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124605731/large.png",
+    "source": "https://www.inaturalist.org/observations/76187111",
+    "author": "Tim",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "ornate-cowfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32265365/large.jpg",
+    "source": "https://www.inaturalist.org/observations/20907634",
+    "author": "Christopher Mark",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-shiner": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175214546/large.jpg",
+    "source": "https://www.inaturalist.org/observations/104554936",
+    "author": "Tom Kennedy",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "pirate-perch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/677988301/large.jpg",
+    "source": "https://www.inaturalist.org/observations/371095570",
+    "author": "Dominic",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "half-lined-cardinalfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/710861429/large.jpg",
+    "source": "https://www.inaturalist.org/observations/388157410",
+    "author": "Andra Waagmeester",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "twister": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68184501/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/42940365",
+    "author": "Jacob Littlejohn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "orange-clingfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229094268/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/134405670",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "torrentfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449023164/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/250999235",
+    "author": "Oscar Dove",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "black-and-yellow-rockfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/692325174/large.jpg",
+    "source": "https://www.inaturalist.org/observations/378540439",
+    "author": "Nathan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-irish-lord": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447975907/large.png",
+    "source": "https://www.inaturalist.org/observations/250476539",
+    "author": "Rachel Crane",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "sailfin-sculpin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468133785/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/260655478",
+    "author": "rlacroix",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "king-angelfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102098462/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/63600001",
+    "author": "desertnaturalist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "black-nosed-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/274774145/large.jpg",
+    "source": "https://www.inaturalist.org/observations/159039008",
+    "author": "Zygy",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "razor-surgeonfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600582742/large.jpg",
+    "source": "https://www.inaturalist.org/observations/331109531",
+    "author": "Chris Kirby-Lambert",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "queen-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456901849/large.jpg",
+    "source": "https://www.inaturalist.org/observations/255011244",
+    "author": "Jay Brasher",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hogfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58838322/large.jpg",
+    "source": "https://www.inaturalist.org/observations/37145957",
+    "author": "Matteo Cassella",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "peppermint-basslet": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613965157/large.jpg",
+    "source": "https://www.inaturalist.org/observations/337705874",
+    "author": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "two-spotted-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628380545/large.jpg",
+    "source": "https://www.inaturalist.org/observations/344850333",
+    "author": "Tony Gilbert",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "tadpole-fish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10138648/large.jpg",
+    "source": "https://www.inaturalist.org/observations/7727483",
+    "author": "Viktor V. Grøtan",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brown-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266884565/large.jpg",
+    "source": "https://www.inaturalist.org/observations/154460466",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "green-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268580122/large.jpg",
+    "source": "https://www.inaturalist.org/observations/155380396",
+    "author": "Donald Davesne",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "small-red-scorpionfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4643920/large.jpg",
+    "source": "https://www.inaturalist.org/observations/3942632",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "black-headed-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10104522/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/7706948",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-mouthed-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5114138/large.jpg",
+    "source": "https://www.inaturalist.org/observations/4271186",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "scalyfin-grunt": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457121567/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/255119226",
+    "author": "Inacio Oliveira",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "arabian-angelfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260752039/large.jpg",
+    "source": "https://www.inaturalist.org/observations/151150908",
+    "author": "Jan Ebr &amp; Ivana Ebrová",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "orchid-dottyback": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167734763/large.jpg",
+    "source": "https://www.inaturalist.org/observations/100491682",
+    "author": "Jean-Paul Boerekamps",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "halmahera-epaulette-shark": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/713515341/large.jpg",
+    "source": "https://www.inaturalist.org/observations/389526292",
+    "author": "Ben Costamagna",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "signal-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217859538/large.jpg",
+    "source": "https://www.inaturalist.org/observations/128267156",
+    "author": "desertnaturalist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "royal-dottyback": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280229556/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/162086486",
+    "author": "desertnaturalist",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "spine-cheek-anemonefish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456741076/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/254936604",
+    "author": "Micha Baum",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "devil-stinger": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159572687/large.jpg",
+    "source": "https://www.inaturalist.org/observations/96077078",
+    "author": "Bernard DUPONT",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bluethroat-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366351743/large.jpg",
+    "source": "https://www.inaturalist.org/observations/207132517",
+    "author": "Bruce Deagle",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "maori-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245831107/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/143350183",
+    "author": "Tim",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "senator-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104576897/large.jpg",
+    "source": "https://www.inaturalist.org/observations/64997601",
+    "author": "Niki Hubbard",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "whites-seahorse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364753654/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/206238641",
+    "author": "Daniel Eisenhauer",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "mosaic-leatherjacket": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59350424/large.jpg",
+    "source": "https://www.inaturalist.org/observations/37438294",
+    "author": "Kai Squires",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "greenside-darter": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/762103414/large.jpg",
+    "source": "https://www.inaturalist.org/observations/414022863",
+    "author": "Turner Brockman",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "spottedtail-morwong": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209296018/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/123541709",
+    "author": "呂一起(Lyu yi-chi)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "elegant-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662949951/large.jpg",
+    "source": "https://www.inaturalist.org/observations/363192809",
+    "author": "りなべる",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "yellow-and-black-triplefin": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178393165/large.jpg",
+    "source": "https://www.inaturalist.org/observations/106215973",
+    "author": "Debra Baker",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "redbanded-perch": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456841261/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/254980346",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "giant-kokopu": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254943033/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/148086005",
+    "author": "Christopher Stephens",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "redfin-bully": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448467960/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/250720673",
+    "author": "Oscar Dove",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "slender-roughy": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474889212/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/264458918",
+    "author": "Luca Davenport-Thomas",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "duckbill-catfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122845620/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/75116865",
+    "author": "demianlescano",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "small-triplefin-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222154673/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/130614417",
+    "author": "Sarah Faulwetter",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "purple-tang": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150143684/large.jpg",
+    "source": "https://www.inaturalist.org/observations/90825133",
+    "author": "rochard",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "golden-dorado": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386614412/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/218482313",
+    "author": "R Vasconcellos",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "guinean-angelfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612776366/large.jpg",
+    "source": "https://www.inaturalist.org/observations/337123756",
+    "author": "Rui Ribeiro",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "four-banded-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/726501878/large.jpg",
+    "source": "https://www.inaturalist.org/observations/396160830",
+    "author": "Nicola Faulks",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "brazilian-creole-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167403492/large.jpg",
+    "source": "https://www.inaturalist.org/observations/100311915",
+    "author": "João D'Andretta",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "lavender-mbuna": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5692318/large.jpg",
+    "source": "https://www.inaturalist.org/observations/4694958",
+    "author": "Michael K. Oliver, Ph.D.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "lobochilotes": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/623993478/large.jpg",
+    "source": "https://www.inaturalist.org/observations/342634240",
+    "author": "Zach Johnson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "crown-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26378923/large.jpg",
+    "source": "https://www.inaturalist.org/observations/17368684",
+    "author": "Georgina Jones",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "japanese-butterflyfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453789927/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/253438279",
+    "author": "Nicola Crockford",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "azurio-tuskfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733444193/large.jpg",
+    "source": "https://www.inaturalist.org/observations/399745460",
+    "author": "大澤風季 ohsawa_Fuki",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "red-naped-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/956266/large.jpg",
+    "source": "https://www.inaturalist.org/observations/760817",
+    "author": "harum.koh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cupid-wrasse": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/956223/large.jpg",
+    "source": "https://www.inaturalist.org/observations/760804",
+    "author": "harum.koh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "x-ray-tetra": {
+    "commons_title": "File:Pristella tetra1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pristella_tetra1.jpg",
+    "author": "Debivort",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "hockeystick-pencilfish": {
+    "commons_title": "File:Nannostomus eques 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nannostomus_eques_2.jpg",
+    "author": "Fajoe",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "chessboard-cichlid": {
+    "commons_title": "File:Dicrossus filamentosus 2.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Dicrossus_filamentosus_2.png",
+    "author": "Eduardo A Carvalho",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "penguin-tetra": {
+    "commons_title": "File:Penguin Tetra.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Penguin_Tetra.jpg",
+    "author": "Kkonstan",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "glowlight-tetra": {
+    "commons_title": "File:Tetra Glowlight cropped.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tetra_Glowlight_cropped.jpg",
+    "author": "gonzalovalenzuela; derivative work: Kyknos",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "pictus-catfish": {
+    "commons_title": "File:Pimelodus pictus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pimelodus_pictus.jpg",
+    "author": "Claire H.",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "black-phantom-tetra": {
+    "commons_title": "File:Black phantom tetra.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_phantom_tetra.jpg",
+    "author": "R.workoran",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "red-tailed-black-shark": {
+    "commons_title": "File:Epalzeorhynchos bicolor1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Epalzeorhynchos_bicolor1.jpg",
+    "author": "Astellar87",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "emerald-betta": {
+    "commons_title": "File:Betta smaragdina male1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Betta_smaragdina_male1.jpg",
+    "author": "R.J. Blach",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "reticulated-hillstream-loach": {
+    "commons_title": "File:Sewellia lineolata - Pracht-Flossensauger.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sewellia_lineolata_-_Pracht-Flossensauger.jpg",
+    "author": "5snake5",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "honey-sucker": {
+    "commons_title": "File:Chinese Algae Eater 4.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chinese_Algae_Eater_4.jpg",
+    "author": "Gourami Watcher",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "mekong-tigerfish": {
+    "commons_title": "File:Datnioides undecimradiatus (Roberts & Kottelat, 1994).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Datnioides_undecimradiatus_(Roberts_&_Kottelat,_1994).jpg",
+    "author": "BEDO (Thailand)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "naked-dragonfish": {
+    "commons_title": "File:Gymnodraco acuticeps Nagoyakou.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gymnodraco_acuticeps_Nagoyakou.jpg",
+    "author": "Totti",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "hansons-rockcod": {
+    "commons_title": "File:Trematomus hansoni by OpenCage.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Trematomus_hansoni_by_OpenCage.JPG",
+    "author": "OpenCage",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "royal-pleco": {
+    "commons_title": "File:Panaque nigrolineatus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Panaque_nigrolineatus.jpg",
+    "author": "Neale Monks",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "splash-tetra": {
+    "commons_title": "File:Copella arnoldi.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Copella_arnoldi.jpg",
+    "author": "Zikamoi",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "leaf-fish": {
+    "commons_title": "File:Blattfisch.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Blattfisch.JPG",
+    "author": "Juergen goevert",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "ornate-ctenopoma": {
+    "commons_title": "File:Microctenopoma ansorgii 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Microctenopoma_ansorgii_1.jpg",
+    "author": "Juan Carlos Palau Díaz",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "slender-lionhead-cichlid": {
+    "commons_title": "File:Steatocranus tinanti - Aqua Porte Dorée 07.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Steatocranus_tinanti_-_Aqua_Porte_Dorée_07.JPG",
+    "author": "Cedricguppy - Loury Cédric",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "lambchop-rasbora": {
+    "commons_title": "File:Trigonostigma espei 2023.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Trigonostigma_espei_2023.jpg",
+    "author": "AverageWalrus",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "least-rasbora": {
+    "commons_title": "File:Boraras uraphthalmoides Thai (cropped).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Boraras_uraphthalmoides_Thai_(cropped).jpg",
+    "author": "R.workoran",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "tiger-botia": {
+    "commons_title": "File:Lesser Katy Loach.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lesser_Katy_Loach.jpg",
+    "author": "Julian augustine alexander",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "spot-pangasius": {
+    "commons_title": "File:Pangasius larnaudii.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pangasius_larnaudii.jpg",
+    "author": "Jony Cooper",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

@@ -216,6 +216,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/36667304",
   },
+  "arabian-angelfish": {
+    author: "Jan Ebr &amp; Ivana Ebrová",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/151150908",
+  },
   "arapaima": {
     author: "T.Voekler",
     license: "CC BY-SA 3.0",
@@ -300,6 +306,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Laks_i_laksetrappa.JPG",
   },
+  "atlantic-warbonnet": {
+    author: "Libby Keatley",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/219077127",
+  },
   "atlantic-whitefish": {
     author: "Ian Manning",
     license: "CC BY 4.0",
@@ -341,6 +353,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Plecoglossus_altivelis_Totto.jpg",
+  },
+  "azurio-tuskfish": {
+    author: "大澤風季 ohsawa_Fuki",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/399745460",
   },
   "bala-shark": {
     author: "Martyn Drabik-Hamshare",
@@ -510,6 +528,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/202670530",
   },
+  "black-and-yellow-rockfish": {
+    author: "Nathan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/378540439",
+  },
   "black-crappie": {
     author: "Quinn",
     license: "CC BY 4.0",
@@ -521,6 +545,24 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Apteronotus_albifrons_Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_10_04_2016_1.jpg",
+  },
+  "black-headed-blenny": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/7706948",
+  },
+  "black-nosed-butterflyfish": {
+    author: "Zygy",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/159039008",
+  },
+  "black-phantom-tetra": {
+    author: "R.workoran",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Black_phantom_tetra.jpg",
   },
   "black-rockcod": {
     author: "Sarka Masova",
@@ -563,6 +605,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/317141630",
+  },
+  "blacksmith-chromis": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/135916193",
   },
   "blacktip-reef-shark": {
     author: "陳德範（Chen, De-Fan）",
@@ -684,6 +732,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/134478247",
   },
+  "bluethroat-wrasse": {
+    author: "Bruce Deagle",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/207132517",
+  },
   "blunthead-cichlid": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -743,6 +797,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/6968809",
+  },
+  "brazilian-creole-wrasse": {
+    author: "João D'Andretta",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/100311915",
   },
   "brazilian-damsel": {
     author: "Bárbara Verdinha",
@@ -821,6 +881,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/388587494",
+  },
+  "brown-wrasse": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/154460466",
   },
   "bruces-sea-star": {
     author: "Pablo",
@@ -983,6 +1049,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 2.0",
     license_url: "https://creativecommons.org/licenses/by-sa/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Japan_fish,_Sakuradai_(Sacura_margaritacea)_(15770306721).jpg",
+  },
+  "chessboard-cichlid": {
+    author: "Eduardo A Carvalho",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Dicrossus_filamentosus_2.png",
   },
   "chestnut-mystus": {
     author: "Utain Pummarin",
@@ -1200,6 +1272,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/381250774",
   },
+  "crown-butterflyfish": {
+    author: "Georgina Jones",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/17368684",
+  },
   "crown-of-thorns-starfish": {
     author: "Darren Obbard",
     license: "CC BY 4.0",
@@ -1223,6 +1301,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/98375462",
+  },
+  "cupid-wrasse": {
+    author: "harum.koh",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/760804",
   },
   "cushion-star": {
     author: "Paul Dufour",
@@ -1260,6 +1344,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814772",
   },
+  "devil-stinger": {
+    author: "Bernard DUPONT",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/96077078",
+  },
   "dianas-hogfish": {
     author: "Georgina Jones",
     license: "CC BY-SA 4.0",
@@ -1289,6 +1379,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Carpetshark.jpg",
+  },
+  "duckbill-catfish": {
+    author: "demianlescano",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/75116865",
   },
   "dumbo-octopus": {
     author: "NOAA Okeanos Explorer",
@@ -1398,6 +1494,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Labidochromis_caeruleus_(male).jpg",
   },
+  "elegant-blenny": {
+    author: "りなべる",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/363192809",
+  },
   "elephantnose-fish": {
     author: "NasserHalaweh",
     license: "CC BY-SA 4.0",
@@ -1409,6 +1511,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/289575857",
+  },
+  "emerald-betta": {
+    author: "R.J. Blach",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Betta_smaragdina_male1.jpg",
   },
   "emerald-rockcod": {
     author: "Zureks",
@@ -1511,6 +1619,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:FlyingGurnard.jpg",
+  },
+  "four-banded-butterflyfish": {
+    author: "Nicola Faulks",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/396160830",
   },
   "four-tentacled-hydromedusa": {
     author: "Leïla Brunner",
@@ -1626,6 +1740,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/67105607",
   },
+  "giant-kokopu": {
+    author: "Christopher Stephens",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/148086005",
+  },
   "giant-mudskipper": {
     author: "Mhlayson",
     license: "CC BY-SA 4.0",
@@ -1680,6 +1800,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg",
   },
+  "glowlight-tetra": {
+    author: "gonzalovalenzuela; derivative work: Kyknos",
+    license: "CC BY 2.0",
+    license_url: "https://creativecommons.org/licenses/by/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Tetra_Glowlight_cropped.jpg",
+  },
   "gold-edged-nudibranch": {
     author: "Luca Davenport-Thomas",
     license: "CC BY 4.0",
@@ -1697,6 +1823,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/51882258",
+  },
+  "golden-dorado": {
+    author: "R Vasconcellos",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/218482313",
   },
   "golden-hill-barb": {
     author: "Utain Pummarin",
@@ -1727,6 +1859,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/68423877",
+  },
+  "goldsinny-wrasse": {
+    author: "Libby Keatley",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/199832815",
   },
   "goldspotted-mudskipper": {
     author: "Ian Dugdale",
@@ -1788,6 +1926,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/139144536",
   },
+  "green-wrasse": {
+    author: "Donald Davesne",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/155380396",
+  },
   "greenbeak-parrotfish": {
     author: "bewambay",
     license: "CC BY 4.0",
@@ -1799,6 +1943,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Greenland_shark_profile.jpg",
+  },
+  "greenside-darter": {
+    author: "Turner Brockman",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/414022863",
   },
   "grey-reef-shark": {
     author: "Daniel Benák",
@@ -1818,6 +1968,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/231605752",
   },
+  "guinean-angelfish": {
+    author: "Rui Ribeiro",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/337123756",
+  },
   "gulf-saratoga": {
     author: "Ginkgo100",
     license: "CC BY-SA 3.0",
@@ -1836,6 +1992,24 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/101238460",
   },
+  "half-lined-cardinalfish": {
+    author: "Andra Waagmeester",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/388157410",
+  },
+  "halmahera-epaulette-shark": {
+    author: "Ben Costamagna",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/389526292",
+  },
+  "hansons-rockcod": {
+    author: "OpenCage",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Trematomus_hansoni_by_OpenCage.JPG",
+  },
   "harlequin-shrimp": {
     author: "Chad Ordelheide",
     license: "CC BY-SA 3.0",
@@ -1847,6 +2021,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_(Plectorhinchus_chaetodonoides)_(40815006613).jpg",
+  },
+  "harlequin-wrasse": {
+    author: "Rob Foster",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/198927102",
   },
   "hasselts-catfish": {
     author: "Utain Pummarin",
@@ -1878,11 +2058,35 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/201674547",
   },
+  "hockeystick-pencilfish": {
+    author: "Fajoe",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Nannostomus_eques_2.jpg",
+  },
+  "hogfish": {
+    author: "Matteo Cassella",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/37145957",
+  },
   "hombergs-tritonia": {
     author: "Heine Jensen",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/103119351",
+  },
+  "honey-sucker": {
+    author: "Gourami Watcher",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Chinese_Algae_Eater_4.jpg",
+  },
+  "honeycomb-cowfish": {
+    author: "Jay Brasher",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/91789856",
   },
   "hooded-nudibranch": {
     author: "Alex Heyman",
@@ -1980,6 +2184,12 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Potamon_fluviatile_A%C3%AFn_Draham.jpg",
   },
+  "jackknife-fish": {
+    author: "Matteo Cassella",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/37286869",
+  },
   "japanese-angelshark": {
     author: "RYO SATO",
     license: "CC BY-SA 2.0",
@@ -1997,6 +2207,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 2.0",
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Japanese_bullhead_shark_Suma_Aqualife_Park.jpg",
+  },
+  "japanese-butterflyfish": {
+    author: "Nicola Crockford",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/253438279",
   },
   "japanese-dark-sleeper": {
     author: "りなべる",
@@ -2124,6 +2340,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/32751227",
   },
+  "king-angelfish": {
+    author: "desertnaturalist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/63600001",
+  },
   "kissing-gourami": {
     author: "Igor Balashov",
     license: "CC BY 4.0",
@@ -2172,6 +2394,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Iron_River_NFH_lake_trout_6_March_2024.png",
   },
+  "lambchop-rasbora": {
+    author: "AverageWalrus",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Trigonostigma_espei_2023.jpg",
+  },
   "largetooth-sawfish": {
     author: "Peter Kyne, Charles Darwin University",
     license: "CC BY 3.0",
@@ -2184,6 +2412,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814716",
   },
+  "lavender-mbuna": {
+    author: "Michael K. Oliver, Ph.D.",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/4694958",
+  },
+  "leaf-fish": {
+    author: "Juergen goevert",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Blattfisch.JPG",
+  },
   "leaf-scorpionfish": {
     author: "Bernard DUPONT",
     license: "CC BY 4.0",
@@ -2195,6 +2435,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/279389471",
+  },
+  "least-rasbora": {
+    author: "R.workoran",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Boraras_uraphthalmoides_Thai_(cropped).jpg",
   },
   "lemon-shark": {
     author: "Albert kok",
@@ -2255,6 +2501,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Lion's_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_3.jpg",
+  },
+  "lobochilotes": {
+    author: "Zach Johnson",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/342634240",
   },
   "logperch": {
     author: "Dean Hester",
@@ -2328,6 +2580,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/139398027",
   },
+  "mado": {
+    author: "Tim",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/76187111",
+  },
   "magpie-morwong": {
     author: "Tim",
     license: "CC BY 4.0",
@@ -2369,6 +2627,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/194565451",
+  },
+  "maori-wrasse": {
+    author: "Tim",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/143350183",
   },
   "marbled-catfish": {
     author: "Carlos Otávio Gussoni",
@@ -2412,6 +2676,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/255796418",
   },
+  "masked-butterflyfish": {
+    author: "R Vasconcellos",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/321284200",
+  },
   "matamata": {
     author: "J. Patrick Fischer",
     license: "CC BY-SA 3.0",
@@ -2447,6 +2717,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Mekong_giant_catfish.jpg",
+  },
+  "mekong-tigerfish": {
+    author: "BEDO (Thailand)",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Datnioides_undecimradiatus_(Roberts_&_Kottelat,_1994).jpg",
   },
   "milky-hydromedusa": {
     author: "Leïla Brunner",
@@ -2508,6 +2784,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/188577",
   },
+  "mosaic-leatherjacket": {
+    author: "Kai Squires",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/37438294",
+  },
   "mottled-sculpin": {
     author: "Sam Turner",
     license: "CC BY 4.0",
@@ -2538,6 +2820,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Esox_masquinongy_(muskellunge)_1.jpg",
   },
+  "naked-dragonfish": {
+    author: "Totti",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Gymnodraco_acuticeps_Nagoyakou.jpg",
+  },
   "narwhal": {
     author: "steve b",
     license: "CC0",
@@ -2555,6 +2843,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/33814667",
+  },
+  "neon-goby": {
+    author: "Robert Webster",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/326909186",
   },
   "new-zealand-eagle-ray": {
     author: "Oscar Dove",
@@ -2688,6 +2982,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/20483646",
   },
+  "orange-clingfish": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/134405670",
+  },
   "orange-skunk-clownfish": {
     author: "Roger Rittmaster",
     license: "CC BY 4.0",
@@ -2712,11 +3012,29 @@ const PHOTO_CREDITS = {
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/107777946",
   },
+  "orchid-dottyback": {
+    author: "Jean-Paul Boerekamps",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/100491682",
+  },
   "ornate-bichir": {
     author: "Bloopityboop",
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Polypterus_ornatipinnis_VA_01.jpg",
+  },
+  "ornate-cowfish": {
+    author: "Christopher Mark",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/20907634",
+  },
+  "ornate-ctenopoma": {
+    author: "Juan Carlos Palau Díaz",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Microctenopoma_ansorgii_1.jpg",
   },
   "ornate-fin-eater": {
     author: "John P Friel",
@@ -2844,6 +3162,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/190076711",
   },
+  "penguin-tetra": {
+    author: "Kkonstan",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Penguin_Tetra.jpg",
+  },
   "pennant-coralfish": {
     author: "Gregor Bailar",
     license: "CC BY 4.0",
@@ -2856,11 +3180,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/14572961",
   },
+  "peppermint-basslet": {
+    author: "Dan Schofield",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/337705874",
+  },
   "picasso-triggerfish": {
     author: "Cricket Raspet",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/270653251",
+  },
+  "pictus-catfish": {
+    author: "Claire H.",
+    license: "CC BY-SA 2.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pimelodus_pictus.jpg",
   },
   "pike-cichlid": {
     author: "Whaldener Endo",
@@ -2885,6 +3221,18 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://www.inaturalist.org/observations/104514790",
+  },
+  "pirate-perch": {
+    author: "Dominic",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/371095570",
+  },
+  "pogge": {
+    author: "Klaus Kevin Kristensen",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/195315797",
   },
   "polar-cod": {
     author: "Totti",
@@ -2994,6 +3342,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/61806721",
   },
+  "purple-tang": {
+    author: "rochard",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/90825133",
+  },
   "pygmy-seahorse": {
     author: "Rickard Zerpe",
     license: "CC BY-SA 2.0",
@@ -3017,6 +3371,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/128407783",
+  },
+  "queen-parrotfish": {
+    author: "Jay Brasher",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/255011244",
   },
   "queen-triggerfish": {
     author: "Greg Grimes",
@@ -3048,6 +3408,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Doncella_%28Coris_julis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-17%2C_DD_69.jpg",
   },
+  "razor-surgeonfish": {
+    author: "Chris Kirby-Lambert",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/331109531",
+  },
   "red-bellied-piranha": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
@@ -3078,6 +3444,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/2.0",
     source: "https://commons.wikimedia.org/wiki/File:Chelidonichthys_kumu.jpg",
   },
+  "red-irish-lord": {
+    author: "Rachel Crane",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/250476539",
+  },
   "red-king-crab": {
     author: "Sasha Isachenko",
     license: "CC BY-SA 3.0",
@@ -3102,6 +3474,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Red_Moki_(Cheilodactylus_spectabilis).jpg",
   },
+  "red-mouthed-goby": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/4271186",
+  },
+  "red-naped-wrasse": {
+    author: "harum.koh",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/760817",
+  },
   "red-scorpionfish": {
     author: "Vicmicallef",
     license: "CC BY-SA 4.0",
@@ -3113,6 +3497,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     source: "https://commons.wikimedia.org/wiki/File:Pagrus_major_ioworld.jpg",
+  },
+  "red-shiner": {
+    author: "Tom Kennedy",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/104554936",
   },
   "red-sponge-nudibranch": {
     author: "Nathan",
@@ -3132,6 +3522,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/125784387",
   },
+  "red-tailed-black-shark": {
+    author: "Astellar87",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Epalzeorhynchos_bicolor1.jpg",
+  },
   "red-triplefin": {
     author: "Golfopolikayak",
     license: "CC BY 4.0",
@@ -3143,6 +3539,18 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/327216600",
+  },
+  "redbanded-perch": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/254980346",
+  },
+  "redfin-bully": {
+    author: "Oscar Dove",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/250720673",
   },
   "redhook-silver-dollar": {
     author: "Whaldener Endo",
@@ -3185,6 +3593,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/14874149",
+  },
+  "reticulated-hillstream-loach": {
+    author: "5snake5",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://commons.wikimedia.org/wiki/File:Sewellia_lineolata_-_Pracht-Flossensauger.jpg",
   },
   "ribbon-eel": {
     author: "Diego Delso",
@@ -3270,11 +3684,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/171602875",
   },
+  "royal-dottyback": {
+    author: "desertnaturalist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/162086486",
+  },
   "royal-gramma": {
     author: "H. Zell",
     license: "CC BY-SA 3.0",
     license_url: "https://creativecommons.org/licenses/by-sa/3.0",
     source: "https://commons.wikimedia.org/wiki/File:Gramma_loreto_01.jpg",
+  },
+  "royal-pleco": {
+    author: "Neale Monks",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Panaque_nigrolineatus.jpg",
   },
   "rusty-blenny": {
     author: "Yves Bas",
@@ -3311,6 +3737,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Arctoscopus_japonicus_Umigatari.png",
+  },
+  "sailfin-sculpin": {
+    author: "rlacroix",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/260655478",
   },
   "sakhalin-taimen": {
     author: "Totti",
@@ -3365,6 +3797,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/147186689",
+  },
+  "scalyfin-grunt": {
+    author: "Inacio Oliveira",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/255119226",
   },
   "scarlet-wrasse": {
     author: "Thomas Linley",
@@ -3437,6 +3875,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/184310973",
+  },
+  "senator-wrasse": {
+    author: "Niki Hubbard",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/64997601",
   },
   "sevengill-shark": {
     author: "Luca Davenport-Thomas",
@@ -3516,6 +3960,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/2.5",
     source: "https://commons.wikimedia.org/wiki/File:Datnioides_pulcher_by_OpenCage.jpg",
   },
+  "signal-goby": {
+    author: "desertnaturalist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/128267156",
+  },
   "silver-arowana": {
     author: "Matthew Inabinett",
     license: "CC BY 4.0",
@@ -3546,6 +3996,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/154953827",
   },
+  "slender-lionhead-cichlid": {
+    author: "Cedricguppy - Loury Cédric",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Steatocranus_tinanti_-_Aqua_Porte_Dorée_07.JPG",
+  },
+  "slender-roughy": {
+    author: "Luca Davenport-Thomas",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/264458918",
+  },
   "slender-spined-sea-star": {
     author: "Георгий Виноградов (Georgy Vinogradov)",
     license: "CC BY 4.0",
@@ -3563,6 +4025,24 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/70912604",
+  },
+  "small-mouthed-wrasse": {
+    author: "Libby Keatley",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/221783474",
+  },
+  "small-red-scorpionfish": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/3942632",
+  },
+  "small-triplefin-blenny": {
+    author: "Sarah Faulwetter",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/130614417",
   },
   "smalleye-stingray": {
     author: "Ewout Knoester",
@@ -3612,6 +4092,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/340162443",
   },
+  "snake-pipefish": {
+    author: "Tony Gilbert",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/416063310",
+  },
   "snakelocks-anemone": {
     author: "Yves Bas",
     license: "CC BY 4.0",
@@ -3630,11 +4116,23 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Oncorhynchus_nerka_2.jpg",
   },
+  "sohal-surgeonfish": {
+    author: "Andrew Deacon",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/190676760",
+  },
   "soldier-crab": {
     author: "Daniel Eisenhauer",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/319338735",
+  },
+  "solor-wrasse": {
+    author: "desertnaturalist",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/189876419",
   },
   "south-american-silver-croaker": {
     author: "Whaldener Endo",
@@ -3720,11 +4218,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/300883241",
   },
+  "sphinx-blenny": {
+    author: "Radu Teodoreanu",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/311216506",
+  },
   "spiky-sea-cucumber": {
     author: "Сергей Степин",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/393737787",
+  },
+  "spine-cheek-anemonefish": {
+    author: "Micha Baum",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/254936604",
   },
   "spiny-amphipod": {
     author: "Leïla Brunner",
@@ -3756,11 +4266,23 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/143461492",
   },
+  "splash-tetra": {
+    author: "Zikamoi",
+    license: "CC BY 3.0",
+    license_url: "https://creativecommons.org/licenses/by/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Copella_arnoldi.jpg",
+  },
   "sponge-crab": {
     author: "Julien Renoult",
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/31873557",
+  },
+  "spot-pangasius": {
+    author: "Jony Cooper",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pangasius_larnaudii.jpg",
   },
   "spottail-shiner": {
     author: "Quinn",
@@ -3821,6 +4343,12 @@ const PHOTO_CREDITS = {
     license: "CC0",
     license_url: "https://creativecommons.org/publicdomain/zero/1.0",
     source: "https://www.inaturalist.org/observations/123978316",
+  },
+  "spottedtail-morwong": {
+    author: "呂一起(Lyu yi-chi)",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/123541709",
   },
   "spotty": {
     author: "Thomas Linley",
@@ -3942,6 +4470,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Enypniastes_eximia_Puerto_Rico.jpg",
   },
+  "tadpole-fish": {
+    author: "Viktor V. Grøtan",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/7727483",
+  },
   "tailspot-bushfish": {
     author: "John P Friel",
     license: "CC BY 4.0",
@@ -4026,6 +4560,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/12795598",
   },
+  "tiger-botia": {
+    author: "Julian augustine alexander",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Lesser_Katy_Loach.jpg",
+  },
   "tiger-shovelnose-catfish": {
     author: "Lerdsuwa",
     license: "CC BY-SA 3.0",
@@ -4061,6 +4601,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/72994035",
+  },
+  "torrentfish": {
+    author: "Oscar Dove",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/250999235",
   },
   "tortoiseshell-limpet": {
     author: "Sue Carnahan",
@@ -4122,6 +4668,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/391013438",
   },
+  "twister": {
+    author: "Jacob Littlejohn",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/42940365",
+  },
+  "two-band-anemonefish": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/163717994",
+  },
   "two-banded-seabream": {
     author: "Donald Davesne",
     license: "CC BY 4.0",
@@ -4139,6 +4697,12 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/388286559",
+  },
+  "two-spotted-goby": {
+    author: "Tony Gilbert",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/344850333",
   },
   "upside-down-catfish": {
     author: "Igor Balashov",
@@ -4200,6 +4764,12 @@ const PHOTO_CREDITS = {
     license_url: "",
     source: "https://commons.wikimedia.org/wiki/File:Actinoscyphia_aurelia.jpg",
   },
+  "vermiculate-angelfish": {
+    author: "Jean-Paul Boerekamps",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/142446419",
+  },
   "vermilion-biscuit-star": {
     author: "Bryce Watts-Parker",
     license: "CC BY 4.0",
@@ -4253,6 +4823,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Pez_sapo_payaso_(Antennarius_maculatus),_Anilao,_Filipinas,_2023-08-24,_DD_39.jpg",
+  },
+  "web-burrfish": {
+    author: "Matteo Cassella",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://www.inaturalist.org/observations/37102712",
   },
   "weedy-seadragon": {
     author: "Kai Squires",
@@ -4314,6 +4890,18 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/326931870",
   },
+  "whites-seahorse": {
+    author: "Daniel Eisenhauer",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/206238641",
+  },
+  "whitespotted-filefish": {
+    author: "Jean-Paul Boerekamps",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/78949549",
+  },
   "whitetip-reef-shark": {
     author: "Peter Nathaniel Boyer",
     license: "CC BY 4.0",
@@ -4355,6 +4943,18 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/145037559",
+  },
+  "x-ray-tetra": {
+    author: "Debivort",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    source: "https://commons.wikimedia.org/wiki/File:Pristella_tetra1.jpg",
+  },
+  "yellow-and-black-triplefin": {
+    author: "Debra Baker",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/106215973",
   },
   "yellow-blocked-nudibranch": {
     author: "Ewout Knoester",
@@ -5211,4 +5811,104 @@ const PHOTO_ORDER = [
   "beardless-barb",
   "golden-scale-worm",
   "golden-trahira",
+  "blacksmith-chromis",
+  "harlequin-wrasse",
+  "honeycomb-cowfish",
+  "neon-goby",
+  "jackknife-fish",
+  "whitespotted-filefish",
+  "web-burrfish",
+  "goldsinny-wrasse",
+  "small-mouthed-wrasse",
+  "pogge",
+  "atlantic-warbonnet",
+  "snake-pipefish",
+  "sphinx-blenny",
+  "masked-butterflyfish",
+  "two-band-anemonefish",
+  "sohal-surgeonfish",
+  "vermiculate-angelfish",
+  "solor-wrasse",
+  "mado",
+  "ornate-cowfish",
+  "red-shiner",
+  "pirate-perch",
+  "half-lined-cardinalfish",
+  "twister",
+  "orange-clingfish",
+  "torrentfish",
+  "black-and-yellow-rockfish",
+  "red-irish-lord",
+  "sailfin-sculpin",
+  "king-angelfish",
+  "black-nosed-butterflyfish",
+  "razor-surgeonfish",
+  "queen-parrotfish",
+  "hogfish",
+  "peppermint-basslet",
+  "two-spotted-goby",
+  "tadpole-fish",
+  "brown-wrasse",
+  "green-wrasse",
+  "small-red-scorpionfish",
+  "black-headed-blenny",
+  "red-mouthed-goby",
+  "scalyfin-grunt",
+  "arabian-angelfish",
+  "orchid-dottyback",
+  "halmahera-epaulette-shark",
+  "signal-goby",
+  "royal-dottyback",
+  "spine-cheek-anemonefish",
+  "devil-stinger",
+  "bluethroat-wrasse",
+  "maori-wrasse",
+  "senator-wrasse",
+  "whites-seahorse",
+  "mosaic-leatherjacket",
+  "greenside-darter",
+  "spottedtail-morwong",
+  "elegant-blenny",
+  "yellow-and-black-triplefin",
+  "redbanded-perch",
+  "giant-kokopu",
+  "redfin-bully",
+  "slender-roughy",
+  "duckbill-catfish",
+  "small-triplefin-blenny",
+  "purple-tang",
+  "golden-dorado",
+  "guinean-angelfish",
+  "four-banded-butterflyfish",
+  "brazilian-creole-wrasse",
+  "lavender-mbuna",
+  "lobochilotes",
+  "crown-butterflyfish",
+  "japanese-butterflyfish",
+  "azurio-tuskfish",
+  "red-naped-wrasse",
+  "cupid-wrasse",
+  "x-ray-tetra",
+  "hockeystick-pencilfish",
+  "chessboard-cichlid",
+  "penguin-tetra",
+  "glowlight-tetra",
+  "pictus-catfish",
+  "black-phantom-tetra",
+  "red-tailed-black-shark",
+  "emerald-betta",
+  "reticulated-hillstream-loach",
+  "honey-sucker",
+  "mekong-tigerfish",
+  "naked-dragonfish",
+  "hansons-rockcod",
+  "royal-pleco",
+  "splash-tetra",
+  "leaf-fish",
+  "ornate-ctenopoma",
+  "slender-lionhead-cichlid",
+  "lambchop-rasbora",
+  "least-rasbora",
+  "tiger-botia",
+  "spot-pangasius",
 ];

@@ -31,7 +31,7 @@ const WHALE_NAME = /whale|dolphin|porpoise|orca|narwhal/i;
 
 /* Names that lie: the bala shark is a carp with a dorsal fin and good PR, and
  * the horseshoe crab is closer to a spider than to anything in crab mode. */
-const NOT_SHARKS = new Set(['bala-shark']);
+const NOT_SHARKS = new Set(['bala-shark', 'red-tailed-black-shark']);
 const NOT_CRABS = new Set(['horseshoe-crab']);
 const NOT_WHALES = new Set([]);
 
@@ -236,6 +236,11 @@ const WEIRD = new Set([
   'sea-pansy', 'hairy-seaweed-crab',
   'manacled-sculpin',
   'shag-rug-nudibranch', 'golden-scale-worm',
+  'harlequin-wrasse', 'honeycomb-cowfish', 'jackknife-fish', 'pogge',
+  'atlantic-warbonnet', 'ornate-cowfish', 'sailfin-sculpin',
+  'halmahera-epaulette-shark', 'signal-goby', 'devil-stinger',
+  'hockeystick-pencilfish', 'reticulated-hillstream-loach', 'royal-pleco',
+  'leaf-fish',
 ]);
 
 const isWeird = (fish) => WEIRD.has(fish.id);
@@ -324,6 +329,15 @@ const FRESHWATER = new Set([
   'striped-julie', 'stonecat',
   'spotted-gar', 'tucuxi-dolphin', 'elongate-lamprologus',
   'african-spottail-tetra',
+  'red-shiner', 'pirate-perch', 'torrentfish', 'greenside-darter',
+  'giant-kokopu', 'redfin-bully', 'duckbill-catfish', 'golden-dorado',
+  'lavender-mbuna', 'lobochilotes', 'x-ray-tetra', 'hockeystick-pencilfish',
+  'chessboard-cichlid', 'penguin-tetra', 'glowlight-tetra', 'pictus-catfish',
+  'black-phantom-tetra', 'red-tailed-black-shark', 'emerald-betta',
+  'reticulated-hillstream-loach', 'honey-sucker', 'mekong-tigerfish',
+  'royal-pleco', 'splash-tetra', 'leaf-fish', 'ornate-ctenopoma',
+  'slender-lionhead-cichlid', 'lambchop-rasbora', 'least-rasbora',
+  'tiger-botia', 'spot-pangasius',
 ]);
 
 const isFresh = (fish) => FRESHWATER.has(fish.id);
