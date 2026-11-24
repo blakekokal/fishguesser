@@ -3,7 +3,7 @@
 A GeoGuessr-style guessing game for sea life. You get a photograph of an animal
 and its name; you decide which of sixteen regions of the world it comes from.
 
-- **843 species** — mostly bony fish, plus twenty-eight sharks, thirteen rays, a
+- **837 species** — mostly bony fish, plus twenty-eight sharks, thirteen rays, a
   sawfish, a lamprey and two chimaeras, and two hundred and thirty-three that are not fish
   at all: thirty-eight crabs, seventeen whales, dolphins and porpoises, ten
   octopuses, three cuttlefish, five squid, a nautilus, two clams, a pen shell and two scallops, ten sea
@@ -19,7 +19,7 @@ and its name; you decide which of sixteen regions of the world it comes from.
   memorised; the South Atlantic is new and still filling up. The header counts the collection straight from the data, so it
   never goes stale
 - **5 rounds per game**, dealt so that every species comes up once before any
-  of them comes up twice — a full pass takes 169 games, and it survives a
+  of them comes up twice — a full pass takes 168 games, and it survives a
   refresh
 - **A top bar** — the brand on the left, four tiles in the middle (round,
   score, hints and best) and three menus on the right: **Mode**, **Filter** and
@@ -161,7 +161,7 @@ offers the two things a static page honestly can:
   are unioned and the best score is the higher of the two, so pasting an old
   code can never cost you progress, and a code carrying a name gives an unnamed
   browser that name back. Ids travel as five-character hashes, which keeps a
-  full 843-fish save near 2 KB and lets a restore match whatever species the
+  full 837-fish save near 2 KB and lets a restore match whatever species the
   game holds now — anything it no longer knows is dropped and counted in the
   message.
 
@@ -170,7 +170,7 @@ and it only carries the two numbers above.
 
 ## Photo check
 
-`photos.html` steps through all 843 photographs one at a time, in the same
+`photos.html` steps through all 837 photographs one at a time, in the same
 letterboxed frame the game uses, so a picture can be judged as a player would
 meet it: is that a whole fish, is it alive, is it recognisable? Nothing is
 named — what is in the collection is the game's other secret — so `R` (or the
@@ -237,7 +237,7 @@ photos.html             the photo check: every picture, answers hidden
 styles.css              deep-water theme
 src/version.js          version + build date shown in the header
 src/regions.js          the 16 regions, their map seeds + haversine distance
-src/fish.js             the 843 species (name, photo URL, home region, fact)
+src/fish.js             the 837 species (name, photo URL, home region, fact)
 src/added.js            generated: the order they were added in, oldest first
 src/spoilers.js         place names, dotted out while a fact is a hint
 src/kinds.js            what counts as a fish, a crab, a shark for the filter
@@ -324,15 +324,15 @@ picture is any good, so look at it.
 
 Regions do not need equal numbers of fish, and they do not have them. Pick the
 best species and the best photograph for each region and let the counts fall
-where they fall: the Southern Ocean has forty-two and the Arctic thirty-nine, where
+where they fall: the Southern Ocean has forty-one and the Arctic thirty-nine, where
 the Coral Triangle and the North Pacific have sixty-one, and the South Atlantic, split off from the
-Congo Basin so the river and the ocean are separate answers, has forty-three so
+Congo Basin so the river and the ocean are separate answers, has forty-one so
 far. Scoring is by distance and the map sections are
 computed from region centres, so nothing in the game depends on the counts
 matching.
 
 Rounds per game are set by `ROUNDS` at the top of `src/game.js`. It is 5, so a
-game samples 5 of the 843 species; raise it for a longer game that shows more
+game samples 5 of the 837 species; raise it for a longer game that shows more
 of the collection.
 
 ## Map data

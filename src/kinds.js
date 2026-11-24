@@ -334,7 +334,7 @@ const FRESHWATER = new Set([
   'lavender-mbuna', 'lobochilotes', 'x-ray-tetra', 'hockeystick-pencilfish',
   'chessboard-cichlid', 'penguin-tetra', 'glowlight-tetra', 'pictus-catfish',
   'black-phantom-tetra', 'red-tailed-black-shark', 'emerald-betta',
-  'reticulated-hillstream-loach', 'honey-sucker', 'mekong-tigerfish',
+  'reticulated-hillstream-loach', 'mekong-tigerfish',
   'royal-pleco', 'splash-tetra', 'leaf-fish', 'ornate-ctenopoma',
   'slender-lionhead-cichlid', 'lambchop-rasbora', 'least-rasbora',
   'tiger-botia', 'spot-pangasius',

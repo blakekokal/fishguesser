@@ -5372,11 +5372,11 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "mado": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124605731/large.png",
-    "source": "https://www.inaturalist.org/observations/76187111",
-    "author": "Tim",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/467518494/large.jpg",
+    "source": "https://www.inaturalist.org/observations/260343481",
+    "author": "James K. Douch",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "ornate-cowfish": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32265365/large.jpg",
@@ -5398,13 +5398,6 @@
     "author": "Dominic",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
-  },
-  "half-lined-cardinalfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/710861429/large.jpg",
-    "source": "https://www.inaturalist.org/observations/388157410",
-    "author": "Andra Waagmeester",
-    "license": "CC0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
   },
   "twister": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68184501/large.jpeg",
@@ -5539,13 +5532,6 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
-  "scalyfin-grunt": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457121567/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/255119226",
-    "author": "Inacio Oliveira",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
-  },
   "arabian-angelfish": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260752039/large.jpg",
     "source": "https://www.inaturalist.org/observations/151150908",
@@ -5596,16 +5582,16 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "bluethroat-wrasse": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366351743/large.jpg",
-    "source": "https://www.inaturalist.org/observations/207132517",
-    "author": "Bruce Deagle",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471986273/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/262796774",
+    "author": "ttsquid",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "maori-wrasse": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245831107/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/143350183",
-    "author": "Tim",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62218576/large.jpg",
+    "source": "https://www.inaturalist.org/observations/39233389",
+    "author": "Andrew Harvey",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -5645,9 +5631,9 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "elegant-blenny": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662949951/large.jpg",
-    "source": "https://www.inaturalist.org/observations/363192809",
-    "author": "りなべる",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311853074/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/179150407",
+    "author": "WATANABE Hitoshi 渡辺仁",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -5728,13 +5714,6 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
-  "brazilian-creole-wrasse": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167403492/large.jpg",
-    "source": "https://www.inaturalist.org/observations/100311915",
-    "author": "João D'Andretta",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
-  },
   "lavender-mbuna": {
     "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5692318/large.jpg",
     "source": "https://www.inaturalist.org/observations/4694958",
@@ -5756,33 +5735,26 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
-  "japanese-butterflyfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453789927/large.jpeg",
-    "source": "https://www.inaturalist.org/observations/253438279",
-    "author": "Nicola Crockford",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0"
-  },
   "azurio-tuskfish": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733444193/large.jpg",
-    "source": "https://www.inaturalist.org/observations/399745460",
-    "author": "大澤風季 ohsawa_Fuki",
+    "commons_title": "File:Choerodon azurio adult.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Choerodon_azurio_adult.jpg",
+    "author": "Izuzuki",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "red-naped-wrasse": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/956266/large.jpg",
-    "source": "https://www.inaturalist.org/observations/760817",
-    "author": "harum.koh",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406510530/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/229040087",
+    "author": "呂一起(Lyu yi-chi)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "cupid-wrasse": {
-    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/956223/large.jpg",
-    "source": "https://www.inaturalist.org/observations/760804",
-    "author": "harum.koh",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460962700/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/257018174",
+    "author": "Nicola Crockford",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "x-ray-tetra": {
     "commons_title": "File:Pristella tetra1.jpg",
@@ -5854,13 +5826,6 @@
     "license": "CC0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
   },
-  "honey-sucker": {
-    "commons_title": "File:Chinese Algae Eater 4.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Chinese_Algae_Eater_4.jpg",
-    "author": "Gourami Watcher",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
-  },
   "mekong-tigerfish": {
     "commons_title": "File:Datnioides undecimradiatus (Roberts & Kottelat, 1994).jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Datnioides_undecimradiatus_(Roberts_&_Kottelat,_1994).jpg",
@@ -5868,19 +5833,12 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
-  "naked-dragonfish": {
-    "commons_title": "File:Gymnodraco acuticeps Nagoyakou.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Gymnodraco_acuticeps_Nagoyakou.jpg",
-    "author": "Totti",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
   "hansons-rockcod": {
-    "commons_title": "File:Trematomus hansoni by OpenCage.JPG",
-    "source": "https://commons.wikimedia.org/wiki/File:Trematomus_hansoni_by_OpenCage.JPG",
-    "author": "OpenCage",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585273667/large.jpg",
+    "source": "https://www.inaturalist.org/observations/323456786",
+    "author": "Rachel Crane",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "royal-pleco": {
     "commons_title": "File:Panaque nigrolineatus.jpg",
