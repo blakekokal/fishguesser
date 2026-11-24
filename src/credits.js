@@ -924,6 +924,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/113183821",
   },
+  "butterfly-blenny": {
+    author: "Julien Renoult",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/218754607",
+  },
   "cabezon": {
     author: "Chris Spain",
     license: "CC0",
@@ -1824,6 +1830,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/218482313",
   },
+  "golden-goby": {
+    author: "Sarah Faulwetter",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/166785274",
+  },
   "golden-hill-barb": {
     author: "Utain Pummarin",
     license: "CC BY 4.0",
@@ -1943,6 +1955,12 @@ const PHOTO_CREDITS = {
     license: "CC BY-SA 4.0",
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://www.inaturalist.org/observations/414022863",
+  },
+  "grey-parrotfish": {
+    author: "Nicola Crockford",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/353026166",
   },
   "grey-reef-shark": {
     author: "Daniel Benák",
@@ -4248,6 +4266,12 @@ const PHOTO_CREDITS = {
     license_url: "https://creativecommons.org/licenses/by-sa/4.0",
     source: "https://commons.wikimedia.org/wiki/File:Pangasius_larnaudii.jpg",
   },
+  "spot-tailed-doctorfish": {
+    author: "Jean-Paul Boerekamps",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/149320321",
+  },
   "spottail-shiner": {
     author: "Quinn",
     license: "CC BY 4.0",
@@ -4379,6 +4403,18 @@ const PHOTO_CREDITS = {
     license: "CC BY 4.0",
     license_url: "https://creativecommons.org/licenses/by/4.0",
     source: "https://www.inaturalist.org/observations/31250805",
+  },
+  "striped-anthias": {
+    author: "Jean-Paul Boerekamps",
+    license: "CC0",
+    license_url: "https://creativecommons.org/publicdomain/zero/1.0",
+    source: "https://www.inaturalist.org/observations/137618717",
+  },
+  "striped-bannerfish": {
+    author: "Tom Heijnen",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://www.inaturalist.org/observations/347075394",
   },
   "striped-blenny": {
     author: "Donald Davesne",
@@ -5869,4 +5905,10 @@ const PHOTO_ORDER = [
   "least-rasbora",
   "tiger-botia",
   "spot-pangasius",
+  "spot-tailed-doctorfish",
+  "grey-parrotfish",
+  "butterfly-blenny",
+  "golden-goby",
+  "striped-bannerfish",
+  "striped-anthias",
 ];

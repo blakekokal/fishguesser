@@ -2344,6 +2344,22 @@ const FISH = [
     region: 'mediterranean',
     fact: 'Only a few centimetres long, scarlet with a black tail, it perches on shaded rock. Its back fin is split into three, the mark of the triplefins.',
   },
+  {
+    id: 'butterfly-blenny',
+    name: 'Butterfly Blenny',
+    sciName: 'Blennius ocellaris',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/387118472/large.jpeg',
+    region: 'mediterranean',
+    fact: 'A blenny with a tall, sail-like back fin marked with a big black eyespot, and feathery tentacles above its eyes. It lives deeper than most blennies, on sand and rubble, and often hides inside empty shells or sea squirts.',
+  },
+  {
+    id: 'golden-goby',
+    name: 'Golden Goby',
+    sciName: 'Gobius auratus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/288852853/large.jpeg',
+    region: 'mediterranean',
+    fact: 'A small goby of a startling lemon yellow, perched on rock walls and in cracks. It eats tiny crustaceans and is shy, flicking back into a hole when a diver comes too close.',
+  },
   // ---- Congo Basin ----
   {
     id: 'goliath-tigerfish',
@@ -3035,6 +3051,22 @@ const FISH = [
     region: 'south-atlantic',
     fact: 'A silvery butterflyfish crossed by four dark bands, one of them hiding the eye. It is found in rocky water and picks at small invertebrates on the bottom.',
   },
+  {
+    id: 'spot-tailed-doctorfish',
+    name: 'Spot-tailed Doctorfish',
+    sciName: 'Acanthurus monroviae',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/257283042/large.jpg',
+    region: 'south-atlantic',
+    fact: 'A big, dark surgeonfish with a bright orange-yellow patch around the scalpel-sharp spine at the base of its tail, a warning to anything that grabs it. It grazes algae off rocks in small groups and sometimes wanders up river mouths.',
+  },
+  {
+    id: 'grey-parrotfish',
+    name: 'Grey Parrotfish',
+    sciName: 'Sparisoma axillare',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/644180464/large.jpg',
+    region: 'south-atlantic',
+    fact: 'A parrotfish that scrapes algae off rock with a beak of fused teeth and grinds the rock it swallows into sand. Young fish and females are mottled grey-brown; the few big males that each one may become turn green and blue.',
+  },
   // ---- East Africa and the Indian Ocean ----
   {
     id: 'electric-yellow-cichlid',
@@ -3476,6 +3508,22 @@ const FISH = [
     image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/26378923/large.jpg',
     region: 'rift-lakes',
     fact: 'White with dark chevrons and a red patch on the back near the tail. It eats coral polyps and small invertebrates and usually travels in pairs.',
+  },
+  {
+    id: 'striped-bannerfish',
+    name: 'Striped Bannerfish',
+    sciName: 'Heniochus intermedius',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/632759694/large.jpg',
+    region: 'rift-lakes',
+    fact: 'A butterflyfish banded black and yellow, with a long white streamer trailing from its back fin. Pairs or small groups drift over the reef picking at plankton and small invertebrates.',
+  },
+  {
+    id: 'striped-anthias',
+    name: 'Striped Anthias',
+    sciName: 'Pseudanthias taeniatus',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/235074684/large.jpg',
+    region: 'rift-lakes',
+    fact: 'A small orange-red reef fish with a blue-white stripe along its belly. Big groups hover above coral picking plankton, a single male guarding a harem; if he dies, the largest female turns male.',
   },
   // ---- Coral Triangle ----
   {

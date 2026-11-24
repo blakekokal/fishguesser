@@ -240,7 +240,7 @@ const WEIRD = new Set([
   'atlantic-warbonnet', 'ornate-cowfish', 'sailfin-sculpin',
   'halmahera-epaulette-shark', 'signal-goby', 'devil-stinger',
   'hockeystick-pencilfish', 'reticulated-hillstream-loach', 'royal-pleco',
-  'leaf-fish',
+  'leaf-fish', 'butterfly-blenny',
 ]);
 
 const isWeird = (fish) => WEIRD.has(fish.id);

@@ -845,4 +845,10 @@ const ADDED_ORDER = [
   ['giant-kokopu', 1795538277],
   ['redfin-bully', 1795538277],
   ['slender-roughy', 1795538277],
+  ['butterfly-blenny', 1795548729],
+  ['golden-goby', 1795548729],
+  ['spot-tailed-doctorfish', 1795548729],
+  ['grey-parrotfish', 1795548729],
+  ['striped-bannerfish', 1795548729],
+  ['striped-anthias', 1795548729],
 ];

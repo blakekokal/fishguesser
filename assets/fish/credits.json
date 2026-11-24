@@ -5902,5 +5902,47 @@
     "author": "Jony Cooper",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "spot-tailed-doctorfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257283042/large.jpg",
+    "source": "https://www.inaturalist.org/observations/149320321",
+    "author": "Jean-Paul Boerekamps",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
+  },
+  "grey-parrotfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/644180464/large.jpg",
+    "source": "https://www.inaturalist.org/observations/353026166",
+    "author": "Nicola Crockford",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "butterfly-blenny": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387118472/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/218754607",
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "golden-goby": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288852853/large.jpeg",
+    "source": "https://www.inaturalist.org/observations/166785274",
+    "author": "Sarah Faulwetter",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "striped-bannerfish": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/632759694/large.jpg",
+    "source": "https://www.inaturalist.org/observations/347075394",
+    "author": "Tom Heijnen",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "striped-anthias": {
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235074684/large.jpg",
+    "source": "https://www.inaturalist.org/observations/137618717",
+    "author": "Jean-Paul Boerekamps",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0"
   }
 }
